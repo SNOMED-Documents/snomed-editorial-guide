@@ -1,0 +1,28 @@
+# Guidelines for Substance Hierarchy Grouper Concepts
+
+## Substance hierarchy grouper concepts
+
+In the SNOMED CT substance hierarchy there are a large number of grouper concepts. Currently groupers within the substances can be considered to be structural groupers, disposition groupers, or role based.
+
+The intent is to build the SNOMED CT substance hierarchy along structural or disposition groupers and use a HAS_DISPOSITION relationship to define grouper concepts in the substance hierarchy. Grouper concepts that do not reference structural or disposition properties of a substance should not be included within the substance hierarchy and existing role concepts are considered for relocation outside of the substance hierarchy.
+
+### Structure based Groupers
+
+Groupers that organize substances by their chemical structure are used as the main hierarchy for substances. Where substances are heterogeneous and do not have a single identifiable chemical structure such as those of biological origin it may be more appropriate to organize them by source.
+
+### Dispositions Groupers 
+
+In the context of substances, a disposition is “a behavior that a substance will exhibit or participate in, given the appropriate context.” This context-based definition of disposition would allow us to assign HAS-DISPOSITION values that are necessarily true, even though the substance does not exhibit the disposition in all contexts.
+
+### Role based Groupers
+
+Role based groupers are associated with a particular purpose or outcome. Roles are a function of the way the substance is formulated or presented and so may not be applicable to all products containing that substance, which may lead to incorrect classification of concepts using role groupers as attribute values. At this time, the existing Substance role groupers will remain in situ with no change. However, additional concepts of this type will not be created and requests for new instances will be rejected.
+
+  
+
+  * [Restructure of the top level substances hierarchy](Restructure-of-the-top-level-substances-hierarchy_174691410.html)
+  * [Substance Groupers Based on Structure](Substance-Groupers-Based-on-Structure_174691414.html)
+  * [Substance Groupers Based on Disposition](Substance-Groupers-Based-on-Disposition_174691436.html)
+  * [Substance Groupers Based on Both Structure and Disposition](Substance-Groupers-Based-on-Both-Structure-and-Disposition_174691440.html)
+  * [Concepts Representing a Substance or its Modifications](Concepts-Representing-a-Substance-or-its-Modifications_174691445.html)
+
