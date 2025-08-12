@@ -1,5 +1,7 @@
 # Observable Entity Defining Attributes
 
+Where the MRCM allows Pharmaceutical / biologic product (product) and its descendants as valid values for Observable entity (observable entity), the Pharmaceutical / biologic product (product) subhierarchy is not currently used for values with these attributes in the International Release except for 787859002 |Vaccine product (medicinal product)| and its descendants, which  _can_ be used as valid values for this attribute.
+
 ## Characterizes
 
 This attribute specifies the process which the property describes, and on which the property (of this observable) depends. The process can be very general (e.g. excretion).
@@ -39,7 +41,7 @@ This attribute is used to specify a body site or other location of the independe
 
 For example,
 
-  *     * 5310001000004108 |Histologic type of neoplasm of skin (observable entity)| has 718497002 | Inherent location (attribute)| of 39937001 |Skin structure (body structure)|
+  *     * DNA taxon of Mycobacterium from bronchial secretions (observable entity) has [ 718497002 | Inherent location (attribute)|](http://snomed.info/id/718497002 "718497002 | Inherent location \(attribute\) |") of bronchus
 
 ## Inheres in
 
@@ -64,7 +66,7 @@ This attribute is used to model devices associated with a procedure. This attrib
 
 ## Process acts on
 
-This attribute is used to describe that a process specifically acts on some entity, e.g. by transporting that entity in or out of the body, i.e. Rate of intake of protein.
+This attribute is used to describe that a process specifically acts on some entity, e.g. by transporting that entity in or out of the body, i.e. Rate of intake of protein, Rate of excretion of creatinine. 
 
 For example,
 
@@ -142,6 +144,9 @@ For example,
 
 This attribute is used to specify the scale of the result of an observation or a diagnostic test (i.e., quantitative, qualitative, semi-quantitative).
 
+  * When defining observable entities for the international release, the [ | Scale type (attribute)|](http://snomed.org/fictid# "\(eg:\)  | Scale type \(attribute\) |") will not be used. Extensions are permitted to add specific subtypes of observable entities that include the [ | Scale type (attribute)|](http://snomed.org/fictid# "\(eg:\)  | Scale type \(attribute\) |") , if desired.
+  * In instances where Observable entity content from SNOMED CT extensions that contain a SCALE TYPE relationship is promoted to the International release, the SCALE TYPE relationship will not be inactivated.
+
 ## Technique
 
 This attribute is used to specify the systematic method of an observation.
@@ -184,3 +189,4 @@ For example,
 
   
 
+There are examples on this page that do not have a concept ID. These examples are included for members who may be modeling observables within their extension.

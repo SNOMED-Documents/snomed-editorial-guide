@@ -15,12 +15,12 @@ Susceptibility observables should be modeled in accordance with the template spe
 
   
 
-  * [Body temperature](Body-temperature_174690616.html)
-  * [Mass vs Weight](Mass-vs-Weight_174690615.html)
-  * [Neoplasm Observables](Neoplasm-Observables_174690611.html)
-  * [Nutritional intake observable entities](Nutritional-intake-observable-entities_174690604.html)
-  * [Observable Entity and Microbiology Test Results](Observable-Entity-and-Microbiology-Test-Results_174690601.html)
-  * [Observable Entity Templates](Observable-Entity-Templates_174690610.html)
-  * [Relationship between Observable Entities and NPU codes](Relationship-between-Observable-Entities-and-NPU-codes_174690602.html)
-  * [Representing LOINC Terms with the SNOMED CT Observable Entity Model](Representing-LOINC-Terms-with-the-SNOMED-CT-Observable-Entity-Model_174690603.html)
+  * [Body temperature](Body-temperature_179931002.html)
+  * [Mass vs Weight](Mass-vs-Weight_179931001.html)
+  * [Neoplasm Observables](Neoplasm-Observables_179930997.html)
+  * [Nutritional intake observable entities](Nutritional-intake-observable-entities_179930990.html)
+  * [Observable Entity and Microbiology Test Results](Observable-Entity-and-Microbiology-Test-Results_179930987.html)
+  * [Observable Entity Templates](Observable-Entity-Templates_179930996.html)
+  * [Relationship between Observable Entities and NPU codes](Relationship-between-Observable-Entities-and-NPU-codes_179930988.html)
+  * [Representing LOINC Terms with the SNOMED CT Observable Entity Model](Representing-LOINC-Terms-with-the-SNOMED-CT-Observable-Entity-Model_179930989.html)
 

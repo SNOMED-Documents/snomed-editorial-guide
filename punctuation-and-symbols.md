@@ -35,11 +35,15 @@ For example,
     * Bowen's disease (disorder)
     * Meigs' syndrome (disorder)
 
+Existing eponymous descriptions with the possessive  _s_ , but no apostrophe, need not be inactivated, but newly added descriptions should either have no  _s_ , or else include the apostrophe.
+
 ## Prime symbol ( ' )
 
 In protein names, this character (represented by single quote character) is used to indicate the cleavage location on a substrate and to distinguish different subunits with the same notation.
 
 For example, 80222004 |5'-nucleotidase (substance)|
+
+The prime symbol and apostrophe may look the same, but each has its own Unicode representation. 
 
 ## Hyphen ( - )
 
@@ -66,6 +70,8 @@ For example,
   *     * 30549001 |Removal of suture (procedure)| has a synonym of ROS - removal of suture  
 
 [ 719977005 | Communication Activities of Daily Living (assessment scale)|](http://snomed.info/id/719977005 "719977005 | Communication Activities of Daily Living \(assessment scale\) |") has a synonym of CADL - Communication Activities of Daily Living
+
+The hyphen is represented by UTF-8 and can be entered directly by a standard keyboard. Although the hyphen may sometimes be referred to as a _dash_ , the _EN dash_ and _EM dash_ are not used in SNOMED CT. 
 
 ## Colon ( : )
 
@@ -139,6 +145,8 @@ For example,
 
 A pair of caret symbols is used to enclose character strings that should display as superscript.
 
+Current guidance for substance and product hierarchies is to not create new instances containing symbols for superscript and subscript.
+
 The single caret is used to represent exponents, i.e._powers of,_ in alignment with the Unified Code for Units of Measure (UCUM) guidance on the use of powers of ten.
 
 For example,
@@ -175,3 +183,5 @@ For example,
   *     * _FD &C Yellow #2_ should be _FD and C Yellow Number Two_
 
 The characters &, %, and # are permitted in preferred terms or synonyms.
+
+The characters @ and $ are not used in any descriptions.

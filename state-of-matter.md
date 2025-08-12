@@ -8,36 +8,22 @@
 
 ## Modeling
 
-Parent concept| 736471007 |State of matter (state of matter)|  
----|---  
-Semantic tag| (state of matter)  
-Definition status| Primitive  
-Attributes| None  
-  
+| Parent concept | 736471007 \|State of matter (state of matter)\| |
+|---|---|
+| Semantic tag | (state of matter) |
+| Definition status | Primitive |
+| Attributes | None |
+
 ## Naming
 
-**FSN**|  Use the following pattern for the FSN where X is the state of matter:X (state of matter)For example,
+| FSN | Gas (state of matter) Liquid (state of matter) Semi-solid (state of matter) Solid (state of matter) Use the following pattern for the FSN where X is the state of matter: X(state of matter) For example, |
+|---|---|
+| Preferred Term | Gas Liquid Semi-solid Solid Use the following pattern for the PT where X is the state of matter: X For example, |
+| Synonyms | Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines. |
+| Text Definitions | Preferred; not required. |
 
-  *     *       * Gas (state of matter)
-      * Liquid (state of matter)
-      * Semi-solid (state of matter)
-      * Solid (state of matter)
-
-  
----|---  
-**Preferred Term**|  Use the following pattern for the PT where X is the state of matter:XFor example,
-
-  *     *       * Gas
-      * Liquid
-      * Semi-solid
-      * Solid
-
-  
-**Synonyms**|  Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines.  
-**Text Definitions**|  Preferred; not required.  
-  
 ## Exemplar
 
 The following illustrates the ****stated**** and****inferred**** view for 736679003 |Liquid (state of matter)|:
 
-<figure><img src="images/174691147.png" alt="" title=""></figure>
+<figure><img src="images/179931532.png" alt="" title=""></figure>

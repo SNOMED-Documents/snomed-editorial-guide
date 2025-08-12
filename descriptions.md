@@ -14,23 +14,23 @@ Every concept may have only one preferred term in a specific dialect. Two prefer
 
 For example,
 
-[ 22490002 | Bleeding of mouth (disorder)|](http://snomed.info/id/22490002 "22490002 | Bleeding of mouth \(disorder\) |")  
----  
-Description type| Description  
-FSN| Bleeding of mouth (disorder)  
-PT| Bleeding of mouth  
-SYN| Bleeding in mouth  
-SYN - US English| Oral hemorrhage  
-SYN - GB English| Oral haemorrhage  
-SYN| Stomatorrhagia  
-[ 241563001 | Computed tomography of upper limb (procedure)|](http://snomed.info/id/241563001 "241563001 | Computed tomography of upper limb \(procedure\) |")  
-Description type| Description  
-FSN| Computed tomography of upper limb (procedure)  
-PT| CT of upper limb  
-SYN| Computed tomography of upper limb  
-[ 32849002 | Esophageal structure (body structure)|](http://snomed.info/id/32849002 "32849002 | Esophageal structure \(body structure\) |") |   
-  
-Description type| Description  
-FSN| Esophageal structure (body structure)  
-PT - US English| Esophageal structure  
-PT - GB English| Oesophageal structure
+| 22490002 \| Bleeding of mouth (disorder) \| |   |
+|---|---|
+| Description type | Description |
+| FSN | Bleeding of mouth (disorder) |
+| PT | Bleeding of mouth |
+| SYN | Bleeding in mouth |
+| SYN - US English | Oral hemorrhage |
+| SYN - GB English | Oral haemorrhage |
+| SYN | Stomatorrhagia |
+| 241563001 \| Computed tomography of upper limb (procedure) \| |   |
+| Description type | Description |
+| FSN | Computed tomography of upper limb (procedure) |
+| PT | CT of upper limb |
+| SYN | Computed tomography of upper limb |
+| 32849002 \| Esophageal structure (body structure) \| |   |
+| Description type | Description |
+| FSN | Esophageal structure (body structure) |
+| PT - US English | Esophageal structure |
+| PT - GB English | Oesophageal structure |
+

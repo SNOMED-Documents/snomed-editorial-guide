@@ -1,14 +1,11 @@
 # Specimen
 
-Definition| Examples  
----|---  
-Entities that are obtained (usually from patients) for examination or analysis| 
 
-  * [ 384744003 | Lymph node from sentinel lymph node dissection and axillary dissection (specimen)|](http://snomed.info/id/384744003 "384744003 | Lymph node from sentinel lymph node dissection and axillary dissection \(specimen\) |")
-  * [ 122880004 | Urine specimen obtained by clean catch procedure (specimen)|](http://snomed.info/id/122880004 "122880004 | Urine specimen obtained by clean catch procedure \(specimen\) |")
 
-  
-  
+| Definition | Examples |
+|---|---|
+| Entities that are obtained (usually from patients) for examination or analysis | 384744003 \| Lymph node from sentinel lymph node dissection and axillary dissection (specimen) \| 122880004 \| Urine specimen obtained by clean catch procedure (specimen) \| |
+
 Specimen concepts can be defined by attributes which specify the:
 
   * Normal or abnormal body structure from which they are obtained
@@ -21,6 +18,8 @@ Specimen concepts can be defined by attributes which specify the:
 The Fully Specified Name for Specimen concepts should include the term _specimen,_ not _sample_. This also applies to descriptions in other hierarchies in addition to the Specimen hierarchy. 
 
 Because of the differentiation between specimen and sample in some domains (e.g. biobanking), an additional description using the word _sample_ should not be added to the specimen concept.
+
+Legacy concepts exist in SNOMED CT that contain both _specimen_ and _sample_ in descriptions. Those are being retained for historical purposes.
 
 ## Combined specimens and pooled specimens
 

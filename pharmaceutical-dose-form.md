@@ -26,45 +26,35 @@ Concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy:
   * Concepts in pattern "x for y for z" (e.g. Powder for concentrate for dispersion for infusion)
   * Concepts representing proprietary dose forms
 
+Concepts that are not allowed to be used in modeling Medicinal product concepts in the International Release may be added to the Pharmaceutical dose form hierarchy to support national extension modeling.
+
+For example,
+
+  *     * 420378007 |Prolonged-release film-coated oral tablet (dose form)|)
+
 ## Overview
 
 The 736542009 |Pharmaceutical dose form (dose form)| hierarchy is comprised of the types of concepts as shown in the table below. Detailed editorial guidelines for each distinct concept type, including required attributes and naming guidelines, are found in the sections that follow.
 
 For the purposes of the following editorial guidelines, pharmaceutical dose form refers to the physical manifestation of a medicinal product that contains the active ingredient substance(s) and inactive ingredient substances that are intended for administration for the patient.
 
-**Concept type**| **Examples**  
----|---  
-**Grouper based on intended site**| 
+| Concept type | Examples |
+|---|---|
+| Grouper based on intended site | 740596000 \|Cutaneous dose form (dose form)\| 385268001 \|Oral dose form (dose form)\| |
+| Grouper concept without basic dose form | 385105007 \|Conventional release cutaneous spray (dose form) \| 385136004 \|Conventional release ear drops (dose form)\| |
+| Pharmaceutical dose form | 385151008 \|Conventional release nasal ointment (dose form) \| 421026006 \|Conventional release oral tablet (dose form)\| 385053008 \|Prolonged-release oral capsule (dose form)\| |
 
-  * 740596000 |Cutaneous dose form (dose form)|
-  * 385268001 |Oral dose form (dose form)|
-
-  
-**Grouper concept without basic dose form**| 
-
-  * 385105007 |Conventional release cutaneous spray (dose form) |
-  * 385136004 |Conventional release ear drops (dose form)|
-
-  
-**Pharmaceutical dose form**| 
-
-  * 385151008 |Conventional release nasal ointment (dose form) |
-  * 421026006 |Conventional release oral tablet (dose form)|
-  * 385053008 |Prolonged-release oral capsule (dose form)|
-
-  
-  
 ## Dose form intended site vs. Route of administration
 
 The following definitions explain the differences between dose form intended site and route of administration:
 
 736474004 |Has dose form intended site (attribute)|
 
-  * Dose form intended site describes the general anatomic location that the dose form has been formulated for administration to or at. The intended site is not intended to describe a precise site or route of administration. For example, eye drops (prepared for ocular intended site) are subject to pharmacopoeial standards for pH and sterility.
+  * Dose form intended site describes the general anatomic location that the dose form has been formulated for administration to or at. The intended site is not intended to describe a precise site or route of administration. For example, eye drops (prepared for ocular intended site) are subject to pharmacopoeial standards for pH, and sterility.
 
 410675002 |Route of administration (attribute)|
 
-  * The route of administration is the path by which the product is taken into, or makes contact with, the body and is a property of the administration action. The route of administration of a medication is determined by the prescriber in their prescription dosage instructions for a particular patient.
+  * The route of administration is the path by which the product is taken into or makes contact with the body, and is a property of the administration action. The route of administration of a medication is determined by the prescriber in their prescription dosage instructions for a particular patient.
 
 736479009 |Dose form intended site (intended site)|
 
@@ -72,7 +62,7 @@ The following definitions explain the differences between dose form intended sit
 
 284009009 |Route of administration value (qualifier value)|
 
-  * The set of values for route of administration. For medicinal products, these values are associated with the action of administration.
+  * The set of values for route of administration. For medicinal products these values are associated with the action of administration.
 
 ## Multiple**** intended sites and administration methods
 
@@ -82,8 +72,8 @@ Pharmaceutical dose forms with two or more administration methods is a less comm
 
 **Table of Contents**
 
-  * [Pharmaceutical Dose Form Naming and Modeling Conventions](Pharmaceutical-Dose-Form-Naming-and-Modeling-Conventions_174691245.html)
-  * [Pharmaceutical Dose Form Grouper Based on Intended Site](Pharmaceutical-Dose-Form-Grouper-Based-on-Intended-Site_174691222.html)
-  * [Pharmaceutical Dose Form Grouper Without Basic Dose Form](Pharmaceutical-Dose-Form-Grouper-Without-Basic-Dose-Form_174691231.html)
-  * [Pharmaceutical Dose Form Supporting Hierarchies](Pharmaceutical-Dose-Form-Supporting-Hierarchies_174691145.html)
+  * [Pharmaceutical Dose Form Naming and Modeling Conventions](Pharmaceutical-Dose-Form-Naming-and-Modeling-Conventions_179931630.html)
+  * [Pharmaceutical Dose Form Grouper Based on Intended Site](Pharmaceutical-Dose-Form-Grouper-Based-on-Intended-Site_179931607.html)
+  * [Pharmaceutical Dose Form Grouper Without Basic Dose Form](Pharmaceutical-Dose-Form-Grouper-Without-Basic-Dose-Form_179931616.html)
+  * [Pharmaceutical Dose Form Supporting Hierarchies](Pharmaceutical-Dose-Form-Supporting-Hierarchies_179931530.html)
 

@@ -12,32 +12,15 @@ INN should be used for the Preferred Term where they exist.
 
 ## Modeling
 
-Parent concept| Most distal appropriate descendant of 115668003 |Biological substance (substance)|  
----|---  
-Semantic tag| (substance)  
-Definition status| Primitive  
-Attribute| |Has disposition| as appropriate  
-  
+| Parent concept | Most distal appropriate descendant of 115668003 \|Biological substance (substance)\| |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+| Attribute | \|Has disposition\| as appropriate |
+
 ## Naming
 
-FSN| Pattern:
-
-  * X fragment (substance)
-  * X subunit (substance)
-
-For example,
-
-  *     *       * Corticotropin, big fragment (substance)|
-      * Thyrotropin beta subunit (substance)
-
-  
----|---  
-Preferred Term| Pattern:
-
-  * X fragment
-
-For example,
-
-  *     *       * Corticotropin, big fragment
-      * Thyrotropin beta subunit
+| FSN | X fragment (substance) X subunit (substance) Pattern: For example, Corticotropin, big fragment (substance)\| Thyrotropin beta subunit (substance) |
+|---|---|
+| Preferred Term | X fragment Corticotropin, big fragment Pattern: For example, Thyrotropin beta subunit |
 

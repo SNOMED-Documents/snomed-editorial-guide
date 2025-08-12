@@ -14,6 +14,8 @@ For example,
 
   *     *       * Fine needle aspiration biopsy of skin (procedure) removes part of the body structure itself, and therefore is modeled using Procedure site - Direct (attribute) of Skin structure.
 
+If it is unknown whether the aspiration is removing either a _substance from within_ a body structure or the _body structure_ cells themselves, model with the broader Procedure site (attribute) and/or Procedure morphology (attribute).
+
 The nature of some aspirations means the procedure site will inherently be modeled as either direct or indirect regardless of whether the FSN states a substance is being removed.
 
 Example procedures using Procedure site - Direct (attribute):

@@ -8,3 +8,4 @@ Examples of modifications include:
     * Skyline projection (qualifier value)
     * Decubitus (qualifier value)
 
+Though these examples are qualifying values in  _SNOMED CT_ , they are not allowable for post-coordination of diagnostic imaging procedures.

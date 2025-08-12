@@ -13,50 +13,25 @@ Previously, SNOMED CT represented ions and electrolytes as separate concepts. Al
 
 ## Modeling 
 
-Parent concepts| Most distal appropriate descendant of 86355000 | Electrolyte (substance)|Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|  
----|---  
-Semantic tag| (substance)  
-Definition status| Primitive  
-Attribute| None  
-  
+| Parent concepts | Most distal appropriate descendant of 86355000 \| Electrolyte (substance)\| Most distal appropriate descendant of 312413002 \|Substance categorized structurally (substance)\| |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+| Attribute | None |
+
 ## Naming
 
-FSN| Pattern:
+| FSN | X ion (substance) Pattern: For example, Ferric ion (substance) |
+|---|---|
+| Preferred Term | X ion Ferric ion Pattern: For example, |
+| Synonyms | Ionised fluorine Ionized fluorine Fluoride electrolyte Where an element can exist with more than one level of oxidation, for example, iron can exist in either the ferric (Fe 3+ ) or ferrous (Fe 2+ ) ionization states, the synonyms "Ionised X" and "Ionized X" should not be added since they are ambiguous. Pattern:"Ionized X" and "X electrolyte"Add "Ionised X" as GB synonym. For example, |
 
-  * **X ion (substance)**   
-  
-
-For example,
-
-  *     *       * Ferric ion (substance)
-
-  
----|---  
-Preferred Term| Pattern:
-
-  * **X ion**
-
-For example,
-
-  *     *       * Ferric ion
-
-  
-Synonyms| Pattern:**"Ionized X" and "X electrolyte"**  
-**Add "Ionised X" as GB synonym.** For example,
-
-  *     *       * Ionised fluorine
-      * Ionized fluorine
-      * Fluoride electrolyte
-
-Where an element can exist with more than one level of oxidation, for example, iron can exist in either the ferric (Fe3+) or ferrous (Fe 2+) ionization states, the synonyms "Ionised X" and "Ionized X" should not be added since they are ambiguous.  
-  
-  
 ## Exemplar
 
 The following illustrates the **Stated** and**Inferred** view:
 
-<figure><img src="images/174691612.png" alt="" title=""><figcaption><p>The following illustrates the hierarchy view:</p></figcaption></figure>
+<figure><img src="images/179931996.png" alt="" title=""><figcaption><p>The following illustrates the hierarchy view:</p></figcaption></figure>
 
   
 
-<figure><img src="images/174691613.png" alt="" title=""></figure>
+<figure><img src="images/179931997.png" alt="" title=""></figure>

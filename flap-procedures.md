@@ -29,21 +29,21 @@ For example,
 
 #### Example 1: 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|
 
-<figure><img src="images/174691303.png" alt="" title=""><figcaption><p>Figure 1: Stated diagrammatic view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="images/179931688.png" alt="" title=""><figcaption><p>Figure 1: Stated diagrammatic view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
 
   
 
-<figure><img src="images/174691306.png" alt="" title=""><figcaption><p>Figure 2: Inferred browser view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="images/179931691.png" alt="" title=""><figcaption><p>Figure 2: Inferred browser view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
 
   
 
 #### Example 2: 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|
 
-<figure><img src="images/174691305.png" alt="" title=""><figcaption><p>Figure 3: Stated diagrammatic view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="images/179931690.png" alt="" title=""><figcaption><p>Figure 3: Stated diagrammatic view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
 
   
 
-<figure><img src="images/174691304.png" alt="" title=""><figcaption><p>Figure 4: Inferred browser view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="images/179931689.png" alt="" title=""><figcaption><p>Figure 4: Inferred browser view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
 
   
 
@@ -93,3 +93,4 @@ SYN: Breast reconstruction using pedicle transverse rectus abdominis myocutaneou
 
   
 
+Existing flap procedure concepts may not align with this new terming. No new ‘flap graft’ procedures should be added going forward.

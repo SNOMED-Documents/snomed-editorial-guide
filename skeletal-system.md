@@ -6,6 +6,8 @@ For example,
 
   *     * [77825002 |Division of cartilage of wrist (procedure)|](http://snomed.info/id/77825002) is a procedure on the skeletal system (procedure)
 
+SNOMED CT considers the  _skeletal system subdivision_ part of the entire bone (system). This may change if there are procedures on cartilaginous skeleton that involve skeletal system subdivisions.
+
 ## Osteotomy
 
 O _steotomy_ is defined as  _cutting into or through a bone_ ;__ there are 3 meanings in SNOMED CT:

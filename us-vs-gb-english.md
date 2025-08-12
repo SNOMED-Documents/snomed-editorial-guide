@@ -10,21 +10,22 @@ For example:
 
   
 
-  
-
-References for Spelling  
-  
-| References| Notes  
-US-GB differences| Wikipedia, the free encyclopedia**Note: Wikipedia may be used as a starting point, or source, for authoritative references, but not as an actual reference| 
-
-  * First point of reference
-  * Provides a summary for authors, addresses many US-GB spelling differences, and provides references
+Where an FSN represents the name of an organization or trademarked name, a synonym with variant GB or US spelling is not required.
 
   
-US Medical English| Stedman's Medical DictionaryMerriam-Webster Online DictionaryAmerican Medical Association (AMA) Manual of Style| NA  
-GB English| Dorland's Medical Dictionary - medical terminologyChambers 21st Century Dictionary - general| NA  
+
+| References for Spelling |   |   |
+|---|---|---|
+|   | References | Notes |
+| US-GB differences | Wikipedia, the free encyclopedia* *Note: Wikipedia may be used as a starting point, or source, for authoritative references, but not as an actual reference | First point of reference Provides a summary for authors, addresses many US-GB spelling differences, and provides references |
+| US Medical English | Stedman's Medical Dictionary Merriam-Webster Online Dictionary American Medical Association (AMA) Manual of Style | NA |
+| GB English | Dorland's Medical Dictionary - medical terminology Chambers 21st Century Dictionary - general | NA |
+
   
-  
+
+Oxford English Dictionary spelling is different from British English. A summary of the points of difference can be found at <http://en.wikipedia.org/wiki/Oxford_spelling_>. In those cases where British English and Oxford English Dictionary differ, SNOMED CT follows the British English spelling.
+
+The addition of an Oxford English Dictionary term is allowed but not required. When added, it should be marked as acceptable in the British English dialect. In some cases, it is also accepted or preferred in US English.
 
 ## Principles for selecting preferred spelling variants
 

@@ -22,7 +22,7 @@ The evaluation procedure hierarchy is currently classified under  _Procedure by 
           * Measurement procedure (procedure)
           * Physical examination assessment (procedure)
 
-<figure><img src="images/174691284.png" alt="" title=""><figcaption><p>Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value).</p></figcaption></figure>
+<figure><img src="images/179931669.png" alt="" title=""><figcaption><p>Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value).</p></figcaption></figure>
 
   
 
@@ -62,6 +62,8 @@ Acceptable example including reason for procedure,
 
   *     * [ 66596009 | Diagnostic radiography for foreign body detection and localization (procedure)|](http://snomed.info/id/66596009 "66596009 | Diagnostic radiography for foreign body detection and localization \(procedure\) |")
 
+Procedures with the word _study_ are unacceptable. They are ambiguous, as they imply context beyond the execution of the procedure.
+
 ## Primary vs secondary procedures
 
 The meaning of  _primary_ and  _secondary_ , when describing a procedure, is open to interpretation. Consequently, the concepts will be inactivated.
@@ -79,4 +81,11 @@ Examples of unacceptable descriptions,
     * Primary anterior excision of cervical intervertebral disc (procedure)
     * Primary arthrodesis of interphalangeal joint of toe (procedure) 
     * Primary anterolateral excision of thoracic intervertebral disc (procedure)
+
+"First" and “subsequent” procedures are not allowed, as they are inherently ambiguous and relative. While administratively relevant, the additional descriptions of the procedure are not clinically relevant. 
+
+Unacceptable examples,
+
+  *     * Antenatal first blood tests (procedure)
+    * Antenatal subsequent blood tests (procedure)
 

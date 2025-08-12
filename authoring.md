@@ -23,10 +23,14 @@ The steps are as follows:
 
 SNOMED CT contains content that does not conform to the current modeling patterns. A quality initiative is currently underway to correct these non-conforming concepts. 
 
+Exceptions exist where the current concept model is not expressive enough to represent critical defining characteristics of a concept that would allow for its sufficient definition.
+
+For example, disorders where the clinical manifestations are variably present (i.e. genetic diseases)
+
 ## Authoring information
 
-  * [Scope](Scope_174690285.html)
-  * [General Naming Conventions](General-Naming-Conventions_174691646.html)
-  * [General Modeling](General-Modeling_174691668.html)
-  * [Domain Specific Modeling](Domain-Specific-Modeling_174690289.html)
+  * [Scope](Scope_179930669.html)
+  * [General Naming Conventions](General-Naming-Conventions_179932030.html)
+  * [General Modeling](General-Modeling_179932052.html)
+  * [Domain Specific Modeling](Domain-Specific-Modeling_179930673.html)
 

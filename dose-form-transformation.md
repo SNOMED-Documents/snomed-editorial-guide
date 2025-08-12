@@ -8,51 +8,29 @@
 
 ## Modeling
 
-Parent concept| <<736477006 |Dose form transformation (transformation)|  
----|---  
-Semantic tag| (transformation)  
-Definition status| Primitive  
-Attributes| None  
-  
+| Parent concept | <<736477006 \|Dose form transformation (transformation)\| |
+|---|---|
+| Semantic tag | (transformation) |
+| Definition status | Primitive |
+| Attributes | None |
+
 ## Naming
 
-**FSN**|  Use the following pattern for the FSN where X is the transformation:
+| FSN | X (transformation) Dissolve (transformation) Disperse (transformation) No transformation (transformation) Disperse or dissolve (transformation) Use the following pattern for the FSN where X is the transformation: For example, |
+|---|---|
+| Preferred Term | X Dissolve Disperse No transformation Disperse or dissolve Use the following pattern for the PT where X is the transformation: For example, |
+| Synonyms | Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines. |
+| Text Definitions | Preferred; not required. |
 
-  * X (transformation)
-
-For example,
-
-  *     *       * Dissolve (transformation)
-      * Disperse (transformation)
-      * No transformation (transformation)
-      * Disperse or dissolve (transformation)
-
-  
----|---  
-**Preferred Term**|  Use the following pattern for the PT where X is the transformation:
-
-  * X
-
-For example,
-
-  *     *       * Dissolve
-      * Disperse
-      * No transformation
-      * Disperse or dissolve
-
-  
-**Synonyms**|  Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines.  
-**Text Definitions**|  Preferred; not required.  
-  
 ## Exemplars
 
 The following illustrates the ****stated**** and****inferred**** view for 761954006 |No transformation (transformation)|:
 
-<figure><img src="images/174691212.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 764779004 |Disperse or dissolve (transformation)|:</p></figcaption></figure>
+<figure><img src="images/179931597.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 764779004 |Disperse or dissolve (transformation)|:</p></figcaption></figure>
 
-<figure><img src="images/174691211.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 736854003 |Disperse (transformation)|:</p></figcaption></figure>
+<figure><img src="images/179931596.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 736854003 |Disperse (transformation)|:</p></figcaption></figure>
 
-<figure><img src="images/174691210.png" alt="" title=""></figure>
+<figure><img src="images/179931595.png" alt="" title=""></figure>
 
   
 

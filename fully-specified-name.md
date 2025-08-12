@@ -1,8 +1,13 @@
 # Fully Specified Name
 
-Fully specified name (FSN) definition  
-A term unique among active descriptions in SNOMED CT that provides the meaning of a concept in a manner that is intended to be unambiguous and stable across multiple contexts.  
-  
+
+
+| Fully specified name (FSN) definition |
+|---|
+| A term unique among active descriptions in SNOMED CT that provides the meaning of a concept in a manner that is intended to be unambiguous and stable across multiple contexts. |
+
+For information on acceptable precoordinated naming patterns, see the _[Pre-coordination Naming Patterns project](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project)._ New content should conform with the naming patterns; however, legacy content may not yet be updated.
+
 An FSN is one type of description, unique among active descriptions in SNOMED CT. It provides the meaning of a concept so that it is unambiguous, stable across multiple contexts, and optimally understandable to those whose first language is not English. Consequently, it is not always clinician-friendly or in common use. In the majority of cases, where the FSN is clinician-friendly and in common use, a description matching the FSN should be added to the concept. This description is not required to be the preferred term (PT). In certain instances, where the FSN does not provide a clinically useful description, a matching description without the semantic tag is unnecessary.
 
 For example,
@@ -36,6 +41,19 @@ An FSN should**** not have:
     * Precoordinated numeric ranges
     * Reference to a particular instance
     * Reason or indication for a procedure, unless this directly impacts the method
+
+Exceptions that should not be amended include:
+
+  * Trademark names
+  * Latin names of organism
+  * Scientific names
+
+When constructing the FSN for a disorder, finding, or procedure containing a body structure, the wording of the body structure should follow the naming convention of the body structure concept. However, it should not include the words  _structure_ or _structure of._
+
+For example, 
+
+  *     * For the body structure concept, [ 266005 | Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005 "266005 | Structure of lower lobe of right lung \(body structure\) |") , a procedure with this body structure is [ 726425007 | Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007 "726425007 | Lobectomy of lower lobe of right lung \(procedure\) |") .
+    * For the body structure concept, [ 74386004 | Nasal bone structure (body structure)|](http://snomed.info/id/74386004 "74386004 | Nasal bone structure \(body structure\) |") , a disorder concept with this body structure is [ 413878002 | Closed, displaced fracture of nasal bone (disorder)|](http://snomed.info/id/413878002 "413878002 | Closed, displaced fracture of nasal bone \(disorder\) |") .
 
 ## Unique
 
@@ -105,6 +123,8 @@ Concept 27215002 had an FSN of Uterine inversion (disorder). Editorial policy in
 
 The inactive concept, 156232008 |Inversion of uterus|, should be checked to ensure its inactivation reason is ‘Duplicate’ and the Association type ‘SAME_AS’ to the active concept 27215002 with the same FSN.
 
+For circumstances where a new concept duplicates an inactive concept with the same FSN, the inactive concept should be reactivated rather than adding a new concept.
+
 Some FSN changes are necessary for style consistency; again, changes are only acceptable if the meaning does not change. 
 
 They may include changing:
@@ -171,3 +191,4 @@ Before any changes are made to an FSN, imported directly with an extension (loca
   * Advise the submitter of changes and confirm that they are acceptable.
   * Check for existing concepts with the same FSN; the term may be added as a preferred term or synonym.
 
+Changes to existing SNOMED CT concepts do not necessitate notifying the original submitter.

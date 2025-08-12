@@ -16,13 +16,13 @@ For example,
 
 Below is [ 417163006 | Traumatic or non-traumatic injury (disorder)|](http://snomed.info/id/417163006 "417163006 | Traumatic or non-traumatic injury \(disorder\) |") in the _stated_ view with the GCIs appearing to the right of the concept:
 
-<figure><img src="images/174691746.png" alt="" title=""><figcaption><p>Here is the same concept in the <em>inferred</em> view without the GCIs appearing:</p></figcaption></figure>
+<figure><img src="images/179932130.png" alt="" title=""><figcaption><p>Here is the same concept in the <em>inferred</em> view without the GCIs appearing:</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/174691745.png" alt="" title=""></figure>
+<figure><img src="images/179932129.png" alt="" title=""></figure>
 
   
 
@@ -42,23 +42,25 @@ The diagram below shows Lumbarized first sacral vertebra (disorder) incorrectly 
 
   
 
-<figure><img src="images/174691743.png" alt="" title=""><figcaption><p>The GCI-modeled primitive concept, Transitional lumbosacral vertebra (disorder), is unnecessary to state as a parent. The diagram below shows correct modeling of Lumbarized first sacral vertebra (disorder) with the absence of Transitional lumbosacral vertebra (disorder) as a parent, and yet the inferred view diagram on the left is still the same as compared to the incorrectly modeled diagram above.</p></figcaption></figure>
+<figure><img src="images/179932127.png" alt="" title=""><figcaption><p>The GCI-modeled primitive concept, Transitional lumbosacral vertebra (disorder), is unnecessary to state as a parent. The diagram below shows correct modeling of Lumbarized first sacral vertebra (disorder) with the absence of Transitional lumbosacral vertebra (disorder) as a parent, and yet the inferred view diagram on the left is still the same as compared to the incorrectly modeled diagram above.</p></figcaption></figure>
 
   
 
-<figure><img src="images/174691742.png" alt="" title=""><figcaption><p>Alternatively, if a GCI-modeled parent will not subsume an appropriate child concept, then the GCI-modeled concept should be stated as a primitive supertype.</p></figcaption></figure>
-
-  
-
-  
+<figure><img src="images/179932126.png" alt="" title=""><figcaption><p>Alternatively, if a GCI-modeled parent will not subsume an appropriate child concept, then the GCI-modeled concept should be stated as a primitive supertype.</p></figcaption></figure>
 
   
 
   
 
-Finally, the example below of 82271004 |Injury of head (disorder)| illustrates a concept with a GCI-modeled supertype of 417163006 |Traumatic or non-traumatic injury (disorder)|. In this case, the concept Injury of head (disorder) is sufficiently defined.
+For example, 
 
-<figure><img src="images/174691739.png" alt="" title=""></figure>
+781076008 |Metastatic malignant neoplasm to colon and/or rectum (disorder)| must have the GCI-modeled parent concept of Malignant neoplasm of colon and/or rectum (disorder), also shown in salmon pink, stated as a primitive supertype, or else the concept would not be subsumed by Malignant neoplasm of colon and/or rectum (disorder). Because Metastatic malignant neoplasm to colon and/or rectum (disorder) is a disjunctive, it requires the GCI similar to its parent. However, its subtypes of Metastatic malignant neoplasm to colon (disorder) and Metastatic malignant neoplasm to rectum (disorder) do not require either GCI-modeled concept as a stated parent, because each will be subsumed appropriately with a stated parent of Disease (disorder). 
+
+<figure><img src="images/179932124.png" alt="" title=""><figcaption><p>Finally, the example below of 82271004 |Injury of head (disorder)| illustrates a concept with a GCI-modeled supertype of 417163006 |Traumatic or non-traumatic injury (disorder)|. In this case, the concept Injury of head (disorder) is sufficiently defined.</p></figcaption></figure>
+
+  
+
+<figure><img src="images/179932123.png" alt="" title=""></figure>
 
 # Defining GCI-modeled concepts
 

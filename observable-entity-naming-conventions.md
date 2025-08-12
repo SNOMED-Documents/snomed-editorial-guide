@@ -22,6 +22,8 @@ For example,
 
   
 
+Measurements done by screening should be specified with  _by screening method_ added at the end of the description.
+
   
 
 _Serology_ and _serologic test_ are ambiguous terms and should not be included in FSNs. These terms can be included in the descriptions for antibody observable or evaluation concepts but cannot be included in the preferred term. Existing content will be fixed in a future release.

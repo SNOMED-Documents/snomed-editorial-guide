@@ -8,54 +8,30 @@ Concepts specifying a particular physical form (e.g. micronized, macrocrystal, m
 
 ## Modeling - Micronized substance
 
-**Parent concept**|  Most distal appropriate descendant of 105590001 |Substance (substance)|An additional parent concept to be allocated to denote physical form as appropriate  
----|---  
-**Semantic tag**| (substance)  
-**Definition status**|  Primitive  
-**Attributes**|  738774007 |Is modification of (attribute)| relationship to the unspecified substance726542003 |Has disposition (attribute)| as appropriate  
-  
+| Parent concept | Most distal appropriate descendant of105590001\|Substance (substance)\| An additional parent concept to be allocated to denote physical form as appropriate |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+| Attributes | 738774007 \|Is modification of (attribute)\| relationship to the unspecified substance 726542003 \|Has disposition (attribute)\| as appropriate |
+
 ## Naming
 
 Fumes should be expressed in the plural (i.e. fumes as opposed to fume).
 
 Fumes and vapor are different and so should not be used as synonyms on the same concept. <https://www.commerce.wa.gov.au/worksafe/gases-vapours-smoke-and-fumes>
 
-**FSN**|  Pattern:
+| FSN | X fumes (substance) X micronized (substance) Pattern: For example, Bauxite fumes (substance) Fenofibrate micronized (substance) |
+|---|---|
+| Preferred Term | X fumes X micronized Bauxite fumes Fenofibrate micronized Pattern: For example, |
+| Synonyms | Fenofibrate micronised Pattern:X form to represent EN-GB language variants where appropriate For example, |
 
-  * X fumes (substance)
-  * X micronized (substance)
-
-For example,
-
-  *     *       * Bauxite fumes (substance)
-      * Fenofibrate micronized (substance)
-
-  
----|---  
-**Preferred Term**|  Pattern:
-
-  * X fumes
-  * X micronized
-
-For example,
-
-  *     *       * Bauxite fumes
-      * Fenofibrate micronized
-
-  
-**Synonyms**|  Pattern: X form to represent EN-GB language variants where appropriateFor example,
-
-  *     *       * Fenofibrate micronised
-
-  
-  
 ### Exemplar
 
-<figure><img src="images/174691588.png" alt="" title=""><figcaption><p>Figure: View of both stated and inferred form of 278945005 |Iron fumes (substance)|</p></figcaption></figure>
+<figure><img src="images/179931972.png" alt="" title=""><figcaption><p>Figure: View of both stated and inferred form of 278945005 |Iron fumes (substance)|</p></figcaption></figure>
 
   
 
-<figure><img src="images/174691587.png" alt="" title=""><figcaption><p>Figure: Stated view of 414246008 |Fenofibrate micronized (substance)|</p></figcaption></figure>
+<figure><img src="images/179931971.png" alt="" title=""><figcaption><p>Figure: Stated view of 414246008 |Fenofibrate micronized (substance)|</p></figcaption></figure>
 
   
 

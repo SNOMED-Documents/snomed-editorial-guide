@@ -36,7 +36,9 @@ For example,
       * PT: Fluoroscopy guided biopsy of abdomen
       * SYN: Biopsy of abdomen using fluoroscopic guidance
 
-(See also [Fluoroscopy and Fluoroscopic Imaging](Fluoroscopy-and-Fluoroscopic-Imaging_174691328.html))
+The term _fluoroscopic Y_ is interpreted as _Y using fluoroscopic guidance (procedure)_. Procedures such as [ 432540009 | Biopsy of wrist using fluoroscopic guidance (procedure)|](http://snomed.info/id/432540009 "432540009 | Biopsy of wrist using fluoroscopic guidance \(procedure\) |") are subtypes of Fluoroscopy (procedure).
+
+(See also [Fluoroscopy and Fluoroscopic Imaging](Fluoroscopy-and-Fluoroscopic-Imaging_179931713.html))
 
 ## Magnetic resonance imaging guided procedure
 

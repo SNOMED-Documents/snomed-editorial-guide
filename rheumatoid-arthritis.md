@@ -8,7 +8,7 @@ For example,
 
 201776007 |Rheumatoid arthritis of sacroiliac joint (disorder)|
 
-<figure><img src="images/174690543.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 201776007 |Rheumatoid arthritis of sacroiliac joint (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930929.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 201776007 |Rheumatoid arthritis of sacroiliac joint (disorder)|</p></figcaption></figure>
 
   
 
@@ -16,11 +16,13 @@ Example of extra-articular rheumatoid manifestation,
 
 28880005 |Rheumatoid arthritis with carditis (disorder)|
 
-<figure><img src="images/174690542.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 28880005 |Rheumatoid arthritis with carditis (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930928.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 28880005 |Rheumatoid arthritis with carditis (disorder)|</p></figcaption></figure>
 
   
 
   
+
+410795001 |Juvenile rheumatoid arthritis (disorder)| has been inactivated with an inactivation reason of _Outdated_ with a target replacement of 410502007 |Juvenile idiopathic arthritis (disorder)|. Subtypes of Juvenile idiopathic arthritis (disorder) are now modeled to reflect the up-to-date classification of this disorder.
 
   
 

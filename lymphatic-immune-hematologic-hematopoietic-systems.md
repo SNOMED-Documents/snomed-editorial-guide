@@ -28,6 +28,8 @@ Bone marrow, the lymphoid system, the hematopoietic system, and the terminal cel
 
 Structures and cells responsible for erythropoiesis, granulocytopoiesis, monocytopoiesis, thrombocytopoiesis, and lymphopoiesis. Refers to the immature cellular elements that eventually form the cellular components of blood. The blood itself cannot be strictly part of the hematopoietic system, since this would cause all components of blood to be part of the hematopoietic system (including components like albumin, clearly not  _hematopoietic_). SNOMED CT considers leukocytes, erythrocytes, and platelets  _the result_ of hematopoiesis, but not blood-forming, otherwise leukocytosis would become a disorder of hematopoiesis, whereas it can arise simply from a demargination of white cells following stress. SNOMED CT has a concept named 419333002 | Cellular component of blood (substance) |; note that platelets are not actually cells, but are  _cellular components_. 
 
+ _Hematopoietic_ should be differentiated from  _hematologic_ , since the terminal cells of each lineage (the erythrocyte, segmented neutrophil, monocyte, histiocyte, platelet, mature T- and B-cells, plasma cells, etc.) are not strictly hematopoietic.
+
 ## Blood
 
 The blood is not necessarily part of the cardiovascular system, nor is it necessarily part of the hematopoietic system. [87612001 |Blood (substance)|](http://snomed.info/id/87612001) is a body fluid, not strictly part of either the hematopoietic or cardiovascular systems.

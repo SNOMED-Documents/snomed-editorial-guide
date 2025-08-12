@@ -13,6 +13,11 @@ Historically,  _injury_ concepts have been modeled in SNOMED CT as damage to a b
 
 417163006 |Traumatic or non-traumatic injury (disorder)| is currently modeled with GCIs to reflect the two notions of  _damage without trauma_ (non-traumatic injury) and  _trauma with or without damage_ (traumatic injury). 
 
+The use of |Spontaneous event (event)| is in development, as many of the concepts that related to  _non-traumatic_ are not in fact spontaneous. 
+
+  * In those cases where it is clinically apparent that the cause is spontaneous, the concept is modeled with a |Due to (attribute)| of |Spontaneous event (event)|.
+  * In those cases where it cannot be determined that the clinical condition is actually spontaneous (i.e., no known underlying mechanism), a |Due to (attribute)| relationship to |Spontaneous event (event)| would be omitted.
+
 Where a request for a specific traumatic or non-traumatic disorder is made and there is support in literature for both, then concepts representing both the traumatic and non traumatic forms together with a generic form should be added.
 
 ## Friction injury, abrasion

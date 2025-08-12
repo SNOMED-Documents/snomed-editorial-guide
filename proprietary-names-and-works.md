@@ -6,6 +6,12 @@ This section considers scope as it relates to the incorporation of proprietary n
 
 Proprietary names are the names that have been assigned to products, usually drugs and devices, by their corporate producers. They do not require a license from the producer. It is both necessary and useful to include proprietary names in a health terminology. SNOMED International does not need to obtain the permission of the trademark owner simply to include a reference to the brand name drug in SNOMED CT. However, they should not be included in the International Release but instead in National Extensions. This is because proprietary names may refer to different products depending on the country and the meaning of these names are dependent on the country or jurisdiction in which the product is approved.
 
+A brand or trade name may stand for a category of product and not the particular brand itself. These _proprietary_ names may be included in the International Release as descriptions (non-FSN descriptions). They should not be included in FSNs.
+
+For example,
+
+  *     * Kleenex, band aid, popsicle
+
 ### **Exception**
 
 An exception to the inclusion of brand names of devices has been made to include a select number of devices used in glaucoma treatment. The Eye Care Clinical Reference Group agreed on the list of these devices, acknowledging their consistent international use and representation. The exception is necessary due to the challenge of describing these devices clearly and unambiguously in the SNOMED FSN. Since the selection of these devices is based on their brand names, it is essential to include them in SNOMED CT.

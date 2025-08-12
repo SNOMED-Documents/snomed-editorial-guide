@@ -1,14 +1,11 @@
 # Observable Entity
 
-Definition| Examples  
----|---  
-Information about a quality/property to be observed and how it will be observed| 
 
-  * [ 416540001 | Calcium deposit observable (observable entity)|](http://snomed.info/id/416540001 "416540001 | Calcium deposit observable \(observable entity\) |")
-  * [ 276885007 | Core body temperature (observable entity)|](http://snomed.info/id/276885007 "276885007 | Core body temperature \(observable entity\) |")
 
-  
-  
+| Definition | Examples |
+|---|---|
+| Information about a quality/property to be observed and how it will be observed | 416540001 \| Calcium deposit observable (observable entity) \| 276885007 \| Core body temperature (observable entity) \| |
+
 ## Use of Observable Entities
 
 Observables entities may be used to:
@@ -60,3 +57,5 @@ As an example, LOINC recognizes that there are three different aspects to an obs
 3) those that can only be resulted and not directly ordered (usually part of an automated system, such as computation of MCHC in hematology). 
 
 LOINC assigns this aspect with an attribute value. It is not one of the six main LOINC parts typically visible to users; however, it is included in the LOINC database.
+
+Some areas of the observable entity hierarchy need clarification and remodeling. This includes upper level concepts and hierarchies such as 246464006 |Function (observable entity) and 415178003 |Process (observable entity)| as well as intermediate primitive and leaf node concepts.

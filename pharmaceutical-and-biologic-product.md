@@ -1,8 +1,11 @@
 # Pharmaceutical and Biologic Product
 
-**Definition**  
-A top-level hierarchy to clearly distinguish drug products (products) from their chemical constituents (substances)  
-  
+
+
+| Definition |
+|---|
+| A top-level hierarchy to clearly distinguish drug products (products) from their chemical constituents (substances) |
+
 The |Pharmaceutical / biologic product (product)| hierarchy is comprised of multiple smaller hierarchies. It contains the following semantic tags:
 
   * (medicinal product)
@@ -15,10 +18,14 @@ Editorial guidance is provided here for 373873005 |Pharmaceutical / biologic pro
 
 ## Table of Contents
 
-  * [Pharmaceutical and Biologic Product and Dose Form Attributes Summary](Pharmaceutical-and-Biologic-Product-and-Dose-Form-Attributes-Summary_174691255.html)
-  * [Medicinal Product](Medicinal-Product_174690626.html)
-  * [Qualifier values supporting Pharmaceutical and Biologic Product](Qualifier-values-supporting-Pharmaceutical-and-Biologic-Product_212340376.html)
-  * [Glossary for Medicinal Product](Glossary-for-Medicinal-Product_174690625.html)
+  * [Pharmaceutical and Biologic Product and Dose Form Attributes Summary](Pharmaceutical-and-Biologic-Product-and-Dose-Form-Attributes-Summary_179931640.html)
+  * [Medicinal Product](Medicinal-Product_179931012.html)
+  * [Qualifier values supporting Pharmaceutical and Biologic Product](Qualifier-values-supporting-Pharmaceutical-and-Biologic-Product_225055290.html)
+  * [Glossary for Medicinal Product](Glossary-for-Medicinal-Product_179931011.html)
+
+For implementation guidance regarding national extensions, please see [SNOMED CT Drug Model for National Extensions](http://snomed.org/ndem). 
+
+For more information on the International Drug Model, please see the [SNOMED CT Medicinal Product Model Specification](http://snomed.org/mpm). 
 
   
 

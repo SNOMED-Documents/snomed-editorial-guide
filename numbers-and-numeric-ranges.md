@@ -19,3 +19,10 @@ For example,
       * The normal serum sodium concentration is usually defined as 135 to 145 mEq/L. Low serum sodium should not use the phrase _serum sodium less than 135 mEq/L;_ it should use a phrase such as _serum sodium concentration below reference range._
       * A body mass index (BMI) score as an indicator of obesity
 
+A standard definition with a fixed numeric range may be acceptable, i.e., the range is an explanation or definition of the score.
+
+For example,
+
+  *     * A histologic scoring system with a score of _1_ when there are _0 to 5 mitoses per high power field_ , and a score of _2_ when there are _6 to 10_ , etc.
+    * The Tumor, Node, Metastases (TNM) Classification of Malignant Tumor
+

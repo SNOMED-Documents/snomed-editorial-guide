@@ -49,14 +49,13 @@ For example,
 
 These attributes are used to represent  _Clinical finding_ and  _Procedure_ concepts within the Situation hierarchy:
 
-  
-| Clinical Finding| Procedure  
----|---|---  
-Attributes| Associated finding| Associated procedure  
-Finding context| Procedure context  
-Subject relationship context| Subject relationship context  
-Temporal context| Temporal context  
-  
+|   | Clinical Finding | Procedure |
+|---|---|---|
+| Attributes | Associated finding | Associated procedure |
+| Finding context | Procedure context |   |
+| Subject relationship context | Subject relationship context |   |
+| Temporal context | Temporal context |   |
+
 ## Expressing context
 
 Context typically alters the meaning of a concept, i.e. the resulting concept is no longer a subtype of the original concept. 
@@ -81,6 +80,19 @@ For example,
   *     *  _Hip replacement planned_ might be represented as [ 397956004 | Prosthetic arthroplasty of the hip (procedure)|](http://snomed.info/id/397956004 "397956004 | Prosthetic arthroplasty of the hip \(procedure\) |") within a section of a patient's health record called  _Planned actions_. A planned hip replacement is not a kind of hip replacement, so the  _Planned actions_ record section modifies the context
     * [ 2004005 | Normal blood pressure (finding)|](http://snomed.info/id/2004005 "2004005 | Normal blood pressure \(finding\) |") might be placed in a field labeled as  _Goal_ in a patient's EHR. A goal of normal blood pressure is not a kind of Normal blood pressure (finding), so the _Goal_ field in the EHR modifies context.
 
+When a user places a concept from SNOMED CT in a patient's health record, it transforms the concept from a theoretical representation of a clinical notion to an actual instance of the concept.
+
+For example, 
+
+  *     * If the concept [ 192644005 | Meningococcal meningitis (disorder)|](http://snomed.info/id/192644005 "192644005 | Meningococcal meningitis \(disorder\) |") is entered in a patient's EHR, it usually indicates that the patient has had an instance of this disease. Similarly the entry of [ 38102005 | Cholecystectomy (procedure)|](http://snomed.info/id/38102005 "38102005 | Cholecystectomy \(procedure\) |") would imply that the patient has undergone this procedure.
+
+The placement of a concept in an EHR field may:
+
+  * Affect the quality of the meaning, but not the instance. The placement of [ 194828000 | Angina (disorder)|](http://snomed.info/id/194828000 "194828000 | Angina \(disorder\) |") in a field labeled  _Current problems_ ,  _Past medical history_ , or  _History of_ indicates that an instance of angina has occurred in the patient. The specific field affects the  _quality_ of the meaning, but not the instance. The adopted context is compatible with the  _default context_.
+  * Critically affect the meaning and the instance. The placement of [49049000 | Parkinson disease (disorder)|](http://snomed.info/id/49049000) in a  _Family history_ field or [ 41339005 | Coronary angioplasty (procedure)|](http://snomed.info/id/41339005 "41339005 | Coronary angioplasty \(procedure\) |") in a  _Planned procedures_ field does not indicate that an instance of the disorder or the procedure has occurred in the patient. The adopted context is incompatible with the  _default context_ (In these circumstances, the electronic health application programmer needs to identify the appropriate context values from a authoritative list and link them to the concepts placed in the fields to substitute for their default contexts). 
+
+When a _Situation with explicit context_ concept is used in an EHR, it should contain all of the context attributes and applicable values in order to guarantee accurate meaning if that concept (plus context) is subsequently transferred to another record environment.
+
 ## Elaboration: changing concept meaning
 
  _Elaboration_ in SNOMED CT refers to any addition to or change of the meaning of a concept that may be brought about when it is embedded in a clinical situation. Embedding a concept in a clinical situation may  _elaborate_ the semantic interpretation of a concept in one of the following ways:
@@ -99,6 +111,8 @@ For example,
 
   *     * A past history of replacement of the left hip may be represented by a SNOMED CT expression in which the focus concept, hip replacement, is refined by  _laterality, left_ and enclosed in a context wrapper representing  _past history_.
 
+Subtype qualification has also been called a  _qualifier_ (e.g. ENV136060, GEHR, CTV3) or a _secondary status term_ (e.g. NHS Context of Care). In SNOMED CT, the term  _subtype_ expresses more clearly the distinctive property of a qualifier. This is helpful because the meaning of  _modify_ and  _qualify_ are synonymous in many dictionaries and by some International Organization of Standardization (ISO) authorities.
+
 ### Axis modification
 
 The attributes used to define situation concepts permit explicit (rather than default) representation of various contexts. These attributes can change the meaning of a  _Clinical finding_ or  _Procedure_ concept in a way that changes the hierarchy (or axis) of the concept from Clinical finding or Procedure to  _Situation with explicit context_. The resulting modified meaning is not a subtype of the original meaning of the concept, and therefore the axis-modifying attributes are not used to qualify the concept, but instead are used to qualify a Situation concept.
@@ -108,6 +122,8 @@ For example,
   *     * The concept [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") may be elaborated by including it in a clinical record specifying  _family history_. A record of a f _amily history of myocardial infarction_ does not imply that the patient has had any type of  _myocardial infarction_. Therefore,  _family history_ changes the focus from the default context to a specified context.
     * The concept [ 52734007 | Total replacement of hip (procedure)|](http://snomed.info/id/52734007 "52734007 | Total replacement of hip \(procedure\) |") may be elaborated by stating that the procedure is planned for some future date. A record of planned total hip replacement does not imply that the patient has actually had a total hip replacement, i.e. it is not the default context for a procedure.
     * The concept [ 167272007 | Urine protein test not done (situation)|](http://snomed.info/id/167272007 "167272007 | Urine protein test not done \(situation\) |") uses the context-modifying attribute Procedure context (attribute) and a value of Not done (qualifier value). This concept is not a subtype of [ 167271000 | Urine protein test (procedure)|](http://snomed.info/id/167271000 "167271000 | Urine protein test \(procedure\) |") , because its axis (hierarchy) is modified. Note that |<Procedure> not done| is no longer allowed. See the list disallowed naming patterns at [Pre-coordination Naming Patterns Project](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project). 
+
+ _Axis modification_ is not the same as  _affirmation_ (present) or  _negation_(not present) of a concept, where the essential characteristics of the concept are unchanged.
 
 ### Affirmation and Negation
 
@@ -119,6 +135,8 @@ For example,
 
   *     * _Family history of myocardial infarction_ does not imply that a patient had a myocardial infarction.
     * _No headache_ implies that  _patient has headache_ is untrue. A negative statement may expand further in the opposite direction of a positive statement. If  _headache_ is a subtype of pain then  _patient has headache_ implies  _patient has pain_. However,  _patient has no headache_ does not imply  _patient has no pain_. Conversely,  _patient has headache_ does not imply  _patient has occipital headache_ ,  _but patient has no headache_ implies  _patient does not have occipital headache_.
+
+The representation of negation within SNOMED CT that arises from restrictions imposed by the existing description logics results in the hierarchy being inverted e.g., coronary heart disease not present is NOT properly a subtype of "Heart disease not present". An initial attempt was made to move negated content into the situation hierarchy so that the content remained available, but SNOMED International recommends handling negation outside of SNOMED CT by the EHR vendor rather than try and represent it within the terminology.
 
   
 

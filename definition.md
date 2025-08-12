@@ -4,6 +4,8 @@ A  _definition_ is a textual description applied to some SNOMED CT concepts that
   
 Adding a definition to a concept provides additional clarity on its context of use. It enhances the definition provided by the modeled relationships whereby a term can be sufficiently defined logically, but the words, which is how many look for and interpret meaning, may imply more or less specificity. 
 
+The definition should never be contradictory to the modeling.
+
 Definitions must:
 
   * be written as complete sentences,
@@ -23,10 +25,14 @@ For example,
 
   *     * 1332358007 |Full schwannomatosis (disorder)|
 
-<figure><img src="images/265618742.png" alt="" title=""><figcaption><p>Figure 1: Definition of 1332358007 |Full schwannomatosis (disorder)| with US and GB English acceptability values.</p></figcaption></figure>
+<figure><img src="images/273520326.png" alt="" title=""><figcaption><p>Figure 1: Definition of 1332358007 |Full schwannomatosis (disorder)| with US and GB English acceptability values.</p></figcaption></figure>
 
 ## Consideration for text definition
 
 A text definition should be considered where a concept references the obscure or unusual. As an example, _raised blood pressure_ is a commonly used phrase, which, in itself, is ambiguous. _Raised_ can mean: 1) higher than a previous measurement, 2) on the high side of normal range, or 3) above reference range. Because of that ambiguity, a full definition created by logical model may be impossible, so a text definition could be used to encourage consistent use of the term. 
 
 In summary, if a term may be interpreted in multiple ways, but is intended to mean only one way in SNOMED CT, it needs a definition. However, ultimate source of truth for meaning remains with the FSN. 
+
+  * URLs that point to definition sources are unacceptable.
+  * External references, such as ISBN and PubMed identifiers, are not allowed in SNOMED CT concept definitions. 
+

@@ -1,17 +1,11 @@
 # Staging and Scales
 
-Definition| Examples  
----|---  
-This hierarchy contains concepts which are named, authoritative, and internationally relevant staging or grading systems used to either make a judgment about the patient, e.g. cognition, or, evaluate a patient to determine the phase, or progression of a disease.| Assessment
 
-  * [ 273472005 | Functional status index (assessment scale)|](http://snomed.info/id/273472005 "273472005 | Functional status index \(assessment scale\) |")
 
-Staging
+| Definition | Examples |
+|---|---|
+| This hierarchy contains concepts which are named, authoritative, and internationally relevant staging or grading systems used to either make a judgment about the patient, e.g. cognition, or, evaluate a patient to determine the phase, or progression of a disease. | 273472005 \| Functional status index (assessment scale) \| 254294008 \| Tumor-node-metastasis (TNM) head and neck tumor staging (tumor staging) \| Assessment Staging |
 
-  * [ 254294008 | Tumor-node-metastasis (TNM) head and neck tumor staging (tumor staging)|](http://snomed.info/id/254294008 "254294008 | Tumor-node-metastasis \(TNM\) head and neck tumor staging \(tumor staging\) |")
-
-  
-  
 Some diseases are represented using a staging and/or grading system to signify the severity, extent, or rate of growth of a disease. For example, _chronic kidney disease_ is represented with five stages determined by level of kidney function.  
 
 ## Assessment scale requests

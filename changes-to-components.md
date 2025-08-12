@@ -2,8 +2,8 @@
 
 Concepts, descriptions, and target values may be changed for a variety of reasons. 
 
-  * [Description Inactivation](Description-Inactivation_174691727.html)
-  * [Concept Inactivation](Concept-Inactivation_174691724.html)
+  * [Description Inactivation](Description-Inactivation_179932111.html)
+  * [Concept Inactivation](Concept-Inactivation_179932108.html)
 
 ## Considerations for current concepts when creating new concepts
 

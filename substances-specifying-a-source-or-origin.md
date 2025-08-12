@@ -8,12 +8,12 @@ A substance that is part of (e.g. dander) or is derived from (e.g. Insulin) an o
 
 ## Modeling
 
-**Parent concept**|  Most distal appropriate descendant of 105590001 |Substance (substance)|  
----|---  
-**Semantic tag**| (substance)  
-**Definition status**|  Primitive  
-**Attribute**|  738774007 |Is modification of (attribute)| as applicable726542003 |Has disposition (attribute)| as appropriate  
-  
+| Parent concept | Most distal appropriate descendant of 105590001 \|Substance (substance)\| |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+| Attribute | 738774007 \|Is modification of (attribute)\| as applicable 726542003 \|Has disposition (attribute)\| as appropriate |
+
 ## Naming
 
 “Recombinant”, “Synthetic”, or “Semi-synthetic” should precede the name of the substance
@@ -51,42 +51,18 @@ For example,
 
     * Recombinant bovine growth hormone (substance)
 
-**FSN**|  Pattern:
+| FSN | Pattern: [Source organism] X (substance) Recombinant X (substance) Synthetic X (substance) For example, Human antithrombin III (substance) Recombinant thrombin (substance) Synthetic steroid (substance) |
+|---|---|
+| Preferred Term | Pattern: [Source organism] X Recombinant X Synthetic X For example, Human antithrombin III Recombinant thrombin Synthetic steroid |
+| Exception | T he naming of DNA, RNA, rRNA, antibody, Immunoglobulin, and antigen of organisms should follow the specific guideline for this type of substances. |
 
-  * [Source organism] X (substance)
-  * Recombinant X (substance)
-  * Synthetic X (substance)
-
-For example,
-
-  *     *       * Human antithrombin III (substance)
-      * Recombinant thrombin (substance)
-      * Synthetic steroid (substance) 
-
-  
----|---  
-**Preferred Term**|  Pattern:
-
-  * [Source organism] X
-  * Recombinant X
-  * Synthetic X
-
-For example,
-
-  *     *       * Human antithrombin III
-      * Recombinant thrombin
-      * Synthetic steroid
-
-  
-**Exception**|  The naming of DNA, RNA, rRNA, antibody, Immunoglobulin, and antigen of organisms should follow the specific guideline for this type of substances.  
-  
 Exemplar
 
 ## Exemplar
 
 Stated view of 411973001 |Bovine thrombin (substance)|
 
-<figure><img src="images/174691625.png" alt="" title=""></figure>
+<figure><img src="images/179932009.png" alt="" title=""></figure>
 
   
 

@@ -12,6 +12,8 @@ _**Upper gastrointestinal (GI) tract.** _When describing upper GI bleeding and u
 
 Also, since the upper GI tract is said to end at the duodenum-jejunum junction, and there is no concept meaning middle GI tract, the jejunum can be inferred to be in the lower GI tract.
 
+See  _J Vasc Interv Radiol 9:747_ for an example of inclusion of the jejunum and distal tract as part of the lower GI tract.
+
 ## Upper aerodigestive tract
 
 The SNOMED CT concepts 119253004 |Upper aerodigestive tract structure (body structure)| and [361922007 |Entire upper aerodigestive tract (body structure)|](http://snomed.info/id/361922007) have the meaning based on the following reference:  _Cancers of the upper aerodigestive tract constitute approximately 4% of all malignancies. These include cancer of the lip, tongue, major salivary glands, gums and adjacent oral cavity tissues, floor of the mouth, tonsils, oropharynx, nasopharynx, hypopharynx and other oral regions, nasal cavity, accessory sinuses, middle ear, and larynx_(Upper aerodigestive tract cancers, Cancer 1995 Jan 1;75 (1 Suppl): 147-53). This definition matches the tumors included in the  _CAP Cancer Checklist_ for upper aerodigestive tumors. The esophagus, or at least the cervical esophagus, may be included, but not in SNOMED CT.
@@ -25,6 +27,8 @@ Biliary tract includes the gallbladder, intrahepatic and extrahepatic bile ducts
 Mouth has several different meanings including mouth region, oral region of the face, and rima oris.
 
 Mouth region includes structures surrounding the oral cavity, as well as structures of the oral region of the face. 
+
+Use  _mouth region_ for most disorders with a finding site of  _mouth_.
 
 Oral region of face includes the skin and subcutaneous tissue of the lips and perioral region, the orbicularis oris muscle, and the vessels and nerves in these structures.
 

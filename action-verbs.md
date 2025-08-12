@@ -1,6 +1,6 @@
 # Action Verbs
 
-Action verbs should be written in noun form within SNOMED CT descriptions. This most often means the root form of the verb will end with a suffix of –tion, -sion, -ment, -al, -ence, or -ance.
+Action verbs should be written in noun form within SNOMED CT descriptions. This most often means the verb will end with a suffix of –tion, -sion, -ment, -al, -ence, or -ance.
 
 For example,
 
@@ -38,6 +38,8 @@ For example,
 
 Although ‘repairment’ may be considered a valid word, its use has fallen out of common usage in comparison to ‘repair’. 
 
+Check for approved and unapproved naming patterns in the [Precoordination Naming Pattern Project](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project).
+
   
 
 ## Past tense
@@ -52,3 +54,4 @@ However, the following is an acceptable example using a noun phrase,
 
   *     * [ 11227005 | Excision of ganglion of tendon sheath of hand (procedure)|](http://snomed.info/id/11227005 "11227005 | Excision of ganglion of tendon sheath of hand \(procedure\) |")
 
+Existing descriptions containing past tense verbs should be moved to the [ 243796009 | Situation with explicit context (situation)|](http://snomed.info/id/243796009 "243796009 | Situation with explicit context \(situation\) |") hierarchy.

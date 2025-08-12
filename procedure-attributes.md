@@ -2,6 +2,11 @@
 
 The following defining attributes correspond to the _Procedure Attributes Summary_ table from the HRCM.
 
+**The following attributes are self-grouped, meaning they are not grouped with any other attributes:**
+
+  * **Priority**
+  * **Has focus**
+
   
 
 ## Access
@@ -20,6 +25,8 @@ For example,
 
   *     * [ 431698006 | Adjustment of gastric banding using fluoroscopic guidance (procedure)|](http://snomed.info/id/431698006 "431698006 | Adjustment of gastric banding using fluoroscopic guidance \(procedure\) |") has Direct device of Surgical band (physical object)
 
+_Subtypes of Surgical repair (procedure) that include a prosthetic device should be modeled using the DIRECT DEVICE attribute when the value is <<53350007 |Prosthesis, device (physical object)|_
+
 ## Direct morphology
 
 Direct morphology (attribute) describes the morphologically abnormal structure that is the direct object of the Method action.
@@ -36,7 +43,9 @@ For example,
 
   *     * 231274008 |Injection of steroid into joint (procedure)| has Direct substance (attribute) of Steroid (substance)
 
-<figure><img src="images/174691346.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
+<figure><img src="images/273518981.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
+
+Although Pharmaceutical / biologic product (product) and its descendants are considered valid values for the Direct substance (attribute) by the MRCM, they are not currently used as values for this attribute in the International Release. The only exception is 787859002 |Vaccine product (medicinal product)| and its descendants, which can be used as valid values for this attribute.
 
 ## Has focus
 
@@ -134,18 +143,6 @@ For example,
 
 [ 260870009 | Priority (attribute)|](http://snomed.info/id/260870009 "260870009 | Priority \(attribute\) |") is most often used to differentiate elective and emergency subtypes of a procedure that can be performed on either basis. With the exception of Cardiopulmonary resuscitation (procedure), this attribute is normally used only to define concepts whose FSNs specify a priority, not for modeling procedures that imply an emergency priority, such as |Heimlich maneuver (procedure)| or those that are inherently elective, such as |Augmentation mammoplasty (procedure)|.
 
-## Procedure approach
-
-Procedure approach (attribute) specifies the directional, relational, or spatial access to the site of a procedure. The range for [ 116688005 | Procedure approach (attribute)|](http://snomed.info/id/116688005 "116688005 | Procedure approach \(attribute\) |") is << [ 103379005 | Procedural approach (qualifier value)|](http://snomed.info/id/103379005 "103379005 | Procedural approach \(qualifier value\) |") . 
-
-For example,
-
-  *     * 33195004 |External beam radiation therapy procedure (procedure)| has Procedure approach (attribute) of External approach (qualifier value).
-
-<figure><img src="images/273515817.png" alt="" title=""><figcaption><p><em>     </em> 29795009 |Open reduction of orbital floor blowout fracture by periorbital approach (procedure)| has Procedure approach (attribute) of Periorbital approach (qualifier value).</p></figcaption></figure>
-
-<figure><img src="images/273515818.png" alt="" title=""></figure>
-
 ## Procedure device
 
 Procedure device (attribute) is used to model devices associated with a procedure. This attribute is used to define high-level, general concepts that aggregate procedures according to the device involved.
@@ -156,9 +153,15 @@ For example,
 
   *     * [ 276272002 | Catheter procedure (procedure)|](http://snomed.info/id/276272002 "276272002 | Catheter procedure \(procedure\) |") has Procedure device of Catheter, device (physical object)
 
+The attribute values in the Procedure Device hierarchy include Device (physical object) and its descendants.
+
+There are a limited number of drug delivery devices in SNOMED CT. These concepts descend from Drug-device combination product (product) which is a descendant of both Device (physical object) and Pharmaceutical / biologic product (product). Although they carry the hierarchy tag of (product), they are acceptable values for attributes in the Procedure Device attribute hierarchy.
+
 ## Procedure morphology
 
 Procedure morphology (attribute) is used to specify the morphology, or abnormal structure, involved in a procedure. It is used when defining general concepts that subsume direct and indirect morphology. It subsumes the more specific attributes, Direct and Indirect Morphology. These should be used, if possible.
+
+Hematoma, calculus, foreign body, blood clot, embolus, and some other morphologies are not strictly body structures. But, they are included in the body structure hierarchy under morphologically abnormal structure and are valid values for the Procedure Morphology attributes.
 
 ## Procedure site
 
@@ -179,7 +182,9 @@ When modeling procedures where the Method is  _Removal - action_ (qualifier valu
   * Structures, grafts, and tissue lesions (e.g. cysts, neoplasms, abscesses, wounds, warts, aneurysms, herniations, oral clefts, etc.) are considered removal of the site, use _Procedure site - Direct._
   * Devices, calculi, thrombi, foreign bodies, and other non-tissue entities from the structure, use _Procedure site - Indirect._
 
-###  Use of Structure of <anatomical structure> vs. Entire <anatomical structure> as value of the Procedure site attributes
+Procedures are not necessarily categorized by site.
+
+### Use of Structure of <anatomical structure> vs. Entire <anatomical structure> as value of the Procedure site attributes
 
 Structure of <anatomical structure> rather than Entire <anatomical structure> should be used as the value for procedure site attributes, except where the procedure FSN explicitly specified that the entire structure is the object of the procedure.
 
@@ -217,7 +222,7 @@ For example,
       * Procedure site - Indirect of Structure of brachial vein (body structure)
       * Direct device of Venous catheter (physical object)
 
-<figure><img src="images/174691345.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
+<figure><img src="images/273518980.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
 
   
 
@@ -226,7 +231,7 @@ For example,
       * Method of Removal - action (qualifier value)
       * Procedure site - Indirect of Urinary bladder structure (body structure)
 
-<figure><img src="images/174691344.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
+<figure><img src="images/273518979.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
 
 ## Recipient category
 
@@ -237,6 +242,8 @@ For example,
   *     * [ 105455006 | Donor for medical or surgical procedure (person)|](http://snomed.info/id/105455006 "105455006 | Donor for medical or surgical procedure \(person\) |") has Recipient Category (attribute) of Donor if the subject of the record is the Blood product donor (person). 
 
 This can be used in blood banking procedures to differentiate the donor vs the recipient of blood products.
+
+It is not used for a procedure where the subject of the procedure is someone other than the subject of record.
 
 ## Revision status
 
@@ -254,17 +261,17 @@ For example,
 
   *     * [410572008 | Injection of steroid via intravitreal route (procedure)|](http://snomed.info/id/410572008) has the [| Route of administration (attribute)|](http://snomed.org/-fictid) of Intravitreal route (qualifier value)
 
-<figure><img src="images/237110237.png" alt="" title=""><figcaption><p>Figure 4: Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
+<figure><img src="images/273518978.png" alt="" title=""><figcaption><p>Figure 4: Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
 
 While the values for |Procedure site - Indirect| and |Route of administration| attributes may be similar and seem redundant, their presence is necessary for consistent subsumption. 
 
 For example,
 
-Route of administration (qualifier value)| Body structure value of Procedure site - Indirect  
----|---  
-Intravenous route| Venous structure  
-Oral route| Mouth region structure  
-  
+| Route of administration (qualifier value) | Body structure value of Procedure site - Indirect |
+|---|---|
+| Intravenous route | Venous structure |
+| Oral route | Mouth region structure |
+
 Table 1: Examples of complementary values of Route of administration and Procedure site - Indirect
 
 ## Using access device

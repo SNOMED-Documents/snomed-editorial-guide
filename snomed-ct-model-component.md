@@ -1,12 +1,14 @@
 # SNOMED CT Model Component
 
-Definition| Types  
----|---  
-Concepts and attributes necessary to organize and structure SNOMED CT terminology and its derivatives|  [ 900000000000442005 | Core metadata concept (core metadata concept)|](http://snomed.info/id/900000000000442005 "900000000000442005 | Core metadata concept \(core metadata concept\) |") [ 900000000000454005 | Foundation metadata concept (foundation metadata concept)|](http://snomed.info/id/900000000000454005 "900000000000454005 | Foundation metadata concept \(foundation metadata concept\) |") [ 106237007 | Linkage concept (linkage concept)|](http://snomed.info/id/106237007 "106237007 | Linkage concept \(linkage concept\) |") [ 370136006 | Namespace concept (namespace concept)|](http://snomed.info/id/370136006 "370136006 | Namespace concept \(namespace concept\) |")  
-  
+
+
+| Definition | Types |
+|---|---|
+| Concepts and attributes necessary to organize and structure SNOMED CT terminology and its derivatives | 900000000000442005\|Core metadata concept (core metadata concept)\| 900000000000454005\|Foundation metadata concept (foundation metadata concept)\| 106237007\|Linkage concept (linkage concept)\| 370136006\|Namespace concept (namespace concept)\| |
+
 ## SNOMED Model component module (metadata) 
 
-<figure><img src="images/174691388.png" alt="" title=""></figure>
+<figure><img src="images/179931772.png" alt="" title=""></figure>
 
   
 
@@ -41,3 +43,10 @@ Users should beware that unapproved attributes can potentially
 ## Namespace concept
 
 [ 370136006 | Namespace concept (namespace concept)|](http://snomed.info/id/370136006 "370136006 | Namespace concept \(namespace concept\) |") is a subtype of 900000000000441003 |SNOMED CT Model Component (metadata)|. Each of its subtypes has an integer term which is an assigned extension namespace identifier.
+
+New namespace concepts are requested via email to _info@snomed.org_. A SNOMED International staff terminologist will add new extension namespace identifiers as requests are received. It is also necessary to change the Module ID per the following:
+
+<figure><img src="images/179931774.png" alt="" title=""><figcaption><p>For further details, see <em>Namespace identifiers</em> on the SNOMED website at: <https://www.snomed.org/snomed-ct/Use-SNOMED-CT>. Find the Namespace Identifier Registry at <https://cis.ihtsdotools.org/info/></p></figcaption></figure>
+
+  
+

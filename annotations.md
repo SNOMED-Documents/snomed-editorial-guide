@@ -16,7 +16,9 @@ Attribution - Attributing credit to the source of information
 
 For example,_Inserm Orphanet_ attribution annotation at 1332326002 |Isolated cleft lip (disorder)|
 
-<figure><img src="images/256869352.png" alt="" title=""><figcaption><p>Figure 1: Details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
+<figure><img src="images/273519000.png" alt="" title=""><figcaption><p>Figure 1: Details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
+
+SNOMED derivative products, such as mappings to/from other terminologies, should not be represented as annotations. Refsets have been developed for different types of maps which includes additional metadata, such as map group, priority, rule, and advice. 
 
 ## Guidance
 
@@ -30,6 +32,8 @@ Annotations in annotation refsets can be found by using ECL queries for refset m
 
 ^ 1292992004 |Component annotation with string value reference set (foundation metadata concept)|
 
+Concepts with annotations cannot be found by using text search in the browser. 
+
 Annotation length is restricted up to 4000 characters and are represented by the _String_ data type which allows URL, number, and text for annotation values. Each annotation attribute should state the allowed values. 
 
 For example,
@@ -42,3 +46,4 @@ The following are documented in the respective annotation guidance, if applicabl
   * Validation for annotations, such as spell check
   * Annotation cardinality - Most attributes will be 0..1 but some may allow multiple values.
 
+See also [SNOMED CT Annotations](https://confluence.ihtsdotools.org/display/mag/SNOMED+CT+Annotations) for more information.

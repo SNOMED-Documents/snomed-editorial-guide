@@ -1,17 +1,11 @@
 # Situation with Explicit Context
 
-Definition| Examples  
----|---  
-  
-  * Concepts that include _context_ information; a subtype of the situation to which it applies, with an attribute associating it with the relevant clinical finding or procedure
 
-| 
 
-  * [ 183982006 | Herniotomy planned (situation)|](http://snomed.info/id/183982006 "183982006 | Herniotomy planned \(situation\) |")
-  * [ 1269455000 | Caregiver able to administer subcutaneous injection (situation)|](http://snomed.info/id/1269455000 "1269455000 | Caregiver able to administer subcutaneous injection \(situation\) |")
+| Definition | Examples |
+|---|---|
+| Concepts that include context information; a subtype of the situation to which it applies, with an attribute associating it with the relevant clinical finding or procedure | 183982006 \| Herniotomy planned (situation) \| 1269455000 \| Caregiver able to administer subcutaneous injection (situation) \| |
 
-  
-  
 ## Variable meanings according to context 
 
 Depending on context, concepts __ can be used in many different ways with various meanings.

@@ -13,9 +13,9 @@ Key requirements that drive the design, development, and maintenance of SNOMED C
 
 These requirements are interrelated. The design objective is to enable all user communities to realize the potential benefits. However, the needs of different user communities may vary. To meet the overall objectives, the design must consider the entire range of needs. The approach must also be scalable in order to enable extension to new user communities.
 
-  * [Medical Vocabularies - J. Cimino](Medical-Vocabularies---J.-Cimino_174690279.html)
-  * [Electronic Health Applications](Electronic-Health-Applications_174690280.html)
-  * [Implementation and Migration](Implementation-and-Migration_174690281.html)
-  * [User Communities](User-Communities_174690282.html)
-  * [Summary of SNOMED CT Requirements](Summary-of-SNOMED-CT-Requirements_174690283.html)
+  * [Medical Vocabularies - J. Cimino](Medical-Vocabularies---J.-Cimino_179930663.html)
+  * [Electronic Health Applications](Electronic-Health-Applications_179930664.html)
+  * [Implementation and Migration](Implementation-and-Migration_179930665.html)
+  * [User Communities](User-Communities_179930666.html)
+  * [Summary of SNOMED CT Requirements](Summary-of-SNOMED-CT-Requirements_179930667.html)
 

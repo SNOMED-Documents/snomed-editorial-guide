@@ -14,21 +14,23 @@ For example,
 
 32413006 |Transplantation of heart (procedure)|
 
-<figure><img src="images/265618728.png" alt="" title=""><figcaption><p>363701004 |Direct substance (attribute)| relationship is only utilized where it adds additional information (autograft, allograft, etc).</p></figcaption></figure>
+<figure><img src="images/273518972.png" alt="" title=""><figcaption><p>363701004 |Direct substance (attribute)| relationship is only utilized where it adds additional information (autograft, allograft, etc).</p></figcaption></figure>
 
 For example,
 
 232973007 |Allotransplant of heart (procedure)|
 
-<figure><img src="images/265618725.png" alt="" title=""><figcaption><p>Consultation established that for tissue transplants, <em>graft</em> and <em>transplant</em> are used interchangeably with the preferred option being grafting procedure, with a transplant description placed as a synonym on the grafting procedure concept.</p></figcaption></figure>
+<figure><img src="images/273518969.png" alt="" title=""><figcaption><p>See transplantation template at [Surgical transplantation (procedure) - v1.0](https://confluence.ihtsdotools.org/display/SCTEMPLATES/Surgical+transplantation+%28procedure%29+-+v1.0).</p></figcaption></figure>
 
   
+
+Consultation established that for tissue transplants, _graft_ and _transplant_ are used interchangeably with the preferred option being grafting procedure, with a transplant description placed as a synonym on the grafting procedure concept. 
 
 For example,
 
 27493007 |Peripheral nerve graft (procedure)|
 
-<figure><img src="images/265618726.png" alt="" title=""><figcaption><p>See [Grafting](Grafting_174691294.html) for grafting procedure guidance.</p></figcaption></figure>
+<figure><img src="images/273518970.png" alt="" title=""><figcaption><p>See [Grafting](Grafting_179931679.html) for grafting procedure guidance.</p></figcaption></figure>
 
   
 

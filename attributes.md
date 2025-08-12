@@ -1,21 +1,17 @@
 # Attributes
 
-Attribute  
-Definition| Notes| Example  
-Represents a characteristic of the meaning of a concept or the nature of a refinement| An attribute has a name which is represented by a concept. All of the concepts that can be used to name attributes are subtypes of the concept [ 410662002 | Concept model attribute (attribute)|](http://snomed.info/id/410662002 "410662002 | Concept model attribute \(attribute\) |") .An attribute is assigned a value (that creates an attribute-value pair) when used in the definition of a concept or in a postcoordinated expression.The permitted range of values for an attribute depends on the rules specified in the concept model.| 
 
-  * [ 116676008 | Associated morphology (attribute)|](http://snomed.info/id/116676008 "116676008 | Associated morphology \(attribute\) |")
 
-  
-  
-Range  
-Definition| Note| Example  
-A constrained set of values that the [Concept Model](https://confluence.ihtsdotools.org/display/DOCGLOSS/Concept+Model "Glossary link: Concept Model") permits to be applied to a specific [attribute](https://confluence.ihtsdotools.org/display/DOCGLOSS/attribute "Glossary link: attribute") when that [attribute](https://confluence.ihtsdotools.org/display/DOCGLOSS/attribute "Glossary link: attribute") is applied to a concept in a particular [domain](https://confluence.ihtsdotools.org/display/DOCGLOSS/domain "Glossary link: domain")| The range of permitted values that can be applied to an [attribute](https://confluence.ihtsdotools.org/display/DOCGLOSS/attribute "Glossary link: attribute") is typically defined to include concepts in one or more branches of the subtype hierarchy.The range for an attribute may include intensional or extensional definitions or both. An example of a range with an intensional definition is 370130000 |Property (attribute)| which has a range of << 118598001 |Property (qualifier value)|. An example of a range with an extensional definition is 1148969005 |Has absorbability (attribute)| with range of 860574003 |Bioabsorbable (qualifier value)| OR 863965006 |Nonbioabsorbable (qualifier value)| OR 863968008 |Partially bioabsorbable (qualifier value)|."| 
+| Attribute |   |   |
+|---|---|---|
+| Definition | Notes | Example |
+| Represents a characteristic of the meaning of a concept or the nature of a refinement | An attribute has a name which is represented by a concept. All of the concepts that can be used to name attributes are subtypes of the concept410662002\|Concept model attribute (attribute)\|. An attribute is assigned a value (that creates an attribute-value pair) when used in the definition of a concept or in a postcoordinated expression. The permitted range of values for an attribute depends on the rules specified in the concept model. | 116676008 \| Associated morphology (attribute) \| |
 
-  * The  range for values of [ 116676008 | Associated morphology (attribute)|](http://snomed.info/id/116676008 "116676008 | Associated morphology \(attribute\) |") is a subtype of [ 49755003 | Morphologically abnormal structure (morphologic abnormality)|](http://snomed.info/id/49755003 "49755003 | Morphologically abnormal structure \(morphologic abnormality\) |") .
+| Range |   |   |
+|---|---|---|
+| Definition | Note | Example |
+| A constrained set of values that the Concept Model permits to be applied to a specific attribute when that attribute is applied to a concept in a particular domain | The range of permitted values that can be applied to anattributeis typically defined to include concepts in one or more branches of the subtype hierarchy. The range for an attribute may include intensional or extensional definitions or both. An example of a range with an intensional definition is 370130000 \|Property (attribute)\| which has a range of << 118598001 \|Property (qualifier value)\|. An example of a range with an extensional definition is 1148969005 \|Has absorbability (attribute)\| with range of 860574003 \|Bioabsorbable (qualifier value)\| OR 863965006 \|Nonbioabsorbable (qualifier value)\| OR 863968008 \|Partially bioabsorbable (qualifier value)\|." | The range fo r values of 116676008 \| Associated morphology (attribute) \| is a subtype of 49755003 \| Morphologically abnormal structure (morphologic abnormality) \| . |
 
-  
-  
 Not all hierarchies in SNOMED CT __ have defining attributes. Many attributes apply to top-level domain hierarchies, some to more than one. Some attributes to a lower-level, or a more specific, domain hierarchy. Primitive concepts in some hierarchies may be attribute values in top-level hierarchies. 
 
 ## Attribute definitions

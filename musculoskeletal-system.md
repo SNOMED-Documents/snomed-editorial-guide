@@ -4,6 +4,8 @@
 
 The  _skeletal system_ (_systema skeletal_ in _Nomina Anatomica_) includes bones and cartilage. The  _bony skeleton_ includes bones only. The _ vertebral column_ is part of the skeletal system, and includes the intervertebral discs (fibrocartilage). Individual vertebrae are part of the bony skeleton.
 
+SNOMED CT considers the  _skeletal system subdivision_ part of the entire bone (system). This may change if there are procedures on cartilaginous skeleton that involve skeletal system subdivisions.
+
 In ordinary usage,  _bone_ combines the meanings  _bone organ_ and  _bone tissue_.**  
 **
 
@@ -16,6 +18,12 @@ The 5 anatomical concepts related to _bone_ are:
   5. [113192009 |Skeletal system structure (body structure)|](http://snomed.info/id/113192009). Entire skeletal system, including bones and cartilage.
 
 Bone (tissue) is part of entire bone (organ); entire bone (organ) is part of skeletal system subdivision (system); skeletal system subdivision (system) is part of entire bony skeleton (body structure); and entire bony skeleton (body structure) is part of skeletal system structure (body structure). We can use Entire bone (system) to define aggregate concepts that involve bones.
+
+FSNs for spinal levels should not contain abbreviations.
+
+Correct example,
+
+  *     * Posterior cord syndrome at tenth thoracic spinal cord level, not Posterior cord syndrome of thoracic spinal cord at T10 level
 
 ## Non-ossified bone** **
 
@@ -40,6 +48,8 @@ To differentiate marrow, vessels, nerves, and periosteum from the actual hard ti
 
 ICD does not use the standard anatomical definition of  _long bone_. For instance, Benign neoplasms of long bones are distinguished from benign neoplasms of short bones _;_ the bones of the hand are considered short bones. The anatomical definition of long bone cites the proportional relationship between length and width (length >> width). It is clear that metacarpals, metatarsals, and phalanges are included in the anatomical definition of long bone.
 
+The index finger is the  _first finger_ and  _second digit_. Do not use  _second finger_.
+
 In order to accommodate the differences between anatomical definitions and classifications, SNOMED CT has anatomical groupings that correspond to the ICD groupings.  _Scapula_ ,  _humerus_ ,  _radius_ , or  _ulna_ and  _long bone of thigh_ or  _lower leg_ are used as the sites for grouper concepts that match ICD definitions and groupings.
 
 ## Sternum, manubrium, body, xiphoid
@@ -54,11 +64,12 @@ Even though teeth are supported by the maxillary or mandibular bone, they are no
 
 In many diseases and procedures, reference is made to areas of the body that may ambiguously imply either a _ joint_ or a  _region surrounding the joint_. Some common ones are:
 
-Joint vs. Joint Region  
-[70258002 |Ankle joint structure (body structure)|](http://snomed.info/id/70258002)| [344001 |Ankle region structure (body structure)|](http://snomed.info/id/344001)  
-[74670003 |Wrist joint structure (body structure)|](http://snomed.info/id/74670003)| [8205005 |Wrist region structure (body structure)|](http://snomed.info/id/8205005)  
-[85537004 |Glenohumeral joint structure (body structure)|](http://snomed.info/id/85537004)| [16982005 |Shoulder region structure (body structure)|](http://snomed.info/id/16982005)  
-  
+| Joint vs. Joint Region |   |
+|---|---|
+| 70258002 \| Ankle joint structure (body structure) \| | 344001 \| Ankle region structure (body structure) \| |
+| 74670003 \| Wrist joint structure (body structure) \| | 8205005 \| Wrist region structure (body structure) \| |
+| 85537004 \| Glenohumeral joint structure (body structure) \| | 16982005 \| Shoulder region structure (body structure) \| |
+
 ## Shoulder girdle
 
 [ 272691005 | Bone structure of shoulder girdle (body structure)|](http://snomed.info/id/272691005 "272691005 | Bone structure of shoulder girdle \(body structure\) |") This concept is used to define diseases and procedures affecting bones in the shoulder region, i.e. proximal humerus, scapula, and clavicle. It is not a bone, but a bone structure, and is part of the shoulder region. 
@@ -92,6 +103,8 @@ Synonym: Lower extremity
 
 Additional descriptions of  _leg_ and  _arm_ are permitted for concepts whose FSNs refer to  _lower limb_ and  _upper limb_ respectively. 
 
+External sources, such as WHO Classifications, may have conventions for interpreting the meaning of phrases that contain the words  _arm_ and  _leg._ These sources may be referenced to help determine the meanings of _ International Classification of Diseases (ICD)_ terms when mapping or completing other actions. ICD terms may differ from common usage and will not necessarily match SNOMED CT concepts.
+
 ## Shoulder and hip regions, upper and lower limbs
 
 The shoulder region is part of the upper limb, and the hip region is part of the lower limb. This follows the general pattern used in the  _Foundation Model of Anatomy (FMA)_.
@@ -119,3 +132,4 @@ When modeling muscle categories according to their functions, assume they mean t
 
   
 
+ _X disorder at Y level_ concepts from ICD-11, e.g.****_skin laceration of arm at wrist level_ (precedent are terms added from ICD-9) will not be added to the SNOMED International Release.

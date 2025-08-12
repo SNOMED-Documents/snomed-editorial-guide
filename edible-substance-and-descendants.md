@@ -6,11 +6,11 @@ Substance concepts should, where possible, be modeled with either a structural p
 
 ## Modeling
 
-Parent concept| Most distal appropriate descendant of 762766007 |Edible substance (substance)|Additional parent concepts may be modeled to denote origin or structural characteristics.  
----|---  
-Semantic tag| (substance)  
-Definition status| Primitive  
-  
+| Parent concept | Most distal appropriate descendant of762766007\|Edible substance (substance)\| Additional parent concepts may be modeled to denote origin or structural characteristics. |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+
 ## Naming Guidelines
 
 FSN, PT or Synonym should not contain "- dietary" context in descriptions
@@ -21,47 +21,22 @@ Culinary name should be used for the FSN and PT when referring to meat products 
 
 If there are additional adjectives such as baked, boiled, fried, lean, minced, low-fat, roast, or stewed, these adjectives should proceed the name of source organism, e.g. Fried beef steak (substance), Tinned fish (substance).
 
-FSN| Pattern:
-
-  * X (substance)  
-  
-
-For example,
-
-  *     *       * Betel nut (substance)
-      * Wheat dextrin (substance)
-      * Tinned fish (substance)
-
-  
----|---  
-Preferred Term| Pattern:
-
-  * X
-
-For example,
-
-  *     *       * Betel nut
-      * Wheat dextrin
-      * Tinned fish
-
-  
-Synonyms| Pattern: scientific name if appropriateFor example,
-
-  *     *       * Areca catechu
-
-  
-  
-## Exemplar
-
-The following illustrates the **stated** and **inferred** view
-
-<figure><img src="images/174691565.png" alt="" title=""></figure>
+| FSN | X (substance) Wheat dextrin (substance) Tinned fish (substance) Pattern: For example, Betel nut (substance) |
+|---|---|
+| Preferred Term | X Pattern: For example, Betel nut Wheat dextrin Tinned fish |
+| Synonyms | Areca catechu Pattern: scientific name if appropriate For example, |
 
 ## Exemplar
 
 The following illustrates the **stated** and **inferred** view
 
-<figure><img src="images/174691566.png" alt="" title=""></figure>
+<figure><img src="images/179931949.png" alt="" title=""></figure>
+
+## Exemplar
+
+The following illustrates the **stated** and **inferred** view
+
+<figure><img src="images/179931950.png" alt="" title=""></figure>
 
   
 

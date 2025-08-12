@@ -1,5 +1,9 @@
 # Clinical Finding Defining Attributes
 
+**Generally, the attributes _associated with_ , _before_ ,  _during_ ,  _after_ ,  _due to_ ,  _clinical course_ , or  _temporally related to_ are self-grouped, meaning they must not be placed in a relationship group with other attributes; each attribute must be the only attribute in a relationship group. Any rare exceptions will be documented within the individual attribute section below.**
+
+**The Human Readable Concept Model (HRCM)  _grouped_ column (see the [Clinical Finding Attributes Summary](https://confluence.ihtsdotools.org/display/WIPEG/Clinical+Finding+Attributes+Summary) table on the previous page) correctly indicates that these attributes are put into a relationship group during classification because they are self-grouped.**
+
 The following defining attributes correspond to the _Clinical Finding/Disorder Attributes Summary_ table. 
 
 ## After
@@ -42,7 +46,7 @@ For example,
 
   *     * [ 70529004 | Lymphoid hyperplasia of appendix (disorder)|](http://snomed.info/id/70529004 "70529004 | Lymphoid hyperplasia of appendix \(disorder\) |") has [ | Associated morphology (attribute)|](http://snomed.org/fictid# "\(eg:\)  | Associated morphology \(attribute\) |") of __ [ 43961000 | Lymphoid hyperplasia (morphologic abnormality)|](http://snomed.info/id/43961000 "43961000 | Lymphoid hyperplasia \(morphologic abnormality\) |") and a  _[ | Finding site (attribute)|](http://snomed.org/fictid# "\(eg:\)  | Finding site \(attribute\) |") _of [ 45679000 | Appendiceal lymphoid nodule (body structure)|](http://snomed.info/id/45679000 "45679000 | Appendiceal lymphoid nodule \(body structure\) |")
 
-<figure><img src="images/174690343.png" alt="" title=""><figcaption><p>Figure 1: Stated view of Lymphoid hyperplasia of appendix (disorder)</p></figcaption></figure>
+<figure><img src="images/179930727.png" alt="" title=""><figcaption><p>Figure 1: Stated view of Lymphoid hyperplasia of appendix (disorder)</p></figcaption></figure>
 
 ## Associated with
 
@@ -60,7 +64,7 @@ For example,
 
 [ 6211002 | Polyarthritis associated with another disorder (disorder)|](http://snomed.info/id/6211002 "6211002 | Polyarthritis associated with another disorder \(disorder\) |")
 
-<figure><img src="images/174690339.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 6211002 |Polyarthritis associated with another disorder (disorder)| using the |Associated with (attribute)|</p></figcaption></figure>
+<figure><img src="images/179930723.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 6211002 |Polyarthritis associated with another disorder (disorder)| using the |Associated with (attribute)|</p></figcaption></figure>
 
 ## Before
 
@@ -73,6 +77,8 @@ This attribute identifies an organism, substance, physical object, physical forc
 For example, 
 
   *     * [ 4989003 | Electrical burn of skin (disorder)|](http://snomed.info/id/4989003 "4989003 | Electrical burn of skin \(disorder\) |") has the  _[ 246075003 | Causative agent (attribute)|](http://snomed.info/id/246075003 "246075003 | Causative agent \(attribute\) |") _of __ [ 18213006 | Electricity (physical force)|](http://snomed.info/id/18213006 "18213006 | Electricity \(physical force\) |")
+
+Although Pharmaceutical / biologic product (product) and its descendants are considered valid values for Causative agent (attribute) by the MRCM, they are not currently used as values for this attribute in the International Release. The only exception is 787859002 |Vaccine product (medicinal product)| and its descendants, which can be used as valid values for this attribute.
 
 The following guidelines should be considered where the causative agent is a substance:
 
@@ -108,6 +114,16 @@ The clinical course value is added when appropriate to the condition and thus sp
 
 Many conditions with acute (sudden) onsets also have acute (short-term) courses. Few conditions with chronic (long-term) durations require rapid versus gradual onset subtyping. Thus, there is no clear need for separating the rapidity of onset from the duration of a disease. The clinical course attribute, which combines onset and course, has been more reproducible and useful than two attributes that attempt to separate the meanings. 
 
+The word acute has more than one meaning, and the meanings are often overlapping or unclear. It may imply rapid onset, short duration, or high severity; in some circumstances it might be used to mean all of these. For morphological concepts, acute may also imply the kind of morphology associated with the speed of onset.
+
+For example,
+
+  *     * [ 4532008 | Acute inflammation (morphologic abnormality)|](http://snomed.info/id/4532008 "4532008 | Acute inflammation \(morphologic abnormality\) |") does not necessarily have a clinical course of sudden onset and/or short duration, but rather implies polymorphonuclear infiltration ( [ 84499006 | Chronic inflammation (morphologic abnormality)|](http://snomed.info/id/84499006 "84499006 | Chronic inflammation \(morphologic abnormality\) |") implies mononuclear cell infiltration, not necessarily a chronic course, although inflammation with a chronic course is highly correlated with a lymphocytic infiltration)
+
+2704003 |Acute disease (disorder)| is modeled with a Clinical course (attribute) of Sudden onset AND/OR short duration (qualifier value). For clinical conditions that necessitate further specificity, the more appropriate subtypes are available. ___Acute onset_ and s _udden onset_ are synonymous; clinical conditions specifying _acute onset_ should be modeled with a Clinical course (attribute) of Sudden onset (qualifier value).
+
+Acute-on-chronic (qualifier value) is an acute (sudden onset) event superimposed on a pre-existing chronic condition. This be either a sudden worsening of a chronic condition itself (an exacerbation) or the development of a new, separate acute illness on top of a chronic disease.
+
 ## Due to
 
 This attribute is used to identify a clinical finding/disorder, event, or procedure concept as the direct cause of another Clinical finding or Disorder concept. If the clinical finding merely predisposes to another disorder, rather than causing it directly, the more general [ | Associated with (attribute)|](http://snomed.org/fictid# "\(eg:\)  | Associated with \(attribute\) |") is used instead. 
@@ -133,6 +149,8 @@ This attribute is used to represent episodes of care provided by a physician or 
 For example,
 
   *     * Asthma with [ 246456000 | Episodicity (attribute)|](http://snomed.info/id/246456000 "246456000 | Episodicity \(attribute\) |") of [ 255217005 | First episode (qualifier value)|](http://snomed.info/id/255217005 "255217005 | First episode \(qualifier value\) |") represents the first time the patient presents to their healthcare provider with asthma.
+
+Episodicity is not used to model any concepts precoordinated in the International Release, but it can be used as a qualifier in postcoordination.
 
 ## Finding informer
 
@@ -162,7 +180,7 @@ Interprets and Has Interpretation are grouped together in a relationship group w
 
 For example,
 
-<figure><img src="images/174690341.png" alt="" title=""><figcaption><p>Figure 3: Inferred view of Inadequate intake of vitamin D and vitamin D derivative (finding)</p></figcaption></figure>
+<figure><img src="images/179930725.png" alt="" title=""><figcaption><p>Figure 3: Inferred view of Inadequate intake of vitamin D and vitamin D derivative (finding)</p></figcaption></figure>
 
 Qualifier values of |Below reference range| and |Above reference range| are preferred over values such as high/low, increased/decreased, etc. to describe Measurement finding (finding) concepts.
 
@@ -174,19 +192,25 @@ Interprets and Has Interpretation are grouped together in a relationship group w
 
 For example, 
 
-<figure><img src="images/174690340.png" alt="" title=""><figcaption><p>Figure 4: Stated view of |Decreased muscle tone (finding)|</p></figcaption></figure>
+<figure><img src="images/179930724.png" alt="" title=""><figcaption><p>Figure 4: Stated view of |Decreased muscle tone (finding)|</p></figcaption></figure>
 
 In general, the value for the |Interprets| attribute should be from the |Observable entity| hierarchy rather than the |Procedure| hierarchy. 
 
 |Observable entity| concepts that are modeled with a |Scale type (attribute)| relationship should not be used as a value for a Clinical finding's |Interprets| relationship. The existing _vital sign_ |Observable entity| concepts, e.g. |Arterial blood pressure (observable entity)| are exceptions to this guideline; they are permitted for use. 
 
-Be aware that SNOMED CT currently contains some concepts in the |Evaluation Procedure| hierarchy which logically belong in the |Observable entity| hierarchy. Reconciliation of the overlap between these two hierarchies will be undertaken at a future date. Discussions about the final solution for the |Observable entity| and |Evaluation Procedure| issue are ongoing. See [Observable Entity vs. Evaluation procedure](Observable-Entity_174690597.html). 
+In the guidance on the use of the [|Scale type (attribute)](https://confluence.ihtsdotools.org/display/EDUEG/Observable+Entity+Defining+Attributes)|, it has been noted that going forward, international |Observable entity| concepts will not be modeled with the [|](http://snomed.org/fictid)Scale type (attribute)[|](http://snomed.org/fictid). Extension concepts are permitted to add specific subtypes of observable entities that include the [|](http://snomed.org/fictid)Scale type (attribute)[|](http://snomed.org/fictid), if desired.
+
+Be aware that SNOMED CT currently contains some concepts in the |Evaluation Procedure| hierarchy which logically belong in the |Observable entity| hierarchy. Reconciliation of the overlap between these two hierarchies will be undertaken at a future date. Discussions about the final solution for the |Observable entity| and |Evaluation Procedure| issue are ongoing. See [Observable Entity vs. Evaluation procedure](Observable-Entity_179930983.html). 
 
 When working with the Interprets attribute, consider the values used by the supertypes and possible subtypes of your concept for this attribute. This is because the |Interprets| values must be drawn from the same hierarchy, e.g. |Observable entity| hierarchy or |Procedure| hierarchy as supertypes and subtypes, to support modeling and correct subsumption. 
+
+For concepts in the 118245000 |Measurement finding (finding)| subhierarchy, the value for 363714003 |Interprets (attribute)| can be an Evaluation procedure, Laboratory procedure, or an Observable entity concept. In the future, the range of values may change when discussion of the relationship between evaluation procedures and observable entities concludes.
 
 ## Has realization
 
 This attribute is used to specify the process or activity that is the consequence of realization of the function. 
+
+Allergy to X is modeled with [ 719722006 | Has realization (attribute)|](http://snomed.info/id/719722006 "719722006 | Has realization \(attribute\) |") of [ 472964009 | Allergic process (qualifier value)|](http://snomed.info/id/472964009 "472964009 | Allergic process \(qualifier value\) |") and [ 246075003 | Causative agent (attribute)|](http://snomed.info/id/246075003 "246075003 | Causative agent \(attribute\) |") of [ 105590001 | Substance (substance)|](http://snomed.info/id/105590001 "105590001 | Substance \(substance\) |") . Find the allergy template at the [Clinical finding and disorder templates](https://confluence.ihtsdotools.org/pages/viewpage.action?pageId=64260419) page for more information including exceptions.
 
 ## Occurrence
 
@@ -195,6 +219,8 @@ This attribute refers to the specific period of life during which a condition fi
 For example, 
 
   *     * [ 192611004 | Childhood phobic anxiety disorder (disorder)|](http://snomed.info/id/192611004 "192611004 | Childhood phobic anxiety disorder \(disorder\) |") has the  [ 246454002 | Occurrence (attribute)|](http://snomed.info/id/246454002 "246454002 | Occurrence \(attribute\) |") of  [ 255398004 | Childhood (qualifier value)|](http://snomed.info/id/255398004 "255398004 | Childhood \(qualifier value\) |")
+
+Multiple values of  [ 246454002 | Occurrence (attribute)|](http://snomed.info/id/246454002 "246454002 | Occurrence \(attribute\) |") for a single concept are not desirable. They will be addressed in a future release.
 
 ## Pathological process
 
@@ -220,6 +246,8 @@ Disorders which involve congenital anomalies are defined with the following grou
   * Finding site = X (body structure)  
   
 
+Congenital X morphology concepts should not be used. They may be used only if there is not a non-congenital supertype. 
+
 ## Severity
 
 This attribute is used to subclass a Clinical finding concept according to its severity. However, this use is  _relative_ , i.e. it is incorrect to assume that the disease intensity or hazard is the same for all clinical findings to which this attribute is applied. 
@@ -237,6 +265,14 @@ While this attribute is useful to create subtypes of specific concepts and to di
   * Some disorders that are life-threatening do not ordinarily have a severity assigned to them. Cancer, for example, is not usually described as mild, moderate, or severe, but rather by stage or grade.
 
 The Severity attribute is not applied to subtypes of 162465004 |Symptom severity (finding)| because the severity of a symptom is different to the severity of a disease. Please note this piece of guidance does not align with the MRCM but is an editorial guideline. 
+
+Generally, |Severity (attribute)| is not used to model concepts precoordinated in the International Release, but there are some exceptions. 
+
+A valid exception requires an internationally accepted definition that can be consistently applied and used reliably for international comparison. Even though a reference may be internationally sourced, its use may not always be uniformly applied by multiple countries. Classifications of severity that represent variation in clinical presentations and enact limitations with age ranges, sex, or pregnancy status, do not apply universally to all patients of all ages, prove problematic, and may not be generally useful. 
+
+The requestor is responsible for obtaining permission for use in SNOMED CT if required by the international body. 
+
+As an alternative to precoordination in the international release, this attribute can be used as a qualifier in postcoordination. However, beware that postcoordination of severity results in the same irreproducibility issues as pre-coordination. 
 
 ## Temporally related to
 

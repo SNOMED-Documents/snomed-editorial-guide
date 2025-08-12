@@ -1,7 +1,10 @@
-# DOCEG (SNOMED CT Editorial Guide)
+# EDUEG (Education Editorial Guide)
 
-Key | DOCEG  
----|---  
-Name | SNOMED CT Editorial Guide  
-Description | HRCM:HRCM20250601  
-Created by | rdavidson (2023-Feb-01)
+
+
+| Key | EDUEG |
+|---|---|
+| Name | Education Editorial Guide |
+| Description | HRCM:HRCM20250201 |
+| Created by | rdavidson (2023-Feb-23) |
+

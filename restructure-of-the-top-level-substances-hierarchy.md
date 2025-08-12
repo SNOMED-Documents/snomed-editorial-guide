@@ -4,7 +4,7 @@ Previously, the substances hierarchy in SNOMED CT was organized using a number o
 
 The current substances top level hierarchy includes a number of grouper concepts that are role or use case based. The proposal is to create a substances top level hierarchy as below.
 
-<figure><img src="images/174691412.png" alt="" title=""><figcaption><p>The grouper concepts that are retained as top level substance concepts will need review of their descendants, but ultimately it should provide a consistent hierarchy.</p></figcaption></figure>
+<figure><img src="images/179931796.png" alt="" title=""><figcaption><p>The grouper concepts that are retained as top level substance concepts will need review of their descendants, but ultimately it should provide a consistent hierarchy.</p></figcaption></figure>
 
   
 

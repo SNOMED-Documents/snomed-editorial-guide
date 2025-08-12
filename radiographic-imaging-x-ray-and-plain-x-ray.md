@@ -17,6 +17,8 @@ The following are acceptable synonyms:
   * Plain film of X
   * Plain radiography of X
 
+These synonyms are only added on request or have been retained as active synonyms where they are already published. They are not routinely included as synonyms for the international edition.
+
 ## Unacceptable descriptions
 
 The terms _radiologic_ and _radiologic guidance_ are no longer permitted for any new descriptions, neither FSN nor synonyms. Neither are the following patterns permitted for any new descriptions:

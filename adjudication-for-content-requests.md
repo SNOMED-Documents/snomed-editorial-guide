@@ -14,6 +14,8 @@ All change requests, whether for new content or for change to existing content, 
 
   
 
+Legacy concepts, i.e. concepts not in the current draft/work-in-progress version of SNOMED CT, may not follow current guidelines. Requests based on legacy concepts are unacceptable.
+
 ## Appeals, deferrals, and resolution
 
 ### Appeals

@@ -8,5 +8,7 @@ While a technique describes  _how_ a specific observation is performed, it shoul
 
 Information about  _what_ is being observed would be included in a separate attribute of the Observable entity model. The [Observable Entity Defining Attributes page](https://confluence.ihtsdotools.org/display/DOCEG/Observable+Entity+Defining+Attributes) provides more details about modeling of observables using various attributes.
 
+Reference methods and standardized method protocols are out of scope of the technique hierarchy.
+
   
 

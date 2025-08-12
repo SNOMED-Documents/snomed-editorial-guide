@@ -11,7 +11,11 @@ Generally, names should:
 
 Naming conventions should not be based on word order preferences (e.g. to facilitate search or display). Creating multiple word order variants for these purposes is outside the scope of the International Release of SNOMED CT _._
 
-##  Articles
+SNOMED CT relies on the rules for _usefulness_ to avoid excessive pre-coordination (see _[Scope](Scope_179930669.html)_).
+
+Approved pre-coordination naming patterns have been created and are available at [Pre-coordination Naming Patterns Project](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project).
+
+## Articles
 
 Descriptions should not include articles such as  _a,_  _an,_ and  _the_. There are legacy descriptions that contain articles such as _the_ that will be corrected over time.
 
@@ -81,6 +85,10 @@ Based on recommendation by the International Protein Nomenclature Guidelines, an
 
   *     * For example, 1222711007 |ALK tyrosine kinase receptor (substance)| where ALK stands for Anaplastic lymphoma kinase 
     * For example, 1222739008 |DNA mismatch repair protein Msh6 (substance)| where DNA stands for deoxyribonucleic acid
+
+Msh6 in "DNA mismatch repair protein Msh6 (substance)" is a protein symbol standing for "mutS homolog 6" protein. Gene and Protein symbols are short identifiers, typically 3 to 8 characters, that are usually created by contraction or acronymic abbreviation. They are pseudo-acronyms, in the sense that they are complete identifiers or short names. They are considered synonymous with (rather than standing for) the gene/protein name (or any of its aliases), regardless of whether the initial letters "match". Gene and protein symbols maybe part of protein name:
+
+  * For example, 1229847004 |Ubiquitin carboxyl-terminal hydrolase BAP1 (substance)|
 
   
 
@@ -155,6 +163,8 @@ This concept references the body structure hierarchy in the finding site of |Str
 
 This concept references the body structure hierarchy in the finding site of 89837001 |Urinary bladder structure (body structure)| and uses "urinary bladder" in the FSN and PT. 
 
+The term _bladder_ must be include _urinary_ to distinguish from gallbladder in order to aid in translation. _Urinary bladder_ must be used in both the fully specified name and preferred term. 
+
 The descriptions should be context neutral for these foundation hierarchies. Where context is explicit for a disease or procedure, the preferred term from foundation hierarchies can be used instead. For example, procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional. The procedure site should be modeled with the cross-sectional abdomen. However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'. It is the same reason for the preferred term 'CT of abdomen'.
 
 ### Exceptions 
@@ -168,6 +178,13 @@ The descriptions should be context neutral for these foundation hierarchies. Whe
     * For example, In the Substance hierarchy, a grouper concept, 1149419004 |Psittacidae protein (substance)|, was created as a parent concept to the following two concepts:
       * 146711000146102 |Parakeet protein (substance)|
       * 146701000146104 |Parrot protein (substance)|
+
+Outside of the body structure hierarchy, concepts should not include the words  _structure_ or _structure of_ in the concept descriptions.
+
+For example, 
+
+  *     * For the body structure concept, [266005 |Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005), a disorder concept with this body structure is [724056005 |Malignant neoplasm of lower lobe of right lung (disorder)|](http://snomed.info/id/724056005).
+    * For the body structure concept, [266005 |Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005), a procedure with this body structure is [726425007 |Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007).
 
 ## Description Length Limitations
 

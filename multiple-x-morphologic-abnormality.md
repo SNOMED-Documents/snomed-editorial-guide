@@ -13,3 +13,5 @@ Having the _Multiple X_ morphologic abnormality concept as a subtype of the “X
 For example,
 
 _Multiple cysts of eyelid_ would not subsume _cysts of upper and lower eyelids_ in the current concept model.
+
+In the future, these disorder concepts may be updated with a more robust representation utilizing cardinality as part of the logical definition. However, this functionality is not available in the reasoner profile of SNOMED CT at this time.

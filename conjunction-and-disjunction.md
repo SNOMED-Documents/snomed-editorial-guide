@@ -2,30 +2,11 @@
 
 In _SNOMED CT_ , _and_ is used in descriptions to represent the operator for logical conjunction. Concepts with the disjunctives (_or, and/or_) are unacceptable. Instead, there should be separate concepts. There are limited exceptions where _and/or_ is used to represent the operator for inclusive disjunction. This helps to avoid confusion with the literal use of  _or_ in common language, i.e. only one of two operands is true; rarely both operands are true. 
 
-Conjunction and Disjunction  
-  
-|  _and_|  _or_|  _and/or_  
-SNOMED CT| **Conjunction: And**
+| Conjunction and Disjunction |   |   |   |
+|---|---|---|---|
+|   | and | or | and/or |
+| SNOMED CT | Conjunction: And A set of operands is true, if and, only if all of its operands are true A and B are true | Exclusive disjunction: Or Either A or B is true but not both | Inclusive disjunction: And/or A set of operands is true, if and, only if one or more of its operands is true Either A or B is true or Both A and B are true |
 
-  * A set of operands is true, if and, only if all of its operands are true
-
-  * A and B are true
-
-| **Exclusive disjunction: Or**
-
-  * Either A or B is true but not both
-
-| **Inclusive disjunction: And/or**
-
-  * A set of operands is true, if and, only if one or more of its operands is true  
-
-  * Either A or B is true  
-or   
-
-  * Both A and B are true
-
-  
-  
 ## Disjunctives
 
 Disjunctives are unacceptable with limited exceptions below. Instead of disjunctives, there should be separate concepts when possible. 
@@ -51,6 +32,26 @@ For example,
   * 870746005 |Allergy to ergometrine and/or oxytocin (finding)|
 
   * 1149371006 |Sulfamethoxazole and/or trimethoprim overdose (disorder)|
+
+Disjunctives may be used if the:
+
+  * The referent is a single thing, but there isn't a name for it.
+
+For example,
+
+  *     * [ 774007 | Structure of head and/or neck (body structure)|](http://snomed.info/id/774007 "774007 | Structure of head and/or neck \(body structure\) |")
+
+  * The concept is an intensional navigational aggregate.
+
+For example,
+
+  *     * [ 707861009 | Structure of skin and/or skin-associated mucous membrane (body structure)|](http://snomed.info/id/707861009 "707861009 | Structure of skin and/or skin-associated mucous membrane \(body structure\) |")
+    * [ 768845000 | Xanthine and/or xanthine derivative (substance)|](http://snomed.info/id/768845000 "768845000 | Xanthine and/or xanthine derivative \(substance\) |")
+    * [ 767271006 | Lead and/or lead compound (substance)|](http://snomed.info/id/767271006 "767271006 | Lead and/or lead compound \(substance\) |")
+
+  * The concept is based on an authoritative source but not a classification system.
+
+The use of _and/or_ in a description with disjunction should be lower case.
 
 ## Anatomical structure hierarchy
 

@@ -4,69 +4,23 @@
 
 A value from the choices below must be chosen as a reason for inactivating a concept. Inactivation replacement associations are ultimately at the author's discretion. Especially in the instance of an infinite number of possible replacements, clinical relevance and subset inclusion should be considered. Non-synonymous synonyms should also be inactivated and reassigned.
 
-Inactivation reason| Association type| Cardinality| Notes  
----|---|---|---  
-Ambiguous|  _Possibly equivalent to_|  1..*| 
+| Inactivation reason | Association type | Cardinality | Notes |
+|---|---|---|---|
+| Ambiguous | Possibly equivalent to | 1..* | The inactivated concept is inherently ambiguous. Every effort should be made to identify all of the clinically useful "POSSIBLY_EQUIVALENT_TO" target concepts, which should be semantically as close as possible to the meaning of the inactivated concept. Where appropriate, new concepts should be created if they are clinically valid. POSSIBLY_EQUIVALENT_TO target may be singular where the second target is a concept that is of little or no clinical usefulness. It is not necessary to represent all of the semantic meaning of the inactivated concept if the concepts needed should not exist in SNOMED CT. If the FSN is vague, not ambiguous, consider using Meaning of component unknown. |
+| Classification-derived component | Replaced by | 0..1 | Applies to concepts with classification type descriptions - do not have to appear in a classification. Use with "not otherwise specified", "NOS", "not elsewhere classified", "NEC", "unspecified", "other". |
+| Partially equivalent to | 0..* | Use Partially equivalent to where the intended meaning is disjunction for classification purposes , regardless of whether the terms are explicitly written as "with", "and", "and/or". The replacements must include all of the clinically valid elements of the disjunction, e.g., two or more concept target values. Every effort should be made to identify all of the clinically valid Partially equivalent to target concepts which should be semantically as close as possible to the meaning of the inactivated concept. Where applicable and appropriate, new concepts should be created to describe the clinically relevant aspects of the inactivated concept. |   |
+| Duplicate component | Same as | 1..1 | The concept has been made inactive because it has the same meaning as another concept. |
+| Erroneous component | Replaced by | 1..1 | Applies to FSNs which contain an error, that when corrected, potentially changes the semantic meaning of the concept. Where the error is grammatical or a spelling mistake, which when corrected does not change the meaning, the description rather than the concept should be inactivated. |
+| Meaning of component unknown | No association type applied | 0..0 | Meaning of the concept cannot be determined. The FSN is vague, not ambiguous . |
+| Non-conformance to editorial policy | No suitable replacement identified | 0..0 | A suitable replacement cannot be identified or concept is no longer in scope, e.g. administrative, occupation or country concepts are under discussion. When jurisdictional control of a concept passes between extensions, eg. international core and the veterinary extension, or relates to specific forms, legal entities, etc.; no replacement is required. Applies to a concept which does not adhere to editorial guidelines eg. grouper that cannot be defined. Applies to concept that does not adhere to Precoordination Naming Patterns Replaced by: Where conformance to editorial policy potentially changes the meaning of a concept and it is possible to replace this with a concept that is semantically very close to the inactivated concept. Alternative: Editorial policy results in a change in scope e.g. branded products were considered out of scope for SNOMED CT, an Alternative would be the generic product. |
+| Replaced by | 0..1 |   |   |
+| Alternative | 0..* |   |   |
+| Outdated component | No suitable replacement identified | 0..0 | The inactivated concept is an outdated concept that is no longer considered to be clinically acceptable or semantically interoperable internationally. In some circumstances, an outdated concept simply falls into disuse without any appropriate replacement. Possibly r eplaced by is used when two or more potential replacements exist; two or more concepts as targets can be selected. Replaced by is used when a concept exists that is semantically similar to, or more general than, the inactivated concept for the purposes of reconciling historical data analysis. |
+| Possibly replaced by | 0..* |   |   |
+| Replaced by | 0..1 |   |   |
 
-  * The inactivated concept is inherently ambiguous.
-  * Every effort should be made to identify **all** of the clinically useful "POSSIBLY_EQUIVALENT_TO" target concepts, which should be semantically as close as possible to the meaning of the inactivated concept. Where appropriate, new concepts should be created if they are clinically valid. 
-  * POSSIBLY_EQUIVALENT_TO target may be singular where the second target is a concept that is of little or no clinical usefulness. It is not necessary to represent all of the semantic meaning of the inactivated concept if the concepts needed should not exist in SNOMED CT.
-  * If the FSN is vague, not ambiguous, consider using  _Meaning of component unknown._
+When changes are made to a historical relationship for a concept that was previously inactivated, such as Limited/WAS_A, assign a new historical relationship that facilitates traceability of the concept (duplicate, ambiguous, classification derived, etc.). The _Limited component_ inactivation reason (WAS_A association type) is no longer in use for new content inactivations as of the July 2018 release. 
 
-  
-Classification-derived component|  _Replaced by_ | 0..1| 
-
-  * Applies to concepts with classification type descriptions - do not have to appear in a classification.
-  * Use with "not otherwise specified", "NOS", "not elsewhere classified", "NEC", "unspecified", "other".
-
-  
-_Partially equivalent to_|  0..*| 
-
-  * Use Partially _equivalent to_ where the intended meaning is disjunction for classification purposes, regardless of whether the terms are explicitly written as "with", "and", "and/or". The replacements must include all of the clinically valid elements of the disjunction, e.g., two or more concept target values. 
-  * Every effort should be made to identify **all** of the clinically valid  _Partially_ _equivalent to_ target concepts which should be semantically as close as possible to the meaning of the inactivated concept. Where applicable and appropriate, new concepts should be created to describe the clinically relevant aspects of the inactivated concept.
-
-  
-Duplicate component|  _Same as_ | 1..1| 
-
-  * The concept has been made inactive because it has the same meaning as another concept.
-
-  
-Erroneous component|  _Replaced by_ | 1..1| 
-
-  * Applies to FSNs which contain an error, that when corrected, potentially changes the semantic meaning of the concept.
-  * Where the error is grammatical or a spelling mistake, which when corrected does not change the meaning, the _description_ rather than the _concept_ should be inactivated.
-
-  
-Meaning of component unknown| No association type applied| 0..0| 
-
-  * Meaning of the concept cannot be determined.
-  * The FSN is **vague, not ambiguous**.
-
-  
-Non-conformance to editorial policy| No suitable replacement identified  
-| 0..0| 
-
-  * A suitable replacement cannot be identified or concept is no longer in scope, e.g. administrative, occupation or country concepts are under discussion. 
-  * When jurisdictional control of a concept passes between extensions, eg. international core and the veterinary extension, or relates to specific forms, legal entities, etc.; no replacement is required.
-  * Applies to a concept which does not adhere to editorial guidelines eg. grouper that cannot be defined. 
-  * Applies to concept that does not adhere to Precoordination Naming Patterns
-  *  _Replaced by:_ Where conformance to editorial policy potentially changes the meaning of a concept and it is possible to replace this with a concept that is semantically very close to the inactivated concept.
-  * _Alternative:_ Editorial policy results in a change in scope e.g. branded products were considered out of scope for SNOMED CT, an _Alternative_ would be the generic product.
-
-  
-_Replaced by_ | 0..1  
- _Alternative_|  0..*  
-Outdated component| No suitable replacement identified| 0..0| 
-
-  * The inactivated concept is an outdated concept that is no longer considered to be clinically acceptable or semantically interoperable internationally.
-  * In some circumstances, an outdated concept simply falls into disuse without any appropriate replacement.
-  * _Possibly_ r _eplaced by_ is used when two or more potential replacements exist; two or more concepts as targets can be selected. 
-  *  _Replaced by_ is used when a concept exists that is semantically similar to, or more general than, the inactivated concept for the purposes of reconciling historical data analysis.
-
-  
-_Possibly replaced by_|  0..*  
-_Replaced by_ | 0..1  
-  
 ## Ambiguous
 
 All possible meanings should be represented in the replacement targets when feasible, creating new concepts as replacements when appropriate. 
@@ -112,6 +66,8 @@ The Duplicate component is the inactivation for duplicated concepts:
 
 Any possible duplicates between concepts among other paired hierarchies not listed above should be reconsidered as duplicates and directed to another inactivation reason, likely Erroneous. 
 
+If the change is a request, inform the requestor as to which concept is inactivated.
+
 ## Erroneous
 
 Where the error gives rise to potential ambiguity, use the inactivation reason of Ambiguous component. Otherwise, the Erroneous component requires a single _Replaced by_ value. 
@@ -138,6 +94,8 @@ Possibly replaced by is used for multiple replacement concepts.
 For example,
 
 A substance or organism originally believed to be a single entity has been reclassified as two or more substances or organisms.
+
+For more information, see the SNOMED CT Editorial Advisory Group Confluence page, [Management of Concept Inactivation](https://confluence.ihtsdotools.org/display/editorialag/Management+of+Concept+Inactivation) for details. 
 
   
 

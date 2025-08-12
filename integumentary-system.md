@@ -6,6 +6,8 @@ This is an example of a body structure that is used to group related terms. The 
 
 Skin and/or skin-associated mucosa is intended for use in dermatology. It is not intended to subsume all mucosal structures, which are under Mucous membrane structure (body structure).
 
+For the meaning of  _diseases of the skin_ , refer to the draft of ICD-11:  _Diseases of the skin incorporate conditions affecting the epidermis, its appendages (hair, hair follicle, sebaceous glands, apocrine sweat gland apparatus, eccrine sweat gland apparatus and nails) and associated mucous membranes (conjunctival, oral and genital), the dermis, the cutaneous vasculature and the subcutaneous tissue (subcutis)._
+
 ## Skin regions, skin of <named body part>
 
 Since the phrase  _skin of finger_ can mean  _some or all of the skin of finger_ (if interpreted as a  _structure_ , rather than  _entire_ in the  _The StructureEntirePart (SEP) model_ , we could use  _IS-A_ to represent the relationship between skin of finger and skin of hand. Thus, skin of finger  _IS-A_ skin of hand,  _IS-A_ Skin structure of upper limb,  _IS-A_  _skin region_. The word  _region_ is not used in all of these names, because it may refer to the  _entire_ region or a  _part of_ a region.

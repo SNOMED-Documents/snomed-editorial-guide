@@ -12,18 +12,19 @@ The morphologic abnormality subhierarchy is located two levels below the Body st
 
 The concepts in the morphologic abnormality hierarchy represent abnormal body structures. 
 
+The subhierarchy of 118956008 |Body structure, altered from its original anatomical structure (morphologic abnormality)| is to remain primitive. Authors are not to define morphologic abnormality concepts.
+
   
 
 ## Content in this space
 
-  * [Abscess](Abscess_174690321.html)
-  * [Combining morphologies](Combining-morphologies_174690315.html)
-  * [Congenital anomaly](Congenital-anomaly_174690319.html)
-  * [Creating new morphologies](Creating-new-morphologies_174690314.html)
-  * [Degeneration and Degenerative abnormality](Degeneration-and-Degenerative-abnormality_174690320.html)
-  * [Fracture](Fracture_174690322.html)
-  * [Lump and mass](Lump-and-mass_283312287.html)
-  * [Morphologic Abnormalities vs. Findings](Morphologic-Abnormalities-vs.-Findings_174690313.html)
-  * [Multiple x morphologic abnormality](Multiple-x-morphologic-abnormality_196641593.html)
-  * [Tumor morphology](Tumor-morphology_174690318.html)
+  * [Abscess](Abscess_179930705.html)
+  * [Combining morphologies](Combining-morphologies_179930699.html)
+  * [Congenital anomaly](Congenital-anomaly_179930703.html)
+  * [Creating new morphologies](Creating-new-morphologies_179930698.html)
+  * [Degeneration and Degenerative abnormality](Degeneration-and-Degenerative-abnormality_179930704.html)
+  * [Fracture](Fracture_179930706.html)
+  * [Morphologic Abnormalities vs. Findings](Morphologic-Abnormalities-vs.-Findings_179930697.html)
+  * [Multiple x morphologic abnormality](Multiple-x-morphologic-abnormality_225054940.html)
+  * [Tumor morphology](Tumor-morphology_179930702.html)
 

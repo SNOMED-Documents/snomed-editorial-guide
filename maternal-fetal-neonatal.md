@@ -12,7 +12,7 @@ Mother and fetus share many time periods, such as antenatal. However, some perio
 
 A diagram of the relationships between these periods is shown below:
 
-<figure><img src="images/174690545.png" alt="" title=""><figcaption><p>The life phase of pregnancy-related findings and disorders is applied using the Occurrence (attribute). A concept must identify:</p></figcaption></figure>
+<figure><img src="images/179930931.png" alt="" title=""><figcaption><p>The life phase of pregnancy-related findings and disorders is applied using the Occurrence (attribute). A concept must identify:</p></figcaption></figure>
 
   1. Which actor (mother or the fetus/neonate) does the circumstance relate
   2. In which life phase of the actor does the condition necessarily relate
@@ -56,11 +56,13 @@ In relation to the neonate, there is a clinical and epidemiological distinction 
 
 Maternal time period values can be found in the subhierarchies below:
 
-<figure><img src="images/174690547.png" alt="" title=""><figcaption><p>Generally, it is clear what the appropriate value is, but some knowledge is required to distinguish the correct choice in some circumstances. Definitions have been added to aid in correct selection.</p></figcaption></figure>
+<figure><img src="images/179930933.png" alt="" title=""><figcaption><p>Generally, it is clear what the appropriate value is, but some knowledge is required to distinguish the correct choice in some circumstances. Definitions have been added to aid in correct selection.</p></figcaption></figure>
 
 For example,
 
 In relation to _postpartum uterine hemorrhage_ , this would be modeled using an Occurrence (attribute) of Postpartum period. The puerperium is generally defined as the period within 42 days after birth, and thus, the postpartum period relates to this six-week timeframe. Some conditions can occur more than 6 weeks post-delivery, e.g., _postpartum thyroiditis_ , _postnatal depression_ (onset can range from a few days to a few weeks following delivery, generally in the first 2–3 months following childbirth). In this situation, the choice of the more general _Maternal postnatal_ period should be made.
+
+Use of the term _obstetric_ is confusing in regards to both timing and determination of the intended person. Concepts should rather explicitly identify these elements.
 
   
 
@@ -68,11 +70,13 @@ In relation to _postpartum uterine hemorrhage_ , this would be modeled using an 
 
 Similar to the Maternal time periods above, the fetal period is the superordinate as illustrated below. There is no label for the concatenated time of the actor during the fetal and neonatal period within medicine (though colloquially called baby), and so the superordinate is named _fetal and/or neonate_. Similarly, to find concepts which describe conditions of this global phase requires a preferred term expressing this, but in the case of perinatal conditions relating to the fetus and/or early neonate, the word perinatal is commonly used as a substitute.
 
-<figure><img src="images/174690546.png" alt="" title=""></figure>
+<figure><img src="images/179930932.png" alt="" title=""><figcaption><p>When modeling a fetal finding or fetal disorder, the |Finding site (attribute)| should not be a  <em>fetal</em> body structure unless the structure is unique to the fetal period, such as |Umbilical cord structure (body structure)|.</p></figcaption></figure>
+
+ _Note: This is guideline has not been applied to fetal procedures at this point in time._
 
   
 
-## Fetal and/or neonatal period _versus_ Fetal or neonatal period
+##  Fetal and/or neonatal period _versus_ Fetal or neonatal period
 
 Review is ongoing of all disorder concepts containing the phrase _fetal or neonatal._ The concept 450426006 |Fetal **or** neonatal period (qualifier value)| will be inactivated, leaving only 1156676003 |Fetal **and/or** neonatal period (qualifier value)|.
 

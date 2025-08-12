@@ -4,10 +4,10 @@ The 736542009 |Pharmaceutical dose form (dose form)| subhierarchy of 362981000 |
 
 Editorial guidelines for the supporting hierarchies required to support creation of sufficiently defined pharmaceutical dose form concepts are documented in the following sections.
 
-  * [Basic Dose Form](Basic-Dose-Form_174691157.html)
-  * [Dose Form Administration Method](Dose-Form-Administration-Method_174691199.html)
-  * [Dose Form Intended Site](Dose-Form-Intended-Site_174691175.html)
-  * [Dose Form Release Characteristic](Dose-Form-Release-Characteristic_174691184.html)
-  * [Dose Form Transformation](Dose-Form-Transformation_174691209.html)
-  * [State of Matter](State-of-Matter_174691146.html)
+  * [Basic Dose Form](Basic-Dose-Form_179931542.html)
+  * [Dose Form Administration Method](Dose-Form-Administration-Method_179931584.html)
+  * [Dose Form Intended Site](Dose-Form-Intended-Site_179931560.html)
+  * [Dose Form Release Characteristic](Dose-Form-Release-Characteristic_179931569.html)
+  * [Dose Form Transformation](Dose-Form-Transformation_179931594.html)
+  * [State of Matter](State-of-Matter_179931531.html)
 

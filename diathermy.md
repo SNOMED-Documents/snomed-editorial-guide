@@ -79,6 +79,10 @@ For example,
 
 **Diathermy** of**fallopian tube**
 
+[[Action] of X by diathermy (procedure) / [Action] of X using electrical energy (procedure)](https://confluence.ihtsdotools.org/display/SCTEMPLATES/Surgical+diathermy+%28procedure%29.+%5BAction%5D+of+X+by+diathermy+%28procedure%29...+-+for+review)
+
+[Diathermy of X (procedure)](https://confluence.ihtsdotools.org/display/SCTEMPLATES/Surgical+diathermy+%28procedure%29.+Diathermy+of+X+%28procedure%29...+-+for+review)
+
 ## 1287433006 |Therapeutic diathermy (regime/therapy)|
 
 ### Definition 
@@ -100,6 +104,8 @@ For example,
 304394001 |**Short wave** diathermy to neck (regime/therapy)|
 
 49913004 |**Ultrashort wave** diathermy (regime/therapy)|
+
+[Therapeutic diathermy (regime/therapy)](https://confluence.ihtsdotools.org/pages/viewpage.action?pageId=209290444)
 
 ## Exclusions
 

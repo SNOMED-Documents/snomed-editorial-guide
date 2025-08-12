@@ -42,5 +42,7 @@ For example,
 
   *     * [ 110897001 | Bone marrow cytological material (specimen)|](http://snomed.info/id/110897001 "110897001 | Bone marrow cytological material \(specimen\) |") has the Specimen substance, Bone marrow fluid (substance)
 
+Although Pharmaceutical / biologic product (product) and its descendants are considered valid values for the 370133003 |Specimen substance (attribute)| by the MRCM, they are not currently used as values for this attribute in the International Release. The only exception is 787859002 |Vaccine product (medicinal product)| and its descendants, which can be used as valid values for this attribute.
+
   
 

@@ -18,6 +18,13 @@ For example,
 
 Because a resection of a neoplasm of the bladder can be performed by transurethral and open approaches, concepts are separately identified with each approach.
 
+Use _via_ for route or approach and _using_ for device. 
+
+For example,
+
+  * Administration of sedative _via_ nasal route (procedure)
+  * Internal fixation _using_ screw (procedure)
+
 One description, either preferred term or synonym, should match the FSN without the semantic tag. Synonyms and/or preferred terms using the common clinical names of procedures are acceptable. 
 
 A common naming pattern for concepts in the procedure hierarchy is:
@@ -33,6 +40,9 @@ For example,
   * [ 82035006 | Resection of polyp (procedure)|](http://snomed.info/id/82035006 "82035006 | Resection of polyp \(procedure\) |") has a synonym of polypectomy
 
   
+
+  * Completed or in review: <https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project>
+  * Proposed for future review: <https://confluence.ihtsdotools.org/display/IHTSDO1/Unreviewed+Patterns+by+Hierarchy>
 
   
 
@@ -100,6 +110,12 @@ Unacceptable example,
 ## Complexity
 
 Complexity can mean either the amount of effort required, or it can be based on realm-specific definitions (e.g. simple arthrodesis, simple repair, complex repair, etc.). Procedure concepts with modifiers representing complexity are not allowed in the International Release.
+
+Procedures that use the terms  _simple_ or _complex_ are allowed if defined with reproducible meanings, based on what is done to or for the patient, rather than how much effort is expended.
+
+For example,
+
+  *     * [ 172043006 | Simple mastectomy (procedure)|](http://snomed.info/id/172043006 "172043006 | Simple mastectomy \(procedure\) |") The concept is reproducibly defined as the removal of all breast tissue without removal of axillary contents. This is differentiated from modified radical, radical, skin-sparing, and subcutaneous variants of mastectomy.
 
   
 

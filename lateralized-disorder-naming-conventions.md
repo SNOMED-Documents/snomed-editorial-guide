@@ -1,5 +1,7 @@
 # Lateralized Disorder Naming Conventions
 
+See also Anatomical Structure Naming Conventions section [Naming Convention for Digits of Hand and Foot](https://confluence.ihtsdotools.org/display/WIPEG/Naming+Convention+for+Digits+of+Hand+and+Foot?src=sidebar "Follow link") and Laterality section [Laterality](https://confluence.ihtsdotools.org/display/WIPEG/Laterality?src=sidebar "Follow link")
+
 ## Right, left disorder concepts
 
 When creating a lateralized disorder concept, two concepts should be created: 
@@ -17,7 +19,7 @@ For example, [ 1089071000119109 | Inflammation of left mastoid (disorder)|](http
   *     * FSN: Inflammation of left mastoid (disorder)
     * PT: Left mastoiditis
 
-<figure><img src="images/174690359.png" alt="" title=""><figcaption><p>Figure 1: Stated view of Inflammation of left mastoid (disorder)</p></figcaption></figure>
+<figure><img src="images/179930743.png" alt="" title=""><figcaption><p>Figure 1: Stated view of Inflammation of left mastoid (disorder)</p></figcaption></figure>
 
   
 
@@ -34,6 +36,8 @@ For example,
 _Left interphalangeal thumb joint open traumatic dislocation_ should follow naming guidance of _Open traumatic dislocation of interphalangeal joint of left thumb_.
 
 _Left abscess of foot_ is an incorrect term; instead, this should read _Abscess of left foot_. 
+
+With the addition of lateralized content in the International Release, the need for unspecified unilateral concepts is removed, as well as potentially dangerous, if used directly in a patient record. Unilateral concepts are not accepted.
 
   
 
@@ -76,15 +80,25 @@ For example, [ 15725081000119100 | Effusion of joint of bilateral feet (disorder
 
 Also note that _joint_ is singular. This is to denote that the joint may be singular on each side of the body; the plurality of feet will represent the laterality. Using _joints_ as plural may incorrectly reflect that there are multiple joints affected in both feet. 
 
+Do not use _both_ to describe disorders of the eyelids unless the concept's means _both upper eyelids_ or _both lower eyelids_ , only then can that synonym be included for bilateral eyelid disorder concepts. 
+
   
 
 ## Modeling of bilateral disorders
 
 Bilateral disorders should be modeled using two relationship groups, one for each lateralized body structure.
 
-<figure><img src="images/174690358.png" alt="" title=""><figcaption><p>Figure 2: Stated view of Inflammation of bilateral mastoids (disorder) with a role group for each side</p></figcaption></figure>
+<figure><img src="images/179930742.png" alt="" title=""><figcaption><p>Figure 2: Stated view of Inflammation of bilateral mastoids (disorder) with a role group for each side</p></figcaption></figure>
 
   
 
   
+
+Lateralized disorder concepts should not include the words _structure_ or _structure of_.
+
+For example, 
+
+  *     * With use of [ 266005 | Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005 "266005 | Structure of lower lobe of right lung \(body structure\) |") ,
+      * a disorder concept is termed [ 724056005 | Malignant neoplasm of lower lobe of right lung (disorder)|](http://snomed.info/id/724056005 "724056005 | Malignant neoplasm of lower lobe of right lung \(disorder\) |")
+      * a procedure is termed [ 726425007 | Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007 "726425007 | Lobectomy of lower lobe of right lung \(procedure\) |")
 

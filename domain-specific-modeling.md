@@ -8,25 +8,25 @@ Domains
 
 The following are the 19 domains arranged in alphabetical order. 
 
-  * [Body Structure](Body-Structure_174690290.html)
-  * [Clinical Finding and Disorder](Clinical-Finding-and-Disorder_174690335.html)
-  * [Environment and Geographical Location](Environment-and-Geographical-Location_174690590.html)
-  * [Event](Event_174690591.html)
-  * [Observable Entity](Observable-Entity_174690597.html)
-  * [Organism](Organism_174690618.html)
-  * [Pharmaceutical and Biologic Product](Pharmaceutical-and-Biologic-Product_174690621.html)
-  * [Physical Force](Physical-Force_174691256.html)
-  * [Physical Object](Physical-Object_174691257.html)
-  * [Procedure](Procedure_174691281.html)
-  * [Qualifier Value](Qualifier-Value_174691360.html)
-  * [Record Artifact](Record-Artifact_174691379.html)
-  * [Situation with Explicit Context](Situation-with-Explicit-Context_174691381.html)
-  * [SNOMED CT Model Component](SNOMED-CT-Model-Component_174691387.html)
-  * [Social Context](Social-Context_174691391.html)
-  * [Special Concept](Special-Concept_174691392.html)
-  * [Specimen](Specimen_174691394.html)
-  * [Staging and Scales](Staging-and-Scales_174691397.html)
-  * [Substance](Substance_174691398.html)
+  * [Body Structure](Body-Structure_179930674.html)
+  * [Clinical Finding and Disorder](Clinical-Finding-and-Disorder_179930719.html)
+  * [Environment and Geographical Location](Environment-and-Geographical-Location_179930976.html)
+  * [Event](Event_179930977.html)
+  * [Observable Entity](Observable-Entity_179930983.html)
+  * [Organism](Organism_179931004.html)
+  * [Pharmaceutical and Biologic Product](Pharmaceutical-and-Biologic-Product_179931007.html)
+  * [Physical Force](Physical-Force_179931641.html)
+  * [Physical Object](Physical-Object_179931642.html)
+  * [Procedure](Procedure_179931666.html)
+  * [Qualifier Value](Qualifier-Value_179931745.html)
+  * [Record Artifact](Record-Artifact_179931764.html)
+  * [Situation with Explicit Context](Situation-with-Explicit-Context_179931765.html)
+  * [SNOMED CT Model Component](SNOMED-CT-Model-Component_179931771.html)
+  * [Social Context](Social-Context_179931775.html)
+  * [Special Concept](Special-Concept_179931776.html)
+  * [Specimen](Specimen_179931778.html)
+  * [Staging and Scales](Staging-and-Scales_179931781.html)
+  * [Substance](Substance_179931782.html)
 
 The following subhierarchies do not have concept models: 
 
@@ -49,3 +49,7 @@ SNOMED International creates precoordinated content in accordance with the MRCM.
 There are special cases in the MRCM where an attribute may have two rows. This situation is caused by a new cardinality rule: a row for _existing/legacy_ SNOMED CT content and a row for _newly created_ content. The row that is applicable to _new_ content will be marked by a "[New]" notation. 
 
 See [MRCM Maintenance Process](https://confluence.ihtsdotools.org/display/IAP/Process+for+the+maintenance+of+MRCM+rules#ProcessforthemaintenanceofMRCMrules-JIRA).
+
+SNOMED CT relies on the rules for _usefulness_ to avoid excessive precoordination (see _Scope_ section of Editorial Guide).
+
+Approved precoordination patterns have been created and are available at: [Pre-coordination Naming Patterns Project](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project). For additional information about the fields used in precoordination, see: [What the fields in the Pre-coordination Naming Patterns JIRA Project mean](https://confluence.ihtsdotools.org/display/IHTSDO1/What+the+fields+in+the+Pre-coordination+Pattern+JIRA+Project+mean).

@@ -16,5 +16,7 @@ Closed procedure naming
   * The general pattern <open, closed> <procedure> is accepted
   * When a procedure is specified as closed, the closed procedure should be fully described, e.g. fine needle biopsy, endoscopic, etc. 
 
+[48635004 |Fine needle biopsy (procedure)|](http://snomed.info/id/48635004) could be viewed as a kind of  _c_ _entesis_ , but the former is non-surgical and the latter is surgical.  _Sampling - action (qualifier value)_ , in general, is not necessarily a surgical action. If sampling involves the surgical removal of part of something, then  _Surgical biopsy (procedure)_ should be the action.
+
   
 

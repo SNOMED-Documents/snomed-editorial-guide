@@ -20,11 +20,11 @@ Primary malignant neoplasm disorders are now defined with a role group combining
 
 For example,
 
-<figure><img src="images/174690491.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930877.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
 
   
 
-<figure><img src="images/174690490.png" alt="" title=""><figcaption><p>Figure 2: Inferred view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930876.png" alt="" title=""><figcaption><p>Figure 2: Inferred view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
 
   
 
@@ -46,15 +46,19 @@ PT: Metastatic malignant neoplasm to foot
 SYN: Secondary malignant neoplasm of foot   
 SYN: Metastatic malignant neoplasm of foot 
 
+ _Secondary_ is no longer the preferred word within the cancer & pathology community of practice; use _metastatic_.
+
 Metastatic disorders are defined by a role group containing the finding site and specific metastatic morphologic abnormality.
 
 For example,
 
-<figure><img src="images/174690492.png" alt="" title=""><figcaption><p>Figure 3: Stated view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930878.png" alt="" title=""><figcaption><p>Figure 3: Stated view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|</p></figcaption></figure>
 
   
 
-<figure><img src="images/174690493.png" alt="" title=""><figcaption><p>Figure 4: Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930879.png" alt="" title=""><figcaption><p>Figure 4: Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|</p></figcaption></figure>
+
+See also[ Neoplasms Observable ](https://confluence.ihtsdotools.org/display/WIPEG/Neoplasm+Observables)page
 
 ## Use of the term _cancer_
 
@@ -124,6 +128,8 @@ In those cases where common clinical usage of a term containing nevus is unambig
 
 Overlapping neoplasm concepts refer to a neoplasm that overlaps two or more adjacent **sites.** For clarity, the phrase  _overlapping sites_ should be included in the descriptions for the FSN and PT for new overlapping neoplasm content. 
 
+Do not use _overlapping_ _lesion_ wording.
+
 For example,  
 [ 188247000 | Malignant neoplasm of overlapping sites of bladder (disorder)|](http://snomed.info/id/188247000 "188247000 | Malignant neoplasm of overlapping sites of bladder \(disorder\) |")
 
@@ -133,6 +139,8 @@ However, assigning a role group for each finding site does not sufficiently defi
 
 For example,  
 Sufficiently defined concept 721624000 |Primary adenocarcinoma of overlapping sites of esophagus (disorder)| has a stated primitive parent of 187824009 |Malignant neoplasm of overlapping sites of digestive system (disorder)|.
+
+The terms _colorectal_ and _colorectum_ , commonly used by pathologists, are included in descriptions for concepts referring to neoplasms modeled with 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)|. 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)| is needed because neoplasms are the same from the cecum to rectum and are considered as a group in cancer synoptic reporting protocols. Note, there is no consensus concerning the definition of _colon_ in the literature and between different domains.
 
 ## Congenital neoplasm
 

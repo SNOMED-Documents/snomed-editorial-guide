@@ -7,6 +7,8 @@ For example, the combination of _Logical Observation Identifiers Names and Codes
   *     * LOINC provides microbiology reporting codes with attributes including the _property_ through the use of _PRID_(presence or identity) and the _scale_ through the use of _NOM_ (nominal or categorical response that does not have a natural ordering) as the result value (typically the name of organism). 
     * Use of organism concepts in combination with such LOINC codes implies that a specific organism is seen, detected, identified, isolated, or present.
 
+On its own, an organism concept can only indicate the definition of that organism. Its detection or presence can only be implied when it is paired with other information that may come from the electronic health application and/or from the LOINC observation.
+
 ## Organism X or organism Y
 
 Use organism X or organism Y when a laboratory report indicates a single isolate is assumed, but the lab is unable (for any reason) to differentiate the result instance. 
@@ -45,6 +47,8 @@ Laboratory reports and journal articles may include an organism that could not b
 
 Laboratory findings may be reported with a status of preliminary, presumptive, provisional, etc. These typically cover reportable or notifiable lab values. The status of a report is different from the result; it is part of the electronic health application model/message. The requests for such concepts are declined as they are ambiguous and subject to limitless combinations. 
 
+Existing concepts with presumptive values are undergoing review for inactivation.
+
 ## Mixed Organism
 
 Some laboratories report findings indicating a mixed population of bacteria from several classes, e.g. _mixed anaerobic Gram negative bacilli_. The request for such a concept is added as a _clinical finding._ The actual organism is unknown, however there is a result, although more general.
@@ -55,10 +59,12 @@ Laboratories perform and report on specific tests to identify the absence, as we
 
   
 
-Microbiology Tests: Reporting of Negative and Positive Values with Examples  
-Lab test type (Observation)| Result value| Example lab test (e.g. SNOMED CT and/or LOINC term)| Example result value  
-General culture (where implied scale = nominal)| _No X isolated_ (finding)_X_ (organism)| 61594008 |Microbial culture (procedure)|11475-1 |Microorganism identified in Unspecified specimen by Culture| **Valid value**[ 168204005 |Salmonella not isolated (finding)|](http://snomed.info/id/168204005)[27268008 |Genus Salmonella (organism)|](http://snomed.info/id/27268008)**Invalid value** 264887000 |Not isolated (qualifier value)|46651001 |Isolated (qualifier value)|  
-Organism Specific culture|  _Not isolated_ (qualifier value)_Isolated_ (qualifier value)| 122206002 |Bordetella pertussis culture (procedure)|48741-3 |Bordetella pertussis; Nasopharynx; Culture| **Valid value**[ 264887000 |Not isolated (qualifier value)|](http://snomed.info/id/264887000)[46651001 |Isolated (qualifier value)|](http://snomed.info/id/46651001)**Invalid value** Bordetella pertussis not isolatedBordetella pertussis isolated  
-General microscopic testing (where implied scale = Nominal)| _No X seen_ (finding)_X_ (organism)| 609009000 |Microscopic examination of bacterial smear of urine specimen (procedure)|25145-4 |Bacteria [Presence] in Urine sediment by Light microscopy| **Valid value**[ 27268008 |Genus Salmonella (organism)|](http://snomed.info/id/27268008)**Invalid value** 47492008 |Not seen (qualifier value)|  
-Specific microscopic testing|  _Not seen_ (qualifier value)_Present_ (qualifier value)| 408215009 |Cryptosporidium microscopy (procedure)|| **Valid value**[ 47492008 |Not seen (qualifier value)|](http://snomed.info/id/47492008)[52101004 |Present (qualifier value)|](http://snomed.info/id/52101004)**Invalid value** No Cryptosporidium seenCryptosporidium seen  
-Serologic, DNA or other organism specific test|  _Not detected_ (qualifier value)_Detected_ (qualifier value)Rationale: Almost all of these tests are organism-specific| 871555000 |Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 (observable entity)|95406-5 |SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection| **Valid value**[ 260415000 |Not detected (qualifier value)|](http://snomed.info/id/260415000)[260373001 |Detected (qualifier value)|](http://snomed.info/id/260373001)**Invalid value** No Severe acute respiratory syndrome coronavirus 2 detectedSevere acute respiratory syndrome coronavirus 2 detected
+| Microbiology Tests: Reporting of Negative and Positive Values with Examples |   |   |   |
+|---|---|---|---|
+| Lab test type (Observation) | Result value | Example lab test (e.g. SNOMED CT and/or LOINC term) | Example result value |
+| General culture (where implied scale = nominal) | No X isolated(finding) X(organism) | 61594008 \|Microbial culture (procedure)\| 11475-1 \|Microorganism identified in Unspecified specimen by Culture | Valid value 168204005\|Salmonella not isolated (finding)\| 27268008\|Genus Salmonella (organism)\| Invalid value 264887000 \|Not isolated (qualifier value)\| 46651001 \|Isolated (qualifier value)\| |
+| Organism Specific culture | Not isolated(qualifier value) Isolated(qualifier value) | 122206002 \|Bordetella pertussis culture (procedure)\| 48741-3 \|Bordetella pertussis; Nasopharynx; Culture | Valid value 264887000\|Not isolated (qualifier value)\| 46651001\|Isolated (qualifier value)\| Invalid value Bordetella pertussis not isolated Bordetella pertussis isolated |
+| General microscopic testing (where implied scale = Nominal) | No X seen(finding) X(organism) | 609009000 \|Microscopic examination of bacterial smear of urine specimen (procedure)\| 25145-4 \|Bacteria [Presence] in Urine sediment by Light microscopy | Valid value 27268008\|Genus Salmonella (organism)\| Invalid value 47492008 \|Not seen (qualifier value)\| |
+| Specific microscopic testing | Not seen(qualifier value) Present(qualifier value) | 408215009 \|Cryptosporidium microscopy (procedure)\| | Valid value 47492008\|Not seen (qualifier value)\| 52101004\|Present (qualifier value)\| Invalid value No Cryptosporidium seen Cryptosporidium seen |
+| Serologic, DNA or other organism specific test | Not detected(qualifier value) Detected(qualifier value) Rationale: Almost all of these tests are organism-specific | 871555000 \|Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 (observable entity)\| 95406-5 \|SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection | Valid value 260415000\|Not detected (qualifier value)\| 260373001\|Detected (qualifier value)\| Invalid value No Severe acute respiratory syndrome coronavirus 2 detected Severe acute respiratory syndrome coronavirus 2 detected |
+

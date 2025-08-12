@@ -14,79 +14,38 @@ New instances of substance concepts containing the word "salt" will not be added
 
 ## Modeling
 
-Parent concept| Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|  
----|---  
-Semantic tag| (substance)  
-Definition status| Primitive  
-Attribute:Is Modification of| Range <105590001 |Substance (substance)|Cardinality: 0..1Used to identify the conjugate acid  
-**Attribute:****Has disposition**|  Range: <726711005 |Disposition (disposition)|
+| Parent concept | Most distal appropriate descendant of 312413002 \|Substance categorized structurally (substance)\| |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+| Attribute: Is Modification of | Range <105590001 \|Substance (substance)\| Cardinality: 0..1 Used to identify the conjugate acid |
+| Attribute: Has disposition | While the allowed range is broader, substance concepts should only use <726711005 \|Disposition (disposition)\| as the attribute value. Range: <726711005 \|Disposition (disposition)\| Cardinality: 0..1 |
 
-  *     * While the allowed range is broader, substance concepts should only use <726711005 |Disposition (disposition)| as the attribute value.
-
-Cardinality: 0..1  
-  
 ## Naming
 
 Where INN names exist, these should be used for the FSN and PT.  
   
 
-FSN| Pattern:
+| FSN | X sulfate (substance) X pamidronate (substance) Copper sulfate (substance) Disodium pamidronate (substance) Valproate sodium (substance) Pattern: For example, Etidronate (substance) Exception: |
+|---|---|
+| Preferred Term | X sulfate X pamidronate Copper sulfate Pamidronate monosodium Etidronate Valproate sodium Pattern: For example, Exception: |
+| Synonyms | Pamidronate monosodium Valproate sodium Pattern: Pamidronate X For example, |
 
-  * X sulfate (substance)
-  * X pamidronate (substance)
-
-For example,
-
-  *     *       * Copper sulfate (substance)
-      * #### Disodium pamidronate (substance)
-
-      * Etidronate (substance)
-
-Exception:
-
-  * Valproate sodium (substance)
-
-  
----|---  
-Preferred Term| Pattern:
-
-  *     * X sulfate
-    * X pamidronate
-
-  
-For example,
-
-  *     *       * Copper sulfate
-      * Pamidronate monosodium
-      * Etidronate
-
-Exception:
-
-  * Valproate sodium
-
-  
-Synonyms| Pattern: Pamidronate XFor example,
-
-  *     *       * Pamidronate monosodium
-      * Valproate sodium
-
-  
-  
 ## Exemplar
 
-<figure><img src="images/237109871.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 387080000 |Valproic acid (substance)|</p></figcaption></figure>
+<figure><img src="images/273520235.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 387080000 |Valproic acid (substance)|</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/237109874.png" alt="" title=""><figcaption><p>Figure 2: Stated and inferred view of 387481005 |Sodium valproate (substance)|</p></figcaption></figure>
+<figure><img src="images/273520238.png" alt="" title=""><figcaption><p>Figure 2: Stated and inferred view of 387481005 |Sodium valproate (substance)|</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/237109872.png" alt="" title=""><figcaption><p>Figure 3: Hierarchy view of 264325000 |Valproate (substance)| subtypes</p></figcaption></figure>
+<figure><img src="images/273520236.png" alt="" title=""><figcaption><p>Figure 3: Hierarchy view of 264325000 |Valproate (substance)| subtypes</p></figcaption></figure>
 
   
 
@@ -94,8 +53,8 @@ Synonyms| Pattern: Pamidronate XFor example,
 
 The following illustrates the **stated** and **inferred** views.
 
-<figure><img src="images/174691578.png" alt="" title=""></figure>
+<figure><img src="images/179931962.png" alt="" title=""></figure>
 
-<figure><img src="images/174691579.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/179931963.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
 **

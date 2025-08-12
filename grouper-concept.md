@@ -4,6 +4,8 @@ For hierarchies with a concept model, the usefulness of fully-defined groupers i
 
  _Grouper concepts_ provide a definition for subtypes that are always and necessarily true. The grouper concept must be sufficiently defined and clinically useful for the purpose of organizing content for an intensional reference set (e.g.  _disease of colon_ _and all of its descendants_)__ or in Expression Constraint Language (ECL), << [ 128524007 | Disorder of colon (disorder)|](http://snomed.info/id/128524007 "128524007 | Disorder of colon \(disorder\) |") .
 
+Anatomy concepts have separate rules.
+
 ## Navigational concepts
 
  _Grouper concepts_ should not be confused with  _navigational concepts_. Navigational concepts were created to group other concepts without explicit regard for defining attributes (since there were none). Their purpose was to provide top level groupers for subsets and reference sets used in implementations. Because the Reference Set mechanism is now available, there is no longer a need for navigational concepts in the International Release; however, they can be added at the national or lower level. 
@@ -12,7 +14,7 @@ In the past, there was an indiscriminate move of concepts in and out of the navi
 
 Because this is a primitive hierarchy and subtypes will not auto classify, much work would be required to reorganize hierarchies and maintain the use of navigational concepts. Inactivating concepts may be met with requests to create intermediate primitives. The Content Managers Advisory Group [CMAG] at [Use of navigational concepts](https://confluence.ihtsdotools.org/display/cmag/Use+of+navigational+concepts) is being consulted regarding current use of navigational concepts. 
 
-As [ 363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006 "363743006 | Navigational concept \(navigational concept\) |") is within the [ 370115009 | Special concept (special concept)|](http://snomed.info/id/370115009 "370115009 | Special concept \(special concept\) |") subhierarchy, please see that section of the Editorial Guide at [Special Concept](Special-Concept_174691392.html). 
+As [ 363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006 "363743006 | Navigational concept \(navigational concept\) |") is within the [ 370115009 | Special concept (special concept)|](http://snomed.info/id/370115009 "370115009 | Special concept \(special concept\) |") subhierarchy, please see that section of the Editorial Guide at [Special Concept](Special-Concept_179931776.html). 
 
 ## Intermediate Primitive Groupers
 
@@ -40,3 +42,4 @@ Where grouper concepts already exist, the following criteria apply:
   * If it can be sufficiently defined, remodel it, and reassign existing stated subtypes to a new proximal primitive parent.
   * Identify primitive concepts that cannot be sufficiently defined for additional review.
 
+If the addition of a grouper concept duplicates a concept in the [ 363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006 "363743006 | Navigational concept \(navigational concept\) |") hierarchy, the navigational concept should be inactivated.

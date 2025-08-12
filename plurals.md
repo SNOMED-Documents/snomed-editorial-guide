@@ -39,3 +39,4 @@ For example,
 
   *     * Bilateral atrophy of testes (disorder)
 
+It is advisable to keep track of these exceptions in a separate subset or using a special term type, so that they can be excluded when the singular/plural distinction is important for mapping.

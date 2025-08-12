@@ -22,6 +22,8 @@ Content must be submitted with:
   * Definitions and literature references. All reference material must be publicly available. Wiki references are unacceptable.
   * Evidence of international applicability. Without international applicability, a concept should, instead, be added to the submitter's extension.
 
+For details on SNOMED International Content Request Service (CRS) Customer Guidance, see our [website](https://www.snomed.org/change-or-add) or the [Confluence site](https://confluence.ihtsdotools.org/display/SCTCR/CRS+User+Guide). 
+
 ### Broad use
 
 It must be applicable within and across healthcare disciplines internationally.

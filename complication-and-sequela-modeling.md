@@ -46,6 +46,8 @@ For example,
   *     * Perioperative hematoma (disorder)
     * Postoperative hypothyroidism (disorder)
 
+88797001 |Complication of surgical procedure (disorder)| is not a subtype of perioperative complication, as it does not include a temporal relationship. Similarly, 738668004 |Perioperative complication (disorder)| is not a subtype of 88797001 |Complication of surgical procedure (disorder)|, as there is no causal relationship. Some disorders may specify both a causal and temporarily relationship and would be modeled such that they would classify under both 738668004 |Perioperative complication (disorder)| and 88797001 |Complication of surgical procedure (disorder)|.
+
   
 
 # The following attributes are used in the modeling of various combinations:
@@ -60,7 +62,9 @@ For example,
 
 123948009 |Disorder following viral disease (disorder)| occurs After [34014006 |Viral disease (disorder)|](http://snomed.info/id/34014006)
 
-<figure><img src="images/174690572.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 123948009 |Disorder following viral disease (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930958.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 123948009 |Disorder following viral disease (disorder)|</p></figcaption></figure>
+
+Post-infectious disorders are not subtypes of infectious disorders (unless the disorder is itself an infectious disease). The |After (attribute)| is used for linking post-infectious disorders with their associated infections.
 
 ### After with causal relationship
 
@@ -78,7 +82,7 @@ This attribute is used to model a disorder that occurs during a procedure.
 
 For example,
 
-<figure><img src="images/174690571.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 713890008 |Hypoxemia during surgery (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930957.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 713890008 |Hypoxemia during surgery (disorder)|</p></figcaption></figure>
 
 ### During with causal relationship
 
@@ -104,7 +108,7 @@ For example,
 
   *     * Disorder due to and following another disorder = 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|
 
-<figure><img src="images/174690573.png" alt="" title=""><figcaption><p>Figure 3: Stated view of 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930959.png" alt="" title=""><figcaption><p>Figure 3: Stated view of 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|</p></figcaption></figure>
 
 ## Naming conventions for sequelae
 

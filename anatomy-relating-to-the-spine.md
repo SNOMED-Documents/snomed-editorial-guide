@@ -20,11 +20,11 @@ The last concept has been allocated the following definition: This volume includ
 
 To emphasize the different volumes, cross-sections are shown below of (Figure 1) the vertebral column in yellow, and (Figure 2) the larger vertebral column region in amber color.
 
-<figure><img src="images/174690302.jpg" alt="" title=""><figcaption><p>Figure 1, Vertebral column</p></figcaption></figure>
+<figure><img src="images/179930686.jpg" alt="" title=""><figcaption><p>Figure 1, Vertebral column</p></figcaption></figure>
 
   
 
-<figure><img src="images/174690303.jpg" alt="" title=""><figcaption><p>Figure 2, Vertebral column region</p></figcaption></figure>
+<figure><img src="images/179930687.jpg" alt="" title=""><figcaption><p>Figure 2, Vertebral column region</p></figcaption></figure>
 
   
 
@@ -48,6 +48,8 @@ For example,
   * Benign neoplasm of lumbar vertebral column (disorder) and Kyphoplasty of fracture of lumbar spine using fluoroscopic guidance (procedure) are both modeled with 122496007 |Structure of lumbar vertebral column (body structure)|.
 
   
+
+The sacrum is considered equivalent to the sacral vertebral column, as it is composed of the bone structure of the sacrum plus the joint structure of sacrococcygeal junction of spine.
 
   
 

@@ -43,6 +43,8 @@ For example,
 
   *     * [ 161077003 | Father smokes (situation)|](http://snomed.info/id/161077003 "161077003 | Father smokes \(situation\) |") with Associated finding, Smoker (finding) and Subject relationship context, Father of subject (person)
 
+Observables about someone other than the subject of record are included in the Observable entity hierarchy, not the Situation with explicit context hierarchy, e.g,. 443722004 |Educational level of parent of subject (observable entity).
+
 ## Temporal context
 
 This attribute indicates the  _time_ of the procedure or finding. It may be  _actual_ _,_ i.e occurred in the present, in the past, at a specified time; or in the future, i.e. it is planned or expected. The most general value is simply Current or past (actual), meaning that the concept was actual (not planned or expected), but not specifying anything further about the time. The word  _specified_ in the Temporal context| means that there is a date or time stamp associated with the concept in the record. The date and/or time is a point and/or interval, that applies to the concept. 

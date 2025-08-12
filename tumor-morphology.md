@@ -18,3 +18,5 @@ For example,
 1186933006 |SMARCA4-deficient undifferentiated tumor (morphologic abnormality)|
 
 The gene SMARCA4 is not required to be named with the expanded form of _SWI/SNF Related, Matrix Associated, Actin Dependent Regulator Of Chromatin, Subfamily A, Member 4_.
+
+Visit ICD-O at [http://www.iacr.com.fr](http://www.iacr.com.fr/index.php?option=com_content&view=category&layout=blog&id=100&Itemid=577)

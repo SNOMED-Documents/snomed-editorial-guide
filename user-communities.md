@@ -25,15 +25,16 @@ Some specialties or disciplines prefer to use different terms to describe the sa
 
 The following table lists factors affecting term use and examples of each. 
 
-Factors affecting term use  
-Factor| Examples  
-Geographic and seasonal differences| Malaria is more common in certain regionsHay fever is more common in spring, summer, and fall  
-Cultural perceptions of health| Acceptance of alternative therapies  
-Discipline or specialty| Obstetricians use  _fundus_ to mean  _fundus of the uterus;_ gastroenterologists use the same term to mean  _fundus of the stomach_ Surgeons record operative procedures relevant to their specialties  
-Professional criteria| The definition of hypertension may vary based on professional guidelines  
-National or organizational requirements, including those for administrative or funding purposes| Performance measure results affecting reimbursement  
-Topics of special interest to individual clinicians| Infectious disease specialist with an interest in tropical diseases  
-  
+| Factors affecting term use |   |
+|---|---|
+| Factor | Examples |
+| Geographic and seasonal differences | Malaria is more common in certain regions Hay fever is more common in spring, summer, and fall |
+| Cultural perceptions of health | Acceptance of alternative therapies |
+| Discipline or specialty | Obstetricians usefundusto meanfundus of the uterus;gastroenterologists use the same term to meanfundus of the stomach Surgeons record operative procedures relevant to their specialties |
+| Professional criteria | The definition of hypertension may vary based on professional guidelines |
+| National or organizational requirements, including those for administrative or funding purposes | Performance measure results affecting reimbursement |
+| Topics of special interest to individual clinicians | Infectious disease specialist with an interest in tropical diseases |
+
 ## Organization, country, and user
 
 Particular terms may be specific to an organization. They may not be included in the International Release of SNOMED CT. Organizations and users must be able to add terms or codes to SNOMED CT, without devaluing the main body of SNOMED CT.

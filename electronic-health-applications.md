@@ -106,6 +106,8 @@ For example,
 
 Recording a decision to prescribe a medicine might trigger an electronic prescription sent to the pharmacy. Receipt of such a prescription might trigger dispensing and stocking activities.
 
+The relationship of a trigger is an additional characteristic of a code that may be context dependent.
+
 ### Patient involvement
 
 Patients may wish to view, and comprehend, their own records. For SNOMED CT to meet this requirement, the inclusion of patient-friendly terms should be considered. However, this requirement should not take precedence over accurate professional terminology.

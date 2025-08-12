@@ -1,21 +1,11 @@
 # Procedure
 
-Definition| Examples  
----|---  
-  
-  * Procedure: activities performed in the provision of health care (includes medical history-taking, physical examination, diagnostic and therapeutic interventions, training and education, and counseling)
-  * Regime/therapy (subtype of procedure): set of procedures focused on a single purpose on one patient over time (e.g. repeated administration of drug in a small dose for an indefinite period of time)
 
-| 
 
-  * [ 54321008 | Cardiac flow imaging (procedure)|](http://snomed.info/id/54321008 "54321008 | Cardiac flow imaging \(procedure\) |")
+| Definition | Examples |
+|---|---|
+| Procedure: activities performed in the provision of health care (includes medical history-taking, physical examination, diagnostic and therapeutic interventions, training and education, and counseling) Regime/therapy (subtype of procedure): set of procedures focused on a single purpose on one patient over time (e.g. repeated administration of drug in a small dose for an indefinite period of time) | 54321008 \| Cardiac flow imaging (procedure) \| 367428009 \| Desensitization therapy (regime/therapy) \| |
 
-  
-
-  * [ 367428009 | Desensitization therapy (regime/therapy)|](http://snomed.info/id/367428009 "367428009 | Desensitization therapy \(regime/therapy\) |")
-
-  
-  
 ## Procedure concepts
 
 Procedure concepts represent activities performed in the provision of health care. This _hierarchy_ represents a broad variety of activities, including but not limited to:

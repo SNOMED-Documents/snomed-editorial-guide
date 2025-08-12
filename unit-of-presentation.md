@@ -7,24 +7,13 @@ Out of Scope:
   * Concepts representing proprietary dose forms
   * Concepts that contain modifiers, e.g. hard capsule, capsule for inhalation
 
-Concept descriptions representing Unit of Presentation  
-FSN| **X (unit of presentation)** For example,
+The Unit dose (qualifier value) is unacceptable for representing unit of presentation.
 
-  *     *       * Actuation (unit of presentation)
-      * Capsule (unit of presentation)
-      * Suppository (unit of presentation)
-      * Tablet (unit of presentation)
+| Concept descriptions representing Unit of Presentation |   |
+|---|---|
+| FSN | Actuation (unit of presentation) Capsule (unit of presentation) Suppository (unit of presentation) Tablet (unit of presentation) X (unit of presentation) For example, |
+| PT | Actuation Capsule Suppository Tablet X For example, |
+| SYN | Synonyms are not allowed |
 
-  
-PT| **X** For example,
-
-  *     *       * Actuation
-      * Capsule
-      * Suppository
-      * Tablet
-
-  
-SYN| Synonyms are not allowed  
-  
   
 

@@ -13,20 +13,20 @@ The substance redesign project has made a number of decisions regarding the repr
 
 ## Modeling
 
-Semantic tag| (substance)  
----|---  
-Definition status| Primitive  
-Attribute: Is modification of| Range: <105590001 |Substance (substance)|  
-  
+| Semantic tag | (substance) |
+|---|---|
+| Definition status | Primitive |
+| Attribute: Is modification of | Range: < 105590001 \|Substance (substance)\| |
+
 ## Exemplar
 
 The following illustrates the **stated** view of 125691000 |Sotalol hydrochloride (substance)|:
 
-<figure><img src="images/225051477.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 125691000 |Sotalol hydrochloride (substance)|:</p></figcaption></figure>
+<figure><img src="images/225056151.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 125691000 |Sotalol hydrochloride (substance)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/174691456.png" alt="" title=""></figure>
+<figure><img src="images/179931840.png" alt="" title=""></figure>
 
 ## Guidelines for the use of [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |")
 
@@ -36,13 +36,13 @@ Substances may have zero to many Is modification of attribute(s).
 
   *     * Morphine hydrochloride (substance)
 
-<figure><img src="images/174691455.png" alt="" title=""></figure>
+<figure><img src="images/179931839.png" alt="" title=""></figure>
 
 #### For example,
 
   *     * Fluorothymidine (18-F) (substance)
 
-<figure><img src="images/174691474.png" alt="" title=""><figcaption><p>For example,</p></figcaption></figure>
+<figure><img src="images/179931858.png" alt="" title=""><figcaption><p>For example,</p></figcaption></figure>
 
   
 
@@ -50,7 +50,7 @@ Substances may have zero to many Is modification of attribute(s).
 
 **
 
-<figure><img src="images/174691496.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/179931880.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
 Hydrates have an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") relationship to the unspecified salt.
 
@@ -62,13 +62,13 @@ This is the **stated** view:
 
 **
 
-<figure><img src="images/174691490.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/179931874.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
 This is the **inferred** view:
 
 **
 
-<figure><img src="images/174691495.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/179931879.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
 For example, 
 
@@ -79,7 +79,7 @@ This is the**stated** view:
 
 **
 
-<figure><img src="images/174691453.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/179931837.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
   
 
@@ -87,7 +87,7 @@ This is the **inferred** view:
 
 **
 
-<figure><img src="images/174691452.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/179931836.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
 For example, 
 
@@ -97,7 +97,7 @@ This is the **stated and inferred** view.
 
 ********
 
-<figure><img src="images/174691479.png" alt="" title=""><figcaption><p>********</p></figcaption></figure>
+<figure><img src="images/179931863.png" alt="" title=""><figcaption><p>********</p></figcaption></figure>
 
   
 
@@ -109,21 +109,21 @@ For example,
 
 This is the **stated** view:
 
-<figure><img src="images/174691451.png" alt="" title=""><figcaption><p>This is the <strong>inferred</strong> view:</p></figcaption></figure>
+<figure><img src="images/179931835.png" alt="" title=""><figcaption><p>This is the <strong>inferred</strong> view:</p></figcaption></figure>
 
-<figure><img src="images/174691450.png" alt="" title=""><figcaption><p>The salts are modeled with an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") the acid substance.</p></figcaption></figure>
+<figure><img src="images/179931834.png" alt="" title=""><figcaption><p>The salts are modeled with an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") the acid substance.</p></figcaption></figure>
 
 For example,
 
   *     * Pamidronate monosodium (substance) IS MODIFICATION OF Pamidronic acid (substance). This is the****stated**** and****inferred**** view.
 
-<figure><img src="images/174691484.png" alt="" title=""><figcaption><p>Liposomal preparations are modifications of the chemical substance.</p></figcaption></figure>
+<figure><img src="images/179931868.png" alt="" title=""><figcaption><p>Liposomal preparations are modifications of the chemical substance.</p></figcaption></figure>
 
 For example,
 
   *     * Daunorubicin citrate liposome (substance)|
 
-<figure><img src="images/174691481.png" alt="" title=""><figcaption><p>Pegylated substances should be modeled with |s modification of (attribute)| generic substance, if such a substance has been made available; not all pegylated medicinal substances have a non-pegylated form as the non-pegylated form may have been too immunogenic or too toxic.</p></figcaption></figure>
+<figure><img src="images/179931865.png" alt="" title=""><figcaption><p>Pegylated substances should be modeled with |s modification of (attribute)| generic substance, if such a substance has been made available; not all pegylated medicinal substances have a non-pegylated form as the non-pegylated form may have been too immunogenic or too toxic.</p></figcaption></figure>
 
   
 
@@ -131,13 +131,21 @@ For example,
 
   *     * 785674001 |Turoctocog alfa pegol (substance)|
 
-<figure><img src="images/174691449.png" alt="" title=""><figcaption><p>Concepts specifying a particular physical form (e.g. micronized, macrocrystal, microsphere) should have a parent concept that relates to the structure of the substance and also an Is modification of (attribute) relationship to the unspecified substance concept.</p></figcaption></figure>
+<figure><img src="images/179931833.png" alt="" title=""><figcaption><p>Concepts specifying a particular physical form (e.g. micronized, macrocrystal, microsphere) should have a parent concept that relates to the structure of the substance and also an Is modification of (attribute) relationship to the unspecified substance concept.</p></figcaption></figure>
 
-<figure><img src="images/174691448.png" alt="" title=""><figcaption><p>Grouper concepts should not be targets of an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") relationship.</p></figcaption></figure>
+<figure><img src="images/179931832.png" alt="" title=""><figcaption><p>Grouper concepts should not be targets of an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") relationship.</p></figcaption></figure>
 
 In general, an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") is not applicable to prodrugs. This is because there is no requirement for the |Has active ingredient (attribute)| of medicinal products containing prodrug substances to use any relationship to the active substance to manage relationships within the medicinal product hierarchy. 
 
 For example, aspirin is not generally considered as a modification of the substance salicylic acid.
+
+When a prodrug is an esterified form of substance, there should be an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") relationship between the substance and its esterified form.
+
+For exemplar,  
+
+  *     * 715220007 |Tenofovir alafenamide (substance)|  
+
+    * 89678001 |Cefuroxime axetil (substance)|
 
 [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") is not applicable:
 

@@ -12,20 +12,18 @@ For example,
 
 For example,
 
-FSN| PT| SYN  
----|---|---  
-Entire liver (body structure)| Entire liver|   
-  
-Entire thumb (body structure)| Entire thumb| Entire first digit of hand  
-  
+| FSN | PT | SYN |
+|---|---|---|
+| Entire liver (body structure) | Entire liver |   |
+| Entire thumb (body structure) | Entire thumb | Entire first digit of hand |
+
 3\. The word 'structure' can be omitted for synonyms.
 
 For example,
 
-FSN| PT| SYN| SYN  
----|---|---|---  
-Liver structure (body structure)| Liver structure| Liver|   
-  
-Thumb structure (body structure)| Thumb structure| First digit of hand| Thumb  
-  
- _S_ concepts are usually named x structure (body structure) or structure of x (body structure).  _E_ concepts are usually named entire x (body structure) or x entire (body structure).  _P_ concepts are usually named x part (body structure) or part of x (body structure).
+| FSN | PT | SYN | SYN |
+|---|---|---|---|
+| Liver structure (body structure) | Liver structure | Liver |   |
+| Thumb structure (body structure) | Thumb structure | First digit of hand | Thumb |
+
+_S_ concepts are usually named x structure (body structure) or structure of x (body structure).  _E_ concepts are usually named entire x (body structure) or x entire (body structure).  _P_ concepts are usually named x part (body structure) or part of x (body structure).

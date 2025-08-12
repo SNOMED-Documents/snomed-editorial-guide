@@ -23,3 +23,9 @@ For example,
 
   
 
+_Regime/therapy_ may be the value for the  _Has focus (attribute)_.
+
+For example,
+
+  *     * [385978009 |Cardiac rehabilitation assessment (procedure)|](http://snomed.info/id/385978009) has a Has focus (attribute) of Cardiac rehabilitation (regime/therapy)
+

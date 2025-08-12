@@ -2,8 +2,8 @@
 
 The Clinical Drug "containing precisely" (CD-precise) concept is an abstract representation of the precise active ingredient, basis of strength substance (BoSS), strength, and manufactured dose form of a drug product. It implies that the drug product must contain only the precise active ingredient(s) specified in the FSN. 
 
-  * [Clinical Drug with Discrete Dose Form](Clinical-Drug-with-Discrete-Dose-Form_174690775.html)
-  * [Clinical Drug with Continuous Dose Form](Clinical-Drug-with-Continuous-Dose-Form_174690866.html)
+  * [Clinical Drug with Discrete Dose Form](Clinical-Drug-with-Discrete-Dose-Form_225055220.html)
+  * [Clinical Drug with Continuous Dose Form](Clinical-Drug-with-Continuous-Dose-Form_225055251.html)
 
 The guidance below applies to both discrete and continuous dose forms. 
 
@@ -36,6 +36,8 @@ For solids and semi-solids, a concentration strength will be mass/mass (weight/w
 For liquids, a concentration strength will be mass/volume (weight/volume) – usually mg/mL.
 
   * Liquid = solution, suspension, tincture, spirit, emulsion, foam, lotion, oil, lacquer, etc.
+
+Requests for new concepts that conflict with the above require a clear justification for the variance.
 
 ## International Unit
 

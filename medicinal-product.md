@@ -4,19 +4,14 @@ The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pha
 
 ## General Assumptions and Requirements
 
-Assumption or Requirement  
-The top level concepts in the hierarchy will primarily be sufficiently defined grouper concepts.  
-  
-Any requirement to align to external standards or registries will be explicitly documented. Concept model will be compatible with ISO's Identification of Medicinal Products __(IDMP) standards (where appropriate).  
-Concepts shall be sufficiently defined using proximal primitive modeling methodology unless explicitly noted as an exception in the editorial guidelines.  
-Concept model supports neither universal restrictions nor nesting.  
-Content in the |Medicinal product| hierarchy in the International Release is not intended to:
+| Assumption or Requirement |
+|---|
+| The top level concepts in the hierarchy will primarily be sufficiently defined grouper concepts. |
+| Any requirement to align to external standards or registries will be explicitly documented. Concept model will be compatible with ISO's Identification of Medicinal Products (IDMP) standards (where appropriate). |
+| Concepts shall be sufficiently defined using proximal primitive modeling methodology unless explicitly noted as an exception in the editorial guidelines. |
+| Concept model supports neither universal restrictions nor nesting. |
+| Content in the \|Medicinal product\| hierarchy in the International Release is not intended to: support prescribing use cases, but may be sufficient to do so for some implementations. eliminate the need for a national extension. |
 
-  * support prescribing use cases, but may be sufficient to do so for some implementations.
-  * eliminate the need for a national extension.
-
-  
-  
 ## Out of Scope
 
   * Age ranges (e.g., adult, pediatric, infant, junior, adolescent)

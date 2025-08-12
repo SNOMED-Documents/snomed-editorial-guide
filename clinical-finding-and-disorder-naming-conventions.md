@@ -30,34 +30,37 @@ While the general naming convention for findings and disorders is _< Morphology>
   * Disorders where the meaning is not equivalent to _< morphology> of <x>_ site convention; e.g. _inflammatory bowel disease_ has a more specific meaning than _inflammation of bowel_
   * Disorders which are not described by an anatomical site; e.g. metabolic disease, hereditary disease, bacterial disease
 
+  * Completed or in review - [Precoordination Naming Pattern Project](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project)
+  * Proposed for future review - [Unreviewed Naming Patterns by Hierarchy](https://confluence.ihtsdotools.org/display/IHTSDO1/Unreviewed+Patterns+by+Hierarchy)
+
 ## Descriptions that include body structures
 
-Descriptions for Clinical findings and Disorders should follow the naming guidelines for Body structures if they are to be used within the Clinical finding/disorder concept. 
-
-Concepts describing limbs are abundant, and the use of _limb_ in the FSN and the synonyms of upper/lower extremity, arm/leg should be followed.
+Descriptions for Clinical findings and disorders should follow the naming guidelines for Body structures if they are to be used within the Clinical finding/disorder concept. Concepts describing limbs are abundant, and the use of _limb_ in the FSN and the synonyms of upper/lower extremity, arm/leg should be followed.
 
 For example, 
 
-  *     * 249945007 |Monoparesis of lower limb (disorder)|
+249945007 |Monoparesis of lower limb (disorder)|
 
 Because the finding site is 61685007 |Lower limb structure (body structure)|, which follows the anatomical guidelines, the disorder concept reflects _lower limb_ in the FSN, while using synonyms of  _Monoparesis of leg_ and  _Monoparesis of lower extremity_. 
 
-The term _cerebral_ is used in clinical language to mean both _cerebrum_ , and more broadly, _brain_. 
+# Disorder
 
-  * If the condition is limited to the cerebrum, the FSN, PT, and finding site will reflect the cerebrum. A synonym will remain with the term _cerebral_. 
-  * If the condition refers more broadly to the brain, the FSN, PT, and finding site will reflect the brain – unless the proper name of the condition uses the term _cerebral_ , as in _Cerebral palsy_. A synonym will remain with the term _cerebral_ if it is commonly used to refer to the condition.
+In the disorder hierarchy, the following naming conventions apply:
 
-## The term Disorder
+  * The word _disorder_ should be singular, so correct convention is _Disorder of nose_ , not _Disorders of nose_.
 
-The word _disorder_ should be singular, so  _Disorder of nose_ , not _Disorders of nose_.
+Plurals may be used:
 
-  * When the concept is a general grouping of disorders of a body system, body site, or other broad category, the word _disorder_ is preferred over the word  _disease_ for the FSN, e.g. _Disorder of reproductive system_ , not _Disease of reproductive system_. This does not apply at the leaf level.
+  * As synonyms for grouper concepts, e.g.  _disorders_ or  _diseases_
+  * In bilateral concepts, e.g. Disorder of bilateral eyes, Disorder of both eyes (see also _Lateralized Disorder Naming Conventions_)
+
+  * When the concept is a general grouping of disorders of a body system, body site, or other broad category, the word _disorder_ is preferred over the word  _disease_ for the FSN, e.g. Disorder of reproductive system, not Disease of reproductive system. This does not apply at the leaf level.
 
 For example, 
 
   *     * [ 417683006 | Sickle cell-hemoglobin C disease without crisis (disorder)|](http://snomed.info/id/417683006 "417683006 | Sickle cell-hemoglobin C disease without crisis \(disorder\) |")
 
-For naming conventions concerning _surgical complications, sequelae, and late effects;_ see this section at [Complication and Sequela Modeling](Complication-and-Sequela-Modeling_174690570.html).
+For naming conventions concerning _surgical complications, sequelae, and late effects_ , see this section at [Complication and Sequela Modeling](Complication-and-Sequela-Modeling_179930956.html).
 
 ## Disorder X without Disorder Y
 
@@ -83,7 +86,7 @@ For example, [ 274205003 | Burn of eye region (disorder)|](http://snomed.info/id
   *     * FSN: Burn of eye region (disorder)
     * PT: Burn of eye region
 
-<figure><img src="images/174690351.png" alt="" title=""><figcaption><p>Figure 1: Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
+<figure><img src="images/179930735.png" alt="" title=""><figcaption><p>Figure 1: Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
 
   
 
@@ -91,9 +94,13 @@ For example, [ 274205003 | Burn of eye region (disorder)|](http://snomed.info/id
 
 Previously, allergies caused by multiple substances were modeled by multiple causative agents suggesting that the allergy is caused by all those substances. However, when multiple substances are noted in the FSN, the intended clinical meaning is that a patient might be affected by one or more of these substances (or products containing them). To convey this meaning, these types of concepts should be modeled GCIs to represent the disjunctive meaning. e.g. 870731003 |Allergy to carbidopa and/or levodopa (finding)|
 
+The modeling approach for multiple-ingredient concepts is a temporary solution. It incorrectly asserts an allergy/adverse reaction to each, rather than to one, agent. The use of concepts from the Pharmaceutical/biologic product hierarchy is being considered as a final solution, but further work is required to determine if this would be a viable solution.
+
 # Allergic and nonallergic hypersensitivity (pseudoallergic)  _dispositions_
 
 Allergic and nonallergic hypersensitivity (pseudoallergic) dispositions are the propensity to develop adverse allergic or nonallergic hypersensitivity (pseudoallergic) disorders. A description for any concept that names a substance or an organism should be consistent with the corresponding hierarchy description rules.
+
+Allergic and nonallergic hypersensitivity (pseudoallergic) concepts include drug allergies.
 
 Patterns:
 
@@ -123,65 +130,20 @@ PT: Allergy to X and Y
 
 These disorders represent manifestations of pathologic processes that may result in abnormal structures (e.g., allergic rhinitis).
 
-Disorder| Patterns and examples  
----|---  
-FSN| Patterns:
+| Disorder | Patterns and examples |
+|---|---|
+| FSN | FSN: Allergic disease X (disorder) FSN: Allergic disease X (caused by Y) (disorder) Allergic rhinitis (disorder) Allergic conjunctivitis (disorder) Allergic rhinitis caused by grass pollen (disorder) Allergic rhinitis caused by house dust mite (disorder) Patterns: For example, |
+| PT | Allergic disease X Allergic disease X (caused by Y) Allergic rhinitis Allergic conjunctivitis Allergic rhinitis caused by grass pollen Allergic rhinitis caused by house dust mite Patterns: For example, |
 
-  * FSN: Allergic disease X (disorder)
-  * FSN: Allergic disease X (caused by Y) (disorder)
-
-For example,
-
-  * Allergic rhinitis (disorder)
-  * Allergic conjunctivitis (disorder)
-  * Allergic rhinitis caused by grass pollen (disorder)
-  * Allergic rhinitis caused by house dust mite (disorder)
-
-  
-PT| Patterns:
-
-  * Allergic disease X
-  * Allergic disease X (caused by Y)
-
-For example,
-
-  * Allergic rhinitis
-  * Allergic conjunctivitis
-  * Allergic rhinitis caused by grass pollen
-  * Allergic rhinitis caused by house dust mite
-
-  
-  
 # Allergic and nonallergic hypersensitivity (pseudoallergic) _reactions_
 
 These disorders represent pathological processes that are defined as adverse reactions and allergic conditions with a pathological process of allergic or nonallergic hypersensitivity (pseudoallergic) process.
 
-Reaction| Patterns and examples  
----|---  
-FSN| Patterns: 
+| Reaction | Patterns and examples |
+|---|---|
+| FSN | Allergic reaction (caused by X) (disorder) Anaphylactic reaction (caused by X) (disorder) Anaphylactoid reaction (caused by X) (disorder) Allergic reaction caused by dye (disorder) Allergic reaction caused by pollen (disorder) Patterns: For example, |
+| PT | Allergic reaction caused by X Allergic reaction caused by dye Allergic reaction caused by pollen Patterns: For example, |
 
-  * Allergic reaction (caused by X) (disorder)  
-
-  * Anaphylactic reaction (caused by X) (disorder)
-  * Anaphylactoid reaction (caused by X) (disorder)
-
-For example, 
-
-  * Allergic reaction caused by dye (disorder)
-  * Allergic reaction caused by pollen (disorder)
-
-  
-PT| Patterns: 
-
-  * Allergic reaction caused by X
-
-For example,
-
-  * Allergic reaction caused by dye
-  * Allergic reaction caused by pollen
-
-  
-  
 # Contact hypersensitivity
 
 Contact hypersensitivity represents a response elicited by contact of the skin or mucous membranes with a substance. The response may be immune mediated (allergic) or nonimmune (irritant) using the pathological process _c_ _ontact hypersensitivity process (qualifier value)._
@@ -197,27 +159,11 @@ An intolerance is the propensity to develop an adverse reaction to a substance. 
 
 Due to the difficulty in precisely defining an intolerance pathological process, it is problematic to apply the model for hypersensitivity dispositions to defining intolerance to substance. For this reason, as well as the difficulty in associating a material agent with a disposition, substances are related to the intolerance disposition with the _associated with_ attribute.
 
-Intolerance| Patterns and examples  
----|---  
-FSN| Pattern:
+| Intolerance | Patterns and examples |
+|---|---|
+| FSN | Intolerance to X (finding) Intolerance to milk (finding) Pattern: Example, |
+| PT | Intolerance to X Intolerance to milk Pattern: Example, |
 
-  * Intolerance to X (finding)
-
-Example,
-
-  * Intolerance to milk (finding)
-
-  
-PT| Pattern:
-
-  * Intolerance to X
-
-Example,
-
-  * Intolerance to milk
-
-  
-  
 # Inadequate and excessive intake of energy and nutrients
 
 Identification of findings of inadequate or excessive intake of nutrients inconsistent with nutrient requirements and established reference standards includes nutrients with a variety of forms where applicable.

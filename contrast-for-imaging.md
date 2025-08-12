@@ -15,9 +15,13 @@ Where the value for the method imaging action is 278110001 |Radiographic imaging
 
   * Exception: procedures which specify negative contrast which is non-radio-opaque
 
+This guidance should be applied to new content, the process of updating existing content will be carried out as time and resources permit.
+
 It is unnecessary to add the word _media_ to contrast.
 
 It is agreed that the linking word to associate the contrast use with the procedure is  _with_ \- not _for,_ _or,_ etc.
+
+Additional concept detail is required when it is necessary to know the more precise nature of contrast (e.g. iodinated with various osmolalities, barium, or gas).
 
 ## Imaging without contrast
 

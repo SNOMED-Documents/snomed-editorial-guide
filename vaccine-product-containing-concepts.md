@@ -15,61 +15,27 @@ Vaccine product "containing" concepts are not created for multiple ingredient va
 
 ## Modeling
 
-Stated parent concept| 763158003 |Medicinal product (product)  
----|---  
-Semantic tag| (medicinal product)  
-Definition status| Defined  
-Attribute:Has active ingredient| Range: <105590001 |Substance (substance) excluding concepts representing structural groupers, dispositions, or combined substancesCardinality: 1..*
+| Stated parent concept | 763158003 \|Medicinal product (product) |
+|---|---|
+| Semantic tag | (medicinal product) |
+| Definition status | Defined |
+| Attribute: Has active ingredient | While the allowed range is broader, Vaccine product "containing" concepts in the International Release should have one and only one \|Has active ingredient\| attribute. 161000221102 \|Antigen of Corynebacterium diphtheriae toxoid (substance)\| 551000221106 \|Antigen of Clostridium tetani toxoid (substance)\| Range: <105590001 \|Substance (substance) excluding concepts representing structural groupers, dispositions, or combined substances Cardinality: 1..* For content in the International Release,this attribute value should represent the organism antigen, not a modification or subtype, unless explicitly identified as an exception. Exceptions: Vaccine product containing concepts for the following substance subtypes are included (to support vaccination certificates): |
+| Attribute: Plays role | While the allowed range is broader, Vaccine product "containing" concepts should have one and only one \|Plays role\| attribute with attribute value = 318331000221102 \|Active immunity stimulant therapeutic role (role)\|. Range: <<766940004 \|Role (role)\| Cardinality: 0..* |
 
-  *     * While the allowed range is broader, Vaccine product "containing" concepts in the International Release should have one and only one |Has active ingredient| attribute.
-
-For content in the International Release, this attribute value should represent the organism antigen, not a modification or subtype, unless explicitly identified as an exception.Exceptions: Vaccine product containing concepts for the following substance subtypes are included (to support vaccination certificates):
-
-  *     * 161000221102 |Antigen of Corynebacterium diphtheriae toxoid (substance)|
-    * 551000221106 |Antigen of Clostridium tetani toxoid (substance)|
-
-  
-Attribute:Plays role| Range: <<766940004 |Role (role)|  
-Cardinality: 0..*
-
-  *     * While the allowed range is broader, Vaccine product "containing" concepts should have one and only one |Plays role| attribute with attribute value = 318331000221102 |Active immunity stimulant therapeutic role (role)|.
-
-  
-  
 ## Naming
 
-**FSN**|  Use the following pattern for the FSN; align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|. For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
+| FSN | Vaccine product containing <Active ingredient PT> (medicinal product) Vaccine product containing Hepatitis B virus antigen (medicinal product) Vaccine product containing Haemophilus influenzae type B antigen (medicinal product) Use the following pattern for the FSN; align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 \|Has active ingredient (attribute)\|. For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens". For example, |
+|---|---|
+| Preferred Term | <Active ingredient PT> -containing vaccine product Hepatitis B virus antigen-containing vaccine product Haemophilus influenzae type B antigen-containing product Use the following pattern for the PT; align naming and case significance with the PT for the concept that is selected as the attribute value for the 127489000 \|Has active ingredient (attribute)\|.For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word"antigen" will be omitted.For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens". For example, |
+| Synonyms | Synonyms matching the FSN are not required. Synonyms corresponding to the disorder that is the target of the vaccine are not allowed; they may be applied to the "Vaccine product containing only" concepts. |
 
-  * Vaccine product containing <Active ingredient PT> (medicinal product)
-
-For example,
-
-  *     *       * Vaccine product containing Hepatitis B virus antigen (medicinal product)  
-
-      * Vaccine product containing Haemophilus influenzae type B antigen (medicinal product)
-
-  
----|---  
-**Preferred Term**|  Use the following pattern for the PT; align naming and case significance with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.  For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
-
-  * <Active ingredient PT>-containing vaccine product _  
-_
-
-For example,
-
-  *     *       * Hepatitis B virus antigen-containing vaccine product
-      * Haemophilus influenzae type B antigen-containing product
-
-  
-**Synonyms**|  Synonyms matching the FSN are not required.Synonyms corresponding to the disorder that is the target of the vaccine are not allowed; they may be applied to the "Vaccine product containing only" concepts.  
-  
 ## Exemplars
 
 The following illustrates the **stated** view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|:
 
-<figure><img src="images/174690933.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/179931319.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="images/174690932.png" alt="" title=""></figure>
+<figure><img src="images/179931318.png" alt="" title=""></figure>
 
   
 

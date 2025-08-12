@@ -4,7 +4,9 @@ The following sections apply to the vaccine product concepts in the |Medicinal p
 
 In the International Release, vaccine products are those concepts with |Plays role (attribute) = |Active immunity stimulant role (role)|. 
 
-  * [Vaccine Product Top Level Groupers](Vaccine-Product-Top-Level-Groupers_174690908.html)
-  * [Vaccine Product containing Concepts](Vaccine-Product-containing-Concepts_174690929.html)
-  * [Vaccine Product containing only Concepts](Vaccine-Product-containing-only-Concepts_174690944.html)
+Products that provide _passive_ immunity should be modeled using the general Medicinal product guidance.
+
+  * [Vaccine Product Top Level Groupers](Vaccine-Product-Top-Level-Groupers_179931294.html)
+  * [Vaccine Product containing Concepts](Vaccine-Product-containing-Concepts_179931315.html)
+  * [Vaccine Product containing only Concepts](Vaccine-Product-containing-only-Concepts_179931330.html)
 

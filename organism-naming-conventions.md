@@ -10,6 +10,14 @@ For example,
 
   *     * [ 106544002 | Family Enterobacteriaceae (organism)|](http://snomed.info/id/106544002 "106544002 | Family Enterobacteriaceae \(organism\) |")
 
+The naming convention is not applied to concepts that only refer to a subgroup of a rank.
+
+For example,
+
+  *     * Vancomycin resistant Enterococcus (organism) is correct in capitalizing Enterococcus. It refers to a subclass of the genus, Enterococcus species that are resistant. Enterococcus is a scientific name of an organism class; therefore, the first letter is capitalized. 
+
+  *     *  _Vancomycin resistant Genus Enterococcus_ is incorrect. It refers to the rank only, Genus Enterococcus.
+
 Official names of organisms may include abbreviations such as “subsp.” and “subgen.” (Domain Bacteria and Kingdom Plantae). Official names of organisms may also include parentheses e.g. “Cypraea (Cypraea) tigris” (Kingdom Animalia) and “Bacillus (subgen. Bacillus Cohn 1872, 174) subtilis” (Domain Bacteria). 
 
   * The FSN of organisms should include the expanded word for rank i.e. “subgenus” or “subspecies” and not an abbreviation of same. 
@@ -21,6 +29,18 @@ For example,
   *     * Genus Pleione subgenus Scopulorum (organism)
     * Genus Cypraea subgenus Cypraea tigris (organism)
     * Staphylococcus succinus subspecies casei (organism)
+
+When the same Scientific Name is used in two different hierarchies (two different kinds of organisms), use the Scientific Name with annotated common name as FSN and PT to prevent confusion. A dash may be used to separate the two names. Use the common name from the authoritative source. If a common name is not listed in the authoritative source, use the NCBI BLAST name as common name in the FSN and PT. If a common name is not in either the authoritative source or in the NCBI BLAST names, consult the literature or other resources for a distinguishing name to use in the FSN and PT. Synonyms containing official scientific name (with or without taxonomic rank designation) will not be added for these concepts to avoid ambiguity and prevent duplication of the names.
+
+For example,
+
+  *     * The genus of bacteria Edwardsiella does not have a common name listed in the authoritative source. Therefore, use the NCBI BLAST name "enterobacteria" in the FSN. For the genus of animals Edwardsiella, use the common name "sea anemones" from the authoritative source.
+      * 14566004 |Genus Edwardsiella - enterobacteria (organism)|
+      * 1351899003 |Genus Edwardsiella - sea anemones (organism)|
+
+A description matching the FSN is used as PT.
+
+Synonyms such as "Genus Edwardsiella" or "Edwardsiella" are not added as acceptable descriptions to any of the concepts.
 
 ## Preferred Term
 
@@ -35,6 +55,43 @@ For example,
     * Pleione subg. Scopulorum
     * Bacillus (subgen. Bacillus Cohn 1872, 174) subtilis
     * Staphylococcus succinus subsp. casei
+
+If a common name exists for an organism in primary references, then it could be used as the Preferred Term for the organism.
+
+For example,
+
+  *     * 388618001 |Family Felidae (organism)|, PT: cats
+    * 388626009 |Genus Felis (organism)|, PT: small cats
+
+If a common name is shared between more than one organism, the preferred term should adhere to the following format: Scientific Name with annotated common name to prevent confusion. A dash may be used to separate the two names.
+
+For example,
+
+  *     * 1697006 |Genus Megapodius (organism)| and 107060000 |Family Megapodiidae (organism)| share the common name “Megapodes”. The Preferred term for the two concepts is as follows:
+      * 1697006 |Genus Megapodius (organism)| PT: Megapodius - megapodes
+      * 107060000 |Family Megapodiidae (organism)| PT: Megapodiidae - megapodes
+
+An organism's common name might be the same as the scientific name for another organism. Example: _Gorilla_ is the scientific name for 389217005 |Genus Gorilla (organism)|, but it is the common name for 8807009 |Gorilla gorilla (organism)|. In these cases, the latter concept's preferred term should be the scientific name with annotated common name to prevent confusion.
+
+For example,
+
+  *     * For concept 8807009 |Gorilla gorilla (organism)|, the preferred term is “Gorilla gorilla - gorilla"
+
+Occasionally, we may need to add a word to the common name specified in the resources to make the common name more explicit.
+
+For example,
+
+  *     * Loxosceles reclusa has a common name of _brown recluse_ in ITIS, which is one of the SNOMED primary references. To make the naming more explicit, the word _spider_ has been added to the preferred term:
+      * FSN: 23312003 |Loxosceles reclusus (organism)|
+      * PT: Brown recluse spider
+
+When there are multiple names listed as common name for an organism in primary references, additional references should be consulted to locate the most commonly used term.
+
+High level taxonomic terms often refer to groups of organisms. The preferred terms need to reflect that grouping. 
+
+For example,
+
+  *     * "Order Columbiformes" represent all Genera of Doves and pigeons, so the preferred term for 107097005 |Order Columbiformes (organism)| is: Doves and pigeons.
 
 ## Qualifiers in organism names
 
@@ -69,6 +126,18 @@ For example,
   *     * [ 426813007 | Order Acidobacteriales (organism)|](http://snomed.info/id/426813007 "426813007 | Order Acidobacteriales \(organism\) |") has case significance of _Initial character case insensitive_.
 
     * 72646003 |Streptococcus equinus (organism)| contains a heterotypic synonym of "Streptococcus bovis". Both of these descriptions are scientific names of the organism, and therefore, both have a case sensitivity indicator of _Entire term case sensitive_ (CS). 
+
+Where the binomial format for an organism species includes capitalization of the first word, i.e., the genus name, but the species name begins with a lower case letter. Therefore, the whole name would have case significance of _Entire term case sensitive_ (CS). 
+
+For example,
+
+  *     * [ 24224000 | Brucella abortus (organism)|](http://snomed.info/id/24224000 "24224000 | Brucella abortus \(organism\) |")
+
+If the species name includes any other word, it is not capitalized unless it is a proper noun, or part of a proper noun.
+
+For example,
+
+  *     * 31989009 |Murray Valley encephalitis virus (organism)|
 
 Capitalization is applicable to the organism scientific name, e.g. Hepatitis B virus. The name of the associated disease does not require capitalization, e.g. "hepatitis".
 
@@ -107,6 +176,8 @@ For example,
   *     * [ 656008 | Salmonella Os (organism)|](http://snomed.info/id/656008 "656008 | Salmonella Os \(organism\) |")
 
 In SNOMED CT, the serotype name in the description should be capitalized.
+
+Salmonella serotypes, without the species and subspecies names, should not be confused with binomial species names of other organisms.
 
 ## Streptococcus pneumoniae 
 
@@ -178,6 +249,8 @@ In the context of the Linnaean organism hierarchy, there is no difference betwee
 
 Since the organism concept represents a class of organisms, it cannot also represent what was, was not, or what will be done to identify the organism. Neither can it represent other information about the result. If there is additional information to report, it should be in a separate statement or comment (e.g. _further species identification pending_ or _sent to reference laboratory for further_ _identification_ or _further identification to be done if clinically_ indicated).
 
+Addition of _X_ species as a description to genus _X_ is allowed and is done per request.
+
 ## Microorganism name changes
 
 Microorganism taxonomic names may change, often due to scientific advances. This may result in:
@@ -229,6 +302,8 @@ However, the _egg stage_ of Strongyloides stercoralis is not an organism. Many d
 
 For example, the results of a [ 83033005 | Fecal analysis (procedure)|](http://snomed.info/id/83033005 "83033005 | Fecal analysis \(procedure\) |") may identify the presence of [ 609326000 | Larva of Strongyloides stercoralis (organism)|](http://snomed.info/id/609326000 "609326000 | Larva of Strongyloides stercoralis \(organism\) |") and [ 699572004 | Egg of Strongyloides stercoralis (organism)|](http://snomed.info/id/699572004 "699572004 | Egg of Strongyloides stercoralis \(organism\) |") .
 
+Concepts in the organism hierarchy should not represent organism  _structures_ (e.g. fungal hyphae). In addition, the word "_stage"_ should be excluded from concepts representing life cycle of an organism (e.g. larval **stage** of a nematode parasite). This does not preclude representations of organisms ‘participating’ in a specific stage of life e.g. 609061000 |Larva of genus Ascaris (organism)|.
+
 ## Naming patterns
 
 FSN pattern: (Life cycle stage) of (Taxon including rank, if required) (organism)
@@ -275,7 +350,7 @@ Some organisms and stages are referred to in an _adjectival_ form (e.g. Ascarid 
 
 Homotypic synonyms (also referred to as objective or nomenclatural or obligate synonyms), sometimes indicated by a triple bar 
 
-<figure><img src="images/174690620.png" alt="" title=""><figcaption><p>, are based on the exact same type specimen. These synonyms are published in the scientific literature following the formal nomenclatural rules (that is, they are declared through a <em>nomenclatural</em> <em>act</em>).</p></figcaption></figure>
+<figure><img src="images/179931006.png" alt="" title=""><figcaption><p>, are based on the exact same type specimen. These synonyms are published in the scientific literature following the formal nomenclatural rules (that is, they are declared through a <em>nomenclatural</em> <em>act</em>).</p></figcaption></figure>
 
 Heterotypic synonyms (also referred to as subjective or taxonomic synonyms), sometimes indicated by “=“, are based on different type specimens. These synonyms rely on the opinions of taxonomists rather than on the formal nomenclatural rules.
 

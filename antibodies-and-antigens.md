@@ -14,60 +14,23 @@ This section includes concepts that represent Antigen of X organism, Antibody to
 
 ## Modeling - Antigen of X organism
 
-Parent concept| Most distal appropriate descendant of 116633006 |Microbial antigen (substance)|  
----|---  
-Semantic tag| (substance)  
-Definition status| Primitive  
-Attribute| N/A  
-  
+| Parent concept | Most distal appropriate descendant of 116633006 \|Microbial antigen (substance)\| |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+| Attribute | N/A |
+
 ## Naming Guidelines - Antigen of X organism
 
 The antigen name is usually derived from the biological name of the organism as opposed to the “disease” or “infection” that the organism may cause and/or that the vaccine may provide immunization for.  
 
-FSN| Pattern:
+| FSN | Antigen of X organism (substance) Antigen of Alternaria alternata protein (substance) Pattern: For example, Antigen of Filaria (substance) |
+|---|---|
+| Preferred Term | X organism antigen Filaria antigen Alternaria alternata protein antigen Preferred term for Antigen of live attenuated Mycobacterium bovis: Bacillus Calmette-Guerin antigen Pattern: For example, Exception: |
+| Synonyms | Antigen of Alternaria alternata protein Pattern:A synonym that matches FSN For example, Antigen of Filaria |
+| Alternaria alternata protein Ag Pattern: X organism Ag For example, Filaria Ag |   |
+| Other "X organism inactivated toxin" for concepts referring to "X organism toxoid (substance)" Additional synonyms (e.g. when a legitimate synonyms exist for Organism name) are applicable and are evaluated on case-by-case basis. |   |
 
-  * Antigen of X organism (substance)
-
-For example,
-
-  *     *       * Antigen of Filaria (substance)
-      * Antigen of Alternaria alternata protein (substance)
-
-  
----|---  
-Preferred Term| Pattern:
-
-  * X organism antigen
-
-For example,
-
-  *     *       * Filaria antigen
-      * Alternaria alternata protein antigen
-
-Exception:
-
-  * Preferred term for Antigen of live attenuated Mycobacterium bovis: Bacillus Calmette-Guerin antigen
-
-  
-Synonyms| Pattern: A synonym that matches FSNFor example,
-
-  *     *       * Antigen of Filaria
-      * Antigen of Alternaria alternata protein
-
-  
-Pattern: X organism AgFor example,
-
-  *     *       * Filaria Ag
-      * Alternaria alternata protein Ag
-
-  
-Other
-
-  * "X organism inactivated toxin" for concepts referring to "X organism toxoid (substance)"
-  * Additional synonyms (e.g. when a legitimate synonyms exist for Organism name) are applicable and are evaluated on case-by-case basis.
-
-  
-  
   
 
 ## Antigen variants:
@@ -170,7 +133,7 @@ Inclusion of Vaccine manufacturing techniques and/or residuals in antigen names 
 
 The following illustrates the **stated** and **inferred** view:  
 
-<figure><img src="images/174691548.png" alt="" title=""></figure>
+<figure><img src="images/179931932.png" alt="" title=""></figure>
 
   
 
@@ -178,100 +141,54 @@ The following illustrates the **stated** and **inferred** view:
 
 ## Modeling - **** Antibody to X organism
 
-Parent concept| Most distal appropriate descendant of |116642004 |Antimicrobial antibody (substance)|  
----|---  
-Semantic tag| (substance)  
-Definition status| Primitive  
-**Attribute**|  None  
-  
+| Parent concept | Most distal appropriate descendant of \|116642004 \|Antimicrobial antibody (substance)\| |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+| Attribute | None |
+
   
 
 ### Naming Guidelines - **** Antibody to X organism
 
-**FSN**|  Pattern:
+| FSN | Antibody to X organism (substance) Pattern: For example, Antibody to Bebaru virus (substance) |
+|---|---|
+| Preferred Term | X organism antibody Bebaru virus antibody Pattern: For example, |
+| Synonyms | Antibody to Bebaru virus Pattern: A synonym that matches FSN For example, |
+| Bebaru virus Ab Pattern: X organism Ab For example, |   |
+| Additional synonyms (e.g. when a legitimate synonyms exist for Organism name) are applicable. |   |
 
-  * Antibody to X organism (substance)
-
-For example,
-
-  *     *       * Antibody to Bebaru virus (substance)
-
-  
----|---  
-**Preferred Term**|  Pattern:
-
-  * X organism antibody
-
-For example,
-
-  *     *       * Bebaru virus antibody
-
-  
-**Synonyms**|  Pattern: A synonym that matches FSNFor example,
-
-  *     *       * Antibody to Bebaru virus
-
-  
-Pattern: X organism AbFor example,
-
-  *     *       * Bebaru virus Ab
-
-  
-  
-  * Additional synonyms (e.g. when a legitimate synonyms exist for Organism name) are applicable.
-
-  
-  
   
 
 ### Exemplar
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/174691551.png" alt="" title=""><figcaption><p>****</p></figcaption></figure>
+<figure><img src="images/179931935.png" alt="" title=""><figcaption><p>****</p></figcaption></figure>
 
 ## Modeling -  Immunoglobulin G, M, A, E, D antibody to X organism
 
-Parent concept| Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to X organism (substance)| if in SNOMED CT  
----|---  
-Semantic tag| (substance)  
-Definition status| Primitive  
-**Attribute**|  None  
-  
+| Parent concept | Most distal appropriate descendant of 70095009 \|Immunoglobulin isotype (substance)\| and \|Antibody to X organism (substance)\| if in SNOMED CT |
+|---|---|
+| Semantic tag | (substance) |
+| Definition status | Primitive |
+| Attribute | None |
+
   
 
 ### Naming Guidelines \-  Immunoglobulin G, M, A, E, D antibody to X organism
 
-FSN| Pattern: Immunoglobulin G, M, A, E, D antibody to X organism (substance)For example,
+| FSN | Pattern:Immunoglobulin G, M, A, E, D antibody to X organism (substance) For example, Immunoglobulin M antibody to Clostridium difficile (substance) |
+|---|---|
+| Preferred Term | Clostridium difficile IgM Pattern:X organism IgG, M, A, E, D For example, |
+| Synonyms | Immunoglobulin M antibody to Clostridium difficile Pattern: A synonym that matches FSN For example, |
+| Anti-Clostridium difficile IgM Pattern: Anti-X organism IgM For example, |   |
+| Additional synonyms (e.g. when a legitimate synonyms exist for Organism name) are applicable. |   |
 
-  *     *       * Immunoglobulin M antibody to Clostridium difficile (substance)
-
-  
----|---  
-Preferred Term| Pattern: X organism IgG, M, A, E, DFor example,
-
-  *     *       * Clostridium difficile IgM
-
-  
-Synonyms| Pattern: A synonym that matches FSNFor example,
-
-  *     *       * Immunoglobulin M antibody to Clostridium difficile
-
-  
-Pattern: Anti-X organism IgMFor example,
-
-  *     *       * Anti-Clostridium difficile IgM
-
-  
-  
-  * Additional synonyms (e.g. when a legitimate synonyms exist for Organism name) are applicable.
-
-  
-  
 Exemplar
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/174691547.png" alt="" title=""></figure>
+<figure><img src="images/179931931.png" alt="" title=""></figure>
 
-<figure><img src="images/174691546.png" alt="" title=""></figure>
+<figure><img src="images/179931930.png" alt="" title=""></figure>

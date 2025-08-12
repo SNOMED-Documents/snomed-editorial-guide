@@ -6,7 +6,7 @@ SNOMED CT uses a structure-entire-part triple, known as the _SEP triple_ , to re
 
   
 
-<figure><img src="images/174690324.png" alt="" title=""><figcaption><p>The SNOMED CT anatomy hierarchy differentiates classes of entire anatomical entities from classes of <em>parts of</em> entire anatomical entities.</p></figcaption></figure>
+<figure><img src="images/179930708.png" alt="" title=""><figcaption><p>The SNOMED CT anatomy hierarchy differentiates classes of entire anatomical entities from classes of <em>parts of</em> entire anatomical entities.</p></figcaption></figure>
 
   
   
@@ -88,6 +88,8 @@ For example, an embryo is not part of a mother's body, but a kidney is. The anat
 For example, a Meckels diverticulum is a body structure that is part of the small intestine, and it is also a morphological abnormality. Likewise some stomas and other post-surgical structures are considered part of the body. A transplanted liver or kidney would be considered part of the body, as a post-surgical structure, even though the transplanted organ is not genetically identical. Likewise transplanted bone marrow is part of the body.
 
 Non-living implants and devices, and foreign bodies, on the other hand, are considered to be located in the body, but not part of the body. 
+
+For more information on part of relationships in the anatomy concept model, please see [Part of relationships (under development)](https://confluence.ihtsdotools.org/pages/viewpage.action?pageId=35992270).
 
   
 

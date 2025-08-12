@@ -46,6 +46,8 @@ Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guide
 
  _Angiography_ and _angiogram_ , as terms on their own, refer to visualization of a blood vessel or vascular structure not specified as an artery or a vein and could refer to either or both. So for clarity, a blood vessel site (X) and the phrase _with_ _contrast_ must be included in the concept description.
 
+Fluoroscopic angiography always uses contrast. _With contrast_ must be explicitly stated in all descriptions.
+
 ### Fluoroscopic angiography when vessel is not stated
 
   * FSN: Fluoroscopic angiography of X with contrast (procedure)

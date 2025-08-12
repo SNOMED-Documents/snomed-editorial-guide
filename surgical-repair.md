@@ -21,5 +21,7 @@ Surgery that accomplishes a  _repair_ (a structural restoration) often uses the 
   * _Prosthetic repair_ , using external (non-body) materials
   *  _Plastic repair,_ reshaping the body
 
+The suffix  _-plasty_ is widely used in concepts that apply to prosthetic repairs (e.g. total hip arthroplasty). So -_plasty_ may refer to any general repair (prosthetic, plastic, or other) and not just plastic repairs.
+
   
 
