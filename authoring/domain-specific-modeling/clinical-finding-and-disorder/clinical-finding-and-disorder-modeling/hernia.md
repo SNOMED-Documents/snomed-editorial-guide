@@ -6,5 +6,4 @@ For example,
 
 The concept [50063009 |Femoral hernia (disorder)|](http://snomed.info/id/50063009) is modeled with Finding site = 818983003 |Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall (body structure)| to represent the herniated structure.
 
-<figure><img src="images/179930911.png" alt="" title=""><figcaption><p>Figure 1: Stated view of Femoral hernia (disorder)</p></figcaption></figure>
-
+<figure><img src="../../../../images/179930911.png" alt=""><figcaption><p>Figure 1: Stated view of Femoral hernia (disorder)</p></figcaption></figure>

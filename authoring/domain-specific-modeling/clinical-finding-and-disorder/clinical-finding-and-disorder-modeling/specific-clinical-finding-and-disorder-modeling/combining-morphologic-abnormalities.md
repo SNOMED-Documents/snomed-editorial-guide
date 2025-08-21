@@ -13,6 +13,6 @@ If this disorder had the same finding site of |Structure of rotator cuff of left
 
 Instead of modeling as in this stated view:
 
-<figure><img src="../../../../images/179930921.png" alt=""><figcaption><p>Model as shown in this stated view:</p></figcaption></figure>
+<figure><img src="../../../../../images/179930921.png" alt=""><figcaption><p>Model as shown in this stated view:</p></figcaption></figure>
 
-<figure><img src="../../../../images/179930922.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../images/179930922.png" alt=""><figcaption></figcaption></figure>
