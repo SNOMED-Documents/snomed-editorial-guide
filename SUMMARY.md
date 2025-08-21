@@ -7,11 +7,11 @@
 * [Knowledge Representation](snomed-ct-introduction/knowledge-representation.md)
 * [Out of Scope](snomed-ct-introduction/out-of-scope.md)
 * [SNOMED CT Requirements](snomed-ct-introduction/snomed-ct-requirements/README.md)
-  * [Medical Vocabularies - J. Cimino](snomed-ct-introduction/snomed-ct-requirements/medical-vocabularies-j-cimino.md)
-  * [Electronic Health Applications](snomed-ct-introduction/snomed-ct-requirements/electronic-health-applications.md)
-  * [Implementation and Migration](snomed-ct-introduction/snomed-ct-requirements/implementation-and-migration.md)
-  * [User Communities](snomed-ct-introduction/snomed-ct-requirements/user-communities.md)
-  * [Summary of SNOMED CT Requirements](snomed-ct-introduction/snomed-ct-requirements/summary-of-snomed-ct-requirements.md)
+  * [Medical Vocabularies - J. Cimino](medical-vocabularies-j-cimino.md)
+  * [Electronic Health Applications](electronic-health-applications.md)
+  * [Implementation and Migration](implementation-and-migration.md)
+  * [User Communities](user-communities.md)
+  * [Summary of SNOMED CT Requirements](summary-of-snomed-ct-requirements.md)
 
 ## AUTHORING
 
@@ -20,10 +20,28 @@
 ***
 
 * [General Naming Conventions](general-naming-conventions.md)
+
+## SNOMED INTRODUCTION
+
+## CONCEPT MODEL OVERVIEW
+
+* [Root and Top-level Concepts](concept-model-overview/root-and-top-level-concepts.md)
+* [Attributes](concept-model-overview/attributes.md)
+* [Defining Characteristics](concept-model-overview/defining-characteristics.md)
+* [Qualifying Characteristics](concept-model-overview/qualifying-characteristics.md)
+
+## AUTHORING
+
+* [Scope](authoring-1/scope/README.md)
+  * [Adjudication for Content Requests](authoring-1/scope/adjudication-for-content-requests.md)
+  * [Proprietary Names and Works](authoring-1/scope/proprietary-names-and-works/README.md)
+    * [implementation-of-brand-trademark-and-copyright](authoring-1/scope/proprietary-names-and-works/implementation-of-brand-trademark-and-copyright.md)
+
+***
+
 * [Abscess](<README (1).md>)
 * [Acquired abnormality of congenital anomaly](acquired-abnormality-of-congenital-anomaly.md)
 * [Action Verbs](action-verbs.md)
-* [Adjudication for Content Requests](adjudication-for-content-requests.md)
 * [Adverse reaction to X vaccine](adverse-reaction-to-x-vaccine.md)
 * [Allergy to X vaccine](allergy-to-x-vaccine.md)
 * [Anatomical Concept Model](anatomical-concept-model.md)
@@ -36,8 +54,7 @@
 * [Antivenom](antivenom.md)
 * [Arrythmia](arrythmia.md)
 * [Aspiration](aspiration.md)
-* [Attributes](attributes.md)
-* [Authoring](authoring-1.md)
+* [Authoring](authoring-2.md)
 * [Autoantibody](autoantibody.md)
 * [Bacterial disorders with organism or toxin](bacterial-disorders-with-organism-or-toxin.md)
 * [Basic Dose Form](basic-dose-form.md)
@@ -67,7 +84,7 @@
 * [complication-and-sequela-modeling](complication-and-sequela-modeling.md)
 * [Computed Tomography - CT](computed-tomography-ct.md)
 * [Concept Inactivation](concept-inactivation.md)
-* [Concept Model Overview](concept-model-overview.md)
+* [Concept Model Overview](concept-model-overview-1.md)
 * [Concepts Representing a Substance or its Modifications](concepts-representing-a-substance-or-its-modifications.md)
 * [Congenital anomaly](congenital-anomaly.md)
 * [Congenital](congenital.md)
@@ -76,7 +93,6 @@
 * [Contrast for Imaging](contrast-for-imaging.md)
 * [Creating new morphologies](creating-new-morphologies.md)
 * [Death](death.md)
-* [Defining Characteristics](defining-characteristics.md)
 * [Definition](definition.md)
 * [Degeneration and Degenerative abnormality](degeneration-and-degenerative-abnormality.md)
 * [Deoxyribonucleic acid and ribonucleic acid](deoxyribonucleic-acid-and-ribonucleic-acid.md)
@@ -142,7 +158,6 @@
 * [Imaging](imaging.md)
 * [Immune function disorders](immune-function-disorders.md)
 * [Immunization and vaccination](immunization-and-vaccination.md)
-* [implementation-of-brand-trademark-and-copyright](implementation-of-brand-trademark-and-copyright.md)
 * [EDUEG (Education Editorial Guide)](index.md)
 * [Infectious vs. inflammatory](infectious-vs-inflammatory.md)
 * [Ingredient Count Attributes](ingredient-count-attributes.md)
@@ -230,14 +245,12 @@
 * [procedure-modeling](procedure-modeling.md)
 * [Procedure Naming Conventions](procedure-naming-conventions.md)
 * [Procedure](procedure.md)
-* [Proprietary Names and Works](proprietary-names-and-works.md)
 * [Prosthetic arthroplasty of joint](prosthetic-arthroplasty-of-joint.md)
 * [Proximal Primitive Modeling](proximal-primitive-modeling.md)
 * [Pulmonary embolism](pulmonary-embolism.md)
 * [Punctuation and Symbols](punctuation-and-symbols.md)
 * [Qualifier Value](qualifier-value.md)
 * [Qualifier values supporting Pharmaceutical and Biologic Product](qualifier-values-supporting-pharmaceutical-and-biologic-product.md)
-* [Qualifying Characteristics](qualifying-characteristics.md)
 * [Radioactive substances](radioactive-substances.md)
 * [Radiographic Imaging, X-ray and Plain X-ray](radiographic-imaging-x-ray-and-plain-x-ray.md)
 * [Record Artifact](record-artifact.md)
@@ -250,9 +263,7 @@
 * [Restructure of the top level substances hierarchy](restructure-of-the-top-level-substances-hierarchy.md)
 * [Revision](revision.md)
 * [Rheumatoid arthritis](rheumatoid-arthritis.md)
-* [Root and Top-level Concepts](root-and-top-level-concepts.md)
 * [Saturated or unsaturated substances](saturated-or-unsaturated-substances.md)
-* [Scope](scope.md)
 * [Semantic Tag](semantic-tag.md)
 * [Sentence Types](sentence-types.md)
 * [Shunt Naming and Modeling](shunt-naming-and-modeling.md)
