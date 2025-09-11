@@ -23,17 +23,17 @@ The concept file includes a special concept referred to as the _root concep_ t. 
 
 ## Top-level Concepts
 
-Concepts that are directly related to the root concept by a single relationship of the Relationship type [116680003 | Is a (attribute)|](http://snomed.info/id/116680003) are referred to as _top-level concepts_. All other concepts are descended from at least one top-level concept via at least one series of relationships of the Relationship type [116680003 | Is a (attribute)|](http://snomed.info/id/116680003) , i.e. all other concepts represent subclasses of the meaning of at least one top-level concept.
+Concepts that are directly related to the root concept by a single relationship of the Relationship type `116680003 | Is a (attribute)|` are referred to as _top-level concepts_. All other concepts are descended from at least one top-level concept via at least one series of relationships of the Relationship type `116680003 | Is a (attribute)|` , i.e. all other concepts represent subclasses of the meaning of at least one top-level concept.
 
 ### Top-level metadata concepts
 
-A concept that is directly related to the root metadata concept, [900000000000441003 | SNOMED CT Model Component (metadata)|](http://snomed.info/id/900000000000441003) by a single relationship of the relationship type IS\_A. All metadata concepts are descended from at least one top-level metadata concept via at least one series of relationships with Relationship type IS\_A. Metadata codes represent structural information about the terminology itself. The top-level metadata concepts represent broad groups of metadata.
+A concept that is directly related to the root metadata concept, `900000000000441003 | SNOMED CT Model Component (metadata)|` by a single relationship of the relationship type IS\_A. All metadata concepts are descended from at least one top-level metadata concept via at least one series of relationships with Relationship type IS\_A. Metadata codes represent structural information about the terminology itself. The top-level metadata concepts represent broad groups of metadata.
 
 ## Subtype relationships
 
 Subtype relationships provide the main semantic hierarchy that relates concepts to one another. All active concepts, except the root concept, have subtype relationships with one or more concept. Each of these relationships indicate that a concept is a subtype of another concept.
 
-Subtype relationships are expressed in the same way as other SNOMED CT relationships. They are identifiable by their fully specified names, e.g [116680003 |Is a (attribute)|](http://snomed.info/id/116680003).
+Subtype relationships are expressed in the same way as other SNOMED CT relationships. They are identifiable by their fully specified names, e.g `116680003 |Is a (attribute)|`.
 
 For example,
 
