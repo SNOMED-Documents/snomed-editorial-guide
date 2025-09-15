@@ -5,4 +5,4 @@ _Logical Observation Identifiers Names and Codes (LOINC) _terms are defined usin
 The project release documentation contains information about how LOINC terms and parts are aligned with SNOMED CT concepts using the model.
 
 For more information please see <https://loincsnomed.org/>[.  
-](https://confluence.ihtsdotools.org/display/RMT/SNOMED+CT+July+2017+LOINC+-+SNOMED+CT+Cooperative+package+Production+release+-+RF2+Release+notes)
+](https://prod-confluence.ihtsdotools.org/display/RMT/SNOMED+CT+July+2017+LOINC+-+SNOMED+CT+Cooperative+package+Production+release+-+RF2+Release+notes)

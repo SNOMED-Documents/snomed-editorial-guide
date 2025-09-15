@@ -26,4 +26,4 @@
 
 The following illustrates the ****stated**** and****inferred**** view for 736679003 |Liquid (state of matter)|:
 
-<figure><img src="images/179931532.png" alt="" title=""></figure>
+<figure><img src="images/174691147.png" alt="" title=""></figure>

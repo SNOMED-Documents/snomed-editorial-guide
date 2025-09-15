@@ -14,11 +14,11 @@ Lyophilized dose forms are out of scope for the international edition of SNOMED 
 |---|---|
 | Semantic tag | (dose form) |
 | Definition status | The following referenced in concepts cannot be sufficiently defined. They are modeled with a parent of 736542009 \|Pharmaceutical dose form (dose form) with al l applicable attributes and have a Definition status of Primitive . coated drug delivery system iontophoresis (e.g. 385113008 \|Conventional release solution for iontophoresis (dose form)\|) nebulizer (e.g. 385198000 \|Conventional release solution for nebulizer (dose form)\|) particle (421535006 \|Gastro-resistant oral particles tablet (dose form)\|) pellet (e.g. 420767002 \|Gastro-resistant oral pellets capsule (dose form)\|) syrup (e.g. 385033009 \|Powder for conventional release oral syrup (dose form)\|) vapor Defined Exceptions: |
-| Attribute: Has basic dose form | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one \|Has basic dose form\| attributes. Range: <736478001 \|Basic dose form (basic dose form)\| Cardinality: 0..1 |
+| Attribute: Has basic dose form | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one \|Has basic dose form\| attribute. Range: <736478001 \|Basic dose form (basic dose form)\| Cardinality: 0..1 |
 | Attribute: Has dose form intended site | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one or more \|Has dose form intended site\| attributes . 785898006 \|Conventional release solution for irrigation (dose form)\| 785910004 \|Prolonged-release intralesional implant (dose form)\| Range: <736479009 \|Dose form intended site (intended site)\| Cardinality:0..* Exceptions: |
-| Attribute: Has dose form release characteristic | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one \|Has dose form release characteristic\| attributes . Range: <736480007 \|Dose form release characteristic (release characteristic)\| Cardinality: 0..1 |
-| Attribute: Has dose form administration method | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one \|Has dose form administration method\| attributes . Range: <736665006 \|Dose form administration method (administration method)\| Cardinality: 0..* |
-| Attribute: Has dose form transformation | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one \|Has dose form transformation\| attributes . Range: <736477006 \|Dose form transformation (transformation)\| Cardinality: 0..* |
+| Attribute: Has dose form release characteristic | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one \|Has dose form release characteristic\| attribute . Range: <736480007 \|Dose form release characteristic (release characteristic)\| Cardinality: 0..1 |
+| Attribute: Has dose form administration method | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one \|Has dose form administration method\| attribute . Range: <736665006 \|Dose form administration method (administration method)\| Cardinality: 0..* |
+| Attribute: Has dose form transformation | While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one \|Has dose form transformation\| attribute . Range: <736477006 \|Dose form transformation (transformation)\| Cardinality: 0..* |
 
 ## Naming Guidelines
 
@@ -32,15 +32,15 @@ Lyophilized dose forms are out of scope for the international edition of SNOMED 
 
 The following illustrates the ****stated**** view for 385024007 |Conventional release oral suspension (dose form)|:
 
-<figure><img src="images/179931636.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>inferred</strong></em>* view for 385024007 |Conventional release oral suspension (dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691251.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>inferred</strong></em>* view for 385024007 |Conventional release oral suspension (dose form)|:</p></figcaption></figure>
 
-<figure><img src="images/179931632.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong></em>* view for 764774009 |Conventional release and prolonged-release oral tablet (dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691247.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong></em>* view for 764774009 |Conventional release and prolonged-release oral tablet (dose form)|:</p></figcaption></figure>
 
-<figure><img src="images/179931638.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>inferred</strong></em>* view for 764774009 |Conventional release and prolonged-release oral tablet (dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691253.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>inferred</strong></em>* view for 764774009 |Conventional release and prolonged-release oral tablet (dose form)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931631.png" alt="" title=""></figure>
+<figure><img src="images/174691246.png" alt="" title=""></figure>
 
   
 

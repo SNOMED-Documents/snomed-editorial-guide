@@ -12,7 +12,7 @@ The potential for an endless number of combined procedures that may be performed
 
 The observable entity and evaluation procedure hierarchies have some of the same attributes. There is not and should not be a one-to-one correspondence between the two hierarchies.
 
-Concepts will not be duplicated between the observable entity hierarchy and procedure hierarchy, and requests for such will not be added. While some users have indicated they want to use a procedure concept for ordering a test and an observable concept for reporting the result, this is not an acceptable use case. Please see [Observable Entity vs. Evaluation Procedure](https://confluence.ihtsdotools.org/display/DOCEG/Observable+Entity) for more information. 
+Concepts will not be duplicated between the observable entity hierarchy and procedure hierarchy, and requests for such will not be added. While some users have indicated they want to use a procedure concept for ordering a test and an observable concept for reporting the result, this is not an acceptable use case. Please see [Observable Entity vs Evaluation Procedure](Observable-Entity_174690597.html) for more information. 
 
 The evaluation procedure hierarchy is currently classified under  _Procedure by method_ , with many immediate children as follows:
 
@@ -22,7 +22,7 @@ The evaluation procedure hierarchy is currently classified under  _Procedure by 
           * Measurement procedure (procedure)
           * Physical examination assessment (procedure)
 
-<figure><img src="images/179931669.png" alt="" title=""><figcaption><p>Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value).</p></figcaption></figure>
+<figure><img src="images/174691284.png" alt="" title=""><figcaption><p>Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value).</p></figcaption></figure>
 
   
 
@@ -36,9 +36,9 @@ Subtypes of Evaluation-action (qualifier value) include:
 
 # Out of scope of procedures
 
-SNOMED International is no longer accepting new concepts to the 122869004 |Measurement procedure (procedure)| hierarchy. New requests for content in this area will be created in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 122869004 |Measurement procedure (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see [Observable Entity](https://confluence.ihtsdotools.org/display/WIPEG/Observable+Entity) and [Observable Entity Naming Conventions](https://confluence.ihtsdotools.org/display/WIPEG/Observable+Entity+Naming+Conventions) pages for more information. 
+SNOMED International is no longer accepting new concepts to the 122869004 |Measurement procedure (procedure)| hierarchy. New requests for content in this area will be created in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 122869004 |Measurement procedure (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see [Observable Entity](Observable-Entity_174690597.html) and [Observable Entity Naming Conventions](Observable-Entity-Naming-Conventions_174690617.html) pages for more information. 
 
-SNOMED International is no longer accepting new concepts in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy. New requests for concepts which are solely techniques should be created in the 272394005 | Technique (qualifier value)| subhierarchy. New content that is an observation using a technique belongs in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see the [Technique](https://confluence.ihtsdotools.org/display/DOCEG/Technique) and the [Observable Entity](https://confluence.ihtsdotools.org/pages/viewpage.action?pageId=174690597) pages for more information.
+SNOMED International is no longer accepting new concepts in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy. New requests for concepts which are solely techniques should be created in the 272394005 | Technique (qualifier value)| subhierarchy. New content that is an observation using a technique belongs in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see the [Technique](Technique_229114142.html) and the [Observable Entity](Observable-Entity_174690597.html) pages for more information.
 
 ## Procedures by count
 

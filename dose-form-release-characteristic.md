@@ -6,7 +6,7 @@
 
 |Dose form release characteristic (release characteristic)| is a descendant of 362981000 |Qualifier value (qualifier value) that supports fully defining the 736542009 |Pharmaceutical dose form (dose form)| hierarchy. 
 
-|Dose form release characteristic (release characteristic)| are used to model the 736542009 |Pharmaceutical dose form (dose form)| hierarchy; they are not used to model 763158003 |Medicinal product (product)|.
+|Dose form release characteristic (release characteristic)| is used to model the 736542009 |Pharmaceutical dose form (dose form)| hierarchy; it is not used to model 763158003 |Medicinal product (product)|.
 
 ## Modeling
 
@@ -28,12 +28,12 @@
 
 The following illustrates the ****stated**** and****inferred**** view for 736849007 |Conventional release (release characteristic)|:
 
-<figure><img src="images/179931572.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 736848004 |Delayed-release (release characteristic)|:</p></figcaption></figure>
+<figure><img src="images/174691187.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 736848004 |Delayed-release (release characteristic)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931571.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 737594003 |Delayed-release and prolonged-release (release characteristic)|:</p></figcaption></figure>
+<figure><img src="images/174691186.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 737594003 |Delayed-release and prolonged-release (release characteristic)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931570.png" alt="" title=""></figure>
+<figure><img src="images/174691185.png" alt="" title=""></figure>

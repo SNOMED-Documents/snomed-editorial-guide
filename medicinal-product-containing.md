@@ -2,12 +2,24 @@
 
 ## Overview
 
-|Product containing x (medicinal product)| concepts are abstract representations of the active ingredient(s) for a medicinal product. The medicinal product must contain the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN or may contain additional active ingredient(s).
+|Product containing x (medicinal product)| concepts are abstract representations of the active ingredient(s) for a medicinal product. 
 
 For example,
 
   *     * Product containing axitinib (medicinal product)
     * Product containing abacavir and lamivudine (medicinal product) 
+
+The medicinal product must contain the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN or may contain additional active ingredient(s). For example, "Product containing amoxicillin" represents products that must contain some amoxicillin****(with any type of modification, be it amoxicillin sodium, or amoxicillin trihydrate, or no modification, as in amoxicillin (base)), but  _may also_ contain other active ingredients, such as clavulanic acid. This is the open world view. 
+
+In stating “abstract representations...for a medicinal product”, the concept definition implies that at least one medicinal product exists, or has existed globally, that has that set of active ingredient substance(s). This precludes the possibility of generating MPs representing theoretical, or indeed all possible, combinations of sets of active ingredient substances. 
+
+### Use case(s) supported by |Product containing x (medicinal product)|
+
+The main use case for describing products containing some active ingredient substance(s) is for analysis, as an aggregation concept for use in research. 
+
+### IDMP Compatibility for |Product containing x (medicinal product)|
+
+A concept at this level with the open world view does not correspond to any concept currently in the IDMP suite of standards, although it could act as a parent (higher level grouper) concept for PhP1 concepts, if use case(s) were identified to require this. 
 
 ## Modeling
 
@@ -15,7 +27,7 @@ For example,
 |---|---|
 | Semantic tag | (medicinal product) |
 | Definition status | Defined |
-| Attribute: Has active ingredient | There is no technical limit on the number of Has active ingredient attributes that may be added to a concept; a practical limit may be imposed at a later date. Range: <105590001\|Substance (substance) excluding concepts representing structural groupers, dispositions, or combined substances Cardinality: 1..* |
+| Attribute: 127489000 \|Has active ingredient (attribute)\| | There is no technical limit on the number of \|Has active ingredient (attribute)\|s that may be added to a concept. A practical limit may be imposed at a later date. Range: <105590001\|Substance (substance) excluding concepts representing structural groupers, dispositions, or combined substances Cardinality: 1..* This attribute is within a role group. |
 
 ## Naming
 
@@ -30,14 +42,22 @@ For multiple ingredient drug products, the active ingredients must be in alphabe
 
 ## Exemplars
 
-The following illustrates the **stated** view for 714627007 |Product containing aflibercept (medicinal product)|:
-
-<figure><img src="images/225055056.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 714627007 |Product containing aflibercept (medicinal product)|:</p></figcaption></figure>
-
-<figure><img src="images/225055050.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 412556009 |Product containing codeine and paracetamol (medicinal product)|:</p></figcaption></figure>
-
-<figure><img src="images/225055052.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 412556009 |Product containing codeine and paracetamol (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/303923311.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 714627007 |Product containing aflibercept (medicinal product)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/225055051.png" alt="" title=""></figure>
+<figure><img src="images/174690635.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 714627007 |Product containing aflibercept (medicinal product)|:</p></figcaption></figure>
+
+  
+
+<figure><img src="images/174690629.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for a multiple active ingredient product, 412556009 |Product containing codeine and paracetamol (medicinal product)|:</p></figcaption></figure>
+
+  
+
+<figure><img src="images/174690631.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for the multiple active ingredient product, 412556009 |Product containing codeine and paracetamol (medicinal product)|:</p></figcaption></figure>
+
+  
+
+  
+
+<figure><img src="images/174690630.png" alt="" title=""></figure>

@@ -1,6 +1,10 @@
 # Pharmaceutical and Biologic Product and Dose Form Attributes Summary
 
-When authoring in this domain, these are the approved attributes and allowable ranges. They are the Human Readable Concept Model (HRCM).  
+When authoring in this domain, these are the approved attributes and allowable ranges. 
+
+HRCM 2025-08-01 
+
+  
 
 | Domain Information for 373873005 \| Pharmaceutical / biologic product (product) \| |   |
 |---|---|
@@ -8,6 +12,8 @@ When authoring in this domain, these are the approved attributes and allowable r
 | Parent Domain | - |
 | Proximal Primitive Constraint | << 373873005 \| Pharmaceutical / biologic product (product) \| |
 | Proximal Primitive Refinement | - |
+
+HRCM 2025-08-01 
 
   
 
@@ -43,12 +49,18 @@ When authoring in this domain, these are the approved attributes and allowable r
 
   
 
+HRCM 2025-08-01 
+
+  
+
 | Domain Information for 781405001 \| Medicinal product package (product) \| |   |
 |---|---|
 | Domain Constraint | << 781405001 \| Medicinal product package (product) \| |
 | Parent Domain | 373873005 \| Pharmaceutical / biologic product (product) \| |
 | Proximal Primitive Constraint | << 781405001 \| Medicinal product package (product) \| |
 | Proximal Primitive Refinement | - |
+
+HRCM 2025-08-01 
 
   
 
@@ -62,12 +74,18 @@ When authoring in this domain, these are the approved attributes and allowable r
 
   
 
+HRCM 2025-08-01 
+
+  
+
 | Domain Information for 736542009 \| Pharmaceutical dose form (dose form) \| |   |
 |---|---|
 | Domain Constraint | << 736542009 \| Pharmaceutical dose form (dose form) \| |
 | Parent Domain | - |
 | Proximal Primitive Constraint | << 736542009 \| Pharmaceutical dose form (dose form) \| |
 | Proximal Primitive Refinement | - |
+
+HRCM 2025-08-01 
 
   
 
@@ -82,6 +100,10 @@ When authoring in this domain, these are the approved attributes and allowable r
 
   
 
+HRCM 2025-08-01 
+
+  
+
 | Domain Information for 736478001 \| Basic dose form (basic dose form) \| |   |
 |---|---|
 | Domain Constraint | << 736478001 \| Basic dose form (basic dose form) \| |
@@ -89,12 +111,12 @@ When authoring in this domain, these are the approved attributes and allowable r
 | Proximal Primitive Constraint | << 736478001 \| Basic dose form (basic dose form) \| |
 | Proximal Primitive Refinement | - |
 
+HRCM 2025-08-01 
+
   
 
 | Author View of Attributes and Ranges for 736478001 \| Basic dose form (basic dose form) \| |   |   |   |   |
 |---|---|---|---|---|
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
 | 736518005 \| Has state of matter (attribute) \| | 0 | 1..1 | 0..0 | < 736471007 \| State of matter (state of matter) \| |
-
-  
 

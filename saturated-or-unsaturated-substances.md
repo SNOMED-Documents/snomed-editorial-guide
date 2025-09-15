@@ -8,7 +8,7 @@
 | Definition status | Primitive |
 | Attribute | None |
 
-## Naming Guidelines
+## Naming
 
 | FSN | Unsaturated adipate (substance) Saturated X (substance) Unsaturated X (substance) For example, |
 |---|---|
@@ -19,4 +19,4 @@
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/179931954.png" alt="" title=""></figure>
+<figure><img src="images/174691570.png" alt="" title=""></figure>

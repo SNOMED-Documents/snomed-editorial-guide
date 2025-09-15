@@ -28,7 +28,7 @@ Note that [385658003 |Done (qualifier value)|](http://snomed.info/id/385658003) 
 
   
 
-Not every naming pattern is found in the Pre-coordination Naming Pattern project. Some naming patterns can be prescribed in [templates](https://confluence.ihtsdotools.org/display/DOCEG/Templates). Others can come from trackers or fast track documents, such as the examples below. 
+Not every naming pattern is found in the Pre-coordination Naming Pattern project. Some naming patterns can be prescribed in [Templates](Templates_174691756.html). Others can come from trackers or fast track documents, such as the examples below. 
 
 **[716186003 |No known allergy (situation)|](http://snomed.info/id/716186003)**
 

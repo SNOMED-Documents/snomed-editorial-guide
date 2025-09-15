@@ -23,10 +23,10 @@ Creation of substance concepts that contain terms such as “free” (or "unboun
 
 The following illustrates both the **stated** and **inferred** view:
 
-<figure><img src="images/179931978.png" alt="" title=""><figcaption><p>The following illustrates the hierarchy view:</p></figcaption></figure>
+<figure><img src="images/174691594.png" alt="" title=""><figcaption><p>The following illustrates the hierarchy view:</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/179931977.png" alt="" title=""></figure>
+<figure><img src="images/174691593.png" alt="" title=""></figure>

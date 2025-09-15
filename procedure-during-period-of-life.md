@@ -6,7 +6,7 @@ For example,
 
   *     * 1287360000 | Injection of epidural anesthesia during maternal intrapartum period (procedure)| has an Occurrence (attribute)| of 1156682000 |Maternal intrapartum period (qualifier value)|.
 
-<figure><img src="images/225055314.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 1287360000 |Injection of epidural anesthesia during maternal intrapartum period (procedure)|</p></figcaption></figure>
+<figure><img src="images/202998742.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 1287360000 |Injection of epidural anesthesia during maternal intrapartum period (procedure)|</p></figcaption></figure>
 
 # Obstetric procedures
 
@@ -21,7 +21,7 @@ For procedures containing _obstetric_ in descriptions, but a specific maternal p
 For example,  
 Obstetric operation (procedure) is fully defined by the parent |Obstetric procedure| and the Method (attribute) of Surgical action (qualifier value).
 
-<figure><img src="images/225055311.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 386638009 |Obstetric operation (procedure)|</p></figcaption></figure>
+<figure><img src="images/202998739.png" alt="" title=""><figcaption><p>Figure 2. Stated view of 386638009 |Obstetric operation (procedure)|</p></figcaption></figure>
 
   
 
@@ -32,7 +32,7 @@ For procedures which a specific maternal period _can_ be determined, the primiti
 For example,  
 Diagnostic ultrasound of gravid uterus (procedure) can be fully defined by |Procedure| and Ultrasound imaging of the Uterus with Occurrence of Maternal antenatal and/or intrapartum time period (qualifier value).
 
-<figure><img src="images/225055312.png" alt="" title=""><figcaption><p>Figure 3: Stated view of 55052008 |Diagnostic ultrasound of gravid uterus (procedure)|</p></figcaption></figure>
+<figure><img src="images/202998740.png" alt="" title=""><figcaption><p>Figure 3. Stated view of 55052008 |Diagnostic ultrasound of gravid uterus (procedure)|</p></figcaption></figure>
 
   
 
@@ -45,7 +45,7 @@ Fetal procedures are fully defined by an Occurrence (attribute) of <<Fetal perio
 For example,  
 Ultrasonography of fetal head (procedure) can be fully defined by |Procedure| and Ultrasound imaging of the Head with the Occurrence (attribute) of Fetal period (qualifier value).
 
-<figure><img src="images/225055313.png" alt="" title=""><figcaption><p>Figure 4: Stated view of 710165007 |Ultrasonography of fetal head (procedure)|</p></figcaption></figure>
+<figure><img src="images/202998741.png" alt="" title=""><figcaption><p>Figure 4. Stated view of 710165007 |Ultrasonography of fetal head (procedure)|</p></figcaption></figure>
 
   
 

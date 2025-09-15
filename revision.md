@@ -6,5 +6,5 @@ For example,[ ](http://snomed.info/id/171839006)
 
 [171839006 |Re-release of carpal tunnel (procedure)|](http://snomed.info/id/171839006) is modeled as follows:
 
-<figure><img src="images/179931675.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 171839006 |Re-release of carpal tunnel (procedure)|</p></figcaption></figure>
+<figure><img src="images/174691290.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 171839006 |Re-release of carpal tunnel (procedure)|</p></figcaption></figure>
 

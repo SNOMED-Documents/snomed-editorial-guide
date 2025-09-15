@@ -6,8 +6,8 @@ The headings in this section are the requirements identified in Desiderata for C
 
 SNOMED CT content must be adequate both in scope and quality and must:
 
-* Cover a wide variety of domains and different organizational needs, clinical disciplines, and medical specialties
-* Meet the needs of an expanding scope, while retaining quality, with a structured systematic approach
+  * Cover a wide variety of domains and different organizational needs, clinical disciplines, and medical specialties
+  * Meet the needs of an expanding scope, while retaining quality, with a structured systematic approach
 
 ## Nonvagueness and nonambiguity
 
@@ -31,18 +31,18 @@ SNOMED CT supports multiple hierarchies. A code may have more than one hierarchi
 
 When possible, the meaning of codes should be formally defined by relationships to other codes.
 
-## Rejection of _Not elsewhere classified_
+## Rejection of  _Not elsewhere classified_
 
-Codes with the phrase, _not elsewhere classified_ , are not allowed in SNOMED CT. However, many classifications contain terms with this phrase. A term with _not elsewhere classified_ includes general variants that are not specifically represented. The meaning of such a code may change over time. As codes with more specific meanings are added, this narrows the codes included in the _not elsewhere classified_ codes.
+Codes with the phrase,  _not elsewhere classified_ , are not allowed in SNOMED CT. However, many classifications contain terms with this phrase. A term with _not elsewhere classified_ includes general variants that are not specifically represented. The meaning of such a code may change over time. As codes with more specific meanings are added, this narrows the codes included in the _not elsewhere classified_ codes. 
 
 ## Multiple granularities
 
 Different users will need to express more or less finely granular meanings. SNOMED CT:
 
-* Must accommodate a wide range of levels of detail
-* Must recognize the relationships between meanings at different levels of granularity
-* Should allow selection of codes that include navigation to other codes with more or less finely grained meaning
-* May need to restrict the levels of granularity used in different applications or in different contexts within the same application
+  * Must accommodate a wide range of levels of detail
+  * Must recognize the relationships between meanings at different levels of granularity
+  * Should allow selection of codes that include navigation to other codes with more or less finely grained meaning
+  * May need to restrict the levels of granularity used in different applications or in different contexts within the same application
 
 ## Multiple consistent views
 

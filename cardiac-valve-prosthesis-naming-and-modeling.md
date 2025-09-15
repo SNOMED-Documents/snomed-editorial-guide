@@ -1,6 +1,6 @@
 # Cardiac Valve Prosthesis Naming and Modeling
 
-## Naming Guidelines
+## Naming
 
 | FSN | Use the following naming pattern for the FSN; align terming and case sensitivity with the FSN for the concepts selected as the attribute values, excluding the semantic tag. [is sterile] [compositional material] [device intended site] cardiac valve prosthesis (physical object) For example, Biologic cardiac valve prosthesis (physical object) Aortic valve prosthesis (physical object) |
 |---|---|
@@ -20,6 +20,6 @@
 
 The following illustrates the **stated** view for 736893007 |Aortic tri-leaflet mechanical valve prosthesis (physical object)|:
 
-<figure><img src="images/179931662.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 736893007 |Aortic tri-leaflet mechanical valve prosthesis (physical object)|:</p></figcaption></figure>
+<figure><img src="images/174691277.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 736893007 |Aortic tri-leaflet mechanical valve prosthesis (physical object)|:</p></figcaption></figure>
 
-<figure><img src="images/179931663.png" alt="" title=""></figure>
+<figure><img src="images/174691278.png" alt="" title=""></figure>

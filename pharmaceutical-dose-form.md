@@ -1,6 +1,17 @@
 # Pharmaceutical Dose Form
 
-Editorial guidelines for the [ 736542009 | Pharmaceutical dose form (dose form)|](http://snomed.info/id/736542009 "736542009 | Pharmaceutical dose form \(dose form\) |") hierarchy and for supporting hierarchies required to support creation of sufficiently defined pharmaceutical dose form concepts are documented in the following pages.
+## Describing Dose forms
+
+A Clinical Drug concept has a pharmaceutical dose form, the physical manifestation of a medicinal product that contains the active ingredient substance(s) and inactive ingredient substances that are intended for administration for the patient. The Clinical Drug concept in the international release is defined by its manufactured dose form, the dose form as the item is presented by the manufacturer into the supply chain. This may be the same as the administrable dose form, which is the dose form that can be given to the patient after any necessary transformation (such as dissolution or dispersion) has taken place. or it may be different. Examples of the relationship between manufactured and administrable dose forms and transformation are given below. Note that both manufactured dose forms and administrable dose forms are types of pharmaceutical dose form.
+
+| Manufactured dose form | Administrable dose form | Transformation |
+|---|---|---|
+| conventional release oral tablet | conventional release oral tablet | none |
+| tablet for conventional release oral solution (synonym "soluble oral tablet") | oral solution | dissolve |
+| conventional release cutaneous cream | conventional release cutaneous cream | none |
+| powder for prolonged-release suspension for injection | prolonged-release suspension for injection | disperse |
+
+The exception to the principle of using the manufactured dose form to describe Clinical Drugs in the international release is for oral antimicrobial liquid products (solutions, suspensions) that are supplied by the manufacturer as powders but undergo dissolution or dispersion prior to dispensing for administration. The exception is because of the need to describe these products using a clinically relevant strength reflecting the concentration of the administered liquid.
 
 ## General Assumptions and Requirements
 
@@ -50,11 +61,11 @@ The following definitions explain the differences between dose form intended sit
 
 736474004 |Has dose form intended site (attribute)|
 
-  * Dose form intended site describes the general anatomic location that the dose form has been formulated for administration to or at. The intended site is not intended to describe a precise site or route of administration. For example, eye drops (prepared for ocular intended site) are subject to pharmacopoeial standards for pH, and sterility.
+  * Dose form intended site describes the general anatomic location that the dose form has been formulated for administration to or at. The intended site is not intended to describe a precise site or route of administration. For example, eye drops (prepared for ocular intended site) are subject to pharmacopoeial standards for pH and sterility.
 
 410675002 |Route of administration (attribute)|
 
-  * The route of administration is the path by which the product is taken into or makes contact with the body, and is a property of the administration action. The route of administration of a medication is determined by the prescriber in their prescription dosage instructions for a particular patient.
+  * The route of administration is the path by which the product is taken into, or makes contact with, the body and is a property of the administration action. The route of administration of a medication is determined by the prescriber in their prescription dosage instructions for a particular patient.
 
 736479009 |Dose form intended site (intended site)|
 
@@ -62,7 +73,7 @@ The following definitions explain the differences between dose form intended sit
 
 284009009 |Route of administration value (qualifier value)|
 
-  * The set of values for route of administration. For medicinal products these values are associated with the action of administration.
+  * The set of values for route of administration. For medicinal products, these values are associated with the action of administration.
 
 ## Multiple**** intended sites and administration methods
 
@@ -70,10 +81,5 @@ Pharmaceutical dose forms with two or more intended sites will use “and” in 
 
 Pharmaceutical dose forms with two or more administration methods is a less common requirement, thus requests for this type of dose form are reviewed on a case by case basis.
 
-**Table of Contents**
-
-  * [Pharmaceutical Dose Form Naming and Modeling Conventions](Pharmaceutical-Dose-Form-Naming-and-Modeling-Conventions_179931630.html)
-  * [Pharmaceutical Dose Form Grouper Based on Intended Site](Pharmaceutical-Dose-Form-Grouper-Based-on-Intended-Site_179931607.html)
-  * [Pharmaceutical Dose Form Grouper Without Basic Dose Form](Pharmaceutical-Dose-Form-Grouper-Without-Basic-Dose-Form_179931616.html)
-  * [Pharmaceutical Dose Form Supporting Hierarchies](Pharmaceutical-Dose-Form-Supporting-Hierarchies_179931530.html)
+  
 

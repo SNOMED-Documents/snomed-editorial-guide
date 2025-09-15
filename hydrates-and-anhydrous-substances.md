@@ -32,7 +32,7 @@ Caffeine hydrate (substance) IS MODIFICATION OF Caffeine (substance)
 
 **
 
-<figure><img src="images/179931956.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/174691572.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
 ## Anhydrous compounds
 
@@ -59,7 +59,7 @@ Theophylline anhydrous (substance) IS MODIFICATION OF Theophylline (substance)
 
 **
 
-<figure><img src="images/179931957.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/174691573.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
 **  
 **

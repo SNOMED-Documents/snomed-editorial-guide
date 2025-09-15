@@ -1,6 +1,6 @@
 # Shunt Naming and Modeling
 
-## Naming Guidelines
+## Naming
 
 | FSN | Ventricular shunt (physical object) Pleuroperitoneal shunt (physical object) Use the following naming pattern for the FSN; align terming and case sensitivity with the FSN for the concepts selected as the attribute values, excluding the semantic tag. [compositional material] [body structure] shunt (physical object) For example, |
 |---|---|
@@ -19,9 +19,9 @@
 
 The following illustrates the **stated** view for 258593008 |Ventricular shunt (physical object)|:
 
-<figure><img src="images/179931650.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 258593008 |Ventricular shunt (physical object)|:</p></figcaption></figure>
+<figure><img src="images/174691265.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 258593008 |Ventricular shunt (physical object)|:</p></figcaption></figure>
 
-<figure><img src="images/179931651.png" alt="" title=""></figure>
+<figure><img src="images/174691266.png" alt="" title=""></figure>
 
   
 

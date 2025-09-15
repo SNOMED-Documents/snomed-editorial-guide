@@ -36,12 +36,12 @@ The hierarchy, 726711005 |Disposition (disposition)|, was created to support the
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/179932027.png" alt="" title=""></figure>
+<figure><img src="images/174691643.png" alt="" title=""></figure>
 
   
 
-<figure><img src="images/179932028.png" alt="" title=""></figure>
+<figure><img src="images/174691644.png" alt="" title=""></figure>
 
   
 
-<figure><img src="images/179932029.png" alt="" title=""></figure>
+<figure><img src="images/174691645.png" alt="" title=""></figure>

@@ -30,8 +30,8 @@ Previously, SNOMED CT represented ions and electrolytes as separate concepts. Al
 
 The following illustrates the **Stated** and**Inferred** view:
 
-<figure><img src="images/179931996.png" alt="" title=""><figcaption><p>The following illustrates the hierarchy view:</p></figcaption></figure>
+<figure><img src="images/174691612.png" alt="" title=""><figcaption><p>The following illustrates the hierarchy view:</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931997.png" alt="" title=""></figure>
+<figure><img src="images/174691613.png" alt="" title=""></figure>

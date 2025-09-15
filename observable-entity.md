@@ -8,15 +8,11 @@
 
 ## Use of Observable Entities
 
-Observables entities may be used to:
+Observables entities may be used to code headers on a template, elements on a checklist, or to assign values to elements.
 
-  * Code elements on a checklist or assign values to elements.
+For example,
 
-For example, _c_ _olor of nail_ is an observable entity. _Gray nails_ is a finding.
-
-  * Code headers on a template
-
-For example, the observable entity, gender, may be used to code a section of a template titled gender. The user would choose masculine, feminine, transgender, etc. which would then constitute a finding such as [ 703117000 | Masculine gender (finding)|](http://snomed.info/id/703117000 "703117000 | Masculine gender \(finding\) |") .
+  *     *       * _C_ _olor of nail_ is an observable entity. _Gray nails_ is a finding.
 
 ### Types of Observable Entities
 
@@ -48,7 +44,7 @@ While some users have indicated they want to use a procedure concept for orderin
 
 As for the progression of the completion of an assessment, that is related to the state diagram (i.e., status) of the progression of a procedure and should not be precoordinated, but handled by the information system in which orders are processed (it is dynamic, not static). The information system should be able to capture the status of a procedure (e.g., ordered, in process, completed). We would not expect the terminology to pre-coordinate this.
 
-As an example, LOINC recognizes that there are three different aspects to an observable: 
+For example, LOINC recognizes three different aspects to an observable: 
 
 1) those that can serve as both an order and an observation (e.g. blood glucose level); 
 

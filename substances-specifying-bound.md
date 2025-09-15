@@ -14,7 +14,7 @@ Where the substance is "bound" the molecule to which the substance is bound to m
 | Definition status | Primitive |
 | Attribute | 726542003 \| Has disposition (attribute)\| |
 
-## Terming Guidelines
+## Terming
 
 | FSN | Bound insulin (substance) Protein bound iodine (substance) Albumin bound thyroxine (substance) Pattern:Bound X (substance) For example, |
 |---|---|
@@ -24,7 +24,7 @@ Where the substance is "bound" the molecule to which the substance is bound to m
 
 The following illustrates the **stated** and**inferred** view:
 
-<figure><img src="images/273520250.png" alt="" title=""></figure>
+<figure><img src="images/229114270.png" alt="" title=""></figure>
 
   
 

@@ -62,7 +62,7 @@ Exemplar
 
 Stated view of 411973001 |Bovine thrombin (substance)|
 
-<figure><img src="images/179932009.png" alt="" title=""></figure>
+<figure><img src="images/174691625.png" alt="" title=""></figure>
 
   
 

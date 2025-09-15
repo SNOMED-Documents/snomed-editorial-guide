@@ -28,9 +28,9 @@ For example,
 
 The following illustrates the **stated and inferred** view for 440131009 |Product manufactured as oral dose form (product)|:
 
-<figure><img src="images/179931364.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated and inferred</strong> view for 440132002 |Product manufactured as parenteral dose form (product)|:</p></figcaption></figure>
+<figure><img src="images/174690978.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated and inferred</strong> view for 440132002 |Product manufactured as parenteral dose form (product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931363.png" alt="" title=""></figure>
+<figure><img src="images/174690977.png" alt="" title=""></figure>
 
   
 

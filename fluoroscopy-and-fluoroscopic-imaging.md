@@ -40,7 +40,7 @@ For example,
       * SYN: Angioplasty using fluoroscopic guidance with contrast
       * SYN: Fluoroscopic angioplasty with contrast
 
-Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guided procedure modeling guidance](https://confluence.ihtsdotools.org/display/WIPEG/Imaging-guided+procedures). 
+Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guided procedure modeling](Imaging-guided-procedure-modeling_174691295.html). 
 
 ## Fluoroscopic angiography with contrast
 

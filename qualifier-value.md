@@ -12,16 +12,16 @@ For example,
 
   *     * [ 18639004 | Left kidney structure (body structure)|](http://snomed.info/id/18639004 "18639004 | Left kidney structure \(body structure\) |") has a Laterality (attribute) of Left (qualifier value)
 
-The use of qualifiers varies greatly according to the domain to which they are applied. Thus, guidance in their use is often found within the guidance of the respective domain. So for the above example, information regarding the laterality/left attribute-value pair, see the [Laterality guidance](https://confluence.ihtsdotools.org/display/WIPEG/Laterality) found within the Body structure domain. The range of values for a particular attribute is provided in the specific concept model of the domain. For further information on the range of values for a specific domain, see the different content types and rules in the MRCM maintenance tool at <https://browser.ihtsdotools.org/mrcm>. 
+The use of qualifiers varies greatly according to the domain to which they are applied. Thus, guidance in their use is often found within the guidance of the respective domain. So for the above example, information regarding the laterality/left attribute-value pair, see [Laterality](Laterality_174690325.html) found within the Body structure domain. The range of values for a particular attribute is provided in the specific concept model of the domain. For further information on the range of values for a specific domain, see the different content types and rules in the MRCM maintenance tool at <https://browser.ihtsdotools.org/mrcm>. 
 
 Changes cannot be made to the Qualifier Value hierarchy without permission from the Chief Terminologist
 
 ## Specific information on a few select subhierarchies can be found below:
 
-  * [Disposition](Disposition_179931759.html)
-  * [International System of Units - derived unit of volume](International-System-of-Units---derived-unit-of-volume_179931760.html)
-  * [International System of Units - unit of mass](International-System-of-Units---unit-of-mass_179931761.html)
-  * [Technique](Technique_273518996.html)
+  * [Disposition](Disposition_174691374.html)
+  * [International System of Units - derived unit of volume](International-System-of-Units---derived-unit-of-volume_174691375.html)
+  * [International System of Units - unit of mass](International-System-of-Units---unit-of-mass_174691376.html)
+  * [Technique](Technique_229114142.html)
 
   
 

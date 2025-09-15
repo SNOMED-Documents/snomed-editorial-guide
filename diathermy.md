@@ -79,9 +79,9 @@ For example,
 
 **Diathermy** of**fallopian tube**
 
-[[Action] of X by diathermy (procedure) / [Action] of X using electrical energy (procedure)](https://confluence.ihtsdotools.org/display/SCTEMPLATES/Surgical+diathermy+%28procedure%29.+%5BAction%5D+of+X+by+diathermy+%28procedure%29...+-+for+review)
+[[Action] of X by diathermy (procedure) / [Action] of X using electrical energy (procedure)](https://prod-confluence.ihtsdotools.org/pages/viewpage.action?pageId=209290451)
 
-[Diathermy of X (procedure)](https://confluence.ihtsdotools.org/display/SCTEMPLATES/Surgical+diathermy+%28procedure%29.+Diathermy+of+X+%28procedure%29...+-+for+review)
+[Diathermy of X (procedure)](https://prod-confluence.ihtsdotools.org/display/SCTEMPLATES/Surgical+diathermy+%28procedure%29.+Diathermy+of+X+%28procedure%29...+-+for+review)
 
 ## 1287433006 |Therapeutic diathermy (regime/therapy)|
 
@@ -105,7 +105,7 @@ For example,
 
 49913004 |**Ultrashort wave** diathermy (regime/therapy)|
 
-[Therapeutic diathermy (regime/therapy)](https://confluence.ihtsdotools.org/pages/viewpage.action?pageId=209290444)
+[Therapeutic diathermy (regime/therapy)](https://prod-confluence.ihtsdotools.org/pages/viewpage.action?pageId=209290444)
 
 ## Exclusions
 

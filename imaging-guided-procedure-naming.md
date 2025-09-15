@@ -38,7 +38,7 @@ For example,
 
 The term _fluoroscopic Y_ is interpreted as _Y using fluoroscopic guidance (procedure)_. Procedures such as [ 432540009 | Biopsy of wrist using fluoroscopic guidance (procedure)|](http://snomed.info/id/432540009 "432540009 | Biopsy of wrist using fluoroscopic guidance \(procedure\) |") are subtypes of Fluoroscopy (procedure).
 
-(See also [Fluoroscopy and Fluoroscopic Imaging](Fluoroscopy-and-Fluoroscopic-Imaging_179931713.html))
+(See also [Fluoroscopy and Fluoroscopic Imaging](Fluoroscopy-and-Fluoroscopic-Imaging_174691328.html))
 
 ## Magnetic resonance imaging guided procedure
 

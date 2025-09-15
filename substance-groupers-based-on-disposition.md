@@ -8,7 +8,7 @@ _Note: This section applies to concepts representing a single disposition. It do
 
 ## Modeling
 
-| Parent concept | 105590001 \|Substance (substance)\| Exceptions: While the goal is to model these concepts using proximal primitive modeling, there will be a transition over several release cycles to get to that state. In the meantime, concepts may have stated parents other than 105590001 \|Substance (substance) for the foreseeable future. |
+| Parent concept | 105590001 \|Substance (substance)\| |
 |---|---|
 | Definition status | Defined |
 | \|Has disposition\| | While the allowed range is broader, the Substance Groupers based on Disposition should only use <726711005 \|Disposition (disposition) as the attribute value. While the allowed range is broader, the Substance Groupers based on Disposition should have one and only one \|Has disposition\| attribute. Range: <726711005\|Disposition (disposition) Cardinality: 1..1 |
@@ -19,11 +19,11 @@ Substance groupers representing etiopathic dispositions (e.g. 88376000 |Carcinog
 
 The following illustrates the **stated** view for grouper concepts based on disposition.
 
-<figure><img src="images/179931821.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for grouper concepts based on disposition.</p></figcaption></figure>
+<figure><img src="images/174691437.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for grouper concepts based on disposition.</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931822.png" alt="" title=""></figure>
+<figure><img src="images/174691438.png" alt="" title=""></figure>
 
 ## Terming
 

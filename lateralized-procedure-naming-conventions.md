@@ -29,7 +29,7 @@ FSN: Amputation of bilateral upper limbs (procedure)
 PT: Amputation of bilateral upper limbs  
 SYN: Amputation of both upper limbs
 
-<figure><img src="images/179931721.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
+<figure><img src="images/174691336.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
 
   
 

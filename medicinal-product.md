@@ -1,6 +1,8 @@
 # Medicinal Product
 
-The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pharmaceutical / biologic product (product)|, was created to support top-level hierarchy changes in the future but avoids removing, renaming, or repurposing the existing |Pharmaceutical / biologic product (product)| concept. See the full Medicinal Product Model Specification at <http://snomed.org/mpm>. 
+An abstract representation of a medicinal product without reference to its dose form or its strength. 
+
+The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pharmaceutical / biologic product (product)|, was created to support top-level hierarchy changes in the future but avoids removing, renaming, or repurposing the existing |Pharmaceutical / biologic product (product)| concept. 
 
 ## General Assumptions and Requirements
 

@@ -4,13 +4,13 @@
 
 Acids substance concepts should be modeled with a structural parent concept.
 
-Salts should be modeled with a conjugate base as parent (if one exists, otherwise they are modeled with a structural parent). Salts may have an Is modification of (attribute) relationship to the conjugate acid where a specific use case is identified. See examples of such use cases in the [Concepts Representing a Substance or its Modifications](https://confluence.ihtsdotools.org/display/WIPEG/Concepts+Representing+a+Substance+or+its+Modifications) page of this Editorial Guide.
+Salts should be modeled with a conjugate base as parent (if one exists, otherwise they are modeled with a structural parent). Salts may have an Is modification of (attribute) relationship to the conjugate acid where a specific use case is identified. See examples of such use cases at [Concepts Representing a Substance or its Modifications](Concepts-Representing-a-Substance-or-its-Modifications_174691445.html).
 
-Conjugate base concepts ( e.g. valproate, pamidronate, etidronate) should only be created where a specific use case is identified, for example, when required to support the definition of other concepts in the terminology.
+Conjugate base concepts (e.g., valproate, pamidronate, etidronate) should only be created where a specific use case is identified, for example, when required to support the definition of other concepts in the terminology.
 
 Conjugate bases should be created as separate concepts - not added as synonyms to the corresponding acid concept.
 
-New instances of substance concepts containing the word "salt" will not be added. The existing concepts will be reviewed, and if possible, will be replaced by equivalent compounds.
+New instances of substance concepts containing the word _salt_ will not be added. The existing concepts will be reviewed, and if possible, will be replaced by equivalent compounds.
 
 ## Modeling
 
@@ -33,19 +33,19 @@ Where INN names exist, these should be used for the FSN and PT.
 
 ## Exemplar
 
-<figure><img src="images/273520235.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 387080000 |Valproic acid (substance)|</p></figcaption></figure>
+<figure><img src="images/237109871.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 387080000 |Valproic acid (substance)|</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/273520238.png" alt="" title=""><figcaption><p>Figure 2: Stated and inferred view of 387481005 |Sodium valproate (substance)|</p></figcaption></figure>
+<figure><img src="images/237109874.png" alt="" title=""><figcaption><p>Figure 2. Stated and inferred view of 387481005 |Sodium valproate (substance)|</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/273520236.png" alt="" title=""><figcaption><p>Figure 3: Hierarchy view of 264325000 |Valproate (substance)| subtypes</p></figcaption></figure>
+<figure><img src="images/237109872.png" alt="" title=""><figcaption><p>Figure 3. Hierarchy view of 264325000 |Valproate (substance)| subtypes</p></figcaption></figure>
 
   
 
@@ -53,8 +53,8 @@ Where INN names exist, these should be used for the FSN and PT.
 
 The following illustrates the **stated** and **inferred** views.
 
-<figure><img src="images/179931962.png" alt="" title=""></figure>
+<figure><img src="images/174691578.png" alt="" title=""></figure>
 
-<figure><img src="images/179931963.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="images/174691579.png" alt="" title=""><figcaption><p>**</p></figcaption></figure>
 
 **

@@ -28,20 +28,20 @@ Grouper concepts concepts that do not include a basic dose form shall be modeled
 
 The following illustrates the **stated** view for concept 385105007 |Conventional release cutaneous spray (dose form)|:
 
-<figure><img src="images/179931628.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for concept 385105007 |Conventional release cutaneous spray (dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691243.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for concept 385105007 |Conventional release cutaneous spray (dose form)|:</p></figcaption></figure>
 
-<figure><img src="images/179931619.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for concept 385152001 |Conventional release nasal drops (dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691234.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for concept 385152001 |Conventional release nasal drops (dose form)|:</p></figcaption></figure>
 
-<figure><img src="images/179931626.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for concept 385152001 |Conventional release nasal drops (dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691241.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for concept 385152001 |Conventional release nasal drops (dose form)|:</p></figcaption></figure>
 
-<figure><img src="images/179931618.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for concept 421716009 |Prolonged-release transdermal drug delivery system (dose form)|:_</p></figcaption></figure>
-
-_
-
-<figure><img src="images/179931624.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for concept 421716009 |Prolonged-release transdermal drug delivery system (dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691233.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for concept 421716009 |Prolonged-release transdermal drug delivery system (dose form)|:_</p></figcaption></figure>
 
 _
 
-<figure><img src="images/179931617.png" alt="" title=""><figcaption><p>_</p></figcaption></figure>
+<figure><img src="images/174691239.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for concept 421716009 |Prolonged-release transdermal drug delivery system (dose form)|:</p></figcaption></figure>
+
+_
+
+<figure><img src="images/174691232.png" alt="" title=""><figcaption><p>_</p></figcaption></figure>
 
   

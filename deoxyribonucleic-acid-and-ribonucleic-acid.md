@@ -21,7 +21,7 @@
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/179931947.png" alt="" title=""></figure>
+<figure><img src="images/174691563.png" alt="" title=""></figure>
 
 ## Modeling - Ribosomal ribonucleic acid of X organism
 
@@ -44,7 +44,7 @@ The following illustrates the **stated** and **inferred** view:
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/179931946.png" alt="" title=""></figure>
+<figure><img src="images/174691562.png" alt="" title=""></figure>
 
   
 
@@ -67,7 +67,7 @@ The following illustrates the **stated** and **inferred** view:
 
 ## Exemplar
 
-<figure><img src="images/179931942.png" alt="" title=""></figure>
+<figure><img src="images/174691558.png" alt="" title=""></figure>
 
   
 
@@ -88,7 +88,7 @@ The following illustrates the **stated** and **inferred** view:
 | Synonyms | Messenger ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 encoding spike protein (substance) Pattern:A synonym that matches FSN For example, |
 | Additional synonyms (when a legitimate synonym exists for Organism name) are applicable. |   |
 
-<figure><img src="images/179931941.png" alt="" title=""></figure>
+<figure><img src="images/174691557.png" alt="" title=""></figure>
 
 ## Modeling - Deoxyribonucleic acid of X organism
 
@@ -101,14 +101,14 @@ The following illustrates the **stated** and **inferred** view:
 
 ## Naming - Deoxyribonucleic acid of X organism
 
-| FSN | Deoxyribonucleic acid of X organism (substance) Pattern: For example, Deoxyribonucleic acid of Aspergillus terreus (substance) |
+| FSN | Pattern: Deoxyribonucleic acid of X organism (substance) For example, Deoxyribonucleic acid of Aspergillus terreus (substance) |
 |---|---|
 | Preferred Term | Aspergillus terreus DNA Preferred Term (US/GB), with Initial letter case sensitive: Pattern:X organism DNA For example, |
-| Synonyms | Pattern: A synonym that matches FSN For example, Ribonucleic acid of Norovirus genogroup I |
+| Synonyms | Pattern: A synonym that matches FSN For example, Deoxyribonucleic acid of Aspergillus terreus |
 | Additional synonyms (when a legitimate synonym exists for Organism name) are applicable. |   |
 
 ## Exemplar
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/179931945.png" alt="" title=""></figure>
+<figure><img src="images/174691561.png" alt="" title=""></figure>

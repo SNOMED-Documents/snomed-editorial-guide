@@ -2,7 +2,9 @@
 
 ## Overview
 
-Clinical drugs representing continuous dose form (e.g., solutions, suspensions, creams, ointments, patches) are modeled using concentration strength attributes; presentation strength attributes are not allowed for these concepts in the International Release.
+Clinical drugs representing a continuous dose form are modeled using _concentration_ strength attributes. Clinical drugs with a _continuous_ dose form using _concentration_ strength represents a medicinal product based on description of 1) its precise active ingredient substances only and explicitly, 2) the stated basis of strength substance(s) with strength, expressed as concentration strength and 3) with its manufactured dose form (with the exception of reconstituted oral liquid preparations, where the administrable dose form is be used as it is the most clinically relevant). 
+
+This is used for product types such as cutaneous semi-solids (without metered actuation), solutions, suspensions, creams, ointments, bulk powders and granules, topical liquids (without metered actuation) including drops, oral liquids, nebuliser liquids and liquid parenteral products. 
 
 For example,
 
@@ -10,7 +12,6 @@ For example,
     * Product containing precisely amikacin (as amikacin sulfate) 250 milligram/1 milliliter conventional release solution for injection (clinical drug)
     * Product containing precisely clotrimazole 10 milligram/1 gram conventional release cutaneous cream (clinical drug)
     * Product containing precisely mupirocin (as mupirocin calcium) 20 milligram/1 gram conventional release nasal ointment (clinical drug)
-    * Product containing precisely buprenorphine 70 microgram/1 hour prolonged-release transdermal patch (clinical drug)
 
 ## Modeling
 
@@ -18,7 +19,7 @@ For example,
 |---|---|
 | Semantic tag | (clinical drug) |
 | Definition status | Concepts with product strength that is "not equal to" (e.g. with product strength expressed as a range, greater than, or less than) are primitive Defined Exception: |
-| Attribute: Has manufactured dose form | While the allowed range for this attribute is broader, the CD-precise continuous dose from concepts should only use <736542009 \| Pharmaceutical dose form (dose form), excluding grouper concepts based on intended site (e.g. 740596000 \|Cutaneous dose form (dose form)\|, 385268001 \|Oral dose form (dose form)\|). Range: 736542009 \|Pharmaceutical dose form (dose form)\| Cardinality: 1..1 Powder and granules for oral suspension, solution, etc., may be modeled using concentration strength and the administrable dose form (e.g. 1145409004 \|Product containing precisely amoxicillin 25 milligram/1 milliliter and clavulanic acid (as clavulanate potassium) 6.25 milligram/1 milliliter conventional release oral suspension (clinical drug)\|) |
+| Attribute: Has manufactured dose form | While the allowed range for this attribute is broader, the CD-precise continuous dose from concepts should only use <736542009 \| Pharmaceutical dose form (dose form), excluding grouper concepts based on intended site (e.g. 740596000 \|Cutaneous dose form (dose form)\|, 385268001 \|Oral dose form (dose form)\|). This is the finished dose form that a medicinal product is presented in by the manufacturer, before any transformation into an administrable dose form has taken place. 1145409004 \|Product containing precisely amoxicillin 25 milligram/1 milliliter and clavulanic acid (as clavulanate potassium) 6.25 milligram/1 milliliter conventional release oral suspension (clinical drug)\| Range: 736542009 \|Pharmaceutical dose form (dose form)\| Cardinality: 1..1 Note Powder and granules for oral suspension, solution, etc., may be modeled using concentration strength and the administrable dose form. For example, |
 | Attribute: Count of base of active ingredient (attribute) | Concrete Type: Integer Range: >#0.. Cardinality: 1..1 |
 | Relationship group | One relationship group containing one instance of each of the following attributes is required for each precise active ingredient. |
 | Has precise active ingredient | The Precise Active Ingredient (PAI) cannot be modeled as a substance hydrate or solvate unless the BoSS is expressed as a hydrate or solvate. Concepts containing pancreatic enzymes will be modeled based on the discrete enzymes; because of variability between real clinical drugs, synonyms representing a total amount in a particular product will not be included in the International Release. Range: <105590001 \|Substance (substance) excluding concepts representing structural groupers, dispositions, or combined substances Cardinality: 1..1 per relationship group |
@@ -39,29 +40,31 @@ Use one of the following patterns for the FSN and PT.
 
 ## Exemplars
 
-The following illustrates the **stated** view for 781834001 |Product containing precisely digoxin 250 microgram/1 milliliter conventional release solution for injection (clinical drug)|:
+Stated template view:
 
-<figure><img src="images/225055259.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 781834001 |Product containing precisely digoxin 250 microgram/1 milliliter conventional release solution for injection (clinical drug)|:</p></figcaption></figure>
+<figure><img src="images/303923321.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 781834001 |Product containing precisely digoxin 250 microgram/1 milliliter conventional release solution for injection (clinical drug)|:</p></figcaption></figure>
 
-<figure><img src="images/225055258.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 769821007 |Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution (clinical drug)|:</p></figcaption></figure>
+<figure><img src="images/174690874.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 781834001 |Product containing precisely digoxin 250 microgram/1 milliliter conventional release solution for injection (clinical drug)|:</p></figcaption></figure>
 
-<figure><img src="images/225055257.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 769821007 |Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution (clinical drug)|:</p></figcaption></figure>
+<figure><img src="images/174690873.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 769821007 |Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution (clinical drug)|:</p></figcaption></figure>
 
-  
-
-<figure><img src="images/225055256.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 396279000 |Product containing precisely betamethasone (as betamethasone valerate) 1 milligram/1 gram conventional release cutaneous ointment (clinical drug)|:</p></figcaption></figure>
-
-<figure><img src="images/225055255.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 396279000 |Product containing precisely betamethasone (as betamethasone valerate) 1 milligram/1 gram conventional release cutaneous ointment (clinical drug)|:</p></figcaption></figure>
+<figure><img src="images/174690872.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 769821007 |Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution (clinical drug)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/225055254.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 769514000 |Product containing precisely buprenorphine 70 microgram/1 hour prolonged-release transdermal patch (clinical drug)|:</p></figcaption></figure>
+<figure><img src="images/174690871.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 396279000 |Product containing precisely betamethasone (as betamethasone valerate) 1 milligram/1 gram conventional release cutaneous ointment (clinical drug)|:</p></figcaption></figure>
 
-<figure><img src="images/225055253.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 769514000 |Product containing precisely buprenorphine 70 microgram/1 hour prolonged-release transdermal patch (clinical drug)|:</p></figcaption></figure>
+<figure><img src="images/174690870.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 396279000 |Product containing precisely betamethasone (as betamethasone valerate) 1 milligram/1 gram conventional release cutaneous ointment (clinical drug)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/225055252.png" alt="" title=""></figure>
+<figure><img src="images/174690869.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 769514000 |Product containing precisely buprenorphine 70 microgram/1 hour prolonged-release transdermal patch (clinical drug)|:</p></figcaption></figure>
+
+<figure><img src="images/174690868.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 769514000 |Product containing precisely buprenorphine 70 microgram/1 hour prolonged-release transdermal patch (clinical drug)|:</p></figcaption></figure>
+
+  
+
+<figure><img src="images/174690867.png" alt="" title=""></figure>
 
   
 

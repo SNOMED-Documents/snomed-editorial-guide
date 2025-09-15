@@ -41,7 +41,7 @@ This attribute is used to specify a body site or other location of the independe
 
 For example,
 
-  *     * DNA taxon of Mycobacterium from bronchial secretions (observable entity) has [ 718497002 | Inherent location (attribute)|](http://snomed.info/id/718497002 "718497002 | Inherent location \(attribute\) |") of bronchus
+  *     * 5310001000004108 |Histologic type of neoplasm of skin (observable entity)| has 718497002 | Inherent location (attribute)| of 39937001 |Skin structure (body structure)|
 
 ## Inheres in
 
@@ -66,7 +66,7 @@ This attribute is used to model devices associated with a procedure. This attrib
 
 ## Process acts on
 
-This attribute is used to describe that a process specifically acts on some entity, e.g. by transporting that entity in or out of the body, i.e. Rate of intake of protein, Rate of excretion of creatinine. 
+This attribute is used to describe that a process specifically acts on some entity, e.g. by transporting that entity in or out of the body, i.e. Rate of intake of protein.
 
 For example,
 

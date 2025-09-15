@@ -12,6 +12,10 @@ Organism concepts are used:
   * To document the cause of reportable or notifiable diseases
   * In evidence-based infectious disease protocols, e.g. in clinical decision-support systems
 
+## Addition of new organism concepts
+
+Concepts that are in scope for international release and are supported by preliminary references will be added to the organism hierarchy. Upon addition of any new concept, if the immediate parent is missing, it will be added along with the requested concept.
+
 ## Organisms with qualifiers
 
 If a qualifier is an intrinsic part of an organism, it belongs in the organism hierarchy and is modeled accordingly.  _Intrinsic_ should be interpreted as a characteristic that is inherent in the organism (e.g. Gram-positive), as opposed to a context-dependent characteristic (e.g. some uses of  _intracellular_).

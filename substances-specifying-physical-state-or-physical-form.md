@@ -27,13 +27,11 @@ Fumes and vapor are different and so should not be used as synonyms on the same 
 
 ### Exemplar
 
-<figure><img src="images/179931972.png" alt="" title=""><figcaption><p>Figure: View of both stated and inferred form of 278945005 |Iron fumes (substance)|</p></figcaption></figure>
+<figure><img src="images/174691588.png" alt="" title=""><figcaption><p>Figure 1. View of both stated and inferred form of 278945005 |Iron fumes (substance)|</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931971.png" alt="" title=""><figcaption><p>Figure: Stated view of 414246008 |Fenofibrate micronized (substance)|</p></figcaption></figure>
-
-  
+<figure><img src="images/174691587.png" alt="" title=""><figcaption><p>Figure 2. Stated view of 414246008 |Fenofibrate micronized (substance)|</p></figcaption></figure>
 
   
 

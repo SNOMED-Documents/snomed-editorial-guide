@@ -29,19 +29,19 @@ The following high level vaccine-related grouper concepts are included in the |M
 
 The following illustrates the **stated** view for 787859002 |Vaccine product (product)|:
 
-<figure><img src="images/179931302.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 787859002 |Vaccine product (product)|:</p></figcaption></figure>
+<figure><img src="images/174690916.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 787859002 |Vaccine product (product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931301.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 836368004 |Vaccine product containing bacteria antigen (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/174690915.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 836368004 |Vaccine product containing bacteria antigen (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931300.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 836368004 |Vaccine product containing bacteria antigen (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/174690914.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 836368004 |Vaccine product containing bacteria antigen (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931299.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 863950005 |Vaccine product containing bacteria and virus antigens (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/174690913.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 863950005 |Vaccine product containing bacteria and virus antigens (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931296.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 863950005 |Vaccine product containing bacteria and virus antigens (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/174690910.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 863950005 |Vaccine product containing bacteria and virus antigens (medicinal product)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931295.png" alt="" title=""></figure>
+<figure><img src="images/174690909.png" alt="" title=""></figure>
 
   
 

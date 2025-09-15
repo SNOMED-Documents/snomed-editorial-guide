@@ -11,15 +11,15 @@ Substance concepts should, where possible, be modeled with either a structural p
 | Semantic tag | (substance) |
 | Definition status | Primitive |
 
-## Naming Guidelines
+## Naming
 
 FSN, PT or Synonym should not contain "- dietary" context in descriptions
 
 FSN, PT or Synonym should not contain brand or trade names.
 
-Culinary name should be used for the FSN and PT when referring to meat products and food E.g. Beef dripping (substance), Pork sausage (substance)
+Culinary name should be used for the FSN and PT when referring to meat products and food, e.g., Beef dripping (substance), Pork sausage (substance).
 
-If there are additional adjectives such as baked, boiled, fried, lean, minced, low-fat, roast, or stewed, these adjectives should proceed the name of source organism, e.g. Fried beef steak (substance), Tinned fish (substance).
+If there are additional adjectives such as baked, boiled, fried, lean, minced, low-fat, roast, or stewed, these adjectives should proceed the name of source organism, e.g., Fried beef steak (substance), Tinned fish (substance).
 
 | FSN | X (substance) Wheat dextrin (substance) Tinned fish (substance) Pattern: For example, Betel nut (substance) |
 |---|---|
@@ -28,15 +28,15 @@ If there are additional adjectives such as baked, boiled, fried, lean, minced, l
 
 ## Exemplar
 
-The following illustrates the **stated** and **inferred** view
+The following illustrates the **stated** and **inferred** view.
 
-<figure><img src="images/179931949.png" alt="" title=""></figure>
+<figure><img src="images/174691565.png" alt="" title=""></figure>
 
 ## Exemplar
 
-The following illustrates the **stated** and **inferred** view
+The following illustrates the **stated** and **inferred** view.
 
-<figure><img src="images/179931950.png" alt="" title=""></figure>
+<figure><img src="images/174691566.png" alt="" title=""></figure>
 
   
 

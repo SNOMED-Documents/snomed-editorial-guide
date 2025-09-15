@@ -26,11 +26,11 @@
 
 The following illustrates the ****stated**** and****inferred**** view for 761954006 |No transformation (transformation)|:
 
-<figure><img src="images/179931597.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 764779004 |Disperse or dissolve (transformation)|:</p></figcaption></figure>
+<figure><img src="images/174691212.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 764779004 |Disperse or dissolve (transformation)|:</p></figcaption></figure>
 
-<figure><img src="images/179931596.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 736854003 |Disperse (transformation)|:</p></figcaption></figure>
+<figure><img src="images/174691211.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>stated</strong><strong> and</strong><strong>inferred</strong></em>* view for 736854003 |Disperse (transformation)|:</p></figcaption></figure>
 
-<figure><img src="images/179931595.png" alt="" title=""></figure>
+<figure><img src="images/174691210.png" alt="" title=""></figure>
 
   
 

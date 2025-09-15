@@ -8,7 +8,7 @@ Disposition is a behaviour that something can exhibit (or participate in) given 
 
 Disposition is a characteristic of the active ingredient substance(s) present in the Medicinal Product, therefore disposition grouping concepts are assigned (inferred) by the classifier to medicinal products and to all their child concepts (medicinal product form and clinical drug concepts) although in a browser such as DailyBuild the inferred grouping concepts will be shown on the proximal concept only (the "medicinal product containing" concept).
 
-<figure><img src="attachments/293568795/293568796.png" alt="Dorzolamide MP inferred for grouping.png" title=""><figcaption><p>Figure 1: Inferred view of Medicinal product showing membership of a disposition grouping (carbonic anydrase inhibitor)</p></figcaption></figure>
+<figure><img src="https://confluence.ihtsdotools.org/download/attachments/293568795/Dorzolamide%20MP%20inferred%20for%20grouping.png?version=1&modificationDate=1748543545000&api=v2" alt="Dorzolamide MP inferred for grouping.png" title=""><figcaption><p>Figure 1. Inferred view of Medicinal product showing membership of a disposition grouping (carbonic anydrase inhibitor)</p></figcaption></figure>
 
   
 

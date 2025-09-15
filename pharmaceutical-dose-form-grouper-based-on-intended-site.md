@@ -2,7 +2,7 @@
 
 ## Overview
 
-Pharmaceutical dose form grouper concepts based on intended site of use for the dose form that are deemed to be clinically useful or which provide a helpful organizing grouper and that can be sufficiently defined may be included in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy.
+Pharmaceutical dose form grouper concepts based on intended site of use for the dose form that are deemed to be clinically useful, or which provide a helpful organizing grouper, and that can be sufficiently defined, may be included in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy.
 
 These concepts are used in modeling (medicinal product form) concepts in the International Release; they are not allowed to model (clinical drug) concepts in the International Release.
 
@@ -28,4 +28,4 @@ Pharmaceutical dose form grouper concepts based on intended site shall be modele
 
 The following illustrates the stated**** view for grouper concept 740596000 |Cutaneous dose form (dose form)|:
 
-<figure><img src="images/179931614.png" alt="" title=""></figure>
+<figure><img src="images/174691229.png" alt="" title=""></figure>

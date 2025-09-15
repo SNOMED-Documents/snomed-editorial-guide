@@ -2,12 +2,22 @@
 
 ## Overview
 
-Groupers comprised of two or more existing disposition and/or structure groupers that can be sufficiently defined may be included in the |Medicinal product| hierarchy.
-
-High-level grouper concepts support the organization of the combined groupers based on disposition and/or structure:
+Groupers comprised of two or more existing disposition and/or structure groupers that can be sufficiently defined may be included in the |Medicinal product| hierarchy. High-level grouper concepts support the organization of the combined groupers based on disposition and/or structure:
 
   * 766779001 |Medicinal product categorized by disposition (product)|
   * 763760008 |Medicinal product categorized by structure (product)|
+
+For some medicinal products, their clinical usefulness is related to the combination of both their structure and their disposition; it is the structure that produces the disposition.
+
+For example,
+
+  *     * Clemastine is a substance whose anti-histamine behaviour is based upon its structure being ethanolamine derived. 
+
+Since structure-based grouping and disposition are characteristics of the active ingredient substance(s) present in the medicinal product, combined 'structure and disposition grouping' concepts are inferred by the classifier to medicinal products and include all their child concepts (medicinal product form and clinical drug concepts), although in a browser, the inferred grouping concepts are shown on the proximal concept only (the "medicinal product containing" concept).
+
+<figure><img src="https://confluence.ihtsdotools.org/download/attachments/293568803/MP%20with%20Structure%20and%20Disposition%20grouping.png?version=1&modificationDate=1748543718000&api=v2" alt="MP with Structure and Disposition grouping.png" title=""><figcaption><p>Figure 1. Medicinal Product showing membership of a structure-and-disposition grouping (ethanolamine derivative and histamine receptor antagonist)</p></figcaption></figure>
+
+  
 
 ## Modeling
 
@@ -28,19 +38,19 @@ High-level grouper concepts support the organization of the combined groupers ba
 
 The following illustrates the **stated** view for combined grouper concept 767562003 |Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)|:
 
-<figure><img src="images/225055033.png" alt="" title=""><figcaption><p>The following illustrates the<strong>inferred</strong> view for combined grouper concept 767562003 |Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)|:</p></figcaption></figure>
+<figure><img src="images/174691081.png" alt="" title=""><figcaption><p>The following illustrates the<strong>inferred</strong> view for combined grouper concept 767562003 |Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/225055032.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for combined grouper concept 70343008 |Product containing piperazine derivative and histamine receptor antagonist (product)|:</p></figcaption></figure>
+<figure><img src="images/174691080.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for combined grouper concept 70343008 |Product containing piperazine derivative and histamine receptor antagonist (product)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/225055031.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for combined grouper concept 70343008 |Product containing piperazine derivative and histamine receptor antagonist (product)|:</p></figcaption></figure>
+<figure><img src="images/174691079.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for combined grouper concept 70343008 |Product containing piperazine derivative and histamine receptor antagonist (product)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/225055030.png" alt="" title=""></figure>
+<figure><img src="images/174691078.png" alt="" title=""></figure>
 
   
 

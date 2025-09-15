@@ -2,8 +2,45 @@
 
 The Clinical Drug "containing precisely" (CD-precise) concept is an abstract representation of the precise active ingredient, basis of strength substance (BoSS), strength, and manufactured dose form of a drug product. It implies that the drug product must contain only the precise active ingredient(s) specified in the FSN. 
 
-  * [Clinical Drug with Discrete Dose Form](Clinical-Drug-with-Discrete-Dose-Form_225055220.html)
-  * [Clinical Drug with Continuous Dose Form](Clinical-Drug-with-Continuous-Dose-Form_225055251.html)
+  * [Clinical Drug with Discrete Dose Form](Clinical-Drug-with-Discrete-Dose-Form_174690775.html)
+  * [Clinical Drug with Continuous Dose Form](Clinical-Drug-with-Continuous-Dose-Form_174690866.html)
+  * [Specific Clinical drug modeling](Specific-Clinical-drug-modeling_303923266.html)
+
+All Clinical Drugs that contain multiple  _active_ ingredient substances will have parent MP and MPF concepts that have the same set of active ingredient substances.
+
+The limitation of the Clinical Drug class to the closed world view by the description of its precise active ingredient substances  _only_ precludes description of excipient substances, such as flavours, preservatives, sweeteners, etc., as ingredients in a Clinical Drug. These substances can have significance for allergies, etc., but can only be reliably described for individual authorised manufactured products, and as such, are not within the scope of the international edition. 
+
+Similarly, by limiting the Clinical Drug class in the international edition to expression of strength  _either_ as concentration strength  _or_ as presentation strength, medicinal product concepts that could usefully have  _both_ concentration and presentation strength (for example, some liquid products such as liquid parenteral products or liquids for inhalation via a nebuliser) will have only concentration strength in the international edition. 
+
+### **Use cases supported by the Clinical Drug concept**
+
+Use cases supported by the clinical drug concept include:
+
+  * As the abstract representation of products that are authorised, although without any sense of the excipient substances, the clinical drug concept is the source from which all other representation of medicinal product concepts flows; it acts as a clinically relevant grouper concept for medicinal products, and as such can support:
+    * international cross-border care delivery
+    * International and national interoperability of patient medication information, such as within patient summaries
+  * In national extensions: many clinical purposes, such as product prescribing, adverse event reporting, formulary management, in recording medication history, and in medication profiles
+  * Internationally and nationally in decision support and in protocols and treatment guidelines, when a more complete description of a product is required than MP or MPF
+  * In pharmacovigilance, especially for description of concomitant medication
+  * In analysis and research
+
+### **Availability of CD concepts in the international edition**
+
+This class forms part of the medicinal product content provided in the international edition, although for liquid products, only concentration strength representation is provided. 
+
+### **Clinical Drug Grouping Concepts not present in this model or in the international edition**
+
+Clinical Drug concepts in the international release are defined by their precise active ingredient substance(s) and their basis of strength substance, as described above. A concept that grouped clinical drugs by their strength and basis of strength substance only (i.e., disregarding the precise active ingredient substance) may be appropriate in some contexts in national extensions (e.g. 'amlodipine 10mg conventional release oral tablet' as a concept with three child concepts 'amlodipine (as amlodipine besiliate) 10mg conventional release oral tablet' and 'amlodipine (as amlodipine mesiliate) 10mg conventional release oral tablet' 'amlodipine (as amlodipine maleate) 10mg conventional release oral tablet'. A Clinical Drug grouping concept of this nature would be a "Basis of Strength Substance Clinical Drug" concept as opposed to a "Clinical Drug containing Precisely" concept. 
+
+### **IDMP Compatibility**
+
+Although a Clinical Drug might look directly compatible with the IDMP concept of "Manufactured Item", in IDMP, a Manufactured Item is an "actual manufactured item (the tablet, liquid, cream contained within the package) as it is delivered from the manufacturer but before any transformation, if applicable, for administration to or use by the patient"; it is therefore a representation of a real entity, rather than an abstract entity. They are therefore not directly compatible classes of entities. A Manufactured Item is described by substances in a variety of roles, including excipient substances, not just its active substance(s) and their strengths. A Manufactured Item can be related to an appropriate Clinical Drug on the basis of its active ingredient substance(s) and relevant strength so that the Clinical Drug being an abstracted representation of the Manufactured Item, but they are not equivalent. The Manufactured Item concept in IDMP is equivalent to the Real Clinical Drug concept of the SNOMED national extension model.
+
+On the basis that the IDMP concept of a Pharmaceutical Product could be defined by substance(s) playing only an active ingredient role, then the Clinical Drug concept is more directly compatible with the IDMP Pharmaceutical Product concept however if it is intended that the IDMP Pharmaceutical Product does include excipient substances, then there is no compatibility. Even then, the IDMP Pharmaceutical Product concept is clear that the dose form attribute is populated by the  _administrable_ dose form rather than the manufactured dose form, whereas, for everything other than products presented as reconstituted oral liquids, the Clinical Drug uses the  _manufactured_ dose form. Although for probably the majority of medicinal products the manufactured dose form is also the administrable dose form, for the minority for which this is not the case (for example, parenteral products presented as powders or granules that must be dissolved or dispersed prior to administration to the patient) this difference is significant. It is therefore not possible to state any direct class level equivalence between a Clinical Drug and an IDMP Pharmaceutical Product. 
+
+There is some compatibility between an IDMP PhP4 concept and a Clinical Drug. However, it is not yet clear as to how the "active substance - strength" description will be described in IDMP implementation. The SNOMED Clinical Drug is explicit in stating the basis of strength substance in its relevant granularity as required for patient care; IDMP is currently less clear as to how that will be done and what effect that will have on the description of a Pharmaceutical Product. In addition, IDMP allows for "active substance - strength" to be described by using either (and possibly even both) a Substance and Specified Substance. The distinction between Substance and Specified Substance in IDMP is thus: a substance is "any matter of defined composition that has discrete existence, whose origin may be biological, mineral or chemical" whereas a Specified Substance is one that is "defined by groups of elements that describes multi-substance materials or specifies further information on substances relevant to the description of Medicinal Products". Specified substances are substances like simeticone, which are mixture substances, or substances that are defined by pharmacopoeial specification (like water for injection) or substance where a particular manufacturing process is specified (as for biosimilar products). For SNOMED CT, all such substances, with the possible exception of 'water for injection') could be present in the Substance hierarchy and are therefore candidate concepts to be used in the ingredient role attributes of concepts in the Medicinal Product hierarchy; as such the IDMP distinction between Substance and Specified Substance has no material effect.
+
+  
 
 The guidance below applies to both discrete and continuous dose forms. 
 
@@ -96,21 +133,7 @@ For example,
 
 1220547004 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release eye drops (clinical drug)| correctly infers a subtype of 1142217003 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release ear and eye drops (clinical drug)|.
 
-## Anhydrous
-
-When a clinical drug has a BoSS specified in a Summary of Product Characteristics as an anhydrous substance, the PAI is represented as the unmodified substance, i.e., the substance with an unspecified level of hydration. 
-
-For example,
-
-  *     * 1153520006 |Product containing precisely **carbidopa anhydrous (as carbidopa)** 25 milligram and levodopa 250 milligram/1 each conventional release oral tablet (clinical drug)|
-
-[The SPC](https://www.medicines.org.uk/emc/product/7805/smpc#gref) states each tablet "contains 27.0 mg **carbidopa (equivalent to 25 mg of anhydrous carbidopa)** and 250 mg levodopa." The BoSS is anhydrous carbidopa, so the PAI is Carbidopa. 
-
   
-
-  *     * 1331919008 |Product containing precisely carbidopa anhydrous (as carbidopa) 12.5 milligram and entacapone 200 milligram and levodopa 50 milligram/1 each conventional release oral tablet (clinical drug)|
-
-[This SPC](https://www.hpra.ie/img/uploaded/swedocuments/Licence_PA0711-252-001_09032021145258.pdf) states, "Each film-coated tablet contains 50 mg of levodopa, 12.5 mg of **carbidopa anhydrous (as 13.5 mg carbidopa monohydrate)** and 200 mg of entacapone." The Boss is anhydrous carbidopa, so the PAI is Carbidopa. 
 
   
 

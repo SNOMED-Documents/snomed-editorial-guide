@@ -31,9 +31,9 @@ Descendants shall be modeled as follows.
 The following illustrates the ****stated**** view for 420699003 |Basic dose form with liquid state of matter (basic dose form)|:**  
 **
 
-<figure><img src="images/179931547.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>inferred </strong></em>*view for 420699003 |Basic dose form with liquid state of matter (basic dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691162.png" alt="" title=""><figcaption><p>The following illustrates the *<em><strong>inferred </strong></em>*view for 420699003 |Basic dose form with liquid state of matter (basic dose form)|:</p></figcaption></figure>
 
-<figure><img src="images/179931543.png" alt="" title=""></figure>
+<figure><img src="images/174691158.png" alt="" title=""></figure>
 
   
 
@@ -49,11 +49,11 @@ The following illustrates the ****stated**** view for 420699003 |Basic dose form
 
 The following illustrates the ****stated**** view for 739006009 |Solution (basic dose form)|:
 
-<figure><img src="images/179931545.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 739006009 |Solution (basic dose form)|:</p></figcaption></figure>
+<figure><img src="images/174691160.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 739006009 |Solution (basic dose form)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931544.png" alt="" title=""></figure>
+<figure><img src="images/174691159.png" alt="" title=""></figure>
 
   
 

@@ -23,7 +23,7 @@ Navigational concepts:
   * Have no other supertype or subtype relationships
   * Are linked to other concepts only by navigational links
 
-For more information on navigational concepts, [click here](Grouper-Concept_179932070.html). 
+For more information on navigational concepts, [click here](Grouper-Concept_174691686.html). 
 
   
 

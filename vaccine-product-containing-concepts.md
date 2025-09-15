@@ -33,9 +33,9 @@ Vaccine product "containing" concepts are not created for multiple ingredient va
 
 The following illustrates the **stated** view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|:
 
-<figure><img src="images/179931319.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/174690933.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931318.png" alt="" title=""></figure>
+<figure><img src="images/174690932.png" alt="" title=""></figure>
 
   
 

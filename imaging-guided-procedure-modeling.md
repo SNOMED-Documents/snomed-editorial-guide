@@ -22,7 +22,7 @@ For example,
 
 In Aspiration of cyst using ultrasonic guidance (procedure), the Ultrasound imaging role group will include a Direct morphology (attribute) of Cyst (morphologic abnormality). 
 
-<figure><img src="images/225055307.png" alt="" title=""></figure>
+<figure><img src="images/212340432.png" alt="" title=""></figure>
 
 ## Fluoroscopic guidance
 

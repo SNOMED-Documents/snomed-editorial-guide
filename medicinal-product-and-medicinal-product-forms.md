@@ -2,27 +2,26 @@
 
 When a clinical drug is created, the following supertypes must either already exist or must be created:
 
-  * [Medicinal Product Form containing only](Medicinal-Product-Form-containing-only_225055196.html)
-  * [Medicinal Product Form containing](Medicinal-Product-Form-containing_225055124.html)
-  * [Medicinal Product containing only](Medicinal-Product-containing-only_273518907.html)
-  * [Medicinal Product containing](Medicinal-Product-containing_225055049.html)
+  * [Medicinal Product containing only](Medicinal-Product-containing-only_240453149.html)
+  * [Medicinal Product containing](Medicinal-Product-containing_174690628.html)
+  * [Medicinal Product Form (MPF)](303923265.html)
 
 For example,
 
 1172863005 Paracetamol 1 g oral tablet has the following supertypes:
 
-<figure><img src="images/273519565.png" alt="" title=""><figcaption><p>These concepts in the International Release, their descriptions, and their [ | Has active ingredient (attribute)|](http://snomed.org/fictid# "\(eg:\)  | Has active ingredient \(attribute\) |") value, represent the <em><strong>base</strong></em> ingredient, not a modification.</p></figcaption></figure>
+<figure><img src="images/240453196.png" alt="" title=""><figcaption><p>These concepts in the International Release, their descriptions, and their [ | Has active ingredient (attribute)|](http://snomed.org/fictid# "\(eg:\)  | Has active ingredient \(attribute\) |") value, represent the <em><strong>base</strong></em> ingredient, not a modification.</p></figcaption></figure>
 
 For example, 
 
 1204319004 |Product containing precisely retinol (as retinol palmitate) 50000 unit/1 milliliter conventional release solution for injection (clinical drug)| has medicinal product and medicinal product form supertypes with _retinol_ , not _retinol palmitate_. Retinol palmitate is a modification of Retinol and thus should not be used in the creation of the medicinal product and medicinal product form supertypes. 
 
-<figure><img src="images/273519564.png" alt="" title=""><figcaption><p>Exceptions to use a modified substance are explicitly identified below:</p></figcaption></figure>
+<figure><img src="images/240453195.png" alt="" title=""><figcaption><p>Exceptions to use a modified substance are explicitly identified below:</p></figcaption></figure>
 
 | Exceptions | Elucidation | Examples |
 |---|---|---|
 | Benzylpenicillin | When the active ingredient has an Is modification of (attribute) value of 323389000 \|Benzylpenicillin (substance)\|. | 1234765004 \|Product containing only benzathine benzylpenicillin in parenteral dose form (medicinal product form)\| 323404007 \|Product containing benzathine benzylpenicillin (medicinal product)\| Benzylpenicillin is the base, but use the modified substance in the FSN for the MP/MPF. |
-| Chemical element with multiple modification | Instances where the substance has two or more Is Modification of (attribute)s | 422232005 \|Calcium lactate gluconate (substance)\| 715220007 \|Tenofovir alafenamide (substance)\| |
+| Chemical element compound with multiple modification | Instances where the chemical element compound has two or more Is Modification of (attribute)s | Has \|Is modification of (attribute)\| = Calcium gluconate Has \|Is modification of (attribute)\| = Calcium lactate Has \|Is modification of (attribute)\| = Somatostatin analog Has \|Is modification of (attribute)\| = Copper-64 422232005 \|Calcium lactate gluconate (substance)\| 1359973006 \|Copper (64-Cu) labeled somatostatin analog (substance)\| |
 | Chloral hydrate | 273948005 \|Chloral hydrate (substance)\| is a modification of Chloral. However, chloral is unstable on its own and always exists in the hydrated form. | 778711000 \|Product containing only chloral hydrate in oral dose form (medicinal product form)\| 386735001 \|Product containing chloral hydrate in oral dose form (medicinal product form)\| 775158004 \|Product containing only chloral hydrate (medicinal product)\| |
 | Liposome or lipid complex substances | Product containing only x (medicinal product) Product containing only x in y dose form (medicinal product form) Product containing x (medicinal product) Product containing x in y dose form (medicinal product form) < 414612001 \|Liposomal agent (substance) These subtypes have some sort of modification, but they can be used to create: Do not use to create: | 426490000 \|Vincristine liposome (substance)\| 425953004 \|Amphotericin B lipid complex (substance)\| 768664009 \|Amphotericin B phospholipid complex (substance)\| 427544000 \|Amphotericin B cholesteryl sulfate complex (substance)\| |
 | Pegylated substance | There is no technical way to identify these concepts, though they will often begin with peg-. | 385544005 \|Pegfilgrastim (substance)\| 770965008 \|Pegvaliase (substance)\| |

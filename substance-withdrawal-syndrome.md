@@ -10,11 +10,11 @@ For example,
 
 Stated view of 74934004 |Psychoactive substance withdrawal syndrome (disorder)|:
 
-<figure><img src="images/179930945.png" alt="" title=""><figcaption><p>Inferred view of 74934004 |Psychoactive substance withdrawal syndrome (disorder)|:</p></figcaption></figure>
+<figure><img src="images/174690559.png" alt="" title=""><figcaption><p>Inferred view of 74934004 |Psychoactive substance withdrawal syndrome (disorder)|:</p></figcaption></figure>
 
   
 
-<figure><img src="images/179930944.png" alt="" title=""></figure>
+<figure><img src="images/174690558.png" alt="" title=""></figure>
 
   
 

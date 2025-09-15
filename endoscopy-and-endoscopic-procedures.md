@@ -22,7 +22,7 @@ For example,
 
   * Stated view of |Endoscopy of stomach (procedure)|
 
-<figure><img src="images/273518947.png" alt="" title=""><figcaption><p>There can be more than 1 role group if there is more than one site. So Esophagogastroduodenoscopy (procedure) has 3 inspection role groups; one each for esophagus, stomach, and duodenum.</p></figcaption></figure>
+<figure><img src="images/229114166.png" alt="" title=""><figcaption><p>There can be more than 1 role group if there is more than one site. So Esophagogastroduodenoscopy (procedure) has 3 inspection role groups; one each for esophagus, stomach, and duodenum.</p></figcaption></figure>
 
   
 
@@ -45,7 +45,7 @@ For example,
 
   * Stated view of |Endoscopic brush biopsy of stomach (procedure)|
 
-<figure><img src="images/273518952.png" alt="" title=""><figcaption><p><strong>Inspection via skin incision</strong></p></figcaption></figure>
+<figure><img src="images/225051467.png" alt="" title=""><figcaption><p><strong>Inspection via skin incision</strong></p></figcaption></figure>
 
   
 
@@ -66,7 +66,7 @@ For example,
 
   * Stated view of |Thoracoscopy (procedure)|
 
-<figure><img src="images/273518951.png" alt="" title=""><figcaption><p><strong>Inspection + action via skin incision</strong></p></figcaption></figure>
+<figure><img src="images/225051466.png" alt="" title=""><figcaption><p><strong>Inspection + action via skin incision</strong></p></figcaption></figure>
 
   
 
@@ -92,7 +92,7 @@ For example,
 
   * Stated view of |Thoracoscopy with biopsy (procedure)|
 
-<figure><img src="images/273518950.png" alt="" title=""></figure>
+<figure><img src="images/225051465.png" alt="" title=""></figure>
 
 ## Devices
 
@@ -124,5 +124,5 @@ Using device = Laparoscope, device (physical object)
 
   
 
-<figure><img src="images/273518946.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 73632009 |Laparoscopy (procedure)|</p></figcaption></figure>
+<figure><img src="images/229114165.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 73632009 |Laparoscopy (procedure)|</p></figcaption></figure>
 

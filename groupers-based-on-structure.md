@@ -8,7 +8,7 @@ All substances have spatial arrangement of the atoms and molecules and bonds tha
 
 Structure-based grouping is a characteristic of the active ingredient substance(s) present in the medicinal product, therefore structure-based grouping concepts are assigned (inferred) by the classifier to medicinal products and include all their child concepts (medicinal product form and clinical drug concepts) although in a browser such as DailyBuild the inferred grouping concepts will be shown on the proximal concept only (the "medicinal product containing" concept).
 
-<figure><img src="attachments/293568800/293568801.png" alt="Dorzolamide MP inferred for grouping.png" title=""><figcaption><p>Figure 1: Inferred view of Medicinal product showing membership of a structural grouping (sulfonamide)</p></figcaption></figure>
+<figure><img src="https://confluence.ihtsdotools.org/download/attachments/293568800/Dorzolamide%20MP%20inferred%20for%20grouping.png?version=1&modificationDate=1748543649000&api=v2" alt="Dorzolamide MP inferred for grouping.png" title=""><figcaption><p>Figure 1. Inferred view of Medicinal product showing membership of a structural grouping (sulfonamide)</p></figcaption></figure>
 
   
 

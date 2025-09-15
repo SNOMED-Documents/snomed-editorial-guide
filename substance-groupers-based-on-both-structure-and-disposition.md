@@ -19,13 +19,13 @@ The following illustrates the **stated** and **inferred** view for grouper conce
 
   
 
-<figure><img src="images/179931826.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 438942000 |Piperidine derivative with histamine receptor antagonist mechanism of action (substance)|</p></figcaption></figure>
+<figure><img src="images/174691442.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 438942000 |Piperidine derivative with histamine receptor antagonist mechanism of action (substance)|</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/179931825.png" alt="" title=""><figcaption><p>Figure 1: Inferred view of 438942000 |Piperidine derivative with histamine receptor antagonist mechanism of action (substance)|</p></figcaption></figure>
+<figure><img src="images/174691441.png" alt="" title=""><figcaption><p>Figure 2. Inferred view of 438942000 |Piperidine derivative with histamine receptor antagonist mechanism of action (substance)|</p></figcaption></figure>
 
   
 

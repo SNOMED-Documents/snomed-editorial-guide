@@ -22,4 +22,4 @@ Concepts representing _Metabolites of X_ will be considered for inclusion based 
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/179932006.png" alt="" title=""></figure>
+<figure><img src="images/174691622.png" alt="" title=""></figure>

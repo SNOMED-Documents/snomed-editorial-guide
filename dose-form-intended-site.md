@@ -26,4 +26,4 @@
 
 The following illustrates the ****stated**** and****inferred**** view for 738984000 |Parenteral (intended site)|:
 
-<figure><img src="images/179931562.png" alt="" title=""></figure>
+<figure><img src="images/174691177.png" alt="" title=""></figure>

@@ -6,7 +6,7 @@ FSN: [technique] quantity of intake of [substance] via [route] in [timeframe] (o
 
 SYN: [technique] quantity of intake of [substance] via [route] in [timeframe]
 
-See the specific template [here](https://confluence.ihtsdotools.org/pages/viewpage.action?pageId=87041725). 
+See the specific template [A nutritional intake (observable entity) - v1.0](https://prod-confluence.ihtsdotools.org/display/SCTEMPLATES/A+nutritional+intake+%28observable+entity%29+-+v1.0). 
 
 For example,
 
@@ -16,7 +16,7 @@ FSN: Estimated quantity of intake of phosphorous in 24 hours (observable entity)
 
 PT: Estimated quantity of intake of phosphorous in 24 hours
 
-<figure><img src="images/273519344.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 789106008 |Estimated quantity of intake of phosphorous in 24 hours (observable entity)|</p></figcaption></figure>
+<figure><img src="images/240455413.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 789106008 |Estimated quantity of intake of phosphorous in 24 hours (observable entity)|</p></figcaption></figure>
 
   
 

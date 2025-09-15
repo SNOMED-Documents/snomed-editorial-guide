@@ -25,4 +25,4 @@ Useful reference: Current version of _WHO Guidelines for the Production, Control
 
 The following illustrates the **stated** view of 699514008 |Chironex fleckeri antivenom (substance)|:
 
-<figure><img src="images/225055322.png" alt="" title=""></figure>
+<figure><img src="images/212337707.png" alt="" title=""></figure>

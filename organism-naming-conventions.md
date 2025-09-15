@@ -67,7 +67,7 @@ If a common name is shared between more than one organism, the preferred term sh
 
 For example,
 
-  *     * 1697006 |Genus Megapodius (organism)| and 107060000 |Family Megapodiidae (organism)| share the common name “Megapodes”. The Preferred term for the two concepts is as follows:
+  *     * 1697006 |Genus Megapodius (organism)| and 107060000 |Family Megapodiidae (organism)| share the common name _Megapodes_. The Preferred term for the two concepts is as follows:
       * 1697006 |Genus Megapodius (organism)| PT: Megapodius - megapodes
       * 107060000 |Family Megapodiidae (organism)| PT: Megapodiidae - megapodes
 
@@ -75,7 +75,7 @@ An organism's common name might be the same as the scientific name for another o
 
 For example,
 
-  *     * For concept 8807009 |Gorilla gorilla (organism)|, the preferred term is “Gorilla gorilla - gorilla"
+  *     * For concept 8807009 |Gorilla gorilla (organism)|, the preferred term is _Gorilla gorilla - gorilla._
 
 Occasionally, we may need to add a word to the common name specified in the resources to make the common name more explicit.
 
@@ -93,6 +93,11 @@ For example,
 
   *     * "Order Columbiformes" represent all Genera of Doves and pigeons, so the preferred term for 107097005 |Order Columbiformes (organism)| is: Doves and pigeons.
 
+Follow the authoritative sources naming conventions for plural vs. singular where the same name is applicable to a higher taxonomic rank and one of its subtypes.
+
+  *     * For example,
+      * 329681000009104 |Genus Orcinus (organism)| has a preferred term of _Killer whales_ , while its child concept 50377004 |Orcinus orca (organism)| has a preferred term of _Killer whale_.
+
 ## Qualifiers in organism names
 
 When modeling organisms with qualifiers, the qualifier should be placed in front of the organism name.
@@ -104,6 +109,10 @@ The description of organism classes that are subspecies subtypes and variants ma
 For example,
 
   *     * [ 698206009 | Brucella suis biovar 4 (organism)|](http://snomed.info/id/698206009 "698206009 | Brucella suis biovar 4 \(organism\) |")
+
+_Serovar_ and _serotype_ are generally synonymous, with a preference for _serovar_ in the FSN and PT unless there is an authoritative source for the organism that uses _serotype_.
+
+These guidelines should be applied to new content. Existing content may not be in compliance with this guidance; the process of correcting existing content will be carried out as time and resources permit.
 
 The subspecies types and variants should be included in the FSN, PT and other descriptions as per terming in authoritative resource where one exists (example: see sub-sections for Salmonella serotype nomenclature as well as Streptococcus pneumoniae below). In the absence of such resources, associated scientific literature is consulted for the most common and accurate representation. Inclusion of the subspecies types and variants accurately is to avoid ambiguity when the same number or letter is used to refer to different organism variants.
 
@@ -127,21 +136,23 @@ For example,
 
     * 72646003 |Streptococcus equinus (organism)| contains a heterotypic synonym of "Streptococcus bovis". Both of these descriptions are scientific names of the organism, and therefore, both have a case sensitivity indicator of _Entire term case sensitive_ (CS). 
 
-Where the binomial format for an organism species includes capitalization of the first word, i.e., the genus name, but the species name begins with a lower case letter. Therefore, the whole name would have case significance of _Entire term case sensitive_ (CS). 
+Where the binomial format for an organism species includes capitalization of the first word, i.e., the genus name, the species name begins with a lower case letter. 
 
 For example,
 
   *     * [ 24224000 | Brucella abortus (organism)|](http://snomed.info/id/24224000 "24224000 | Brucella abortus \(organism\) |")
 
-If the species name includes any other word, it is not capitalized unless it is a proper noun, or part of a proper noun.
+If the species name includes any other word, it is not capitalized unless it is either a proper noun or part of a proper noun.
 
 For example,
 
   *     * 31989009 |Murray Valley encephalitis virus (organism)|
 
-Capitalization is applicable to the organism scientific name, e.g. Hepatitis B virus. The name of the associated disease does not require capitalization, e.g. "hepatitis".
+Capitalization is applicable to the organism scientific name, e.g., Hepatitis B virus, Buffalopox virus, Cowpox virus, Dengue virus, Herpes simplex virus 1, Herpes simplex virus 2, Herpes simplex virus 3, Human immunodeficiency virus 1 _,_ Influenza virus A, Influenza virus B, Influenza virus C, Measles morbillivirus and Measles virus, Orf virus, Rabies virus, Rubella virus, Salmonella enterica subspecies enterica serovar Typhi, Vaccinia virus, Vesicular stomatitis Indiana virus, Yellow fever virus, Human papillomavirus x (where x is number representing the serotype).
 
-Non-taxonomic groupers, such as “Human herpes simplex virus” or "influenza virus", are recorded with a case sensitivity indicator of _Entire term case insensitive_ (ci).
+The name of the associated disease does not require capitalization, e.g., hepatitis, buffalopox, cowpox, dengue, herpes, influenza, measles, orf, rabies, rubella, typhoid, smallpox, vesicular stomatitis, yellow fever.
+
+Non-taxonomic groupers, such as _human herpes simplex virus_ , _herpes simplex virus_ , _influenza virus_ , _h_ _uman immunodeficiency virus_ , and _human papillomavirus_ are recorded with a case sensitivity indicator of _Entire term case insensitive_ (ci).
 
 There are cases where the authoritative resources do not have an entry for the official name of an organism. For these concepts, the associated literature is referenced for naming and case sensitivity assignments.
 
@@ -350,7 +361,7 @@ Some organisms and stages are referred to in an _adjectival_ form (e.g. Ascarid 
 
 Homotypic synonyms (also referred to as objective or nomenclatural or obligate synonyms), sometimes indicated by a triple bar 
 
-<figure><img src="images/179931006.png" alt="" title=""><figcaption><p>, are based on the exact same type specimen. These synonyms are published in the scientific literature following the formal nomenclatural rules (that is, they are declared through a <em>nomenclatural</em> <em>act</em>).</p></figcaption></figure>
+<figure><img src="images/174690620.png" alt="" title=""><figcaption><p>, are based on the exact same type specimen. These synonyms are published in the scientific literature following the formal nomenclatural rules (that is, they are declared through a <em>nomenclatural</em> <em>act</em>).</p></figcaption></figure>
 
 Heterotypic synonyms (also referred to as subjective or taxonomic synonyms), sometimes indicated by “=“, are based on different type specimens. These synonyms rely on the opinions of taxonomists rather than on the formal nomenclatural rules.
 

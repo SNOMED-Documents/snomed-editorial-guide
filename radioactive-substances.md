@@ -24,11 +24,11 @@ Superscripts should not be used in either Fully Specified Name, Preferred Term, 
 
 The following illustrates the hierarchy view:
 
-<figure><img src="images/179931983.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> and <strong>inferred</strong> view:</p></figcaption></figure>
+<figure><img src="images/174691599.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> and <strong>inferred</strong> view:</p></figcaption></figure>
 
   
 
-<figure><img src="images/179931993.png" alt="" title=""></figure>
+<figure><img src="images/174691609.png" alt="" title=""></figure>
 
 ## Representation of radioisotope with salt
 
@@ -55,7 +55,7 @@ Parentheses should be used to delineate the atomic number and chemical symbol fr
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="images/179931982.png" alt="" title=""></figure>
+<figure><img src="images/174691598.png" alt="" title=""></figure>
 
 ## Representation of combined radioisotope substances
 
@@ -80,7 +80,7 @@ Omit the word “labeled” from the PT; keep a synonym to match the FSN.
 
 The following illustrates both the **stated** and **inferred** view:
 
-<figure><img src="images/179931981.png" alt="" title=""></figure>
+<figure><img src="images/174691597.png" alt="" title=""></figure>
 
   
 

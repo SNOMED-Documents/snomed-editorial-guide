@@ -43,7 +43,7 @@ For example,
 
   *     * 231274008 |Injection of steroid into joint (procedure)| has Direct substance (attribute) of Steroid (substance)
 
-<figure><img src="images/273518981.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
+<figure><img src="images/174691346.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
 
 Although Pharmaceutical / biologic product (product) and its descendants are considered valid values for the Direct substance (attribute) by the MRCM, they are not currently used as values for this attribute in the International Release. The only exception is 787859002 |Vaccine product (medicinal product)| and its descendants, which can be used as valid values for this attribute.
 
@@ -112,7 +112,7 @@ For example,
 
 Method (attribute) does not describe
 
-  * surgical approach, e.g. translumbar
+  * procedure approach, e.g. translumbar
   * equipment, e.g. sutures
   * physical force, e.g. laser energy
 
@@ -142,6 +142,18 @@ For example,
     * [ 177141003 | Elective cesarean section (procedure)|](http://snomed.info/id/177141003 "177141003 | Elective cesarean section \(procedure\) |") has Priority of Elective (qualifier value)
 
 [ 260870009 | Priority (attribute)|](http://snomed.info/id/260870009 "260870009 | Priority \(attribute\) |") is most often used to differentiate elective and emergency subtypes of a procedure that can be performed on either basis. With the exception of Cardiopulmonary resuscitation (procedure), this attribute is normally used only to define concepts whose FSNs specify a priority, not for modeling procedures that imply an emergency priority, such as |Heimlich maneuver (procedure)| or those that are inherently elective, such as |Augmentation mammoplasty (procedure)|.
+
+## Procedure approach
+
+Procedure approach (attribute) specifies the directional, relational, or spatial access to the site of a procedure. The range for [ 116688005 | Procedure approach (attribute)|](http://snomed.info/id/116688005 "116688005 | Procedure approach \(attribute\) |") is << [ 103379005 | Procedural approach (qualifier value)|](http://snomed.info/id/103379005 "103379005 | Procedural approach \(qualifier value\) |") . 
+
+For example,
+
+  *     * 33195004 |External beam radiation therapy procedure (procedure)| has Procedure approach (attribute) of External approach (qualifier value).
+
+<figure><img src="images/273515817.png" alt="" title=""><figcaption><p><em>     </em> 29795009 |Open reduction of orbital floor blowout fracture by periorbital approach (procedure)| has Procedure approach (attribute) of Periorbital approach (qualifier value).</p></figcaption></figure>
+
+<figure><img src="images/273515818.png" alt="" title=""></figure>
 
 ## Procedure device
 
@@ -222,7 +234,7 @@ For example,
       * Procedure site - Indirect of Structure of brachial vein (body structure)
       * Direct device of Venous catheter (physical object)
 
-<figure><img src="images/273518980.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
+<figure><img src="images/174691345.png" alt="" title=""><figcaption><p>Figure 4. Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
 
   
 
@@ -231,7 +243,7 @@ For example,
       * Method of Removal - action (qualifier value)
       * Procedure site - Indirect of Urinary bladder structure (body structure)
 
-<figure><img src="images/273518979.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
+<figure><img src="images/174691344.png" alt="" title=""><figcaption><p>Figure 5. Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
 
 ## Recipient category
 
@@ -261,7 +273,7 @@ For example,
 
   *     * [410572008 | Injection of steroid via intravitreal route (procedure)|](http://snomed.info/id/410572008) has the [| Route of administration (attribute)|](http://snomed.org/-fictid) of Intravitreal route (qualifier value)
 
-<figure><img src="images/273518978.png" alt="" title=""><figcaption><p>Figure 4: Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
+<figure><img src="images/237110237.png" alt="" title=""><figcaption><p>Figure 6. Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
 
 While the values for |Procedure site - Indirect| and |Route of administration| attributes may be similar and seem redundant, their presence is necessary for consistent subsumption. 
 
@@ -272,7 +284,7 @@ For example,
 | Intravenous route | Venous structure |
 | Oral route | Mouth region structure |
 
-Table 1: Examples of complementary values of Route of administration and Procedure site - Indirect
+Figure 7. Examples of complementary values of Route of administration and Procedure site - Indirect
 
 ## Using access device
 

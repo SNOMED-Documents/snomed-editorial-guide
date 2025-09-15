@@ -1,6 +1,6 @@
 # Breast Prosthesis Naming and Modeling
 
-## Naming Guidelines
+## Naming
 
 | FSN | Use the following naming pattern for the FSN; align terming and case sensitivity with the FSN for the concepts selected as the attribute values, excluding the semantic tag. [filling] [surface texture] breast implant (physical object) For example, Saline-filled textured breast implant (physical object) |
 |---|---|
@@ -20,6 +20,6 @@
 
 The following illustrates the **stated** view for 769177007 |Saline-filled smooth breast implant (physical object)|:
 
-<figure><img src="images/179931647.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 769177007 |Saline-filled smooth breast implant (physical object)|:</p></figcaption></figure>
+<figure><img src="images/174691262.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 769177007 |Saline-filled smooth breast implant (physical object)|:</p></figcaption></figure>
 
-<figure><img src="images/179931648.png" alt="" title=""></figure>
+<figure><img src="images/174691263.png" alt="" title=""></figure>

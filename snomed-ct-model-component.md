@@ -8,7 +8,7 @@
 
 ## SNOMED Model component module (metadata) 
 
-<figure><img src="images/179931772.png" alt="" title=""></figure>
+<figure><img src="images/174691388.png" alt="" title=""></figure>
 
   
 
@@ -46,7 +46,7 @@ Users should beware that unapproved attributes can potentially
 
 New namespace concepts are requested via email to _info@snomed.org_. A SNOMED International staff terminologist will add new extension namespace identifiers as requests are received. It is also necessary to change the Module ID per the following:
 
-<figure><img src="images/179931774.png" alt="" title=""><figcaption><p>For further details, see <em>Namespace identifiers</em> on the SNOMED website at: <https://www.snomed.org/snomed-ct/Use-SNOMED-CT>. Find the Namespace Identifier Registry at <https://cis.ihtsdotools.org/info/></p></figcaption></figure>
+<figure><img src="images/174691390.png" alt="" title=""><figcaption><p>For further details, see <em>Namespace identifiers</em> on the SNOMED website at: <https://www.snomed.org/use-snomed-ct>. Find the <em>Namespace Identifier Registry</em> at <https://cis.ihtsdotools.org/info/></p></figcaption></figure>
 
   
 

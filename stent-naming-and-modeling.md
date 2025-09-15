@@ -1,6 +1,6 @@
 # Stent Naming and Modeling
 
-## Naming Guidelines
+## Naming
 
 | FSN | Custom-made bioabsorbable vaginal stent (physical object) Bare metal renal artery stent (physical object) Silicon carbide coated intracranial vascular stent (physical object) Sterile polymer coated metal esophageal stent (physical object) Use the following naming pattern for the FSN; align terming and case sensitivity with the FSN for the concepts selected as the attribute values, excluding the semantic tag. [is sterile] [absorbability] [compositional material] [coating] [device intended site] stent (physical object) For example, |
 |---|---|
@@ -22,6 +22,6 @@
 
 The following illustrates the **stated** view for 716668000 |Non-sterile bare metal esophageal stent (physical object)|:
 
-<figure><img src="images/179931655.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 716668000 |Non-sterile bare metal esophageal stent (physical object)|:</p></figcaption></figure>
+<figure><img src="images/174691270.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 716668000 |Non-sterile bare metal esophageal stent (physical object)|:</p></figcaption></figure>
 
-<figure><img src="images/179931656.png" alt="" title=""></figure>
+<figure><img src="images/174691271.png" alt="" title=""></figure>

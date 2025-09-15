@@ -28,4 +28,4 @@ The 736665006 |Dose form administration method (administration method)| hierarch
 
 The following illustrates the ****stated**** and****inferred**** view for 738992009 |Chew (administration method)|:
 
-<figure><img src="images/179931585.png" alt="" title=""></figure>
+<figure><img src="images/174691200.png" alt="" title=""></figure>

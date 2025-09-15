@@ -2,7 +2,7 @@
 
 Observable entity concepts representing histopathology examination observables of neoplasms are being modeled according to a series of templates. 
 
-Please see the templates listed here: <https://confluence.ihtsdotools.org/x/SonUAw.> See the [Community Content](https://confluence.ihtsdotools.org/x/VHXoBg) area for more information about the project. 
+Please see the templates listed here: [Observable entity templates](https://prod-confluence.ihtsdotools.org/display/SCTEMPLATES/Observable+entity+templates) See the [Cancer Synoptic Reporting](https://prod-confluence.ihtsdotools.org/display/CC/Cancer+Synoptic+Reporting) area for more information about the project. 
 
 Concepts containing a _primary_ malignant neoplasm from the observable entity subhierarchy employ the 704321009 |Characterizes (attribute)| with the target qualifier value of 1234914003 |Malignant proliferation of primary neoplasm (qualifier value)| in order to define _primary_ (which matches the target value of the Pathological process (attribute) used by concepts in the Disorder hierarchy). 
 
@@ -10,11 +10,11 @@ For example,
 
 1136681000004107 |Anatomic location of excised primary malignant neoplasm (observable entity)| applies the Characterizes (attribute) with a target of Malignant proliferation of primary neoplasm (qualifier value). 
 
-<figure><img src="images/273519354.png" alt="" title=""><figcaption><p>Figure 1: Stated view of 1136681000004107 |Anatomic location of excised primary malignant neoplasm (observable entity)|</p></figcaption></figure>
+<figure><img src="images/240455416.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 1136681000004107 |Anatomic location of excised primary malignant neoplasm (observable entity)|</p></figcaption></figure>
 
   
 
-<figure><img src="images/273519353.png" alt="" title=""><figcaption><p>Figure 2: Stated view of 372087000 |Primary malignant neoplasm (disorder)|</p></figcaption></figure>
+<figure><img src="images/240455415.png" alt="" title=""><figcaption><p>Figure 2. Stated view of 372087000 |Primary malignant neoplasm (disorder)|</p></figcaption></figure>
 
   
 

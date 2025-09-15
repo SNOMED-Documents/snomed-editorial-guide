@@ -39,38 +39,38 @@ Modeling and terming for vaccines that have variable composition (e.g. influenza
 
 The following illustrates the **stated** view for 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|:
 
-<figure><img src="images/179931340.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/174690954.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931339.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 871803007 |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|:</p></figcaption></figure>
-
-  
-
-  
-
-<figure><img src="images/179931338.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 871803007 |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|:</p></figcaption></figure>
-
-<figure><img src="images/179931337.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 1991000221106 |Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/174690953.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 871803007 |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|:</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/179931336.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 1991000221106 |Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)|:</p></figcaption></figure>
+<figure><img src="images/174690952.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 871803007 |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931335.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)| and illustrates the use of the "Has product characteristic" attribute:</p></figcaption></figure>
-
-  
-
-  
-
-<figure><img src="images/179931334.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)| and illustrates the use of the "Has product characteristic" attribute:</p></figcaption></figure>
-
-<figure><img src="images/179931333.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)| and illustrates use of the "Has ingredient characteristic" attribute:</p></figcaption></figure>
+<figure><img src="images/174690951.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 1991000221106 |Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)|:</p></figcaption></figure>
 
   
 
   
 
-<figure><img src="images/179931332.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)| and illustrates use of the "Has ingredient characteristic" attribute:</p></figcaption></figure>
+<figure><img src="images/174690950.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 1991000221106 |Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="images/179931331.png" alt="" title=""></figure>
+<figure><img src="images/174690949.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)| and illustrates the use of the "Has product characteristic" attribute:</p></figcaption></figure>
+
+  
+
+  
+
+<figure><img src="images/174690948.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)| and illustrates the use of the "Has product characteristic" attribute:</p></figcaption></figure>
+
+<figure><img src="images/174690947.png" alt="" title=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)| and illustrates use of the "Has ingredient characteristic" attribute:</p></figcaption></figure>
+
+  
+
+  
+
+<figure><img src="images/174690946.png" alt="" title=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)| and illustrates use of the "Has ingredient characteristic" attribute:</p></figcaption></figure>
+
+<figure><img src="images/174690945.png" alt="" title=""></figure>
