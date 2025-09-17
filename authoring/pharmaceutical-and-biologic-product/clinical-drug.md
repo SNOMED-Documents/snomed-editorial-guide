@@ -82,7 +82,7 @@ Requests for new concepts that conflict with the above require a clear justifica
 
 For example,
 
-  *     * 1237145006 |Product containing precisely octocog alfa 1000 unit/1 vial powder for conventional release solution for injection (clinical drug)|
+1237145006 |Product containing precisely octocog alfa 1000 unit/1 vial powder for conventional release solution for injection (clinical drug)|
     * PT - Octocog alfa 1000 unit powder for solution for injection vial
 
 The |Has presentation strength numerator unit| will still continue to have a value of |International unit (qualifier value)| even though  _unit_ is stated in the FSN and PT.

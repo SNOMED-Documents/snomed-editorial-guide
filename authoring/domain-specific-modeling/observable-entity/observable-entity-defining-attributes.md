@@ -41,7 +41,7 @@ This attribute is used to specify a body site or other location of the independe
 
 For example,
 
-  *     * 5310001000004108 |Histologic type of neoplasm of skin (observable entity)| has 718497002 | Inherent location (attribute)| of 39937001 |Skin structure (body structure)|
+5310001000004108 |Histologic type of neoplasm of skin (observable entity)| has 718497002 | Inherent location (attribute)| of 39937001 |Skin structure (body structure)|
 
 ## Inheres in
 
@@ -49,7 +49,7 @@ This attribute specifies the independent continuant in which the quality exists 
 
 For example,
 
-  *     * 307047009 |Core body temperature measured in rectum (observable entity)| has 704319004 |Inheres in (attribute)| of 278826002 |Body internal region (body structure)|
+307047009 |Core body temperature measured in rectum (observable entity)| has 704319004 |Inheres in (attribute)| of 278826002 |Body internal region (body structure)|
 
 ## Precondition
 

@@ -4,7 +4,7 @@ Pharmaceutical dose form grouper concepts specifying "infusion _and/or_ injectio
 
 For example,
 
-  *     * 1208958005 |Conventional release solution for infusion and/or injection (dose form)|
+1208958005 |Conventional release solution for infusion and/or injection (dose form)|
     * 1236769008 |Gas for conventional release dispersion for infusion and/or injection (dose form)|
     * 1237269000 |Concentrate for conventional release solution for infusion and/or injection (dose form)|
 
@@ -19,7 +19,7 @@ Clinical drugs modeled using pharmaceutical dose form groupers for “infusion _
 
 For example,
 
-  *     * 1252729004 |Product containing precisely ofloxacin 2 milligram/1 milliliter conventional release solution for infusion and/or injection (clinical drug)| is modeled with |Has manufactured dose form (attribute)| of |Conventional release solution for infusion and/or injection (dose form)|.
+1252729004 |Product containing precisely ofloxacin 2 milligram/1 milliliter conventional release solution for infusion and/or injection (clinical drug)| is modeled with |Has manufactured dose form (attribute)| of |Conventional release solution for infusion and/or injection (dose form)|.
 
 <figure><img src="images/232391039.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 1252729004 |Product containing precisely ofloxacin 2 milligram/1 milliliter conventional release solution for infusion and/or injection (clinical drug)|</p></figcaption></figure>
 

@@ -25,7 +25,7 @@ When a product has a metered delivery, the strength is "per actuation" not as a 
 
 For example,
 
-  *     * 1263426000 |Product containing precisely xylometazoline hydrochloride 140 microgram/1 actuation conventional release nasal spray (clinical drug)|
+1263426000 |Product containing precisely xylometazoline hydrochloride 140 microgram/1 actuation conventional release nasal spray (clinical drug)|
 
 Lyophilized dose forms are out of scope for the international edition of SNOMED CT.
 

@@ -4,7 +4,7 @@ Where a procedure is undertaken during a specific period of life, such as in the
 
 For example,
 
-  *     * 1287360000 | Injection of epidural anesthesia during maternal intrapartum period (procedure)| has an Occurrence (attribute)| of 1156682000 |Maternal intrapartum period (qualifier value)|.
+1287360000 | Injection of epidural anesthesia during maternal intrapartum period (procedure)| has an Occurrence (attribute)| of 1156682000 |Maternal intrapartum period (qualifier value)|.
 
 <figure><img src="images/202998742.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 1287360000 |Injection of epidural anesthesia during maternal intrapartum period (procedure)|</p></figcaption></figure>
 

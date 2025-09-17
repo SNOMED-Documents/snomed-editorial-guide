@@ -23,7 +23,7 @@ The language acceptability default for a single Definition description is _P_ _r
 
 For example, 
 
-  *     * 1332358007 |Full schwannomatosis (disorder)|
+1332358007 |Full schwannomatosis (disorder)|
 
 <figure><img src="images/265618742.png" alt="" title=""><figcaption><p>Figure 1. Definition of 1332358007 |Full schwannomatosis (disorder)| with US and GB English acceptability values.</p></figcaption></figure>
 

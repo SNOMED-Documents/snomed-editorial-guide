@@ -56,7 +56,7 @@ The most common example of this is clinical finding/disorder/morphologic abnorma
 
 For example,
 
-  *     * 1157162007 |Intravascular large B-cell lymphoma (disorder)|
+1157162007 |Intravascular large B-cell lymphoma (disorder)|
 
 Preferred term - Intravascular large B-cell lymphoma
 
