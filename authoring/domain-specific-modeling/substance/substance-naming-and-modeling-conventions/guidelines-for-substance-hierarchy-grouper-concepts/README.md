@@ -10,7 +10,7 @@ The intent is to build the SNOMED CT substance hierarchy along structural or dis
 
 Groupers that organize substances by their chemical structure are used as the main hierarchy for substances. Where substances are heterogeneous and do not have a single identifiable chemical structure, such as those of biological origin, it may be more appropriate to organize them by source.
 
-### Dispositions Groupers 
+### Dispositions Groupers
 
 In the context of substances, a disposition is “a behavior that a substance will exhibit or participate in, given the appropriate context.” This context-based definition of disposition would allow us to assign |Has disposition (attribute)| values that are necessarily true, even though the substance does not exhibit the disposition in all contexts.
 
@@ -20,9 +20,8 @@ Role based groupers are associated with a particular purpose or outcome. Roles a
 
 Known issues with use of Substance role groupers, including potential incorrect classification, will remain and should be considered by stakeholders at their discretion.
 
-  * [Restructure of the top level substances hierarchy](Restructure-of-the-top-level-substances-hierarchy_174691410.html)
-  * [Substance Groupers Based on Structure](Substance-Groupers-Based-on-Structure_174691414.html)
-  * [Substance Groupers Based on Disposition](Substance-Groupers-Based-on-Disposition_174691436.html)
-  * [Substance Groupers Based on Both Structure and Disposition](Substance-Groupers-Based-on-Both-Structure-and-Disposition_174691440.html)
-  * [Concepts Representing a Substance or its Modifications](Concepts-Representing-a-Substance-or-its-Modifications_174691445.html)
-
+* [Restructure of the top level substances hierarchy](../../../../substance/Restructure-of-the-top-level-substances-hierarchy_174691410.html)
+* [Substance Groupers Based on Structure](../../../../substance/Substance-Groupers-Based-on-Structure_174691414.html)
+* [Substance Groupers Based on Disposition](../../../../substance/Substance-Groupers-Based-on-Disposition_174691436.html)
+* [Substance Groupers Based on Both Structure and Disposition](../../../../substance/Substance-Groupers-Based-on-Both-Structure-and-Disposition_174691440.html)
+* [Concepts Representing a Substance or its Modifications](../../../../substance/Concepts-Representing-a-Substance-or-its-Modifications_174691445.html)
