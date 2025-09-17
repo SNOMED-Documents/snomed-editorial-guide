@@ -4,6 +4,6 @@ A disorder is always and necessarily an _abnormal clinical state_.
 
 Disorder modeling information is as follows:
 
-* [Specific Clinical finding and Disorder Modeling](../../../Specific-Clinical-finding-and-Disorder-Modeling_174690366.html)
-* [Disorder Combination Modeling](../../../Disorder-Combination-Modeling_174690560.html)
-* [Complication and Sequela Modeling](../../../Complication-and-Sequela-Modeling_174690570.html)
+* [Specific Clinical finding and Disorder Modeling](../../clinical-finding-and-disorder/specific-clinical-finding-and-disorder-modeling.md)
+* [Disorder Combination Modeling](../../clinical-finding-and-disorder/disorder-combination-modeling.md)
+* [Complication and Sequela Modeling](../../clinical-finding-and-disorder/complication-and-sequela-modeling.md)

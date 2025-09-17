@@ -34,7 +34,7 @@ The distinction between a disorder and a finding may be difficult to define. The
 
 In some cases the disease process is irrefutable, e.g. meningococcal meningitis. In others an underlying disease process is assumed based on the temporal and causal association of the disorder and its manifestation, e.g. nystagmus (disorder) is different from nystagmus present (finding). Nystagmus present (finding) may be a normal physiological response to head rotation. A person who spins around and has nystagmus present (finding), does not have nystagmus (disorder). Alternatively, a person may have nystagmus (disorder), but not nystagmus present (finding), i.e. they do not currently manifest nystagmus. Similarly, hearing loss (disorder) is different from perception of hearing loss (finding), which can be due to a number of temporary causes, such as excessive ear wax.
 
-* [Clinical Finding Attributes Summary](../../../Clinical-Finding-Attributes-Summary_174690336.html)
-* [Clinical Finding Defining Attributes](../../../Clinical-Finding-Defining-Attributes_174690338.html)
-* [Clinical Finding and Disorder Naming Conventions](../../../Clinical-Finding-and-Disorder-Naming-Conventions_174690350.html)
-* [Clinical finding and Disorder Modeling](../../../Clinical-finding-and-Disorder-Modeling_174690365.html)
+* [Clinical Finding Attributes Summary](clinical-finding-attributes-summary.md)
+* [Clinical Finding Defining Attributes](clinical-finding-defining-attributes.md)
+* [Clinical Finding and Disorder Naming Conventions](clinical-finding-and-disorder-naming-conventions.md)
+* [Clinical finding and Disorder Modeling](clinical-finding-and-disorder-modeling.md)

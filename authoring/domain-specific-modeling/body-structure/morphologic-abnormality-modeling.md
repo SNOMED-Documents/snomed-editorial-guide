@@ -15,12 +15,12 @@ The subhierarchy of 118956008 |Body structure, altered from its original anatomi
 
 ## Content in this space
 
-* [Abscess](../../../Abscess_174690321.html)
-* [Combining morphologies](../../../Combining-morphologies_174690315.html)
-* [Congenital anomaly](../../../Congenital-anomaly_174690319.html)
-* [Creating new morphologies](../../../Creating-new-morphologies_174690314.html)
-* [Fracture](../../../Fracture_174690322.html)
-* [Lump and mass](../../../Lump-and-mass_283312287.html)
-* [Morphologic Abnormalities vs. Findings](../../../Morphologic-Abnormalities-vs.-Findings_174690313.html)
-* [Multiple x morphologic abnormality](../../../Multiple-x-morphologic-abnormality_196641593.html)
-* [Tumor morphology](../../../Tumor-morphology_174690318.html)
+* [Abscess](../../body-structure/abscess.md)
+* [Combining morphologies](../../body-structure/combining-morphologies.md)
+* [Congenital anomaly](../../body-structure/congenital-anomaly.md)
+* [Creating new morphologies](../../body-structure/creating-new-morphologies.md)
+* [Fracture](../../body-structure/fracture.md)
+* [Lump and mass](../../body-structure/lump-and-mass.md)
+* [Morphologic Abnormalities vs. Findings](../../body-structure/morphologic-abnormalities-vs-findings.md)
+* [Multiple x morphologic abnormality](../../body-structure/multiple-x-morphologic-abnormality.md)
+* [Tumor morphology](../../body-structure/tumor-morphology.md)
