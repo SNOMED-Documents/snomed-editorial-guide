@@ -33,12 +33,13 @@
 * [Scope](authoring/scope/README.md)
   * [Adjudication for Content Requests](authoring/scope/adjudication-for-content-requests.md)
   * [Proprietary Names and Works](authoring/scope/proprietary-names-and-works.md)
+  * [Implementation of Brand, Trademark and Copyright](authoring/scope/implementation-of-brand-trademark-and-copyright.md)
 * [General Naming Conventions](authoring/general-naming-conventions/README.md)
   * [Descriptions](authoring/general-naming-conventions/descriptions/README.md)
+    * [Definition](authoring/general-naming-conventions/descriptions/definition.md)
     * [Fully Specified Name](authoring/general-naming-conventions/descriptions/fully-specified-name.md)
     * [Preferred Term](authoring/general-naming-conventions/descriptions/preferred-term.md)
     * [Synonym](authoring/general-naming-conventions/descriptions/synonym.md)
-    * [Definition](authoring/general-naming-conventions/descriptions/definition.md)
   * [Case Significance](authoring/general-naming-conventions/case-significance.md)
   * [Person Naming Conventions](authoring/general-naming-conventions/person-naming-conventions.md)
   * [Plurals](authoring/general-naming-conventions/plurals.md)
@@ -54,6 +55,7 @@
   * [General Concept Inclusions - GCIs](authoring/general-modeling/general-concept-inclusions-gcis.md)
   * [Grouper Concept](authoring/general-modeling/grouper-concept.md)
   * [Intermediate Primitive Concept Modeling](authoring/general-modeling/intermediate-primitive-concept-modeling.md)
+  * [Laterality](authoring/general-modeling/laterality.md)
   * [Proximal Primitive Modeling](authoring/general-modeling/proximal-primitive-modeling.md)
   * [Relationship Group](authoring/general-modeling/relationship-group.md)
   * [Sufficiently Defined vs Primitive Concept](authoring/general-modeling/sufficiently-defined-vs-primitive-concept.md)
@@ -125,6 +127,8 @@
         * [Remission](authoring/clinical-finding-and-disorder/remission.md)
         * [Rheumatoid arthritis](authoring/clinical-finding-and-disorder/rheumatoid-arthritis.md)
         * [Substance withdrawal syndrome](authoring/clinical-finding-and-disorder/substance-withdrawal-syndrome.md)
+        * [Arrhythmia](authoring/clinical-finding-and-disorder/arrythmia.md)
+        * [Lateralized Disorder Naming Conventions](authoring/clinical-finding-and-disorder/lateralized-disorder-naming-conventions.md)
         * [Trauma and Injury](authoring/clinical-finding-and-disorder/trauma-and-injury.md)
       * [Disorder Combination Modeling](authoring/domain-specific-modeling/clinical-finding-and-disorder/disorder-combination-modeling.md)
       * [Complication and Sequela Modeling](authoring/domain-specific-modeling/clinical-finding-and-disorder/complication-and-sequela-modeling.md)
@@ -180,7 +184,7 @@
         * [Groupers Based on Disposition](authoring/pharmaceutical-and-biologic-product/groupers-based-on-disposition.md)
         * [Groupers Based on Multiple Dispositions, Structures](authoring/pharmaceutical-and-biologic-product/groupers-based-on-multiple-dispositions-structures.md)
         * [Groupers Based on Infusion and or Injection](authoring/pharmaceutical-and-biologic-product/groupers-based-on-infusion-and-or-injection.md)
-        * [Groupers Based on Dose form intended site](authoring/pharmaceutical-and-biologic-product/pharmaceutical-dose-form-grouper-based-on-intended-site.md)
+        * [Groupers Based on Dose form intended site](authoring/pharmaceutical-and-biologic-product/groupers-based-on-dose-form-intended-site.md)
       * [Vaccine Products in the Medicinal Product Hierarchy](authoring/pharmaceutical-and-biologic-product/vaccine-products-in-the-medicinal-product-hierarchy.md)
         * [Vaccine Product Top Level Groupers](authoring/pharmaceutical-and-biologic-product/vaccine-product-top-level-groupers.md)
         * [Vaccine Product containing Concepts](authoring/pharmaceutical-and-biologic-product/vaccine-product-containing-concepts.md)
@@ -277,6 +281,7 @@
     * [Situation with Explicit Context Defining Attributes](authoring/domain-specific-modeling/situation-with-explicit-context/situation-with-explicit-context-defining-attributes.md)
     * [Situation with Explicit Context Naming Conventions](authoring/domain-specific-modeling/situation-with-explicit-context/situation-with-explicit-context-naming-conventions.md)
     * [Situation with Explicit Context Modeling](authoring/domain-specific-modeling/situation-with-explicit-context/situation-with-explicit-context-modeling.md)
+    * [Naming Convention for SEP Model](authoring/situation-with-explicit-context/naming-convention-for-sep-model.md)
   * [SNOMED CT Model Component](authoring/domain-specific-modeling/snomed-ct-model-component.md)
   * [Special Concept](authoring/domain-specific-modeling/special-concept/README.md)
     * [Inactive concepts](authoring/domain-specific-modeling/special-concept/inactive-concepts.md)
@@ -321,6 +326,10 @@
       * [Substances specifying intact, fragment or subunit](authoring/substance/substances-specifying-intact-fragment-or-subunit.md)
       * [Substances specifying physical state or physical form](authoring/substance/substances-specifying-physical-state-or-physical-form.md)
     * [Supporting hierarchy - Disposition](authoring/substance/supporting-hierarchy-disposition.md)
+
+## Editorial Guide Style and Terms
+
+* [Editorial Guide Style and Terms](editorial-guide-style-and-terms.md)
 
 ***
 
