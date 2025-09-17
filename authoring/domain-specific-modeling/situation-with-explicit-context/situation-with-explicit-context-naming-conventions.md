@@ -28,7 +28,7 @@ Procedure not done
 
 Note that [385658003 |Done (qualifier value)|](http://snomed.info/id/385658003) (a descendent of [410523001 |Post-starting action status (qualifier value)|](http://snomed.info/id/410523001)) remains in use as the target value of the [408730004 |Procedure context (attribute)|](http://snomed.info/id/408730004) in _History of_ concepts.
 
-Not every naming pattern is found in the Pre-coordination Naming Pattern project. Some naming patterns can be prescribed in [Templates](../../../Templates_174691756.html). Others can come from trackers or fast track documents, such as the examples below.
+Not every naming pattern is found in the Pre-coordination Naming Pattern project. Some naming patterns can be prescribed in [Templates](../../general-modeling/templates.md). Others can come from trackers or fast track documents, such as the examples below.
 
 [**716186003 |No known allergy (situation)|**](http://snomed.info/id/716186003)
 

@@ -8,7 +8,7 @@ For general modeling information, use the following links to jump to the followi
 * [Changes to Components](changes-to-components.md)
 * [Conjunction and Disjunction](conjunction-and-disjunction.md)
 * [General Concept Inclusions - GCIs](general-concept-inclusions-gcis.md)
-* [Grouper Concept](../../Grouper-Concept_174691686.html)
+* [Grouper Concept](grouper-concept.md)
 * [Intermediate Primitive Concept Modeling](grouper-concept.md)
 * [Proximal Primitive Modeling](proximal-primitive-modeling.md)
 * [Relationship Group](relationship-group.md)

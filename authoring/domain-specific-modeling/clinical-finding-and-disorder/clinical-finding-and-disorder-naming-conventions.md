@@ -71,7 +71,7 @@ For example,
   * [ 417683006 | Sickle cell-hemoglobin C disease without crisis (disorder)|](http://snomed.info/id/417683006 "417683006 | Sickle cell-hemoglobin C disease without crisis \(disorder\) |")
   ```
 
-For naming conventions concerning _surgical complications, sequelae, and late effects;_ see this section at [Complication and Sequela Modeling](../../../Complication-and-Sequela-Modeling_174690570.html).
+For naming conventions concerning _surgical complications, sequelae, and late effects;_ see this section at [Complication and Sequela Modeling](../../clinical-finding-and-disorder/complication-and-sequela-modeling.md).
 
 ### Disorder X without Disorder Y
 

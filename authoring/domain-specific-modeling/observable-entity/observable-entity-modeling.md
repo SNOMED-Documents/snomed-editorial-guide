@@ -15,11 +15,11 @@ The observable entity model has been implemented in limited content areas in SNO
 
 Susceptibility observables should be modeled in accordance with the template specified [here](https://prod-confluence.ihtsdotools.org/display/SCTEMPLATES/Susceptibility+observable+\(observable+entity\)+-+v2.0).
 
-* [Body temperature](../../../Body-temperature_174690616.html)
-* [Mass vs Weight](../../../Mass-vs-Weight_174690615.html)
-* [Neoplasm Observables](../../../Neoplasm-Observables_174690611.html)
-* [Nutritional intake observable entities](../../../Nutritional-intake-observable-entities_174690604.html)
-* [Observable Entity and Microbiology Test Results](../../../Observable-Entity-and-Microbiology-Test-Results_174690601.html)
-* [Observable Entity Templates](../../../Observable-Entity-Templates_174690610.html)
-* [Relationship between Observable Entities and NPU codes](../../../Relationship-between-Observable-Entities-and-NPU-codes_174690602.html)
-* [Representing LOINC Terms with the SNOMED CT Observable Entity Model](../../../Representing-LOINC-Terms-with-the-SNOMED-CT-Observable-Entity-Model_174690603.html)
+* [Body temperature](../../observable-entity/body-temperature.md)
+* [Mass vs Weight](../../observable-entity/mass-vs-weight.md)
+* [Neoplasm Observables](../../observable-entity/neoplasm-observables.md)
+* [Nutritional intake observable entities](../../observable-entity/nutritional-intake-observable-entities.md)
+* [Observable Entity and Microbiology Test Results](../../observable-entity/observable-entity-and-microbiology-test-results.md)
+* [Observable Entity Templates](../../observable-entity/observable-entity-templates.md)
+* [Relationship between Observable Entities and NPU codes](../../observable-entity/relationship-between-observable-entities-and-npu-codes.md)
+* [Representing LOINC Terms with the SNOMED CT Observable Entity Model](../../observable-entity/representing-loinc-terms-with-the-snomed-ct-observable-entity-model.md)

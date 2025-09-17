@@ -2,7 +2,7 @@
 
 Specific editorial guidelines for modeling and terming will be documented for each device type as completed.
 
-* [Breast Prosthesis Naming and Modeling](../../../Breast-Prosthesis-Naming-and-Modeling_174691261.html)
-* [Cardiac Valve Prosthesis Naming and Modeling](../../../Cardiac-Valve-Prosthesis-Naming-and-Modeling_174691276.html)
-* [Shunt Naming and Modeling](../../../Shunt-Naming-and-Modeling_174691264.html)
-* [Stent Naming and Modeling](../../../Stent-Naming-and-Modeling_174691269.html)
+* [Breast Prosthesis Naming and Modeling](../../physical-object/breast-prosthesis-naming-and-modeling.md)
+* [Cardiac Valve Prosthesis Naming and Modeling](../../physical-object/cardiac-valve-prosthesis-naming-and-modeling.md)
+* [Shunt Naming and Modeling](../../physical-object/shunt-naming-and-modeling.md)
+* [Stent Naming and Modeling](../../physical-object/stent-naming-and-modeling.md)
