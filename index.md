@@ -1,10 +1,3 @@
-# DOCEG (SNOMED CT Editorial Guide)
+# Editorial Guide Style and Terms
 
-
-
-| Key | DOCEG |
-|---|---|
-| Name | SNOMED CT Editorial Guide |
-| Description | HRCM:HRCM20250801 |
-| Created by | rdavidson (2023-Feb-01) |
-
+See: [Editorial Guide Style and Terms](../editorial-guide-style-and-terms.md)
