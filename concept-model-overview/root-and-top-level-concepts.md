@@ -2,9 +2,9 @@
 
 ## Concept
 
-A _concept_ is defined as a clinical idea to which a unique [concept identifier](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept+identifier) has been assigned. Concepts are associated with [descriptions](https://confluence.ihtsdotools.org/display/DOCGLOSS/description) that contain human-readable terms describing the concept.
+A _concept_ is defined as a clinical idea to which a unique concept identifier has been assigned. Concepts are associated with descriptions that contain human-readable terms describing the concept.
 
-A _term_ is defined as a human-readable phrase that names or describes a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept). A term is one of the properties of a [description](https://confluence.ihtsdotools.org/display/DOCGLOSS/description). Other properties of a [description](https://confluence.ihtsdotools.org/display/DOCGLOSS/description) link the term to an identified [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) and indicate the type of description, e.g. Fully Specified Name, Preferred Term, Synonym.
+A _term_ is defined as a human-readable phrase that names or describes a concept. A term is one of the properties of a description. Other properties of a description link the term to an identified concept and indicate the type of description, e.g. Fully Specified Name, Preferred Term, Synonym.
 
 Concepts are linked to their more general parent concepts directly above them in a hierarchy. More general meanings, are usually at the top of the hierarchy. Descending levels of the hierarchy contain more specific or specialized meanings.
 
@@ -12,7 +12,7 @@ Concepts are logically defined by their relationships to each other.
 
 In SNOMED CT, the default meaning of a concept is defined above. However, a concept may have other meanings in SNOMED CT, such as an:
 
-* Abbreviated name for the [concept identifier](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept+identifier). For clarity, this is should be referred to as an _identifier_(_ID_), _code,_ or _concept identifier_ (_ID_).
+* Abbreviated name for the concept identifier. For clarity, this is should be referred to as an _identifier_(_ID_), _code,_ or _concept identifier_ (_ID_).
 * Idea or class of real-world entities (common usage meaning). For clarity, this is should be referred to as a _clinical idea_ , _clinical meaning,_ or _code meaning_.
 
 ## Root Concept
@@ -37,6 +37,4 @@ Subtype relationships are expressed in the same way as other SNOMED CT relations
 
 For example,
 
-* ```
-  * [53084003 |Bacterial pneumonia (disorder)|](http://snomed.info/id/53084003) is a subtype of [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007) because it is a subtype of [ 312342009 |Infective pneumonia (disorder)|](http://snomed.info/id/312342009) which is also a subtype of [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007)
-  ```
+* [53084003 |Bacterial pneumonia (disorder)|](http://snomed.info/id/53084003) is a subtype of [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007) because it is a subtype of [ 312342009 |Infective pneumonia (disorder)|](http://snomed.info/id/312342009) which is also a subtype of [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007)

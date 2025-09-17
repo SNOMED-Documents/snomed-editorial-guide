@@ -1,4 +1,4 @@
-# Authoring Principle
+# Modeling Philosophy and Approach
 
 ## Modeling philosophy of SNOMED CT
 
@@ -22,6 +22,8 @@ The steps are as follows:
 
 SNOMED CT contains content that does not conform to the current modeling patterns. A quality initiative is currently underway to correct these non-conforming concepts.
 
+{% hint style="warning" %}
 Exceptions exist where the current concept model is not expressive enough to represent critical defining characteristics of a concept that would allow for its sufficient definition.
 
 For example, disorders where the clinical manifestations are variably present (i.e. genetic diseases)
+{% endhint %}

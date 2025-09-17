@@ -1,20 +1,17 @@
 # Table of contents
 
+## Introduction
+
 * [SNOMED CT Editorial Guide](README.md)
+* [Introduction to the SNOMED CT Editorial Guide](introduction/introduction-to-the-snomed-ct-editorial-guide.md)
 
 ## SNOMED CT Introduction
 
 * [SNOMED CT - What and Why?](snomed-ct-introduction/snomed-ct-introduction.md)
 * [Intended Use](snomed-ct-introduction/intended-use.md)
 * [Structure of Domain Coverage](snomed-ct-introduction/structure-of-domain-coverage.md)
-* [Granularity](snomed-ct-introduction/granularity.md)
 * [Knowledge Representation](snomed-ct-introduction/knowledge-representation.md)
-* [Out of Scope](snomed-ct-introduction/out-of-scope/README.md)
-  * [National and local extensions](snomed-ct-introduction/out-of-scope/national-and-local-extensions.md)
-  * [Veterinary extension](snomed-ct-introduction/out-of-scope/veterinary-extension.md)
-  * [Classification-derived phrases](snomed-ct-introduction/out-of-scope/classification-derived-phrases.md)
-  * [Regulatory or legal status](snomed-ct-introduction/out-of-scope/regulatory-or-legal-status.md)
-  * [Funding care delivery](snomed-ct-introduction/out-of-scope/funding-care-delivery.md)
+* [Out of Scope](snomed-ct-introduction/out-of-scope.md)
 * [SNOMED CT Requirements](snomed-ct-introduction/snomed-ct-requirements/README.md)
   * [Medical Vocabularies - J. Cimino](snomed-ct-introduction/snomed-ct-requirements/medical-vocabularies-j-cimino.md)
   * [Electronic Health Applications](snomed-ct-introduction/snomed-ct-requirements/electronic-health-applications.md)
@@ -24,7 +21,7 @@
 
 ## Concept Model Overview
 
-* [Concept Model Overview](concept-model-overview/concept-model-overview.md)
+* [Concept Model Introduction](concept-model-overview/concept-model-overview.md)
 * [Root and Top-level Concepts](concept-model-overview/root-and-top-level-concepts.md)
 * [Attributes](concept-model-overview/attributes.md)
 * [Defining Characteristics](concept-model-overview/defining-characteristics.md)
@@ -32,7 +29,7 @@
 
 ## Authoring
 
-* [Authoring Principle](authoring/authoring.md)
+* [Modeling Philosophy and Approach](authoring/authoring.md)
 * [Scope](authoring/scope/README.md)
   * [Adjudication for Content Requests](authoring/scope/adjudication-for-content-requests.md)
   * [Proprietary Names and Works](authoring/scope/proprietary-names-and-works.md)
@@ -150,5 +147,4 @@
 
 ***
 
-* [Editorial Guide Style and Terms](index.md)
 * [PDFs for Download](pdfs-for-download.md)

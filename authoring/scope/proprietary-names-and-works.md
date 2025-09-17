@@ -1,18 +1,26 @@
 # Proprietary Names and Works
 
-This section considers scope as it relates to the incorporation of proprietary names (e.g. brand names of drugs, devices, clinical forms or tools) into SNOMED CT. 
+This section considers scope as it relates to the incorporation of proprietary names (e.g. brand names of drugs, devices, clinical forms or tools) into SNOMED CT.
 
 ## Brand name of drugs and devices
 
 Proprietary names are the names that have been assigned to products, usually drugs and devices, by their corporate producers. They do not require a license from the producer. It is both necessary and useful to include proprietary names in a health terminology. SNOMED International does not need to obtain the permission of the trademark owner simply to include a reference to the brand name drug in SNOMED CT. However, they should not be included in the International Release but instead in National Extensions. This is because proprietary names may refer to different products depending on the country and the meaning of these names are dependent on the country or jurisdiction in which the product is approved.
 
+{% hint style="success" %}
+**Modeling**
+
 A brand or trade name may stand for a category of product and not the particular brand itself. These _proprietary_ names may be included in the International Release as descriptions (non-FSN descriptions). They should not be included in FSNs.
 
 For example,
 
-  *     * Kleenex, band aid, popsicle
+* Kleenex, band aid, popsicle
+{% endhint %}
+
+{% hint style="warning" %}
+**Disclaimer**
 
 Please note that SNOMED International's general policy is to only include generic device concepts within SNOMED CT to maintain its focus on clinical meaning and to avoid endorsement of specific commercial products. Exceptions are approved on a case-by-case basis with documented use cases for those branded devices required to model and define specific clinical findings and procedures.
+{% endhint %}
 
 ### **Exception**
 
@@ -28,32 +36,51 @@ Incorporating the name of a clinical form or tool (e.g. the _XYZ Test (staging s
 
 ### Concepts representing questions, answers, or scores
 
-A _concept_ may be introduced into SNOMED CT that represents the text of questions, answers, or scores. For example, a form may include a question about a person's ability to dress and a range of possible answers. SNOMED CT may incorporate neither the text of the question nor any of the possible answers, but instead may incorporate a concept such as _ability to dress_. Similarly, if the form contains 20 questions, SNOMED CT may want introduce 20 concepts, for _XYZTest_Result1_ , _XYZTest_Result2,_ etc. to _XYZTest_Result20_.
+A _concept_ may be introduced into SNOMED CT that represents the text of questions, answers, or scores. For example, a form may include a question about a person's ability to dress and a range of possible answers. SNOMED CT may incorporate neither the text of the question nor any of the possible answers, but instead may incorporate a concept such as _ability to dress_. Similarly, if the form contains 20 questions, SNOMED CT may want introduce 20 concepts, for _XYZTest\_Result1_ , _XYZTest\_Result2,_ etc. to _XYZTest\_Result20_.
 
 The incorporation of a single concept into _SNOMED CT_ , based on a question, answer, or score on a clinical form is highly unlikely to infringe on the copyright. However, if SNOMED CT systematically introduces a concept for every single question on a clinical form, it is likely to infringe on the copyright.
 
 These concepts (e.g. _ability to dress_) may already exist in SNOMED CT, or they may be added in other contexts (This does not apply to concepts that represent specific questions within a form). This is unlikely to result in a copyright infringement.
 
-##### Questions
+**Questions**
 
-A clinical form or tool, including the wording of the individual questions within the form or tool, is generally a literary work and qualifies for copyright protection (except in the case of the simplest of forms). The copying of all or any substantial part of a literary work, without a license from the owner, infringes on the copyright. 
+A clinical form or tool, including the wording of the individual questions within the form or tool, is generally a literary work and qualifies for copyright protection (except in the case of the simplest of forms). The copying of all or any substantial part of a literary work, without a license from the owner, infringes on the copyright.
 
-##### Answers
+**Answers**
 
 Certain questions may have a range of pre-determined answers. This could be as simple as _Yes/No_ or a number within a specific range, but may also be more substantial (e.g. _needs help cutting, spreading butter, etc._ , or _requires modified diet_). Incorporating very simple answers into SNOMED CT does not require permission. However, incorporating more substantial textual answers into SNOMED CT generally infringes on the copyright. This usually does not apply to individual answers, but it almost always applies when entire sets of answers are incorporated.
 
-##### Scores
+**Scores**
 
 The principles that apply to individual answers also apply to the overall score generated by a clinical form or tool. The incorporation of numbers does not infringe on the copyright. However, when each possible score has an associated textual description and all possible scores and descriptions are incorporated into SNOMED CT, a license is required.
 
-For example, 
+* For example,&#x20;
+  * [443807003 | EuroQoL five dimension questionnaire (assessment scale)|](http://snomed.info/id/443807003) is a SNOMED CT concept. However, these scores are subject to copyright protection, therefore cannot be added to SNOMED CT:&#x20;
+    * EuroQol Five Dimension (youth) doing usual activities score&#x20;
+    * EuroQol Five Dimension (youth) feeling worried, sad or unhappy score
 
-  *     * [ 443807003 | EuroQoL five dimension questionnaire (assessment scale)|](http://snomed.info/id/443807003 "443807003 | EuroQoL five dimension questionnaire \(assessment scale\) |") is a SNOMED CT concept. However, these scores are subject to copyright protection, therefore cannot be added to SNOMED CT:   
+## Implementation of brand, trademark, and copyright <a href="#heading-title-text" id="heading-title-text"></a>
 
-  *     *       * EuroQol Five Dimension (youth) doing usual activities score 
-      * EuroQol Five Dimension (youth) feeling worried, sad or unhappy score
+### Names <a href="#names" id="names"></a>
 
-  
+The use of the name of a clinical form or tool or of a brand name drug will usually not infringe on the copyright. However, caution should be exercised by implementers who wish to use trademarks in a _commercial_ context, i.e. a system that enables drugs to be purchased electronically. SNOMED International does not advise implementers on this matter, but recommends that implementers, who are in any doubt, contact the trademark owner.
 
-  
+In general, implementers should make no greater use of a trademark than is necessary. For example, displaying a graphical mark (e.g. a logo) on a screen or in printed material should be avoided.
 
+### Questions, answers, and scores <a href="#questions-answers-and-scores" id="questions-answers-and-scores"></a>
+
+Implementers should manage questions, answers, and scores in the same way as SNOMED International (see above). When the incorporation of content from a clinical form or tool infringes on the copyright, the system the reproduces (by display or print) the content also usually infringes. This means that the license to incorporate content by SNOMED International should also cover the system implementer.
+
+### Preexisting terms <a href="#preexisting-terms" id="preexisting-terms"></a>
+
+As noted above, terms in a clinical form may already exist within SNOMED CT, even though they have not been copied from the form. This is not copyright infringement by SNOMED International. If, however, a system implementer chooses to arrange a collection of these pre-existing terms in a way that reproduces all or a substantial part of a clinical form (e.g. by populating a drop-down box with all of the possible answers to a specific question on the form), that may infringe on the copyright.
+
+### Form structure <a href="#form-structure" id="form-structure"></a>
+
+A system may reproduce the structure and layout of a clinical form on a screen display or printed output (e.g. to make the system more accessible to users who are familiar with a paper-based form). This may infringe on the copyright, unless the structure or layout is very minimal (e.g. a bulleted list). An implementer who wishes to emulate the _look and feel_ of a clinical form should seek a license from the owner.
+
+### Algorithms or logic <a href="#algorithms-or-logic" id="algorithms-or-logic"></a>
+
+System implementers may use the algorithm or logic inherent in a clinical form or tool (e.g. the method by which an overall score is calculated). For example, a clinical form may instruct the user to perform a mathematical operation on the individual answers to produce the overall score, and the same operation may be carried out by the system. The use of the algorithm or logic is an infringement. SNOMED International avoids such use and encourages system implementers to contact the owner to discuss possible infringement.
+
+\
