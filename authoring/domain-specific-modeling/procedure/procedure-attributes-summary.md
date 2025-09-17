@@ -8,7 +8,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 71388002 \| Procedure (procedure) \| |   |
+## Domain Information for Procedure
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 71388002 \| Procedure (procedure) \| |
 | Parent Domain | - |
@@ -19,9 +21,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 71388002 \| Procedure (procedure) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Procedure
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 260507000 \| Access (attribute) \| | 1 | 0..* | 0..1 | << 309795001 \| Surgical access values (qualifier value) \| |
 | 363699004 \| Direct device (attribute) \| | 1 | 0..* | 0..1 | << 49062001 \| Device (physical object) \| |
 | 363700003 \| Direct morphology (attribute) \| | 1 | 0..* | 0..1 | << 49755003 \| Morphologically abnormal structure (morphologic abnormality) \| |
@@ -55,7 +58,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 386053000 \| Evaluation procedure (procedure) \| |   |
+## Domain Information for Evaluation Procedure
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 386053000 \| Evaluation procedure (procedure) \| |
 | Parent Domain | 71388002 \| Procedure (procedure) \| |
@@ -66,9 +71,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 386053000 \| Evaluation procedure (procedure) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Evaluation Procedure
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 246093002 \| Component (attribute) \| | 1 | 0..* | 0..* | << 105590001 \| Substance (substance) \| OR << 123037004 \| Body structure (body structure) \| OR << 123038009 \| Specimen (specimen) \| OR << 260787004 \| Physical object (physical object) \| OR << 373873005 \| Pharmaceutical / biologic product (product) \| OR << 410607006 \| Organism (organism) \| OR << 419891008 \| Record artifact (record artifact) \| OR << 540091010000105 \| Calculation (calculation) \| |
 | 116686009 \| Has specimen (attribute) \| | 1 | 0..* | 0..1 | << 123038009 \| Specimen (specimen) \| |
 | 370129005 \| Measurement method (attribute) \| | 1 | 0..* | 0..1 | << 127789004 \| Laboratory procedure categorized by method (procedure) \| |

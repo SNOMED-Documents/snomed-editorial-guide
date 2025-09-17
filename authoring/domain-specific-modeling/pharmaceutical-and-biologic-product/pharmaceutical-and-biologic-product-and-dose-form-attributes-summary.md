@@ -6,7 +6,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 373873005 \| Pharmaceutical / biologic product (product) \| |   |
+## Domain Information for Pharmaceutical/Biologic Product
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 373873005 \| Pharmaceutical / biologic product (product) \| |
 | Parent Domain | - |
@@ -17,9 +19,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 373873005 \| Pharmaceutical / biologic product (product) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Pharmaceutical/Biologic Product
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 1142140007 \| Count of active ingredient (attribute) \| | 0 | 0..1 | 0..0 | int(>#0..) |
 | 1142141006 \| Count of base and modification pair (attribute) \| | 0 | 0..1 | 0..0 | int(>#0..) |
 | 1142139005 \| Count of base of active ingredient (attribute) \| | 0 | 0..1 | 0..0 | int(>#0..) |
@@ -53,7 +56,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 781405001 \| Medicinal product package (product) \| |   |
+## Domain Information for Medicinal Product Package
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 781405001 \| Medicinal product package (product) \| |
 | Parent Domain | 373873005 \| Pharmaceutical / biologic product (product) \| |
@@ -64,9 +69,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 781405001 \| Medicinal product package (product) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Medicinal Product Package
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 774160008 \| Contains clinical drug (attribute) \| | 1 | 1..* | 1..1 | << 763158003 \| Medicinal product (product) \| |
 | 1142143009 \| Count of clinical drug type (attribute) \| | 0 | 1..1 | 0..0 | int(>#0..) |
 | 1142142004 \| Has pack size (attribute) \| | 1 | 0..* | 0..1 | dec(>#0..) |
@@ -78,7 +84,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 736542009 \| Pharmaceutical dose form (dose form) \| |   |
+## Domain Information for Pharmaceutical Dose Form
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 736542009 \| Pharmaceutical dose form (dose form) \| |
 | Parent Domain | - |
@@ -89,9 +97,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 736542009 \| Pharmaceutical dose form (dose form) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Pharmaceutical Dose Form
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 736476002 \| Has basic dose form (attribute) \| | 0 | 0..1 | 0..0 | < 736478001 \| Basic dose form (basic dose form) \| |
 | 736472000 \| Has dose form administration method (attribute) \| | 0 | 0..* | 0..0 | < 736665006 \| Dose form administration method (administration method) \| |
 | 736474004 \| Has dose form intended site (attribute) \| | 0 | 0..* | 0..0 | < 736479009 \| Dose form intended site (intended site) \| |
@@ -104,7 +113,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 736478001 \| Basic dose form (basic dose form) \| |   |
+## Domain Information for Basic Dose Form
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 736478001 \| Basic dose form (basic dose form) \| |
 | Parent Domain | - |
@@ -115,8 +126,9 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 736478001 \| Basic dose form (basic dose form) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Basic Dose Form
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 736518005 \| Has state of matter (attribute) \| | 0 | 1..1 | 0..0 | < 736471007 \| State of matter (state of matter) \| |
 

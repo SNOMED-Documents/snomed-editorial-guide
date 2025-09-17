@@ -6,7 +6,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 404684003 \| Clinical finding (finding) \| |   |
+## Domain Information for Clinical Finding
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 404684003 \| Clinical finding (finding) \| |
 | Parent Domain | - |
@@ -17,9 +19,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 404684003 \| Clinical finding (finding) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Clinical Finding
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 255234002 \| After (attribute) \| | 1 | 0..* | 0..1 | << 272379006 \| Event (event) \| OR << 404684003 \| Clinical finding (finding) \| OR << 71388002 \| Procedure (procedure) \| |
 | 116676008 \| Associated morphology (attribute) \| | 1 | 0..* | 0..1 | << 49755003 \| Morphologically abnormal structure (morphologic abnormality) \| |
 | 47429007 \| Associated with (attribute) \| | 1 | 0..* | 0..* | << 105590001 \| Substance (substance) \| OR << 260787004 \| Physical object (physical object) \| OR << 272379006 \| Event (event) \| OR << 404684003 \| Clinical finding (finding) \| OR << 410607006 \| Organism (organism) \| OR << 71388002 \| Procedure (procedure) \| OR << 78621006 \| Physical force (physical force) \| |
@@ -39,5 +42,3 @@ HRCM 2025-08-01
 | 370135005 \| Pathological process (attribute) \| | 1 | 0..* | 0..1 | << 1495041000004108 \| Proliferation of neoplasm (qualifier value) \| OR << 308490002 \| Pathological developmental process (qualifier value) \| OR << 441862004 \| Infectious process (qualifier value) \| OR << 472963003 \| Hypersensitivity process (qualifier value) \| OR << 769247005 \| Abnormal immune process (qualifier value) \| |
 | 246112005 \| Severity (attribute) \| | 1 | 0..* | 0..1 | << 272141005 \| Severities (qualifier value) \| |
 | 726633004 \| Temporally related to (attribute) \| | 1 | 0..* | 0..* | << 404684003 \| Clinical finding (finding) \| OR << 71388002 \| Procedure (procedure) \| |
-
-.

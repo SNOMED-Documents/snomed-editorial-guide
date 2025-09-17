@@ -6,7 +6,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 363787002 \| Observable entity (observable entity) \| |   |
+## Domain Information for Observable Entity
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 363787002 \| Observable entity (observable entity) \| |
 | Parent Domain | - |
@@ -17,9 +19,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 363787002 \| Observable entity (observable entity) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Observable Entity
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 704321009 \| Characterizes (attribute) \| | 1 | 0..* | 0..* | << 71388002 \| Procedure (procedure) \| OR << 719982003 \| Process (qualifier value) \| |
 | 246093002 \| Component (attribute) \| | 1 | 0..* | 0..* | << 105590001 \| Substance (substance) \| OR << 123037004 \| Body structure (body structure) \| OR << 123038009 \| Specimen (specimen) \| OR << 260787004 \| Physical object (physical object) \| OR << 373873005 \| Pharmaceutical / biologic product (product) \| OR << 410607006 \| Organism (organism) \| OR << 419891008 \| Record artifact (record artifact) \| OR << 540091010000105 \| Calculation (calculation) \| |
 | 704327008 \| Direct site (attribute) \| | 1 | 0..* | 0..1 | << 105590001 \| Substance (substance) \| OR << 123037004 \| Body structure (body structure) \| OR << 123038009 \| Specimen (specimen) \| OR << 260787004 \| Physical object (physical object) \| OR << 373873005 \| Pharmaceutical / biologic product (product) \| OR << 410607006 \| Organism (organism) \| OR << 419891008 \| Record artifact (record artifact) \| |

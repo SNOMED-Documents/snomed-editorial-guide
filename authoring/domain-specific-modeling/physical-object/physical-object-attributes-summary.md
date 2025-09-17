@@ -8,7 +8,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 260787004 \| Physical object (physical object) \| |   |
+## Domain Information for Physical Object
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 260787004 \| Physical object (physical object) \| |
 | Parent Domain | - |
@@ -19,9 +21,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 260787004 \| Physical object (physical object) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Physical Object
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 1148969005 \| Has absorbability (attribute) \| | 0 | 0..1 | 0..0 | 860574003 \| Bioabsorbable (qualifier value) \| OR 863965006 \| Nonbioabsorbable (qualifier value) \| OR 863968008 \| Partially bioabsorbable (qualifier value) \| |
 | 1148967007 \| Has coating material (attribute) \| | 0 | 0..1 | 0..0 | < 105590001 \| Substance (substance) \| |
 | 840560000 \| Has compositional material (attribute) \| | 0 | 0..* | 0..0 | << 105590001 \| Substance (substance) \| |

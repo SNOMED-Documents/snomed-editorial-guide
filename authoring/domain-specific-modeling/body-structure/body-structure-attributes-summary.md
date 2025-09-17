@@ -6,7 +6,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 123037004 \| Body structure (body structure) \| |   |
+## Domain Information for Body Structure
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 123037004 \| Body structure (body structure) \| |
 | Parent Domain | - |
@@ -17,9 +19,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 123037004 \| Body structure (body structure) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Body Structure
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 733928003 \| All or part of (attribute) \| | 0 | 0..* | 0..0 | << 123037004 \| Body structure (body structure) \| |
 | 733931002 \| Constitutional part of (attribute) \| | 0 | 0..* | 0..0 | << 123037004 \| Body structure (body structure) \| |
 | 1230370004 \| Is vasculature of (attribute) \| | 0 | 0..* | 0..0 | << 123037004 \| Body structure (body structure) \| |
@@ -36,7 +39,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 91723000 \| Anatomical structure (body structure) \| |   |
+## Domain Information for Anatomical Structure
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 91723000 \| Anatomical structure (body structure) \| |
 | Parent Domain | 123037004 \| Body structure (body structure) \| |
@@ -47,9 +52,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 91723000 \| Anatomical structure (body structure) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Anatomical Structure
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 272741003 \| Laterality (attribute) \| | 0 | 0..1 | 0..0 | << 182353008 \| Side (qualifier value) \| |
 
   

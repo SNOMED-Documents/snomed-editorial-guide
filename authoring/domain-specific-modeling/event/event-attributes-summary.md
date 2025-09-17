@@ -6,7 +6,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 272379006 \| Event (event) \| |   |
+## Domain Information for Event
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 272379006 \| Event (event) \| |
 | Parent Domain | - |
@@ -21,9 +23,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 272379006 \| Event (event) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Event
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 255234002 \| After (attribute) \| | 1 | 0..* | 0..1 | << 272379006 \| Event (event) \| OR << 404684003 \| Clinical finding (finding) \| OR << 71388002 \| Procedure (procedure) \| |
 | 47429007 \| Associated with (attribute) \| | 1 | 0..* | 0..* | << 105590001 \| Substance (substance) \| OR << 260787004 \| Physical object (physical object) \| OR << 272379006 \| Event (event) \| OR << 404684003 \| Clinical finding (finding) \| OR << 410607006 \| Organism (organism) \| OR << 71388002 \| Procedure (procedure) \| OR << 78621006 \| Physical force (physical force) \| |
 | 288556008 \| Before (attribute) \| | 1 | 0..* | 0..1 | << 71388002 \| Procedure (procedure) \| |

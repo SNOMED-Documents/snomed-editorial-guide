@@ -8,7 +8,9 @@ HRCM 2025-08-01
 
   
 
-| Domain Information for 105590001 \| Substance (substance) \| |   |
+## Domain Information for Substance
+
+| Property | Value |
 |---|---|
 | Domain Constraint | << 105590001 \| Substance (substance) \| |
 | Parent Domain | - |
@@ -23,9 +25,10 @@ HRCM 2025-08-01
 
   
 
-| Author View of Attributes and Ranges for 105590001 \| Substance (substance) \| |   |   |   |   |
-|---|---|---|---|---|
+## Author View of Attributes and Ranges for Substance
+
 | Attribute | Grouped | Cardinality | In Group Cardinality | Range Constraint |
+|---|---|---|---|---|
 | 726542003 \| Has disposition (attribute) \| | 0 | 0..* | 0..0 | << 726711005 \| Disposition (disposition) \| |
 | 738774007 \| Is modification of (attribute) \| | 0 | 0..* | 0..0 | << 105590001 \| Substance (substance) \| |
 
