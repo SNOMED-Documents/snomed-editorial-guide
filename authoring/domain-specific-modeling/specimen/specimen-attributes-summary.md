@@ -2,7 +2,6 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges. They are from the Human Readable Concept Model (HRCM). 
 
-HRCM 2025-08-01 
 
   
 
@@ -15,7 +14,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 123038009 \| Specimen (specimen) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 

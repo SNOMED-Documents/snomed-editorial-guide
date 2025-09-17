@@ -2,7 +2,6 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges. 
 
-HRCM 2025-08-01 
 
   
 
@@ -15,7 +14,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 123037004 \| Body structure (body structure) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 
@@ -35,7 +33,6 @@ HRCM 2025-08-01
 
   
 
-HRCM 2025-08-01 
 
   
 
@@ -48,7 +45,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 91723000 \| Anatomical structure (body structure) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 

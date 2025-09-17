@@ -2,7 +2,6 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges. 
 
-HRCM 2025-08-01 
 
   
 
@@ -15,7 +14,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 373873005 \| Pharmaceutical / biologic product (product) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 
@@ -52,7 +50,6 @@ HRCM 2025-08-01
 
   
 
-HRCM 2025-08-01 
 
   
 
@@ -65,7 +62,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 781405001 \| Medicinal product package (product) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 
@@ -80,7 +76,6 @@ HRCM 2025-08-01
 
   
 
-HRCM 2025-08-01 
 
   
 
@@ -93,7 +88,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 736542009 \| Pharmaceutical dose form (dose form) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 
@@ -109,7 +103,6 @@ HRCM 2025-08-01
 
   
 
-HRCM 2025-08-01 
 
   
 
@@ -122,7 +115,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 736478001 \| Basic dose form (basic dose form) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 

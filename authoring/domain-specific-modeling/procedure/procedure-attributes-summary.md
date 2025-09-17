@@ -4,7 +4,6 @@ When authoring in this domain, these are the approved attributes and allowable r
 
 [ 386053000 | Evaluation procedure (procedure)|](http://snomed.info/id/386053000 "386053000 | Evaluation procedure \(procedure\) |") , and [ 387713003 | Surgical procedure (procedure)|](http://snomed.info/id/387713003 "387713003 | Surgical procedure \(procedure\) |") each have unique defining attributes as seen in their separate tables below.
 
-HRCM 2025-08-01 
 
   
 
@@ -17,7 +16,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 71388002 \| Procedure (procedure) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 
@@ -54,7 +52,6 @@ HRCM 2025-08-01
 
   
 
-HRCM 2025-08-01 
 
   
 
@@ -67,7 +64,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 71388002 \| Procedure (procedure) \| |
 | Proximal Primitive Refinement | [[1..*]] 260686004 \| Method \| = [[+id(<< 129265001 \| Evaluation - action \| )]] |
 
-HRCM 2025-08-01 
 
   
 

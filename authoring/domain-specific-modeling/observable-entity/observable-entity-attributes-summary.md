@@ -2,7 +2,6 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges. 
 
-HRCM 2025-08-01 
 
   
 
@@ -15,7 +14,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 363787002 \| Observable entity (observable entity) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 

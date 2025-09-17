@@ -4,7 +4,6 @@ When authoring in this domain, these are the approved attributes and allowable r
 
   
 
-HRCM 2025-08-01 
 
   
 
@@ -17,7 +16,6 @@ HRCM 2025-08-01
 | Proximal Primitive Constraint | << 260787004 \| Physical object (physical object) \| |
 | Proximal Primitive Refinement | - |
 
-HRCM 2025-08-01 
 
   
 
