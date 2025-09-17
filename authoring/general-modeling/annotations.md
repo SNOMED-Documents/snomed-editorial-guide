@@ -16,9 +16,11 @@ Attribution - Attributing credit to the source of information
 
 For example,_Inserm Orphanet_ attribution annotation at 1332326002 |Isolated cleft lip (disorder)|
 
-<figure><img src="../../../images/256869352.png" alt=""><figcaption><p>Figure 1. Details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
+<figure><img src="../../images/256869352.png" alt=""><figcaption><p>Figure 1. Details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
 
+{% hint style="danger" %}
 SNOMED derivative products, such as mappings to/from other terminologies, should not be represented as annotations. Refsets have been developed for different types of maps which includes additional metadata, such as map group, priority, rule, and advice.
+{% endhint %}
 
 ## Guidance
 
@@ -30,15 +32,21 @@ Annotations can be:
 
 Annotations in annotation refsets can be found by using ECL queries for refset members. Currently, there is only data in the refset called _Component annotation refset with string value_ , so the following ECL query yields all SNOMED CT concepts currently with an annotation:
 
+{% code overflow="wrap" %}
+```
 ^ 1292992004 |Component annotation with string value reference set (foundation metadata concept)|
+```
+{% endcode %}
 
+{% hint style="warning" %}
 Concepts with annotations cannot be found by using text search in the browser.
+{% endhint %}
 
 Annotation length is restricted up to 4000 characters and are represented by the _String_ data type which allows URL, number, and text for annotation values. Each annotation attribute should state the allowed values.
 
 For example,
 
-If an attribute is only allowed for taking numbers, then URL or text should not be used for its values, because numbers are saved in different formats; numbers are saved with a prefix # and text is quoted.
+* If an attribute is only allowed for taking numbers, then URL or text should not be used for its values, because numbers are saved in different formats; numbers are saved with a prefix # and text is quoted.
 
 The following are documented in the respective annotation guidance, if applicable.
 

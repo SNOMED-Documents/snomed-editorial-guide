@@ -1,16 +1,14 @@
 # General Concept Inclusions - GCIs
 
-## General Concept Inclusions - GCIs
-
-### Draft guidance
+## Draft guidance
 
 See the background, use cases, and examples for general concept inclusion axioms as well as explanation of the definition status at [General Concept Inclusion 0.01](https://docs.google.com/document/d/1-Tvswkw5USXydVWpBsT3iORdOFzx3qKAyownS4Enor4/edit).
 
-### Authoring Platform User Guide for GCIs
+## Authoring Platform User Guide for GCIs
 
 Reference the [Authoring - Description Logic (DL) Support Features](https://prod-confluence.ihtsdotools.org/display/SIAPUG/Authoring+-+Description+Logic+\(DL\)+Support+Features) for technical information describing how to add an additional axiom and general concept inclusion.
 
-### GCI display in the browser
+## GCI display in the browser
 
 A concept with GCIs will display in the browser in the stated view only.
 
@@ -28,11 +26,8 @@ General concept inclusions allow multiple definitions of a concept. A group of s
 
 When modeling a concept that will be classified under a GCI-modeled concept, there is no need to add the GCI-modeled concept as a stated parent, even if that GCI concept is primitive, because subsumption still occurs due to the GCI axiom.
 
-For example,
-
-* ```
+* For example,
   * 281372009 |Lumbarized first sacral vertebra (disorder)|
-  ```
 
 The diagram below shows Lumbarized first sacral vertebra (disorder) incorrectly modeled on the right, with a stated primitive GCI-modeled parent of Transitional lumbosacral vertebra (disorder). Transitional lumbosacral vertebra (disorder) is modeled with a GCI, as notified by the salmon pink color. The left side of the diagram shows the inferred view with two parents.
 

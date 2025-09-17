@@ -1,2 +1,0 @@
-# GCI-Modeled primitive supertypes
-

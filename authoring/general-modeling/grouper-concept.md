@@ -4,7 +4,9 @@ For hierarchies with a concept model, the usefulness of fully-defined groupers i
 
 _Grouper concepts_ provide a definition for subtypes that are always and necessarily true. The grouper concept must be sufficiently defined and clinically useful for the purpose of organizing content for an intensional reference set (e.g. _disease of colon_ _and all of its descendants_)\_\_ or in Expression Constraint Language (ECL), << [128524007 | Disorder of colon (disorder)|](http://snomed.info/id/128524007) .
 
+{% hint style="danger" %}
 Anatomy concepts have separate rules.
+{% endhint %}
 
 ## Navigational concepts
 
@@ -20,10 +22,8 @@ As [363743006 | Navigational concept (navigational concept)|](http://snomed.info
 
 _Intermediate primitive_ groupers add a substantial management burden, thus, are discouraged. They may however be added on a case-by-case basis with approval from the Head of Terminology when, for example:
 
-* ```
-  * The concept model is not robust enough to support the full definition of a subset of terms, e.g. genomics (i.e. genetic diseases for which we cannot state,  _the majority of cases of this disease present with X)_.
-  ```
-  * There are variances in the clinical manifestations.
+* The concept model is not robust enough to support the full definition of a subset of terms, e.g. genomics (i.e. genetic diseases for which we cannot state, _the majority of cases of this disease present with X)_.
+* There are variances in the clinical manifestations.
 
 If an **existing** intermediate primitive concept cannot be sufficiently defined **and** has only one subtype, is not used to model another concept nor demonstrably clinically useful, it should be inactivated.
 
@@ -41,4 +41,8 @@ Where grouper concepts already exist, the following criteria apply:
 * If it can be sufficiently defined, remodel it, and reassign existing stated subtypes to a new proximal primitive parent.
 * Identify primitive concepts that cannot be sufficiently defined for additional review.
 
+{% hint style="success" %}
+**Modeling**
+
 If the addition of a grouper concept duplicates a concept in the [363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006) hierarchy, the navigational concept should be inactivated.
+{% endhint %}

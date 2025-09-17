@@ -1,2 +1,0 @@
-# Fetal vs. Foetal
-
