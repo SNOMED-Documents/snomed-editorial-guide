@@ -4,7 +4,7 @@ When microbiology laboratory results are encoded, it is important to be aware of
 
 For example, the combination of _Logical Observation Identifiers Names and Codes (LOINC)_ for the lab test and _SNOMED CT_ for the organism, provides a unique and specific meaning: 
 
-  *     * LOINC provides microbiology reporting codes with attributes including the _property_ through the use of _PRID_(presence or identity) and the _scale_ through the use of _NOM_ (nominal or categorical response that does not have a natural ordering) as the result value (typically the name of organism). 
+* LOINC provides microbiology reporting codes with attributes including the _property_ through the use of _PRID_(presence or identity) and the _scale_ through the use of _NOM_ (nominal or categorical response that does not have a natural ordering) as the result value (typically the name of organism). 
     * Use of organism concepts in combination with such LOINC codes implies that a specific organism is seen, detected, identified, isolated, or present.
 
 On its own, an organism concept can only indicate the definition of that organism. Its detection or presence can only be implied when it is paired with other information that may come from the electronic health application and/or from the LOINC observation.

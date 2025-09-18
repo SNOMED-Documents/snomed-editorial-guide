@@ -6,14 +6,14 @@ Therapeutic diathermy:
 
 1\. A treatment that provides deep heat to the tissues without destructive action.
 
-  *     *       * Therapeutic application of conductive heat using heated pads, water, or other materials to promote healing.
+*       * Therapeutic application of conductive heat using heated pads, water, or other materials to promote healing.
       * Employment of physical agents that convert high-frequency electric current or electromagnetic waves to deep heat to promote healing. 
 
 Surgical diathermy:
 
 2\. The use of energy to destroy tissue for different purposes. 
 
-  *     *       * A procedure in which tissue is heated to destroy abnormal cells. The heat may be using different types of energy. 
+*       * A procedure in which tissue is heated to destroy abnormal cells. The heat may be using different types of energy. 
 
 3\. The use of heat as a destructive procedure to perform a "secondary" action. e.g. Reattachment, repair.
 

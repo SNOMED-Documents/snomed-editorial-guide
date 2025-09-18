@@ -8,7 +8,7 @@ This attribute specifies the process which the property describes, and on which 
 
 For example, 
 
-  *     * Mass concentration ratio of silver to creatinine in 24-hour urine (observable entity) has [ 704321009 | Characterizes (attribute)|](http://snomed.info/id/704321009 "704321009 | Characterizes \(attribute\) |") of excretion process
+* Mass concentration ratio of silver to creatinine in 24-hour urine (observable entity) has [ 704321009 | Characterizes (attribute)|](http://snomed.info/id/704321009 "704321009 | Characterizes \(attribute\) |") of excretion process
     * 789098002 |Estimated quantity of intake of potassium in 24 hours (observable entity)| has a 704321009 |Characterizes (attribute)| of administration of substance
 
 ## Component
@@ -17,7 +17,7 @@ This attribute is used to specify the numerator of a relational property types, 
 
 For example, 
 
-  *     * Arbitrary concentration of Varicella-Zoster virus (observable entity) has the  _[ 246093002 | Component (attribute)|](http://snomed.info/id/246093002 "246093002 | Component \(attribute\) |") _ of Human herpesvirus 3
+* Arbitrary concentration of Varicella-Zoster virus (observable entity) has the  _[ 246093002 | Component (attribute)|](http://snomed.info/id/246093002 "246093002 | Component \(attribute\) |") _ of Human herpesvirus 3
 
 ## Direct site
 
@@ -57,7 +57,7 @@ This attribute is used to specify body state, timing, challenges, or other situa
 
 For example,   
 
-  *     * Plasma creatinine concentration 7 days post challenge (observable entity) has a Precondition of 7 days post challenge
+* Plasma creatinine concentration 7 days post challenge (observable entity) has a Precondition of 7 days post challenge
     * [ 163033001 | Lying blood pressure (observable entity)|](http://snomed.info/id/163033001 "163033001 | Lying blood pressure \(observable entity\) |") has a [ 704326004 | Precondition (attribute)|](http://snomed.info/id/704326004 "704326004 | Precondition \(attribute\) |") of 102538003 |Recumbent body position (finding)|
 
 ## Procedure device
@@ -78,7 +78,7 @@ This attribute is used to specify the continuant (e.g. body structure or organis
 
 For example, 
 
-  *     * Substance rate of secretion of somatotropin by pituitary following clonidine per os (observable entity) has the [ 704322002 | Process agent (attribute)|](http://snomed.info/id/704322002 "704322002 | Process agent \(attribute\) |") of 56329008 |Pituitary structure (body structure)|.
+* Substance rate of secretion of somatotropin by pituitary following clonidine per os (observable entity) has the [ 704322002 | Process agent (attribute)|](http://snomed.info/id/704322002 "704322002 | Process agent \(attribute\) |") of 56329008 |Pituitary structure (body structure)|.
 
 ## Process duration
 
@@ -86,7 +86,7 @@ This attribute specifies the duration of the process characterized by the observ
 
 For example, 
 
-  *     * Mass rate of excretion of cortisone in 24 hour urine (observable entity) has the  [ 704323007 | Process duration (attribute)|](http://snomed.info/id/704323007 "704323007 | Process duration \(attribute\) |") of 123027009 |24 hours (qualifier value)|
+* Mass rate of excretion of cortisone in 24 hour urine (observable entity) has the  [ 704323007 | Process duration (attribute)|](http://snomed.info/id/704323007 "704323007 | Process duration \(attribute\) |") of 123027009 |24 hours (qualifier value)|
 
 ## Process extends to
 
@@ -102,7 +102,7 @@ This attribute is used to specify the substance or process produced by the proce
 
 For example, 
 
-  *     * Substance rate of excretion of pregnanediol in micromoles per day (observable entity) has a [ 704324001 | Process output (attribute)|](http://snomed.info/id/704324001 "704324001 | Process output \(attribute\) |") of 28268006 |Pregnanediol (substance)|
+* Substance rate of excretion of pregnanediol in micromoles per day (observable entity) has a [ 704324001 | Process output (attribute)|](http://snomed.info/id/704324001 "704324001 | Process output \(attribute\) |") of 28268006 |Pregnanediol (substance)|
 
 ## Property
 
@@ -110,7 +110,7 @@ This attribute is used to specify the type of feature (i.e. quality, disposition
 
 For example, 
 
-  *     * Blood glucose mass concentration (observable entity) has the [ 370130000 | Property (attribute)|](http://snomed.info/id/370130000 "370130000 | Property \(attribute\) |") of 118539007 |Mass concentration (property) (qualifier value)|
+* Blood glucose mass concentration (observable entity) has the [ 370130000 | Property (attribute)|](http://snomed.info/id/370130000 "370130000 | Property \(attribute\) |") of 118539007 |Mass concentration (property) (qualifier value)|
 
 ### Mass vs Weight
 
@@ -129,7 +129,7 @@ This attribute is used to specify the denominator of a relational property type,
 
 For example, 
 
-  *     * Urine alpha aminobutyrate to creatinine ratio (observable entity) has  [ 704325000 | Relative to (attribute)|](http://snomed.info/id/704325000 "704325000 | Relative to \(attribute\) |") 15373003 |Creatinine (substance)|
+* Urine alpha aminobutyrate to creatinine ratio (observable entity) has  [ 704325000 | Relative to (attribute)|](http://snomed.info/id/704325000 "704325000 | Relative to \(attribute\) |") 15373003 |Creatinine (substance)|
     * Neutrophils per 100 leukocytes in blood (observable entity) has  [ 704325000 | Relative to (attribute)|](http://snomed.info/id/704325000 "704325000 | Relative to \(attribute\) |") 702962009 |Population of all leukocytes in portion of fluid (body structure)|
 
 ## Relative to part of
@@ -138,7 +138,7 @@ This attribute is used to specify the denominator of a relative relational prope
 
 For example, 
 
-  *     * Relative substance concentration of cerebrospinal fluid IgM to plasma IgM (observable entity) has [ 719715003 | Relative to part of (attribute)|](http://snomed.info/id/719715003 "719715003 | Relative to part of \(attribute\) |") of 50863008 |Plasma (substance)|
+* Relative substance concentration of cerebrospinal fluid IgM to plasma IgM (observable entity) has [ 719715003 | Relative to part of (attribute)|](http://snomed.info/id/719715003 "719715003 | Relative to part of \(attribute\) |") of 50863008 |Plasma (substance)|
 
 ## Scale Type
 
@@ -153,7 +153,7 @@ This attribute is used to specify the systematic method of an observation.
 
 For example, 
 
-  *     * Presence of Brucella abortus antibody in serum by latex agglutination (observable entity) has the  _[ 246501002 | Technique (attribute)|](http://snomed.info/id/246501002 "246501002 | Technique \(attribute\) |") _of 703448004 |Latex agglutination test technique (qualifier value)|
+* Presence of Brucella abortus antibody in serum by latex agglutination (observable entity) has the  _[ 246501002 | Technique (attribute)|](http://snomed.info/id/246501002 "246501002 | Technique \(attribute\) |") _of 703448004 |Latex agglutination test technique (qualifier value)|
 
 ## Time Aspect
 
@@ -161,7 +161,7 @@ This attribute is used to specify the timing of an observation.
 
 For example, 
 
-  *     * Substance concentration of acetone in urine (observable entity) has the [ 370134009 | Time aspect (attribute)|](http://snomed.info/id/370134009 "370134009 | Time aspect \(attribute\) |") of 123029007 |Single point in time (qualifier value)|
+* Substance concentration of acetone in urine (observable entity) has the [ 370134009 | Time aspect (attribute)|](http://snomed.info/id/370134009 "370134009 | Time aspect \(attribute\) |") of 123029007 |Single point in time (qualifier value)|
 
 ## Towards
 
@@ -169,7 +169,7 @@ This attribute is used to specify a disposition, what the disposition is towards
 
 For example, 
 
-  *     * Quantitative susceptibility of Pseudomonas aeruginosa to amikacin in microbial isolate by disk diffusion (observable entity) has [ 704320005 | Towards (attribute)|](http://snomed.info/id/704320005 "704320005 | Towards \(attribute\) |") of 387266001 |Amikacin (substance)|
+* Quantitative susceptibility of Pseudomonas aeruginosa to amikacin in microbial isolate by disk diffusion (observable entity) has [ 704320005 | Towards (attribute)|](http://snomed.info/id/704320005 "704320005 | Towards \(attribute\) |") of 387266001 |Amikacin (substance)|
 
 ## Units
 
@@ -177,7 +177,7 @@ This attribute is used to specify the units used in assigning a value to an obse
 
 For example, 
 
-  *     * Basophils per 100 leukocytes (observable entity) has the  _[ 246514001 | Units (attribute)|](http://snomed.info/id/246514001 "246514001 | Units \(attribute\) |") _of 415067009 |Percentage unit (qualifier value)|
+* Basophils per 100 leukocytes (observable entity) has the  _[ 246514001 | Units (attribute)|](http://snomed.info/id/246514001 "246514001 | Units \(attribute\) |") _of 415067009 |Percentage unit (qualifier value)|
 
 ## Using device
 

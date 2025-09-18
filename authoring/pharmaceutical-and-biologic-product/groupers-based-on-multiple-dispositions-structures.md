@@ -11,7 +11,7 @@ For some medicinal products, their clinical usefulness is related to the combina
 
 For example,
 
-  *     * Clemastine is a substance whose anti-histamine behaviour is based upon its structure being ethanolamine derived. 
+* Clemastine is a substance whose anti-histamine behaviour is based upon its structure being ethanolamine derived. 
 
 Since structure-based grouping and disposition are characteristics of the active ingredient substance(s) present in the medicinal product, combined 'structure and disposition grouping' concepts are inferred by the classifier to medicinal products and include all their child concepts (medicinal product form and clinical drug concepts), although in a browser, the inferred grouping concepts are shown on the proximal concept only (the "medicinal product containing" concept).
 

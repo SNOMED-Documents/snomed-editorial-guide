@@ -6,7 +6,7 @@ The purpose of semantic tags is to disambiguate concepts which have the same com
 
 For example,
 
-  *     * Hematoma (morphologic abnormality)
+* Hematoma (morphologic abnormality)
     * Hematoma (disorder)
 
 The following table contains the semantic tags for each domain.

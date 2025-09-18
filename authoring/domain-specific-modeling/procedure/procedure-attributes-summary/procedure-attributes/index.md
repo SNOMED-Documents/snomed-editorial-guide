@@ -41,7 +41,7 @@ Direct substance (attribute) describes the Substance or Pharmaceutical/biologic 
 
 For example, 
 
-  *     * 231274008 |Injection of steroid into joint (procedure)| has Direct substance (attribute) of Steroid (substance)
+* 231274008 |Injection of steroid into joint (procedure)| has Direct substance (attribute) of Steroid (substance)
 
 <figure><img src="images/174691346.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
 
@@ -108,7 +108,7 @@ When modeling procedures where the Method is  _Removal - action_ (qualifier valu
 
 For example, 
 
-  *     * 43748006 |Removal of urinary bladder catheter (procedure)| has a Method (attribute) of Removal - action (qualifier value). Because a device is being removed, use Procedure site - Indirect (attribute) with a value of Bladder and outflow structure (body structure)
+* 43748006 |Removal of urinary bladder catheter (procedure)| has a Method (attribute) of Removal - action (qualifier value). Because a device is being removed, use Procedure site - Indirect (attribute) with a value of Bladder and outflow structure (body structure)
 
 Method (attribute) does not describe
 
@@ -122,7 +122,7 @@ Attributes should be grouped with the Method (attribute) to which they apply. In
 
 Exception,
 
-  *     * Recipient category (attribute)
+* Recipient category (attribute)
       * A single procedure concept should not be precoordinated when more than one Recipient Category is involved. Such complex statements should have two or more procedure concepts that are placed into an appropriately structured electronic health application.
       * See separate attribute entry for _Recipient category_ below.
 
@@ -149,7 +149,7 @@ Procedure approach (attribute) specifies the directional, relational, or spatial
 
 For example,
 
-  *     * 33195004 |External beam radiation therapy procedure (procedure)| has Procedure approach (attribute) of External approach (qualifier value).
+* 33195004 |External beam radiation therapy procedure (procedure)| has Procedure approach (attribute) of External approach (qualifier value).
 
 <figure><img src="images/273515817.png" alt="" title=""><figcaption><p><em>     </em> 29795009 |Open reduction of orbital floor blowout fracture by periorbital approach (procedure)| has Procedure approach (attribute) of Periorbital approach (qualifier value).</p></figcaption></figure>
 

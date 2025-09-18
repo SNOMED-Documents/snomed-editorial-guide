@@ -7,7 +7,7 @@ _Division -__action (qualifier value)_ is a subtype of Incision - action (qualif
 
 For example,
 
-  *     * _Division of adhesion_ concepts, like [173269002 |Division of adhesions of lip (procedure)|](http://snomed.info/id/173269002), should be modeled the same as  _lysis of adhesion_ concepts _,_ like __[ 45602008 |Lysis of adhesions of peritoneum (procedure)|](http://snomed.info/id/45602008)
+* _Division of adhesion_ concepts, like [173269002 |Division of adhesions of lip (procedure)|](http://snomed.info/id/173269002), should be modeled the same as  _lysis of adhesion_ concepts _,_ like __[ 45602008 |Lysis of adhesions of peritoneum (procedure)|](http://snomed.info/id/45602008)
 
 Both use _Dissection - action (qualifier value)_. Adhesions are  _broken down_ by blunt dissection, often without incising them. This does not exclude procedures that may also involve division by incision.
 

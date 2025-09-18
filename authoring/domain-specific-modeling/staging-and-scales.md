@@ -16,7 +16,7 @@ When adding an assessment to the 273249006 |Assessment scales (assessment scale)
 
 For example,
 
-  *     * X assessment scale (assessment scale)
+* X assessment scale (assessment scale)
     * Assessment using X assessment scale (procedure)
     * X scale score (observable entity)
 
@@ -26,7 +26,7 @@ Do not change the US/GB spelling variants for standardized names.
 
 For example,
 
-  *     * Do not add a GB spelling for _World Health Organisation_ , as in 769390009 |World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale (assessment scale)|, because _World Health Organization_ is the proper name of the organization. 
+* Do not add a GB spelling for _World Health Organisation_ , as in 769390009 |World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale (assessment scale)|, because _World Health Organization_ is the proper name of the organization. 
 
 A revised or modified version of an assessment is not a subtype of the original. 
 
@@ -42,7 +42,7 @@ Concepts of the type |X scale score (observable entity)| are modeled with a prox
 
 For example, 
 
-  *     * 165317007 |Mental disability discharge score (observable entity)| has a parent of 165314000 |Mental disability assessment score (observable entity)|
+* 165317007 |Mental disability discharge score (observable entity)| has a parent of 165314000 |Mental disability assessment score (observable entity)|
 
 ### Relationship of total scores and subscores
 

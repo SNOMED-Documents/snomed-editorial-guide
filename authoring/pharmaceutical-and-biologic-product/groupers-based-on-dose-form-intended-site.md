@@ -6,7 +6,7 @@ Groupers based on "Dose form intended site" that can be sufficiently defined may
 
 For example,
 
-  *     * Product manufactured as oral dose form (product)
+* Product manufactured as oral dose form (product)
     * Product manufactured as parenteral dose form (product)
 
 ## Modeling

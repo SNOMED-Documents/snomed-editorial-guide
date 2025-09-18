@@ -16,12 +16,12 @@ For example,
 
 For example, to create the concept, History of thyroid disease in father, 
 
-  *     * Subject relationship context (attribute) with the value, father (person)
+* Subject relationship context (attribute) with the value, father (person)
     * Associated finding (attribute), with the value, Disorder of thyroid gland (disorder)
 
 Incorrect example,
 
-  *     * Using Family history with explicit context (situation),
+* Using Family history with explicit context (situation),
       * Subject relationship context (attribute) with the value, father (person)
       * Associated finding with value, Family history: Thyroid disorder (situation)
 

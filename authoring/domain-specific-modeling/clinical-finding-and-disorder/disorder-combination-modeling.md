@@ -46,7 +46,7 @@ Be aware of conditions which likely exist prior to a disorder or procedure.
 
 For example, legacy term  [ 609454008 | Induced termination of pregnancy complicated by acute necrosis of liver (disorder)|](http://snomed.info/id/609454008 "609454008 | Induced termination of pregnancy complicated by acute necrosis of liver \(disorder\) |")
 
-  *     * _Acute necrosis of liver_ was likely present prior to the procedure; there is no explicit causation. The concept will be inactivated. Instead, separate concepts  [ 714812005 | Induced termination of pregnancy (procedure)|](http://snomed.info/id/714812005 "714812005 | Induced termination of pregnancy \(procedure\) |") and [ 197269008 | Acute necrosis of liver (disorder)|](http://snomed.info/id/197269008 "197269008 | Acute necrosis of liver \(disorder\) |") should be documented in the medical record.
+* _Acute necrosis of liver_ was likely present prior to the procedure; there is no explicit causation. The concept will be inactivated. Instead, separate concepts  [ 714812005 | Induced termination of pregnancy (procedure)|](http://snomed.info/id/714812005 "714812005 | Induced termination of pregnancy \(procedure\) |") and [ 197269008 | Acute necrosis of liver (disorder)|](http://snomed.info/id/197269008 "197269008 | Acute necrosis of liver \(disorder\) |") should be documented in the medical record.
 
   
 
@@ -113,7 +113,7 @@ e.g. [6211002 |Polyarthritis associated with another disorder (disorder)|](http:
   3. Intolerance to substances, i.e the propensity of an adverse reaction to a substance to occur (other than hypersensitivity or allergic or non-allergic hypersensitivity). 
   4. There is no intolerance process that serves as the value for  _Has realization_.
 
-  *     *       * _Associated with_ is used to associate the intolerance to the substance.
+*       * _Associated with_ is used to associate the intolerance to the substance.
 
 ## When to use "caused by" and when to use "due to"
 
@@ -125,13 +125,13 @@ Model as _due to_ _disorder_ if it is the indirect cause.
 
 For example,
 
-  *     *       * Megaloblastic anemia  _due to_  _alcoholism_ (disorder)
+*       * Megaloblastic anemia  _due to_  _alcoholism_ (disorder)
 
 Model as _caused by_ _material entity_ if it is the direct cause.
 
 For example,
 
-  *     *       * Inflammation of pancreas _caused by alcohol_ (disorder)
+*       * Inflammation of pancreas _caused by alcohol_ (disorder)
 
 ### Is cause a disorder or infectious organism?
 
@@ -139,7 +139,7 @@ In modeling concepts related to infectious diseases, a number of considerations 
 
   1. When the disorder is an infectious disease itself, and the organism is specified, then the concept will be modeled with 
 
-  *     * |Causative agent (attribute)| with the specified organism 
+* |Causative agent (attribute)| with the specified organism 
     * |Pathological process (attribute)| with the type of infectious process
 
 2\. Disorders can be modeled with |Due to|, with |After|, or with both |Due to| and |After| relationships to infectious diseases. If the focus disorder is itself an infectious disorder, it will also have a |Causative agent| relationship when the organism is specified.

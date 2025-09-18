@@ -4,7 +4,7 @@ It may be important, from both clinical and administrative perspectives, to capt
 
 Examples of modifications include:
 
-  *     * Axial (qualifier value)
+* Axial (qualifier value)
     * Skyline projection (qualifier value)
     * Decubitus (qualifier value)
 

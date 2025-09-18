@@ -10,7 +10,7 @@ Dependence-related concepts which express the pattern as either continuous or ep
 
 Unacceptable patterns:
 
-  *     * X with single episode
+* X with single episode
     * X with multiple episodes
     * Current episode of X
     * First episode of X
@@ -18,7 +18,7 @@ Unacceptable patterns:
 
 Unacceptable legacy concepts:
 
-  *     *       * Drug abuse, continuous (disorder)
+*       * Drug abuse, continuous (disorder)
 
       * Episodic drug abuse (disorder) 
 
@@ -26,17 +26,17 @@ Concepts describing  _full_ or  _partial remission_ are acceptable but not the p
 
 Acceptable patterns:
 
-  *     * X in full remission 
+* X in full remission 
     * X in partial remission
 
 For example, 
 
-  *     *       * [46244001 |Recurrent major depression in full remission (disorder)|](http://snomed.info/id/46244001)
+*       * [46244001 |Recurrent major depression in full remission (disorder)|](http://snomed.info/id/46244001)
       * [5703000 |Bipolar disorder in partial remission (disorder)|](http://snomed.info/id/5703000)
 
 Unacceptable patterns:
 
-  *     * X in early full remission
+* X in early full remission
     * X in sustained full remission
     * X in sustained partial remission 
 
@@ -44,7 +44,7 @@ Conditions with associated symptoms should be expressed and modeled like combine
 
 For example, 
 
-  *     * 703850002 |Delirium due to benzodiazepine withdrawal (disorder)|
+* 703850002 |Delirium due to benzodiazepine withdrawal (disorder)|
 
 Concepts containing X without Y are considered on a case-by-case basis.
 
@@ -54,7 +54,7 @@ Acceptable example:
 
 Unacceptable example: 
 
-  *     * Bipolar type II disorder with current episode moderately depressive without psychotic symptoms
+* Bipolar type II disorder with current episode moderately depressive without psychotic symptoms
 
 #### See also relative page:
 

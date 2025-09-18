@@ -41,7 +41,7 @@ Concepts that are not allowed to be used in modeling Medicinal product concepts 
 
 For example,
 
-  *     * 420378007 |Prolonged-release film-coated oral tablet (dose form)|)
+* 420378007 |Prolonged-release film-coated oral tablet (dose form)|)
 
 ## Overview
 

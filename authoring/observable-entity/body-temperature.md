@@ -4,7 +4,7 @@ _Core body temperature_ is the temperature in the deep tissues and internal orga
 
 For example,
 
-  *     * 698831002 |Core body temperature measured in nasopharynx (observable entity)|
+* 698831002 |Core body temperature measured in nasopharynx (observable entity)|
     * 415882003 |Estimated core body temperature measured in axillary region (observable entity)|
     * 364518005 |Temperature of foot (observable entity)|
 

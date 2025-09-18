@@ -6,7 +6,7 @@ The Vaccine Product "only" concept is an abstract representation of the active i
 
 For example,
 
-  *     * |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|
+* |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|
     * |Vaccine product containing only Vaccinia virus antigen (medicinal product)|
     * |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|
     * |Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)|

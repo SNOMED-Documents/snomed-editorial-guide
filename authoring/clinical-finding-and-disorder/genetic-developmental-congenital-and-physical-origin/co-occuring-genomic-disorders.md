@@ -10,7 +10,7 @@ Modeling for germline mutations causing conditions, such as cystic fibrosis, sho
 
 For example,****
 
-  *     * Cystic fibrosis  _due to_ G542X mutation
+* Cystic fibrosis  _due to_ G542X mutation
 
 ### Somatic NSV (NCBI structural variant) _co-occurring_ and _poly-etiologic_ : BRAF V600E positive melanoma
 
@@ -18,7 +18,7 @@ Somatic mutations leading to cancer, such as _malignant melanoma with BRAF V600E
 
 For example,
 
-  *     * Melanoma with BRAF V600E mutation
+* Melanoma with BRAF V600E mutation
 
 ### Somatic IHC (immunohistochemical) finding _co-occurring_ but not etiologic: Estrogen-receptor status in breast cancer
 
@@ -26,7 +26,7 @@ Representing two associated findings in a single concept may be convenient for r
 
 For example,
 
-  *     * Breast cancer occurring with positive estrogen-receptor assay should be recorded in the information model as two separate concepts
+* Breast cancer occurring with positive estrogen-receptor assay should be recorded in the information model as two separate concepts
 
   
 

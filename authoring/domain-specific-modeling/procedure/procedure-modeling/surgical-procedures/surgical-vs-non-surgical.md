@@ -6,7 +6,7 @@ Non-surgical actions do not significantly or non-transiently alter anatomy and d
 
 For example,
 
-  *     * Fine needle biopsy (procedure) or brush biopsy (procedure)
+* Fine needle biopsy (procedure) or brush biopsy (procedure)
     * Phlebotomy, a synonym for venipuncture for blood test (procedure)
     * Aspiration (procedure)
     * Closed reduction of dislocation (procedure)

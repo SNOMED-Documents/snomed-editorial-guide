@@ -80,7 +80,7 @@ A neoplasm is defined as a growth of tissue no longer under normal control. A ha
 
 The SNOMED CT concept [399981008 |Neoplasm and/or hamartoma (disorder)|](http://snomed.info/id/399981008) has six subtypes: 
 
-  *     * angiomatosis  
+* angiomatosis  
 
     * hamartoma
     * hemangioma
@@ -90,7 +90,7 @@ The SNOMED CT concept [399981008 |Neoplasm and/or hamartoma (disorder)|](http://
 
 The SNOMED CT concept [400177003 |Neoplasm and/or hamartoma (morphologic abnormality)|](http://snomed.info/id/400177003) also has six subtypes:
 
-  *     * angiomatosis
+* angiomatosis
     * blood vessel tumor
     * hamartoma
     * lymphatic vessel tumor
@@ -101,7 +101,7 @@ The SNOMED CT concept [400177003 |Neoplasm and/or hamartoma (morphologic abnorma
 
 The word  _nevus_ has many different meanings. The differences are generally based on answers to the following questions:
 
-  *     * Is it necessarily on the skin? Or can it be located in mucosal sites or other sites?
+* Is it necessarily on the skin? Or can it be located in mucosal sites or other sites?
     * Is it necessarily visible? Or can it be in internal locations such as gastric mucosa, etc?
     * Is it necessarily present at birth? Or can it occur later in life?
     * Is it necessarily dark and made of melanocytes? Or can it be non-pigmented, or made of other types of cells?
@@ -110,13 +110,13 @@ The word  _nevus_ has many different meanings. The differences are generally bas
 
 Some common meanings of nevus based on some combinations of answers to the questions are as follows:
 
-  *     * A birthmark, that is, any visible spot on the skin or oral mucosa present since birth, regardless of tissue of origin, excluding benign neoplasms.
+* A birthmark, that is, any visible spot on the skin or oral mucosa present since birth, regardless of tissue of origin, excluding benign neoplasms.
     * Any benign cluster of melanocytes, regardless of location, and regardless of pigmentation, whether present since birth or appearing later.
     * Any cutaneous hamartoma. This excludes non-cutaneous sites, and excludes neoplasms and ectopic tissue, such as choristomas.
 
 As a result of this wide variation in meaning, any SNOMED CT FSN containing the word  _nevus_ may be ambiguous. For example, the term  _vascular nevus_ may mean:
 
-  *     * Congenital blood vessel tumor in the skin
+* Congenital blood vessel tumor in the skin
     * Congenital blood vessel hamartoma or neoplasm that is visible somewhere (not only the skin, but also the mucosa, whether visible externally or not)
     * Congenital blood or lymphatic vessel tumor in the skin
     * Congenital blood or lymphatic vessel hamartoma or neoplasm that is visible somewhere

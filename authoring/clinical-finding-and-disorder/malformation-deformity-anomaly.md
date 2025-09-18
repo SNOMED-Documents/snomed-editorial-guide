@@ -8,7 +8,7 @@ A  _deformity_ is a structural abnormality that is due to an extrinsic physical 
 
 For example,
 
-  *     * _Congenital anomaly of <body structure>_ is currently modeled as a structural abnormality but is not the same as _C_ _ongenital malformation_ (structural abnormality due to intrinsically disordered development present at birth). Therefore, it can be regarded as having the more general meaning of  _structural abnormality present at birth_.
+* _Congenital anomaly of <body structure>_ is currently modeled as a structural abnormality but is not the same as _C_ _ongenital malformation_ (structural abnormality due to intrinsically disordered development present at birth). Therefore, it can be regarded as having the more general meaning of  _structural abnormality present at birth_.
 
 When referring to a broad term to denote an intrinsic structural abnormality (e.g., Structural abnormality of fetal bladder) and plan to include 49755003 |Morphologically abnormal structure (morphologic abnormality)| in the model, use the pattern _Malformation of fetal X_ or _Congenital malformation of X_.
 

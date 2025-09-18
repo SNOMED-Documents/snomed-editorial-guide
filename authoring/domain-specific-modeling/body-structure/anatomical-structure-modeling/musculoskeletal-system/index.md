@@ -23,7 +23,7 @@ FSNs for spinal levels should not contain abbreviations.
 
 Correct example,
 
-  *     * Posterior cord syndrome at tenth thoracic spinal cord level, not Posterior cord syndrome of thoracic spinal cord at T10 level
+* Posterior cord syndrome at tenth thoracic spinal cord level, not Posterior cord syndrome of thoracic spinal cord at T10 level
 
 ## Non-ossified bone** **
 
@@ -37,7 +37,7 @@ Clinically, marrow disorders are not usually considered bone disorders, nor are 
 
 For example,
 
-  *     * Bone marrow disorders are not musculoskeletal disorders, but bone disorders are musculoskeletal disorders. Bone marrow transplants are not considered types of bone transplant.
+* Bone marrow disorders are not musculoskeletal disorders, but bone disorders are musculoskeletal disorders. Bone marrow transplants are not considered types of bone transplant.
     * [60168000 |Osteomyelitis (disorder)|](http://snomed.info/id/60168000) is not the same as [44462005 |Osteitis (disorder)|](http://snomed.info/id/44462005).
 
 ### Structure of (named bone), bone structure of (named bone)

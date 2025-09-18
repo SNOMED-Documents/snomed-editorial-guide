@@ -12,7 +12,7 @@ Observables entities may be used to code headers on a template, elements on a ch
 
 For example,
 
-  *     *       * _C_ _olor of nail_ is an observable entity. _Gray nails_ is a finding.
+*       * _C_ _olor of nail_ is an observable entity. _Gray nails_ is a finding.
 
 ### Types of Observable Entities
 

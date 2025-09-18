@@ -36,14 +36,14 @@ A third meaning of nerve, defined by the FMA is:  _Segment of neural tree organ 
 
 For example,
 
-  *     * Chorda tympani, digastric branch of facial nerve, greater petrosal nerve, posterior cutaneous branch of posterior ramus of cervical nerve, superior lateral cutaneous nerve of arm.
+* Chorda tympani, digastric branch of facial nerve, greater petrosal nerve, posterior cutaneous branch of posterior ramus of cervical nerve, superior lateral cutaneous nerve of arm.
     * If one severs the facial nerve, the meaning refers to the trunk. But if one has facial nerve palsy, the meaning refers to the entire distribution of the nerve and the functions served by it.
 
 There were several concepts with the phrase  _x nerve and its branches,_ interpreted as meaning _ the entire nerve and its branches._ Therefore,  _x nerve and its branches_ would be a duplicate of  _entire x nerve_ , when we interpret  _entire x nerve_ as being a neural tree organ.
 
 For example,
 
-  *     * _Entire facial nerve_ is a neural tree organ, so there is no need for an additional concept called  _facial nerve and its branches_. 
+* _Entire facial nerve_ is a neural tree organ, so there is no need for an additional concept called  _facial nerve and its branches_. 
     *  _Entire cranial nerve_ is a neural tree organ and  _structure of cranial nerve_ is that organ or any part (or branch) thereof. Branches of the cranial and spinal nerves are segments of the neural tree organs from which they branch. 
 
 All concepts named  _nerve x and its branches_ were inactivated due to their ambiguity. There are  _MAY BE A_ links to  _structure of nerve x_ , and  _entire nerve x_.**** Specifying  _trunk of a nerve_ requires a specific concept.

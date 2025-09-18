@@ -43,7 +43,7 @@ PT: Postoperative X
 
 For example,
 
-  *     * Perioperative hematoma (disorder)
+* Perioperative hematoma (disorder)
     * Postoperative hypothyroidism (disorder)
 
 88797001 |Complication of surgical procedure (disorder)| is not a subtype of perioperative complication, as it does not include a temporal relationship. Similarly, 738668004 |Perioperative complication (disorder)| is not a subtype of 88797001 |Complication of surgical procedure (disorder)|, as there is no causal relationship. Some disorders may specify both a causal and temporarily relationship and would be modeled such that they would classify under both 738668004 |Perioperative complication (disorder)| and 88797001 |Complication of surgical procedure (disorder)|.
@@ -106,7 +106,7 @@ These conditions should be modeled with _After_ (and also _Due to_ if there is a
 
 For example,
 
-  *     * Disorder due to and following another disorder = 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|
+* Disorder due to and following another disorder = 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|
 
 <figure><img src="images/174690573.png" alt="" title=""><figcaption><p>Figure 3. Stated view of 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|</p></figcaption></figure>
 
@@ -124,7 +124,7 @@ SYN: [Disorder X as a] Late effect of <<disorder /<<procedure /<event
 
 For example, 
 
-  *     * Disorder due to and following another disorder (disorder)
+* Disorder due to and following another disorder (disorder)
     * Disorder due to and following meningitis (disorder)
     * Disorder due to and following procedure (disorder)
 
@@ -138,7 +138,7 @@ PT: Disorder X following << 387713003 |Surgical procedure (procedure)
 
 For example,
 
-  *     * Contraction of eye socket following enucleation (disorder)
+* Contraction of eye socket following enucleation (disorder)
     * Scar following surgery (disorder)
 
 ## Naming conventions for surgical sequelae complications (temporal relationship _and_ causal relationship)
@@ -151,7 +151,7 @@ PT: Disorder X due to and following <<387713003 |Surgical procedure (procedure)|
 
 For example,
 
-  *     * Encephalopathy due to and following cardiopulmonary bypass (disorder)
+* Encephalopathy due to and following cardiopulmonary bypass (disorder)
     * Cataract lens fragments in vitreous of eye due to and following cataract surgery (disorder)
     * Disorder due to and following breast reduction (disorder)
 

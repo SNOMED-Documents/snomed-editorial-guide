@@ -97,7 +97,7 @@ Expression of product strength in metric units is preferred.
 
 To avoid semantically equivalent concepts, product strength for metric units are normalized as follows:
 
-  *     * Use milligram if value is <1000; if  _>_ 1000, convert to gram.
+* Use milligram if value is <1000; if  _>_ 1000, convert to gram.
     * Use microgram if value is <1000; if  _>_ 1000, convert to milligram.
     * Use nanogram if value is <1000; if  _>_ 1000, convert to microgram.  
 
@@ -115,7 +115,7 @@ To avoid semantically equivalent concepts, product strength for units are normal
 
 The following units are not allowed unless specifically noted as an exception:
 
-  *     * 408165007 |Mega u (qualifier value)|
+* 408165007 |Mega u (qualifier value)|
 
 Repeating decimals are rounded to three decimal places (with 5 and above rounded up and 4 and below rounded down).
 

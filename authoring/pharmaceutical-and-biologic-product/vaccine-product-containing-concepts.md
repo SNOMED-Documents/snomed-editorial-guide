@@ -6,7 +6,7 @@ The Vaccine Product "containing" concept is an abstract representation of the ac
 
 For example,
 
-  *     * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|
+* 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|
     * 836389008 |Vaccine product containing Vaccinia virus antigen (medicinal product)|
 
 Both vaccine product "containing" and vaccine product "containing only" concepts may be created for products that only have one active ingredient (e.g. 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)| and 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|).

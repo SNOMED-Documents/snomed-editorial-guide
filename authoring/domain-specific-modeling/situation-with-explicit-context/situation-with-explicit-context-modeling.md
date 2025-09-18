@@ -6,7 +6,7 @@ In SNOMED CT,_context_ describes the effects of embedding a concept in a clinica
 
 For example, 
 
-  *     * When the concept [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") is used in an EHR, it takes on a specific contextualized meaning. The meaning might be an assertion by the person entering the information, that on a given date, the patient was diagnosed with a  _myocardial infarction._ Or, it may be used to document a complication of smoking, a protocol for chest pain, a medication contraindication, a part of a patient's medical history, a possible diagnosis justifying a diagnostic test, a diagnosis excluded by a diagnostic test, a patient's family history, etc.
+* When the concept [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") is used in an EHR, it takes on a specific contextualized meaning. The meaning might be an assertion by the person entering the information, that on a given date, the patient was diagnosed with a  _myocardial infarction._ Or, it may be used to document a complication of smoking, a protocol for chest pain, a medication contraindication, a part of a patient's medical history, a possible diagnosis justifying a diagnostic test, a diagnosis excluded by a diagnostic test, a patient's family history, etc.
     * The concept for  _breast cancer_ , [ 254837009 | Malignant neoplasm of breast (disorder)|](http://snomed.info/id/254837009 "254837009 | Malignant neoplasm of breast \(disorder\) |") , might be used to indicate either a current diagnosis of breast cancer, a family history of breast cancer, or a past history of breast cancer. Each of these three meanings differs in regard to the  _context_ in which breast cancer is described. 
       * Current diagnosis of breast cancer indicates that the breast cancer is present now, and in this patient.
       * Family history of breast cancer refers to breast cancer occurring in a family member of a patient. 
@@ -30,20 +30,20 @@ Concepts in the Situation hierarchy (given the appropriate record structure) hav
 
 For example, 
 
-  *     *       * [ 165137000 | Endoscopy arranged (situation)|](http://snomed.info/id/165137000 "165137000 | Endoscopy arranged \(situation\) |")
+*       * [ 165137000 | Endoscopy arranged (situation)|](http://snomed.info/id/165137000 "165137000 | Endoscopy arranged \(situation\) |")
 
 **Refer to someone other than the patient**
 
 For example, 
 
-  *     *       * [ 160303001 | Family history: Diabetes mellitus (situation)|](http://snomed.info/id/160303001 "160303001 | Family history: Diabetes mellitus \(situation\) |")
+*       * [ 160303001 | Family history: Diabetes mellitus (situation)|](http://snomed.info/id/160303001 "160303001 | Family history: Diabetes mellitus \(situation\) |")
       * [ 395083002 | Discussed with next of kin (situation)|](http://snomed.info/id/395083002 "395083002 | Discussed with next of kin \(situation\) |")
 
 **Have occurred at some time prior to the time of the current entry in the record**
 
 For example,
 
-  *     *       * [ 161514008 | History of aortic aneurysm (situation)|](http://snomed.info/id/161514008 "161514008 | History of aortic aneurysm \(situation\) |")
+*       * [ 161514008 | History of aortic aneurysm (situation)|](http://snomed.info/id/161514008 "161514008 | History of aortic aneurysm \(situation\) |")
 
 ## Attributes
 
@@ -64,7 +64,7 @@ Context typically alters the meaning of a concept, i.e. the resulting concept is
 
 For example,
 
-  *     * The precoordinated expression [ 266897007 | Family history: Myocardial infarction (situation)|](http://snomed.info/id/266897007 "266897007 | Family history: Myocardial infarction \(situation\) |") might be put directly in a blank field in a patient's EHR. A family history of myocardial infarction is not a  _subtype_ of myocardial infarction, so  _family history_ modifies the context.
+* The precoordinated expression [ 266897007 | Family history: Myocardial infarction (situation)|](http://snomed.info/id/266897007 "266897007 | Family history: Myocardial infarction \(situation\) |") might be put directly in a blank field in a patient's EHR. A family history of myocardial infarction is not a  _subtype_ of myocardial infarction, so  _family history_ modifies the context.
     * The precoordinated expression [ 54355006 | Intracranial injury, without skull fracture (disorder)|](http://snomed.info/id/54355006 "54355006 | Intracranial injury, without skull fracture \(disorder\) |") might be put directly in a blank field in a patient's EHR. The disorder Intracranial injury, without skull fracture is not a  _subtype_ of skull fracture, so  _without_ modifies the context.
 
 **Postcoordinated expression.** Clinical context is specified by combining concepts.
@@ -77,14 +77,14 @@ For example,
 
 For example, 
 
-  *     *  _Hip replacement planned_ might be represented as [ 397956004 | Prosthetic arthroplasty of the hip (procedure)|](http://snomed.info/id/397956004 "397956004 | Prosthetic arthroplasty of the hip \(procedure\) |") within a section of a patient's health record called  _Planned actions_. A planned hip replacement is not a kind of hip replacement, so the  _Planned actions_ record section modifies the context
+*  _Hip replacement planned_ might be represented as [ 397956004 | Prosthetic arthroplasty of the hip (procedure)|](http://snomed.info/id/397956004 "397956004 | Prosthetic arthroplasty of the hip \(procedure\) |") within a section of a patient's health record called  _Planned actions_. A planned hip replacement is not a kind of hip replacement, so the  _Planned actions_ record section modifies the context
     * [ 2004005 | Normal blood pressure (finding)|](http://snomed.info/id/2004005 "2004005 | Normal blood pressure \(finding\) |") might be placed in a field labeled as  _Goal_ in a patient's EHR. A goal of normal blood pressure is not a kind of Normal blood pressure (finding), so the _Goal_ field in the EHR modifies context.
 
 When a user places a concept from SNOMED CT in a patient's health record, it transforms the concept from a theoretical representation of a clinical notion to an actual instance of the concept.
 
 For example, 
 
-  *     * If the concept [ 192644005 | Meningococcal meningitis (disorder)|](http://snomed.info/id/192644005 "192644005 | Meningococcal meningitis \(disorder\) |") is entered in a patient's EHR, it usually indicates that the patient has had an instance of this disease. Similarly the entry of [ 38102005 | Cholecystectomy (procedure)|](http://snomed.info/id/38102005 "38102005 | Cholecystectomy \(procedure\) |") would imply that the patient has undergone this procedure.
+* If the concept [ 192644005 | Meningococcal meningitis (disorder)|](http://snomed.info/id/192644005 "192644005 | Meningococcal meningitis \(disorder\) |") is entered in a patient's EHR, it usually indicates that the patient has had an instance of this disease. Similarly the entry of [ 38102005 | Cholecystectomy (procedure)|](http://snomed.info/id/38102005 "38102005 | Cholecystectomy \(procedure\) |") would imply that the patient has undergone this procedure.
 
 The placement of a concept in an EHR field may:
 
@@ -109,7 +109,7 @@ _A subtype qualification_ refines the meaning of a concept._Subtype_  _qualifica
 
 For example,
 
-  *     * A past history of replacement of the left hip may be represented by a SNOMED CT expression in which the focus concept, hip replacement, is refined by  _laterality, left_ and enclosed in a context wrapper representing  _past history_.
+* A past history of replacement of the left hip may be represented by a SNOMED CT expression in which the focus concept, hip replacement, is refined by  _laterality, left_ and enclosed in a context wrapper representing  _past history_.
 
 Subtype qualification has also been called a  _qualifier_ (e.g. ENV136060, GEHR, CTV3) or a _secondary status term_ (e.g. NHS Context of Care). In SNOMED CT, the term  _subtype_ expresses more clearly the distinctive property of a qualifier. This is helpful because the meaning of  _modify_ and  _qualify_ are synonymous in many dictionaries and by some International Organization of Standardization (ISO) authorities.
 
@@ -119,7 +119,7 @@ The attributes used to define situation concepts permit explicit (rather than de
 
 For example, 
 
-  *     * The concept [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") may be elaborated by including it in a clinical record specifying  _family history_. A record of a f _amily history of myocardial infarction_ does not imply that the patient has had any type of  _myocardial infarction_. Therefore,  _family history_ changes the focus from the default context to a specified context.
+* The concept [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") may be elaborated by including it in a clinical record specifying  _family history_. A record of a f _amily history of myocardial infarction_ does not imply that the patient has had any type of  _myocardial infarction_. Therefore,  _family history_ changes the focus from the default context to a specified context.
     * The concept [ 52734007 | Total replacement of hip (procedure)|](http://snomed.info/id/52734007 "52734007 | Total replacement of hip \(procedure\) |") may be elaborated by stating that the procedure is planned for some future date. A record of planned total hip replacement does not imply that the patient has actually had a total hip replacement, i.e. it is not the default context for a procedure.
     * The concept [ 167272007 | Urine protein test not done (situation)|](http://snomed.info/id/167272007 "167272007 | Urine protein test not done \(situation\) |") uses the context-modifying attribute Procedure context (attribute) and a value of Not done (qualifier value). This concept is not a subtype of [ 167271000 | Urine protein test (procedure)|](http://snomed.info/id/167271000 "167271000 | Urine protein test \(procedure\) |") , because its axis (hierarchy) is modified. Note that |<Procedure> not done| is no longer allowed. See the list disallowed naming patterns at [Pre-coordination Naming Patterns Project](https://prod-confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project). 
 
@@ -133,7 +133,7 @@ Negation, like axis modification, results in a concept that is not a subtype of 
 
 For example,
 
-  *     * _Family history of myocardial infarction_ does not imply that a patient had a myocardial infarction.
+* _Family history of myocardial infarction_ does not imply that a patient had a myocardial infarction.
     * _No headache_ implies that  _patient has headache_ is untrue. A negative statement may expand further in the opposite direction of a positive statement. If  _headache_ is a subtype of pain then  _patient has headache_ implies  _patient has pain_. However,  _patient has no headache_ does not imply  _patient has no pain_. Conversely,  _patient has headache_ does not imply  _patient has occipital headache_ ,  _but patient has no headache_ implies  _patient does not have occipital headache_.
 
 The representation of negation within SNOMED CT that arises from restrictions imposed by the existing description logics results in the hierarchy being inverted e.g., coronary heart disease not present is NOT properly a subtype of "Heart disease not present". An initial attempt was made to move negated content into the situation hierarchy so that the content remained available, but SNOMED International recommends handling negation outside of SNOMED CT by the EHR vendor rather than try and represent it within the terminology.
@@ -158,7 +158,7 @@ Once a concept has  _context-shifted_ and become  _context-dependent_ , it shoul
 
 For example,
 
-  *     * The model for [ 430679000 | Family history of diabetes mellitus type 2 (situation)|](http://snomed.info/id/430679000 "430679000 | Family history of diabetes mellitus type 2 \(situation\) |")  _IS A_ Situation with explicit context (situation) with:
+* The model for [ 430679000 | Family history of diabetes mellitus type 2 (situation)|](http://snomed.info/id/430679000 "430679000 | Family history of diabetes mellitus type 2 \(situation\) |")  _IS A_ Situation with explicit context (situation) with:
       * Subject relationship context of Person in family of subject (person)
       * Associated finding of Diabetes mellitus type 2 (disorder)
       * Finding context of Known present (qualifier value)
@@ -170,7 +170,7 @@ To negate a  _concept_ with Finding context (attribute) of Known present (qualif
 
 For example,
 
-  *     * The concept [ 160273004 | No family history: Hypertension (situation)|](http://snomed.info/id/160273004 "160273004 | No family history: Hypertension \(situation\) |") negates [ 160357008 | Family history: Hypertension (situation)|](http://snomed.info/id/160357008 "160357008 | Family history: Hypertension \(situation\) |") by changing the value of Finding context (attribute) to Known absent (qualifier value) with Temporal Context (attribute) of All times past (qualifier value). The parent  _IS A_ Situation with explicit context (situation) with:
+* The concept [ 160273004 | No family history: Hypertension (situation)|](http://snomed.info/id/160273004 "160273004 | No family history: Hypertension \(situation\) |") negates [ 160357008 | Family history: Hypertension (situation)|](http://snomed.info/id/160357008 "160357008 | Family history: Hypertension \(situation\) |") by changing the value of Finding context (attribute) to Known absent (qualifier value) with Temporal Context (attribute) of All times past (qualifier value). The parent  _IS A_ Situation with explicit context (situation) with:
       * Temporal context of All times past (qualifier value)
       * Associated finding of Hypertensive disorder, systemic arterial (disorder)
       * Finding context of Known absent (qualifier value)

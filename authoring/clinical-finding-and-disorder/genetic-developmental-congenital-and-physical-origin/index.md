@@ -2,7 +2,7 @@
 
 The following figure shows the structure of genetic, developmental, and congenital categories, along with non-genetic, non-developmental, and postnatal categories. A dimension, called  _extrinsic physical force_ , is included to distinguish  _deformations_ from  _malformations._ The sections of the diagram represent categories formed from the combination of the dimensions, each which represents the answer to one of the following questions:
 
-  *     * Is it genetic or not?
+* Is it genetic or not?
     * Is it developmental or not?
     * Is it present at birth or not?
     * Is it due to an extrinsic physical force or not?

@@ -6,6 +6,6 @@ Thus, all descriptions of enteritis must stipulate the specific body structure t
 
 For example,
 
-  *     * Enteritis of intestine
+* Enteritis of intestine
     * Enteritis of small intestine
 

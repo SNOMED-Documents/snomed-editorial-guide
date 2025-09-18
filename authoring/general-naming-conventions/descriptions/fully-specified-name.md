@@ -12,7 +12,7 @@ An FSN is one type of description, unique among active descriptions in SNOMED CT
 
 For example,
 
-  *     * FSN: Repair of common bile duct (procedure) - _the meaning_
+* FSN: Repair of common bile duct (procedure) - _the meaning_
     * PT: Choledochoplasty -_commonly understood clinical name_
 
 Choledochoplasty is marked as  _preferred_ in the US English Language  _Reference_ _Set;_ choledochoplasty is the  _preferred term_ for this  _concept_ in US English. 
@@ -21,7 +21,7 @@ Each new content request should have an FSN that conforms to spelling, language,
 
 A well formed FSN includes:
 
-  *     * Correct US spelling, not GB (General British) spelling 
+* Correct US spelling, not GB (General British) spelling 
     * Singular form, not plural form
     * Procedures in present tense, not past tense
     * A semantic tag in parentheses at the end 
@@ -30,7 +30,7 @@ An FSN with an approved disjunctive (although not often used), e.g., |Traumatic 
 
 An FSN should**** not have:
 
-  *     * Abbreviations or acronyms
+* Abbreviations or acronyms
       * For more information, including exceptions, see the _Abbreviations and acronyms_ section at [General Naming Conventions](General-Naming-Conventions_174691646.html)
     * Hyphens
     * Duplicate concepts
@@ -52,7 +52,7 @@ When constructing the FSN for a disorder, finding, or procedure containing a bod
 
 For example, 
 
-  *     * For the body structure concept, [ 266005 | Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005 "266005 | Structure of lower lobe of right lung \(body structure\) |") , a procedure with this body structure is [ 726425007 | Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007 "726425007 | Lobectomy of lower lobe of right lung \(procedure\) |") .
+* For the body structure concept, [ 266005 | Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005 "266005 | Structure of lower lobe of right lung \(body structure\) |") , a procedure with this body structure is [ 726425007 | Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007 "726425007 | Lobectomy of lower lobe of right lung \(procedure\) |") .
     * For the body structure concept, [ 74386004 | Nasal bone structure (body structure)|](http://snomed.info/id/74386004 "74386004 | Nasal bone structure \(body structure\) |") , a disorder concept with this body structure is [ 413878002 | Closed, displaced fracture of nasal bone (disorder)|](http://snomed.info/id/413878002 "413878002 | Closed, displaced fracture of nasal bone \(disorder\) |") .
 
 ## Unique
@@ -81,14 +81,14 @@ The following FSNs are clear and acceptable.
 
 For example,
 
-  *     * Benign neoplasm of clavicle (disorder)
+* Benign neoplasm of clavicle (disorder)
     * Excision of cyst of spleen (procedure)
 
 The following FSNs are ambiguous, and the concept should be inactivated.
 
 For example, 
 
-  *     * Standing in water side toward (finding); does not indicate _which side of what is toward what_
+* Standing in water side toward (finding); does not indicate _which side of what is toward what_
     * Lumbar ache - renal (finding); does not convey whether the lumbar ache is specifically a renal etiology or is merely located in the renal area
 
 ## Changes to FSN
@@ -133,7 +133,7 @@ They may include changing:
 
 For example,
 
-  *     *       * A _finding_ tag to a _disorder_ tag
+*       * A _finding_ tag to a _disorder_ tag
       * A _procedure_ tag to a _regime/therapy_ tag
 
 When changing a concept's semantic tag within the same top-level hierarchy, use the description inactivation reason of _Non-conformance to editorial policy_.

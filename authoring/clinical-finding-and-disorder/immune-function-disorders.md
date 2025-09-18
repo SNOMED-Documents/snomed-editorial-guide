@@ -8,7 +8,7 @@
 
 [473011001 |Allergic condition (finding)|](http://snomed.info/id/473011001) and [609405001 |Non-allergic hypersensitivity condition (finding)|](http://snomed.info/id/609405001) are both primitive concepts. Each has three main subhierarchies representing:
 
-  *     * Diseases/disorders: abnormal structures
+* Diseases/disorders: abnormal structures
     * Processes: allergic and nonallergic hypersensitivity (pseudoallergic) reactions
     * Dispositions: propensities to develop allergic and nonallergic hypersensitivity (pseudoallergic) reactions; they do not have pathophysiologic manifestations prior to allergic and nonallergic hypersensitivity (pseudoallergic) processes, i.e. reactions
 

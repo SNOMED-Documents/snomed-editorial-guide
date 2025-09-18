@@ -26,7 +26,7 @@ The national extension model does not represent intermediate layers of packaging
 
 **Existing national terminology equivalents:**
 
-  *     * UK's NHS dm+d this is the Virtual Medicinal Product Pack (VMPP) class
+* UK's NHS dm+d this is the Virtual Medicinal Product Pack (VMPP) class
     * The AMT/NZULM it is the Medicinal Product Pack
     * In Ireland, this is in effect those packaged products on the Representative Pricing list
     * The generic pack (GPCK) class in RxNorm

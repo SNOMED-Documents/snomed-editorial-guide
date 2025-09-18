@@ -15,7 +15,7 @@ Definitions must:
 
 For example,
 
-  *     * The definition for the concept [ 11530004 | Brittle diabetes mellitus (finding)|](http://snomed.info/id/11530004 "11530004 | Brittle diabetes mellitus \(finding\) |") is: 
+* The definition for the concept [ 11530004 | Brittle diabetes mellitus (finding)|](http://snomed.info/id/11530004 "11530004 | Brittle diabetes mellitus \(finding\) |") is: 
 
  _Frequent, clinically significant fluctuations in blood glucose levels both above and below levels expected to be achieved by available therapies._
 

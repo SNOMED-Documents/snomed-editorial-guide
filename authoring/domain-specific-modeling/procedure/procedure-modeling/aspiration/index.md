@@ -6,13 +6,13 @@ Aspiration is extraction using negative pressure. When modeling aspiration conce
 
 For example, 
 
-  *     *       * Paracentesis of skin (procedure) is removing a substance from within the body structure and not the body structure itself, it is modeled using Procedure site - Indirect (attribute) of Skin structure.
+*       * Paracentesis of skin (procedure) is removing a substance from within the body structure and not the body structure itself, it is modeled using Procedure site - Indirect (attribute) of Skin structure.
 
 2\. Removing body structure cells should be modeled with Procedure site - Direct (attribute) and/or Direct morphology (attribute). 
 
 For example,
 
-  *     *       * Fine needle aspiration biopsy of skin (procedure) removes part of the body structure itself, and therefore is modeled using Procedure site - Direct (attribute) of Skin structure.
+*       * Fine needle aspiration biopsy of skin (procedure) removes part of the body structure itself, and therefore is modeled using Procedure site - Direct (attribute) of Skin structure.
 
 If it is unknown whether the aspiration is removing either a _substance from within_ a body structure or the _body structure_ cells themselves, model with the broader Procedure site (attribute) and/or Procedure morphology (attribute).
 
@@ -20,13 +20,13 @@ The nature of some aspirations means the procedure site will inherently be model
 
 Example procedures using Procedure site - Direct (attribute):
 
-  *     * Fine needle aspiration biopsy
+* Fine needle aspiration biopsy
     * Bone marrow aspiration
     * Suction assisted lipectomy/Liposuction
 
 Example procedures using Procedure site - Indirect (attribute): 
 
-  *     * Centesis
+* Centesis
     * Aspiration of [space or cavity]
     * Suction of [space or cavity]
     * Barbotage 

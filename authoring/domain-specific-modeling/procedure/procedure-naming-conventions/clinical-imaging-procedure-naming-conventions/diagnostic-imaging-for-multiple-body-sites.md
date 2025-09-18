@@ -12,7 +12,7 @@ Multiple procedures or a combination of different procedures in one concept are 
 
 Unacceptable examples,
 
-  *     * Computed tomography angiography of aorta, abdomen, pelvis and lower limb
+* Computed tomography angiography of aorta, abdomen, pelvis and lower limb
     * Ultrasonography of abdomen and ultrasonography of pelvis with transrectal ultrasonography
     * Ultrasonography of pelvis and obstetric ultrasonography with transvaginal ultrasonography
     * Ultrasonography of knee and Doppler ultrasonography of vein of lower limb

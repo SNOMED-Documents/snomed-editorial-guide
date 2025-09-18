@@ -12,14 +12,14 @@ Generic drug names are not capitalized; they are lower case. When creating descr
 
 **ABVD chemotherapy regimen.** _A_ represents the trade name Adriamycin® (INN = doxorubicin):
 
-  *     * FSN: Doxorubicin, bleomycin, vinblastine and dacarbazine chemotherapy regimen (regime/therapy)
+* FSN: Doxorubicin, bleomycin, vinblastine and dacarbazine chemotherapy regimen (regime/therapy)
     * PT: ABVD chemotherapy regimen
     * Synonym: Doxorubicin, bleomycin, vinblastine and dacarbazine chemotherapy regimen
     * Synonym: ABVD chemotherapy protocol
 
 **R-CHOP chemotherapy regimen.**_H_ represents the non-INN generic name hydroxydaunomycin (INN = doxorubicin) and _O_ represents the trade name Oncovin® (INN = vincristine):
 
-  *     * FSN: Rituximab, cyclophosphamide, doxorubicin, vincristine and prednisone chemotherapy regimen (regime/therapy)
+* FSN: Rituximab, cyclophosphamide, doxorubicin, vincristine and prednisone chemotherapy regimen (regime/therapy)
     * PT: R-CHOP chemotherapy regimen
     * Synonym: Rituximab, cyclophosphamide, doxorubicin, vincristine and prednisone chemotherapy regimen
     * Synonym: R-CHOP chemotherapy protocol

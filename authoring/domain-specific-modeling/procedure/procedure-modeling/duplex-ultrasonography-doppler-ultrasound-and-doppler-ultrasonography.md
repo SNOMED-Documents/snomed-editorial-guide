@@ -17,7 +17,7 @@ Duplex ultrasonography of X (procedure)
 For example,
 
   * 1178980000 |Duplex ultrasonography of carotid artery (procedure)|
-  *     * Method (attribute) = |Duplex ultrasound (qualifier value)|
+* Method (attribute) = |Duplex ultrasound (qualifier value)|
     * Procedure site - Direct (attribute) = |Carotid artery structure (body structure)|
 
   

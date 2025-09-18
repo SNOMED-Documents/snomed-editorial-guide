@@ -105,7 +105,7 @@ Acceptable example,
 
 Unacceptable example, 
 
-  *     *  _Hand tendon ganglion excised_ indicates the procedure was done, as a past tense declarative statement. This should be in the Situation with explicit context hierarchy, not the Procedure hierarchy.
+*  _Hand tendon ganglion excised_ indicates the procedure was done, as a past tense declarative statement. This should be in the Situation with explicit context hierarchy, not the Procedure hierarchy.
 
 ## Complexity
 

@@ -43,7 +43,7 @@ This naming pattern is used when an anatomical location is specified, but the bl
 
 For example,
 
-  *     * 582101000119108 |Computed tomography angiography of head with contrast (procedure)|
+* 582101000119108 |Computed tomography angiography of head with contrast (procedure)|
       * FSN: Computed tomography angiography of head with contrast (procedure)
       * PT: CT angiography of head with contrast 
       * SYN: Computed tomography angiography of head with contrast 
@@ -73,7 +73,7 @@ For example,
 
 For example,
 
-  *     * 432842007 |Computed tomography venography of intracranial vein with contrast (procedure)|
+* 432842007 |Computed tomography venography of intracranial vein with contrast (procedure)|
       * FSN: Computed tomography venography of intracranial vein with contrast (procedure)
       * PT: CT venography of intracranial vein with contrast
       * SYN: Computed tomography venography of intracranial vein with contrast

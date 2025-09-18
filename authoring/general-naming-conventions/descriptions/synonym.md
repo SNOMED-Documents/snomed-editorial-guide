@@ -6,7 +6,7 @@ Each concept may have one or more synonyms.
 
 For example,
 
-  *     * US English synonyms for [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") are: 
+* US English synonyms for [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") are: 
       * Myocardial infarction
       * Cardiac infarction
       * Heart attack
@@ -24,7 +24,7 @@ When a synonym is more specific than the FSN, it does not have the same meaning,
 
 For example,
 
-  *     * FSN: Removal of device (procedure)
+* FSN: Removal of device (procedure)
     * SYN: Removal of prosthetic device (procedure) 
 
 _Removal of prosthetic device_ has a more specific meaning than _Removal of device_ ; therefore, the synonym _Removal of prosthetic device_ should be inactivated from the concept. 
@@ -35,7 +35,7 @@ When a synonym is more general than the FSN, and there is no context in which it
 
 For example, 
 
-  *     * FSN: Sprain (morphologic abnormality)
+* FSN: Sprain (morphologic abnormality)
     * SYN: Joint injury - more general meaning than the FSN
 
  _Joint injury_ has a more general meaning than _Sprain_ ; therefore, the synonym _Joint injury_ should be inactivated from the concept. 
@@ -60,7 +60,7 @@ For example,
 
 Preferred term - Intravascular large B-cell lymphoma
 
-  *     * 399648005 |Intravascular large B-cell lymphoma (morphologic abnormality)|
+* 399648005 |Intravascular large B-cell lymphoma (morphologic abnormality)|
 
 Preferred term - Intravascular large B-cell lymphoma
 
@@ -72,7 +72,7 @@ For example,
 
  _Abrasion_ is a description for:
 
-  *     * 8420001 |Abrasion (procedure)|, synonym Abrasion
+* 8420001 |Abrasion (procedure)|, synonym Abrasion
     * 400061001 |Abrasion (morphologic abnormality)|, preferred term Abrasion
     * 399963005 |Abrasion (disorder)|, preferred term Abrasion
 
@@ -80,51 +80,51 @@ Further examples below illustrate where a duplicate description may be published
 
 Finding vs Procedure
 
-  *     * 365680006 |Finding of 24 hour urine volume (finding)|
+* 365680006 |Finding of 24 hour urine volume (finding)|
 
 Synonym - 24 hour urine volume
 
-  *     * 271068005 |24 hour urine sample volume measurement (procedure)|
+* 271068005 |24 hour urine sample volume measurement (procedure)|
 
 Synonym - 24 hour urine volume
 
 Qualifier Value vs Procedure
 
-  *     * 708056006 |Acid fast stain technique (qualifier value)|
+* 708056006 |Acid fast stain technique (qualifier value)|
 
 Preferred term - Acid fast stain
 
-  *     * 67122001 |Acid fast stain method (procedure)|
+* 67122001 |Acid fast stain method (procedure)|
 
 Synonym - Acid fast stain
 
 Substance vs Procedure
 
-  *     * 17693003 |Acriflavine stain (substance)|
+* 17693003 |Acriflavine stain (substance)|
 
 Preferred term - Acriflavine stain
 
-  *     * 406805004 |Acriflavine stain method (procedure)|
+* 406805004 |Acriflavine stain method (procedure)|
 
 Synonym - Acriflavine stain
 
 Disposition vs Substance
 
-  *     * 734785000 |Activated coagulation factor (disposition)|
+* 734785000 |Activated coagulation factor (disposition)|
 
 Preferred term - Activated coagulation factor
 
-  *     * 116188009 |Activated coagulation factor (substance)|
+* 116188009 |Activated coagulation factor (substance)|
 
 Preferred term - Activated coagulation factor
 
 Observable entity vs Procedure
 
-  *     * 446841001 |Ankle brachial pressure index (observable entity)|
+* 446841001 |Ankle brachial pressure index (observable entity)|
 
 Preferred term - Ankle brachial pressure index
 
-  *     * 401221002 |Ankle brachial pressure index (procedure)|
+* 401221002 |Ankle brachial pressure index (procedure)|
 
 Preferred term - Ankle brachial pressure index
 
@@ -132,7 +132,7 @@ Where the case significance is deliberately different for descriptions across on
 
 For example,
 
-  *     * 59990008 |Mucopolysaccharidosis III-B (disorder)|
+* 59990008 |Mucopolysaccharidosis III-B (disorder)|
 
 Synonym - Alpha-N-acetylglucosaminidase deficiency [cI]
 

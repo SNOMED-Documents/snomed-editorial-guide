@@ -24,7 +24,7 @@ Congenital X (morphologic abnormality) concepts are being inactivated hence Cong
 
 Whether creating new or revising existing concepts, only use Congenital X (morphologic abnormality) concepts if no non-congenital supertype of that morphologic abnormality is active.  
 
-  *     * For example, use[ 399898009 |Misalignment (morphologic abnormality)|](http://snomed.info/id/399898009) not[ 102283003 |Congenital misalignment (morphologic abnormality)|](http://snomed.info/id/102283003)
+* For example, use[ 399898009 |Misalignment (morphologic abnormality)|](http://snomed.info/id/399898009) not[ 102283003 |Congenital misalignment (morphologic abnormality)|](http://snomed.info/id/102283003)
 
 According to the American Medical Association, the periods of life in the  _postnatal period_ include all periods after birth including the neonatal or immediate postpartum period. It may be challenging to differentiate a congenital disorder from a neonatal disorder. A condition may be present at birth, i.e. congenital; however, clinical manifestations may take longer to appear, i.e. during the neonatal period (e.g. [14333004 |Alloimmune neonatal neutropenia (disorder)|](http://snomed.info/id/14333004)).
 
