@@ -303,7 +303,7 @@
         * [Autoantibody](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/autoantibody.md)
         * [Conjugate acids, bases and salts](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/conjugate-acids-bases-and-salts.md)
         * [Deoxyribonucleic acid and ribonucleic acid](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/deoxyribonucleic-acid-and-ribonucleic-acid.md)
-        * [Edible substance and descendants](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/edible-substance-and-descendants.md)
+        * [Edible substances](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/edible-substance-and-descendants.md)
         * [Flap substances](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/flap-substances.md)
         * [Fractionated and unfractionated substances](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/fractionated-and-unfractionated-substances.md)
         * [Hydrates and anhydrous substances](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/hydrates-and-anhydrous-substances.md)
