@@ -26,7 +26,7 @@ Text that is protected by copyright will not be accepted for inclusion unless ac
 
 ## Style and Terms
 
-\*[Editorial Guide Style and Terms](../editorial-guide-style-and-terms.md)
+[Editorial Guide Style and Terms](../editorial-guide-style-and-terms.md)
 
 ## Audience
 
@@ -38,7 +38,7 @@ The Editorial Guide is a living document that is continually revised and updated
 
 ### Summary of Changes
 
-[Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/)\*
+[Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/)
 
 \*_Changes on this spreadsheet may include those in progress for a future publication date. The in-progress changes are available for viewing but will not be visible in the Editorial Guide until the next publication. Please note dates in bottom tab._
 
@@ -49,6 +49,3 @@ The Editorial Guide is a living document that is continually revised and updated
 ## Contact and Feedback
 
 The Editorial Guide is maintained by SNOMED International, the organization responsible for the ongoing development and distribution of SNOMED CT. Users are encouraged to provide feedback or seek clarification by contacting SNOMED International at [info@snomed.org](mailto:info@snomed.org) . Additional resources, licensing details, and membership information are available at [www.snomed.org](http://www.snomed.org).
-
-
-
