@@ -133,13 +133,9 @@ For example,
 
 1220547004 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release eye drops (clinical drug)| correctly infers a subtype of 1142217003 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release ear and eye drops (clinical drug)|.
 
-  
+## Subpages
 
-  
-
-  
-
-  
-
-  
+- [Clinical Drug with Discrete Dose Form](clinical-drug-with-discrete-dose-form.md)
+- [Clinical Drug with Continuous Dose Form](clinical-drug-with-continuous-dose-form.md)
+- [Specific Clinical drug modeling](specific-clinical-drug-modeling/index.md)
 
