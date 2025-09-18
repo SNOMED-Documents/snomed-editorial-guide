@@ -326,3 +326,7 @@ For example,
 
   *     * [ 285754008 | Contrast radiography of esophagus (procedure)|](http://snomed.info/id/285754008 "285754008 | Contrast radiography of esophagus \(procedure\) |") has Using substance of Contrast media (substance)
 
+## Subpages
+
+- [Evaluation Procedure Attributes](evaluation-procedure-attributes.md)
+

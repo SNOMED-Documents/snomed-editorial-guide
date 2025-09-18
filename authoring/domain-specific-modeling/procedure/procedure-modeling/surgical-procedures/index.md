@@ -9,3 +9,8 @@ In SNOMED CT,  _operation_ is synonymous with surgical procedure.
 Surgical procedures are not defined simply as procedures done by a surgeon (despite some dictionary definitions). Surgeons can perform many non-surgical actions and surgical procedures need not necessarily be performed by a surgeon, i.e. if a non-surgeon performs a surgical procedure, it is still a surgical procedure.
 
 The use of the term _medical procedure_ is deprecated, i.e. not recommended, because it lacks reproducible meaning. It might be defined as  _a procedure done by a physician_ , but even that is deprecated, because it is provider-specific.
+
+## Subpages
+
+- [Surgical repair](surgical-repair.md)
+- [Surgical vs. non-surgical](surgical-vs-non-surgical.md)

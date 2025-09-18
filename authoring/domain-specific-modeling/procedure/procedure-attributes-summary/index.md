@@ -78,11 +78,8 @@ When authoring in this domain, these are the approved attributes and allowable r
 | 370132008 \| Scale type (attribute) \| | 1 | 0..* | 0..1 | << 117364006 \| Narrative value (qualifier value) \| OR << 117444000 \| Text value (qualifier value) \| OR << 26716007 \| Qualitative value (qualifier value) \| OR < 398195001 \| Measurement scales (qualifier value) \| |
 | 370134009 \| Time aspect (attribute) \| | 1 | 0..1 | 0..1 | << 7389001 \| Time frame (qualifier value) \| |
 
-  
+## Subpages
 
-  
-
-  
-
-  
+- [Procedure Defining Attributes](procedure-defining-attributes.md)
+- [Procedure Attributes](procedure-attributes/index.md)
 

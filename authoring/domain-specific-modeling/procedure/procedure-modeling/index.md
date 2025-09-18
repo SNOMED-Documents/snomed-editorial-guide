@@ -99,4 +99,24 @@ Unacceptable examples,
 * ```
   * Antenatal first blood tests (procedure)
   ```
-  * Antenatal subsequent blood tests (procedure)
+## Subpages
+
+- [Aspiration](aspiration/index.md)
+- [Diathermy](diathermy.md)
+- [Division, lysis, transection, bisection](division-lysis-transection-bisection.md)
+- [Duplex ultrasonography, Doppler ultrasound, and Doppler ultrasonography](duplex-ultrasonography-doppler-ultrasound-and-doppler-ultrasonography.md)
+- [Encounter](encounter.md)
+- [Endoscopy and endoscopic procedures](endoscopy-and-endoscopic-procedures.md)
+- [Excision, incision, biopsy](excision-incision-biopsy.md)
+- [Flap procedures](flap-procedures.md)
+- [Grafting](grafting.md)
+- [Imaging](imaging/index.md)
+- [Immunization and vaccination](immunization-and-vaccination.md)
+- [Monitoring](monitoring.md)
+- [Procedure during period of life](procedure-during-period-of-life.md)
+- [Prosthetic arthroplasty of joint](prosthetic-arthroplasty-of-joint.md)
+- [Regimes and therapies](regimes-and-therapies.md)
+- [Revision](revision.md)
+- [Skeletal system](skeletal-system.md)
+- [Surgical procedures](surgical-procedures/index.md)
+- [Transplantation](transplantation.md)

@@ -117,13 +117,9 @@ For example,
 
   *     * [ 172043006 | Simple mastectomy (procedure)|](http://snomed.info/id/172043006 "172043006 | Simple mastectomy \(procedure\) |") The concept is reproducibly defined as the removal of all breast tissue without removal of axillary contents. This is differentiated from modified radical, radical, skin-sparing, and subcutaneous variants of mastectomy.
 
-  
+## Subpages
 
-  
-
-  
-
-  
-
-  
+- [Chemotherapy Regime Therapy Naming Conventions](chemotherapy-regime-therapy-naming-conventions.md)
+- [Clinical Imaging Procedure Naming Conventions](clinical-imaging-procedure-naming-conventions/index.md)
+- [Lateralized Procedure Naming Conventions](lateralized-procedure-naming-conventions.md)
 

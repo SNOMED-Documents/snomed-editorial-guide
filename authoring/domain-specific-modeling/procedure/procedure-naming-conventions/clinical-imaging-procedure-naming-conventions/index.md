@@ -12,17 +12,19 @@ For example,
     * [ 726077005 | Computed tomography arteriography of bronchial artery (procedure)|](http://snomed.info/id/726077005 "726077005 | Computed tomography arteriography of bronchial artery \(procedure\) |") has the synonym CT _angiography_ of bronchial artery
     * [ 709552006 | Computed tomography angiography of iliac artery (procedure)|](http://snomed.info/id/709552006 "709552006 | Computed tomography angiography of iliac artery \(procedure\) |") has the synonym CT _angiogram_ of iliac artery  
 
-  * [Imaging Adjustments for View, Projection, or Technique](174691334.html)
-  * [Diagnostic Imaging for Multiple Body Sites](Diagnostic-Imaging-for-Multiple-Body-Sites_174691333.html)
-  * [Nuclear Medicine - Radionuclide Imaging](Nuclear-Medicine---Radionuclide-Imaging_174691332.html)
-  * [Multi-modality Imaging: PET, CT and SPECT, CT](174691331.html)
-  * [Single Photon Emission Computed Tomography - SPECT](Single-Photon-Emission-Computed-Tomography---SPECT_174691330.html)
-  * [Positron Emission Tomography - PET](Positron-Emission-Tomography---PET_174691329.html)
-  * [Fluoroscopy and Fluoroscopic Imaging](Fluoroscopy-and-Fluoroscopic-Imaging_174691328.html)
-  * [Imaging Guided Procedure Naming](Imaging-Guided-Procedure-Naming_174691327.html)
-  * [Contrast for Imaging](Contrast-for-Imaging_174691326.html)
-  * [Magnetic Resonance Imaging - MRI](Magnetic-Resonance-Imaging---MRI_174691324.html)
-  * [Computed Tomography - CT](Computed-Tomography---CT_174691323.html)
-  * [Ultrasonography](Ultrasonography_174691322.html)
-  * [Radiographic Imaging, X-ray and Plain X-ray](174691321.html)
+## Subpages
+
+- [Imaging Adjustments for View, Projection, or Technique](imaging-adjustments-for-view-projection-or-technique.md)
+- [Diagnostic Imaging for Multiple Body Sites](diagnostic-imaging-for-multiple-body-sites.md)
+- [Nuclear Medicine - Radionuclide Imaging](nuclear-medicine-radionuclide-imaging.md)
+- [Multi-modality Imaging: PET, CT and SPECT, CT](multi-modality-imaging-pet-ct-and-spect-ct.md)
+- [Single Photon Emission Computed Tomography - SPECT](single-photon-emission-computed-tomography-spect.md)
+- [Positron Emission Tomography - PET](positron-emission-tomography-pet.md)
+- [Fluoroscopy and Fluoroscopic Imaging](fluoroscopy-and-fluoroscopic-imaging.md)
+- [Imaging Guided Procedure Naming](imaging-guided-procedure-naming.md)
+- [Contrast for Imaging](contrast-for-imaging.md)
+- [Magnetic Resonance Imaging - MRI](magnetic-resonance-imaging-mri.md)
+- [Computed Tomography - CT](computed-tomography-ct.md)
+- [Ultrasonography](ultrasonography.md)
+- [Radiographic Imaging, X-ray and Plain X-ray](radiographic-imaging-x-ray-and-plain-x-ray.md)
 

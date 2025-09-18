@@ -6,3 +6,7 @@ For example,
 
 <figure><img src="images/221184057.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 445867003 |Ultrasound angiography of arteriovenous fistula (procedure)|</p></figcaption></figure>
 
+## Subpages
+
+- [Imaging-guided procedure modeling](imaging-guided-procedure-modeling.md)
+

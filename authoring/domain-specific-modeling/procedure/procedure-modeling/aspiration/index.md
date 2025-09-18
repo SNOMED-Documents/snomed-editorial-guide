@@ -41,3 +41,7 @@ If the substance being aspirated is not stated in the FSN, do not model it, even
   *  _Exception_ : Aspiration of abscess can use Direct substance = Pus (substance). 
 
 Abscesses can be either septic (due to infection) or sterile (not due to infection). Most abscesses are septic; however, pus is characteristic of an abscess - whether septic or sterile. Model with Indirect morphology (attribute) of Abscess (morphologic abnormality) and the Direct substance (attribute) of Pus (substance). Pus does not have to be stated in the FSN. 
+
+## Subpages
+
+- [Centesis](centesis.md)
