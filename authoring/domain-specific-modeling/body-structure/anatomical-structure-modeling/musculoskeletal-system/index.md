@@ -133,3 +133,7 @@ When modeling muscle categories according to their functions, assume they mean t
   
 
  _X disorder at Y level_ concepts from ICD-11, e.g.****_skin laceration of arm at wrist level_ (precedent are terms added from ICD-9) will not be added to the SNOMED International Release.
+
+## Subpages
+
+- [Anatomy relating to the spine](anatomy-relating-to-the-spine.md)
