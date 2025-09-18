@@ -45,5 +45,7 @@ The term  _familial_ may also be ambiguous when used for broad categories. It ma
 
 It may be a challenge to classify a condition as a [32895009 |Hereditary disease (disorder)|](http://snomed.info/id/32895009).  _H_ _ereditary_ requires case-by-case definition; it cannot be applied to broad categories. Nevertheless, the names by which many diseases are known include the term, and it is permitted, as long as it does not introduce ambiguity.
 
-  
+## Subpages
+
+- [Co-occuring Genomic Disorders](co-occuring-genomic-disorders.md)
 
