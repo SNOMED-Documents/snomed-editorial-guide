@@ -1,2 +1,0 @@
-# Navigational concepts
-

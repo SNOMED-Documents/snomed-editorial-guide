@@ -1,12 +1,10 @@
 # Endoscopy and endoscopic procedures
 
-There is no need to distinguish between _endoscopy_ and _endoscopic procedure,_ as the procedure always includes inspection and may require minor incisions to allow the endoscope and other instruments to be inserted, or insertion may be via an existing orifice.   
+There is no need to distinguish between _endoscopy_ and _endoscopic procedure,_ as the procedure always includes inspection and may require minor incisions to allow the endoscope and other instruments to be inserted, or insertion may be via an existing orifice.
 
 In all endoscopic procedures, a role group with Method of Inspection - action (qualifier value) + Using Device is mandatory. For endoscopies that require an incision, the role group to represent the incision is required. Where an additional action is performed during an endoscopy, a third role group is modeled with the applicable action.
 
 ## Endoscopy/Endoscopic procedure modeling
-
-  
 
 **Inspection only via natural orifice**
 
@@ -14,17 +12,17 @@ In all endoscopic procedures, a role group with Method of Inspection - action (q
 
 Role group:
 
-  *     *       * Method = Inspection
-      * <<Procedure site = <body structure>
-      * Using device = <physical object>
+* ```
+  *       * Method = Inspection
+  ```
+  * <\<Procedure site =
+  * Using device =
 
-For example, 
+For example,
 
-  * Stated view of |Endoscopy of stomach (procedure)|
+* Stated view of |Endoscopy of stomach (procedure)|
 
-<figure><img src="images/229114166.png" alt="" title=""><figcaption><p>There can be more than 1 role group if there is more than one site. So Esophagogastroduodenoscopy (procedure) has 3 inspection role groups; one each for esophagus, stomach, and duodenum.</p></figcaption></figure>
-
-  
+<figure><img src="../../../procedure/images/229114166.png" alt=""><figcaption><p>There can be more than 1 role group if there is more than one site. So Esophagogastroduodenoscopy (procedure) has 3 inspection role groups; one each for esophagus, stomach, and duodenum.</p></figcaption></figure>
 
 **Inspection + action via natural orifice**
 
@@ -32,71 +30,81 @@ For example,
 
 Role group 1:
 
-  *     *       * Method = Inspection
-      * <<Procedure site = <body structure>
-      * Using device = <physical object>
+* ```
+  *       * Method = Inspection
+  ```
+  * <\<Procedure site =
+  * Using device =
 
 Role group 2:
 
-  *     *       * Method = <action qualifier value>
-      * <<Procedure site = <body structure>
+* ```
+  *       * Method = <action qualifier value>
+  ```
+  * <\<Procedure site =
 
 For example,
 
-  * Stated view of |Endoscopic brush biopsy of stomach (procedure)|
+* Stated view of |Endoscopic brush biopsy of stomach (procedure)|
 
-<figure><img src="images/225051467.png" alt="" title=""><figcaption><p><strong>Inspection via skin incision</strong></p></figcaption></figure>
-
-  
+<figure><img src="../../../procedure/images/225051467.png" alt=""><figcaption><p><strong>Inspection via skin incision</strong></p></figcaption></figure>
 
 **= 2 role groups of Inspection and Incision**
 
 Role group 1:
 
-  *     *       * Method = Inspection
-      * <<Procedure site = <body structure>
-      * Using device = <physical object>
+* ```
+  *       * Method = Inspection
+  ```
+  * <\<Procedure site =
+  * Using device =
 
 Role group 2:
 
-  *     *       * Method = Incision
-      * Procedure site - Direct = <body structure>
+* ```
+  *       * Method = Incision
+  ```
+  * Procedure site - Direct =
 
-For example, 
+For example,
 
-  * Stated view of |Thoracoscopy (procedure)|
+* Stated view of |Thoracoscopy (procedure)|
 
-<figure><img src="images/225051466.png" alt="" title=""><figcaption><p><strong>Inspection + action via skin incision</strong></p></figcaption></figure>
-
-  
+<figure><img src="../../../procedure/images/225051466.png" alt=""><figcaption><p><strong>Inspection + action via skin incision</strong></p></figcaption></figure>
 
 **= 3 role groups of Inspection and Incision and Action**
 
 Role group 1:
 
-  *     *       * Method = Inspection
-      * <<Procedure site = <body structure>
-      * Using device = <physical object>
+* ```
+  *       * Method = Inspection
+  ```
+  * <\<Procedure site =
+  * Using device =
 
 Role group 2:
 
-  *     *       * Method = Incision
-      * Procedure site - Direct = <body structure>
+* ```
+  *       * Method = Incision
+  ```
+  * Procedure site - Direct =
 
 Role group 3:
 
-  *     *       * Method = <action qualifier value>
-      * <<Procedure site = <body structure>
+* ```
+  *       * Method = <action qualifier value>
+  ```
+  * <\<Procedure site =
 
 For example,
 
-  * Stated view of |Thoracoscopy with biopsy (procedure)|
+* Stated view of |Thoracoscopy with biopsy (procedure)|
 
-<figure><img src="images/225051465.png" alt="" title=""></figure>
+<figure><img src="../../../procedure/images/225051465.png" alt=""><figcaption></figcaption></figure>
 
 ## Devices
 
-Endoscopes are complex pieces of equipment that support much more than just the act of visualization. However, one does not usually use the scope to access the site of the intended inspection or therapeutic procedure. 
+Endoscopes are complex pieces of equipment that support much more than just the act of visualization. However, one does not usually use the scope to access the site of the intended inspection or therapeutic procedure.
 
 USING DEVICE: When an incision RG is included in the concept model then the correct attribute for the device is USING DEVICE. For example, access to the abdominal cavity, or a joint capsule, is achieved by an ordinary incision using a scalpel blade. The laparoscope or arthroscope is then introduced into the cavity through the incision i.e. the endoscope is not the access device.
 
@@ -106,9 +114,9 @@ Naming individual scopes for procedures involving multiple body sites leads to i
 
 ## Laparoscopy
 
- _Laparoscopy_ and _laparoscopic procedure_ are synonymous. These procedures are modeled with at least two role groups:
+_Laparoscopy_ and _laparoscopic procedure_ are synonymous. These procedures are modeled with at least two role groups:
 
-Role group: 
+Role group:
 
 Method = Incision - action (qualifier value)
 
@@ -118,11 +126,8 @@ Role group:
 
 Method = Inspection - action (qualifier value)
 
-<<Procedure site = Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall (body structure)
+<\<Procedure site = Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall (body structure)
 
 Using device = Laparoscope, device (physical object)
 
-  
-
-<figure><img src="images/229114165.png" alt="" title=""><figcaption><p>Figure 1. Stated view of 73632009 |Laparoscopy (procedure)|</p></figcaption></figure>
-
+<figure><img src="../../../procedure/images/229114165.png" alt=""><figcaption><p>Figure 1. Stated view of 73632009 |Laparoscopy (procedure)|</p></figcaption></figure>
