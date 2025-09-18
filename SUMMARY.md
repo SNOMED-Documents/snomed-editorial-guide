@@ -64,7 +64,7 @@
   * [Body Structure](authoring/domain-specific-modeling/body-structure/README.md)
     * [Body Structure Attributes Summary](authoring/domain-specific-modeling/body-structure/body-structure-attributes-summary.md)
     * [Anatomical Concept Model](authoring/domain-specific-modeling/body-structure/anatomical-concept-model.md)
-      * [Laterality](authoring/domain-specific-modeling/body-structure/anatomical-concept-model/laterality/index.md)
+      * [Laterality](authoring/domain-specific-modeling/body-structure/anatomical-concept-model/laterality.md)
     * [Anatomical Structure Naming Conventions](authoring/domain-specific-modeling/body-structure/anatomical-structure-naming-conventions/index.md)
       * [Naming Convention for SEP Model](authoring/domain-specific-modeling/body-structure/anatomical-structure-naming-conventions/naming-convention-for-sep-model.md)
       * [Naming Convention for Digits of Hand and Foot](authoring/domain-specific-modeling/body-structure/anatomical-structure-naming-conventions/naming-convention-for-digits-of-hand-and-foot.md)

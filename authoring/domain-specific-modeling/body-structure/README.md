@@ -22,7 +22,7 @@ Concepts under [ 258331007 | Anatomical site notations for tumor staging (body s
 
 - [Body Structure Attributes Summary](body-structure-attributes-summary.md)
 - [Anatomical Concept Model](anatomical-concept-model.md)
-  - [Laterality](anatomical-concept-model/laterality/index.md)
+- [Laterality](anatomical-concept-model/laterality.md)
 - [Anatomical Structure Naming Conventions](anatomical-structure-naming-conventions/index.md)
 - [Anatomical Structure Modeling](anatomical-structure-modeling/index.md)
 - [Morphologic Abnormality Modeling](morphologic-abnormality-modeling/index.md)
