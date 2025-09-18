@@ -22,7 +22,15 @@ The IS\_A relationship (also called supertype-subtype or parent-child relationsh
 
 Each concept in SNOMED CT is logically defined through its relationships to other concepts. A _relationship_ is defined as an association between a source concept and a destination concept. The type of association is indicated by an attribute concept. It is the relationships that make up the defining characteristics of the concepts. A _defining characteristic_ is a relationship to a target concept that is always necessarily true for any instance of the source concept.
 
-* For example, the defining relationships of the concept 53442002 |Excision of stomach structure (procedure)| include:
-  * [116680003 | Is a (attribute)|](http://snomed.info/id/116680003) = [65801008 | Excision (procedure)|](http://snomed.info/id/65801008)
-  * [260686004 | Method (attribute)|](http://snomed.info/id/260686004) =[129304002 | Excision - action (qualifier value)|](http://snomed.info/id/129304002)
-  * [405813007 | Procedure site - Direct (attribute)|](http://snomed.info/id/405813007) =[69695003 | Stomach structure (body structure)|](http://snomed.info/id/69695003)
+For example, the defining relationships of the concept 53442002 |Excision of stomach structure (procedure)| include:
+
+{% code title="53442002 |Excision of stomach structure (procedure)|" overflow="wrap" %}
+```
+116680003 | Is a (attribute)| = 65801008 | Excision (procedure)|
+
+260686004 | Method (attribute)| = 129304002 | Excision - action (qualifier value)|
+
+405813007 | Procedure site - Direct (attribute)| = 69695003 | Stomach structure (body structure)|
+```
+{% endcode %}
+

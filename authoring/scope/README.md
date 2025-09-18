@@ -22,7 +22,7 @@ Content must be submitted with:
 * Definitions and literature references. All reference material must be publicly available. Wiki references are unacceptable.
 * Evidence of international applicability. Without international applicability, a concept should, instead, be added to the submitter's extension.
 
-For details on SNOMED International Content Request Service (CRS) Customer Guidance, see the SNOMED International [website](https://www.snomed.org/change-or-add) or the [CRS User Guide](https://prod-confluence.ihtsdotools.org/display/SCTCR/CRS+User+Guide).
+For details on SNOMED International Content Request Service (CRS) Customer Guidance, see the SNOMED International [website](https://www.snomed.org/change-or-add) or the [CRS User Guide](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/T7gOK7qF5jKUT64ZHaBu/).
 
 ### Broad use
 

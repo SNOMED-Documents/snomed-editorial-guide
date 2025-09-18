@@ -1,16 +1,27 @@
 # Knowledge Representation
 
-Knowledge representation \_\_ in SNOMED CT involves modeling what we know about concepts to be necessarily true. Concepts are logically defined by their relationships to each other. Some knowledge provides valuable clues to the diagnostician, while not necessarily always present, i.e. it is uncertain or probabilistic knowledge. Attempts to capture probabilistic or uncertain knowledge are out of the scope of SNOMED CT.
+Knowledge representation in SNOMED CT involves modeling what we know about concepts to be necessarily true. Concepts are logically defined by their relationships to each other. Some knowledge provides valuable clues to the diagnostician, while not necessarily always present, i.e. it is uncertain or probabilistic knowledge. Attempts to capture probabilistic or uncertain knowledge are out of the scope of SNOMED CT.
 
-For example:
-
-* [22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006)
+{% code title="Example Concept" overflow="wrap" %}
+```
+22298006 | Myocardial infarction (disorder)|
+```
+{% endcode %}
 
 Its terminological knowledge includes the following:
 
-* IS A: [64572001 | Disease (disorder)|](http://snomed.info/id/64572001)
-* Finding site: [74281007 | Myocardium structure (body structure)|](http://snomed.info/id/74281007)
-* Associated morphology: [55641003 | Infarct (morphologic abnormality)|](http://snomed.info/id/55641003)
+{% code title="Concept Properties" %}
+```
+IS A: 
+64572001 | Disease (disorder)|
+
+Finding site: 
+74281007 | Myocardium structure (body structure)|
+
+Associated morphology: 
+55641003 | Infarct (morphologic abnormality)|
+```
+{% endcode %}
 
 _These additional pieces of knowledge are variably present and therefore represent uncertain or probabilistic knowledge about myocardial infarction:_
 
@@ -20,15 +31,28 @@ _These additional pieces of knowledge are variably present and therefore represe
 * ST-segment elevation on EKG
 * Elevated cardiac enzymes
 
-For example:
+Another example:
 
-* [74400008 | Appendicitis (disorder)|](http://snomed.info/id/74400008)
+{% code title="Example Concept" overflow="wrap" %}
+```
+74400008 | Appendicitis (disorder)|
+```
+{% endcode %}
 
 Its terminological knowledge includes the following:
 
-* IS A: [64572001 | Disease (disorder)|](http://snomed.info/id/64572001)
-* Finding site: [66754008 | Appendix structure (body structure)|](http://snomed.info/id/66754008)
-* Associated morphology: [23583003 | Inflammation (morphologic abnormality)|](http://snomed.info/id/23583003)
+{% code title="Concept Properties" %}
+```
+IS A: 
+64572001 | Disease (disorder)|
+
+Finding site: 
+66754008 | Appendix structure (body structure)|
+
+Associated morphology: 
+23583003 | Inflammation (morphologic abnormality)|
+```
+{% endcode %}
 
 _These additional pieces of knowledge are variably present and therefore represent uncertain or probabilistic knowledge about appendicitis:_
 

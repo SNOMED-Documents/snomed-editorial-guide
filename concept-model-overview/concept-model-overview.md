@@ -8,7 +8,18 @@ The _Concept Model_ is used to specify logical definitions of _SNOMED CT_ concep
 
 #### Features
 
-* [Root and Top-level Concepts](root-and-top-level-concepts.md)
-* [Attributes](attributes.md)
-* [Defining Characteristics](defining-characteristics.md)
-* [Qualifying Characteristics](qualifying-characteristics.md)
+{% content-ref url="root-and-top-level-concepts.md" %}
+[root-and-top-level-concepts.md](root-and-top-level-concepts.md)
+{% endcontent-ref %}
+
+{% content-ref url="attributes.md" %}
+[attributes.md](attributes.md)
+{% endcontent-ref %}
+
+{% content-ref url="defining-characteristics.md" %}
+[defining-characteristics.md](defining-characteristics.md)
+{% endcontent-ref %}
+
+{% content-ref url="qualifying-characteristics.md" %}
+[qualifying-characteristics.md](qualifying-characteristics.md)
+{% endcontent-ref %}
