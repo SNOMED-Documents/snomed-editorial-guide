@@ -19,7 +19,10 @@ Therefore, the use of _patient_ and _subject_ should be used only when necessary
 Descriptions should use the word _subject_, not _patient_, if required, as _subject_ is broader than _patient_.
 
 * For example,&#x20;
-  * [420058008 | Provider of history other than subject (person)|](http://snomed.info/id/420058008)
+
+```
+420058008 | Provider of history other than subject (person)|
+```
 
 _Subject_ refers to the subject of record, who may, in some circumstances, not be the patient.
 
@@ -41,5 +44,8 @@ Descriptions with _caregiver_ should be as follows:
 
 For example,&#x20;
 
-* [425578005 | Caregiver able to cope (finding)|](http://snomed.info/id/425578005)
-  * Synonym:  Carer able to cope
+```
+425578005 | Caregiver able to cope (finding)|
+```
+
+* Synonym:  Carer able to cope

@@ -38,7 +38,7 @@ Although ‘repairment’ may be considered a valid word, its use has fallen out
 Check for approved and unapproved naming patterns in the [Precoordination Naming Pattern Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180).
 {% endhint %}
 
-### Past tense <a href="#past-tense" id="past-tense"></a>
+## Past tense <a href="#past-tense" id="past-tense"></a>
 
 A past tense verbal phrase should not be used to name a procedure, since it indicates that the procedure was done in the past.
 

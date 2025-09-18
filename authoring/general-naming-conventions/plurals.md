@@ -1,6 +1,6 @@
 # Plurals
 
-### Fully specified names (FSNs) <a href="#fully-specified-names-fsns" id="fully-specified-names-fsns"></a>
+## Fully specified names (FSNs) <a href="#fully-specified-names-fsns" id="fully-specified-names-fsns"></a>
 
 In general, concepts are represented in the singular, rather than the plural.
 
@@ -10,7 +10,7 @@ In general, concepts are represented in the singular, rather than the plural.
 
 FSNs should not be plural unless the concept necessarily involves multiples.
 
-### Unintended plurals <a href="#unintended-plurals" id="unintended-plurals"></a>
+## Unintended plurals <a href="#unintended-plurals" id="unintended-plurals"></a>
 
 _Unintended plurals_ might be incorrectly interpreted. An unintended plural is the use of a plural when, in fact, there is only one entity.
 
@@ -19,7 +19,7 @@ _Unintended plurals_ might be incorrectly interpreted. An unintended plural is t
 * Incorrect example:&#x20;
   * _Trochlear lesion_ versus _trochlear lesions;_ users would use this concept to refer to a single trochlear lesion, thus the plural form would be incorrect
 
-### Exceptions <a href="#exceptions" id="exceptions"></a>
+## Exceptions <a href="#exceptions" id="exceptions"></a>
 
 Organizational nodes or grouper concepts may be plural.&#x20;
 

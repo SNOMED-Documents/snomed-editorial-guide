@@ -1,21 +1,12 @@
 # Numbers and Numeric Ranges
 
-\
-Numbers and Numeric Ranges[Updated 2025-Sep-08](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/history/133244388)
-
-* ![Anne Randorff Højen](https://conf.spaces.snomed.org/wiki/aa-avatar/5df216c12702bc0ec7e7b054)
-
-Share
-
-## Numbers and Numeric Ranges <a href="#heading-title-text" id="heading-title-text"></a>
-
-### Roman numerals versus Arabic numbers <a href="#roman-numerals-versus-arabic-numbers" id="roman-numerals-versus-arabic-numbers"></a>
+## Roman numerals versus Arabic numbers <a href="#roman-numerals-versus-arabic-numbers" id="roman-numerals-versus-arabic-numbers"></a>
 
 Use the most common representation found in literature for the fully specified name. Use the alternative representation as a synonym, if it is also represented in the literature. If neither representation is common, use the Arabic representation. &#x20;
 
 For example, in the _AMA Manual of Style,_ cancer stages are expressed with the use of capital Roman numerals: stage I, stage II, stage III, stage IV. The term, "stage 0", usually indicates carcinoma in situ.  Histologic grades are expressed with Arabic numerals, e.g., grade 2.
 
-### Numeric ranges <a href="#numeric-ranges" id="numeric-ranges"></a>
+## Numeric ranges <a href="#numeric-ranges" id="numeric-ranges"></a>
 
 In general, content that depends on numeric ranges should not be used for precoordination.
 
