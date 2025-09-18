@@ -26,7 +26,7 @@ Text that is protected by copyright will not be accepted for inclusion unless ac
 
 ## Style and Terms
 
-[Editorial Guide Style and Terms](../editorial-guide-style-and-terms.md)
+[Editorial Guide Style and Terms](broken-reference)
 
 ## Audience
 

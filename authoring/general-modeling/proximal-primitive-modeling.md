@@ -25,7 +25,7 @@ The classifier infers all appropriate proximal supertypes. With sufficiently def
 
       [71388002 | Procedure (procedure)|](http://snomed.info/id/71388002). It has been modeled with one stated supertype and two attribute value pairs in a relationship group.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Stated view of<a href="http://snomed.info/id/702499000">702499000 | Computed tomography of humerus (procedure)|</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Stated view of<a href="http://snomed.info/id/702499000">702499000 | Computed tomography of humerus (procedure)|</a></p></figcaption></figure>
 
 The _inferred_ view shows the logical definition of the concept. By using the stated relationships (for this concept and other concepts currently in the terminology), the classifier infers three defined proximal supertypes:
 
@@ -33,7 +33,7 @@ The _inferred_ view shows the logical definition of the concept. By using the st
 * Computed tomography of upper arm (procedure)
 * Computed tomography of bone (procedure)
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Inferred view of <a href="http://snomed.info/id/702499000">702499000 | Computed tomography of humerus (procedure)|</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Inferred view of <a href="http://snomed.info/id/702499000">702499000 | Computed tomography of humerus (procedure)|</a></p></figcaption></figure>
 
 ### Multiple potential primitive supertype concepts <a href="#multiple-potential-primitive-supertype-concepts" id="multiple-potential-primitive-supertype-concepts"></a>
 

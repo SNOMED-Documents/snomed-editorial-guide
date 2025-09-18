@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # PDFs for Download
 
 Downloads of past SNOMED CT Editorial Guides can be found on this page. Users are encouraged to use the online version that is updated monthly, as the PDF versions are only updated once a year.

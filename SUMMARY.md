@@ -1,31 +1,23 @@
 # Table of contents
 
-## Introduction
-
 * [SNOMED CT Editorial Guide](README.md)
-* [Introduction to the SNOMED CT Editorial Guide](introduction/introduction-to-the-snomed-ct-editorial-guide.md)
-
-## SNOMED CT Introduction
-
-* [SNOMED CT - What and Why?](snomed-ct-introduction/snomed-ct-introduction.md)
-* [Intended Use](snomed-ct-introduction/intended-use.md)
-* [Structure of Domain Coverage](snomed-ct-introduction/structure-of-domain-coverage.md)
-* [Knowledge Representation](snomed-ct-introduction/knowledge-representation.md)
-* [Out of Scope](snomed-ct-introduction/out-of-scope.md)
-* [SNOMED CT Requirements](snomed-ct-introduction/snomed-ct-requirements/README.md)
-  * [Medical Vocabularies - J. Cimino](snomed-ct-introduction/snomed-ct-requirements/medical-vocabularies-j-cimino.md)
-  * [Electronic Health Applications](snomed-ct-introduction/snomed-ct-requirements/electronic-health-applications.md)
-  * [Implementation and Migration](snomed-ct-introduction/snomed-ct-requirements/implementation-and-migration.md)
-  * [User Communities](snomed-ct-introduction/snomed-ct-requirements/user-communities.md)
-  * [Summary of SNOMED CT Requirements](snomed-ct-introduction/snomed-ct-requirements/summary-of-snomed-ct-requirements.md)
-
-## Concept Model Overview
-
-* [Concept Model Introduction](concept-model-overview/concept-model-overview.md)
-* [Root and Top-level Concepts](concept-model-overview/root-and-top-level-concepts.md)
-* [Attributes](concept-model-overview/attributes.md)
-* [Defining Characteristics](concept-model-overview/defining-characteristics.md)
-* [Qualifying Characteristics](concept-model-overview/qualifying-characteristics.md)
+  * [Introduction to the SNOMED CT Editorial Guide](readme/introduction-to-the-snomed-ct-editorial-guide.md)
+* [SNOMED CT Introduction](snomed-ct-introduction/README.md)
+  * [Intended Use](snomed-ct-introduction/intended-use.md)
+  * [Structure of Domain Coverage](snomed-ct-introduction/structure-of-domain-coverage.md)
+  * [Knowledge Representation](snomed-ct-introduction/knowledge-representation.md)
+  * [Out of Scope](snomed-ct-introduction/out-of-scope.md)
+  * [SNOMED CT Requirements](snomed-ct-introduction/snomed-ct-requirements/README.md)
+    * [Medical Vocabularies - J. Cimino](snomed-ct-introduction/snomed-ct-requirements/medical-vocabularies-j-cimino.md)
+    * [Electronic Health Applications](snomed-ct-introduction/snomed-ct-requirements/electronic-health-applications.md)
+    * [Implementation and Migration](snomed-ct-introduction/snomed-ct-requirements/implementation-and-migration.md)
+    * [User Communities](snomed-ct-introduction/snomed-ct-requirements/user-communities.md)
+    * [Summary of SNOMED CT Requirements](snomed-ct-introduction/snomed-ct-requirements/summary-of-snomed-ct-requirements.md)
+* [Concept Model Introduction](concept-model-overview/README.md)
+  * [Root and Top-level Concepts](concept-model-overview/root-and-top-level-concepts.md)
+  * [Attributes](concept-model-overview/attributes.md)
+  * [Defining Characteristics](concept-model-overview/defining-characteristics.md)
+  * [Qualifying Characteristics](concept-model-overview/qualifying-characteristics.md)
 
 ## Authoring
 
@@ -326,10 +318,6 @@
         * [Substances specifying intact, fragment or subunit](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/substances-specifying-intact-fragment-or-subunit.md)
         * [Substances specifying physical state or physical form](authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/substances-specifying-physical-state-or-physical-form.md)
     * [Supporting hierarchy - Disposition](authoring/substance/supporting-hierarchy-disposition.md)
-
-## Editorial Guide Style and Terms
-
-* [Editorial Guide Style and Terms](editorial-guide-style-and-terms.md)
 
 ***
 
