@@ -36,7 +36,8 @@ In some cases the disease process is irrefutable, e.g. meningococcal meningitis.
 
 * [Clinical Finding Attributes Summary](clinical-finding-attributes-summary.md)
 * [Clinical Finding Defining Attributes](clinical-finding-defining-attributes.md)
-* [Clinical Finding and Disorder Naming Conventions](clinical-finding-and-disorder-naming-conventions.md)
+* [Clinical Finding and Disorder Naming Conventions](clinical-finding-and-disorder-naming-conventions/index.md)
+  * [Lateralized Disorder Naming Conventions](clinical-finding-and-disorder-naming-conventions/lateralized-disorder-naming-conventions.md)
 * [Clinical finding and Disorder Modeling](clinical-finding-and-disorder-modeling.md)
   * [Specific Clinical finding and Disorder Modeling](specific-clinical-finding-and-disorder-modeling.md)
   * [Disorder Combination Modeling](disorder-combination-modeling.md)

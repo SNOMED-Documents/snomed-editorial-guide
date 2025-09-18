@@ -181,3 +181,7 @@ For example, [870465001 | Excessive intake of vitamin A and vitamin A derivative
 FSN: Excessive intake of vitamin A and vitamin A derivative (finding)
 
 PT: Excessive intake of vitamin A and vitamin A derivative
+
+## Subpages
+
+- [Lateralized Disorder Naming Conventions](lateralized-disorder-naming-conventions.md)
