@@ -81,5 +81,10 @@ Pharmaceutical dose forms with two or more intended sites will use “and” in 
 
 Pharmaceutical dose forms with two or more administration methods is a less common requirement, thus requests for this type of dose form are reviewed on a case by case basis.
 
-  
+## Subpages
+
+- [Pharmaceutical Dose Form Naming and Modeling Conventions](pharmaceutical-dose-form-naming-and-modeling-conventions.md)
+- [Pharmaceutical Dose Form Grouper Based on Intended Site](pharmaceutical-dose-form-grouper-based-on-intended-site.md)
+- [Pharmaceutical Dose Form Grouper Without Basic Dose Form](pharmaceutical-dose-form-grouper-without-basic-dose-form.md)
+- [Pharmaceutical Dose Form Supporting Hierarchies](pharmaceutical-dose-form-supporting-hierarchies/index.md)
 
