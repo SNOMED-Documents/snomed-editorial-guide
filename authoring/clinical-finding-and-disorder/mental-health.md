@@ -4,7 +4,7 @@ Dependence-related concepts which express the current existence of abuse are acc
 
 For example,
 
-  *     * [191816009 |Drug dependence (disorder)|](http://snomed.info/id/191816009)
+* [191816009 |Drug dependence (disorder)|](http://snomed.info/id/191816009)
 
 Dependence-related concepts which express the pattern as either continuous or episodic are not acceptable. 
 
@@ -50,7 +50,7 @@ Concepts containing X without Y are considered on a case-by-case basis.
 
 Acceptable example:
 
-  *     * [724735003 |Oppositional defiant disorder without chronic irritability-anger (disorder)|](http://snomed.info/id/724735003)
+* [724735003 |Oppositional defiant disorder without chronic irritability-anger (disorder)|](http://snomed.info/id/724735003)
 
 Unacceptable example: 
 

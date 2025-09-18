@@ -11,5 +11,5 @@ _Techniques_ , as qualifier values, should include the word _technique_ in their
 
 For example,
 
-  *     * [ 702658000 | Microbial culture technique (qualifier value)|](http://snomed.info/id/702658000 "702658000 | Microbial culture technique \(qualifier value\) |")
+* [ 702658000 | Microbial culture technique (qualifier value)|](http://snomed.info/id/702658000 "702658000 | Microbial culture technique \(qualifier value\) |")
 

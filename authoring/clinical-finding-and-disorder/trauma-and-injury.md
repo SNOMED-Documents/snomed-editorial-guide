@@ -26,14 +26,14 @@ An injury due to  _friction_ can be represented using [400152004 |Friction injur
 
 For example,
 
-  *     * [47222000 |Friction injury of tooth (disorder)|](http://snomed.info/id/47222000)
+* [47222000 |Friction injury of tooth (disorder)|](http://snomed.info/id/47222000)
     * [400068007 |Mechanical irritation (morphologic abnormality)|](http://snomed.info/id/400068007)
 
 However, most disorders that are named  _abrasion_ imply that skin or other tissue has been abraded (scraped or worn away). Thus, they are also considered wounds and will correctly classify as wounds after assigning the correct morphology, [400061001 |Abrasion (morphologic abnormality)|](http://snomed.info/id/400061001). 
 
 For example,
 
-  *     * [211039006 |Abrasion of skin of chest (disorder)|](http://snomed.info/id/211039006)
+* [211039006 |Abrasion of skin of chest (disorder)|](http://snomed.info/id/211039006)
 
 While many medical definitions refer to abrasions as superficial injuries of the skin and subcutaneous structures, the term is also used for areas such as dentistry to define superficial excoriations of teeth, ophthalmology, and also can be used for other integumentary structures such as nails. The FSN should clearly identify which structure the concept refers to and where this structure is skin, this must be specified.
 

@@ -36,7 +36,7 @@ Concepts of the type |Assessment using X assessment scale (procedure)| are model
 
 For example, 
 
-  *     * [ 445719003 | Assessment using visual analog pain scale (procedure)|](http://snomed.info/id/445719003 "445719003 | Assessment using visual analog pain scale \(procedure\) |") has a parent of [ 445536008 | Assessment using assessment scale (procedure)|](http://snomed.info/id/445536008 "445536008 | Assessment using assessment scale \(procedure\) |")
+* [ 445719003 | Assessment using visual analog pain scale (procedure)|](http://snomed.info/id/445719003 "445719003 | Assessment using visual analog pain scale \(procedure\) |") has a parent of [ 445536008 | Assessment using assessment scale (procedure)|](http://snomed.info/id/445536008 "445536008 | Assessment using assessment scale \(procedure\) |")
 
 Concepts of the type |X scale score (observable entity)| are modeled with a proximal primitive parent of  [ 782487009 | Assessment score (observable entity)|](http://snomed.info/id/782487009 "782487009 | Assessment score \(observable entity\) |") or one of its subtypes, as appropriate.
 

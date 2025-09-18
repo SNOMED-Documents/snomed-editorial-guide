@@ -12,7 +12,7 @@ There is not a vein actually named  _retinal vein_. However,  _SNOMED CT_ has co
 
 For example,
 
-  *     * [85003000 |Structure of retinal vein (body structure)|](http://snomed.info/id/85003000) has the synonym  _retinal vein_.
+* [85003000 |Structure of retinal vein (body structure)|](http://snomed.info/id/85003000) has the synonym  _retinal vein_.
     * [280927000 |Entire central vein of the retina (body structure)|](http://snomed.info/id/280927000) has the synonym  _entire central retinal vein._
 
 ## Orbital region

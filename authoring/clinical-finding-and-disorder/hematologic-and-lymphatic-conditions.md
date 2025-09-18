@@ -16,11 +16,11 @@ The morphology (neoplastic diseases, at a minimum, include those morphologies co
 
 For example,
 
-  *     * [118599009 |Hodgkin's disease (disorder)|](http://snomed.info/id/118599009) has [128930002 |Hodgkin lymphoma - category (morphologic abnormality)|](http://snomed.info/id/128930002). The body site involved (especially specific lymph node groups or skin sites).
+* [118599009 |Hodgkin's disease (disorder)|](http://snomed.info/id/118599009) has [128930002 |Hodgkin lymphoma - category (morphologic abnormality)|](http://snomed.info/id/128930002). The body site involved (especially specific lymph node groups or skin sites).
 
 For example,
 
-  *     * [400122007 |Primary cutaneous T-cell lymphoma (disorder)|](http://snomed.info/id/400122007) has Finding site, skin structure (body structure)
+* [400122007 |Primary cutaneous T-cell lymphoma (disorder)|](http://snomed.info/id/400122007) has Finding site, skin structure (body structure)
 
 For some disorders, like T-cell lymphomas, and plasma cell and immunosecretory disorders, it is important to distinguish those defined by morphology, site, or manifestation.
 

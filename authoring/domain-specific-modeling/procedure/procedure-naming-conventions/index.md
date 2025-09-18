@@ -54,7 +54,7 @@ An _anatomical site_ is the direct object of the action. The name of the site sh
 
 For example,
 
-  *     * [ 175253007 | Repair of pulmonary artery (procedure)|](http://snomed.info/id/175253007 "175253007 | Repair of pulmonary artery \(procedure\) |")
+* [ 175253007 | Repair of pulmonary artery (procedure)|](http://snomed.info/id/175253007 "175253007 | Repair of pulmonary artery \(procedure\) |")
 
 The action is  _repair_ and the site is _pulmonary artery_. The action is listed first in the description, followed by the site.
 
@@ -72,7 +72,7 @@ A _device_ is the direct object of the action**.** The word(s) naming the device
 
 For example, 
 
-  *     * [ 392247006 | Insertion of catheter into artery (procedure)|](http://snomed.info/id/392247006 "392247006 | Insertion of catheter into artery \(procedure\) |") The action is _insertion_ , the direct object is _catheter_ , and the indirect site is _artery_.
+* [ 392247006 | Insertion of catheter into artery (procedure)|](http://snomed.info/id/392247006 "392247006 | Insertion of catheter into artery \(procedure\) |") The action is _insertion_ , the direct object is _catheter_ , and the indirect site is _artery_.
 
 ## Substance
 
@@ -80,7 +80,7 @@ A _substance_ is the direct object of the action**.** The word(s) that name the 
 
 For example,
 
-  *     * [ 427258004 | Injection of hormone into subcutaneous tissue (procedure)|](http://snomed.info/id/427258004 "427258004 | Injection of hormone into subcutaneous tissue \(procedure\) |") The action is _injection_ , the direct object is _hormone_ , and the indirect site is  _subcutaneous tissue_.
+* [ 427258004 | Injection of hormone into subcutaneous tissue (procedure)|](http://snomed.info/id/427258004 "427258004 | Injection of hormone into subcutaneous tissue \(procedure\) |") The action is _injection_ , the direct object is _hormone_ , and the indirect site is  _subcutaneous tissue_.
 
 ## Morphologic abnormality
 
@@ -88,9 +88,9 @@ A _morphologic abnormality_ is the direct object of the action.**** The morpholo
 
 For example,
 
-  *     * [ 41180005 | Excision of cyst of breast (procedure)|](http://snomed.info/id/41180005 "41180005 | Excision of cyst of breast \(procedure\) |") The action is _e_ _xcision_ , the direct object is the morphologic abnormality  _cyst_ , and the site is  _breast_.
+* [ 41180005 | Excision of cyst of breast (procedure)|](http://snomed.info/id/41180005 "41180005 | Excision of cyst of breast \(procedure\) |") The action is _e_ _xcision_ , the direct object is the morphologic abnormality  _cyst_ , and the site is  _breast_.
 
-  *     * [ 175376008 | Operation on aneurysm of carotid artery (procedure)|](http://snomed.info/id/175376008 "175376008 | Operation on aneurysm of carotid artery \(procedure\) |") The action is _operation_ , the direct object is the morphologic abnormality _aneurysm_ , and the site is _carotid artery._
+* [ 175376008 | Operation on aneurysm of carotid artery (procedure)|](http://snomed.info/id/175376008 "175376008 | Operation on aneurysm of carotid artery \(procedure\) |") The action is _operation_ , the direct object is the morphologic abnormality _aneurysm_ , and the site is _carotid artery._
 
 ##  Past tense verbs and sentence types
 
@@ -101,7 +101,7 @@ A procedure concept should be a noun phrase that names the procedure. It should 
 
 Acceptable example, 
 
-  *     * [ 11227005 | Excision of ganglion of tendon sheath of hand (procedure)|](http://snomed.info/id/11227005 "11227005 | Excision of ganglion of tendon sheath of hand \(procedure\) |") This __ is an acceptable FSN expressed with a noun phrase.
+* [ 11227005 | Excision of ganglion of tendon sheath of hand (procedure)|](http://snomed.info/id/11227005 "11227005 | Excision of ganglion of tendon sheath of hand \(procedure\) |") This __ is an acceptable FSN expressed with a noun phrase.
 
 Unacceptable example, 
 
@@ -115,7 +115,7 @@ Procedures that use the terms  _simple_ or _complex_ are allowed if defined with
 
 For example,
 
-  *     * [ 172043006 | Simple mastectomy (procedure)|](http://snomed.info/id/172043006 "172043006 | Simple mastectomy \(procedure\) |") The concept is reproducibly defined as the removal of all breast tissue without removal of axillary contents. This is differentiated from modified radical, radical, skin-sparing, and subcutaneous variants of mastectomy.
+* [ 172043006 | Simple mastectomy (procedure)|](http://snomed.info/id/172043006 "172043006 | Simple mastectomy \(procedure\) |") The concept is reproducibly defined as the removal of all breast tissue without removal of axillary contents. This is differentiated from modified radical, radical, skin-sparing, and subcutaneous variants of mastectomy.
 
 ## Subpages
 

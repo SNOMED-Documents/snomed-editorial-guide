@@ -15,7 +15,7 @@ Use organism X or organism Y when a laboratory report indicates a single isolate
 
 For example, 
 
-  *     * [ 703015006 | Human coxsackievirus or human echovirus (finding)|](http://snomed.info/id/703015006 "703015006 | Human coxsackievirus or human echovirus \(finding\) |")
+* [ 703015006 | Human coxsackievirus or human echovirus (finding)|](http://snomed.info/id/703015006 "703015006 | Human coxsackievirus or human echovirus \(finding\) |")
 
 ## Organism X, not organism Y
 
@@ -23,7 +23,7 @@ Use organism X, not organism Y when a laboratory report indicates a class of org
 
 For example,
 
-  *     * [ 115407004 | Haemophilus influenzae, not b (organism)|](http://snomed.info/id/115407004 "115407004 | Haemophilus influenzae, not b \(organism\) |")
+* [ 115407004 | Haemophilus influenzae, not b (organism)|](http://snomed.info/id/115407004 "115407004 | Haemophilus influenzae, not b \(organism\) |")
 
 Exception
 
@@ -31,7 +31,7 @@ The common term _yeast_ can refer to two separate classes: 1) a morphologic form
 
 For example,
 
-  *     * [ 769071006 | Yeast not Candida albicans detected (finding)|](http://snomed.info/id/769071006 "769071006 | Yeast not Candida albicans detected \(finding\) |")
+* [ 769071006 | Yeast not Candida albicans detected (finding)|](http://snomed.info/id/769071006 "769071006 | Yeast not Candida albicans detected \(finding\) |")
 
 ## Genus X, not species Y and not species Z
 

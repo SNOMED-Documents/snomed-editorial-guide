@@ -12,7 +12,7 @@ The ___Method_ (attribute) is used to model both the objective of a procedure an
 
 For example,
 
-  *     * [79433000 |Closure of colon fistula (procedure)|](http://snomed.info/id/79433000) has Method (attribute), Closure - action (qualifier value) with a parent, Repair of colon (procedure)
+* [79433000 |Closure of colon fistula (procedure)|](http://snomed.info/id/79433000) has Method (attribute), Closure - action (qualifier value) with a parent, Repair of colon (procedure)
 
 ### Plastic repair
 

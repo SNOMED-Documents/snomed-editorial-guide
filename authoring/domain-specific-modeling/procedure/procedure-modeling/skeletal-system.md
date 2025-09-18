@@ -4,7 +4,7 @@ Since the skeletal system includes bones and cartilage, it is possible to have a
 
 For example,
 
-  *     * [77825002 |Division of cartilage of wrist (procedure)|](http://snomed.info/id/77825002) is a procedure on the skeletal system (procedure)
+* [77825002 |Division of cartilage of wrist (procedure)|](http://snomed.info/id/77825002) is a procedure on the skeletal system (procedure)
 
 SNOMED CT considers the  _skeletal system subdivision_ part of the entire bone (system). This may change if there are procedures on cartilaginous skeleton that involve skeletal system subdivisions.
 
@@ -33,7 +33,7 @@ This is unnecessary; procedures that do not explicitly involve division are mode
 
 For example, 
 
-  *     * [74011006 |Open reduction of fracture of tibia and fibula with internal fixation (procedure)|](http://snomed.info/id/74011006)
+* [74011006 |Open reduction of fracture of tibia and fibula with internal fixation (procedure)|](http://snomed.info/id/74011006)
 
   
 

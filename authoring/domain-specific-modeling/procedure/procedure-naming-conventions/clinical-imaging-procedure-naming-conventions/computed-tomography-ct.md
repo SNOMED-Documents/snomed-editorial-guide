@@ -26,7 +26,7 @@ The word  _scan_ is not systematically added in new descriptions and should not 
 
 For example,
 
-  *     * [ 241566009 | Computed tomography of elbow (procedure)|](http://snomed.info/id/241566009 "241566009 | Computed tomography of elbow \(procedure\) |")
+* [ 241566009 | Computed tomography of elbow (procedure)|](http://snomed.info/id/241566009 "241566009 | Computed tomography of elbow \(procedure\) |")
       * FSN:  Computed tomography of elbow (procedure)
       * PT: CT of elbow
       * SYN: Computed tomography of elbow
@@ -89,7 +89,7 @@ For example,
 
 For example,
 
-  *     * [ 418940000 | Computed tomography arthrography of intratarsal joint (procedure)|](http://snomed.info/id/418940000 "418940000 | Computed tomography arthrography of intratarsal joint \(procedure\) |")
+* [ 418940000 | Computed tomography arthrography of intratarsal joint (procedure)|](http://snomed.info/id/418940000 "418940000 | Computed tomography arthrography of intratarsal joint \(procedure\) |")
       * FSN: Computed tomography arthrography of intratarsal joint (procedure)
       * PT: CT arthrogram of intratarsal joint 
       * SYN: CT arthrography of intratarsal joint

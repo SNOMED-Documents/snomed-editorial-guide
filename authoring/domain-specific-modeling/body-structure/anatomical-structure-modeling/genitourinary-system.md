@@ -15,7 +15,7 @@ The urinary tract proper includes the organs involved in the excretion of urine 
 
 For example, 
 
-  *     * [41368006 |Disorder of urinary tract proper (disorder)|](http://snomed.info/id/41368006)
+* [41368006 |Disorder of urinary tract proper (disorder)|](http://snomed.info/id/41368006)
     * [249273002 |Finding of urinary tract proper (finding)|](http://snomed.info/id/249273002)
     * [7163005 |Urinary tract obstruction (disorder)|](http://snomed.info/id/7163005)
     * [255150000 |Carcinoma in situ of urinary tract proper (disorder)|](http://snomed.info/id/255150000)

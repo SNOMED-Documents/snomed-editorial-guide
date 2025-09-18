@@ -8,7 +8,7 @@ Organ excision. Any excisional act involving the organ; usually  _(organ)-ectomy
 
 For example, 
 
-  *     * [23968004 |Excision of colon (procedure)|](http://snomed.info/id/23968004) or one of the synonyms, Colectomy
+* [23968004 |Excision of colon (procedure)|](http://snomed.info/id/23968004) or one of the synonyms, Colectomy
 
 ## Complete or total excision
 
@@ -16,7 +16,7 @@ Concepts may include  _complete_ or  _total_ to indicate complete removal or exc
 
 For example, 
 
-  *     * [63016009 |Total resection of urinary bladder (procedure)|](http://snomed.info/id/63016009) with the synonyms Complete cystectomy, Total excision of bladder, and etc
+* [63016009 |Total resection of urinary bladder (procedure)|](http://snomed.info/id/63016009) with the synonyms Complete cystectomy, Total excision of bladder, and etc
 
 ## Partial excision
 
@@ -24,7 +24,7 @@ Concepts may include  _partial_ __ to indicate removal or excision of part of th
 
 For example, 
 
-  *     * [708929007 |Laparoscopic partial excision of kidney using robotic assistance (procedure)|](http://snomed.info/id/708929007) or one of the synonyms, Partial nephrectomy, laparoscopic with robot assistance
+* [708929007 |Laparoscopic partial excision of kidney using robotic assistance (procedure)|](http://snomed.info/id/708929007) or one of the synonyms, Partial nephrectomy, laparoscopic with robot assistance
 
 ## Lesion or tissue
 
@@ -32,7 +32,7 @@ Concepts may indicate removal of a lesion or tissue; excision of a lesion or tis
 
 For example, 
 
-  *     * [72106008 |Excision of lesion of liver (procedure)|](http://snomed.info/id/72106008)
+* [72106008 |Excision of lesion of liver (procedure)|](http://snomed.info/id/72106008)
     * [69031006 |Excision of breast tissue (procedure)|](http://snomed.info/id/69031006)
 
 The word  _lesion_ can be used to refer to both structural and functional abnormalities. If a  _procedure_ refers to a lesion that is a structural abnormality, then model with a [405816004 |Procedure morphology (attribute)|](http://snomed.info/id/405816004) of <<[ 52988006 |Lesion (morphologic abnormality)|](http://snomed.info/id/52988006).
@@ -43,7 +43,7 @@ Excisional biopsy of organ generally means that  _tissue_ or a  _lesion_ or  _su
 
 For example, 
 
-  *     * [116237003 |Excisional biopsy of lesion of rectum by transanal approach (procedure)|](http://snomed.info/id/116237003)
+* [116237003 |Excisional biopsy of lesion of rectum by transanal approach (procedure)|](http://snomed.info/id/116237003)
 
 ## Incision
 
@@ -51,7 +51,7 @@ An organ incision is any incisional act involving the organ; usually  _(organ)-o
 
 For example, 
 
-  *     * [45558009 |Incision of lung (procedure)|](http://snomed.info/id/45558009) or the synonym, pneumonotomy
+* [45558009 |Incision of lung (procedure)|](http://snomed.info/id/45558009) or the synonym, pneumonotomy
 
 Any _ incision_ procedure that does not necessarily involve division (as opposed to ordinarily does not involve division) remains primitive without an available negation operator
 
@@ -61,13 +61,13 @@ Incisional biopsy of organ; incisional biopsy of lesion of organ; usually with o
 
 For example,
 
-  *     * [237378001 |Incisional biopsy of breast (procedure)|](http://snomed.info/id/237378001)
+* [237378001 |Incisional biopsy of breast (procedure)|](http://snomed.info/id/237378001)
 
 A  _biopsy_ may not be an excision.
 
 For example, 
 
-  *     * [445713002 |Brush biopsy of endocervix (procedure)|](http://snomed.info/id/445713002)
+* [445713002 |Brush biopsy of endocervix (procedure)|](http://snomed.info/id/445713002)
     * [48426002 |Fine needle biopsy of kidney (procedure)|](http://snomed.info/id/48426002)
 
   

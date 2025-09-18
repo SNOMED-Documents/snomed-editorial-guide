@@ -10,7 +10,7 @@ There are very few imaging procedures which are truly _multi-modality_ procedure
 
 For example,
 
-  *     * [ 16554361000119106 | Positron emission tomography with computed tomography of brain (procedure)|](http://snomed.info/id/16554361000119106 "16554361000119106 | Positron emission tomography with computed tomography of brain \(procedure\) |")
+* [ 16554361000119106 | Positron emission tomography with computed tomography of brain (procedure)|](http://snomed.info/id/16554361000119106 "16554361000119106 | Positron emission tomography with computed tomography of brain \(procedure\) |")
       * FSN: Positron emission tomography with computed tomography of brain (procedure)
       * PT: PET CT of brain
       * SYN: Positron emission tomography with computed tomography of brain
@@ -23,7 +23,7 @@ For example,
 
 For example,
 
-  *     * [ 16534151000119105 | Single photon emission computed tomography with computed tomography of liver (procedure)|](http://snomed.info/id/16534151000119105 "16534151000119105 | Single photon emission computed tomography with computed tomography of liver \(procedure\) |")
+* [ 16534151000119105 | Single photon emission computed tomography with computed tomography of liver (procedure)|](http://snomed.info/id/16534151000119105 "16534151000119105 | Single photon emission computed tomography with computed tomography of liver \(procedure\) |")
       * FSN: Single photon emission computed tomography with computed tomography of liver (procedure)
       * PT: Single photon emission computed tomography with computed tomography of liver
       * SYN: SPECT CT of liver

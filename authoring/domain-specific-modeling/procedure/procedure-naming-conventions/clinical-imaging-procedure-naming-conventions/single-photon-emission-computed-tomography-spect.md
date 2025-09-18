@@ -8,7 +8,7 @@
 
 For example,
 
-  *     * [ 709549003 | Single photon emission computed tomography of heart (procedure)|](http://snomed.info/id/709549003 "709549003 | Single photon emission computed tomography of heart \(procedure\) |")
+* [ 709549003 | Single photon emission computed tomography of heart (procedure)|](http://snomed.info/id/709549003 "709549003 | Single photon emission computed tomography of heart \(procedure\) |")
       * FSN:  Single photon emission computed tomography of heart (procedure)
       * PT:  Single photon emission computed tomography of heart
       * SYN:  SPECT of heart

@@ -8,7 +8,7 @@ A second group has a Method (attribute) of Aspiration - action (qualifier value)
 
 For example,
 
-  *     * [91602002 |Thoracentesis (procedure)|](http://snomed.info/id/91602002) has:
+* [91602002 |Thoracentesis (procedure)|](http://snomed.info/id/91602002) has:
       * Role group 1:
         * Method = Puncture - action
         * Procedure site - Direct (attribute) = Pleural membrane structure (body structure)

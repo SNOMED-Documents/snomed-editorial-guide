@@ -6,7 +6,7 @@ Concepts which describe adjacent structures, imaged in one procedure, are accept
 
 For example,
 
-  *     * [ 432672003 | Magnetic resonance imaging of pelvis and hip (procedure)|](http://snomed.info/id/432672003 "432672003 | Magnetic resonance imaging of pelvis and hip \(procedure\) |")
+* [ 432672003 | Magnetic resonance imaging of pelvis and hip (procedure)|](http://snomed.info/id/432672003 "432672003 | Magnetic resonance imaging of pelvis and hip \(procedure\) |")
 
 Multiple procedures or a combination of different procedures in one concept are unacceptable.
 

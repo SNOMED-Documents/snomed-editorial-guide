@@ -18,7 +18,7 @@ General naming pattern: Property, Component, Direct Site
 
 For example,
 
-  *     * [416125006 |Concentration of hemoglobin in erythrocyte (observable entity)|](http://snomed.info/id/416125006)
+* [416125006 |Concentration of hemoglobin in erythrocyte (observable entity)|](http://snomed.info/id/416125006)
 
   
 

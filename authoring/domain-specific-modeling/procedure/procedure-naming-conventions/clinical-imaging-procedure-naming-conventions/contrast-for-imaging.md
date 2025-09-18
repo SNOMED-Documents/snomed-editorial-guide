@@ -4,7 +4,7 @@ It is essential to express when contrast is part of a procedure and that descrip
 
 For example,
 
-  *     * [ 702501008 | Computed tomography of knee with contrast (procedure)|](http://snomed.info/id/702501008 "702501008 | Computed tomography of knee with contrast \(procedure\) |")
+* [ 702501008 | Computed tomography of knee with contrast (procedure)|](http://snomed.info/id/702501008 "702501008 | Computed tomography of knee with contrast \(procedure\) |")
       * FSN: Computed tomography of knee with contrast (procedure) 
       * PT: CT of knee with contrast
       * SYN: Computed tomography of knee with contrast 
@@ -29,7 +29,7 @@ Although considered a negation, this term is used in clinical records.  _Without
 
 For example,****
 
-  *     * [ 566341000119106 | Computed tomography of ankle without contrast (procedure)|](http://snomed.info/id/566341000119106 "566341000119106 | Computed tomography of ankle without contrast \(procedure\) |")
+* [ 566341000119106 | Computed tomography of ankle without contrast (procedure)|](http://snomed.info/id/566341000119106 "566341000119106 | Computed tomography of ankle without contrast \(procedure\) |")
       * FSN: Computed tomography of ankle without contrast (procedure)
       * PT: CT of ankle without contrast
       * SYN: Computed tomography of ankle without contrast

@@ -6,7 +6,7 @@ The word  _tumor_ has two primary meanings: a mass, regardless of whether it is 
 
 For example, 
 
-  *     * [92385005 |Benign neoplasm of small intestine (disorder)|](http://snomed.info/id/722671009)
+* [92385005 |Benign neoplasm of small intestine (disorder)|](http://snomed.info/id/722671009)
 
 ## Primary malignant neoplasm
 

@@ -71,7 +71,7 @@ For example,
 
 For example,
 
-  *     * [ 281666001 | Family history of disorder (situation)|](http://snomed.info/id/281666001 "281666001 | Family history of disorder \(situation\) |") , combined with [ 246090004 | Associated finding (attribute)|](http://snomed.info/id/246090004 "246090004 | Associated finding \(attribute\) |") = [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") . These two concepts indicate a family history of myocardial infarction.
+* [ 281666001 | Family history of disorder (situation)|](http://snomed.info/id/281666001 "281666001 | Family history of disorder \(situation\) |") , combined with [ 246090004 | Associated finding (attribute)|](http://snomed.info/id/246090004 "246090004 | Associated finding \(attribute\) |") = [ 22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006 "22298006 | Myocardial infarction \(disorder\) |") . These two concepts indicate a family history of myocardial infarction.
 
 **Concept or expression in an EHR field.** A concept is placed in a field with a predefined meaning in an electronic health record. The meaning is conveyed by the context in which it is recorded. 
 

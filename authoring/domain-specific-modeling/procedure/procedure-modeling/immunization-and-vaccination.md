@@ -4,6 +4,6 @@ Immunization may be active (introduction of a vaccine) or passive (introduction 
 
 For example,
 
-  *     * [38598009 |Measles-mumps-rubella vaccination (procedure)|](http://snomed.info/id/38598009) has  _vaccination_ in all descriptions
+* [38598009 |Measles-mumps-rubella vaccination (procedure)|](http://snomed.info/id/38598009) has  _vaccination_ in all descriptions
     * [86198006 |Influenza vaccination (procedure)|](http://snomed.info/id/86198006) has the synonym, influenza  _immunization_
 

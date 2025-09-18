@@ -8,9 +8,9 @@ The use of _near synonyms_ __ is acceptable for clinical imaging procedures:
 
 For example,
 
-  *     * [ 79516005 | Renal arteriography (procedure)|](http://snomed.info/id/79516005 "79516005 | Renal arteriography \(procedure\) |") has the synonym renal angiography
-    * [ 726077005 | Computed tomography arteriography of bronchial artery (procedure)|](http://snomed.info/id/726077005 "726077005 | Computed tomography arteriography of bronchial artery \(procedure\) |") has the synonym CT _angiography_ of bronchial artery
-    * [ 709552006 | Computed tomography angiography of iliac artery (procedure)|](http://snomed.info/id/709552006 "709552006 | Computed tomography angiography of iliac artery \(procedure\) |") has the synonym CT _angiogram_ of iliac artery  
+* [ 79516005 | Renal arteriography (procedure)|](http://snomed.info/id/79516005 "79516005 | Renal arteriography \(procedure\) |") has the synonym renal angiography
+* [ 726077005 | Computed tomography arteriography of bronchial artery (procedure)|](http://snomed.info/id/726077005 "726077005 | Computed tomography arteriography of bronchial artery \(procedure\) |") has the synonym CT _angiography_ of bronchial artery
+* [ 709552006 | Computed tomography angiography of iliac artery (procedure)|](http://snomed.info/id/709552006 "709552006 | Computed tomography angiography of iliac artery \(procedure\) |") has the synonym CT _angiogram_ of iliac artery  
 
 ## Subpages
 

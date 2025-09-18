@@ -8,7 +8,7 @@
 
 For example,
 
-  *     * [ 702767007 | Positron emission tomography of whole body (procedure)|](http://snomed.info/id/702767007 "702767007 | Positron emission tomography of whole body \(procedure\) |")   
+* [ 702767007 | Positron emission tomography of whole body (procedure)|](http://snomed.info/id/702767007 "702767007 | Positron emission tomography of whole body \(procedure\) |")   
 
       * FSN: Positron emission tomography of whole body (procedure)
       * PT: PET of whole body

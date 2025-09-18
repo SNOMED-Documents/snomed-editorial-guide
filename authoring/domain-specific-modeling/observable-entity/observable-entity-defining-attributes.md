@@ -25,7 +25,7 @@ This attribute is used to specify the entity on which the observation is directl
 
 For example, 
 
-  *     * [ 415974002 | Core body temperature measured at tympanic membrane (observable entity)|](http://snomed.info/id/415974002 "415974002 | Core body temperature measured at tympanic membrane \(observable entity\) |") has the [ 704327008 | Direct site (attribute)|](http://snomed.info/id/704327008 "704327008 | Direct site \(attribute\) |") of 42859004 |Tympanic membrane structure (body structure)|
+* [ 415974002 | Core body temperature measured at tympanic membrane (observable entity)|](http://snomed.info/id/415974002 "415974002 | Core body temperature measured at tympanic membrane \(observable entity\) |") has the [ 704327008 | Direct site (attribute)|](http://snomed.info/id/704327008 "704327008 | Direct site \(attribute\) |") of 42859004 |Tympanic membrane structure (body structure)|
 
 ## Has realization
 
@@ -33,7 +33,7 @@ This attribute is used to specify the process or activity that is the consequenc
 
 For example, 
 
-  *     * [ 282097004 | Ability to walk (observable entity)|](http://snomed.info/id/282097004 "282097004 | Ability to walk \(observable entity\) |") [ 719722006 | Has realization (attribute)|](http://snomed.info/id/719722006 "719722006 | Has realization \(attribute\) |") of 870595007 |Walking (qualifier value)|
+* [ 282097004 | Ability to walk (observable entity)|](http://snomed.info/id/282097004 "282097004 | Ability to walk \(observable entity\) |") [ 719722006 | Has realization (attribute)|](http://snomed.info/id/719722006 "719722006 | Has realization \(attribute\) |") of 870595007 |Walking (qualifier value)|
 
 ## Inherent location
 
@@ -185,7 +185,7 @@ This attribute is used to specify the instrument or equipment utilized to execut
 
 For example, 
 
-  *     * [ 415921007 | Temperature of forehead using skin strip thermometer (observable entity)|](http://snomed.info/id/415921007 "415921007 | Temperature of forehead using skin strip thermometer \(observable entity\) |") has  _[ 424226004 | Using device (attribute)|](http://snomed.info/id/424226004 "424226004 | Using device \(attribute\) |") _of 448916003 |Skin strip thermometer (physical object)|
+* [ 415921007 | Temperature of forehead using skin strip thermometer (observable entity)|](http://snomed.info/id/415921007 "415921007 | Temperature of forehead using skin strip thermometer \(observable entity\) |") has  _[ 424226004 | Using device (attribute)|](http://snomed.info/id/424226004 "424226004 | Using device \(attribute\) |") _of 448916003 |Skin strip thermometer (physical object)|
 
   
 

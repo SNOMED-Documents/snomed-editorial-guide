@@ -12,7 +12,7 @@ Descriptions:
 
 For example, 
 
-  *     * [ 6007000 | Magnetic resonance imaging of chest (procedure)|](http://snomed.info/id/6007000 "6007000 | Magnetic resonance imaging of chest \(procedure\) |")
+* [ 6007000 | Magnetic resonance imaging of chest (procedure)|](http://snomed.info/id/6007000 "6007000 | Magnetic resonance imaging of chest \(procedure\) |")
       * FSN: Magnetic resonance imaging of chest (procedure)
       * PT: MRI of chest
       * SYN: Magnetic resonance imaging of chest
@@ -28,7 +28,7 @@ Descriptions:
 
 For example, 
 
-  *     * [ 432103005 | Magnetic resonance angiography of carotid artery (procedure)|](http://snomed.info/id/432103005 "432103005 | Magnetic resonance angiography of carotid artery \(procedure\) |")
+* [ 432103005 | Magnetic resonance angiography of carotid artery (procedure)|](http://snomed.info/id/432103005 "432103005 | Magnetic resonance angiography of carotid artery \(procedure\) |")
       * FSN: Magnetic resonance angiography of carotid artery (procedure)
       * PT: Magnetic resonance angiography of carotid artery
       * SYN: Magnetic resonance angiogram of carotid artery
@@ -45,7 +45,7 @@ Descriptions:
 
 For example,
 
-  *     * [ 21101000087100 | Magnetic resonance venography of limb (procedure)|](http://snomed.info/id/21101000087100 "21101000087100 | Magnetic resonance venography of limb \(procedure\) |")
+* [ 21101000087100 | Magnetic resonance venography of limb (procedure)|](http://snomed.info/id/21101000087100 "21101000087100 | Magnetic resonance venography of limb \(procedure\) |")
       * FSN: Magnetic resonance venography of limb (procedure)
       * PT: Magnetic resonance venography of extremity
       * SYN: Magnetic resonance venography of limb
@@ -61,7 +61,7 @@ Descriptions:
 
 For example, 
 
-  *     * [ 19741000087109 | Magnetic resonance arthrography of right knee (procedure)|](http://snomed.info/id/19741000087109 "19741000087109 | Magnetic resonance arthrography of right knee \(procedure\) |")
+* [ 19741000087109 | Magnetic resonance arthrography of right knee (procedure)|](http://snomed.info/id/19741000087109 "19741000087109 | Magnetic resonance arthrography of right knee \(procedure\) |")
       * FSN: Magnetic resonance arthrography of right knee (procedure)
       * PT: Magnetic resonance arthrography of right knee
       * SYN: MR arthrography of right knee

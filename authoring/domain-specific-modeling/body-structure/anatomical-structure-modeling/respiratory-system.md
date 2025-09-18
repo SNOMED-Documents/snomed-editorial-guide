@@ -32,14 +32,14 @@ SNOMED CT differentiates between the bone underlying the nasal turbinates and th
 
 Bones underlying the turbinates,
 
-  *     * [118648008 |Inferior nasal turbinate bone structure (body structure)|](http://snomed.info/id/118648008)
+* [118648008 |Inferior nasal turbinate bone structure (body structure)|](http://snomed.info/id/118648008)
     * [122491002 |Middle nasal turbinate bone structure (body structure)|](http://snomed.info/id/122491002)
     * [122492009 |Superior nasal turbinate bone structure (body structure)|](http://snomed.info/id/122492009)
     * [122493004 |Supreme nasal turbinate bone structure (body structure)|](http://snomed.info/id/122493004)
 
 Turbinates, which include bone, overlying mucous membranes, and other tissue,
 
-  *     * [6553002 |Inferior nasal turbinate structure (body structure)|](http://snomed.info/id/6553002)
+* [6553002 |Inferior nasal turbinate structure (body structure)|](http://snomed.info/id/6553002)
     * [122491002 |Middle nasal turbinate bone structure (body structure)|](http://snomed.info/id/122491002)
     * [65289004 |Superior nasal turbinate structure (body structure)|](http://snomed.info/id/65289004)
     * [33415007 |Supreme nasal turbinate structure (body structure)|](http://snomed.info/id/33415007)

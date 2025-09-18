@@ -19,6 +19,6 @@ The preferred name of  _division of adhesions_ concepts can be changed to  _lysi
 
 For example,
 
-  *     * [53176004 |Transection of muscle of eye (procedure)|](http://snomed.info/id/53176004)
+* [53176004 |Transection of muscle of eye (procedure)|](http://snomed.info/id/53176004)
     * [60158005 |Bilateral bisection of ovary (procedure)|](http://snomed.info/id/60158005)
 

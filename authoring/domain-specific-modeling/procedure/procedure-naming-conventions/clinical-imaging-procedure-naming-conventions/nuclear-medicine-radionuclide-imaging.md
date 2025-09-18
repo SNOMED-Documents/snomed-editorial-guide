@@ -10,7 +10,7 @@ Nuclear medicine imaging uses radionuclides or radioisotopes.
 
 For example, 
 
-  *     * [ 710313004 | Radionuclide scan of peritoneal cavity (procedure)|](http://snomed.info/id/710313004 "710313004 | Radionuclide scan of peritoneal cavity \(procedure\) |")
+* [ 710313004 | Radionuclide scan of peritoneal cavity (procedure)|](http://snomed.info/id/710313004 "710313004 | Radionuclide scan of peritoneal cavity \(procedure\) |")
       * FSN: Radionuclide scan of peritoneal cavity (procedure)
       * PT: Radionuclide scan of peritoneal cavity
       * SYN: Radioisotope scan of peritoneal cavity
@@ -23,7 +23,7 @@ For example,
 
 For example,
 
-  *     * [ 710312009 | Radionuclide scan of perfusion of liver using technetium Tc^99m^ aggregated albumin (procedure)|](http://snomed.info/id/710312009 "710312009 | Radionuclide scan of perfusion of liver using technetium Tc^99m^ aggregated albumin \(procedure\) |")
+* [ 710312009 | Radionuclide scan of perfusion of liver using technetium Tc^99m^ aggregated albumin (procedure)|](http://snomed.info/id/710312009 "710312009 | Radionuclide scan of perfusion of liver using technetium Tc^99m^ aggregated albumin \(procedure\) |")
       * FSN: Radionuclide scan of perfusion of liver using technetium Tc^99m^ aggregated albumin (procedure)
       * PT: Radionuclide scan of perfusion of liver using technetium Tc^99m^ aggregated albumin
       * SYN: Radioisotope scan of perfusion of liver using technetium Tc^99m^ aggregated albumin

@@ -12,7 +12,7 @@ When Associated finding is used in post-coordinated expressions, its range is br
 
 For example,
 
-  *     * [ 443999008 | Risk of exposure to communicable disease (situation)|](http://snomed.info/id/443999008 "443999008 | Risk of exposure to communicable disease \(situation\) |") with Associated finding, Exposure to communicable disease (event)
+* [ 443999008 | Risk of exposure to communicable disease (situation)|](http://snomed.info/id/443999008 "443999008 | Risk of exposure to communicable disease \(situation\) |") with Associated finding, Exposure to communicable disease (event)
 
 For example, to create the concept, History of thyroid disease in father, 
 
@@ -31,7 +31,7 @@ This attribute represents a situation in which a Clinical finding or Event is kn
 
 For example,
 
-  *     * [ 161922009 | No cough (situation)|](http://snomed.info/id/161922009 "161922009 | No cough \(situation\) |") with Associated finding, Cough (finding) and Finding context, Known absent (qualifier value)
+* [ 161922009 | No cough (situation)|](http://snomed.info/id/161922009 "161922009 | No cough \(situation\) |") with Associated finding, Cough (finding) and Finding context, Known absent (qualifier value)
 
 _Subject relationship context_ and _Temporal context_ are used with Situations, Findings, and Procedures with Explicit Context.
 
@@ -41,7 +41,7 @@ This attribute is used to specify the subject of the Clinical finding or Procedu
 
 For example,
 
-  *     * [ 161077003 | Father smokes (situation)|](http://snomed.info/id/161077003 "161077003 | Father smokes \(situation\) |") with Associated finding, Smoker (finding) and Subject relationship context, Father of subject (person)
+* [ 161077003 | Father smokes (situation)|](http://snomed.info/id/161077003 "161077003 | Father smokes \(situation\) |") with Associated finding, Smoker (finding) and Subject relationship context, Father of subject (person)
 
 Observables about someone other than the subject of record are included in the Observable entity hierarchy, not the Situation with explicit context hierarchy, e.g,. 443722004 |Educational level of parent of subject (observable entity).
 
@@ -51,7 +51,7 @@ This attribute indicates the  _time_ of the procedure or finding. It may be  _ac
 
 For example,
 
-  *     * [ 161550001 | History of hematuria (situation)|](http://snomed.info/id/161550001 "161550001 | History of hematuria \(situation\) |") with Associated finding, Blood in urine (finding) and Temporal context, In the past (qualifier value)
+* [ 161550001 | History of hematuria (situation)|](http://snomed.info/id/161550001 "161550001 | History of hematuria \(situation\) |") with Associated finding, Blood in urine (finding) and Temporal context, In the past (qualifier value)
 
 _Associated procedure_ and _Procedure context_ are used with Procedures with Explicit Context.
 
@@ -61,7 +61,7 @@ This attribute links concepts in the Situation with explicit context hierarchy t
 
 For example, 
 
-  *     * [ 183976008 | Operative procedure planned (situation)|](http://snomed.info/id/183976008 "183976008 | Operative procedure planned \(situation\) |") with Associated procedure, Surgical procedure (procedure)
+* [ 183976008 | Operative procedure planned (situation)|](http://snomed.info/id/183976008 "183976008 | Operative procedure planned \(situation\) |") with Associated procedure, Surgical procedure (procedure)
 
 ## Procedure context
 
@@ -69,5 +69,5 @@ This attribute indicates the degree of completion, or status, of a Procedure, as
 
 For example,
 
-  *     * [ 183976008 | Operative procedure planned (situation)|](http://snomed.info/id/183976008 "183976008 | Operative procedure planned \(situation\) |") with Procedure context, Planned (qualifier value)
+* [ 183976008 | Operative procedure planned (situation)|](http://snomed.info/id/183976008 "183976008 | Operative procedure planned \(situation\) |") with Procedure context, Planned (qualifier value)
 

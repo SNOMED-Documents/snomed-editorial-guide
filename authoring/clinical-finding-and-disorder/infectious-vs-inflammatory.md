@@ -4,14 +4,14 @@ Disorders with the suffix "-itis" (e.g. cystitis, prostatitis, tonsillitis, appe
 
 For inflammatory conditions whose FSNs specify an  _infective_  _cause_ , the modeling should include:
 
-  *     * [|Causative agent (attribute)|](http://snomed.org/-fictid) with the specified organism 
+* [|Causative agent (attribute)|](http://snomed.org/-fictid) with the specified organism 
     * [|Pathological process (attribute)|](http://snomed.org/-fictid) with the type of infectious process
     * [|Associated morphology (attribute)|](http://snomed.org/-fictid) with Inflammatory morphology or subtype
     * [|Finding site (attribute)|](http://snomed.org/-fictid) with a body structure when known
 
 For inflammatory conditions whose FSNs do  _not_ specify an infective cause, an infectious cause should neither be assumed nor modeled when the FSN does not specify it. The modeling would then exclude a Causative agent and Pathological process and should include only:
 
-  *     * [|Associated morphology (attribute)|](http://snomed.org/-fictid) of Inflammatory morphology or subtype
+* [|Associated morphology (attribute)|](http://snomed.org/-fictid) of Inflammatory morphology or subtype
     * [|Finding site (attribute)|](http://snomed.org/-fictid) with a body structure when known
 
 Example of inflammatory  _and_ infectious disorder,

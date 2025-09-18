@@ -26,21 +26,21 @@ When modeling organisms with qualifiers, the qualifier should be placed in front
 
 For example, a non-Linnaean class of bacteria described by morphology
 
-  *     * [ 8745002 | Gram-positive bacterium (organism)|](http://snomed.info/id/8745002 "8745002 | Gram-positive bacterium \(organism\) |")
+* [ 8745002 | Gram-positive bacterium (organism)|](http://snomed.info/id/8745002 "8745002 | Gram-positive bacterium \(organism\) |")
     * [ 416983001 | Helical Gram-negative bacillus (organism)|](http://snomed.info/id/416983001 "416983001 | Helical Gram-negative bacillus \(organism\) |")
 
 ### Physiology qualifiers****
 
 For example, a non-Linnaean class of bacteria described by physiology
 
-  *     * [ 59343002 | Anaerobic bacteria (organism)|](http://snomed.info/id/59343002 "59343002 | Anaerobic bacteria \(organism\) |")
+* [ 59343002 | Anaerobic bacteria (organism)|](http://snomed.info/id/59343002 "59343002 | Anaerobic bacteria \(organism\) |")
     * [ 417454003 | Non-motile Salmonella (organism)|](http://snomed.info/id/417454003 "417454003 | Non-motile Salmonella \(organism\) |")
 
 ### Resistance / susceptibility qualifiers
 
 For example, A non-Linnaean class of bacteria described by antimicrobial susceptibility
 
-  *     * [ 712662001 | Carbapenem resistant Enterobacteriaceae (organism)|](http://snomed.info/id/712662001 "712662001 | Carbapenem resistant Enterobacteriaceae \(organism\) |")
+* [ 712662001 | Carbapenem resistant Enterobacteriaceae (organism)|](http://snomed.info/id/712662001 "712662001 | Carbapenem resistant Enterobacteriaceae \(organism\) |")
     * [ 417943000 | Methicillin susceptible Staphylococcus aureus (organism)|](http://snomed.info/id/417943000 "417943000 | Methicillin susceptible Staphylococcus aureus \(organism\) |")
 
 Organisms with resistance-type qualifiers, i.e. where the qualifiers refer to the resistance phenotype and the organisms that are defined by the mechanism underlying the resistance phenotype, appear in the literature and are sometimes used interchangeably. However, in creating new concepts, these terms should be distinguished as they are separate concepts. For resistance-type qualifiers, use the antimicrobial agent as opposed to the enzyme that the organism is producing against the said antimicrobial agent.
