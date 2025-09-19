@@ -8,8 +8,7 @@ When a primitive concept is a child of one or more concepts and a parent of one 
 
 * For example,
   * [41969006 | Idiopathic disease (disorder)|](http://snomed.info/id/41969006)
-
-Without a stated IS\_A relationship to the proximal primitive concept Idiopathic disease (disorder), a concept will not classify as a subtype of Idiopathic disease (disorder).&#x20;
+    * Without a stated IS\_A relationship to the proximal primitive concept Idiopathic disease (disorder), a concept will not classify as a subtype of Idiopathic disease (disorder).&#x20;
 
 Identifying all subtypes is important when creating a subset or when Identifying relevant content during data retrieval. Therefore, when adding new concepts, potential _primitive parents_ need to be identified and the IS\_A relationship stated.&#x20;
 
