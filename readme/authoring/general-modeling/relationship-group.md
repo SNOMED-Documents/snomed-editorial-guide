@@ -71,8 +71,12 @@ In the concept [302619004 | Cholecystectomy and exploration of bile duct (proced
 
 When there is no _Method_ stated, the [363704007 | Procedure site (attribute)|](http://snomed.info/id/363704007) (or its subtype either _Procedure site-direct_ or _Procedure site-indirect_) is always grouped with [405816004 | Procedure morphology (attribute)|](http://snomed.info/id/405816004) (or its subtype either _Direct morphology_ or _Indirect morphology_) for that site.
 
+{% hint style="success" %}
+Self-grouped Procedure attributes
+
 * [260870009 | Priority (attribute)|](http://snomed.info/id/260870009) is to be grouped on its own, or "self-grouped", as the priority of a procedure applies to the entire procedure and not the specific elements of the procedure.
 * 363702006 |Has focus (attribute)| is also self-grouped.
+{% endhint %}
 
 ## Clinical Finding/Disorder hierarchy
 
