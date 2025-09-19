@@ -2,6 +2,11 @@
 
 * [SNOMED CT Editorial Guide](README.md)
   * [Introduction to the SNOMED CT Editorial Guide](readme/introduction-to-the-snomed-ct-editorial-guide.md)
+* [Concept Model Introduction](concept-model-overview/README.md)
+  * [Root and Top-level Concepts](concept-model-overview/root-and-top-level-concepts.md)
+  * [Attributes](concept-model-overview/attributes.md)
+  * [Defining Characteristics](concept-model-overview/defining-characteristics.md)
+  * [Qualifying Characteristics](concept-model-overview/qualifying-characteristics.md)
 * [SNOMED CT Introduction](snomed-ct-introduction/README.md)
   * [Intended Use](snomed-ct-introduction/intended-use.md)
   * [Structure of Domain Coverage](snomed-ct-introduction/structure-of-domain-coverage.md)
@@ -13,11 +18,6 @@
     * [Implementation and Migration](snomed-ct-introduction/snomed-ct-requirements/implementation-and-migration.md)
     * [User Communities](snomed-ct-introduction/snomed-ct-requirements/user-communities.md)
     * [Summary of SNOMED CT Requirements](snomed-ct-introduction/snomed-ct-requirements/summary-of-snomed-ct-requirements.md)
-* [Concept Model Introduction](concept-model-overview/README.md)
-  * [Root and Top-level Concepts](concept-model-overview/root-and-top-level-concepts.md)
-  * [Attributes](concept-model-overview/attributes.md)
-  * [Defining Characteristics](concept-model-overview/defining-characteristics.md)
-  * [Qualifying Characteristics](concept-model-overview/qualifying-characteristics.md)
 
 ## Authoring
 
