@@ -7,19 +7,15 @@ All fully specified names (FSN) should be represented in US English. When there 
   * PT-US: Benign tumor of endocrine pancreas
   * PT-GB: Benign tumour of endocrine pancreas
 
-{% hint style="warning" %}
+{% hint style="success" %}
 **Proper nouns**
 
 Where an FSN represents the name of an organization or trademarked name, a synonym with variant GB or US spelling is not required.
 {% endhint %}
 
-| References for Spelling | References                                                                                                                                                               | Notes                                                                                                                                                 |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US-GB differences       | <p>Wikipedia, the free encyclopedia*</p><p>*Note: Wikipedia may be used as a starting point, or source, for authoritative references, but not as an actual reference</p> | <ul><li>First point of reference</li><li>Provides a summary for authors, addresses many US-GB spelling differences, and provides references</li></ul> |
-| US Medical English      | <p>Stedman's Medical Dictionary</p><p>Merriam-Webster Online Dictionary</p><p>American Medical Association (AMA) Manual of Style</p>                                     | NA                                                                                                                                                    |
-| GB English              | <p>Dorland's Medical Dictionary - medical terminology</p><p>Chambers 21st Century Dictionary - general</p>                                                               | NA                                                                                                                                                    |
+<table><thead><tr><th width="201.65625">References for Spelling</th><th>References</th><th>Notes</th></tr></thead><tbody><tr><td>US-GB differences</td><td><p>Wikipedia, the free encyclopedia*</p><p>*Note: Wikipedia may be used as a starting point, or source, for authoritative references, but not as an actual reference</p></td><td><ul><li>First point of reference</li><li>Provides a summary for authors, addresses many US-GB spelling differences, and provides references</li></ul></td></tr><tr><td>US Medical English</td><td><p>Stedman's Medical Dictionary</p><p>Merriam-Webster Online Dictionary</p><p>American Medical Association (AMA) Manual of Style</p></td><td>NA</td></tr><tr><td>GB English</td><td><p>Dorland's Medical Dictionary - medical terminology</p><p>Chambers 21st Century Dictionary - general</p></td><td>NA</td></tr></tbody></table>
 
-{% hint style="warning" %}
+{% hint style="success" %}
 Oxford English Dictionary spelling is different from British English. A summary of the points of difference can be found at [http://en.wikipedia.org/wiki/Oxford\_spelling\_](http://en.wikipedia.org/wiki/Oxford_spelling_). In those cases where British English and Oxford English Dictionary differ, SNOMED CT follows the British English spelling.
 
 The addition of an Oxford English Dictionary term is allowed but not required. When added, it should be marked as acceptable in the British English dialect. In some cases, it is also accepted or preferred in US English.
