@@ -13,7 +13,7 @@
       * [Implementation and Migration](readme/snomed-ct-introduction/snomed-ct-requirements/implementation-and-migration.md)
       * [User Communities](readme/snomed-ct-introduction/snomed-ct-requirements/user-communities.md)
       * [Summary of SNOMED CT Requirements](readme/snomed-ct-introduction/snomed-ct-requirements/summary-of-snomed-ct-requirements.md)
-  * [Concept Model Introduction](readme/concept-model-overview/README.md)
+  * [Introduction to Concept Model](readme/concept-model-overview/README.md)
     * [Root and Top-level Concepts](readme/concept-model-overview/root-and-top-level-concepts.md)
     * [Attributes](readme/concept-model-overview/attributes.md)
     * [Defining Characteristics](readme/concept-model-overview/defining-characteristics.md)
