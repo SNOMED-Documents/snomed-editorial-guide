@@ -49,7 +49,7 @@ For example,
 * For the body structure concept, [74386004 | Nasal bone structure (body structure)|](http://snomed.info/id/74386004) , a disorder concept with this body structure is [413878002 | Closed, displaced fracture of nasal bone (disorder)|](http://snomed.info/id/413878002).
 
 {% hint style="info" %}
-For information on acceptable precoordinated naming patterns, see the [_Pre-coordination Naming Patterns project_](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project)_._ New content should conform with the naming patterns; however, legacy content may not yet be updated.
+For information on acceptable precoordinated naming patterns, see the [_Pre-coordination Naming Patterns project_](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project)_._ New content should conform with the naming patterns; however, legacy content may not yet be updated.
 {% endhint %}
 
 ## Unique
