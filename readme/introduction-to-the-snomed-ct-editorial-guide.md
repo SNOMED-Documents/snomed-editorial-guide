@@ -10,41 +10,21 @@ The Editorial Guide provides the rules, conventions, and principles required to 
 
 ## Scope
 
-[Video introduction to the Editorial Guide](https://drive.google.com/file/d/1OuQixcCCM1N-BuKxTH6LDfvggTB1NJM7/view?usp=sharing)
-
-This guide covers the editorial policies for precoordinated content, meaning concepts and rules applicable to all precoordinated SNOMED CT content. Rules specific only to postcoordinated content are not included; these are managed separately through the MRCM ([Machine Readable Concept Model](https://browser.ihtsdotools.org/mrcm)) tool . It also provides information on concept modeling, naming conventions, inactivation, attributes, and rules for specific hierarchies.
-
-{% hint style="warning" %}
-_**These guidelines should be applied to new content. While there are many concepts in the existing content that are not in compliance with this guidance, the process of correcting existing content will be carried out as time and resources permit.**_
-{% endhint %}
-
-{% hint style="info" %}
-The Editorial Guide publishes only the rules that apply to precoordinated content. That is, the rules where the 'Content Type' is one of the following - |All SNOMED CT content|, |All precoordinated SNOMED CT content|, or |All new precoordinated SNOMED CT content|. The rules that are **not** published in the Editorial Guide are the ones that apply only to |All postcoordinated content|. See the different content types and rules in the MRCM maintenance tool at .
-{% endhint %}
+This guide covers the editorial policies for precoordinated content, meaning concepts and rules applicable to all precoordinated SNOMED CT content. Rules specific only to postcoordinated content are not included; these are managed separately through the MRCM ([Machine Readable Concept Model](https://browser.ihtsdotools.org/mrcm)) browser . It also provides information on concept modeling, naming conventions, inactivation, attributes, and rules for specific hierarchies.
 
 Text that is protected by copyright will not be accepted for inclusion unless accompanied by a release from the copyright holder.
 
-## Style and Terms
-
-[Editorial Guide Style and Terms](broken-reference)
-
 ## Audience
 
-The primary audience of the Editorial Guide is SNOMED International editors responsible for maintaining the International Release. However, it is also relevant for extension developers, implementers, and others involved in clinical terminology management . For national or local extension work, the _Extensions Practical Guide_ offers complementary guidance.
+The primary audience of the Editorial Guide is SNOMED International editors responsible for maintaining the International Release. However, it is also relevant for extension developers, implementers, and others involved in clinical terminology management . For national or local extensions, the [Extensions Practical Guide](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/3RKZIWpWFT0ocCgNT16E/) offers complementary guidance.
 
 ## Review Cycle
 
-The Editorial Guide is a living document that is continually revised and updated. The online version is updated monthly, reflecting the latest editorial decisions, while the PDF edition is published annually for archival and offline reference . Users are encouraged to rely on the online guide for the most current information.
+The Editorial Guide is a living document that is continually revised and updated. The online version is updated monthly, reflecting the latest editorial decisions. &#x20;
 
-### Summary of Changes
+[Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/)\*
 
-[Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/)
-
-\*_Changes on this spreadsheet may include those in progress for a future publication date. The in-progress changes are available for viewing but will not be visible in the Editorial Guide until the next publication. Please note dates in bottom tab._
-
-### Previous Versions
-
-[Broken link](broken-reference "mention")
+\*_Changes on this spreadsheet may include those in progress for a future publication date.  The in-progress changes are available for viewing but will not be visible in the Editorial Guide until the next publication.  Please note dates in bottom tab._ &#x20;
 
 ## Contact and Feedback
 
