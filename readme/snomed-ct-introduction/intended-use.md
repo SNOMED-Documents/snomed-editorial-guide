@@ -13,6 +13,16 @@ The purpose of SNOMED CT is to represent clinically relevant information reliabl
 * Effective use of clinical information consistently and reproducibly
 * Use of clinical information for statistical and reporting purposes
 
+## Why use SNOMED CT?
+
+It supports semantic interoperability and multi-purpose use within electronic health applications (primarily electronic health records or EHRs) and has many advantages over other terminologies. They include:
+
+* Consistent, and formal expansion of, content through centralized authoring and maintenance (International Release)
+* Flexibility to meet most terminological requirements based on national, regional, language, application, or customer (Extensions)
+* Clear, singular meaning of concepts
+* Reliable, consistent, and reproducible clinical documentation
+* Enhanced high-quality healthcare delivery to individuals and populations
+
 ## Semantic Interoperability
 
 The overall semantic interoperability of electronic health applications  is achieved through the combined functioning of the information architecture of the application and the terminology that populates it. A basic principle of SNOMED CT is to create and maintain semantic interoperability of clinical information. _Semantic interoperability_ is the capability of two or more systems to communicate and exchange information. Each system should be able to interpret the meaning of, and effectively use, received information. To achieve this goal, the meaning of the information must be agreed upon, consistent, and clearly expressed.
