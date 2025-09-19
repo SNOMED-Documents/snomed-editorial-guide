@@ -7,7 +7,7 @@ See glossary for definition here:
 
 ***
 
-* For some, but not all concepts, it is a top level concept e.g., Procedure.
+* For some, but not all concepts, the proximal primitive parent is a top level concept, e.g., Procedure.
 * The proximal primitive supertype may also be an intermediate primitive concept located between the top level concept and the concept in question.&#x20;
 * There may be more than one proximal primitive supertype for a concept.
 
@@ -23,7 +23,7 @@ The classifier infers all appropriate proximal supertypes. With sufficiently def
 * For example,
   *   The proximal primitive supertype for this concept is
 
-      [71388002 | Procedure (procedure)|](http://snomed.info/id/71388002). It has been modeled with one stated supertype and two attribute value pairs in a relationship group.
+      [71388002 | Procedure (procedure)|](http://snomed.info/id/71388002).  It has been modeled with one stated supertype and two attribute value pairs in a relationship group.
 
 <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Stated view of<a href="http://snomed.info/id/702499000">702499000 | Computed tomography of humerus (procedure)|</a></p></figcaption></figure>
 
@@ -37,7 +37,7 @@ The _inferred_ view shows the logical definition of the concept. By using the st
 
 ### Multiple potential primitive supertype concepts <a href="#multiple-potential-primitive-supertype-concepts" id="multiple-potential-primitive-supertype-concepts"></a>
 
-Where more than one potential primitive supertype is identified for a concept, authors should check the primitive supertypes for subsumption of one or more other primitive supertypes. Any subsuming concept is not a PP supertype.&#x20;
+Where more than one potential primitive supertype is identified for a concept, authors should check the primitive supertypes for subsumption of one or more other primitive supertypes. Any subsuming concept is not a proximal primitive supertype.&#x20;
 
 * For example,&#x20;
   *   There is more than one potential primitive supertype for

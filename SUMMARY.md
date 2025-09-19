@@ -44,7 +44,6 @@
       * [General Concept Inclusions - GCIs](readme/authoring/general-modeling/general-concept-inclusions-gcis.md)
       * [Grouper Concept](readme/authoring/general-modeling/grouper-concept.md)
       * [Intermediate Primitive Concept Modeling](readme/authoring/general-modeling/intermediate-primitive-concept-modeling.md)
-      * [Laterality](readme/authoring/general-modeling/laterality.md)
       * [Proximal Primitive Modeling](readme/authoring/general-modeling/proximal-primitive-modeling.md)
       * [Relationship Group](readme/authoring/general-modeling/relationship-group.md)
       * [Sufficiently Defined vs Primitive Concept](readme/authoring/general-modeling/sufficiently-defined-vs-primitive-concept.md)
