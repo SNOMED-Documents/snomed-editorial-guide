@@ -13,19 +13,11 @@ The purpose of SNOMED CT is to represent clinically relevant information reliabl
 * Effective use of clinical information consistently and reproducibly
 * Use of clinical information for statistical and reporting purposes
 
-## Why use SNOMED CT?
-
-It supports semantic interoperability and multi-purpose use within electronic health applications (primarily electronic health records or EHRs) and has many advantages over other terminologies. They include:
-
-* Consistent, and formal expansion of, content through centralized authoring and maintenance (International Release)
-* Flexibility to meet most terminological requirements based on national, regional, language, application, or customer (Extensions)
-* Clear, singular meaning of concepts
-* Reliable, consistent, and reproducible clinical documentation
-* Enhanced high-quality healthcare delivery to individuals and populations
-
 ## Semantic Interoperability
 
 The overall semantic interoperability of electronic health applications  is achieved through the combined functioning of the information architecture of the application and the terminology that populates it. A basic principle of SNOMED CT is to create and maintain semantic interoperability of clinical information. _Semantic interoperability_ is the capability of two or more systems to communicate and exchange information. Each system should be able to interpret the meaning of, and effectively use, received information. To achieve this goal, the meaning of the information must be agreed upon, consistent, and clearly expressed.
+
+## Context
 
 Context is an important part of representing clinically relevant information.
 
@@ -38,6 +30,8 @@ When entered in an EHR, concepts in the Procedure and Clinical finding hierarchi
 When a concept is entered into an EHR, the information in the health record structure or its information model, can provide the context.
 
 In addition to using the record structure to represent context, there may be a need to override the defaults and specify a particular context using the formal logic of the terminology. For that reason, SNOMED CT has developed a context model, i.e Situation with explicit context, to allow users and/or implementers to specify context using the terminology, without depending on a particular record structure. The Situation with explicit context hierarchy, and various attributes assigned to concepts in the hierarchy, accomplish this.
+
+#### **Guidance for Electronic Health Application Users**
 
 Designers and implementers of electronic health applications need guidance to identify which fields within their record structure will critically affect the meaning of concepts. They require open strategies to preserve meaning if concepts are retrieved or transferred and to allow detection of equivalence to constructs derived from alternative approaches.
 
