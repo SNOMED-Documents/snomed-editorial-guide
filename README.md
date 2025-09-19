@@ -14,7 +14,7 @@ The Editorial Guide publishes only the rules that apply to precoordinated conten
 
 ***
 
-<table data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="readme/introduction-to-the-snomed-ct-editorial-guide.md">introduction-to-the-snomed-ct-editorial-guide.md</a></td><td></td></tr><tr><td><a href="broken-reference">Broken link</a></td><td><a href="readme/concept-model-overview/">concept-model-overview</a></td></tr><tr><td><a href="readme/authoring/domain-specific-modeling/">domain-specific-modeling</a></td><td><a href="readme/authoring/">authoring</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="readme/snomed-ct-introduction/">snomed-ct-introduction</a></td></tr><tr><td><a href="readme/concept-model-overview/">concept-model-overview</a></td></tr><tr><td><a href="readme/authoring/">authoring</a></td></tr></tbody></table>
 
 ***
 
