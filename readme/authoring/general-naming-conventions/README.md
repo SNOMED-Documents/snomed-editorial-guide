@@ -21,18 +21,16 @@ Approved pre-coordination naming patterns have been created and are available at
 
 Descriptions should not include articles such as _a,_ _an,_ and _the_. There are legacy descriptions that contain articles such as _the_ that will be corrected over time.
 
-For example,
-
-* Use description of _Neoplasm of respiratory tract (disorder)_ , not _Neoplasm of the respiratory tract (disorder)_
-* Use description of Rupture of diaphragm (disorder) , not Rupture of the diaphragm (disorder)
+* For example,
+  * Use description of _Neoplasm of respiratory tract (disorder)_ , not _Neoplasm of the respiratory tract (disorder)_
+  * Use description of Rupture of diaphragm (disorder) , not Rupture of the diaphragm (disorder)
 
 ## Abbreviations and acronyms
 
 Abbreviations are shortened forms of words or phrases. An acronym is a specific type of abbreviation formed from the initial letters of words and is sometimes pronounced as a word (e.g. AIDS for _Acquired Immunodeficiency Syndrome_ ; NICU for _Neonatal Intensive Care Unit_). Neither abbreviation nor acronym is permitted in a fully specified name (FSN).
 
-For example
-
-* _Sperm_ is a shortened form of the word _spermatozoa_. The proper term of _spermatozoa_ should be used in the FSN, while _sperm_ can be used as a synonym. &#x20;
+* For example
+  * _Sperm_ is a shortened form of the word _spermatozoa_. The proper term of _spermatozoa_ should be used in the FSN, while _sperm_ can be used as a synonym. &#x20;
 
 Abbreviations and acronyms are allowed in a preferred term or synonym when followed by the term expansion. If the abbreviation or acronym stands alone (meaning, no additional terms are included; the letters represent the entire meaning of the description without any other text), it is followed by a space, a hyphen, and another space, then the expanded term. The first word after the hyphen should be lower case as per usual capitalization rules.
 
