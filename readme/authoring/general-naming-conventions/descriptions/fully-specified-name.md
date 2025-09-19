@@ -4,16 +4,13 @@
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A term unique among active descriptions in SNOMED CT that provides the meaning of a concept in a manner that is intended to be unambiguous and stable across multiple contexts. |
 
-For information on acceptable precoordinated naming patterns, see the [_Pre-coordination Naming Patterns project_](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project)_._ New content should conform with the naming patterns; however, legacy content may not yet be updated.
-
 An FSN is one type of description, unique among active descriptions in SNOMED CT. It provides the meaning of a concept so that it is unambiguous, stable across multiple contexts, and optimally understandable to those whose first language is not English. Consequently, it is not always clinician-friendly or in common use. In the majority of cases, where the FSN is clinician-friendly and in common use, a description matching the FSN should be added to the concept. This description is not required to be the preferred term (PT). In certain instances, where the FSN does not provide a clinically useful description, a matching description without the semantic tag is unnecessary.
 
 For example,
 
 * FSN: Repair of common bile duct (procedure) - _the meaning_
   * PT: Choledochoplasty -_commonly understood clinical name_
-
-Choledochoplasty is marked as _preferred_ in the US English Language _Reference_ _Set;_ choledochoplasty is the _preferred term_ for this _concept_ in US English.
+    * Choledochoplasty is marked as _preferred_ in the US English Language _Reference_ _Set;_ choledochoplasty is the _preferred term_ for this _concept_ in US English.
 
 Each new content request should have an FSN that conforms to spelling, language, and style guidelines. It should also have SNOMED CT parent concepts that conform to editorial guidelines and show where in the hierarchy it belongs. In the Content Request System (CRS), if the meaning of the FSN is unclear or the parent codes are not provided, authors should request the information from the submitter.
 
@@ -48,8 +45,12 @@ When constructing the FSN for a disorder, finding, or procedure containing a bod
 
 For example,
 
-* For the body structure concept, [266005 | Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005) , a procedure with this body structure is [726425007 | Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007) .
-* For the body structure concept, [74386004 | Nasal bone structure (body structure)|](http://snomed.info/id/74386004) , a disorder concept with this body structure is [413878002 | Closed, displaced fracture of nasal bone (disorder)|](http://snomed.info/id/413878002) .
+* For the body structure concept, [266005 | Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005) , a procedure with this body structure is [726425007 | Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007).
+* For the body structure concept, [74386004 | Nasal bone structure (body structure)|](http://snomed.info/id/74386004) , a disorder concept with this body structure is [413878002 | Closed, displaced fracture of nasal bone (disorder)|](http://snomed.info/id/413878002).
+
+{% hint style="info" %}
+For information on acceptable precoordinated naming patterns, see the [_Pre-coordination Naming Patterns project_](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project)_._ New content should conform with the naming patterns; however, legacy content may not yet be updated.
+{% endhint %}
 
 ## Unique
 
