@@ -14,12 +14,14 @@ Each annotation uses a subtype of [1295447006 | Annotation attribute (attribute)
 
 Attribution - Attributing credit to the source of information
 
-For example,_Inserm Orphanet_ attribution annotation at 1332326002 |Isolated cleft lip (disorder)|
+For example,&#x20;
 
-<figure><img src="../../../images/256869352.png" alt=""><figcaption><p>Figure 1. Details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
+* _Inserm Orphanet_ attribution annotation at 1332326002 |Isolated cleft lip (disorder)|
 
-{% hint style="danger" %}
-SNOMED derivative products, such as mappings to/from other terminologies, should not be represented as annotations. Refsets have been developed for different types of maps which includes additional metadata, such as map group, priority, rule, and advice.
+<figure><img src="../../../images/256869352.png" alt=""><figcaption><p>Figure shows attribution annotation is located in details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
+
+{% hint style="success" %}
+SNOMED derivative products, such as mappings to/from other terminologies, should not be represented as annotations.  Refsets have been developed for different types of maps which includes additional metadata, such as map group, priority, rule, and advice.
 {% endhint %}
 
 ## Guidance
@@ -54,4 +56,4 @@ The following are documented in the respective annotation guidance, if applicabl
 * Validation for annotations, such as spell check
 * Annotation cardinality - Most attributes will be 0..1 but some may allow multiple values.
 
-See also [SNOMED CT Annotations](https://prod-confluence.ihtsdotools.org/display/mag/SNOMED+CT+Annotations) for more information.
+See also [SNOMED CT Annotations](https://conf.spaces.snomed.org/wiki/spaces/mag/pages/133137753/SNOMED+CT+Annotations) for more information.
