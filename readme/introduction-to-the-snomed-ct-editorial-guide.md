@@ -44,7 +44,7 @@ The Editorial Guide is a living document that is continually revised and updated
 
 ### Previous Versions
 
-[pdfs-for-download.md](../pdfs-for-download.md "mention")
+[Broken link](broken-reference "mention")
 
 ## Contact and Feedback
 

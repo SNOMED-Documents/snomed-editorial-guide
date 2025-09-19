@@ -6,7 +6,7 @@ SNOMED CT is distributed in sets of electronic files. Supporting software tools 
 
 ***
 
-<table data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="readme/introduction-to-the-snomed-ct-editorial-guide.md">introduction-to-the-snomed-ct-editorial-guide.md</a></td><td></td></tr><tr><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><a href="authoring/domain-specific-modeling/">domain-specific-modeling</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="readme/introduction-to-the-snomed-ct-editorial-guide.md">introduction-to-the-snomed-ct-editorial-guide.md</a></td><td></td></tr><tr><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><a href="readme/authoring/domain-specific-modeling/">domain-specific-modeling</a></td><td></td></tr></tbody></table>
 
 ***
 
