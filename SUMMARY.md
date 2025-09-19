@@ -1,7 +1,7 @@
 # Table of contents
 
 * [SNOMED CT Editorial Guide](README.md)
-  * [Introduction to SNOMED CT Editorial Guide](readme/introduction-to-the-snomed-ct-editorial-guide.md)
+  * [Introduction to Editorial Guide](readme/introduction-to-the-snomed-ct-editorial-guide.md)
   * [Introduction to SNOMED CT](readme/snomed-ct-introduction/README.md)
     * [Intended Use](readme/snomed-ct-introduction/intended-use.md)
     * [Structure of Domain Coverage](readme/snomed-ct-introduction/structure-of-domain-coverage.md)

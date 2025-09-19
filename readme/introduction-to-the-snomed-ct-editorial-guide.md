@@ -1,4 +1,4 @@
-# Introduction to the SNOMED CT Editorial Guide
+# Introduction to Editorial Guide
 
 ## Background
 
@@ -12,7 +12,7 @@ _Description logic (DL)_ is the formal foundation of meaning in SNOMED CT. The w
 
 ## Purpose
 
-The Editorial Guide provides the rules, conventions, and principles required to model SNOMED CT concepts. It serves as the definitive reference for authoring and maintaining content in the International Release, while also supporting extension creators . The guide ensures that terminology is reliable, unambiguous, and interoperable for healthcare applications.
+The SNOMED CT Editorial Guide provides the rules, conventions, and principles required to model SNOMED CT concepts. It serves as the definitive reference for authoring and maintaining content in the International Release, while also supporting extension creators . The guide ensures that terminology is reliable, unambiguous, and interoperable for healthcare applications.
 
 ## Scope
 
