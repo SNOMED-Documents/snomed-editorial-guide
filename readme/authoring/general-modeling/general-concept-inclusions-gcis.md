@@ -16,7 +16,9 @@ For example,
 
 Below is [417163006 | Traumatic or non-traumatic injury (disorder)|](http://snomed.info/id/417163006) in the _stated_ view with the GCIs appearing to the right of the concept:
 
-<figure><img src="../../../images/174691746.png" alt=""><figcaption><p>Here is the same concept in the <em>inferred</em> view without the GCIs appearing:</p></figcaption></figure>
+<figure><img src="../../../images/174691746.png" alt=""><figcaption></figcaption></figure>
+
+Here is the same concept in the _inferred_ view without the GCIs appearing:
 
 <figure><img src="../../../images/174691745.png" alt=""><figcaption></figcaption></figure>
 
@@ -31,9 +33,13 @@ When modeling a concept that will be classified under a GCI-modeled concept, the
 
 The diagram below shows Lumbarized first sacral vertebra (disorder) incorrectly modeled on the right, with a stated primitive GCI-modeled parent of Transitional lumbosacral vertebra (disorder). Transitional lumbosacral vertebra (disorder) is modeled with a GCI, as notified by the salmon pink color. The left side of the diagram shows the inferred view with two parents.
 
-<figure><img src="../../../images/174691743.png" alt=""><figcaption><p>The GCI-modeled primitive concept, Transitional lumbosacral vertebra (disorder), is unnecessary to state as a parent. The diagram below shows correct modeling of Lumbarized first sacral vertebra (disorder) with the absence of Transitional lumbosacral vertebra (disorder) as a parent, and yet the inferred view diagram on the left is still the same as compared to the incorrectly modeled diagram above.</p></figcaption></figure>
+<figure><img src="../../../images/174691743.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../images/174691742.png" alt=""><figcaption><p>Alternatively, if a GCI-modeled parent will not subsume an appropriate child concept, then the GCI-modeled concept should be stated as a primitive supertype.</p></figcaption></figure>
+The GCI-modeled primitive concept, Transitional lumbosacral vertebra (disorder), is unnecessary to state as a parent. The diagram below shows correct modeling of Lumbarized first sacral vertebra (disorder) with the absence of Transitional lumbosacral vertebra (disorder) as a parent, and yet the inferred view diagram on the left is still the same as compared to the incorrectly modeled diagram above.
+
+<figure><img src="../../../images/174691742.png" alt=""><figcaption></figcaption></figure>
+
+Alternatively, if a GCI-modeled parent will not subsume an appropriate child concept, then the GCI-modeled concept should be stated as a primitive supertype.
 
 Finally, the example below of 82271004 |Injury of head (disorder)| illustrates a concept with a GCI-modeled supertype of 417163006 |Traumatic or non-traumatic injury (disorder)|. In this case, the concept Injury of head (disorder) is sufficiently defined.
 
