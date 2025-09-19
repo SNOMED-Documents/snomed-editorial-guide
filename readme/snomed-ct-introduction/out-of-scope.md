@@ -4,7 +4,9 @@
 
 SNOMED CT has an international and multilingual scope but can be localized to represent meanings and terms unique to particular organizations or localities. A National Extension includes content outside of the scope of the International Release, but necessary for national conformance and interoperability. Each member-state determines the application and interpretation of this scope and whether or not concepts should be added to their extension.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>National Extension criteria include affirmative answers to the following:</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+National Extension criteria include affirmative answers to the following:
 
 * Is the concept outside of the scope of the International Release, but necessary for national conformance and interoperability?
 * Is it useful throughout the national healthcare system?
