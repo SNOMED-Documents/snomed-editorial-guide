@@ -1,10 +1,8 @@
 # Conjunction and Disjunction
 
-## Overview
-
-| Conjunction and Disjunction | and                                                                                                       | or                                                           | and/or                                                                                                                                                      |
-| --------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SNOMED CT                   | Conjunction: And A set of operands is true, if and, only if all of its operands are true A and B are true | Exclusive disjunction: Or Either A or B is true but not both | Inclusive disjunction: And/or A set of operands is true, if and, only if one or more of its operands is true Either A or B is true or Both A and B are true |
+| and                                                                                                                     | or                                                                        | and/or                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Conjunction: And </p><p>A set of operands is true, if and, only if all of its operands are true A and B are true</p> | <p>Exclusive disjunction: Or</p><p>Either A or B is true but not both</p> | <p>Inclusive disjunction: And/or </p><p>A set of operands is true, if and, only if one or more of its operands is true </p><p>Either A or B is true </p><p>or</p><p>both A and B are true</p> |
 
 ## Disjunctives <a href="#disjunctives" id="disjunctives"></a>
 
@@ -14,8 +12,7 @@ Concepts with disjunctives (_or, and/or_)  in disorders and procedures often inv
 
 * For example,
   * [65966004 | Fracture of forearm (disorder)|](http://snomed.info/id/65966004)
-
-The concept does not specify which bone of forearm is fractured. It is a break in _one or both of the radius and/or ulna_ per the ICD definition. It would subsume fracture of radius, fracture of ulna, and fracture of both radius and ulna. &#x20;
+    * The concept does not specify which bone of forearm is fractured. It is a break in _one or both of the radius and/or ulna_ per the ICD definition. It would subsume fracture of radius, fracture of ulna, and fracture of both radius and ulna. &#x20;
 
 Exclusive disjunction ("or" only) is used when either operands is true but both cannot be true.
 
