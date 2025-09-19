@@ -4,7 +4,9 @@ A _definition_ is a textual description applied to some SNOMED CT concepts that 
 
 Adding a definition to a concept provides additional clarity on its context of use. It enhances the definition provided by the modeled relationships whereby a term can be sufficiently defined logically, but the words, which is how many look for and interpret meaning, may imply more or less specificity.
 
+{% hint style="info" %}
 The definition should never be contradictory to the modeling.
+{% endhint %}
 
 Definitions must:
 
@@ -16,10 +18,9 @@ Definitions must:
 For example,
 
 * The definition for the concept [11530004 | Brittle diabetes mellitus (finding)|](http://snomed.info/id/11530004) is:
+  * _Frequent, clinically significant fluctuations in blood glucose levels both above and below levels expected to be achieved by available therapies._
 
-_Frequent, clinically significant fluctuations in blood glucose levels both above and below levels expected to be achieved by available therapies._
-
-The language acceptability default for a single Definition description is _P_ _referred._ A definition with varying US and GB English descriptions are each applied with the respective language acceptability.
+The language acceptability default for a single Definition description is _Preferred._ A definition with varying US and GB English descriptions are each applied with the respective language acceptability.
 
 For example,
 
@@ -37,18 +38,11 @@ A text definition should be considered where a concept references the obscure or
 
 The following principles for definition creation are summarized below from ISO-704, _Terminology work — Principles and methods_ :
 
-| Principle           | Explanation                                           |
-| ------------------- | ----------------------------------------------------- |
-| Clarity             | Avoid ambiguity or overly complex language.           |
-| Conciseness         | Be as brief as possible without sacrificing meaning.  |
-| Consistency         | Use a consistent structure and vocabulary.            |
-| Non-circular        | Do not use the term in the definition.                |
-| Genus + Differentia | Define by broader category + distinguishing features. |
-| Context-aware       | Include notes or usage context if necessary.          |
+<table><thead><tr><th width="215.671875">Principle</th><th>Explanation</th></tr></thead><tbody><tr><td>Clarity</td><td>Avoid ambiguity or overly complex language.</td></tr><tr><td>Conciseness</td><td>Be as brief as possible without sacrificing meaning.</td></tr><tr><td>Consistency</td><td>Use a consistent structure and vocabulary.</td></tr><tr><td>Non-circular</td><td>Do not use the term in the definition.</td></tr><tr><td>Genus + Differentia</td><td>Define by broader category + distinguishing features.</td></tr><tr><td>Context-aware</td><td>Include notes or usage context if necessary.</td></tr></tbody></table>
 
 In summary, if a term may be interpreted in multiple ways, but is intended to mean only one way in SNOMED CT, it needs a definition. However, ultimate source of truth for meaning remains with the FSN.
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 URLs that point to definition sources are unacceptable.
 
 External references, such as ISBN and PubMed identifiers, are not allowed in SNOMED CT concept definitions.
