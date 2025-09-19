@@ -100,10 +100,9 @@ The forward slash should not be used in FSNs. When the slash is part of the auth
 
 * For example,&#x20;
   * FSN: Sickle cell-hemoglobin C disease (disorder)
-  * SYN: Hemoglobin S/C disease
-* &#x20;
+    * SYN: Hemoglobin S/C disease
   * FSN: Per cubic millimeter (qualifier value)
-  * SYN:  /mm<sup>3</sup>
+    * SYN:  /mm<sup>3</sup>
 
 #### Exceptions <a href="#exceptions.1" id="exceptions.1"></a>
 
