@@ -1,15 +1,7 @@
-# Lump and Mass
+# Lump and mass
 
-Content for lump and mass modeling guidelines will be added here.
+Distinguishing consistently between lump and mass can be difficult in diagnostic contexts, as the terms are often used interchangeably or lack precise definitions.  As a result, lump and mass have, in certain conditions, been treated as synonymous.
 
-## Overview
+Avoid using 'lump' in new content, where more specific terminology is available.
 
-This page provides guidance on modeling lump and mass concepts in the SNOMED CT body structure hierarchy.
-
-## Modeling Guidelines
-
-Guidelines for lump and mass modeling will be documented here.
-
-## Examples
-
-Examples of lump and mass concepts will be provided here.
+Lump should not be added as a synonym for mass concepts in the Finding or Disorder hierarchies. Existing legacy synonyms and concepts will remain unchanged.
