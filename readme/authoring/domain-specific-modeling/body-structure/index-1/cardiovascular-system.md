@@ -12,11 +12,8 @@ The following pairs of cardiac valve concepts do not represent the same thing an
 
 Atrioventricular (non-mitral, non-tricuspid) valves represent body structures which were anatomically abnormal from the beginning of their development. They are not called mitral/tricuspid valve although they perform the same function as their normal counterpart would. They are also represented using the term _not morphologically mitral/tricuspid valve_.
 
-For example,
-
-* ```
-  * [459176007 |Abscess of right atrioventricular (not morphologically tricuspid) valve (disorder)|](http://snomed.info/id/459176007) represents an abscess of the right atrioventricular valve that has been developed abnormally from the beginning vs. [431189009 |Abscess of tricuspid valve (disorder)|](http://snomed.info/id/431189009).
-  ```
+* For example,&#x20;
+  * 459176007 |Abscess of right atrioventricular (not morphologically tricuspid) valve (disorder)| represents an abscess of the right atrioventricular valve that has been developed abnormally from the beginning vs. \[431189009 |Abscess of tricuspid valve (disorder)|.
 
 For a normally developed mitral/tricuspid valve, the term _left/right atrioventricular valve_ can be used interchangeably. They are true synonyms. However, they cannot be used for abnormally developed valves, i.e. left atrioventricular (non-mitral)/right atrioventricular (non-tricuspid) valves.
 
@@ -38,7 +35,9 @@ The _pulmonary circulation_ is the combined arterial and venous circulation that
 
 [430757002 |Structure of pulmonary vein great vessel (body structure)|](http://snomed.info/id/430757002): There are four pulmonary veins that enter the left atrium, two on each side. These are what is intended by the name _pulmonary vein_ (_great vessels_ that enter the heart). In common usage, any vein that is part of the lung may be referred to as a pulmonary vein, but SNOMED CT has a separate concept: [122972007 |Pulmonary venous structure (body structure)|](http://snomed.info/id/122972007): This means any vein that drains the lung. A synonym is _vein of lung_. _Pulmonary veins_ are veins of the lung, but _pulmonary vein_ and _vein of lung_ are not synonyms.
 
-There is no concept for _P_ _ulmonary vein within lung_.
+{% hint style="warning" %}
+There is no concept for _Pulmonary vein within lung_.
+{% endhint %}
 
 ## Central, peripheral, cerebrovascular systems
 
@@ -62,15 +61,15 @@ See _Tree-structured organs_ elsewhere, re: regional sections of venous and arte
 
 ## The word _artery_
 
-The word artery has three different meanings. In modeling SNOMED CT concepts that refer to arteries, it is necessary to decide on a case-by-case basis which of these meanings is intended.**\_**\
-&#xNAN;**\_**
+The word artery has three different meanings. In modeling SNOMED CT concepts that refer to arteries, it is necessary to decide on a case-by-case basis which of these meanings is intended.
 
-| Meanings of artery                       |                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Meanings                                 | Notes                                                                                                                                                                                                                                                             | Examples                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| An arterial trunk: a single tube         | The most common in clinical use. The meaning of the wordarteryin injuries and operations is clearly a single tube, the trunk of the named artery, or trunk of the named arterial branch.                                                                          | A puncture wound of the femoral artery affects the femoral arterial trunk. A grafting into the popliteal artery is done into the popliteal arterial trunk. Occlusions of arteries are located by naming the trunk where the occlusion occurs. Occlusions may affect circulation beyond the trunk, however, collateral circulation often mitigates the effects. Thus, it is incorrect to interpretarteryto mean the entire subtree in any of these usages. |
-| An arterial tree organ                   | There are only two complete arterial tree organs (the systemic arterial tree arising at the aortic valve, and the pulmonary arterial tree arising at the pulmonary valve) that are readily named as such. They are seldom referred to by disorders or procedures. | NA                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| An arterial trunk, plus all its branches | When modeling, it is challenging to differentiate when trunk vs. trunk plus branches is intended.                                                                                                                                                                 | NA                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+#### Meanings of _artery_
+
+| Meanings                                 | Notes                                                                                                                                                                                                                                                             | Examples                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| An arterial trunk: a single tube         | <p>The most common in clinical use. </p><p></p><p>The meaning of the word artery in injuries and operations is clearly a single tube, the trunk of the named artery, or trunk of the named arterial branch.</p>                                                   | <p>A puncture wound of the femoral artery affects the femoral arterial trunk. </p><p></p><p>A grafting into the popliteal artery is done into the popliteal arterial trunk.</p><p></p><p>Occlusions of arteries are located by naming the trunk where the occlusion occurs. Occlusions may affect circulation beyond the trunk, however, collateral circulation often mitigates the effects. Thus, it is incorrect to interpretarteryto mean the entire subtree in any of these usages.</p> |
+| An arterial tree organ                   | There are only two complete arterial tree organs (the systemic arterial tree arising at the aortic valve, and the pulmonary arterial tree arising at the pulmonary valve) that are readily named as such. They are seldom referred to by disorders or procedures. | NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| An arterial trunk, plus all its branches | When modeling, it is challenging to differentiate when _trunk_ vs. _trunk plus branches_ is intended.                                                                                                                                                             | NA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 This clinical usage of _artery_ varies from the definition of the FMA, which defines _artery_ as a subdivision of an arterial tree (organ) which consists of branching sets of tubes (arterial trunks) that form a tree; together with other arterial trees (organ parts), it constitutes an arterial tree (organ). The FMA definition corresponds to the third meaning of _artery_ above.
 
@@ -78,21 +77,22 @@ This clinical usage of _artery_ varies from the definition of the FMA, which def
 
 The word vein has three different meanings. In modeling SNOMED CT concepts that refer to veins, it is necessary to decide on a case-by-case basis which of these meanings is intended.
 
-| Vein                                  |                                                                                                                                       |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Meaning                               | Notes                                                                                                                                 |
-| A venous trunk                        | As with the clinical usage of the word artery , clinical usage of the word vein generally refers to the trunk and not the entire tree |
-| A venous tree organ                   | There are only eleven venous tree organs that are readily named as such.                                                              |
-| A venous trunk, plus all its branches | When modeling, it is challenging to differentiate when trunk vs. trunk plus branches is intended.                                     |
+#### Vein
+
+<table><thead><tr><th width="313.1328125">Meaning</th><th>Notes</th></tr></thead><tbody><tr><td>A venous trunk</td><td>As with the clinical usage of the word artery , clinical usage of the word vein generally refers to the trunk and not the entire tree</td></tr><tr><td>A venous tree organ</td><td>There are only eleven venous tree organs that are readily named as such.</td></tr><tr><td>A venous trunk, plus all its branches</td><td>When modeling, it is challenging to differentiate when trunk vs. trunk plus branches is intended.</td></tr></tbody></table>
 
 This clinical usage of _vein_ varies from the definition of the FMA, which defines _vein_ as a subdivision of a venous tree (organ) which consists of branching sets of tubes (venous trunks) that form a tree; together with other venous trees (organ parts), it constitutes a venous tree (organ). The FMA definition corresponds to the third meaning of _vein_ above.
 
 ## Trunk of vein, vein as a tree structure
 
-Because _trunks of veins_ , not _venous trees_ , have been used to organize the vein hierarchy, there are implications for regional classes.
+Because _trunks of veins_, not _venous trees_, have been used to organize the vein hierarchy, there are implications for regional classes.
 
-For example, the internal jugular vein is a vein of the neck, but its entire _venous tree_ extends into the head. The internal jugular vein \_ venous tree\_ is not strictly part of the neck, even though the internal jugular vein _venous trunk_ is strictly part of the neck.
+* For example, the internal jugular vein is a vein of the neck, but its entire _venous tree_ extends into the head. The internal jugular vein _venous tree_ is not strictly part of the neck, even though the internal jugular vein _venous trunk_ is strictly part of the neck.
 
 Tributaries are also modeled as direct tributaries of the trunk. A tributary of a named vein is part of the _venous tree_ of the named vein, but not part of the _venous trunk_ of the named vein. Some veins that are part of the _venous tree_ , and therefore might be regarded as indirect tributaries, are not modeled as direct tributaries of the _trunk of the vein_. Direct tributary is the intended meaning of tributary.
 
-All concepts with the name pattern _vein x and its tributaries_ were inactivated due to ambiguity about their meanings. They have _MAYBE A_ links to _structure of vein x_ and _entire vein x._
+#### Inactivation
+
+{% hint style="info" %}
+All concepts with the name pattern _vein x and its tributaries_ were inactivated due to ambiguity about their meanings. They have _MAYBE A_ links to _Structure of vein x_ and _Entire vein x._
+{% endhint %}
