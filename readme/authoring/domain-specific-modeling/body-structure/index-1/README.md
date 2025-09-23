@@ -1,6 +1,6 @@
 # Anatomical Structure Modeling
 
-This section contains modeling guidelines for anatomical structures in SNOMED CT.
+Many terms that refer to body systems or tracts are used imprecisely in clinical practice and in medical publications. Ambiguities frequently arise with many of these terms. We have made the following definitions and distinctions in order to achieve internal consistency of the terminology. We recognize that it may not be possible to get universal consensus for the names for each of these concepts. The goal is to be consistent and clear in defining the meaning of each concept and to allow users and system designers to present the terms that best reflect these meanings in their own implementations.
 
 ## Pages in this section:
 
@@ -17,3 +17,9 @@ This section contains modeling guidelines for anatomical structures in SNOMED CT
   * [Anatomy relating to the spine](index/anatomy-relating-to-the-spine.md)
 * [Nervous System](nervous-system.md)
 * [Respiratory System](respiratory-system.md)
+
+
+
+{% hint style="warning" %}
+The concepts under [116007004 | Combined site (body structure)|](http://snomed.info/id/116007004) should not be used for concept modeling. They do not provide value for the classification of disorders or procedures. These concepts are ambiguous because their intended meaning is unclear, i.e., a combined site could represent any part of two or more sites or all of the referred sites in the description. The combined site (body structure) concepts will eventually be inactivated.
+{% endhint %}
