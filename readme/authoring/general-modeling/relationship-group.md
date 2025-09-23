@@ -21,7 +21,9 @@ Relationship groups are needed when modeling:
 * Relationship groups are not limited to Clinical finding and Procedure concepts.
 * There is no limit to the number of relationship groups that may be added to a concept.
 
+{% hint style="info" %}
 As with all authoring activities, grouping of attributes is performed in the stated view.
+{% endhint %}
 
 ## Ungrouped attributes
 
@@ -37,7 +39,7 @@ Note the difference in the inferred parents between the self-grouped versus grou
 
 ## Impact of relationship grouping on inheritance
 
-Relationship groups refine inheritance, i.e. a grouped set of attributes is more specific than the same attributes that are not grouped. This is important when considering subsumption. The following diagrams demonstrate the impact of grouping or failing to group consistently using the concepts [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) and one of its supertypes, [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) .
+Relationship groups refine inheritance, i.e., a grouped set of attributes is more specific than the same attributes that are not grouped. This is important when considering subsumption. The following diagrams demonstrate the impact of grouping or failing to group consistently using the concepts [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) and one of its supertypes, [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) .
 
 The meaning of the supertype concept, [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) (where the relationships are grouped) is interpreted as a procedure with an excision on the aortic structure. This is because [405813007 | Procedure site - Direct (attribute)|](http://snomed.info/id/405813007) and [260686004 | Method (attribute)|](http://snomed.info/id/260686004) are grouped.
 
@@ -45,7 +47,7 @@ The meaning of the supertype concept, [63296004 | Excision of aorta (procedure)|
 
 In the following diagram, the more general supertype concepts, [65801008 | Excision (procedure)|](http://snomed.info/id/65801008) and [118809006 | Procedure on aorta (procedure)|](http://snomed.info/id/118809006) are the proximal supertype concepts.
 
-[50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) is a logical subtype of [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) . However, the attributes of the concept [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) are not grouped. Thus, the classifier interprets the definitions as non-related and [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) is not inferred as a subtype of [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) . This is because the attributes in the subtype concept are not grouped, i.e are not explicitly stated. From a machine-processing perspective, each attribute is considered a group on its own; i.e. there is an excision, but nothing else is known about the excision. This results in the concept, [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) , being interpreted more broadly.
+[50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) is a logical subtype of [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) . However, the attributes of the concept [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) are not grouped. Thus, the classifier interprets the definitions as non-related and [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) is not inferred as a subtype of [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) . This is because the attributes in the subtype concept are not grouped, i.e are not explicitly stated. From a machine-processing perspective, each attribute is considered a group on its own; i.e., there is an excision, but nothing else is known about the excision. This results in the concept, [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) , being interpreted more broadly.
 
 <figure><img src="../../../images/174691705.png" alt=""><figcaption><p>Inferred view of Excision of lesion of aorta (procedure) without grouping of attributes</p></figcaption></figure>
 
@@ -89,7 +91,9 @@ In the Clinical finding/Disorder hierarchy:
 * If a concept has values for a Causative agent (attribute) and Finding site (attribute), but does not have a value for an Associated morphology (attribute) or Pathological process (attribute), combine the Causative agent (attribute) and Finding site (attribute) as usual. Concepts that only have Causative agent (attribute) and Finding site (attribute) in a role group are higher in the hierarchy and subsume those concepts that have a role group of Causative agent (attribute), Finding site (attribute), Associated morphology (attribute) and Pathological process (attribute).
 * The _Interprets_ and _Has interpretation_ attributes are always grouped together where both are present and related to each other. These two attributes and their values are often used in defining a Clinical finding concept by delineating the observation results or describing the analysis used to determine the observation. _Interprets_ and _Has interpretation_ attributes are not grouped with any other attributes.
 
+{% hint style="warning" %}
 A relationship group that uses the attributes _**Associated with, Before, During , After, Due to, Clinical course, or Temporally related to**_ are not grouped with another attribute-value pair; these attributes are "self-grouped".  This means, authors place these attributes in a relationship group individually with no other attributes.
+{% endhint %}
 
 <figure><img src="../../../images/174691693.png" alt=""><figcaption><p>Stated view of a disorder hierarchy concept with Causative agent and Pathological process attributes in the same relationship group</p></figcaption></figure>
 
@@ -112,6 +116,8 @@ _For example,_&#x20;
 * [246090004 | Associated finding (attribute)|](http://snomed.info/id/246090004), [195967001 | Asthma (disorder)|](http://snomed.info/id/195967001)
 * [408731000 | Temporal context (attribute)|](http://snomed.info/id/408731000), [410511007 | Current or past (actual) (qualifier value)|](http://snomed.info/id/410511007)
 * [408732007 | Subject relationship context (attribute)|](http://snomed.info/id/408732007), [444148008 | Person in family of subject (person)|](http://snomed.info/id/444148008)
+
+
 
 For [129125009 | Procedure with explicit context (situation)|](http://snomed.info/id/129125009) concepts the following four attributes are grouped:
 
