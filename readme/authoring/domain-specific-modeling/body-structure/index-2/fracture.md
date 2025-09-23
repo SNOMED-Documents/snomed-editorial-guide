@@ -1,15 +1,10 @@
 # Fracture
 
-Content for fracture modeling guidelines will be added here.
+Fractures should be agnostic as to whether they are pathologic or not, unless specified in the FSN or could only be caused by trauma (e.g. open fractures).  Although most fractures are traumatic, there are some pathological fractures.  Based on its FSN and text definition, if the word _pathological_ is present, use Pathologic fracture (morphologic abnormality).
 
-## Overview
+#### Example: Modeling Traumatic vs. Pathological Fractures
 
-This page provides guidance on modeling fracture concepts in the SNOMED CT body structure hierarchy.
-
-## Modeling Guidelines
-
-Guidelines for fracture modeling will be documented here.
-
-## Examples
-
-Examples of fracture concepts will be provided here.
+| Concept                                                           | Finding site                      | Associated morphology                         |
+| ----------------------------------------------------------------- | --------------------------------- | --------------------------------------------- |
+| 21351003 \|Fracture of phalanx of foot (disorder)\|               | Bone structure of phalanx of foot | Fracture (morphologic abnormality)            |
+| 704168008 \|Pathological fracture of phalanx of foot (disorder)\| | Bone structure of phalanx of foot | Pathologic fracture (morphologic abnormality) |
