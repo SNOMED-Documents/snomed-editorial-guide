@@ -1,15 +1,9 @@
-# Congenital Anomaly
+# Congenital anomaly
 
-Content for congenital anomaly modeling guidelines will be added here.
+Disorders which involve congenital anomalies are defined with:
 
-## Overview
+* Occurrence (attribute) = Congenital (qualifier value)
+* Associated morphology (attribute) = Morphologically abnormal structure (morphologic abnormality)&#x20;
+* Pathological process (attribute) = Pathological development process (qualifier value)
 
-This page provides guidance on modeling congenital anomaly concepts in the SNOMED CT body structure hierarchy.
-
-## Modeling Guidelines
-
-Guidelines for congenital anomaly modeling will be documented here.
-
-## Examples
-
-Examples of congenital anomaly concepts will be provided here.
+Therefore, _congenital_ does not need to be represented as the Associated morphology (attribute) target value.  Congenital anomaly morphology concepts usually have non-congenital parents.
