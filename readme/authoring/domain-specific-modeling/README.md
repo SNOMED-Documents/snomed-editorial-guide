@@ -48,8 +48,8 @@ SNOMED International creates precoordinated content in accordance with the MRCM.
 
 There are special cases in the MRCM where an attribute may have two rows. This situation is caused by a new cardinality rule: a row for _existing/legacy_ SNOMED CT content and a row for _newly created_ content. The row that is applicable to _new_ content will be marked by a "\[New]" notation.
 
-See [Process for the maintenance of MRCM rules](https://prod-confluence.ihtsdotools.org/display/IAP/Process+for+the+maintenance+of+MRCM+rules).
+See [Process for the maintenance of MRCM rules](https://conf.spaces.snomed.org/wiki/spaces/IAP/pages/132481260/Process+for+the+maintenance+of+MRCM+rules).
 
 SNOMED CT relies on the rules for _usefulness_ to avoid excessive precoordination (see _Scope_ section of Editorial Guide).
 
-Approved precoordination patterns have been created and are available at: [Pre-coordination Naming Patterns Project](https://prod-confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project). For additional information about the fields used in precoordination, see: [What the fields in the Pre-coordination Naming Patterns JIRA Project mean](https://prod-confluence.ihtsdotools.org/display/IHTSDO1/What+the+fields+in+the+Pre-coordination+Pattern+JIRA+Project+mean).
+Approved precoordination patterns have been created and are available at: [Pre-coordination Naming Patterns Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project). For additional information about the fields used in precoordination, see: [What the fields in the Pre-coordination Naming Patterns JIRA Project mean](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130991902/What+the+fields+in+the+Pre-coordination+Pattern+JIRA+Project+mean).
