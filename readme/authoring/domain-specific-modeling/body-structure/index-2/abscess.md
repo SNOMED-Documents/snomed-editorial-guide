@@ -1,15 +1,14 @@
 # Abscess
 
-Content for abscess modeling guidelines will be added here.
+There are two types of abscesses:&#x20;
 
-## Overview
+1. septic
+2. sterile
 
-This page provides guidance on modeling abscess concepts in the SNOMED CT body structure hierarchy.
+Most abscesses are septic, which means that they are the result of an infection.
 
-## Modeling Guidelines
+If a concept's meaning, based on its FSN and text definition, does not specify whether the abscess is sterile or septic, then the concept should not be modeled as septic.&#x20;
 
-Guidelines for abscess modeling will be documented here.
+#### Modeling Abscess in Procedures
 
-## Examples
-
-Examples of abscess concepts will be provided here.
+The concept's logical definition uses the Indirect morphology (attribute) of 44132006 |Abscess (morphologic abnormality)| and a Direct substance (attribute) of 11311000 |Pus (substance)|.
