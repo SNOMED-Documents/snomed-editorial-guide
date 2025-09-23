@@ -9,13 +9,21 @@ Instead of modeling as per this diagram in the stated view with two morphologies
 
 <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/body-structure/images/174690317.png" alt=""><figcaption><p>Morphologies can be combined to create a single morphologic abnormality concept where doing so creates a specialization of the morphology e.g. 55075001 |Bleeding ulcer (morphologic abnormality)|. Where morphologies are different e.g. abscess and cellulitis, they can not be combined.</p></figcaption></figure>
+Model as in the stated view of this diagram with a combined morphology:
 
+<figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Morphologies can be combined to create a single morphologic abnormality concept where doing so creates a specialization of the morphology e.g. 55075001 |Bleeding ulcer (morphologic abnormality)|. Where morphologies are different e.g. abscess and cellulitis, they can not be combined.
+
+{% hint style="info" %}
 This guidance is not being applied retrospectively so the concept 707496003 |Inflammation and consolidation (morphologic abnormality)| will be an exception to this rule as it already exists as a current concept.
+{% endhint %}
 
 Combining morphologies to create a specialization is done when modeling a concept that requires two role groups with the same body structure and two morphology values. Creating a combined morphology concept enables one role group to be used.
 
+{% hint style="info" %}
 Older 'like' content may still use the two role groups. This content would also need to use the new combined morphology value to support correct subsumption.
+{% endhint %}
 
 ## Neoplasm exception
 
