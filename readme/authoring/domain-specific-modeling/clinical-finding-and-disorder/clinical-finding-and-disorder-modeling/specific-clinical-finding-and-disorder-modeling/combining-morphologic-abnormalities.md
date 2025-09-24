@@ -17,4 +17,4 @@ Instead of modeling as in this stated view:
 
 Model as shown in this stated view:
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

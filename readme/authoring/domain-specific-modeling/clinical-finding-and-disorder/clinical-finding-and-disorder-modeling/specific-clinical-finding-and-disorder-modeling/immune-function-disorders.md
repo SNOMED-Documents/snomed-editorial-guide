@@ -22,7 +22,7 @@ In order to fully describe the full range of hypersensitivity responses, there a
 
 Allergic reaction (disorder) has a Causative agent (attribute) of Substance (substance) or its subtypes. This attribute-value pair is grouped with another attribute-value pair of Pathological process (attribute) and Allergic process (qualifier value).
 
-<figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690511.png" alt=""><figcaption><p>Figure: Stated view of 15920201000119103 |Allergic reaction caused by fish (disorder)|</p></figcaption></figure>
 
@@ -40,7 +40,7 @@ Allergic and nonallergic hypersensitivity (pseudoallergic) diseases represent ma
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690512.png" alt=""><figcaption><p>Figure:  Stated view of 838367000 |Allergic rhinosinusitis caused by Aspergillus (disorder)|</p></figcaption></figure>
 

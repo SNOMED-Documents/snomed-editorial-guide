@@ -18,7 +18,7 @@ The last concept has been allocated the following definition: This volume includ
 
 To emphasize the different volumes, cross-sections are shown below of (Figure 1) the vertebral column in yellow, and (Figure 2) the larger vertebral column region in amber color.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Figure 1, Vertebral column</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figure 1, Vertebral column</p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Figure 2, Vertebral column region</p></figcaption></figure>
 
