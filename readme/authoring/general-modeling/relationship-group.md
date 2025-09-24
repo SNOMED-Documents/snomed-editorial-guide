@@ -92,7 +92,7 @@ In the Clinical finding/Disorder hierarchy:
 * The _Interprets_ and _Has interpretation_ attributes are always grouped together where both are present and related to each other. These two attributes and their values are often used in defining a Clinical finding concept by delineating the observation results or describing the analysis used to determine the observation. _Interprets_ and _Has interpretation_ attributes are not grouped with any other attributes.
 
 {% hint style="warning" %}
-A relationship group that uses the attributes _**Associated with, Before, During , After, Due to, Clinical course, or Temporally related to**_ are not grouped with another attribute-value pair; these attributes are "self-grouped".  This means, authors place these attributes in a relationship group individually with no other attributes.
+A relationship group that uses the attributes _**Associated with, Before, During , After, Due to, Clinical course, or Temporally related to**_ are not grouped with another attribute-value pair; these attributes are "self-grouped". This means, authors place these attributes in a relationship group individually with no other attributes.
 {% endhint %}
 
 <figure><img src="../../../images/174691693.png" alt=""><figcaption><p>Stated view of a disorder hierarchy concept with Causative agent and Pathological process attributes in the same relationship group</p></figcaption></figure>
@@ -101,25 +101,26 @@ A relationship group that uses the attributes _**Associated with, Before, During
 
 ## Situation with Explicit Context hierarchy
 
-For [413350009 | Finding with explicit context (situation)|](http://snomed.info/id/413350009) concepts, the following four attributes are grouped:
+#### Finding with explicit context
+
+For 413350009 | Finding with explicit context (situation)| concepts, the following four attributes are grouped:
 
 * [408729009 | Finding context (attribute)|](http://snomed.info/id/408729009)
 * [246090004 | Associated finding (attribute)|](http://snomed.info/id/246090004)
 * [408731000 | Temporal context (attribute)|](http://snomed.info/id/408731000)
 * [408732007 | Subject relationship context (attribute)|](http://snomed.info/id/408732007)
 
-_For example,_&#x20;
+_For example,_
 
-[704008007 | No family history of asthma (situation)|](http://snomed.info/id/704008007) _IS A_ [243796009 | Situation with explicit context (situation)|](http://snomed.info/id/243796009),
+* [704008007 | No family history of asthma (situation)|](http://snomed.info/id/704008007) _IS A_ [243796009 | Situation with explicit context (situation)|](http://snomed.info/id/243796009),
+  * [408729009 | Finding context (attribute)|](http://snomed.info/id/408729009), [410516002 | Known absent (qualifier value)|](http://snomed.info/id/410516002)
+  * [246090004 | Associated finding (attribute)|](http://snomed.info/id/246090004), [195967001 | Asthma (disorder)|](http://snomed.info/id/195967001)
+  * [408731000 | Temporal context (attribute)|](http://snomed.info/id/408731000), [410511007 | Current or past (actual) (qualifier value)|](http://snomed.info/id/410511007)
+  * [408732007 | Subject relationship context (attribute)|](http://snomed.info/id/408732007), [444148008 | Person in family of subject (person)|](http://snomed.info/id/444148008)
 
-* [408729009 | Finding context (attribute)|](http://snomed.info/id/408729009), [410516002 | Known absent (qualifier value)|](http://snomed.info/id/410516002)
-* [246090004 | Associated finding (attribute)|](http://snomed.info/id/246090004), [195967001 | Asthma (disorder)|](http://snomed.info/id/195967001)
-* [408731000 | Temporal context (attribute)|](http://snomed.info/id/408731000), [410511007 | Current or past (actual) (qualifier value)|](http://snomed.info/id/410511007)
-* [408732007 | Subject relationship context (attribute)|](http://snomed.info/id/408732007), [444148008 | Person in family of subject (person)|](http://snomed.info/id/444148008)
+#### Procedure with explicit context
 
-
-
-For [129125009 | Procedure with explicit context (situation)|](http://snomed.info/id/129125009) concepts the following four attributes are grouped:
+For 129125009 | Procedure with explicit context (situation)| concepts the following four attributes are grouped:
 
 * [408730004 | Procedure context (attribute)|](http://snomed.info/id/408730004)
 * [363589002 | Associated procedure (attribute)|](http://snomed.info/id/363589002)
