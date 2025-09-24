@@ -2,7 +2,7 @@
 
 ## Skeletal system, bony skeleton
 
-The _skeletal system_ (_systema skeletal_ in _Nomina Anatomica_) includes bones and cartilage. The _bony skeleton_ includes bones only.  The vertebral column is part of the skeletal system and includes the intervertebral discs (fibrocartilage).  Individual vertebrae are part of the bony skeleton.
+The _skeletal system_ (_systema skeletal_ in _Nomina Anatomica_) includes bones and cartilage. The _bony skeleton_ includes bones only. The vertebral column is part of the skeletal system and includes the intervertebral discs (fibrocartilage). Individual vertebrae are part of the bony skeleton.
 
 {% hint style="info" %}
 SNOMED CT considers the _skeletal system subdivision_ part of the entire bone (system). This may change if there are procedures on cartilaginous skeleton that involve skeletal system subdivisions.
@@ -137,7 +137,7 @@ A muscle may be considered an entire functional unit, including attachments to t
 When modeling muscle categories according to their functions, assume they mean the function of the _entire muscle_, unless stated otherwise.
 
 {% hint style="warning" %}
-_X disorder at Y level_ concepts from ICD-11, e.g.\*\*\*\*_skin laceration of arm at wrist level_ (precedent are terms added from ICD-9) will not be added to the SNOMED International Release.
+_X disorder at Y level_ concepts from ICD-11, e.g., _skin laceration of arm at wrist level_ (precedent are terms added from ICD-9) will not be added to the SNOMED International Release.
 {% endhint %}
 
 ## Subpages
