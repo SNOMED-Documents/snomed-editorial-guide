@@ -7,7 +7,7 @@ When modeling a concept requiring two role groups with the same finding site/bod
 
 Instead of modeling as per this diagram in the stated view with two morphologies of the same finding site:
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Model as in the stated view of this diagram with a combined morphology:
 
