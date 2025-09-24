@@ -1,7 +1,5 @@
 # Complication and Sequela Modeling
 
-## Complication and Sequela Modeling
-
 Combined disorders can occur, for example:
 
 * One disorder causes the other (causal relationship)
