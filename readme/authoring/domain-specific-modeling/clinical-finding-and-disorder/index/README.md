@@ -38,8 +38,8 @@ While the general naming convention for findings and disorders is _< Morphology>
 * Disorders with a well recognized name that represents the morphology; e.g. pneumonia is the well established clinical name for inflammation and infection of the lung
 * Disorders where the meaning is not equivalent to _< morphology> of_ site convention; e.g. _inflammatory bowel disease_ has a more specific meaning than _inflammation of bowel_
 * Disorders which are not described by an anatomical site; e.g. metabolic disease, hereditary disease, bacterial disease
-* Completed or in review - [Pre-coordination Naming Patterns Project](https://prod-confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project)
-* Proposed for future review - [Unreviewed Patterns by Hierarchy](https://prod-confluence.ihtsdotools.org/display/IHTSDO1/Unreviewed+Patterns+by+Hierarchy)
+* Completed or in review - [Pre-coordination Naming Patterns Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project)
+* Proposed for future review - [Unreviewed Patterns by Hierarchy](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836/Unreviewed+Patterns+by+Hierarchy)
 {% endhint %}
 
 ### Descriptions that include body structures
@@ -102,7 +102,7 @@ If the [363698007 | Finding site (attribute)|](http://snomed.info/id/363698007) 
 > * FSN: Burn of eye region (disorder)
 > * PT: Burn of eye region
 
-<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figure 1. Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
 
 ## Allergy to substances, multiple substances
 
@@ -117,7 +117,7 @@ The modeling approach for multiple-ingredient concepts is a temporary solution. 
 Allergic and nonallergic hypersensitivity (pseudoallergic) dispositions are the propensity to develop adverse allergic or nonallergic hypersensitivity (pseudoallergic) disorders. A description for any concept that names a substance or an organism should be consistent with the corresponding hierarchy description rules.
 
 {% hint style="warning" %}
-**Drug allergies**\\
+**Drug allergies**
 
 Allergic and nonallergic hypersensitivity (pseudoallergic) concepts include drug allergies.
 {% endhint %}
@@ -156,7 +156,7 @@ These disorders represent pathological processes that are defined as adverse rea
 
 ## Contact hypersensitivity
 
-Contact hypersensitivity represents a response elicited by contact of the skin or mucous membranes with a substance. The response may be immune mediated (allergic) or nonimmune (irritant) using the pathological process _c_ _ontact hypersensitivity process (qualifier value)._
+Contact hypersensitivity represents a response elicited by contact of the skin or mucous membranes with a substance. The response may be immune mediated (allergic) or nonimmune (irritant) using the pathological process _contact hypersensitivity process (qualifier value)._
 
 > For example
 >
