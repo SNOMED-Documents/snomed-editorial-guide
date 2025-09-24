@@ -136,11 +136,9 @@ Some FSN changes are necessary for style consistency; again, changes are only ac
 They may include changing:
 
 * Semantic tag type within a single top-level hierarchy
-
-For example,
-
-* A 'finding' tag to a 'disorder' tag
-* A 'procedure' tag to a 'regime/therapy' tag
+  * For example,
+    * A 'finding' tag to a 'disorder' tag
+    * A 'procedure' tag to a 'regime/therapy' tag
 
 When changing a concept's semantic tag within the same top-level hierarchy, use the description inactivation reason of _Non-conformance to editorial policy_.
 
