@@ -18,25 +18,63 @@ The following modeling and terming guidelines apply to concepts in the Internati
 
 ## Terming
 
-| FSN            | Allergy to component of (finding) Allergy to component of vaccine product containing Hepatitis A virus antigen (finding) Allergy to component of vaccine product containing Streptococcus pneumoniae antigen (finding) Allergy to component of vaccine product containing Clostridium tetani and Corynebacterium diphtheriae antigens (finding) Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding) Use the following pattern for the FSN; align terming and case sensitivity with the FSN for the concept that represents the vaccine product that is the cause of the allergy. For example,                                                                                                                                               |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term | Allergy to vaccine Allergy to and vaccine Allergy to and and vaccine Allergy to Hepatitis A vaccine Allergy to pneumococcal vaccine Allergy to diphtheria and tetanus vaccine Allergy to measles and mumps and rubella vaccine Use the following pattern for the PT; align terming and case significance with the PT for the disorder that is the target of the vaccine. For multiple ingredient vaccine products, the disorders must be listed in alphabetical order and separated by the word "and". For example, For national extensions modeling using "vaccine containing only" product concepts, these disorder-based descriptions will need to reflect "only" to eliminate duplicate descriptions.                                                                                                                        |
-| Synonyms       | Hepatitis A vaccine allergy Pneumococcal vaccine allergy Diphtheria and tetanus vaccine allergy Measles and mumps and rubella vaccine allergy A synonym corresponding to the FSN is required. Synonyms beginning with the disorder that is the target of the vaccine are allowed.For multiple ingredient vaccine products, the disorders must be listed in alphabetical order and separated by the word "and".Note that these are not true synonyms;they may be updated and identified as "near-synonym" descriptions when that functionality becomes available although that would also potentially require updating the PT. For example, For national extensions modeling using "vaccine containing only" product concepts, these disorder-based descriptions will need to reflect "only" to eliminate duplicate descriptions. |
+### FSN
+
+Use the following pattern for the FSN; align terming and case sensitivity with the FSN for the concept that represents the vaccine product that is the cause of the allergy.
+
+* Allergy to component of \<Causative agent FSN> (finding)
+
+For example,
+
+* Allergy to component of vaccine product containing Hepatitis A virus antigen (finding)
+* Allergy to component of vaccine product containing Streptococcus pneumoniae antigen (finding)
+* Allergy to component of vaccine product containing Clostridium tetani and Corynebacterium diphtheriae antigens (finding)
+* Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)
+
+### Preferred Term
+
+Use the following pattern for the PT; align terming and case significance with the PT for the disorder that is the target of the vaccine. For multiple ingredient vaccine products, the disorders must be listed in alphabetical order and separated by the word "and".
+
+* Allergy to \<disorder> vaccine
+* Allergy to \<disorder> and \<disorder> vaccine
+* Allergy to \<disorder> and \<disorder> and \<disorder> vaccine
+
+For example,
+
+* Allergy to Hepatitis A vaccine
+* Allergy to pneumococcal vaccine
+* Allergy to diphtheria and tetanus vaccine
+* Allergy to measles and mumps and rubella vaccine
+
+For national extensions modeling using "vaccine containing only" product concepts, these disorder-based descriptions will need to reflect "only" to eliminate duplicate descriptions.
+
+### Synonyms
+
+A synonym corresponding to the FSN is required.
+
+Synonyms beginning with the disorder that is the target of the vaccine are allowed. For multiple ingredient vaccine products, the disorders must be listed in alphabetical order and separated by the word "and". Note that these are not true synonyms; they may be updated and identified as "near-synonym" descriptions when that functionality becomes available although that would also potentially require updating the PT.
+
+For example,
+
+* Hepatitis A vaccine allergy
+* Pneumococcal vaccine allergy
+* Diphtheria and tetanus vaccine allergy
+* Measles and mumps and rubella vaccine allergy
+
+For national extensions modeling using "vaccine containing only" product concepts, these disorder-based descriptions will need to reflect "only" to eliminate duplicate descriptions.
 
 ## Exemplars
 
-The following illustrates the **stated** view for top level grouper 863903001 |Allergy to component of vaccine product (finding)|:
+<figure><img src="../../../../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>St<strong>ated</strong> view for top level grouper 863903001 |Allergy to component of vaccine product (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690431.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for top level grouper 863903001 |Allergy to component of vaccine product (finding)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>In<strong>ferred</strong> view for top level grouper 863903001 |Allergy to component of vaccine product (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690430.png" alt=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 294663006 |Allergy to component of vaccine product containing Hepatitis A virus antigen (finding)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (27).png" alt=""><figcaption><p><strong>Stated</strong> view for 294663006 |Allergy to component of vaccine product containing Hepatitis A virus antigen (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690429.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 294663006 |Allergy to component of of vaccine product containing Hepatitis A virus antigen (finding)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p><strong>Inferred</strong> view for 294663006 |Allergy to component of of vaccine product containing Hepatitis A virus antigen (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690428.png" alt=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><strong>Stated</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690427.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|:</p></figcaption></figure>
-
-\_
+<figure><img src="../../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><strong>Inferred</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690426.png" alt=""><figcaption><p>_</p></figcaption></figure>

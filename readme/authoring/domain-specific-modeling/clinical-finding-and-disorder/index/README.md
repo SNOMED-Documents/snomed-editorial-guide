@@ -1,10 +1,8 @@
 # Clinical Finding and Disorder Naming Conventions
 
-## Clinical Finding and Disorder Naming Conventions
+## FSN
 
 A Clinical finding/Disorder concept's fully specified name (FSN) must be specific, though the preferred term (PT) can be a more clinician-friendly, word-order variant.
-
-## FSN
 
 ### FSN Pattern
 
@@ -50,9 +48,9 @@ Descriptions for Clinical findings and Disorders should follow the naming guidel
 
 Concepts describing limbs are abundant, and the use of _limb_ in the FSN and the synonyms of upper/lower extremity, arm/leg should be followed.
 
-For example,
-
-* [249945007 |Monoparesis of lower limb (disorder)|](http://snomed.info/id/249945007)
+> For example
+>
+> * [249945007 |Monoparesis of lower limb (disorder)|](http://snomed.info/id/249945007)
 
 Because the finding site is 61685007 |Lower limb structure (body structure)|, which follows the anatomical guidelines, the disorder concept reflects _lower limb_ in the FSN, while using synonyms of _Monoparesis of leg_ and _Monoparesis of lower extremity_.
 
@@ -71,9 +69,9 @@ Plurals may be used:
 * In bilateral concepts, e.g. Disorder of bilateral eyes, Disorder of both eyes (see also _Lateralized Disorder Naming Conventions_)
 * When the concept is a general grouping of disorders of a body system, body site, or other broad category, the word _disorder_ is preferred over the word _disease_ for the FSN, e.g. _Disorder of reproductive system_ , not _Disease of reproductive system_. This does not apply at the leaf level.
 
-For example,
-
-* [417683006 | Sickle cell-hemoglobin C disease without crisis (disorder)|](http://snomed.info/id/417683006)
+> For example[t crisis (disorder)|](http://snomed.info/id/417683006)
+>
+> * [417683006 | Sickle cell-hemoglobin C disease withou](http://snomed.info/id/417683006)
 
 For naming conventions concerning _surgical complications, sequelae, and late effects;_ see this section at [Complication and Sequela Modeling](../clinical-finding-and-disorder-modeling/complication-and-sequela-modeling.md).
 
@@ -96,10 +94,13 @@ SNOMED international is no longer accepting new requests for concepts of the typ
 
 If the [363698007 | Finding site (attribute)|](http://snomed.info/id/363698007) value of a concept is a body structure with "region" in its FSN, then the description of the finding site within the clinical finding concept's FSN should also include "region".
 
-For example, [274205003 | Burn of eye region (disorder)|](http://snomed.info/id/274205003) has a finding site of [371398005 | Eye region structure (body structure)|](http://snomed.info/id/371398005) .
-
-* FSN: Burn of eye region (disorder)
-* PT: Burn of eye region
+> For example \
+> [274205003 | Burn of eye region (disorder)|](http://snomed.info/id/274205003) has a finding site of [371398005 | Eye region structure (body structure)|](http://snomed.info/id/371398005) .
+>
+>
+>
+> * FSN: Burn of eye region (disorder)
+> * PT: Burn of eye region
 
 <figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figure 1. Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
 
@@ -116,8 +117,7 @@ The modeling approach for multiple-ingredient concepts is a temporary solution. 
 Allergic and nonallergic hypersensitivity (pseudoallergic) dispositions are the propensity to develop adverse allergic or nonallergic hypersensitivity (pseudoallergic) disorders. A description for any concept that names a substance or an organism should be consistent with the corresponding hierarchy description rules.
 
 {% hint style="warning" %}
-**Drug allergies**\
-
+**Drug allergies**\\
 
 Allergic and nonallergic hypersensitivity (pseudoallergic) concepts include drug allergies.
 {% endhint %}
@@ -127,12 +127,12 @@ Allergic and nonallergic hypersensitivity (pseudoallergic) concepts include drug
 * FSN: Allergy to X (finding)
 * PT: Allergy to X
 
-For example,
-
-* FSN: Allergy to abacavir (finding)
-* PT: Allergy to abacavir
-* FSN: Allergy to Artemisia vulgaris pollen (finding)
-* PT: Allergy to mugwort pollen
+> For example
+>
+> * FSN: Allergy to abacavir (finding)
+> * PT: Allergy to abacavir
+> * FSN: Allergy to Artemisia vulgaris pollen (finding)
+> * PT: Allergy to mugwort pollen
 
 ### Pattern - Allergy to multiple substances:
 
@@ -152,16 +152,16 @@ These disorders represent manifestations of pathologic processes that may result
 
 These disorders represent pathological processes that are defined as adverse reactions and allergic conditions with a pathological process of allergic or nonallergic hypersensitivity (pseudoallergic) process.
 
-<table><thead><tr><th width="132.0859375">Reaction</th><th>Patterns and examples</th></tr></thead><tbody><tr><td>FSN</td><td><p>Patterns:</p><ul><li>Allergic reaction (caused by X) (disorder)<br></li><li>Anaphylactic reaction (caused by X) (disorder)</li><li>Anaphylactoid reaction (caused by X) (disorder)</li></ul><p>For example, </p><ul><li>Allergic reaction caused by dye (disorder)</li><li>Allergic reaction caused by pollen (disorder)</li></ul></td></tr><tr><td>PT</td><td><p>Patterns: </p><ul><li>Allergic reaction caused by X</li></ul><p>For example,</p><ul><li>Allergic reaction caused by dye</li><li>Allergic reaction caused by pollen</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="132.0859375">Reaction</th><th>Patterns and examples</th></tr></thead><tbody><tr><td>FSN</td><td><p>Patterns:</p><ul><li>Allergic reaction (caused by X) (disorder)<br></li><li>Anaphylactic reaction (caused by X) (disorder)</li><li>Anaphylactoid reaction (caused by X) (disorder)</li></ul><p>For example,</p><ul><li>Allergic reaction caused by dye (disorder)</li><li>Allergic reaction caused by pollen (disorder)</li></ul></td></tr><tr><td>PT</td><td><p>Patterns:</p><ul><li>Allergic reaction caused by X</li></ul><p>For example,</p><ul><li>Allergic reaction caused by dye</li><li>Allergic reaction caused by pollen</li></ul></td></tr></tbody></table>
 
 ## Contact hypersensitivity
 
 Contact hypersensitivity represents a response elicited by contact of the skin or mucous membranes with a substance. The response may be immune mediated (allergic) or nonimmune (irritant) using the pathological process _c_ _ontact hypersensitivity process (qualifier value)._
 
-For example,
-
-* Contact dermatitis (disorder)
-* Irritant contact dermatitis (disorder)
+> For example
+>
+> * Contact dermatitis (disorder)
+> * Irritant contact dermatitis (disorder)
 
 ## Intolerance to substances
 
@@ -175,7 +175,9 @@ Due to the difficulty in precisely defining an intolerance pathological process,
 
 Identification of findings of inadequate or excessive intake of nutrients inconsistent with nutrient requirements and established reference standards includes nutrients with a variety of forms where applicable.
 
-For example, [870465001 | Excessive intake of vitamin A and vitamin A derivative (finding)|](http://snomed.info/id/870465001)
-
-* FSN: Excessive intake of vitamin A and vitamin A derivative (finding)
-* PT: Excessive intake of vitamin A and vitamin A derivative
+> For example
+>
+> [870465001 | Excessive intake of vitamin A and vitamin A derivative (finding)|](http://snomed.info/id/870465001)
+>
+> * FSN: Excessive intake of vitamin A and vitamin A derivative (finding)
+> * PT: Excessive intake of vitamin A and vitamin A derivative
