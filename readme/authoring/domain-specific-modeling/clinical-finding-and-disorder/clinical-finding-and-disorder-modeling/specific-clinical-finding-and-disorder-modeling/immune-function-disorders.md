@@ -9,18 +9,22 @@
 [473011001 |Allergic condition (finding)|](http://snomed.info/id/473011001) and [609405001 |Non-allergic hypersensitivity condition (finding)|](http://snomed.info/id/609405001) are both primitive concepts. Each has three main subhierarchies representing:
 
 * Diseases/disorders: abnormal structures
-  * Processes: allergic and nonallergic hypersensitivity (pseudoallergic) reactions
-  * Dispositions: propensities to develop allergic and nonallergic hypersensitivity (pseudoallergic) reactions; they do not have pathophysiologic manifestations prior to allergic and nonallergic hypersensitivity (pseudoallergic) processes, i.e. reactions
+* Processes: allergic and nonallergic hypersensitivity (pseudoallergic) reactions
+* Dispositions: propensities to develop allergic and nonallergic hypersensitivity (pseudoallergic) reactions; they do not have pathophysiologic manifestations prior to allergic and nonallergic hypersensitivity (pseudoallergic) processes, i.e. reactions
 
 Diseases/disorders and reactions, but not dispositions, are defined by underlying pathological processes.
 
+{% hint style="info" %}
 In order to fully describe the full range of hypersensitivity responses, there are qualifier values in the Pathological process (qualifier value) hierarchy. (See also _Qualifier Value_ page).
+{% endhint %}
 
 ### Allergic reaction
 
 Allergic reaction (disorder) has a Causative agent (attribute) of Substance (substance) or its subtypes. This attribute-value pair is grouped with another attribute-value pair of Pathological process (attribute) and Allergic process (qualifier value).
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690511.png" alt=""><figcaption><p>Figure 1: Stated view of 15920201000119103 |Allergic reaction caused by fish (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690511.png" alt=""><figcaption><p>Figure: Stated view of 15920201000119103 |Allergic reaction caused by fish (disorder)|</p></figcaption></figure>
 
 Allergic process (qualifier value) is a subtype of Abnormal immune process (qualifier value) which means allergic disorders, as well as autoimmune disorders, classify as types of disorders of immune function. Disorder of immune function (disorder) modeling with Abnormal immune process (qualifier value) allows allergic and autoimmune disorders to correctly classify as subtypes of Disorder of immune function (disorder).
 
@@ -28,19 +32,17 @@ Allergic process (qualifier value) is a subtype of Abnormal immune process (qual
 
 Allergic and nonallergic hypersensitivity (pseudoallergic) diseases represent manifestations of pathologic processes that result in abnormal structures. Modeling an allergic and nonallergic hypersensitivity (pseudoallergic) disease includes the following relationship group:
 
-IS A: Disease (disorder)
-
-Associated morphology (attribute): subtype of Morphologically abnormal structure (morphologic abnormality) representing the abnormal structure
-
-Finding site (attribute): subtype of Anatomical or acquired body structure (body structure) representing the abnormal structure
-
-Pathological process: Hypersensitivity process (qualifier value) or one of its descendants
-
-Causative agent (attribute): Substance (substance) or one of its descendants, if known
+* IS A: Disease (disorder)
+* Associated morphology (attribute): subtype of Morphologically abnormal structure (morphologic abnormality) representing the abnormal structure
+* Finding site (attribute): subtype of Anatomical or acquired body structure (body structure) representing the abnormal structure
+* Pathological process: Hypersensitivity process (qualifier value) or one of its descendants
+* Causative agent (attribute): Substance (substance) or one of its descendants, if known
 
 For example,
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690512.png" alt=""><figcaption><p>Figure 2: Stated view of 838367000 |Allergic rhinosinusitis caused by Aspergillus (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690512.png" alt=""><figcaption><p>Figure:  Stated view of 838367000 |Allergic rhinosinusitis caused by Aspergillus (disorder)|</p></figcaption></figure>
 
 ### Allergic and nonallergic hypersensitivity (pseudoallergic) disposition
 
@@ -58,21 +60,29 @@ Causative agent (attribute): subtype of Substance (substance)
 
 For example,
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690510.png" alt=""><figcaption><p>Figure 3: Allergic and nonallergic hypersensitivity (pseudoallergic) disposition example, stated view of Allergy to nut (finding)</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690510.png" alt=""><figcaption><p>Figure: Allergic and nonallergic hypersensitivity (pseudoallergic) disposition example, stated view of Allergy to nut (finding)</p></figcaption></figure>
 
 For example,
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690509.png" alt=""><figcaption><p>Figure 4: Allergic disposition (finding) model in stated view</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690509.png" alt=""><figcaption><p>Figure: Allergic disposition (finding) model in stated view</p></figcaption></figure>
 
 ### Nonallergic hypersensitivity (pseudoallergic) reaction
 
 Nonallergic hypersensitivity (pseudoallergic) reactions are adverse reactions; they are defined by an underlying pathological process.
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690503.png" alt=""><figcaption><p>Figure 5: Nonallergic hypersensitivity (pseudoallergic) reaction model in stated view</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690503.png" alt=""><figcaption><p>Figure: Nonallergic hypersensitivity (pseudoallergic) reaction model in stated view</p></figcaption></figure>
 
 For example,
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690504.png" alt=""><figcaption><p>Figure 6: Example of nonallergic hypersensitivity (pseudoallergic) reaction model in stated view</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<p align="center">Figure: Example of nonallergic hypersensitivity (pseudoallergic) reaction model in stated view</p>
 
 ### Intolerance to substance
 
@@ -80,8 +90,12 @@ An _intolerance_ is the propensity to develop an adverse reaction to a substance
 
 It may be difficult to define the pathological process and to associate the substance with the propensity to develop a reaction. Consequently, [47429007 |Associated with (attribute)|](http://snomed.info/id/47429007) is used to model intolerance to substances.
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690502.png" alt=""><figcaption><p>Figure 7: Stated view of Intolerance to substance (finding) model</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690502.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to substance (finding) model</p></figcaption></figure>
 
 For example,
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690501.png" alt=""><figcaption><p>Figure 8: Stated view of 59037007 Intolerance to drug (finding)</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690501.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to drug (finding)</p></figcaption></figure>
