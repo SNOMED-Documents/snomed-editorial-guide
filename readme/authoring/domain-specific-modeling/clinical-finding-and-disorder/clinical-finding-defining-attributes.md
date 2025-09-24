@@ -118,7 +118,7 @@ For example,
 
 * 4532008 | Acute inflammation (morphologic abnormality| does not necessarily have a clinical course of sudden onset and/or short duration, but rather implies polymorphonuclear infiltration ( 84499006 | Chronic inflammation (morphologic abnormality)| implies mononuclear cell infiltration, not necessarily a chronic course, although inflammation with a chronic course is highly correlated with a lymphocytic infiltration
 
-2704003 |Acute disease (disorder)| is modeled with a Clinical course (attribute) of Sudden onset AND/OR short duration (qualifier value). For clinical conditions that necessitate further specificity, the more appropriate subtypes are available. \_\__Acute onset_ and s _udden onset_ are synonymous; clinical conditions specifying _acute onset_ should be modeled with a Clinical course (attribute) of Sudden onset (qualifier value).
+2704003 |Acute disease (disorder)| is modeled with a Clinical course (attribute) of Sudden onset AND/OR short duration (qualifier value). For clinical conditions that necessitate further specificity, the more appropriate subtypes are available. _Acute onset_ and _sudden onset_ are synonymous; clinical conditions specifying _acute onset_ should be modeled with a Clinical course (attribute) of Sudden onset (qualifier value).
 
 Acute-on-chronic (qualifier value) is an acute (sudden onset) event superimposed on a pre-existing chronic condition. This be either a sudden worsening of a chronic condition itself (an exacerbation) or the development of a new, separate acute illness on top of a chronic disease.
 
@@ -146,7 +146,7 @@ This attribute is used to represent episodes of care provided by a physician or 
 
 For example,
 
-* Asthma with 246456000 | Episodicity (attribute)| of \[255217005 | First episode (qualifier value)| represents the first time the patient presents to their healthcare provider with asthma.
+* Asthma with 246456000 | Episodicity (attribute)| of 255217005 | First episode (qualifier value)| represents the first time the patient presents to their healthcare provider with asthma.
 
 {% hint style="warning" %}
 Episodicity is not used to model any concepts precoordinated in the International Release, but it can be used as a qualifier in postcoordination.
@@ -170,7 +170,7 @@ This attribute specifies the body site affected by a condition.
 
 For example,
 
-* 90708001 | Kidney disease (disorder)| has 363698007 | Finding site (attribute)| of 64033007 | Kidney structure (body structure)|
+* 90708001 |Kidney disease (disorder)| has 363698007 |Finding site (attribute)| of 64033007 |Kidney structure (body structure)|
 
 ## Has interpretation
 
