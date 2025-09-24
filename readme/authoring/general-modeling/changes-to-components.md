@@ -6,7 +6,7 @@ Concepts that are used as target values in an attribute relationship impact the 
 
 For example,
 
-The creation of [713295009 | Surgical replacement - action (qualifier value)|](http://snomed.info/id/713295009) would require a review of active concepts that represent _surgical_ replacement procedures that were previously modeled with the Method (attribute) of \_\_ Replacement - action (qualifier value).
+The creation of [713295009 | Surgical replacement - action (qualifier value)|](http://snomed.info/id/713295009) would require a review of active concepts that represent _surgical_ replacement procedures that were previously modeled with the Method (attribute) of Replacement - action (qualifier value).
 
 A concept that represents a surgical replacement procedure that currently has a Method (attribute) of [282089006 | Replacement - action (qualifier value)|](http://snomed.info/id/282089006) would require inactivation of that relationship and the creation of a new attribute-value relationship of Method (attribute) of [713295009 | Surgical replacement - action (qualifier value)|](http://snomed.info/id/713295009).
 
@@ -16,12 +16,12 @@ A concept that represents a surgical replacement procedure that currently has a 
 
 Depending upon the combination of the type of component and the reason for inactivation, a specific inactivation reason must be selected.
 
-| Inactivation value                                                         | Definition                                                                                                                                                                                                                                                                                                       | Example                                                                                                                                                                              |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Not semantically equivalent component (foundation metadata concept)        | A description does not represent the same meaning as the concept's Fully Specified Name (FSN)                                                                                                                                                                                                                    | Removal of device (procedure) has a synonym, Replacement of prosthetic device (procedure), which should be inactivated because the synonym has a more specific meaning than the FSN. |
-| Outdated component (foundation metadata concept)                           | A component is no longer current, useful, appropriate or acceptable                                                                                                                                                                                                                                              | The synonym _Compression facies_ was inactivated from the concept's more modern description of _Facial asymmetry_.                                                                   |
-| Grammatical description error (foundation metadata concept)                | <p>A component contains a technical error.  </p><p>The error in the description is grammatical or a spelling mistake, which when corrected does not change the meaning of the concept. Where the meaning <em>is</em> changed, the <em>concept</em> should be inactivated using <em>Erroneous component</em>.</p> | <p>Case significance error:  <em>Alpha</em> should have a lower case <em>a</em></p><p>Spelling error:  <em>Asthma</em> misspelled as <em>Assthma</em></p>                            |
-| Nonconformance to editorial policy component (foundation metadata concept) | A component fails to comply with the current editorial guidance                                                                                                                                                                                                                                                  | <p>The concept Urine: turbid (finding) was inactivated and replaced by</p><p><a href="http://snomed.info/id/167238004">167238004 | Turbid urine (finding)|</a></p>                   |
+| Inactivation value                                                         | Definition                                                                                                                                                                                                                                                                                                     | Example                                                                                                                                                                              |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Not semantically equivalent component (foundation metadata concept)        | A description does not represent the same meaning as the concept's Fully Specified Name (FSN)                                                                                                                                                                                                                  | Removal of device (procedure) has a synonym, Replacement of prosthetic device (procedure), which should be inactivated because the synonym has a more specific meaning than the FSN. |
+| Outdated component (foundation metadata concept)                           | A component is no longer current, useful, appropriate or acceptable                                                                                                                                                                                                                                            | The synonym _Compression facies_ was inactivated from the concept's more modern description of _Facial asymmetry_.                                                                   |
+| Grammatical description error (foundation metadata concept)                | <p>A component contains a technical error.</p><p>The error in the description is grammatical or a spelling mistake, which when corrected does not change the meaning of the concept. Where the meaning <em>is</em> changed, the <em>concept</em> should be inactivated using <em>Erroneous component</em>.</p> | <p>Case significance error: <em>Alpha</em> should have a lower case <em>a</em></p><p>Spelling error: <em>Asthma</em> misspelled as <em>Assthma</em></p>                              |
+| Nonconformance to editorial policy component (foundation metadata concept) | A component fails to comply with the current editorial guidance                                                                                                                                                                                                                                                | <p>The concept Urine: turbid (finding) was inactivated and replaced by</p><p><a href="http://snomed.info/id/167238004">167238004</a></p>                                             |
 
 ### Order of selection of inactivation values <a href="#order-of-selection-of-inactivation-values" id="order-of-selection-of-inactivation-values"></a>
 
@@ -34,19 +34,19 @@ When there is more than one reason to inactivate a description, the order of pre
 
 ### Corresponding association type <a href="#corresponding-association-type" id="corresponding-association-type"></a>
 
-Only the description inactivation value of _Not semantically equivalent_ _component_ requires an association type; the association type is _Refers to_ and necessitates the reference to at least one active SNOMED CT concept. It is possible that the description is ambiguous and may relate to more than one concept.&#x20;
+Only the description inactivation value of _Not semantically equivalent_ _component_ requires an association type; the association type is _Refers to_ and necessitates the reference to at least one active SNOMED CT concept. It is possible that the description is ambiguous and may relate to more than one concept.
 
-The other three description inactivation values (outdated, grammatical error, nonconformance) do not require an associated concept.&#x20;
+The other three description inactivation values (outdated, grammatical error, nonconformance) do not require an associated concept.
 
 {% hint style="info" %}
-See also, _Changes in FSN_, on the [Fully Specified Name](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133244331) page.&#x20;
+See also, _Changes in FSN_, on the [Fully Specified Name](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133244331) page.
 {% endhint %}
 
 ## Concept Inactivation
 
 ### Concept inactivation values <a href="#concept-inactivation-values" id="concept-inactivation-values"></a>
 
-A value from the choices below must be chosen as a reason for inactivating a concept.  Inactivation replacement associations are ultimately at the author's discretion.  Especially in the instance of an infinite number of possible replacements, clinical relevance and subset inclusion should be considered.  Non-synonymous synonyms should also be inactivated and reassigned.
+A value from the choices below must be chosen as a reason for inactivating a concept. Inactivation replacement associations are ultimately at the author's discretion. Especially in the instance of an infinite number of possible replacements, clinical relevance and subset inclusion should be considered. Non-synonymous synonyms should also be inactivated and reassigned.
 
 ### Inactivation Associations
 
@@ -68,34 +68,34 @@ A value from the choices below must be chosen as a reason for inactivating a con
 {% hint style="info" %}
 **Historical relationships**
 
-When changes are made to a historical relationship for a concept that was previously inactivated, such as Limited/WAS\_A, assign a new historical relationship that facilitates traceability of the concept (duplicate, ambiguous, classification derived, etc.).  The _Limited component_ inactivation reason (WAS\_A association type) is no longer in use for new content inactivations as of the July 2018 release. &#x20;
+When changes are made to a historical relationship for a concept that was previously inactivated, such as Limited/WAS\_A, assign a new historical relationship that facilitates traceability of the concept (duplicate, ambiguous, classification derived, etc.). The _Limited component_ inactivation reason (WAS\_A association type) is no longer in use for new content inactivations as of the July 2018 release.
 {% endhint %}
 
 ### Inactivation Reasons <a href="#ambiguous" id="ambiguous"></a>
 
 #### Ambiguous <a href="#ambiguous" id="ambiguous"></a>
 
-All possible meanings should be represented in the replacement targets when feasible, creating new concepts as replacements when appropriate. &#x20;
+All possible meanings should be represented in the replacement targets when feasible, creating new concepts as replacements when appropriate.
 
 Ambiguous concepts with a single replacement target may be used if one of the two possible meanings of the ambiguous concept is not clinically useful.
 
 #### Classification-derived <a href="#classification-derived" id="classification-derived"></a>
 
-Many, but not all, concepts precoordinated with "with" and "and" are derived from classifications; regardless, this is the acceptable inactivation reason. &#x20;
+Many, but not all, concepts precoordinated with "with" and "and" are derived from classifications; regardless, this is the acceptable inactivation reason.
 
-For concepts with exclusions, such as NEC, NOS, etc., use the _Replaced by_ association with the immediate parent concept as the value, which is the clinical condition without any context. If a parent concept without the exclusion does not exist, it should be created as a new concept.&#x20;
+For concepts with exclusions, such as NEC, NOS, etc., use the _Replaced by_ association with the immediate parent concept as the value, which is the clinical condition without any context. If a parent concept without the exclusion does not exist, it should be created as a new concept.
 
-For concepts with conjunctions such as 'and' and 'with', use the _Partially equivalent to_ association with the two separate values as targets.  For the purposes of patient care, it is recommended that each disorder is recorded individually. &#x20;
+For concepts with conjunctions such as 'and' and 'with', use the _Partially equivalent to_ association with the two separate values as targets. For the purposes of patient care, it is recommended that each disorder is recorded individually.
 
-The _Partially equivalent to_ association signifies that **all** applied targets must be implemented within the clinical notes to ensure the original clinical idea is represented.&#x20;
+The _Partially equivalent to_ association signifies that **all** applied targets must be implemented within the clinical notes to ensure the original clinical idea is represented.
 
 #### Duplicate <a href="#duplicate" id="duplicate"></a>
 
 #### _Inactivation_ <a href="#inactivation" id="inactivation"></a>
 
 * Note that the meaning of the concept is based on the FSN but does not imply that the FSNs are identical.\
-  Keep the concept with the more specific FSN.  FSN is the source of a concept's meaning; hence, there should be more weight in the meaning of the FSN rather than the underlying modeling.  Implementers do not see modeling.&#x20;
-* If appropriate, add the descriptions from the inactivated concept to the remaining active concept while ensuring they are semantically equivalent, clinically useful, and follow current naming conventions.&#x20;
+  Keep the concept with the more specific FSN. FSN is the source of a concept's meaning; hence, there should be more weight in the meaning of the FSN rather than the underlying modeling. Implementers do not see modeling.
+* If appropriate, add the descriptions from the inactivated concept to the remaining active concept while ensuring they are semantically equivalent, clinically useful, and follow current naming conventions.
 
 #### _Consider_ <a href="#consider" id="consider"></a>
 
@@ -116,7 +116,7 @@ The Duplicate component is the inactivation for duplicated concepts:
    2. Procedure and Situation
    3. Observable and Procedure
 
-Any possible duplicates between concepts among other paired hierarchies not listed above should be reconsidered as duplicates and directed to another inactivation reason, likely Erroneous.&#x20;
+Any possible duplicates between concepts among other paired hierarchies not listed above should be reconsidered as duplicates and directed to another inactivation reason, likely Erroneous.
 
 {% hint style="warning" %}
 If the change is a request, inform the requestor as to which concept is inactivated.
@@ -124,18 +124,18 @@ If the change is a request, inform the requestor as to which concept is inactiva
 
 #### Erroneous <a href="#erroneous" id="erroneous"></a>
 
-Where the error gives rise to potential ambiguity, use the inactivation reason of Ambiguous component. Otherwise, the Erroneous component requires a single _Replaced by_ value.&#x20;
+Where the error gives rise to potential ambiguity, use the inactivation reason of Ambiguous component. Otherwise, the Erroneous component requires a single _Replaced by_ value.
 
 #### Meaning unknown <a href="#meaning-unknown" id="meaning-unknown"></a>
 
-Meaning of the concept is unknown, and an association type is not given.  It will normally be necessary to search the clinical literature to establish that this is truly an unknown concept rather than an outdated clinical concept.\
+Meaning of the concept is unknown, and an association type is not given. It will normally be necessary to search the clinical literature to establish that this is truly an unknown concept rather than an outdated clinical concept.\
 This inactivation reason may be used where the meaning of the FSN is considered to be vague.
 
 #### Nonconformance to editorial policy <a href="#nonconformance-to-editorial-policy" id="nonconformance-to-editorial-policy"></a>
 
-Concept which do not adhere to editorial guidance can be inactivated without an association type. Else _Replaced by_ and _Alternative_ are Association type options.&#x20;
+Concept which do not adhere to editorial guidance can be inactivated without an association type. Else _Replaced by_ and _Alternative_ are Association type options.
 
-Policies will often delineate how these two _Association type_ options will be used.  Changes of this type often include bulk updates and may relate to medicinal products, substances, and devices.
+Policies will often delineate how these two _Association type_ options will be used. Changes of this type often include bulk updates and may relate to medicinal products, substances, and devices.
 
 #### Outdated <a href="#outdated" id="outdated"></a>
 
@@ -152,5 +152,5 @@ A substance or organism originally believed to be a single entity has been recla
 {% hint style="info" %}
 **Reactivation**
 
-[Management of Inactivated International Concepts within an Extension](https://app.gitbook.com/s/3RKZIWpWFT0ocCgNT16E/5-key-steps/5.4-authoring/5.4.1-general-authoring-principles/5.4.1.3-management-of-inactivated-international-concepts-within-an-extension "mention")&#x20;
+[Management of Inactivated International Concepts within an Extension](https://app.gitbook.com/s/3RKZIWpWFT0ocCgNT16E/5-key-steps/5.4-authoring/5.4.1-general-authoring-principles/5.4.1.3-management-of-inactivated-international-concepts-within-an-extension "mention")
 {% endhint %}
