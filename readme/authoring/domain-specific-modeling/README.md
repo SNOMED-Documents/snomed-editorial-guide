@@ -8,25 +8,25 @@ Domains
 
 The following are the 19 domains arranged in alphabetical order.
 
-* [Body Structure](../../../Body-Structure_174690290.html)
-* [Clinical Finding and Disorder](../../../Clinical-Finding-and-Disorder_174690335.html)
-* [Environment and Geographical Location](../../../Environment-and-Geographical-Location_174690590.html)
-* [Event](../../../Event_174690591.html)
-* [Observable Entity](../../../Observable-Entity_174690597.html)
-* [Organism](../../../Organism_174690618.html)
-* [Pharmaceutical and Biologic Product](../../../Pharmaceutical-and-Biologic-Product_174690621.html)
-* [Physical Force](../../../Physical-Force_174691256.html)
-* [Physical Object](../../../Physical-Object_174691257.html)
-* [Procedure](../../../Procedure_174691281.html)
-* [Qualifier Value](../../../Qualifier-Value_174691360.html)
-* [Record Artifact](../../../Record-Artifact_174691379.html)
-* [Situation with Explicit Context](../../../Situation-with-Explicit-Context_174691381.html)
-* [SNOMED CT Model Component](../../../SNOMED-CT-Model-Component_174691387.html)
-* [Social Context](../../../Social-Context_174691391.html)
-* [Special Concept](../../../Special-Concept_174691392.html)
+* [Body Structure](body-structure/)
+* [Clinical Finding and Disorder](clinical-finding-and-disorder/)
+* [Environment and Geographical Location](environment-and-geographical-location.md)
+* [Event](event/)
+* [Observable Entity](observable-entity/)
+* [Organism](organism/)
+* [Pharmaceutical and Biologic Product](pharmaceutical-and-biologic-product/)
+* [Physical Force](physical-force.md)
+* [Physical Object](physical-object/)
+* [Procedure](procedure/)
+* [Qualifier Value](qualifier-value/)
+* [Record Artifact](record-artifact.md)
+* [Situation with Explicit Context](situation-with-explicit-context/)
+* [SNOMED CT Model Component](snomed-ct-model-component.md)
+* Social Context
+* [Special Concept](special-concept.md)
 * [Specimen](../../../Specimen_174691394.html)
-* [Staging and Scales](../../../Staging-and-Scales_174691397.html)
-* [Substance](../../../Substance_174691398.html)
+* [Staging and Scales](staging-and-scales.md)
+* [Substance](substance/)
 
 The following subhierarchies do not have concept models:
 
