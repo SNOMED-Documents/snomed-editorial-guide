@@ -26,6 +26,7 @@
     * [General Naming Conventions](readme/authoring/general-naming-conventions/README.md)
       * [Descriptions](readme/authoring/general-naming-conventions/descriptions/README.md)
         * [Fully Specified Name](readme/authoring/general-naming-conventions/descriptions/fully-specified-name.md)
+          * [Semantic Tags](readme/authoring/general-naming-conventions/descriptions/semantic-tags/index.md)
         * [Preferred Term](readme/authoring/general-naming-conventions/descriptions/preferred-term.md)
         * [Synonym](readme/authoring/general-naming-conventions/descriptions/synonym.md)
         * [Definition](readme/authoring/general-naming-conventions/descriptions/definition.md)

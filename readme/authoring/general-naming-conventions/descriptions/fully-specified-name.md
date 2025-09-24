@@ -194,3 +194,7 @@ Before any changes are made to an FSN, imported directly with an extension (loca
 * Check for existing concepts with the same FSN; the term may be added as a preferred term or synonym.
 
 Changes to existing SNOMED CT concepts do not necessitate notifying the original submitter.
+
+## Subpages
+
+* [Semantic Tags](semantic-tags/index.md)
