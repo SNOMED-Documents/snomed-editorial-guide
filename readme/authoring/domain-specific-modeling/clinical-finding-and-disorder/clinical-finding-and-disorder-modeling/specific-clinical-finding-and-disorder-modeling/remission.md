@@ -8,7 +8,9 @@ For example,
 
 [16270831000119107 |Bulimia nervosa in partial remission (disorder)|](http://snomed.info/id/16270831000119107) has stated parents of 698698008 |Bulimia nervosa in remission (disorder)| and [765207007 |Disorder in partial remission (disorder)|](http://snomed.info/id/765207007).
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690538.png" alt=""><figcaption><p>Figure 1. Stated view of 16270831000119107 |Bulimia nervosa in partial remission (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690538.png" alt=""><figcaption><p>Figure: Stated view of 16270831000119107 |Bulimia nervosa in partial remission (disorder)|</p></figcaption></figure>
 
 Where the primitive supertype for the disorder is |Disease (disorder)|, only the _Disorder in remission_ supertype will be required.
 
@@ -16,8 +18,10 @@ For example,
 
 [91856007 |Acute lymphoid leukemia in remission (disorder)|](http://snomed.info/id/91856007) has only one stated parent of[ 765205004 |Disorder in remission (disorder)|](http://snomed.info/id/765205004), because a potential supertype of [64572001 |Disease (disorder)|](http://snomed.info/id/64572001) would be unnecessary.
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690540.png" alt=""><figcaption><p>Figure 2. Stated view of 91856007 |Acute lymphoid leukemia in remission (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-See also relative section(s):
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690540.png" alt=""><figcaption><p>Figure: Stated view of 91856007 |Acute lymphoid leukemia in remission (disorder)|</p></figcaption></figure>
+
+See also relative section:
 
 Mental health
