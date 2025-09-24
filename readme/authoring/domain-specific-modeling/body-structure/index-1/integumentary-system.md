@@ -2,7 +2,9 @@
 
 ## Skin, skin-associated mucosa
 
-This is an example of a body structure that is used to group related terms. The concept [707861009 |Structure of skin and/or skin-associated mucous membrane (body structure)|](http://snomed.info/id/707861009) intentionally employs _disjunction_ (inclusive &#x4F;_&#x72;_).  It includes structures in the deep layers, but excludes non-skin mucosal epithelium, e.g., bronchial, gastrointestinal, and genitourinary sites of squamous cell neoplasms. The [400199006 |Structure of skin and/or surface epithelium (body structure)|](http://snomed.info/id/400199006) concept is used to represent the sites of these neoplasms.
+This is an example of a body structure that is used to group related terms.&#x20;
+
+The concept [707861009 |Structure of skin and/or skin-associated mucous membrane (body structure)|](http://snomed.info/id/707861009) intentionally employs _disjunction_ (inclusive &#x4F;_&#x72;_).  It includes structures in the deep layers, but excludes non-skin mucosal epithelium, e.g., bronchial, gastrointestinal, and genitourinary sites of squamous cell neoplasms. The [400199006 |Structure of skin and/or surface epithelium (body structure)|](http://snomed.info/id/400199006) concept is used to represent the sites of these neoplasms.
 
 Skin and/or skin-associated mucosa is intended for use in dermatology. It is not intended to subsume all mucosal structures, which are under Mucous membrane structure (body structure).
 

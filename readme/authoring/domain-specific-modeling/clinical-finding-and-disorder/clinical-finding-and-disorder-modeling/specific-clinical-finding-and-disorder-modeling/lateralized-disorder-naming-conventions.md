@@ -1,2 +1,0 @@
-# Lateralized Disorder Naming Conventions
-

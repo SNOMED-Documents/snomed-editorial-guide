@@ -71,8 +71,9 @@ In many diseases and procedures, reference is made to areas of the body that may
 
 #### Joint vs. Joint Region
 
-| 70258002 \| Ankle joint structure (body structure) \|        | 344001 \| Ankle region structure (body structure) \|      |
+| Joint                                                        | Joint Region                                              |
 | ------------------------------------------------------------ | --------------------------------------------------------- |
+| 70258002 \| Ankle joint structure (body structure) \|        | 344001 \| Ankle region structure (body structure) \|      |
 | 74670003 \| Wrist joint structure (body structure) \|        | 8205005 \| Wrist region structure (body structure) \|     |
 | 85537004 \| Glenohumeral joint structure (body structure) \| | 16982005 \| Shoulder region structure (body structure) \| |
 

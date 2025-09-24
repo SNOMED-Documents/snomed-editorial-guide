@@ -44,7 +44,7 @@ Where more than one potential primitive supertype is identified for a concept, a
 
       [421095001 | Allergic disorder by body site affected (disorder)|](http://snomed.info/id/421095001).  However, [64572001 | Disease (disorder)|](http://snomed.info/id/64572001) is subsumed by [404684003 | Clinical finding (finding)|](http://snomed.info/id/404684003), therefore[64572001 | Disease (disorder)|](http://snomed.info/id/64572001)is the proximal primitive supertype concept.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### GCI-Modeled primitive supertypes  <a href="#gci-modeled-primitive-supertypes" id="gci-modeled-primitive-supertypes"></a>
 

@@ -38,7 +38,7 @@ A third meaning of nerve, defined by the FMA is: _Segment of neural tree organ w
   * Chorda tympani, digastric branch of facial nerve, greater petrosal nerve, posterior cutaneous branch of posterior ramus of cervical nerve, superior lateral cutaneous nerve of arm.
   * If one severs the facial nerve, the meaning refers to the trunk. But if one has facial nerve palsy, the meaning refers to the entire distribution of the nerve and the functions served by it.
 
-#### Inactivation
+### Inactivation
 
 There were several concepts with the phrase _x nerve and its branches,_ interpreted as meaning \_ the entire nerve and its branches.\_ Therefore, _x nerve and its branches_ would be a duplicate of _entire x nerve_ , when we interpret _entire x nerve_ as being a neural tree organ.
 

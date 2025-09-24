@@ -4,29 +4,36 @@
 
 A Clinical finding/Disorder concept's fully specified name (FSN) must be specific, though the preferred term (PT) can be a more clinician-friendly, word-order variant.
 
+## FSN
+
+### FSN Pattern
+
 The FSN must conform to a specific pattern of "Disease of x" where a specific body structure is involved. For the preferred term, end users can choose the desired description that conforms to common clinical usage.
 
 For example,
 
-FSN: Disease of kidney (disorder)
+* FSN: Disease of kidney (disorder)
+* PT: Can be either 'Kidney disease' or 'Renal disease'
 
-PT: Can be either 'Kidney disease' or 'Renal disease'
+### Use of -_opathy_
 
 The use of -_opathy_ is to be used in the preferred term, because the FSN is to be specific and explicit, and there are often various interpretations of -_opathy_. A term containing the suffix -opathy can only be used in the FSN if a definition is applied via the DEF description.
 
 For example,
 
-FSN: Disorder of macula of retina (disorder)
+* FSN: Disorder of macula of retina (disorder)
+* PT: Can be either 'Disorder of macula of retina' or 'Maculopathy'
 
-PT: Can be either 'Disorder of macula of retina' or 'Maculopathy'
+### Order of site and morphology
 
 The morphologic abnormality is named before naming the anatomical site.
 
 For example,
 
-* ```
-  * In [ 399525009 | Inflammation of ampulla of Vater (disorder)|](http://snomed.info/id/399525009 "399525009 | Inflammation of ampulla of Vater \(disorder\) |") ,  _I_ _nflammation_ is the morphologic abnormality and A _mpulla of Vater is_ the finding site.
-  ```
+* In 399525009 | Inflammation of ampulla of Vater (disorder)|, **Inflammation** is the morphologic abnormality and **Ampulla of Vater** is the finding site.
+
+{% hint style="warning" %}
+**Exceptions**
 
 While the general naming convention for findings and disorders is _< Morphology> of_ , there are some exceptions:
 
@@ -35,6 +42,7 @@ While the general naming convention for findings and disorders is _< Morphology>
 * Disorders which are not described by an anatomical site; e.g. metabolic disease, hereditary disease, bacterial disease
 * Completed or in review - [Pre-coordination Naming Patterns Project](https://prod-confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project)
 * Proposed for future review - [Unreviewed Patterns by Hierarchy](https://prod-confluence.ihtsdotools.org/display/IHTSDO1/Unreviewed+Patterns+by+Hierarchy)
+{% endhint %}
 
 ### Descriptions that include body structures
 
@@ -44,9 +52,7 @@ Concepts describing limbs are abundant, and the use of _limb_ in the FSN and the
 
 For example,
 
-* ```
-  * 249945007 |Monoparesis of lower limb (disorder)|
-  ```
+* [249945007 |Monoparesis of lower limb (disorder)|](http://snomed.info/id/249945007)
 
 Because the finding site is 61685007 |Lower limb structure (body structure)|, which follows the anatomical guidelines, the disorder concept reflects _lower limb_ in the FSN, while using synonyms of _Monoparesis of leg_ and _Monoparesis of lower extremity_.
 
@@ -67,9 +73,7 @@ Plurals may be used:
 
 For example,
 
-* ```
-  * [ 417683006 | Sickle cell-hemoglobin C disease without crisis (disorder)|](http://snomed.info/id/417683006 "417683006 | Sickle cell-hemoglobin C disease without crisis \(disorder\) |")
-  ```
+* [417683006 | Sickle cell-hemoglobin C disease without crisis (disorder)|](http://snomed.info/id/417683006)
 
 For naming conventions concerning _surgical complications, sequelae, and late effects;_ see this section at [Complication and Sequela Modeling](../clinical-finding-and-disorder-modeling/complication-and-sequela-modeling.md).
 
@@ -94,30 +98,34 @@ If the [363698007 | Finding site (attribute)|](http://snomed.info/id/363698007) 
 
 For example, [274205003 | Burn of eye region (disorder)|](http://snomed.info/id/274205003) has a finding site of [371398005 | Eye region structure (body structure)|](http://snomed.info/id/371398005) .
 
-* ```
-  * FSN: Burn of eye region (disorder)
-  ```
-  * PT: Burn of eye region
+* FSN: Burn of eye region (disorder)
+* PT: Burn of eye region
 
-<figure><img src="../../../../../authoring/images/174690351.png" alt=""><figcaption><p>Figure 1. Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figure 1. Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
 
 ## Allergy to substances, multiple substances
 
 Previously, allergies caused by multiple substances were modeled by multiple causative agents suggesting that the allergy is caused by all those substances. However, when multiple substances are noted in the FSN, the intended clinical meaning is that a patient might be affected by one or more of these substances (or products containing them). To convey this meaning, these types of concepts should be modeled GCIs to represent the disjunctive meaning. e.g. 870731003 |Allergy to carbidopa and/or levodopa (finding)|
 
+{% hint style="info" %}
 The modeling approach for multiple-ingredient concepts is a temporary solution. It incorrectly asserts an allergy/adverse reaction to each, rather than to one, agent. The use of concepts from the Pharmaceutical/biologic product hierarchy is being considered as a final solution, but further work is required to determine if this would be a viable solution.
+{% endhint %}
 
 ## Allergic and nonallergic hypersensitivity (pseudoallergic) _dispositions_
 
 Allergic and nonallergic hypersensitivity (pseudoallergic) dispositions are the propensity to develop adverse allergic or nonallergic hypersensitivity (pseudoallergic) disorders. A description for any concept that names a substance or an organism should be consistent with the corresponding hierarchy description rules.
 
+{% hint style="warning" %}
+**Drug allergies**\
+
+
 Allergic and nonallergic hypersensitivity (pseudoallergic) concepts include drug allergies.
+{% endhint %}
 
-Patterns:
+### Pattern - Allergy to single substance:
 
-FSN: Allergy to X (finding)
-
-PT: Allergy to X
+* FSN: Allergy to X (finding)
+* PT: Allergy to X
 
 For example,
 
@@ -125,6 +133,8 @@ For example,
 * PT: Allergy to abacavir
 * FSN: Allergy to Artemisia vulgaris pollen (finding)
 * PT: Allergy to mugwort pollen
+
+### Pattern - Allergy to multiple substances:
 
 FSN: Allergy to X and Y (finding)
 
@@ -136,19 +146,13 @@ PT: Allergy to X and Y
 
 These disorders represent manifestations of pathologic processes that may result in abnormal structures (e.g., allergic rhinitis).
 
-| Disorder | Patterns and examples                                                                                                                                                                                                                                                                 |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| FSN      | FSN: Allergic disease X (disorder) FSN: Allergic disease X (caused by Y) (disorder) Allergic rhinitis (disorder) Allergic conjunctivitis (disorder) Allergic rhinitis caused by grass pollen (disorder) Allergic rhinitis caused by house dust mite (disorder) Patterns: For example, |
-| PT       | Allergic disease X Allergic disease X (caused by Y) Allergic rhinitis Allergic conjunctivitis Allergic rhinitis caused by grass pollen Allergic rhinitis caused by house dust mite Patterns: For example,                                                                             |
+<table><thead><tr><th width="169.73828125">Disorder</th><th>Patterns and examples</th></tr></thead><tbody><tr><td>FSN</td><td><p>Patterns:</p><ul><li>FSN: Allergic disease X (disorder)</li><li>FSN: Allergic disease X (caused by Y) (disorder)</li></ul><p>For example,</p><ul><li>Allergic rhinitis (disorder)</li><li>Allergic conjunctivitis (disorder)</li><li>Allergic rhinitis caused by grass pollen (disorder)</li><li>Allergic rhinitis caused by house dust mite (disorder)</li></ul></td></tr><tr><td>PT</td><td><p>Patterns:</p><ul><li>Allergic disease X</li><li>Allergic disease X (caused by Y)</li></ul><p>For example,</p><ul><li>Allergic rhinitis</li><li>Allergic conjunctivitis</li><li>Allergic rhinitis caused by grass pollen</li><li>Allergic rhinitis caused by house dust mite</li></ul></td></tr></tbody></table>
 
 ## Allergic and nonallergic hypersensitivity (pseudoallergic) _reactions_
 
 These disorders represent pathological processes that are defined as adverse reactions and allergic conditions with a pathological process of allergic or nonallergic hypersensitivity (pseudoallergic) process.
 
-| Reaction | Patterns and examples                                                                                                                                                                                                                                     |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| FSN      | Allergic reaction (caused by X) (disorder) Anaphylactic reaction (caused by X) (disorder) Anaphylactoid reaction (caused by X) (disorder) Allergic reaction caused by dye (disorder) Allergic reaction caused by pollen (disorder) Patterns: For example, |
-| PT       | Allergic reaction caused by X Allergic reaction caused by dye Allergic reaction caused by pollen Patterns: For example,                                                                                                                                   |
+<table><thead><tr><th width="132.0859375">Reaction</th><th>Patterns and examples</th></tr></thead><tbody><tr><td>FSN</td><td><p>Patterns:</p><ul><li>Allergic reaction (caused by X) (disorder)<br></li><li>Anaphylactic reaction (caused by X) (disorder)</li><li>Anaphylactoid reaction (caused by X) (disorder)</li></ul><p>For example, </p><ul><li>Allergic reaction caused by dye (disorder)</li><li>Allergic reaction caused by pollen (disorder)</li></ul></td></tr><tr><td>PT</td><td><p>Patterns: </p><ul><li>Allergic reaction caused by X</li></ul><p>For example,</p><ul><li>Allergic reaction caused by dye</li><li>Allergic reaction caused by pollen</li></ul></td></tr></tbody></table>
 
 ## Contact hypersensitivity
 
@@ -156,10 +160,8 @@ Contact hypersensitivity represents a response elicited by contact of the skin o
 
 For example,
 
-* ```
-  * Contact dermatitis (disorder)
-  ```
-  * Irritant contact dermatitis (disorder)
+* Contact dermatitis (disorder)
+* Irritant contact dermatitis (disorder)
 
 ## Intolerance to substances
 
@@ -167,10 +169,7 @@ An intolerance is the propensity to develop an adverse reaction to a substance. 
 
 Due to the difficulty in precisely defining an intolerance pathological process, it is problematic to apply the model for hypersensitivity dispositions to defining intolerance to substance. For this reason, as well as the difficulty in associating a material agent with a disposition, substances are related to the intolerance disposition with the _associated with_ attribute.
 
-| Intolerance | Patterns and examples                                                      |
-| ----------- | -------------------------------------------------------------------------- |
-| FSN         | Intolerance to X (finding) Intolerance to milk (finding) Pattern: Example, |
-| PT          | Intolerance to X Intolerance to milk Pattern: Example,                     |
+<table><thead><tr><th width="173.26171875">Intolerance</th><th>Patterns and examples</th></tr></thead><tbody><tr><td>FSN</td><td><p>Pattern:</p><ul><li>Intolerance to X (finding)</li></ul><p>Example,</p><ul><li>Intolerance to milk (finding)</li></ul></td></tr><tr><td>PT</td><td><p>Pattern:</p><ul><li>Intolerance to X</li></ul><p>Example,</p><ul><li>Intolerance to milk</li></ul></td></tr></tbody></table>
 
 ## Inadequate and excessive intake of energy and nutrients
 
@@ -178,10 +177,5 @@ Identification of findings of inadequate or excessive intake of nutrients incons
 
 For example, [870465001 | Excessive intake of vitamin A and vitamin A derivative (finding)|](http://snomed.info/id/870465001)
 
-FSN: Excessive intake of vitamin A and vitamin A derivative (finding)
-
-PT: Excessive intake of vitamin A and vitamin A derivative
-
-## Subpages
-
-* [Lateralized Disorder Naming Conventions](lateralized-disorder-naming-conventions.md)
+* FSN: Excessive intake of vitamin A and vitamin A derivative (finding)
+* PT: Excessive intake of vitamin A and vitamin A derivative

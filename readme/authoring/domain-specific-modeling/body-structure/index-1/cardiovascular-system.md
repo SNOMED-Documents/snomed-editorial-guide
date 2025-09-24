@@ -6,14 +6,41 @@ There are a number of concepts in the anatomy hierarchy that represent congenita
 
 The following pairs of cardiac valve concepts do not represent the same thing and are siblings, not super- or subtypes, to each other:
 
-* [11124005 |Atrioventricular valve (body structure)|](http://snomed.info/id/11124005) vs. [279316009 |Atrioventricular (non-mitral, non-tricuspid) valve structure (body structure)|](http://snomed.info/id/279316009)
-* [91134007 |Mitral valve structure (body structure)|](http://snomed.info/id/91134007) vs. [312523009 |Left (non-mitral) atrioventricular valve structure (body structure)|](http://snomed.info/id/312523009)
-* [46030003 |Tricuspid valve structure (body structure)|](http://snomed.info/id/46030003) vs. [244344000 |Entire right (non-tricuspid) atrioventricular valve (body structure)|](http://snomed.info/id/244344000)
+{% columns %}
+{% column %}
+[11124005 |Atrioventricular valve (body structure)|](http://snomed.info/id/11124005)&#x20;
+{% endcolumn %}
+
+{% column %}
+&#x20;[279316009 |Atrioventricular (non-mitral, non-tricuspid) valve structure (body structure)|](http://snomed.info/id/279316009)
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+[91134007 |Mitral valve structure (body structure)|](http://snomed.info/id/91134007)&#x20;
+{% endcolumn %}
+
+{% column %}
+[312523009 |Left (non-mitral) atrioventricular valve structure (body structure)|](http://snomed.info/id/312523009)
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+[46030003 |Tricuspid valve structure (body structure)|](http://snomed.info/id/46030003)&#x20;
+{% endcolumn %}
+
+{% column %}
+[244344000 |Entire right (non-tricuspid) atrioventricular valve (body structure)|](http://snomed.info/id/244344000)
+{% endcolumn %}
+{% endcolumns %}
 
 Atrioventricular (non-mitral, non-tricuspid) valves represent body structures which were anatomically abnormal from the beginning of their development. They are not called mitral/tricuspid valve although they perform the same function as their normal counterpart would. They are also represented using the term _not morphologically mitral/tricuspid valve_.
 
-* For example,&#x20;
-  * 459176007 |Abscess of right atrioventricular (not morphologically tricuspid) valve (disorder)| represents an abscess of the right atrioventricular valve that has been developed abnormally from the beginning vs. \[431189009 |Abscess of tricuspid valve (disorder)|.
+> Example:
+>
+> 459176007 |Abscess of right atrioventricular (not morphologically tricuspid) valve (disorder)| represents an abscess of the right atrioventricular valve that has been developed abnormally from the beginning vs. \[431189009 |Abscess of tricuspid valve (disorder)|.
 
 For a normally developed mitral/tricuspid valve, the term _left/right atrioventricular valve_ can be used interchangeably. They are true synonyms. However, they cannot be used for abnormally developed valves, i.e. left atrioventricular (non-mitral)/right atrioventricular (non-tricuspid) valves.
 
@@ -25,15 +52,27 @@ The _pulmonary circulation_ is the combined arterial and venous circulation that
 
 ### Arterial
 
-[81040000 |Pulmonary artery structure (body structure)|](http://snomed.info/id/81040000): Any artery of the pulmonary circulation, i.e. arteries carrying unoxygenated blood from the heart to the lungs. They include the trunk, right and left branches of the pulmonary artery (which are within the mediastinum), and all of their branches (which tend to occur at or past the hilum and are therefore regionally within the lung).
+#### [81040000 |Pulmonary artery structure (body structure)|](http://snomed.info/id/81040000)
 
-[128260003 |Pulmonary artery within lung (body structure)|](http://snomed.info/id/128260003): Any artery of the pulmonary circulation that is regionally within the lung, the boundary being defined by the hilum.
+Any artery of the pulmonary circulation, i.e. arteries carrying unoxygenated blood from the heart to the lungs. They include the trunk, right and left branches of the pulmonary artery (which are within the mediastinum), and all of their branches (which tend to occur at or past the hilum and are therefore regionally within the lung).
 
-[45341000 |Structure of trunk of pulmonary artery (body structure)|](http://snomed.info/id/45341000): The main pulmonary artery (one of the _great vessels_ that enter the heart) carrying blood from the right ventricle and dividing into right and left main pulmonary arteries (some dictionaries consider this synonymous with pulmonary artery).
+#### [128260003 |Pulmonary artery within lung (body structure)|](http://snomed.info/id/128260003)&#x20;
+
+Any artery of the pulmonary circulation that is regionally within the lung, the boundary being defined by the hilum.
+
+#### [45341000 |Structure of trunk of pulmonary artery (body structure)|](http://snomed.info/id/45341000)
+
+The main pulmonary artery (one of the _great vessels_ that enter the heart) carrying blood from the right ventricle and dividing into right and left main pulmonary arteries (some dictionaries consider this synonymous with pulmonary artery).
 
 ### Venous
 
-[430757002 |Structure of pulmonary vein great vessel (body structure)|](http://snomed.info/id/430757002): There are four pulmonary veins that enter the left atrium, two on each side. These are what is intended by the name _pulmonary vein_ (_great vessels_ that enter the heart). In common usage, any vein that is part of the lung may be referred to as a pulmonary vein, but SNOMED CT has a separate concept: [122972007 |Pulmonary venous structure (body structure)|](http://snomed.info/id/122972007): This means any vein that drains the lung. A synonym is _vein of lung_. _Pulmonary veins_ are veins of the lung, but _pulmonary vein_ and _vein of lung_ are not synonyms.
+#### [430757002 |Structure of pulmonary vein great vessel (body structure)|](http://snomed.info/id/430757002)
+
+There are four pulmonary veins that enter the left atrium, two on each side. These are what is intended by the name _pulmonary vein_ (_great vessels_ that enter the heart). In common usage, any vein that is part of the lung may be referred to as a pulmonary vein, but SNOMED CT has a separate concept.
+
+#### [122972007 |Pulmonary venous structure (body structure)|](http://snomed.info/id/122972007)
+
+This means any vein that drains the lung. A synonym is _vein of lung_. _Pulmonary veins_ are veins of the lung, but _pulmonary vein_ and _vein of lung_ are not synonyms.
 
 {% hint style="warning" %}
 There is no concept for _Pulmonary vein within lung_.

@@ -26,11 +26,11 @@ Concepts representing a disorder caused by another disorder, or disorders follow
 
 Conditions that are caused by another condition, but are not unexpected, should be modeled with a DUE TO relationship, but should not be named as complications.
 
-For example, 10629511000119102 |Rhinitis of pregnancy (disorder)|
+> For example, 10629511000119102 |Rhinitis of pregnancy (disorder)|
 
 Conditions co-occurrent with another disorder but are not caused by the underlying disorder are co-morbidities and should not be modeled using the DUE TO relationship.
 
-For example, 31563000 |Asymptomatic bacteriuria in pregnancy (finding)|
+> For example, 31563000 |Asymptomatic bacteriuria in pregnancy (finding)|
 
 #### Perioperative complications
 
@@ -38,14 +38,13 @@ Perioperative complications refer to complications temporally related to a surgi
 
 The following naming convention applies to those conditions that occur temporally, i.e. either before, during, or after the operative episode but do not have a causal relationship.
 
-FSN: Postoperative X (disorder)
+* FSN: Postoperative X (disorder)
+* PT: Postoperative X
 
-PT: Postoperative X
-
-For example,
-
-* Perioperative hematoma (disorder)
-  * Postoperative hypothyroidism (disorder)
+> For example,
+>
+> * Perioperative hematoma (disorder)
+>   * Postoperative hypothyroidism (disorder)
 
 88797001 |Complication of surgical procedure (disorder)| is not a subtype of perioperative complication, as it does not include a temporal relationship. Similarly, 738668004 |Perioperative complication (disorder)| is not a subtype of 88797001 |Complication of surgical procedure (disorder)|, as there is no causal relationship. Some disorders may specify both a causal and temporarily relationship and would be modeled such that they would classify under both 738668004 |Perioperative complication (disorder)| and 88797001 |Complication of surgical procedure (disorder)|.
 
@@ -57,13 +56,15 @@ For example,
 
 This attribute is used to model concepts in which a clinical finding occurs after another clinical finding, procedure, or event. Neither asserting nor excluding a causal relationship, it instead emphasizes a sequence of events. Naming pattern is ‘x following y’.
 
-For example,
+**Example**
 
 123948009 |Disorder following viral disease (disorder)| occurs After [34014006 |Viral disease (disorder)|](http://snomed.info/id/34014006)
 
-<figure><img src="../../../../../authoring/domain-specific-modeling/clinical-finding-and-disorder/images/174690572.png" alt=""><figcaption><p>Figure 1. Stated view of 123948009 |Disorder following viral disease (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p> Stated view of 123948009 |Disorder following viral disease (disor</p></figcaption></figure>
 
+{% hint style="info" %}
 Post-infectious disorders are not subtypes of infectious disorders (unless the disorder is itself an infectious disease). The |After (attribute)| is used for linking post-infectious disorders with their associated infections.
+{% endhint %}
 
 #### After with causal relationship
 
@@ -79,9 +80,9 @@ This attribute is used to model a preoperative complication. Strictly, a preoper
 
 This attribute is used to model a disorder that occurs during a procedure.
 
-For example,
+**Example**
 
-<figure><img src="../../../../../authoring/domain-specific-modeling/clinical-finding-and-disorder/images/174690571.png" alt=""><figcaption><p>Figure 2. Stated view of 713890008 |Hypoxemia during surgery (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Stated view of 713890008 |Hypoxemia during surgery (disorder)</p></figcaption></figure>
 
 #### During with causal relationship
 
@@ -99,51 +100,47 @@ Sequelae can be in the following forms:
 
 These conditions should be modeled with _After_ (and also _Due to_ if there is a causal relationship).
 
-For example,
+> For example,
+>
+> * Disorder due to and following another disorder = 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|
 
-* Disorder due to and following another disorder = 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|
-
-<figure><img src="../../../../../authoring/domain-specific-modeling/clinical-finding-and-disorder/images/174690573.png" alt=""><figcaption><p>Figure 3. Stated view of 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Stated view of 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|</p></figcaption></figure>
 
 ### Naming conventions for sequelae
 
-FSN: Disorder X \[due to and] following <\<disorder /<\<procedure /\<event
+* FSN: Disorder X \[due to and] following <\<disorder /<\<procedure /\<event
+* PT: Disorder X \[due to and] following <\<disorder /<\<procedure /\<event
+* SYN: \[Disorder X as a] Sequela of <\<disorder /<\<procedure /\<event
+* SYN: \[Disorder X as a] Late effect of <\<disorder /<\<procedure /\<event
 
-PT: Disorder X \[due to and] following <\<disorder /<\<procedure /\<event
-
-SYN: \[Disorder X as a] Sequela of <\<disorder /<\<procedure /\<event
-
-SYN: \[Disorder X as a] Late effect of <\<disorder /<\<procedure /\<event
-
-For example,
-
-* Disorder due to and following another disorder (disorder)
-  * Disorder due to and following meningitis (disorder)
-  * Disorder due to and following procedure (disorder)
+> For example,
+>
+> * Disorder due to and following another disorder (disorder)
+>   * Disorder due to and following meningitis (disorder)
+>   * Disorder due to and following procedure (disorder)
 
 ### Naming conventions for surgical sequelae (temporal relationship but _no_ causal relationship)
 
 Not all surgical sequelae are complications of surgery but rather expected late effects. Conditions that occur following surgery, but not necessarily _Due to_ the surgery, are modeled only with an _A_ _fter_ relationship.
 
-FSN: Disorder X following << 387713003 |Surgical procedure (procedure)
+* FSN: Disorder X following << 387713003 |Surgical procedure (procedure)
+* PT: Disorder X following << 387713003 |Surgical procedure (procedure)
 
-PT: Disorder X following << 387713003 |Surgical procedure (procedure)
-
-For example,
-
-* Contraction of eye socket following enucleation (disorder)
-  * Scar following surgery (disorder)
+> For example,
+>
+> * Contraction of eye socket following enucleation (disorder)
+>   * Scar following surgery (disorder)
 
 ### Naming conventions for surgical sequelae complications (temporal relationship _and_ causal relationship)
 
 Conditions that occur following surgery and are explicitly stated as causal/due to are modeled with a Due to (attribute) of << 387713003 Surgical procedure, and an After (attribute) of << 387713003 Surgical procedure.
 
-FSN: Disorder X due to and following <<387713003 |Surgical procedure (procedure)
+* FSN: Disorder X due to and following <<387713003 |Surgical procedure (procedure)
+* PT: Disorder X due to and following <<387713003 |Surgical procedure (procedure)|
 
-PT: Disorder X due to and following <<387713003 |Surgical procedure (procedure)|
+> For example,
+>
+> * Encephalopathy due to and following cardiopulmonary bypass (disorder)
+>   * Cataract lens fragments in vitreous of eye due to and following cataract surgery (disorder)
+>   * Disorder due to and following breast reduction (disorder)
 
-For example,
-
-* Encephalopathy due to and following cardiopulmonary bypass (disorder)
-  * Cataract lens fragments in vitreous of eye due to and following cataract surgery (disorder)
-  * Disorder due to and following breast reduction (disorder)

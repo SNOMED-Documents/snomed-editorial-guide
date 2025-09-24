@@ -2,16 +2,16 @@
 
 When modeling a concept requiring two role groups with the same finding site/body structure but two different morphologies (because a combined morphology does not exist), then those two morphologic abnormalities can be combined to create a new single, combined |(morphologic abnormality)| concept. Keep the newly created morphologic abnormality concept primitive as all morphologic abnormality concepts should be primitive. Limit the combination to two morphological concepts into a single concept; combining more than two morphological concepts into a single combined concept is not permitted.
 
-For example,\
-If [400067002 |Acantholytic epidermal nevus (disorder)|](http://snomed.info/id/400067002) had the same Finding site of |Skin structure (body structure)| with two different morphologic abnormalities of |Epidermal nevus (morphologic abnormality)| and |Acantholysis (morphologic abnormality)|, then those two morphologic abnormality concepts can be combined to create a single, primitive, morphologic abnormality concept of |Acantholytic epidermal nevus (morphologic abnormality)|. This will prevent modeling with two relationship groups.
+> For example,\
+> If [400067002 |Acantholytic epidermal nevus (disorder)|](http://snomed.info/id/400067002) had the same Finding site of |Skin structure (body structure)| with two different morphologic abnormalities of |Epidermal nevus (morphologic abnormality)| and |Acantholysis (morphologic abnormality)|, then those two morphologic abnormality concepts can be combined to create a single, primitive, morphologic abnormality concept of |Acantholytic epidermal nevus (morphologic abnormality)|. This will prevent modeling with two relationship groups.
 
 Instead of modeling as per this diagram in the stated view with two morphologies of the same finding site:
 
-<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Model as in the stated view of this diagram with a combined morphology:
 
-<figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Morphologies can be combined to create a single morphologic abnormality concept where doing so creates a specialization of the morphology e.g. 55075001 |Bleeding ulcer (morphologic abnormality)|. Where morphologies are different e.g. abscess and cellulitis, they can not be combined.
 

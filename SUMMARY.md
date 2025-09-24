@@ -123,7 +123,6 @@
             * [Rheumatoid arthritis](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/rheumatoid-arthritis.md)
             * [Substance withdrawal syndrome](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/substance-withdrawal-syndrome.md)
             * [Arrhythmia](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/arrythmia.md)
-            * [Lateralized Disorder Naming Conventions](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/lateralized-disorder-naming-conventions.md)
             * [Trauma and Injury](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/trauma-and-injury.md)
           * [Disorder Combination Modeling](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/disorder-combination-modeling.md)
           * [Complication and Sequela Modeling](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/complication-and-sequela-modeling.md)
