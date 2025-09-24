@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Sentence Types
 
 Concepts should be names or short noun phrases. Full statements or sentences are unacceptable.&#x20;

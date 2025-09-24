@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Diathermy
 
 The term _Diathermy_ has been used to refer to a broad array of procedures aimed at performing different types of actions and outcomes. In SNOMED CT, the term diathermy may refer to 3 different kinds of procedures:

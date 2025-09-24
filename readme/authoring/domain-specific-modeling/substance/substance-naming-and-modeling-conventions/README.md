@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Substance Naming and Modeling Conventions
 
 * [Substance Concept General Guidelines](../../../../../authoring/substance/substance-concept-general-guidelines.md)

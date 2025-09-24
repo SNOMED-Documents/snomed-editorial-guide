@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Pressure ulcer  Pressure injury
 
 |Pressure injury (disorder)| has been created in SNOMED CT based on the recommendations of the _National Pressure Injury Advisory Panel_ (NPIAP) and adopted for the 2019 International Clinical Practice Guidelines on Prevention and Treatment of Pressure Ulcers/Injuries. The NPIAP nomenclature favors the use of pressure _injury_ over pressure _ulcer_ , due to confusion around the use of ulcer for two of the pressure ulcer stages which actually occur in intact skin. 

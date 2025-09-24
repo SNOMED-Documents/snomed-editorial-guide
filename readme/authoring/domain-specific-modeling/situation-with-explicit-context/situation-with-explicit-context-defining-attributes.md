@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Situation with Explicit Context Defining Attributes
 
 The following defining attributes correspond to the  _Situation with Explicit Context Attributes Summary_ table. 

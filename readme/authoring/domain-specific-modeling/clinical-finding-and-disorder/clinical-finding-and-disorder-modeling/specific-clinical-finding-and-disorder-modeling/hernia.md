@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Hernia
 
 Hernias involve two body structures, one is the hernial opening and the other is the herniated structure. When modeling hernias, use two role groups to represent the body structures and the respective associated morphology for each site. If the herniated structure is not explicit, use the supertype concept for the finding site.

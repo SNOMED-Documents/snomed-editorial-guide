@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Medical Vocabularies - J. Cimino
 
 The headings in this section are the requirements identified in Desiderata for Controlled Medical Vocabularies in the Twenty-First Century by J.J. Cimino published in _Methods of Information in Medicine_ 1998:37:394-403. Following each, is an explanation of the way in which SNOMED CT meets the requirement.

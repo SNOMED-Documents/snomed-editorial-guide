@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Numbers and Numeric Ranges
 
 ## Roman numerals versus Arabic numbers <a href="#roman-numerals-versus-arabic-numbers" id="roman-numerals-versus-arabic-numbers"></a>

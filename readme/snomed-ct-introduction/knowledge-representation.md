@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Knowledge Representation
 
 Knowledge representation in SNOMED CT involves modeling what we know about concepts to be necessarily true. Concepts are logically defined by their relationships to each other. Some knowledge provides valuable clues to the diagnostician, while not necessarily always present, i.e. it is uncertain or probabilistic knowledge. Attempts to capture probabilistic or uncertain knowledge are out of the scope of SNOMED CT.

@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Specific Clinical finding and Disorder Modeling
 
   * [Acquired abnormality of congenital anomaly](Acquired-abnormality-of-congenital-anomaly_174690516.html)

@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Ingredient Strength Attributes
 
 The following sections describe the attribute concepts used to represent the ingredient strength of concepts in the medicinal product hierarchy.

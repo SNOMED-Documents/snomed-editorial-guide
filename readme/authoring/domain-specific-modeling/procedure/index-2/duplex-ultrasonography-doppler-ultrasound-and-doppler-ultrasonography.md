@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Duplex ultrasonography, Doppler ultrasound, and Doppler ultrasonography
 
 Duplex ultrasonography, Doppler ultrasound, and Doppler ultrasonography procedures were previously modeled with the Using device (attribute) with a value of 43770009 |Doppler device (physical object)| and a Method (attribute) of 278292003 |Ultrasound imaging - action (qualifier value)| or 302204005 |Ultrasound - action (qualifier value)|. It was not possible to sufficiently model duplex procedures to make them distinct from Doppler scans, and modeling of Doppler procedures was inconsistent with other imaging procedures where the modality was represented in the Method. 

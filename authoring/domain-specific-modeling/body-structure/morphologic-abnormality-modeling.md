@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Morphologic Abnormality Modeling
 
 The morphologic abnormality subhierarchy is located two levels below the Body structure hierarchy with siblings _Apoptosis_ and _Structure resulting from tissue repair process_ :

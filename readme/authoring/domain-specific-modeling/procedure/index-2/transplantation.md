@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Transplantation
 
 In a transplant procedure, the transplanted organ or tissue may not be in the same place as the original organ/structure, and the original organ/structure may or may not remain in situ.

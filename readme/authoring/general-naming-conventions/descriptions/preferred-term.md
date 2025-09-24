@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Preferred Term
 
 A _preferred term (PT)_ is the description that is deemed to be the most clinically appropriate way of expressing a concept in a clinical record. It represents a common word or phrase used by clinicians to name a concept in clinical practice or in the literature. It is the synonym that is _preferred_ in a language or dialect.

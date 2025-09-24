@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Grouper Concept
 
 For hierarchies with a concept model, the usefulness of fully-defined groupers is limited to convenience groupings based on particular use cases. They may be added if they provide demonstrable benefit to organizing and navigating the terminology.

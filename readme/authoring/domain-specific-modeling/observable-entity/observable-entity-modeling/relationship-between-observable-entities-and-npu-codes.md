@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Relationship between Observable Entities and NPU codes
 
 _Nomenclature, Properties, and Units (NPU)_ is a coding system and terminology for identification and communication of examination results from clinical laboratories. Please see their website for more information: [NPU terminology](https://www.npu-terminology.org/).

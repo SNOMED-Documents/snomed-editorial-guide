@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Congenital
 
 The concept [66091009 |Congenital disease (disorder)|](http://snomed.info/id/66091009), means present at birth. Though the word _congenital_ may be applied to genetic disorders, the term _genetic_ is preferred for those disorders.

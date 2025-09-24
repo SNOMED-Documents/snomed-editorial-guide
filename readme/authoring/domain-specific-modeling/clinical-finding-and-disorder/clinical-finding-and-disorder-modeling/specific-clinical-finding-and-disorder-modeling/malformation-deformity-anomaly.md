@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Malformation, deformity, anomaly
 
 The word  _anomaly_ is, by itself, ambiguous as it may mean either a structural or functional abnormality, depending on the body structure to which it is applied. Concepts using the term  _anomaly_ must be evaluated to determine whether it represents a structural or functional abnormality. Using the term "anomaly" in new concept FSNs is not allowed. The terms "structural abnormality" should be used when it is unclear whether the morphology results from malformation or deformation. 

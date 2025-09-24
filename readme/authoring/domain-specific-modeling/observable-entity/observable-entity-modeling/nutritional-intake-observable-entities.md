@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Nutritional intake observable entities
 
 Naming conventions for estimated and measured intake or nutrient administration, in aggregate or as a portion of intake via a specified route (ie, oral, gastroenteral \[enteral nutrition], parenteral nutrition, and via intravenous fluids), is as follows:

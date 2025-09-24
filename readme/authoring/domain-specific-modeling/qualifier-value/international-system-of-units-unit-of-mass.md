@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # International System of Units - unit of mass
 
 The _[ 258681007 | International System of Units unit of mass (qualifier value)|](http://snomed.info/id/258681007 "258681007 | International System of Units unit of mass \(qualifier value\) |") _hierarchy contains concepts representing metric units of mass.

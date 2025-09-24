@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Co-occuring Genomic Disorders
 
 ### Germline chromosomal abnormality _co-occurring_ and _causing_ disorder:  [ 41040004 | Complete trisomy 21 syndrome (disorder)|](http://snomed.info/id/41040004 "41040004 | Complete trisomy 21 syndrome \(disorder\) |")

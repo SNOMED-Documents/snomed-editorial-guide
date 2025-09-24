@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # General Naming Conventions
 
 In addition to the general naming conventions below, please also see any applicable naming conventions for specific hierarchies in their respective [domain-specific-modeling](../domain-specific-modeling/ "mention").

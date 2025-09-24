@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Structure of Domain Coverage
 
 SNOMED CT includes 19 _domains_ arranged in a polyhierarchical structure. Each hierarchy is an ordered organization of concepts linked together through _IS A relationships_. Each concept may have one or more parents.

@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Sodium valproate and Valproic acid
 
 The Count of active ingredient (attribute) relationship has been added to certain single-ingredient valproic acid or sodium valproate clinical drug concepts to prevent incorrect subsumption under multiple-ingredient concepts (such as those containing both sodium valproate and valproic acid). This modeling ensures correct classification, particularly when substances share a base moiety but differ at the modification level.

@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Lump and mass
 
 Distinguishing consistently between lump and mass can be difficult in diagnostic contexts, as the terms are often used interchangeably or lack precise definitions.  As a result, lump and mass have, in certain conditions, been treated as synonymous.

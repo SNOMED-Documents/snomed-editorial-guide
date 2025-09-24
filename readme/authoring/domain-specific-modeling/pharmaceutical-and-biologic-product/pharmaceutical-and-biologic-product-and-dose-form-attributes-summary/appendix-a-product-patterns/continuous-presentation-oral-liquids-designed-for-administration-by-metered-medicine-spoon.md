@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Continuous presentation: Oral liquids designed for administration by "metered" medicine spoon
 
 _Examples: oral solutions, suspensions, emulsions, syrups_

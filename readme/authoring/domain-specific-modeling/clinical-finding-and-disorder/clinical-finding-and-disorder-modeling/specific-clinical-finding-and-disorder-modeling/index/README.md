@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Genetic, developmental, congenital, and physical origin
 
 The following figure shows the structure of genetic, developmental, and congenital categories, along with non-genetic, non-developmental, and postnatal categories. A dimension, called _extrinsic physical force_ , is included to distinguish _deformations_ from _malformations._ The sections of the diagram represent categories formed from the combination of the dimensions, each which represents the answer to one of the following questions:

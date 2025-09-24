@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Plurals
 
 ## Fully specified names (FSNs) <a href="#fully-specified-names-fsns" id="fully-specified-names-fsns"></a>

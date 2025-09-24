@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Appendix A: Product Patterns
 
 To correctly interpret "_one countable instance of a whole of medicinal product_ ", it is important that this is seen in the context of the overall description of a medicinal product, which is always presented from the manufacturer as a "packaged medicinal product". Note that description of packaged medicinal products is outside the scope of the international release but may be included within a national extension. The IDMP Medicinal Product model describes this, showing how the Manufactured Item is related to the Packaged Medicinal Product via the Package Item (Container). This is a recursive class that represents both the package as supplied by the manufacturer (and, for example, labelled with the GTIN, the batch number and the expiry), and through a recursive relationship, with any sub-packages inside the outer pack.

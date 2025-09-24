@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Specimen Attributes Summary
 
 When authoring in this domain, these are the approved attributes and allowable ranges. They are from the Human Readable Concept Model (HRCM). 

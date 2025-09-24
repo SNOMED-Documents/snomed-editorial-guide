@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Clinical Finding and Disorder
 
 - [Clinical Finding and Disorder](../clinical-finding-and-disorder/clinical-finding-and-disorder.md)

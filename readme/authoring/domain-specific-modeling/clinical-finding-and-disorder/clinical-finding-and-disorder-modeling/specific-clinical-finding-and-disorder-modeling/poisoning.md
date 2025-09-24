@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Poisoning
 
 When modeling poisoning disorders, ensure that the disorder being described is caused by the substance or active ingredient in the product selected as the causative agent (attribute) value. Do not add poisoning disorders if the causative agent is a product constituent (e.g. adjuvant, carrier, preservative, flavoring, stabilizer, or other inactive ingredient) that cannot be identified as the causative agent.

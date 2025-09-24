@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Discrete manufactured dose form; similar unit of presentation
 
 _Examples: various tablets, capsules, cachets, pessaries, suppositories, tampons_

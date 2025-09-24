@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Unit of presentation
 
 A unit of presentation represents a qualitative concept that describes a countable entity in which the clinical drug is presented (e.g. tablet, capsule) or in which it is bounded (vial, ampule). The [732935002 | Unit of presentation (unit of presentation)|](http://snomed.info/id/732935002) is used to support expression of presentation strength, where it provides the denominator for the strength ratio, and to differentiate different clinical drug products when the "intimate container" (see below) is clinically important (e.g. differentiating pre-filled syringes from ampoules for a solution for injection product).  

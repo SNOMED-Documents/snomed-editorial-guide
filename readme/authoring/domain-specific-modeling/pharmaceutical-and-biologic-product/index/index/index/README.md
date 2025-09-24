@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Pharmaceutical Dose Form Supporting Hierarchies
 
 The 736542009 |Pharmaceutical dose form (dose form)| subhierarchy of 362981000 |Qualifier value (qualifier value)| contains concepts which support the Medicinal product model. 

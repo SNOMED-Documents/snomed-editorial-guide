@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Vaccine Products in the Medicinal Product Hierarchy
 
 The following sections apply to the vaccine product concepts in the |Medicinal product (product)| hierarchy in the International Release.

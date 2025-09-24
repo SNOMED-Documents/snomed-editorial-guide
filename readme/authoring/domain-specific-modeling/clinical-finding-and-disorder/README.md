@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Clinical Finding and Disorder
 
 <table><thead><tr><th width="132.0546875">Hierarchy</th><th width="271.7578125">Definition</th><th>Example</th></tr></thead><tbody><tr><td>Clinical finding</td><td>Nnormal/abnormal observations, judgments, or assessments of patients </td><td>167222005 | Abnormal urinalysis (finding) | </td></tr><tr><td>Disorder</td><td>Always and necessarily an abnormal clinical state</td><td>39579001 | Anaphylaxis (disorder) |</td></tr></tbody></table>

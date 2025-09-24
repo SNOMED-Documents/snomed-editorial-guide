@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Disorder Combination Modeling
 
 Many disorders can occur in combination within the same patient.  Guidance on the modeling and terming of FSNs for disorder combinations aims to achieve consistency.  Clinically significant disorder combinations are represented in SNOMED CT by a single concept so that users can document temporal (timing) and causal (cause/effect) relationships between the conditions.&#x20;

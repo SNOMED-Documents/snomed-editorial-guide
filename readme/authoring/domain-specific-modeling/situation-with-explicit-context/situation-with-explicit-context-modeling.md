@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Situation with Explicit Context Modeling
 
 SNOMED CT contains concepts that include  _context_ information, and concepts that are regarded as  _context-free_. A concept includes  _context_ information if the name of the concept explicitly represents information that might otherwise be represented by another less  _context-rich_ concept in a particular place within an electronic health record or EHR. 

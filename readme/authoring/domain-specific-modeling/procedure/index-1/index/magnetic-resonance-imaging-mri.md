@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Magnetic Resonance Imaging - MRI
 
 MRI and MR are exceptions to the rule that all abbreviations should have their expanded form in parentheses in descriptions.

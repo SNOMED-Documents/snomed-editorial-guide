@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Case Significance
 
 Generally, SNOMED CT descriptions begin with an upper case letter; the rest of the words in the description are lower case, except for abbreviations and proper nouns (names of people, organizations, taxonomic groups (e.g. species, genus, family)).&#x20;

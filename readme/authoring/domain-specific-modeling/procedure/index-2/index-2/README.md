@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Surgical procedures
 
 A  _surgical procedure_ is defined as a procedure that involves intentional non-transient alteration of structures of the body, and/or a procedure that necessarily involves cutting into the body. This definition includes all procedures defined by  _Method_ (attribute) with Surgical action (qualifier value).

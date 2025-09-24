@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Qualifier values supporting Pharmaceutical and Biologic Product
 
 This section explains subtypes of 362981000 |Qualifier value (qualifier value)| that are pertinent to Pharmaceutical and Biological Product and the drug model.

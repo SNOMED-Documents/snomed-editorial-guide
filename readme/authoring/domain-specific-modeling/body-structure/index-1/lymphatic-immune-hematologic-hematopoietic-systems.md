@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Lymphatic, Immune, Hematologic, Hematopoietic systems
 
 ## Lymphatic system /[ **89890002 |Structure of lymphatic system (body structure)|**](http://snomed.info/id/89890002)

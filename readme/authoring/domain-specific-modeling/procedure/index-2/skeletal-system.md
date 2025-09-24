@@ -1,20 +1,3 @@
----
-layout:
-  width: wide
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Skeletal system
 
 Since the skeletal system includes bones and cartilage, it is possible to have a procedure on the skeletal system, i.e. on cartilage, that is not a procedure on bone.
