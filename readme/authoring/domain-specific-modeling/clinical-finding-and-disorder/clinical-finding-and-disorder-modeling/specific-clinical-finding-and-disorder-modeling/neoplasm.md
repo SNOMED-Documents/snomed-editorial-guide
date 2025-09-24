@@ -20,9 +20,13 @@ Primary malignant neoplasm disorders are now defined with a role group combining
 
 For example,
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690491.png" alt=""><figcaption><p>Figure 1. Stated view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690490.png" alt=""><figcaption><p>Figure 2. Inferred view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
+<p align="center">Figure: Stated view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p>
+
+<figure><img src="../../../../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690490.png" alt=""><figcaption><p>Figure. Inferred view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
 
 ## Metastatic malignant neoplasm
 
@@ -48,13 +52,17 @@ Metastatic disorders are defined by a role group containing the finding site and
 
 For example,
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690492.png" alt=""><figcaption><p>Figure 3. Stated view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690493.png" alt=""><figcaption><p>Figure 4. Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|</p></figcaption></figure>
+Figure: Stated view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|
+
+<figure><img src="../../../../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690493.png" alt=""><figcaption><p>Figu Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|</p></figcaption></figure>
 
 See also[ Neoplasms Observable ](https://confluence.ihtsdotools.org/display/WIPEG/Neoplasm+Observables)page
 
-## Use of the term _cancer_
+## Use of the term _cancer_&#x20;
 
 Disorder concepts defined with 1240414004 |Malignant neoplasm (morphologic abnormality)| may have _cancer_ added as an acceptable synonym. The term _cancer_ should not be used in the FSN or preferred term. Neither should it be used in descriptions for concepts that are more specific subtypes of the top level malignant neoplasm grouper (i.e., where the morphology is a specialized cell type).
 
