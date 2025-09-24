@@ -1,20 +1,21 @@
 # Maternal, fetal, neonatal
 
-## Maternal, fetal, neonatal
-
 ## Pregnancy Periods
 
 The life phase of pregnancy is unique in that two _actors_ are participants in the scenario, and modeling must distinguish between the two.
 
-For example,
-
-_Fetal tachycardia in antepartum_ versus _Maternal tachycardia in antepartum_
+* For example,
+  * _Fetal tachycardia in antepartum_ versus _Maternal tachycardia in antepartum_
 
 Mother and fetus share many time periods, such as antenatal. However, some periods are not shared, as in the case of intrapartum. The mother’s intrapartum period includes stages one, two, and three; the fetus’ intrapartum period includes only stages one and two.
 
 A diagram of the relationships between these periods is shown below:
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690545.png" alt=""><figcaption><p>The life phase of pregnancy-related findings and disorders is applied using the Occurrence (attribute). A concept must identify:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690545.png" alt=""><figcaption></figcaption></figure>
+
+The life phase of pregnancy-related findings and disorders is applied using the Occurrence (attribute). A concept must identify:
 
 1. Which actor (mother or the fetus/neonate) does the circumstance relate
 2. In which life phase of the actor does the condition necessarily relate
@@ -58,28 +59,36 @@ In relation to the neonate, there is a clinical and epidemiological distinction 
 
 Maternal time period values can be found in the subhierarchies below:
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690547.png" alt=""><figcaption><p>Generally, it is clear what the appropriate value is, but some knowledge is required to distinguish the correct choice in some circumstances. Definitions have been added to aid in correct selection.</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+
+Generally, it is clear what the appropriate value is, but some knowledge is required to distinguish the correct choice in some circumstances. Definitions have been added to aid in correct selection.
 
 For example,
 
 In relation to _postpartum uterine hemorrhage_ , this would be modeled using an Occurrence (attribute) of Postpartum period. The puerperium is generally defined as the period within 42 days after birth, and thus, the postpartum period relates to this six-week timeframe. Some conditions can occur more than 6 weeks post-delivery, e.g., _postpartum thyroiditis_ , _postnatal depression_ (onset can range from a few days to a few weeks following delivery, generally in the first 2–3 months following childbirth). In this situation, the choice of the more general _Maternal postnatal_ period should be made.
 
+{% hint style="warning" %}
 Use of the term _obstetric_ is confusing in regards to both timing and determination of the intended person. Concepts should rather explicitly identify these elements.
+{% endhint %}
 
 ## Fetal Neonatal Period Values
 
 Similar to the Maternal time periods above, the fetal period is the superordinate as illustrated below. There is no label for the concatenated time of the actor during the fetal and neonatal period within medicine (though colloquially called baby), and so the superordinate is named _fetal and/or neonate_. Similarly, to find concepts which describe conditions of this global phase requires a preferred term expressing this, but in the case of perinatal conditions relating to the fetus and/or early neonate, the word perinatal is commonly used as a substitute.
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690546.png" alt=""><figcaption><p>When modeling a fetal finding or fetal disorder, the |Finding site (attribute)| should not be a <em>fetal</em> body structure unless the structure is unique to the fetal period, such as |Umbilical cord structure (body structure)|.</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+When modeling a fetal finding or fetal disorder, the |Finding site (attribute)| should not be a _fetal_ body structure unless the structure is unique to the fetal period, such as |Umbilical cord structure (body structure)|.
 
 _Note: This is guideline has not been applied to fetal procedures at this point in time._
+{% endhint %}
 
 ### Fetal and/or neonatal period _versus_ Fetal or neonatal period
 
 Review is ongoing of all disorder concepts containing the phrase _fetal or neonatal._ The concept 450426006 |Fetal **or** neonatal period (qualifier value)| will be inactivated, leaving only 1156676003 |Fetal **and/or** neonatal period (qualifier value)|.
 
-* The _fetal_\*\* _or_\*\* _neonatal_ value is historically derived from ICD and may contain legacy context causing ambiguity.
-* The _fetal_\*\* _and/or_\*\* _neonatal_ period is explicitly designed to subsume the fetal period, the _neonatal period_ , and in rare cases where these two may overlap, as in 1193538001 |Fetal intrapartum second stage and/or early neonatal period (qualifier value).
+* The _fetal_ _**or**_ _neonatal_ value is historically derived from ICD and may contain legacy context causing ambiguity.
+* The _fetal_ _**and/or**_ _neonatal_ period is explicitly designed to subsume the fetal period, the _neonatal period_ , and in rare cases where these two may overlap, as in 1193538001 |Fetal intrapartum second stage and/or early neonatal period (qualifier value).
 
 ### Umbilical cord complication
 
