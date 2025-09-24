@@ -4,15 +4,13 @@ The concept [66091009 |Congenital disease (disorder)|](http://snomed.info/id/660
 
 The logical definition of a congenital disorder must include:
 
-Occurrence = Congenital (qualifier value).
+* Occurrence = Congenital (qualifier value).
 
 It may also include:
 
-Finding site = X (body structure)
-
-Associated morphology = X (morphologic abnormality)
-
-Pathological process = Pathological development process (qualifier value)
+* Finding site = X (body structure)
+* Associated morphology = X (morphologic abnormality)
+* Pathological process = Pathological development process (qualifier value)
 
 All of these defining relationships should be grouped to indicate that the abnormal morphology occurs at the finding site, results from a pathological development process, and is present at birth. Where a morphologic abnormality occurs at more than one finding site, or one body structure has multiple morphologic abnormalities, multiple relationship groups should be created and the pathological process and occurrence relationships included in each relationship group.
 
@@ -26,7 +24,9 @@ Whether creating new or revising existing concepts, only use Congenital X (morph
 
 * For example, use[ 399898009 |Misalignment (morphologic abnormality)|](http://snomed.info/id/399898009) not[ 102283003 |Congenital misalignment (morphologic abnormality)|](http://snomed.info/id/102283003)
 
+{% hint style="warning" %}
 According to the American Medical Association, the periods of life in the _postnatal period_ include all periods after birth including the neonatal or immediate postpartum period. It may be challenging to differentiate a congenital disorder from a neonatal disorder. A condition may be present at birth, i.e. congenital; however, clinical manifestations may take longer to appear, i.e. during the neonatal period (e.g. [14333004 |Alloimmune neonatal neutropenia (disorder)|](http://snomed.info/id/14333004)).
+{% endhint %}
 
 When modeling a congenital neoplasm disorder, the attribute-value relationship of _Pathological process (attribute) = Pathological development process (qualifier value)_ is not used.
 
@@ -40,7 +40,9 @@ For example,
 
 [33534005 |Congenital bowing of femur (disorder)|](http://snomed.info/id/33534005) is modeled with [246454002 |Occurrence (attribute)|](http://snomed.info/id/246454002) of [255399007 |Congenital (qualifier value)|](http://snomed.info/id/255399007)
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690519.png" alt=""><figcaption><p>Figure 1: Stated view of 33534005 |Congenital bowing of femur (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690519.png" alt=""><figcaption><p> Stated view of 33534005 |Congenital bowing of femur (disorder)|</p></figcaption></figure>
 
 Acquired disorders are those that originate and manifest after birth. The disorders are associated with a period of life, as opposed to a specific process or structure. All diseases (disorders) that occur after birth are considered _acquired_.
 
@@ -50,7 +52,9 @@ For example,
 
 240253004 |Acquired abduction deformity of foot (disorder)| has _acquired_ in the FSN and is modeled with Occurrence = 767023003 |Period of life beginning after birth and ending before death (qualifier value)|.
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690518.png" alt=""><figcaption><p>Figure 2: Stated view of 240253004 |Acquired abduction deformity of foot (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690518.png" alt=""><figcaption><p>Stated view of 240253004 |Acquired abduction deformity of foot (disorder)|</p></figcaption></figure>
 
 When revising acquired disorders, remove any acquired morphologies and replace with general parent morphologies, e.g. replace [127560004 |Acquired deformity (morphologic abnormality)|](http://snomed.info/id/127560004) with [6081001 |Deformity (morphologic abnormality)|](http://snomed.info/id/6081001). Then add Occurrence attribute with a value of 767023003 | Period of life beginning after birth and ending before death (qualifier value)|. One of its children may also be used if the FSN states the period of life, such as _Childhood_ or _Adulthood_.
 
