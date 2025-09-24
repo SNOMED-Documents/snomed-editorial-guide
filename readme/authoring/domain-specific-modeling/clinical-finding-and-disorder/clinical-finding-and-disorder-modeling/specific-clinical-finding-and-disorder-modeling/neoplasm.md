@@ -58,9 +58,11 @@ Figure: Stated view of 105041000119109 |Metastatic squamous cell carcinoma to lu
 
 <figure><img src="../../../../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690493.png" alt=""><figcaption><p>Figu Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|</p></figcaption></figure>
+Figure: Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|
 
+{% hint style="info" %}
 See also[ Neoplasms Observable ](https://confluence.ihtsdotools.org/display/WIPEG/Neoplasm+Observables)page
+{% endhint %}
 
 ## Use of the term _cancer_&#x20;
 
@@ -101,25 +103,25 @@ The SNOMED CT concept [400177003 |Neoplasm and/or hamartoma (morphologic abnorma
 The word _nevus_ has many different meanings. The differences are generally based on answers to the following questions:
 
 * Is it necessarily on the skin? Or can it be located in mucosal sites or other sites?
-  * Is it necessarily visible? Or can it be in internal locations such as gastric mucosa, etc?
-  * Is it necessarily present at birth? Or can it occur later in life?
-  * Is it necessarily dark and made of melanocytes? Or can it be non-pigmented, or made of other types of cells?
-  * Is it necessarily made of tissue that is normally present at the site? Or can it be ectopic?
-  * Does it exclude benign neoplasms?
+* Is it necessarily visible? Or can it be in internal locations such as gastric mucosa, etc?
+* Is it necessarily present at birth? Or can it occur later in life?
+* Is it necessarily dark and made of melanocytes? Or can it be non-pigmented, or made of other types of cells?
+* Is it necessarily made of tissue that is normally present at the site? Or can it be ectopic?
+* Does it exclude benign neoplasms?
 
 Some common meanings of nevus based on some combinations of answers to the questions are as follows:
 
 * A birthmark, that is, any visible spot on the skin or oral mucosa present since birth, regardless of tissue of origin, excluding benign neoplasms.
-  * Any benign cluster of melanocytes, regardless of location, and regardless of pigmentation, whether present since birth or appearing later.
-  * Any cutaneous hamartoma. This excludes non-cutaneous sites, and excludes neoplasms and ectopic tissue, such as choristomas.
+* Any benign cluster of melanocytes, regardless of location, and regardless of pigmentation, whether present since birth or appearing later.
+* Any cutaneous hamartoma. This excludes non-cutaneous sites, and excludes neoplasms and ectopic tissue, such as choristomas.
 
 As a result of this wide variation in meaning, any SNOMED CT FSN containing the word _nevus_ may be ambiguous. For example, the term _vascular nevus_ may mean:
 
 * Congenital blood vessel tumor in the skin
-  * Congenital blood vessel hamartoma or neoplasm that is visible somewhere (not only the skin, but also the mucosa, whether visible externally or not)
-  * Congenital blood or lymphatic vessel tumor in the skin
-  * Congenital blood or lymphatic vessel hamartoma or neoplasm that is visible somewhere
-  * Any of the above but not necessarily congenital
+* Congenital blood vessel hamartoma or neoplasm that is visible somewhere (not only the skin, but also the mucosa, whether visible externally or not)
+* Congenital blood or lymphatic vessel tumor in the skin
+* Congenital blood or lymphatic vessel hamartoma or neoplasm that is visible somewhere
+* Any of the above but not necessarily congenital
 
 A better FSN for vascular nevus (morphologic abnormality) would be vascular hamartoma (morphologic abnormality). Likewise, a better FSN for congenital vascular nevus (disorder) would be congenital vascular hamartoma (disorder).
 
@@ -129,10 +131,12 @@ In those cases where common clinical usage of a term containing nevus is unambig
 
 Overlapping neoplasm concepts refer to a neoplasm that overlaps two or more adjacent **sites.** For clarity, the phrase _overlapping sites_ should be included in the descriptions for the FSN and PT for new overlapping neoplasm content.
 
-Do not use _overlapping_ _lesion_ wording.
-
 For example,\
 [188247000 | Malignant neoplasm of overlapping sites of bladder (disorder)|](http://snomed.info/id/188247000)
+
+{% hint style="danger" %}
+Do not use 'overlapping _lesion'_.
+{% endhint %}
 
 For modeling an overlapping neoplasm concept, if the concept refers to contiguous sites involving more than one anatomical site, then a separate role group is used for each finding site.
 
@@ -140,6 +144,8 @@ However, assigning a role group for each finding site does not sufficiently defi
 
 For example,\
 Sufficiently defined concept 721624000 |Primary adenocarcinoma of overlapping sites of esophagus (disorder)| has a stated primitive parent of 187824009 |Malignant neoplasm of overlapping sites of digestive system (disorder)|.
+
+#### Colorectum
 
 The terms _colorectal_ and _colorectum_ , commonly used by pathologists, are included in descriptions for concepts referring to neoplasms modeled with 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)|. 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)| is needed because neoplasms are the same from the cecum to rectum and are considered as a group in cancer synoptic reporting protocols. Note, there is no consensus concerning the definition of _colon_ in the literature and between different domains.
 
