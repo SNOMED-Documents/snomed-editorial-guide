@@ -1,9 +1,7 @@
 # Observable Entity
 
-
-
-| Definition | Examples |
-|---|---|
+| Definition                                                                      | Examples                                                                                                                 |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Information about a quality/property to be observed and how it will be observed | 416540001 \| Calcium deposit observable (observable entity) \| 276885007 \| Core body temperature (observable entity) \| |
 
 ## Use of Observable Entities
@@ -12,25 +10,27 @@ Observables entities may be used to code headers on a template, elements on a ch
 
 For example,
 
-*       * _C_ _olor of nail_ is an observable entity. _Gray nails_ is a finding.
+* ```
+    |Color of nail| is an observable entity. |Gray nails| is a finding.
+  ```
 
 ### Types of Observable Entities
 
 There are four general types of observable entities for use in health care. Each has different representation requirements and patterns, i.e. the set of attributes will vary.
 
-  * **Quality.** A characteristic, feature, or property that is inherent in someone or something.
+* **Quality.** A characteristic, feature, or property that is inherent in someone or something.
 
 For example, mass of a person, temperature of internal organs, concentration of sodium in plasma, angle of a joint
 
-  * **Disposition.** A characteristic or feature that is not always realized in full.
+* **Disposition.** A characteristic or feature that is not always realized in full.
 
 For example, antibiotic susceptibility of a certain population
 
-  * **Function.** The ability of a person, some part of a person, or a thing to perform activities or realize processes.
+* **Function.** The ability of a person, some part of a person, or a thing to perform activities or realize processes.
 
 For example, ability to walk
 
-  * **Process.** A process or outcome of a process
+* **Process.** A process or outcome of a process
 
 For example, secretion rate, heart rate, respiratory rate
 
@@ -44,13 +44,11 @@ While some users have indicated they want to use a procedure concept for orderin
 
 As for the progression of the completion of an assessment, that is related to the state diagram (i.e., status) of the progression of a procedure and should not be precoordinated, but handled by the information system in which orders are processed (it is dynamic, not static). The information system should be able to capture the status of a procedure (e.g., ordered, in process, completed). We would not expect the terminology to pre-coordinate this.
 
-For example, LOINC recognizes three different aspects to an observable: 
+For example, LOINC recognizes three different aspects to an observable:
 
-1) those that can serve as both an order and an observation (e.g. blood glucose level); 
-
-2) those that can be ordered but not directly resulted (e.g. urinalysis, which is a convenience order for multiple individual observations on urine); and 
-
-3) those that can only be resulted and not directly ordered (usually part of an automated system, such as computation of MCHC in hematology). 
+1. those that can serve as both an order and an observation (e.g. blood glucose level);
+2. those that can be ordered but not directly resulted (e.g. urinalysis, which is a convenience order for multiple individual observations on urine); and
+3. those that can only be resulted and not directly ordered (usually part of an automated system, such as computation of MCHC in hematology).
 
 LOINC assigns this aspect with an attribute value. It is not one of the six main LOINC parts typically visible to users; however, it is included in the LOINC database.
 
