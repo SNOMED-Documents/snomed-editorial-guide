@@ -8,6 +8,8 @@ For example,
 
 Stated view of 74934004 |Psychoactive substance withdrawal syndrome (disorder)|:
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690559.png" alt=""><figcaption><p>Inferred view of 74934004 |Psychoactive substance withdrawal syndrome (disorder)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690558.png" alt=""><figcaption></figcaption></figure>
+Inferred view of 74934004 |Psychoactive substance withdrawal syndrome (disorder)|:
+
+<figure><img src="../../../../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
