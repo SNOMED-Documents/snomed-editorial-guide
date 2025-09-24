@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Anatomical Structure Modeling
 
 Many terms that refer to body systems or tracts are used imprecisely in clinical practice and in medical publications. Ambiguities frequently arise with many of these terms. We have made the following definitions and distinctions in order to achieve internal consistency of the terminology. We recognize that it may not be possible to get universal consensus for the names for each of these concepts. The goal is to be consistent and clear in defining the meaning of each concept and to allow users and system designers to present the terms that best reflect these meanings in their own implementations.

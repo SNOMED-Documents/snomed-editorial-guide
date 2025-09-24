@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Representing LOINC Terms with the SNOMED CT Observable Entity Model
 
 _Logical Observation Identifiers Names and Codes (LOINC) _terms are defined using the Observable Entity model in SNOMED CT as produced in the LOINC - SNOMED CT Cooperation Project releases.

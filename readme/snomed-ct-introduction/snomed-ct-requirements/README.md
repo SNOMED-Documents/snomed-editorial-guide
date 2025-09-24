@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # SNOMED CT Requirements
 
 Key requirements that drive the design, development, and maintenance of SNOMED CT are as follows. They are related to:

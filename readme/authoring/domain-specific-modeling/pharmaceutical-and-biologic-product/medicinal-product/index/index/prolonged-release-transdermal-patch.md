@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Prolonged-release transdermal patch
 
 Prolonged-release transdermal patch clinical drug concepts modeled previously using concentration strength normalized to per 1 hour will use presentation strength based on the labeled total amount delivered over time (e.g., /16, /24 [usual manufacturer-documented period], /72 hours), in alignment with product SPCs and international editorial policy.

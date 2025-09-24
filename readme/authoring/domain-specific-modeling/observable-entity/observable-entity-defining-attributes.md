@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Observable Entity Defining Attributes
 
 Where the MRCM allows Pharmaceutical / biologic product (product) and its descendants as valid values for Observable entity (observable entity), the Pharmaceutical / biologic product (product) subhierarchy is not currently used for values with these attributes in the International Release except for 787859002 |Vaccine product (medicinal product)| and its descendants, which  _can_ be used as valid values for this attribute.

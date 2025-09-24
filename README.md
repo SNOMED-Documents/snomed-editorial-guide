@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # SNOMED CT Editorial Guide
 
 The SNOMED CT Editorial Guide provides the information necessary to model concepts in SNOMED CT.&#x20;

@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Situation with Explicit Context Naming Conventions
 
 For information on precoordinated naming patterns that have been reviewed or are currently in review, see \_[Pre-coordination Naming Patterns project](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project). \_ Unreviewed patterns for the Situation with explicit context hierarchy can be found [here](https://confluence.ihtsdotools.org/display/IHTSDO1/Situation+with+explicit+context). New content should conform with the naming patterns; however, legacy content may not.

@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Semantic Tag
 
 _Semantic tags_ are part of FSN descriptions. They are placed in parentheses at the end of FSNs when authoring concepts. They indicate the domain to which a concept belongs. For example, body structure, disorder, or specimen.

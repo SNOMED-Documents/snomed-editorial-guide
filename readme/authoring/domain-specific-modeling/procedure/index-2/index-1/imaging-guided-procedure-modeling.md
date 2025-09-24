@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Imaging-guided procedure modeling
 
 Imaging guidance can be modeled using the _Has intent (attribute)_. The concept [429892002 |Guidance intent (qualifier value)|](http://snomed.info/id/429892002), a child of [363675004 |Intents (nature of procedure values) (qualifier value)|](http://snomed.info/id/363675004), is the value for the Has intent (attribute) for imaging-guided procedures.

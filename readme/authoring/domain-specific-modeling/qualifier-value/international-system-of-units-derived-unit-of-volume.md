@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # International System of Units - derived unit of volume
 
 The _[ 282115005 | International System of Units-derived unit of volume (qualifier value)|](http://snomed.info/id/282115005 "282115005 | International System of Units-derived unit of volume \(qualifier value\) |") _hierarchy contains concepts representing metric units of volume.

@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Regimes and therapies
 
 A regime/therapy is a set, sequence, or group of procedures. 243120004 |Regimes and therapies (regime/therapy)| is a subtype of Procedure (procedure). As a subtype of procedure, Regimes and therapies have the same attributes and use the same concept model as general procedures. 

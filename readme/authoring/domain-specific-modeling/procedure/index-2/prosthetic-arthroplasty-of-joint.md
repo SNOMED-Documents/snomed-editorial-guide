@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Prosthetic arthroplasty of joint
 
 << [1288025000 | Prosthetic arthroplasty of joint (procedure)|](http://snomed.info/id/1288025000)

@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Bacterial disorders with organism or toxin
 
 In modeling some bacterial disorders, there will be situations where either the organism or the toxin (substance), or both values, are required for the causative agent attribute. The decision is often determined by whether or not the bacteria are considered endotoxins or exotoxins. The most common exotoxins are:

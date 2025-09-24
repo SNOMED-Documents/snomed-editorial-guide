@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Body parts and regions
 
 SNOMED CT uses the Foundation Model of Anatomy (FMA) definition of _body part_ and _body part subdivision_ for some concepts. For example, the joint regions discussed below are classified as body part subdivisions, since that is what is intended by the diseases and procedures that use these terms in their definitions. They are not body parts because they are defined, not by a set of bones, but rather by a particular joint and its surrounding structures. However, our interpretation of the word _region_ is based on common usage and is intended as a three-dimensional structure, _not_ the FMA two-dimensional definition of body region. In other words, these regions are not simply surface regions (skin), but also include the three dimensional underlying structures (subcutaneous tissues, bones, muscles, tendons, fascia, vessels and etc.).

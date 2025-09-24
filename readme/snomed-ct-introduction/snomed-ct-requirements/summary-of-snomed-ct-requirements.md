@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Summary of SNOMED CT Requirements
 
 A summary of the SNOMED CT requirements is as follows. Additional information may be found throughout this guide, as well as in other documents on the [SNOMED International website](https://www.snomed.org/).

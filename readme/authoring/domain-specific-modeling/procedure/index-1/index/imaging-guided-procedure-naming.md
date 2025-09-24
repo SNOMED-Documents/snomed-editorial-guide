@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Imaging Guided Procedure Naming
 
 There are numerous procedures where the imaging component is considered a supplemental or secondary technique to help accomplish the primary goal. The pattern is:

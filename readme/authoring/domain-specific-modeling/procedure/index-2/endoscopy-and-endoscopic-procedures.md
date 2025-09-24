@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Endoscopy and endoscopic procedures
 
 There is no need to distinguish between _endoscopy_ and _endoscopic procedure,_ as the procedure always includes inspection and may require minor incisions to allow the endoscope and other instruments to be inserted, or insertion may be via an existing orifice.

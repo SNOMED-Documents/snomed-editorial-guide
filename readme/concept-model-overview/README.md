@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Introduction to Concept Model
 
 The _Concept Model_ is used to specify logical definitions of _SNOMED CT_ concepts. It is based on a combination of formal logic and editorial rules and includes the attributes and values that may be applied to concepts.

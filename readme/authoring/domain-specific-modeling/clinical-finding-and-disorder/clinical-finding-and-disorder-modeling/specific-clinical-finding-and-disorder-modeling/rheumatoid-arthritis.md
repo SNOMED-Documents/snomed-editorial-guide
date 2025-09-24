@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Rheumatoid arthritis
 
 Rheumatoid arthritis (RA) is a multisystem, inflammatory, autoimmune disorder; the exact etiology is unknown. RA is a disease primarily of the joints and is clinically known as an 'arthritis' although extra-articular manifestations occur. Extra-articular features include nodules, carditis and pericarditis, vasculitis, lung disorders, and other manifestations.

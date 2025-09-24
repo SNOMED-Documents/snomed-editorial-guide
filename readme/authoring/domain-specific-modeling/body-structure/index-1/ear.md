@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Ear
 
 The ear includes the external, middle and inner ear. The external ear has two main parts, the _auricle_ (also called the _pinna_) and the [84301002 |External auditory canal structure (body structure)|](http://snomed.info/id/84301002).&#x20;

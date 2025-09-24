@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Anatomical Structure Naming Conventions
 
 * [Naming Convention for SEP Model](../../body-structure/naming-convention-for-sep-model.md)

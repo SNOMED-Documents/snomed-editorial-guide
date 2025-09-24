@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Disposition
 
 The [ 726711005 | Disposition (disposition)|](http://snomed.info/id/726711005 "726711005 | Disposition \(disposition\) |") hierarchy is required to support the remodeling of the [ 105590001 | Substance (substance)|](http://snomed.info/id/105590001 "105590001 | Substance \(substance\) |") hierarchy. These concepts are used as the attribute values for the __ [ 726542003 | Has disposition (attribute)|](http://snomed.info/id/726542003 "726542003 | Has disposition \(attribute\) |") . The (disposition) semantic tag is used to differentiate concepts in this hierarchy from similar concepts in other hierarchies. 

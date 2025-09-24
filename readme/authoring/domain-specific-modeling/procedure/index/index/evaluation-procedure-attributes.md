@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Evaluation Procedure Attributes
 
 The following defining attributes are unique in the context of the 386053000 |Evaluation procedure (procedure)| subhierarchy. Many of these attributes (e.g., Component, Scale type) are used to define Observable entity concepts. Evaluation procedures may use the attributes below in addition to those attributes allotted to the [71388002 | Procedure (procedure)|](http://snomed.info/id/71388002) hierarchy (see _Procedure Attributes Summary_ page). All of the attributes for Evaluation procedure concepts should be grouped. Some of the current modeling does not reflect this guidance. The future of this hierarchy in relation to the observable entity hierarchy is under review. See 'Observable Entity vs. Evaluation Procedure' at [Observable Entity](../../../../../../authoring/procedure/Observable-Entity_174690597.html).

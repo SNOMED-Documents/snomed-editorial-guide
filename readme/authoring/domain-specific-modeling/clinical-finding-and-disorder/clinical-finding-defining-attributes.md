@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Clinical Finding Defining Attributes
 
 **Generally, the attributes&#x20;**_**associated with**_**&#x20;,&#x20;**_**before**_**&#x20;,&#x20;**_**during**_**&#x20;,&#x20;**_**after**_**&#x20;,&#x20;**_**due to**_**&#x20;,&#x20;**_**clinical course**_**&#x20;, or&#x20;**_**temporally related to**_**&#x20;are self-grouped, meaning they must not be placed in a relationship group with other attributes; each attribute must be the only attribute in a relationship group. Any rare exceptions will be documented within the individual attribute section below.**

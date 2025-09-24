@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Immunization and vaccination
 
 Immunization may be active (introduction of a vaccine) or passive (introduction of immunoglobulin/antibodies). A  _vaccine_ is a substance that can induce active immunity.  _Vaccination_ , by definition, is the introduction of a vaccine, and is, therefore, synonymous with active immunization. Some descriptions include the word  _vaccination_ , where it is clear that vaccination is intended. Other descriptions have preferred terms with the word  _vaccination_ , and synonyms with the word  _immunization_ , to include both active and passive immunization.

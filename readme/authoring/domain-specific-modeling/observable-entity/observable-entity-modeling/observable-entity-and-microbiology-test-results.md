@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Observable Entity and Microbiology Test Results
 
 When microbiology laboratory results are encoded, it is important to be aware of the context provided by the observation, i.e. the test performed and, therefore, the implied meaning of the result value, i.e. the organism.

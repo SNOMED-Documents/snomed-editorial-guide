@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Arrythmia
 
 Cardiologists noted confusion in the placement of  _Conduction disorder of the heart (disorder)_ as a broad grouping that subsumed arrhythmias and heart blocks. In common usage  _arrhythmia_ refers to a broad set of conditions that include conduction disorders, under which are heart blocks. The concept Cardiac arrhythmia (disorder) is a parent of Conduction disorder of the heart (disorder), and the active referent of the inactive concepts named  _dysrhythmia_ or  _arrhythmia_.

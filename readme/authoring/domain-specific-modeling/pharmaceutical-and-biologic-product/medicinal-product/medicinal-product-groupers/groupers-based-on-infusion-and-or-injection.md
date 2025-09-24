@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Groupers Based on Infusion and or Injection
 
 Pharmaceutical dose form grouper concepts specifying "infusion _and/or_ injection" are modeled using General Concept Inclusions (GCIs).

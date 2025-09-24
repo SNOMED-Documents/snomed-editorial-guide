@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Clinical Drug (CD) with Concentration and Presentation Strengths
 
 ## Clinical Drug (CD) with Concentration and Presentation Strengths

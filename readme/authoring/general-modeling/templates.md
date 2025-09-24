@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Templates
 
 In addition to the guidance found here in the Editorial Guide, please see information on the use of templates at [SNOMED CT Templates](https://prod-confluence.ihtsdotools.org/display/SCTEMPLATES).

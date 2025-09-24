@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Pharmaceutical and Biologic Product
 
 - [Pharmaceutical and Biologic Product](../pharmaceutical-and-biologic-product/pharmaceutical-and-biologic-product.md)

@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Annotations
 
 The purpose of annotations is to provide a formal means to represent additional information about a SNOMED CT component (concept, description, relationship) or as a member of a reference set.

@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Ingredient Count Attributes
 
 The following sections describe the attribute concepts that are used to represent the ingredient counts for all concepts represented using the "closed world view" (the "only" and "precisely" concepts) in the medicinal product hierarchy.

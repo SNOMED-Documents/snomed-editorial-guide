@@ -1,3 +1,20 @@
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
 # Continuous presentation: Metered dose unit of presentation
 
 _Examples: various inhalers, nasal sprays, some cutaneous sprays/foams_
