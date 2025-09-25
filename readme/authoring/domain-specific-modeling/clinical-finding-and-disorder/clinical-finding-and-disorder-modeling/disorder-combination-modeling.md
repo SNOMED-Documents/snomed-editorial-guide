@@ -44,15 +44,15 @@ The following table provides the possible combinations of answers. It allows aut
 
 ## **Simple Co-occurrence**
 
-#### Naming pattern:
+### Naming pattern:
 
 FSN: _X with Y_
 
-#### Modeling pattern:
+### Modeling pattern:
 
-Assign each condition as a supertype (or ensure that each participating disorder is present in the ancestor tree following classification)
+Assign each condition as a supertype (or ensure that each participating disorder is present in the ancestor tree following classification).
 
-Use simple co-occurrence for two or more conditions that are strongly associated by means other than causality or a temporal relationship (e.g. a common predisposition) where representing such conditions as separate statements would result in a loss of the associated between the conditions
+Use simple co-occurrence for two or more conditions that are strongly associated by means other than causality or a temporal relationship (e.g. a common predisposition) where representing such conditions as separate statements would result in a loss of the associated between the conditions.
 
 For example,
 
@@ -61,84 +61,103 @@ For example,
 
 Do not use simple co-occurrence for those disorders with more than one anatomical site or more than one associated morphology. Those disorders should rather be represented as individual concepts in a medical record.
 
-### Example
+Correct examples:
 
-#### C
+·       Sinusitis with nasal polyps (disorder)
 
-####
+·       Acute bronchitis with bronchiectasis (disorder)
+
+Incorrect examples not to be repeated:
+
+·       Psoriasis-eczema overlap condition (disorder)
+
+·       Hay fever with asthma (disorder)
 
 {% hint style="warning" %}
 Be aware of conditions which likely exist prior to a disorder or procedure.
 
-For example, legacy term
+For example,&#x20;
 
-[609454008 | Induced termination of pregnancy complicated by acute necrosis of liver (disorder)|](http://snomed.info/id/609454008)
+Legacy term [609454008 | Induced termination of pregnancy complicated by acute necrosis of liver (disorder)|](http://snomed.info/id/609454008)
 
-*   _Acute necrosis of liver_ was likely present prior to the procedure; there is no explicit causation. The concept will be inactivated. Instead, separate concepts
-
-    [714812005 | Induced termination of pregnancy (procedure)|](http://snomed.info/id/714812005)and[197269008 | Acute necrosis of liver (disorder)|](http://snomed.info/id/197269008) should be documented in the medical record.
+* _Acute necrosis of liver_ was likely present prior to the procedure; there is no explicit causation. The concept will be inactivated. Instead, separate concepts [714812005 | Induced termination of pregnancy (procedure)|](http://snomed.info/id/714812005) and [197269008 | Acute necrosis of liver (disorder)|](http://snomed.info/id/197269008) should be documented in the medical record.
 {% endhint %}
 
 ***
 
-{% hint style="success" %}
-Be aware of conditions which likely exist prior to a disorder or procedure.
-
-For example, legacy term
-
-[609454008 | Induced termination of pregnancy complicated by acute necrosis of liver (disorder)|](http://snomed.info/id/609454008)
-
-*   _Acute necrosis of liver_ was likely present prior to the procedure; there is no explicit causation. The concept will be inactivated. Instead, separate concepts
-
-    [714812005 | Induced termination of pregnancy (procedure)|](http://snomed.info/id/714812005)and[197269008 | Acute necrosis of liver (disorder)|](http://snomed.info/id/197269008) should be documented in the medical record.
-{% endhint %}
-
 ## **Causation 1**
 
-Cause is another finding, disorder, event, or procedure
+Causation 1 applies when the cause is another finding, disorder, event, or procedure
 
-<table><thead><tr><th width="243.3125">Aspect</th><th>Guidance</th></tr></thead><tbody><tr><td>Modeling pattern</td><td>For disorders caused by another finding/disorder: use Due to relationship. Ensure appropriate supertypes and/or axioms. For procedures/events: represent caused condition as supertype and assign procedure/event as target of Due to.</td></tr><tr><td>Naming pattern</td><td><p>Use X due to Y.</p><p>For causal + temporal: use X due to and [temporal relation] Y.</p></td></tr><tr><td>Correct examples</td><td><p><em>Shock due to anaphylaxis (disorder)</em></p><p><em>Anemia due to blood loss (disorder)</em></p></td></tr><tr><td>Incorrect examples</td><td><p><em>Neutropenia associated with AIDS (disorder)</em> → should be <em>Neutropenia with AIDS (disorder)</em>.</p><p><em>Dilated cardiomyopathy secondary to granuloma (disorder)</em> → should be <em>…due to granuloma (disorder)</em>.</p></td></tr><tr><td>Notes</td><td>Avoid “co-occurrent and due to” phrasing; model as co-occurrence + Due to if clinically justified.</td></tr></tbody></table>
+### Naming pattern
+
+For conditions that are causal, or causal and co-occurring, construct the FSN with due to&#x20;
+
+* _X due to Y_
+
+For conditions specified as causal and temporal, construct the FSN with _due to_ and the temporal relationship
+
+* _X due to and following Y_
+
+### Modeling pattern
+
+#### For a condition caused by a clinical finding/disorder <a href="#for-a-condition-caused-by-a-clinical-finding-disorder" id="for-a-condition-caused-by-a-clinical-finding-disorder"></a>
+
+* Assign the causal disorder as the target of a _Due to_ relationship
+* When modeling only causation, ensure the caused condition is represented in the supertypes and/or axioms
+* When modeling co-occurrence and causation, ensure both the causal and the caused conditions are represented in the supertypes and/or axioms
+
+#### For a condition caused by a procedure <a href="#for-a-condition-caused-by-a-procedure" id="for-a-condition-caused-by-a-procedure"></a>
+
+* Ensure the caused condition is represented as a supertype and/or axiom
+* Ensure Disease (disorder) or the appropriate intermediate primitive is a supertype
+* Assign the procedure as the target of a _Due to_ relationship
+
+#### For a condition caused by an event <a href="#for-a-condition-caused-by-an-event" id="for-a-condition-caused-by-an-event"></a>
+
+* Ensure the caused condition is represented as a supertype and/or axiom
+* Assign the event as the target of a _Due to_ relationship
 
 #### Correct examples:
 
-* [735173007 | Shock due to anaphylaxis (disorder)|](http://snomed.info/id/735173007) is an example of a condition caused by a clinical finding/disorder. Because the shock and the anaphylaxis are co-occurring, both conditions are represented in the supertypes and axioms, in addition to the Due to relationship.
-* [413532003 | Anemia due to blood loss (disorder)|](http://snomed.info/id/413532003) is an example of a condition caused by a clinical finding/disorder. Because the bleeding could have been controlled and thus not necessarily present, only causation is modeled in this concept. The blood loss/bleeding is not represented as a supertype.
+* 735173007 | Shock due to anaphylaxis (disorder)| is an example of a condition caused by a clinical finding/disorder. Because the shock and the anaphylaxis are co-occurring, both conditions are represented in the supertypes and axioms, in addition to the Due to relationship.
+* 413532003 | Anemia due to blood loss (disorder)| is an example of a condition caused by a clinical finding/disorder. Because the bleeding could have been controlled and thus not necessarily present, only causation is modeled in this concept. The blood loss/bleeding is not represented as a supertype.
 
 #### Incorrect examples not to be repeated:
 
-* Neutropenia associated with acquired immunodeficiency syndrome (disorder) - Do not use 'associated'; use only 'with' instead. So, |Neutropenia with acquired immunodeficiency syndrome (disorder)|.
-* Dilated cardiomyopathy secondary to granuloma (disorder) - Do not use 'secondary to'; use 'due to' instead. So, |Dilated cardiomyopathy due to granuloma (disorder)|.
+* Neutropenia associated with acquired immunodeficiency syndrome (disorder) - Do not use _associated_; use only _with_ instead. So, |Neutropenia with acquired immunodeficiency syndrome (disorder)|.
+* Dilated cardiomyopathy secondary to granuloma (disorder) - Do not use _secondary to_; use _due to_ instead.  So, |Dilated cardiomyopathy due to granuloma (disorder)|.
 
 {% hint style="warning" %}
-#### **Determining causation only versus causation and co-occurrence**
+**Determining causation only versus causation and co-occurrence**
 
 There are no heuristics to standardize the determination of a precoordinated combination modeled using only the _Due to_ relationship versus modeling the _Due to_ relationship in addition to representing the causative condition in the supertypes. If both conditions must be present for the other to occur, both should be represented in the supertypes. Whether both conditions must be present concurrently is determined by an understanding of the disease process. Considerations include whether the conditions are chronic diseases, as these types of conditions will be ever present and thus require representation in the supertypes. If the causing condition resolves but the resultant condition can remain, then representation of both conditions in the supertypes is unwarranted.
 
-There are approximately 425 legacy concepts with '_co-occurrent and due_ _to'_ in the description. Do not add new concepts with the terming '_co-occurrent and due to'_, instead use co-occurrence modeling (both conditions are represented in a supertype) in addition to the _Due to_ (attribute) if warranted by the clinical condition.
+There are approximately 300 legacy concepts with _co-occurrent and due_ _to_ in the description.  Do not add new concepts with the terming _co-occurrent and due to;_ instead use co-occurrence modeling (both conditions are represented in a supertype) in addition to the _Due to_ (attribute) if warranted by the clinical condition.
 {% endhint %}
 
 ## **Causation 2**
 
-Causation 2 is when <sup>1</sup>the cause is a material entity, and <sup>2</sup>the means of exposure/introduction are not significant.
+Causation 2 applies when <sup>1</sup>the cause is a material entity, and <sup>2</sup>the means of exposure/introduction are not significant.
 
 1. A material entity refers to a concept within the Substance, Physical object, Pharmaceutical/biologic product, Physical force, and Organism hierarchies.
 2. If the means of exposure/introduction are significant, then the causal factor is represented by a concept from the Event hierarchy, and the concept is modeled as Causation 1.
 
-### Summary
+### Naming pattern
 
-| Aspect             | Guidance                                                                                                                                                                                                                   |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition         | Cause is a material entity (substance, object, force, organism, pharmaceutical/biologic).                                                                                                                                  |
-| Modeling pattern   | <p>Assign the caused disorder (X) as a supertype, or ensure that the caused disorder is a supertype following classification</p><p>Assign the causal factor (Y) as the value of a <em>Causative agent (attribute)</em></p> |
-| Naming pattern     | X caused by Y                                                                                                                                                                                                              |
-| Correct example    | _Contact dermatitis caused by chemical (disorder)_                                                                                                                                                                         |
-| Incorrect examples | _Choking due to airway obstruction (finding)Coma associated with diabetes mellitus (disorder)Laser-induced burn (disorder)_                                                                                                |
+_FSN:  X caused by Y_
 
-### Correct example:
+### Modeling pattern
 
-* [291000119100 | Contact dermatitis caused by chemical (disorder)|](http://snomed.info/id/291000119100)
+Assign the caused disorder (X) as a supertype, or ensure that the caused disorder is a supertype following classification.
 
-### Incorrect examples not to be repeated:
+Assign the causal factor (Y) as the value of a _Causative agent (attribute)._
+
+#### Correct example:
+
+* Contact dermatitis caused by chemical (disorder)
+
+#### Incorrect examples not to be repeated:
 
 * Choking due to airway obstruction (finding)
 * Coma associated with diabetes mellitus (disorder)
@@ -286,9 +305,4 @@ The stricter rules for FSN construction do not prevent the addition of more fami
 * Does not cover cases where combination concepts are demonstrably classification-derived (This limitation accepts that some content may be so obviously based on a class or category in a classification that it would be undesirable to reinterpret its semantics.)
 * The modeling approach may be difficult to apply in all cases of combined disorders; domain-specific templates should be developed to ensure modeling consistency and accuracy.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Disorder%20Combination%20Modeling" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Disorder%20Combination%20Modeling" class="button primary">Provide Feedback</a>
