@@ -18,16 +18,52 @@ Culinary name should be used for the FSN and PT when referring to meat products 
 
 If there are additional adjectives such as baked, boiled, fried, lean, minced, low-fat, roast, or stewed, these adjectives should proceed the name of source organism, e.g., Fried beef steak (substance), Tinned fish (substance).
 
-<table><thead><tr><th width="234.84765625">FSN</th><th>X (substance) Wheat dextrin (substance) Tinned fish (substance) Pattern: For example, Betel nut (substance)</th></tr></thead><tbody><tr><td>Preferred Term</td><td>X Pattern: For example, Betel nut Wheat dextrin Tinned fish</td></tr><tr><td>Synonyms</td><td>Areca catechu Pattern: scientific name if appropriate For example,</td></tr></tbody></table>
+### FSN
+
+Pattern:
+
+* X (substance)
+
+For example,
+
+* Betel nut (substance)
+* Wheat dextrin (substance)
+* Tinned fish (substance)
+
+***
+
+### Preferred Term
+
+Pattern:
+
+* X
+
+For example,
+
+* Betel nut
+* Wheat dextrin
+* Tinned fish
+
+***
+
+### Synonyms
+
+Pattern: scientific name if appropriate
+
+For example,
+
+* Areca catechu
 
 ## Exemplars
 
 The following illustrates the **stated** and **inferred** view.
 
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure></div>
+
 <figure><img src="../../../../../../authoring/substance/images/174691565.png" alt=""><figcaption></figcaption></figure>
 
-
-
 The following illustrates the **stated** and **inferred** view.
+
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../../../../../../authoring/substance/images/174691566.png" alt=""><figcaption></figcaption></figure>

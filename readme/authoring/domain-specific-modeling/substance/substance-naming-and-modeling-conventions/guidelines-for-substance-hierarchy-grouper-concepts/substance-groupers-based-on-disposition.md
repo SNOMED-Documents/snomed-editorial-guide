@@ -8,10 +8,7 @@ _Note: This section applies to concepts representing a single disposition. It do
 
 ## Modeling
 
-| Parent concept      | 105590001 \|Substance (substance)\|                                                                                                                                                                                                                                                                                                                                       |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition status   | Defined                                                                                                                                                                                                                                                                                                                                                                   |
-| \|Has disposition\| | While the allowed range is broader, the Substance Groupers based on Disposition should only use <726711005 \|Disposition (disposition) as the attribute value. While the allowed range is broader, the Substance Groupers based on Disposition should have one and only one \|Has disposition\| attribute. Range: <726711005\|Disposition (disposition) Cardinality: 1..1 |
+<table data-header-hidden><thead><tr><th width="176.88671875">Parent concept</th><th>105590001 |Substance (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>105590001 |Substance (substance)|</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><strong>|Has disposition|</strong></td><td><p></p><p>Range: &#x3C;726711005 |Disposition (disposition)</p><ul><li>While the allowed range is broader, the Substance Groupers based on Disposition should only use &#x3C;726711005 |Disposition (disposition) as the attribute value.</li></ul><p>Cardinality: 1..1</p><ul><li>While the allowed range is broader, the Substance Groupers based on Disposition should have one and only one |Has disposition| attribute.</li></ul></td></tr></tbody></table>
 
 Substance groupers representing etiopathic dispositions (e.g. 88376000 |Carcinogen (substance), 45986006 |Teratogen (substance)) will be created. Since most substances can exhibit these characteristics in some circumstances, the descendant concepts will not be populated. Exceptions will be noted in the editorial guidelines.
 
@@ -19,13 +16,42 @@ Substance groupers representing etiopathic dispositions (e.g. 88376000 |Carcinog
 
 The following illustrates the **stated** view for grouper concepts based on disposition.
 
-<figure><img src="../../../../../../authoring/substance/images/174691437.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for grouper concepts based on disposition.</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+
+The following illustrates the **inferred** view for grouper concepts based on disposition.
+
+<figure><img src="../../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/substance/images/174691438.png" alt=""><figcaption></figcaption></figure>
 
 ## Terming
 
-| FSN            | Substance with o pioid receptor agonist mechanism of action (substance) Substance with acetylcholinesterase inhibitor mechanism of action (substance) Use the following pattern for the FSN. The FSN must reflect the terming used to describe the disposition consistent with the terming of the \|Has disposition\| attribute value. Example for dispositions that represent a mechanism of action: Substance with histamine receptor antagonist mechanism of action (substance) |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term | Opioid receptor agonist Histamine receptor antagonist Acetylcholinesterase inhibitor Use the following pattern for the Preferred Term. The Preferred Term must reflect the terming used to describe the disposition consistent with the terming of the \|Has disposition\| attribute value. Example for dispositions that represent a mechanism of action:                                                                                                                         |
-| Synonyms       | Synonyms corresponding to the FSN are not required. Additional synonyms are allowed only if they are consistent with the synonyms for the corresponding disposition concept.                                                                                                                                                                                                                                                                                                       |
+### FSN
+
+Use the following pattern for the FSN. The FSN must reflect the terming used to describe the disposition consistent with the terming of the |Has disposition| attribute value.
+
+Example for dispositions that represent a mechanism of action:
+
+* Substance with opioid receptor agonist mechanism of action (substance)
+* Substance with histamine receptor antagonist mechanism of action (substance)
+* Substance with acetylcholinesterase inhibitor mechanism of action (substance)
+
+***
+
+### Preferred Term
+
+Use the following pattern for the Preferred Term. The Preferred Term must reflect the terming used to describe the disposition consistent with the terming of the |Has disposition| attribute value.
+
+Example for dispositions that represent a mechanism of action:
+
+* Opioid receptor agonist
+* Histamine receptor antagonist
+* Acetylcholinesterase inhibitor
+
+***
+
+### Synonyms
+
+Synonyms corresponding to the FSN are not required.
+
+Additional synonyms are allowed only if they are consistent with the synonyms for the corresponding disposition concept.

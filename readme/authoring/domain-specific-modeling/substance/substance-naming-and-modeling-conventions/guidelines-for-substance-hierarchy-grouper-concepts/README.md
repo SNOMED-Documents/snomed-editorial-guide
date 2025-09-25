@@ -18,10 +18,13 @@ In the context of substances, a disposition is “a behavior that a substance wi
 
 Role based groupers are associated with a particular purpose or outcome. Roles are a function of the way the substance is formulated or presented and so may not be applicable to all products containing that substance, which may lead to incorrect classification of concepts using role groupers as attribute values. At this time, the existing Substance role groupers will remain in situ with no change. However, additional concepts of this type will not be created, and requests for new instances will be rejected.
 
+{% hint style="danger" %}
 Known issues with use of Substance role groupers, including potential incorrect classification, will remain and should be considered by stakeholders at their discretion.
+{% endhint %}
 
-* [Restructure of the top level substances hierarchy](../../../../../../authoring/substance/Restructure-of-the-top-level-substances-hierarchy_174691410.html)
-* [Substance Groupers Based on Structure](../../../../../../authoring/substance/Substance-Groupers-Based-on-Structure_174691414.html)
-* [Substance Groupers Based on Disposition](../../../../../../authoring/substance/Substance-Groupers-Based-on-Disposition_174691436.html)
-* [Substance Groupers Based on Both Structure and Disposition](../../../../../../authoring/substance/Substance-Groupers-Based-on-Both-Structure-and-Disposition_174691440.html)
-* [Concepts Representing a Substance or its Modifications](../../../../../../authoring/substance/Concepts-Representing-a-Substance-or-its-Modifications_174691445.html)
+* [Restructure of the top level substances hierarchy](restructure-of-the-top-level-substances-hierarchy.md)
+* [Substance Groupers Based on Structure](substance-groupers-based-on-structure.md)
+* [Substance Groupers Based on Disposition](substance-groupers-based-on-disposition.md)
+* [Substance Groupers Based on Both Structure and Disposition](substance-groupers-based-on-both-structure-and-disposition.md)
+* [Concepts Representing a Substance or its Modifications](concepts-representing-a-substance-or-its-modifications.md)
+

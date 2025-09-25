@@ -14,4 +14,6 @@ Each of these substances will all need to be represented in SNOMED CT as separat
 
 The following illustrates the hierarchy view for Omeprazole and Esomeprazole:
 
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure></div>
+
 <figure><img src="../../../../../../authoring/substance/images/174691627.png" alt=""><figcaption></figcaption></figure>

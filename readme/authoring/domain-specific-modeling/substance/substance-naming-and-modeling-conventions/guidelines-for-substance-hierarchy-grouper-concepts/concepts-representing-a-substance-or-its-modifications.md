@@ -7,155 +7,140 @@ The substance redesign project has made a number of decisions regarding the repr
 1. Modification indicates that the concept is a structural modification of another concept, where the intrinsic physicochemical properties of the substance do not change.
 2. The intrinsic physicochemical properties do not encompass non-intrinsic characteristics of a substance, such as toxicity, bioavailability, or extended release (in the case of medicinal products).
 3. Modification concepts that exist to group modifications or derivatives of a specific substance are not to be created.
-4. Metabolite groupers in the substances hierarchy are considered roles. No further concepts of this format will be created in the |Substance| hierarchy. Existing concepts will only be retained where there is a specific requirement and will be modeled as a child of |Metabolite (substance)|. See [Metabolites](../../../../../../authoring/substance/Metabolites_174691621.html).
-5. Structural groupers that reference modifications as a chemical group will be retained. Where the structural group name also refers to a specific chemical, the grouper will be re-termed “Substance with X structure”. See relative section [Substance Groupers Based on Structure](../../../../../../authoring/substance/Substance-Groupers-Based-on-Structure_174691414.html).
+4. Metabolite groupers in the substances hierarchy are considered roles. No further concepts of this format will be created in the |Substance| hierarchy. Existing concepts will only be retained where there is a specific requirement and will be modeled as a child of |Metabolite (substance)|. See [Metabolites](../guidelines-for-specific-substance-types/metabolites.md).
+5. Structural groupers that reference modifications as a chemical group will be retained. Where the structural group name also refers to a specific chemical, the grouper will be re-termed “Substance with X structure”. See relative section [Substance Groupers Based on Structure](substance-groupers-based-on-structure.md).
 6. There is no requirement to introduce a new semantic tag in order to distinguish concepts representing a substance or its modifications from any other type of concept in the |Substance| hierarchy.
 
 ## Modeling
 
-| Semantic tag                  | (substance)                                  |
-| ----------------------------- | -------------------------------------------- |
-| Definition status             | Primitive                                    |
-| Attribute: Is modification of | Range: < 105590001 \|Substance (substance)\| |
+<table data-header-hidden><thead><tr><th width="223.09765625">Semantic tag</th><th>(substance)</th></tr></thead><tbody><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Is modification of</strong></p></td><td>Range: &#x3C; 105590001 |Substance (substance)|</td></tr></tbody></table>
 
 ## Exemplar
 
 The following illustrates the **stated** view of 125691000 |Sotalol hydrochloride (substance)|:
 
-<figure><img src="../../../../../../authoring/substance/images/225051477.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 125691000 |Sotalol hydrochloride (substance)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691456.png" alt=""><figcaption></figcaption></figure>
+The following illustrates the **inferred** view for 125691000 |Sotalol hydrochloride (substance)|:
 
-## Guidelines for the use of [738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007)
+<figure><img src="../../../../../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
-Substances may have zero to many Is modification of attribute(s).
+## Guidelines for the use of 738774007 | Is modification of (attribute)|
 
-#### For example,
+Substances may have zero to many |Is modification of attribute|(s).
 
-* ```
+* For example,
   * Morphine hydrochloride (substance)
-  ```
 
-<figure><img src="../../../../../../authoring/substance/images/174691455.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
 #### For example,
 
-* ```
-  * Fluorothymidine (18-F) (substance)
-  ```
+* Fluorothymidine (18-F) (substance)
 
-<figure><img src="../../../../../../authoring/substance/images/174691474.png" alt=""><figcaption><p>Hydrates have an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") relationship to the unspecified salt.</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-For example,
+Hydrates have an 738774007 | Is modification of (attribute)| relationship to the unspecified salt.
 
-* ```
-  * Caffeine hydrate (substance) IS MODIFICATION OF Caffeine (substance). 
-  ```
+* For example,
+  * Caffeine hydrate (substance) IS MODIFICATION OF Caffeine (substance).&#x20;
 
 This is the **stated** view:
 
-\*\*
-
-<figure><img src="../../../../../../authoring/substance/images/174691490.png" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 This is the **inferred** view:
 
-\*\*
+<figure><img src="../../../../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691495%20(1).png" alt=""><figcaption><p>**</p></figcaption></figure>
+For example,&#x20;
 
-For example,
+* Clindamycin hydrochloride monohydrate (substance) IS MODIFICATION OF Clindamycin hydrochloride (substance). &#x20;
 
-* ```
-  * Clindamycin hydrochloride monohydrate (substance) IS MODIFICATION OF Clindamycin hydrochloride (substance). **  
-  ```
+&#x20;       This is the **stated** view:
 
-\*\*
-
-This is the**stated** view:
-
-\*\*
-
-<figure><img src="../../../../../../authoring/substance/images/174691453.png" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
 This is the **inferred** view:
 
-\*\*
+<figure><img src="../../../../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691452.png" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../authoring/substance/images/174691495%20(1).png" alt=""><figcaption></figcaption></figure>
 
 For example,
 
-* ```
-  * Calcium lactate pentahydrate (substance) IS MODIFICATION OF Calcium lactate (substance)
-  ```
+* Calcium lactate pentahydrate (substance) IS MODIFICATION OF Calcium lactate (substance)
 
 This is the **stated and inferred** view.
 
+<figure><img src="../../../../../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+
 ***
 
-<figure><img src="../../../../../../authoring/substance/images/174691479.png" alt=""><figcaption><p>********</p></figcaption></figure>
-
-Anhydrous salts have an [738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007) relationship to the unspecified salt.
+Anhydrous salts have an 738774007 | Is modification of (attribute)| relationship to the unspecified salt.
 
 For example,
 
-* ```
-  * Theophylline anhydrous (substance) IS MODIFICATION OF Theophylline (substance).
-  ```
+* Theophylline anhydrous (substance) IS MODIFICATION OF Theophylline (substance).
 
 This is the **stated** view:
 
-<figure><img src="../../../../../../authoring/substance/images/174691451.png" alt=""><figcaption><p>This is the <strong>inferred</strong> view:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691450.png" alt=""><figcaption><p>The salts are modeled with an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") the acid substance.</p></figcaption></figure>
+This os the **inferred** view:
 
-For example,
+<figure><img src="../../../../../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
-* ```
-  * Pamidronate monosodium (substance) IS MODIFICATION OF Pamidronic acid (substance). This is the****stated**** and****inferred**** view.
-  ```
-
-<figure><img src="../../../../../../authoring/substance/images/308610927.png" alt=""><figcaption><p>Liposomal preparations are modifications of the chemical substance.</p></figcaption></figure>
+The salts are modeled with an 738774007 | Is modification of (attribute)| the acid substance.
 
 For example,
 
-* ```
-  * Daunorubicin citrate liposome (substance)|
-  ```
+* Pamidronate monosodium (substance) IS MODIFICATION OF Pamidronic acid (substance). This is the **stated** and **inferred** view.
 
-<figure><img src="../../../../../../authoring/substance/images/174691481.png" alt=""><figcaption><p>Pegylated substances are modeled with |s modification of (attribute)| generic substance, if such a substance has been made available. Not all pegylated medicinal substances have a non-pegylated form, as the non-pegylated form may have been too immunogenic or too toxic.</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-For example,
-
-* ```
-  * 785674001 |Turoctocog alfa pegol (substance)|
-  ```
-
-<figure><img src="../../../../../../authoring/substance/images/174691449.png" alt=""><figcaption><p>Concepts specifying a particular physical form (e.g., micronized, macrocrystal, microsphere) should have a parent concept that relates to the structure of the substance and also an |Is modification of (attribute)| relationship to the unspecified substance concept.</p></figcaption></figure>
+Liposomal preparations are modifications of the chemical substance.
 
 For example,
 
-* ```
-  * 414246008 |Fenofibrate micronized (substance)|
-  ```
+* Daunorubicin citrate liposome (substance)|
 
-<figure><img src="../../../../../../authoring/substance/images/174691448.png" alt=""><figcaption><p>Grouper concepts should not be targets of an [ 738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007 "738774007 | Is modification of \(attribute\) |") relationship.</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
-In general, an [738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007) is not applicable to prodrugs. This is because there is no requirement for the |Has active ingredient (attribute)| of medicinal products containing prodrug substances to use any relationship to the active substance to manage relationships within the medicinal product hierarchy.
+Pegylated substances are modeled with |s modification of (attribute)| generic substance, if such a substance has been made available. Not all pegylated medicinal substances have a non-pegylated form, as the non-pegylated form may have been too immunogenic or too toxic.
+
+For example,&#x20;
+
+* 785674001 |Turoctocog alfa pegol (substance)|
+
+<figure><img src="../../../../../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../../authoring/substance/images/174691450.png" alt=""><figcaption></figcaption></figure>
+
+Concepts specifying a particular physical form (e.g., micronized, macrocrystal, microsphere) should have a parent concept that relates to the structure of the substance and also an |Is modification of (attribute)| relationship to the unspecified substance concept.
+
+For example,&#x20;
+
+* 414246008 |Fenofibrate micronized (substance)|
+
+<figure><img src="../../../../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+
+Grouper concepts should not be targets of an 738774007 | Is modification of (attribute)| relationship.
+
+In general, an 738774007 | Is modification of (attribute)| is not applicable to prodrugs. This is because there is no requirement for the |Has active ingredient (attribute)| of medicinal products containing prodrug substances to use any relationship to the active substance to manage relationships within the medicinal product hierarchy.
 
 For example, aspirin is not generally considered a modification of the substance salicylic acid.
 
-When a prodrug is an esterified form of substance, there should be an [738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007) relationship between the substance and its esterified form.
+{% hint style="info" %}
+When a prodrug is an esterified form of substance, there should be an 738774007 | Is modification of (attribute)| relationship between the substance and its esterified form.
 
 For exemplar,
 
-* ```
-  * 715220007 |Tenofovir alafenamide (substance)|  
-  ```
-  * 89678001 |Cefuroxime axetil (substance)|
+* 715220007 |Tenofovir alafenamide (substance)|
+* 89678001 |Cefuroxime axetil (substance)|
+{% endhint %}
 
-[738774007 | Is modification of (attribute)|](http://snomed.info/id/738774007) is not applicable:
+738774007 | Is modification of (attribute)| is not applicable:
 
 * Between a glycan and its glycoconjugate.
   * For example, 259289005 |Trimethylene glycol (substance)| is not a modification of 52086008 |Glycol (substance)|.

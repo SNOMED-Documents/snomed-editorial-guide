@@ -19,10 +19,7 @@ Flap substances exist for free flaps and pedicle flaps (<<261238005 |Free flap (
 
 ## Modeling
 
-| Parent concept    | Most distal appropriate descendant of 256683004 \|Flap (substance)\| |
-| ----------------- | -------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                          |
-| Definition status | Primitive                                                            |
+<table data-header-hidden><thead><tr><th width="213.6953125"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 256683004 |Flap (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr></tbody></table>
 
 Flap substances comprising composite multiple flap tissues are siblings (and not subtypes) of the various single tissue flap substances from which they are composed.
 
@@ -32,7 +29,11 @@ Flap substances should not include the procedure method, such as whether a flap 
 
 The concepts in this subhierarchy must not be conflated with either the donor procedure site or the site that the procedure acts upon.
 
+{% hint style="warning" %}
+**Exceptions**
+
 Flaps that include the named specific muscle site are to remain as a refinement in the flap substances; for example, 840353005 |Transverse rectus abdominis myocutaneous flap (substance)|.
+{% endhint %}
 
 For substances representing skin flaps, the FSN and PT contains ‘skin flap’ with an acceptable synonym of ‘cutaneous flap’.
 

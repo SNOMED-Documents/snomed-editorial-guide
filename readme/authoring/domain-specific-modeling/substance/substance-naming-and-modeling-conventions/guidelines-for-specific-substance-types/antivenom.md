@@ -2,11 +2,7 @@
 
 ## Modeling
 
-| Parent concept    | Most distal appropriate descendant of 115668003 \|Biological substance (substance) |
-| ----------------- | ---------------------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                                        |
-| Definition status | Primitive                                                                          |
-| Attribute         | \|Has disposition\| = 763291003 \|Antivenom (disposition)\|                        |
+<table data-header-hidden><thead><tr><th width="174.11328125">Parent concept</th><th>Most distal appropriate descendant of 115668003 |Biological substance (substance)</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 115668003 |Biological substance (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>|Has disposition| = 763291003 |Antivenom (disposition)|</td></tr></tbody></table>
 
 ## Naming
 
@@ -16,13 +12,54 @@
 
 Useful reference: Current version of _WHO Guidelines for the Production, Control and Regulation of Snake Antivenom Immunoglobulins_
 
-| FSN            | X antivenom (substance), where X = scientific name of organism Pattern: For example, Chironex fleckeri antivenom (substance)                                                                                                                                                                                 |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Preferred Term | Y antivenom, where Y = Common name of organism Australian box jellyfish antivenom When there is no common name for the organism, the PT will match the FSN Pattern: For example, Exception                                                                                                                   |
-| Synonyms       | A synonym that matches FSN (If not used Preferred term; see notes above) Chironex fleckeri antivenom Additional synonyms (e.g. when other legitimate synonyms exist for Organism name) are applicable and are evaluated on a case-by-case basis Deadly sea wasp antivenom Pattern: For example, For example, |
+### FSN
+
+Pattern:
+
+* X antivenom (substance), where X = scientific name of organism
+
+For example,
+
+* Chironex fleckeri antivenom (substance)
+
+***
+
+### Preferred Term
+
+Pattern:
+
+* Y antivenom, where Y = Common name of organism
+
+For example,
+
+* Australian box jellyfish antivenom
+
+Exception
+
+* When there is no common name for the organism, the PT will match the FSN
+
+***
+
+### Synonyms
+
+Pattern:
+
+* &#x20;A synonym that matches FSN (If not used Preferred term; see notes above)
+
+For example,
+
+* Chironex fleckeri antivenom
+
+Additional synonyms (e.g. when other legitimate synonyms exist for Organism name) are applicable and are evaluated on a case-by-case basis
+
+For example,
+
+* Deadly sea wasp antivenom
 
 ## Exemplar
 
 The following illustrates the **stated** view of 699514008 |Chironex fleckeri antivenom (substance)|:
+
+<figure><img src="../../../../../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/substance/images/212337707.png" alt=""><figcaption></figcaption></figure>

@@ -8,11 +8,7 @@ Concepts specifying a particular physical form (e.g. micronized, macrocrystal, m
 
 ## Modeling - Micronized substance
 
-| Parent concept    | Most distal appropriate descendant of105590001\|Substance (substance)\| An additional parent concept to be allocated to denote physical form as appropriate |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                                                                                                                 |
-| Definition status | Primitive                                                                                                                                                   |
-| Attributes        | 738774007 \|Is modification of (attribute)\| relationship to the unspecified substance 726542003 \|Has disposition (attribute)\| as appropriate             |
+<table data-header-hidden><thead><tr><th width="210.66796875"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td><p>Most distal appropriate descendant of 105590001 |Substance (substance)|</p><p>An additional parent concept to be allocated to denote physical form as appropriate</p></td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attributes</strong></td><td><p>738774007 |Is modification of (attribute)| relationship to the unspecified substance</p><p>726542003 |Has disposition (attribute)| as appropriate</p></td></tr></tbody></table>
 
 ## Naming
 
@@ -20,13 +16,48 @@ Fumes should be expressed in the plural (i.e. fumes as opposed to fume).
 
 Fumes and vapor are different and so should not be used as synonyms on the same concept. [https://www.commerce.wa.gov.au/worksafe/gases-vapours-smoke-and-fumes](https://www.commerce.wa.gov.au/worksafe/gases-vapours-smoke-and-fumes)
 
-| FSN            | X fumes (substance) X micronized (substance) Pattern: For example, Bauxite fumes (substance) Fenofibrate micronized (substance) |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term | X fumes X micronized Bauxite fumes Fenofibrate micronized Pattern: For example,                                                 |
-| Synonyms       | Fenofibrate micronised Pattern:X form to represent EN-GB language variants where appropriate For example,                       |
+### FSN
+
+Pattern:
+
+* X fumes (substance)
+* X micronized (substance)
+
+For example,
+
+* Bauxite fumes (substance)
+* Fenofibrate micronized (substance)
+
+***
+
+### Preferred Term
+
+Pattern:
+
+* X fumes
+* X micronized
+
+For example,
+
+* Bauxite fumes
+* Fenofibrate micronized
+
+***
+
+### Synonyms
+
+Pattern: X form to represent EN-GB language variants where appropriate
+
+For example,
+
+* Fenofibrate micronised
 
 ### Exemplar
 
-<figure><img src="../../../../../../authoring/substance/images/174691588.png" alt=""><figcaption><p>Figure 1. View of both stated and inferred form of 278945005 |Iron fumes (substance)|</p></figcaption></figure>
+View of both stated and inferred form of 278945005 |Iron fumes (substance)|:
 
-<figure><img src="../../../../../../authoring/substance/images/174691587.png" alt=""><figcaption><p>Figure 2. Stated view of 414246008 |Fenofibrate micronized (substance)|</p></figcaption></figure>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure></div>
+
+Stated view of 414246008 |Fenofibrate micronized (substance)|:
+
+<figure><img src="../../../../../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>

@@ -6,23 +6,46 @@ Creation of substance concepts that contain terms such as “free” (or "unboun
 
 ## Modeling
 
-| Parent concept    | Most distal appropriate descendant of 105590001 \|Substance (substance)\| |
-| ----------------- | ------------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                               |
-| Definition status | Primitive                                                                 |
-| Attribute         | 726542003 \|Has disposition (attribute)\|                                 |
+<table data-header-hidden><thead><tr><th width="211.24609375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 105590001 |Substance (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>726542003 |Has disposition (attribute)|</td></tr></tbody></table>
 
 ## Naming
 
-| FSN            | Free iodine (substance) Pattern:Free X (substance) For example, |
-| -------------- | --------------------------------------------------------------- |
-| Preferred Term | Free iodine Pattern:Free X For example,                         |
-| Synonyms       | Unbound iodine Optional pattern: Unbound x For example,         |
+### FSN
+
+Pattern: Free X (substance)
+
+For example,
+
+* Free iodine (substance)
+
+***
+
+### Preferred Term
+
+Pattern: Free X
+
+For example,
+
+* Free iodine
+
+***
+
+### Synonyms
+
+Optional pattern: Unbound x
+
+For example,
+
+* Unbound iodine
 
 ## Exemplar
 
 The following illustrates both the **stated** and **inferred** view:
 
-<figure><img src="../../../../../../authoring/substance/images/174691594.png" alt=""><figcaption><p>The following illustrates the hierarchy view:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+
+The following illustrates the hierarchy view:
+
+<figure><img src="../../../../../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/substance/images/174691593.png" alt=""><figcaption></figcaption></figure>

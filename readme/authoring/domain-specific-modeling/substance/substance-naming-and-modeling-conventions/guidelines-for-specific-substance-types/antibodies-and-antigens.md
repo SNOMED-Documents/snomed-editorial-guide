@@ -13,22 +13,62 @@ This section includes concepts that represent Antigen of X organism, Antibody to
 
 ## Modeling - Antigen of X organism
 
-| Parent concept    | Most distal appropriate descendant of 116633006 \|Microbial antigen (substance)\| |
-| ----------------- | --------------------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                                       |
-| Definition status | Primitive                                                                         |
-| Attribute         | N/A                                                                               |
+<table data-header-hidden><thead><tr><th width="177.4453125">Parent concept</th><th>Most distal appropriate descendant of 116633006 |Microbial antigen (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 116633006 |Microbial antigen (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>N/A</td></tr></tbody></table>
 
 ## Naming - Antigen of X organism
 
 The antigen name is usually derived from the biological name of the organism as opposed to the “disease” or “infection” that the organism may cause and/or that the vaccine may provide immunization for.
 
-| FSN                                                                                                                                                                                                                                     | Antigen of X organism (substance) Antigen of Alternaria alternata protein (substance) Pattern: For example, Antigen of Filaria (substance)                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Preferred Term                                                                                                                                                                                                                          | X organism antigen Filaria antigen Alternaria alternata protein antigen Preferred term for Antigen of live attenuated Mycobacterium bovis: Bacillus Calmette-Guerin antigen Pattern: For example, Exception: |
-| Synonyms                                                                                                                                                                                                                                | Antigen of Alternaria alternata protein Pattern:A synonym that matches FSN For example, Antigen of Filaria                                                                                                   |
-| Alternaria alternata protein Ag Pattern: X organism Ag For example, Filaria Ag                                                                                                                                                          |                                                                                                                                                                                                              |
-| Other "X organism inactivated toxin" for concepts referring to "X organism toxoid (substance)" Additional synonyms (e.g., when a legitimate synonyms exist for Organism name) are applicable and are evaluated on a case-by-case basis. |                                                                                                                                                                                                              |
+### FSN
+
+Pattern:
+
+* Antigen of X organism (substance)
+
+For example,
+
+* Antigen of Filaria (substance)
+* Antigen of Alternaria alternata protein (substance)
+
+***
+
+### Preferred Term
+
+Pattern:
+
+* X organism antigen
+
+For example,
+
+* Filaria antigen
+* Alternaria alternata protein antigen
+
+Exception:
+
+* Preferred term for Antigen of live attenuated Mycobacterium bovis: Bacillus Calmette-Guerin antigen
+
+***
+
+### Synonyms
+
+**Pattern:** A synonym that matches FSN
+
+For example,
+
+* Antigen of Filaria
+* Antigen of Alternaria alternata protein
+
+**Pattern:** X organism Ag
+
+For example,
+
+* Filaria Ag
+* Alternaria alternata protein Ag
+
+**Other**
+
+* "X organism inactivated toxin" for concepts referring to "X organism toxoid (substance)"
+* Additional synonyms (e.g., when a legitimate synonyms exist for Organism name) are applicable and are evaluated on a case-by-case basis.
 
 ## Antigen variants:
 
@@ -40,78 +80,66 @@ There is a requirement for the inclusion of characteristic technologies that are
 
 ### Variants reviewed to date:
 
-“Antigen of X” is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.
+“Antigen of X” is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.&#x20;
 
-* ```
-  * X refers to a bacteria, virus, fungus, or parasite except when antigen refers to the organism “toxin/toxoid”, where it can only apply to a bacteria. 
-  ```
+* X refers to a bacteria, virus, fungus, or parasite except when antigen refers to the organism “toxin/toxoid”, where it can only apply to a bacteria.&#x20;
 
 “Antigen of live attenuated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.
 
-* ```
-  * It refers to attenuated whole cell bacteria or whole virus where the strains are made less virulent so infection is usually inapparent or very mild. It may be used in the creation of vaccine products for certain patient groups, and hence, is of clinical significance. 
-  ```
-  * The following subtypes are also in scope for the international release and are modeled in the Substance hierarchy as direct children of Antigen of live attenuated X. Note that in the following examples "human" and "bovine" refer to source organisms which are differentiated from the organism producing antigen, i.e., Rotavirus.
-    * “Live attenuated human X”, e.g., Antigen of live attenuated human Rotavirus serotype G1P\[8]
-    * “Live attenuated human-bovine reassortant X”, e.g., Antigen of live attenuated human-bovine reassortant Rotavirus serotype G1
+* It refers to attenuated whole cell bacteria or whole virus where the strains are made less virulent so infection is usually inapparent or very mild. It may be used in the creation of vaccine products for certain patient groups, and hence, is of clinical significance.&#x20;
+* The following subtypes are also in scope for the international release and are modeled in the Substance hierarchy as direct children of Antigen of live attenuated X. Note that in the following examples "human" and "bovine" refer to source organisms which are differentiated from the organism producing antigen, i.e., Rotavirus.&#x20;
+  * “Live attenuated human X”, e.g., Antigen of live attenuated human Rotavirus serotype G1P\[8]
+  * “Live attenuated human-bovine reassortant X”, e.g., Antigen of live attenuated human-bovine reassortant Rotavirus serotype G1&#x20;
 
-“Antigen of whole inactivated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.
+“Antigen of whole inactivated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.&#x20;
 
-* ```
-  * It refers to the killed version of the organism that causes a disease. 
-  ```
-  * As of the July 2020 release, the word "whole" is added to all new and existing concepts referring to "Antigen of inactivated X" to further clarify the differentiation between "Antigen of whole inactivated organism" (referring to a killed organism as a whole) and "Antigen of organism \[subunit]" (referring to subparts of an organism).
+* It refers to the killed version of the organism that causes a disease.&#x20;
+* As of the July 2020 release, the word "whole" is added to all new and existing concepts referring to "Antigen of inactivated X" to further clarify the differentiation between "Antigen of whole inactivated organism" (referring to a killed organism as a whole) and "Antigen of organism \[subunit]" (referring to subparts of an organism).
 
-“Antigen of acellular X” is in scope for the international release and is modeled in the Substance hierarchy as the direct child of "Antigen of X".
+“Antigen of acellular X” is in scope for the international release and is modeled in the Substance hierarchy as the direct child of "Antigen of X".&#x20;
 
-* ```
-  * "Antigen of acellular X", when it exists, can only apply to a bacteria.
-  ```
+* "Antigen of acellular X", when it exists, can only apply to a bacteria.
 
 “Antigen of X \[subunit]” is in scope for the international release and is modeled in the Substance hierarchy as the direct child of “Antigen of X”.
 
-* ```
-  * Subunit antigens differ from inactivated whole-cell antigens by referring only to the antigenic parts of the pathogen. These parts are necessary to elicit a protective immune response. The word “inactivated” does not need to be part of the name unless it is referring to a whole cell or a whole virus, i.e., for descriptions referring to a subunit, the word _inactivated_ will be omitted as redundant.
-  ```
-  * \[Subunit] refers to a sub-part of an organism i.e. a specific, isolated protein of the pathogen, a recombinant protein (made by recombinant DNA techniques), an inactivated toxin (toxoid), or a capsular polysaccharide/oligosaccharide coating of an encapsulated bacterium:
-    * "Antigen of X \[protein/recombinant protein]" is in scope for the international release and is modeled in the Substance hierarchy.
-      * It represents a specific, isolated protein of the pathogen or a recombinant protein.
-      * When both "Antigen of X \[protein]" and "Antigen of X \[recombinant protein]" exist for X organism, they are modeled as siblings.
-    * “Antigen of X capsular polysaccharide/oligosaccharide" is in scope for the international release and is modeled in the Substance hierarchy.
-      * It represents a polysaccharide/oligosaccharide antigen and acts as a grouper for the following:
-        * "Antigen of X capsular polysaccharide/oligosaccharide unconjugated”, which represents a polysaccharide/oligosaccharide antigen without conjugation to any carrier protein or toxoid
-        * “Antigen of X capsular polysaccharide/oligosaccharide conjugated”, represents a grouper concept and will be created in the international release and in the Substance hierarchy per request and (based on current ED guidelines) only if it has more than one child concept.
-          * Exception can apply if there is a use case that support retaining/creating these conjugate groupers:
-            * Recording the history of a conjugated vaccine when the type of conjugated protein is not known
-            * Aggregating data for forecasting
-          * The existing grouper concepts with just one child will not be deprecated at this time. However, requests for addition of these concepts will be rejected.
-        * “Antigen of X capsular polysaccharide/oligosaccharide conjugated to Y”, which represents an oligosaccharide or polysaccharide antigen attached to a protein Y, where “Y” refers to a carrier protein to increase efficacy and immunogenicity e.g. Corynebacterium diphtheriae cross-reacting material 197 protein.
-          * It is the direct child of single parent "Antigen of X capsular polysaccharide/oligosaccharide conjugated". There are no clinical use-case that requires association to the conjugated part of antigen as an additional parent. This classification is in line with all other similar concepts (modifications such as pegylated substances).
-    * “Antigen of X toxoid” is in scope for the international release and is modeled in the Substance hierarchy.
-      * Like other subunit antigens, “Antigen of X toxoid” is classified under "Antigen of X". While the toxin is not an intrinsic part of the organism, it is a product of the organism that would not exist in the absence of that organism. In other words, there is always a direct association between the substance and the source organism. There are other antigenic proteins that are generated by the organism (e.g. surface protein) and they are classified as children of "Antigen X organism". The only difference, in comparison to toxoids, is that they are not being excreted by the organism.
-      * Toxoid antigens are based on the toxin produced by certain bacteria (e.g., tetanus or diphtheria), which has been chemically processed so that it is still immunogenic. Once the toxin has been inactivated, it is called a toxoid.
-      * A toxoid can be an antigen in its own right, or it can be conjugated to another antigen.
-  * When referring to Organism parts/subunits:
-    * Referring to more than one subunit (e.g., combined protein such as Bordetella pertussis FIM 2 and FIM 3 antigen) would not be acceptable for the Substance hierarchy; the combined protein needs to be modeled at the product level with more than one active ingredient.
-    * Abbreviated organism subunit names such as "Corynebacterium diphtheriae _**CRM197**_\*\*\*\* protein", are not allowed in a fully specified name (and similar synonym). The FSN and similar synonym should only include the spelled-out terms, i.e., "Corynebacterium diphtheriae cross-reacting material 197 protein".
-    * Abbreviated organism part names are allowed in a preferred term (and other synonyms). The abbreviations do not need to be accompanied by the fully expanded term, which is an exception to the general naming guidelines on abbreviations and acronyms in the SNOMED CT Editorial Guide. T
-      * For example, the following PT includes CRM which is the abbreviated form for cross-reacting material.
-        * Streptococcus pneumoniae Danish serotype 1 capsular polysaccharide antigen conjugated to Corynebacterium diphtheriae CRM197 protein
+* Subunit antigens differ from inactivated whole-cell antigens by referring only to the antigenic parts of the pathogen. These parts are necessary to elicit a protective immune response. The word “inactivated” does not need to be part of the name unless it is referring to a whole cell or a whole virus, i.e., for descriptions referring to a subunit, the word _inactivated_ will be omitted as redundant.
+* \[Subunit] refers to a sub-part of an organism i.e. a specific, isolated protein of the pathogen, a recombinant protein (made by recombinant DNA techniques), an inactivated toxin (toxoid), or a capsular polysaccharide/oligosaccharide coating of an encapsulated bacterium:
+  * "Antigen of X \[protein/recombinant protein]" is in scope for the international release and is modeled in the Substance hierarchy.&#x20;
+    * It represents a specific, isolated protein of the pathogen or a recombinant protein.
+    * When both "Antigen of X \[protein]" and "Antigen of X \[recombinant protein]" exist for X organism, they are modeled as siblings.
+  * “Antigen of X capsular polysaccharide/oligosaccharide" is in scope for the international release and is modeled in the Substance hierarchy.&#x20;
+    * It represents a polysaccharide/oligosaccharide antigen and acts as a grouper for the following:
+      * "Antigen of X capsular polysaccharide/oligosaccharide unconjugated”, which represents a polysaccharide/oligosaccharide antigen without conjugation to any carrier protein or toxoid
+      * “Antigen of X capsular polysaccharide/oligosaccharide conjugated”, represents a grouper concept and will be created in the international release and in the Substance hierarchy per request and (based on current ED guidelines) only if it has more than one child concept.
+        * Exception can apply if there is a use case that support retaining/creating these conjugate groupers:
+          * Recording the history of a conjugated vaccine when the type of conjugated protein is not known
+          * Aggregating data for forecasting
+        * The existing grouper concepts with just one child will not be deprecated at this time. However, requests for addition of these concepts will be rejected.
+      * “Antigen of X capsular polysaccharide/oligosaccharide conjugated to Y”, which represents an oligosaccharide or polysaccharide antigen attached to a protein Y, where “Y” refers to a carrier protein to increase efficacy and immunogenicity e.g. Corynebacterium diphtheriae cross-reacting material 197 protein.
+        * It is the direct child of single parent "Antigen of X capsular polysaccharide/oligosaccharide conjugated".  There are no clinical use-case that requires association to the conjugated part of antigen as an additional parent. This classification is in line with all other similar concepts (modifications such as pegylated substances).
+  * “Antigen of X toxoid” is in scope for the international release and is modeled in the Substance hierarchy.&#x20;
+    * Like other subunit antigens, “Antigen of X toxoid” is classified under "Antigen of X". While the toxin is not an intrinsic part of the organism, it is a product of the organism that would not exist in the absence of that organism. In other words, there is always a direct association between the substance and the source organism. There are other antigenic proteins that are generated by the organism (e.g. surface protein) and they are classified as children of "Antigen X organism". The only difference, in comparison to toxoids, is that they are not being excreted by the organism.
+    * Toxoid antigens are based on the toxin produced by certain bacteria (e.g., tetanus or diphtheria), which has been chemically processed so that it is still immunogenic. Once the toxin has been inactivated, it is called a toxoid.
+    * A toxoid can be an antigen in its own right, or it can be conjugated to another antigen.
+* When referring to Organism parts/subunits:
+  * Referring to more than one subunit (e.g., combined protein such as Bordetella pertussis FIM 2 and FIM 3 antigen) would not be acceptable for the Substance hierarchy; the combined protein needs to be modeled at the product level with more than one active ingredient.
+  * Abbreviated organism subunit names such as "Corynebacterium diphtheriae **CRM197** protein", are not allowed in a fully specified name (and similar synonym). The FSN and similar synonym should only include the spelled-out terms, i.e., "Corynebacterium diphtheriae cross-reacting material 197 protein".
+  * Abbreviated organism part names are allowed in a preferred term (and other synonyms). The abbreviations do not need to be accompanied by the fully expanded term, which is an exception to the general naming guidelines on abbreviations and acronyms in the SNOMED CT Editorial Guide. T
+    * For example, the following PT includes CRM which is the abbreviated form for cross-reacting material.
+      * Streptococcus pneumoniae Danish serotype 1 capsular polysaccharide antigen conjugated to Corynebacterium diphtheriae CRM197 protein
 
-Inclusion of Vaccine manufacturing techniques and/or residuals in antigen names is generally out of scope for the international release. However, exceptions can be made for applicable use cases.
+Inclusion of Vaccine manufacturing techniques and/or residuals in antigen names is generally out of scope for the international release. However, exceptions can be made for applicable use cases.&#x20;
 
-* ```
-  * "Antigen of X  _grown in nervous tissue_ " or "Antigen of X  _grown in cellular line_ " is acceptable for inactivated Rabies antigens grown in brain tissue or cell lines and is included in the international release, considering the difference in the adverse reactions that they cause. If and when created:
-  ```
+* "Antigen of X grown in nervous tissue" or "Antigen of X grown in cellular line" is acceptable for inactivated Rabies antigens grown in brain tissue or cell lines and is included in the international release, considering the difference in the adverse reactions that they cause. If and when created:
   * "Antigen of X grown in cellular line" will be a grouper and other subgroups will be added as needed, e.g., "grown in Human diploid cell".
   * "Antigen of X grown in nervous tissue" should indicate the specific type of nervous tissue, e.g., brain.
-  * "Split virion" and "surface subunit" is acceptable when the proposed granular antigen is used in a real Clinical Drug, e.g., Influenza antigens.
-    * For influenza strains, the candidate vaccine virus (CVV) is not included in the antigen name in the international release. The justification is that each pharmaceutical company may use a different CVV to manufacture their product, or they may omit that level of detail in their product information. However, each of the recommended "parent strain + CVV" are antigenically like the parent virus.
-  * "Antigen of X adsorbed" is in scope for the international release and is modeled in the Substance hierarchy. It is not required to specify details regarding what is adsorbed with as there is no known use-case at this point.
-  * With the exception of conjugated proteins/toxoids that are in scope for the international release, inclusion of other adjuvants as well as delivery mechanisms (e.g., Aluminum Salts, Oil-in-Water Emulsions, Virosomes) is currently on hold and will be considered if and when associated requests and uses cases are presented.
-  * "Purified" will not be included in antigen names as the clinical value of stating "Purified antigen" is not clear. In addition, in some cases, it is implied that an antigen is purified based on the preparation technique. This inconsistency in naming (stated vs. implied) can lead to misclassification. If needed, it can be accomplished by using groupers or other modeling considerations in future. But for now, adding a maintenance burden with very limited benefit does not seem valuable.
-  * Inclusion of non-antigenic vaccine ingredients, such as preservatives and stabilizers, is out of scope for the international release.
-  * For “Antigen of whole inactivated X”, the inactivation technique (e.g., heat inactivated, formalin inactivated) is out of scope for antigens in the International Release.
+* "Split virion" and "surface subunit" is acceptable when the proposed granular antigen is used in a real Clinical Drug, e.g., Influenza antigens.
+  * For influenza strains, the candidate vaccine virus (CVV) is not included in the antigen name in the international release. The justification is that each pharmaceutical company may use a different CVV to manufacture their product, or they may omit that level of detail in their product information. However, each of the recommended "parent strain + CVV" are antigenically like the parent virus.
+* "Antigen of X adsorbed" is in scope for the international release and is modeled in the Substance hierarchy. It is not required to specify details regarding what is adsorbed with as there is no known use-case at this point.
+* With the exception of conjugated proteins/toxoids that are in scope for the international release, inclusion of other adjuvants as well as delivery mechanisms (e.g., Aluminum Salts, Oil-in-Water Emulsions, Virosomes) is currently on hold and will be considered if and when associated requests and uses cases are presented.
+* "Purified" will not be included in antigen names as the clinical value of stating "Purified antigen" is not clear. In addition, in some cases, it is implied that an antigen is purified based on the preparation technique. This inconsistency in naming (stated vs. implied) can lead to misclassification. If needed, it can be accomplished by using groupers or other modeling considerations in future. But for now, adding a maintenance burden with very limited benefit does not seem valuable.
+* Inclusion of non-antigenic vaccine ingredients, such as preservatives and stabilizers, is out of scope for the international release.
+* For “Antigen of whole inactivated X”, the inactivation technique (e.g., heat inactivated, formalin inactivated) is out of scope for antigens in the International Release.
 
 ### The classification of the antigen variants in the Substance hierarchy:
 
@@ -130,51 +158,111 @@ Inclusion of Vaccine manufacturing techniques and/or residuals in antigen names 
 
 The following illustrates the **stated** and **inferred** view:
 
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure></div>
+
 <figure><img src="../../../../../../authoring/substance/images/174691548.png" alt=""><figcaption></figcaption></figure>
 
-## Modeling - \*\*\*\* Antibody to X organism
+## Modeling - Antibody to X organism
 
-| Parent concept    | Most distal appropriate descendant of \|116642004 \|Antimicrobial antibody (substance)\| |
-| ----------------- | ---------------------------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                                              |
-| Definition status | Primitive                                                                                |
-| Attribute         | None                                                                                     |
+<table data-header-hidden><thead><tr><th width="197.5">Parent concept</th><th>Most distal appropriate descendant of |116642004 |Antimicrobial antibody (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of |116642004 |Antimicrobial antibody (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
 
-## Naming - \*\*\*\* Antibody to X organism
+## Naming - Antibody to X organism
 
-| FSN                                                                                            | Antibody to X organism (substance) Pattern: For example, Antibody to Bebaru virus (substance) |
-| ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Preferred Term                                                                                 | X organism antibody Bebaru virus antibody Pattern: For example,                               |
-| Synonyms                                                                                       | Antibody to Bebaru virus Pattern: A synonym that matches FSN For example,                     |
-| Bebaru virus Ab Pattern: X organism Ab For example,                                            |                                                                                               |
-| Additional synonyms (e.g., when a legitimate synonyms exist for Organism name) are applicable. |                                                                                               |
+### FSN
+
+Pattern:
+
+* Antibody to X organism (substance)
+
+For example,
+
+* Antibody to Bebaru virus (substance)
+
+***
+
+### Preferred Term
+
+Pattern:
+
+* X organism antibody
+
+For example,
+
+* Bebaru virus antibody
+
+***
+
+### Synonyms
+
+**Pattern:** A synonym that matches FSN
+
+For example,
+
+* Antibody to Bebaru virus
+
+**Pattern:** X organism Ab
+
+For example,
+
+* Bebaru virus Ab
+
+Additional synonyms (e.g., when a legitimate synonyms exist for Organism name) are applicable.
 
 ### Exemplar
 
 The following illustrates the **stated** and **inferred** view:
 
-<figure><img src="../../../../../../authoring/substance/images/174691551.png" alt=""><figcaption><p>****</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 ## Modeling - Immunoglobulin G, M, A, E, D antibody to X organism
 
-| Parent concept    | Most distal appropriate descendant of 70095009 \|Immunoglobulin isotype (substance)\| and \|Antibody to X organism (substance)\| if present in SNOMED CT |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                                                                                                              |
-| Definition status | Primitive                                                                                                                                                |
-| Attribute         | None                                                                                                                                                     |
+<table data-header-hidden><thead><tr><th width="162.62109375">Parent concept</th><th>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to X organism (substance)| if present in SNOMED CT</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to X organism (substance)| if present in SNOMED CT</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
 
 ## Naming - Immunoglobulin G, M, A, E, D antibody to X organism
 
-| FSN                                                                                            | Pattern:Immunoglobulin G, M, A, E, D antibody to X organism (substance) For example, Immunoglobulin M antibody to Clostridium difficile (substance) |
-| ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term                                                                                 | Clostridium difficile IgM Pattern:X organism IgG, M, A, E, D For example,                                                                           |
-| Synonyms                                                                                       | Immunoglobulin M antibody to Clostridium difficile Pattern: A synonym that matches FSN For example,                                                 |
-| Anti-Clostridium difficile IgM Pattern: Anti-X organism IgM For example,                       |                                                                                                                                                     |
-| Additional synonyms (e.g., when a legitimate synonyms exist for Organism name) are applicable. |                                                                                                                                                     |
+### FSN
 
-Exemplar
+Pattern:  Immunoglobulin G, M, A, E, D antibody to X organism (substance)
+
+For example,
+
+* Immunoglobulin M antibody to Clostridium difficile (substance)
+
+***
+
+### Preferred Term
+
+Pattern:  X organism IgG, M, A, E, D
+
+For example,
+
+* Clostridium difficile IgM
+
+***
+
+### Synonyms
+
+**Pattern:** A synonym that matches FSN
+
+For example,
+
+* Immunoglobulin M antibody to Clostridium difficile
+
+**Pattern:** Anti-X organism IgM
+
+For example,
+
+* &#x20;Anti-Clostridium difficile IgM
+
+Additional synonyms (e.g., when a legitimate synonyms exist for Organism name) are applicable.
+
+### Exemplar
 
 The following illustrates the **stated** and **inferred** view:
+
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../../../../../../authoring/substance/images/174691547.png" alt=""><figcaption></figcaption></figure>
 

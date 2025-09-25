@@ -6,40 +6,101 @@ Groupers based on structural properties of the substance that are deemed to be c
 
 For example,
 
-* ```
-  * Benzodiazepine (substance)
-  ```
-  * Quinolone (substance)
+* Benzodiazepine (substance)
+* Quinolone (substance)
+
+
 
 ## Modeling
 
-| Parent concept    | Most distal appropriate descendant of 312413002 \| Substance categorized by structure (substance)\| |
-| ----------------- | --------------------------------------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                                                         |
-| Definition status | Primitive                                                                                           |
-| Attributes        | None                                                                                                |
+<table data-header-hidden><thead><tr><th width="159.15234375">Parent concept</th><th width="677.46875">Most distal appropriate descendant of 312413002 | Substance categorized by structure (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 312413002 |Substance categorized by structure (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
 
 ## Exemplar
 
 The following illustrates the **stated** and **inferred** view.
 
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure></div>
+
 <figure><img src="../../../../../../authoring/substance/images/174691432.png" alt=""><figcaption></figcaption></figure>
 
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure></div>
+
 <figure><img src="../../../../../../authoring/substance/images/174691430.png" alt=""><figcaption></figcaption></figure>
+
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../../../../../../authoring/substance/images/174691429.png" alt=""><figcaption></figcaption></figure>
 
 ## Terming
 
-| FSN            | Organic nitrogen compound (substance) Triazine derivative (substance) Copper and/or copper compound (substance) Phenothiazine and/or phenothiazine derivative (substance) Nucleotide (substance) Substance with cresol structure (substance) Substance with benzene structure (substance) Use the following pattern for the FSN. Groupers are expressed in the singular, i.e.,compoundnotcompounds. Example for substances that represent a structural grouper: Halide compound (substance) Where the same word is used to identify both a group of substances with a particular chemical structure and a particular chemical substance, the following terming for the FSN is used for the substance grouper concept. Substance with X structure (substance) For example, Substance with tetracycline structure (substance) |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term | Organic nitrogen compound Triazine derivative Copper and/or copper compound Phenothiazine and/or phenothioazine derivative Nucleotide Substance with cresol structure Substance with benzene structure Use the following pattern for the Preferred Term. For example, Halide compound Where the same word is used to identify both a group of substances with a particular chemical structure and a particular chemical substance the following pattern will be used for PT the substance grouper concept. Substance with X structure For example, Substance with tetracycline structure                                                                                                                                                                                                                                    |
-| Synonyms       | Additional synonyms are not allowed unless explicitly identified as an exception in the editorial guidelines.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+### FSN
+
+Use the following pattern for the FSN. Groupers are expressed in the singular, i.e., _compound_ not _compounds_.
+
+Examples of substances that represent a structural grouper:
+
+* Organic nitrogen compound (substance)
+* Halide compound (substance)
+* Triazine derivative (substance)
+* Copper and/or copper compound (substance)
+* Phenothiazine and/or phenothiazine derivative (substance)
+* Nucleotide (substance)
+
+Where the same word is used to identify both a group of substances with a particular chemical structure and a particular chemical substance, the following terming for the FSN is used for the substance grouper concept.
+
+\
+Substance with X structure (substance)
+
+For example,
+
+* Substance with tetracycline structure (substance)
+* Substance with cresol structure (substance)
+* Substance with benzene structure (substance)
+
+***
+
+### Preferred Term
+
+Use the following pattern for the Preferred Term.
+
+For example,
+
+* Organic nitrogen compound
+* Halide compound
+* Triazine derivative
+* Copper and/or copper compound
+* Phenothiazine and/or phenothioazine derivative
+* Nucleotide
+
+Where the same word is used to identify both a group of substances with a particular chemical structure and a particular chemical substance the following pattern will be used for PT the substance grouper concept.\
+
+
+Substance with X structure\
+
+
+For example,
+
+* Substance with tetracycline structure
+* Substance with cresol structure
+* Substance with benzene structure
+
+***
+
+### Synonyms
+
+Additional synonyms are not allowed unless explicitly identified as an exception in the editorial guidelines.
 
 ## Exemplar for Hierarchy
 
-<figure><img src="../../../../../../authoring/substance/images/174691417.png" alt=""><figcaption><p>Figure 4. Browser view of 299979007 |Organic nitrogen compound (substance)|</p></figcaption></figure>
+Browser view of 299979007 |Organic nitrogen compound (substance)|
 
-<figure><img src="../../../../../../authoring/substance/images/174691416.png" alt=""><figcaption><p>Figure 5. Browser view of 767209009 |Copper and/or copper compound (substance)|</p></figcaption></figure>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691415.png" alt=""><figcaption><p>Figure 6. Browser view of 766224008 |Substance with cresol structure (substance)|</p></figcaption></figure>
+Browser view of 767209009 |Copper and/or copper compound (substance)|
+
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure></div>
+
+Browser view of 766224008 |Substance with cresol structure (substance)|
+
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure></div>
+

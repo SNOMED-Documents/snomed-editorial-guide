@@ -8,11 +8,7 @@ A substance that is part of (e.g. dander) or is derived from (e.g. Insulin) an o
 
 ## Modeling
 
-| Parent concept    | Most distal appropriate descendant of 105590001 \|Substance (substance)\|                                           |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Semantic tag      | (substance)                                                                                                         |
-| Definition status | Primitive                                                                                                           |
-| Attribute         | 738774007 \|Is modification of (attribute)\| as applicable 726542003 \|Has disposition (attribute)\| as appropriate |
+<table data-header-hidden><thead><tr><th width="189.71875"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 105590001 |Substance (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td><p>738774007 |Is modification of (attribute)| as applicable</p><p>726542003 |Has disposition (attribute)| as appropriate</p></td></tr></tbody></table>
 
 ## Naming
 
@@ -35,31 +31,55 @@ The source organism name should precede the name of the substance
 
 Additional adjectives (such as labeled, Iodinated) should proceed the name of source organism
 
-For example,
-
-```
-* Lente human insulin (substance)
-
-* Iodinated (125-I) human serum albumin (substance)
-```
+* For example,
+  * Lente human insulin (substance)
+  * Iodinated (125-I) human serum albumin (substance)
 
 If a concept includes “recombinant” or “synthetic” as well as a source organism, “recombinant” or “synthetic” should precede the source organism name
 
+* For example,
+  * Recombinant bovine growth hormone (substance)
+
+### FSN
+
+Pattern:
+
+* \[Source organism] X (substance)
+* Recombinant X (substance)
+* Synthetic X (substance)
+
 For example,
 
-```
-* Recombinant bovine growth hormone (substance)
-```
+* Human antithrombin III (substance)
+* Recombinant thrombin (substance)
+* Synthetic steroid (substance)
 
-| FSN            | Pattern: \[Source organism] X (substance) Recombinant X (substance) Synthetic X (substance) For example, Human antithrombin III (substance) Recombinant thrombin (substance) Synthetic steroid (substance) |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term | Pattern: \[Source organism] X Recombinant X Synthetic X For example, Human antithrombin III Recombinant thrombin Synthetic steroid                                                                         |
-| Exception      | T he naming of DNA, RNA, rRNA, antibody, Immunoglobulin, and antigen of organisms should follow the specific guideline for this type of substances.                                                        |
+***
 
-Exemplar
+### Preferred Term
+
+Pattern:
+
+* \[Source organism] X
+* Recombinant X
+* Synthetic X
+
+For example,
+
+* Human antithrombin III
+* Recombinant thrombin
+* Synthetic steroid
+
+***
+
+### Exception
+
+The naming of DNA, RNA, rRNA, antibody, Immunoglobulin, and antigen of organisms should follow the specific guideline for this type of substances.
 
 ## Exemplar
 
 Stated view of 411973001 |Bovine thrombin (substance)|
+
+<figure><img src="../../../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/substance/images/174691625.png" alt=""><figcaption></figcaption></figure>

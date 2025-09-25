@@ -11,23 +11,55 @@ Previously, SNOMED CT represented ions and electrolytes as separate concepts. Al
 
 ## Modeling
 
-| Parent concepts   | Most distal appropriate descendant of 86355000 \| Electrolyte (substance)\| Most distal appropriate descendant of 312413002 \|Substance categorized structurally (substance)\| |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Semantic tag      | (substance)                                                                                                                                                                    |
-| Definition status | Primitive                                                                                                                                                                      |
-| Attribute         | None                                                                                                                                                                           |
+<table data-header-hidden><thead><tr><th width="178.6484375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concepts</strong></td><td><p>Most distal appropriate descendant of  86355000 | Electrolyte (substance)|</p><p>Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|</p></td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
 
 ## Naming
 
-| FSN            | X ion (substance) Pattern: For example, Ferric ion (substance)                                                                                                                                                                                                                                                                                                                                      |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term | X ion Ferric ion Pattern: For example,                                                                                                                                                                                                                                                                                                                                                              |
-| Synonyms       | Ionised fluorine Ionized fluorine Fluoride electrolyte Where an element can exist with more than one level of oxidation, for example, iron can exist in either the ferric (Fe 3+ ) or ferrous (Fe 2+ ) ionization states, the synonyms "Ionised X" and "Ionized X" should not be added since they are ambiguous. Pattern:"Ionized X" and "X electrolyte"Add "Ionised X" as GB synonym. For example, |
+### FSN
+
+Pattern:
+
+* **X ion (substance)**&#x20;
+
+For example,
+
+* Ferric ion (substance)
+
+***
+
+### Preferred Term
+
+Pattern:
+
+* **X ion**
+
+For example,
+
+* Ferric ion
+
+***
+
+### Synonyms
+
+Pattern:**"Ionized X" and "X electrolyte"**\
+**Add "Ionised X" as GB synonym.**
+
+For example,
+
+* Ionised fluorine
+* Ionized fluorine
+* Fluoride electrolyte
+
+Where an element can exist with more than one level of oxidation, for example, iron can exist in either the ferric (Fe<sup>3+</sup>) or ferrous (Fe <sup>2+</sup>) ionization states, the synonyms "Ionised X" and "Ionized X" should not be added since they are ambiguous.
 
 ## Exemplar
 
 The following illustrates the **Stated** and**Inferred** view:
 
-<figure><img src="../../../../../../authoring/substance/images/174691612.png" alt=""><figcaption><p>The following illustrates the hierarchy view:</p></figcaption></figure>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure></div>
+
+The following illustrates the hierarchy view:
+
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../../../../../../authoring/substance/images/174691613.png" alt=""><figcaption></figcaption></figure>
