@@ -2,11 +2,11 @@
 
 ## Hypersensitivity
 
-[473010000 |Hypersensitivity condition (finding)|](http://snomed.info/id/473010000) is a primitive concept. It subsumes [473011001 |Allergic condition (finding)|](http://snomed.info/id/473011001) and [609405001 |Non-allergic hypersensitivity condition (finding)|](http://snomed.info/id/609405001).
+473010000 |Hypersensitivity condition (finding)| is a primitive concept. It subsumes 473011001 |Allergic condition (finding)| and 609405001 |Non-allergic hypersensitivity condition (finding)|.
 
-[473010000 |Hypersensitivity condition (finding)|](http://snomed.info/id/473010000) is a direct descendant of [404684003 |Clinical finding (finding)|](http://snomed.info/id/404684003).
+473010000 |Hypersensitivity condition (finding)| is a direct descendant of 404684003 |Clinical finding (finding)|.
 
-[473011001 |Allergic condition (finding)|](http://snomed.info/id/473011001) and [609405001 |Non-allergic hypersensitivity condition (finding)|](http://snomed.info/id/609405001) are both primitive concepts. Each has three main subhierarchies representing:
+473011001 |Allergic condition (finding)| and 609405001 |Non-allergic hypersensitivity condition (finding)| are both primitive concepts. Each has three main subhierarchies representing:
 
 * Diseases/disorders: abnormal structures
 * Processes: allergic and nonallergic hypersensitivity (pseudoallergic) reactions
@@ -15,6 +15,8 @@
 Diseases/disorders and reactions, but not dispositions, are defined by underlying pathological processes.
 
 {% hint style="info" %}
+**Pathological process (qualifier value) hierarchy**
+
 In order to fully describe the full range of hypersensitivity responses, there are qualifier values in the Pathological process (qualifier value) hierarchy. (See also _Qualifier Value_ page).
 {% endhint %}
 
@@ -42,7 +44,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690512.png" alt=""><figcaption><p>Figure:  Stated view of 838367000 |Allergic rhinosinusitis caused by Aspergillus (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690512.png" alt=""><figcaption><p>Figure: Stated view of 838367000 |Allergic rhinosinusitis caused by Aspergillus (disorder)|</p></figcaption></figure>
 
 ### Allergic and nonallergic hypersensitivity (pseudoallergic) disposition
 
@@ -88,7 +90,7 @@ For example,
 
 An _intolerance_ is the propensity to develop an adverse reaction to a substance. The adverse reaction may be associated with various pathological processes, but specifically excludes hypersensitivity reactions.
 
-It may be difficult to define the pathological process and to associate the substance with the propensity to develop a reaction. Consequently, [47429007 |Associated with (attribute)|](http://snomed.info/id/47429007) is used to model intolerance to substances.
+It may be difficult to define the pathological process and to associate the substance with the propensity to develop a reaction. Consequently, 47429007 |Associated with (attribute)| is used to model intolerance to substances.
 
 <figure><img src="../../../../../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -100,9 +102,4 @@ For example,
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690501.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to drug (finding)</p></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Immune%20function%20disorders" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Immune%20function%20disorders" class="button primary">Provide Feedback</a>
