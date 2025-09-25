@@ -10,12 +10,14 @@ _Inactive concepts_ are no longer active in the terminology. When the first rele
 
 The concepts in navigational hierarchies are used for structured data entry and support the location of concepts in hierarchies. They can order data by priority or another convention (e.g. _cranial nerve order_ or _topics related to diabetes_). Navigational concepts exist only to support navigation.
 
-NO LONGER SUPPORTED IN SNOMED CT CORE
+{% hint style="danger" %}
+**NO LONGER SUPPORTED IN SNOMED CT CORE**
+{% endhint %}
 
 Navigational concepts:
 
 * Are not suitable for recording or aggregating information
-* Are direct subtypes of the concept [363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006)
+* Are direct subtypes of the concept 363743006 | Navigational concept (navigational concept)|
 * Have no other supertype or subtype relationships
 * Are linked to other concepts only by navigational links
 
