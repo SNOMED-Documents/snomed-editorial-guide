@@ -4,15 +4,10 @@ Hernias involve two body structures, one is the hernial opening and the other is
 
 For example,
 
-The concept [50063009 |Femoral hernia (disorder)|](http://snomed.info/id/50063009) is modeled with Finding site = 818983003 |Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall (body structure)| to represent the herniated structure.
+The concept 50063009 |Femoral hernia (disorder)| is modeled with Finding site = 818983003 |Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall (body structure)| to represent the herniated structure.
 
 <figure><img src="../../../../../../.gitbook/assets/image (35) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Figure : Stated view of Femoral hernia (disorder)</p>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Hernia" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Hernia" class="button primary">Provide Feedback</a>
