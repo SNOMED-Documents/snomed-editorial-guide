@@ -162,13 +162,20 @@ Two or more concepts may be embedded in a clinical situation in a way that links
 
 Once a concept has _context-shifted_ and become _context-dependent_ , it should not be used in an expression that once again shifts context. In other words, when one context attribute is given an axis modifying value, the other context attributes are fixed.
 
-For example,
-
-* The model for 430679000 | Family history of diabetes mellitus type 2 (situation)| _IS A_ Situation with explicit context (situation) with: \* Subject relationship context of Person in family of subject (person) \* Associated finding of Diabetes mellitus type 2 (disorder) \* Finding context of Known present (qualifier value) \* Temporal context of Current or past (actual) (qualifier value)
+* For example,
+  * The model for 430679000 | Family history of diabetes mellitus type 2 (situation)| _IS A_ Situation with explicit context (situation) with:&#x20;
+    * Subject relationship context of Person in family of subject (person)&#x20;
+    * Associated finding of Diabetes mellitus type 2 (disorder)&#x20;
+    * Finding context of Known present (qualifier value)&#x20;
+    * Temporal context of Current or past (actual) (qualifier value)
 
 Even though the _Family_ part of the concept results in an explicit axis shift of the Subject relationship context only, SNOMED CT requires default values for Finding context and Temporal context, rather than allowing them to be unspecified.
 
 To negate a _concept_ with Finding context (attribute) of Known present (qualifier value), the Finding context (attribute) should instead have a value of Known absent (qualifier value).
 
 * For example,
-  * The concept 160273004 | No family history: Hypertension (situation)| negates 160357008 | Family history: Hypertension (situation)| by changing the value of Finding context (attribute) to Known absent (qualifier value) with Temporal Context (attribute) of All times past (qualifier value). The parent _IS A_ Situation with explicit context (situation) with: \* Temporal context of All times past (qualifier value) \* Associated finding of Hypertensive disorder, systemic arterial (disorder) \* Finding context of Known absent (qualifier value) \* Subject Relationship Context of Person in family of subject (person)
+  * The concept 160273004 | No family history: Hypertension (situation)| negates 160357008 | Family history: Hypertension (situation)| by changing the value of Finding context (attribute) to Known absent (qualifier value) with Temporal Context (attribute) of All times past (qualifier value). The parent _IS A_ Situation with explicit context (situation) with:&#x20;
+    * Temporal context of All times past (qualifier value)&#x20;
+    * Associated finding of Hypertensive disorder, systemic arterial (disorder)&#x20;
+    * Finding context of Known absent (qualifier value)&#x20;
+    * Subject Relationship Context of Person in family of subject (person)
