@@ -17,7 +17,7 @@ The concepts in navigational hierarchies are used for structured data entry and 
 Navigational concepts:
 
 * Are not suitable for recording or aggregating information
-* Are direct subtypes of the concept 363743006 | Navigational concept (navigational concept)|
+* Are direct subtypes of the concept 363743006 | Navigational concept (navigational concept) |
 * Have no other supertype or subtype relationships
 * Are linked to other concepts only by navigational links
 
