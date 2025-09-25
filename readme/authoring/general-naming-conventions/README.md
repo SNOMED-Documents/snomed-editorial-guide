@@ -14,7 +14,7 @@ Naming conventions should not be based on word order preferences (e.g. to facili
 {% hint style="warning" %}
 SNOMED CT relies on the rules for _usefulness_ to avoid excessive pre-coordination (see [_Scope_](../scope/)).
 
-Approved pre-coordination naming patterns have been created and are available at [Pre-coordination Naming Patterns Project](https://prod-confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project).
+Approved pre-coordination naming patterns have been created and are available at [Pre-coordination Naming Patterns Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project).
 {% endhint %}
 
 ## Articles
@@ -30,7 +30,7 @@ Descriptions should not include articles such as _a,_ _an,_ and _the_. There are
 Abbreviations are shortened forms of words or phrases. An acronym is a specific type of abbreviation formed from the initial letters of words and is sometimes pronounced as a word (e.g. AIDS for _Acquired Immunodeficiency Syndrome_ ; NICU for _Neonatal Intensive Care Unit_). Neither abbreviation nor acronym is permitted in a fully specified name (FSN).
 
 * For example
-  * _Sperm_ is a shortened form of the word _spermatozoa_. The proper term of _spermatozoa_ should be used in the FSN, while _sperm_ can be used as a synonym. &#x20;
+  * _Sperm_ is a shortened form of the word _spermatozoa_. The proper term of _spermatozoa_ should be used in the FSN, while _sperm_ can be used as a synonym.
 
 Abbreviations and acronyms are allowed in a preferred term or synonym when followed by the term expansion. If the abbreviation or acronym stands alone (meaning, no additional terms are included; the letters represent the entire meaning of the description without any other text), it is followed by a space, a hyphen, and another space, then the expanded term. The first word after the hyphen should be lower case as per usual capitalization rules.
 
@@ -40,7 +40,7 @@ Abbreviations and acronyms are allowed in a preferred term or synonym when follo
 
 If the abbreviation or acronym forms only part of the description's meaning, it is followed by a space, then the expanded term in parentheses. The first word in the parentheses should be lower case as per usual capitalization rules.
 
-* For example,&#x20;
+* For example,
   * [140031000119103 |Acute nontraumatic kidney injury (disorder)|](http://snomed.info/id/140031000119103) has a synonym of _Nontraumatic AKI (acute kidney injury)_
 
 ### Exceptions
@@ -59,8 +59,8 @@ The preferred term for allergen components in the Substance hierarchy follows th
 
 An acronym is allowed in an FSN when it has become a word in its own right, i.e. included in dictionaries; understood without expansion to its original full form.
 
-* For example,&#x20;
-  *   Concept&#x20;
+* For example,
+  *   Concept
 
       [122456005 | Laser device (physical object)|](http://snomed.info/id/122456005) uses the term "laser", which originated as an acronym for "light amplification by stimulated emission of radiation"
 
@@ -74,13 +74,13 @@ The preferred term for imaging procedures involving imaging modalities commonly 
 Acronyms in rare and genetic diseases have been included for the concepts as part of the Orphanet project that do not include expansion of the abbreviation, as some of the diseases are commonly known by the acronym.
 
 * For example,
-  * **1:** GLOW syndrome is a synonym of 782722002 |Global developmental delay, lung cysts, overgrowth, Wilms tumor syndrome (disorder)|.  Although the FSN and other descriptions have full expansions, there is a description included for |GLOW syndrome|, which does not further delineate the GLOW acronym.
-  * **2:** BRESEK syndrome is a synonym of 717945001 |Brain anomaly, severe mental retardation, ectodermal dysplasia, skeletal deformity, ear anomaly, kidney dysplasia syndrome (disorder)|.  Although the FSN and other descriptions have full expansions, there is a description included for |BRESEK syndrome|, which does not further delineate the BRESEK acronym.
+  * **1:** GLOW syndrome is a synonym of 782722002 |Global developmental delay, lung cysts, overgrowth, Wilms tumor syndrome (disorder)|. Although the FSN and other descriptions have full expansions, there is a description included for |GLOW syndrome|, which does not further delineate the GLOW acronym.
+  * **2:** BRESEK syndrome is a synonym of 717945001 |Brain anomaly, severe mental retardation, ectodermal dysplasia, skeletal deformity, ear anomaly, kidney dysplasia syndrome (disorder)|. Although the FSN and other descriptions have full expansions, there is a description included for |BRESEK syndrome|, which does not further delineate the BRESEK acronym.
 
 Based on recommendation by the International Protein Nomenclature Guidelines, an abbreviation may be part of a protein name:
 
 * For example,
-  * 1222711007 |ALK tyrosine kinase receptor (substance)| where ALK stands for Anaplastic lymphoma kinase&#x20;
+  * 1222711007 |ALK tyrosine kinase receptor (substance)| where ALK stands for Anaplastic lymphoma kinase
   * 1222739008 |DNA mismatch repair protein Msh6 (substance)| where DNA stands for deoxyribonucleic acid
 
 {% hint style="info" %}
@@ -95,18 +95,18 @@ Eponyms are names that are derived from proper names (usually the person who mad
 
 Fully specified names (FSN) should be full descriptions, whereas synonyms may be eponymous terms.
 
-* For example,&#x20;
+* For example,
   * Structure of great cerebral vein (body structure) has the synonym |Vein of Galen|
   * Complete trisomy 21 syndrome (disorder) has the synonym |Down syndrome|
   * Pancreaticoduodenectomy (procedure) has the synonym |Whipple procedure|
 
-Eponymous descriptions should not include an apostrophe or final _s_, unless the name normally ends in _s_.&#x20;
+Eponymous descriptions should not include an apostrophe or final _s_, unless the name normally ends in _s_.
 
 * For example,
   * Down syndrome, a synonym for |Complete trisomy 21 syndrome (disorder)|
   * Meigs syndrome (disorder)
 
-When common usage requires it, there should be at least one description that has the apostrophe _s_.  For descriptions with a possessive apostrophe where the name normally ends in _s_, the apostrophe should follow the _s_.
+When common usage requires it, there should be at least one description that has the apostrophe _s_. For descriptions with a possessive apostrophe where the name normally ends in _s_, the apostrophe should follow the _s_.
 
 * For example,
   * Alzheimer's disease (disorder)
@@ -119,10 +119,10 @@ It is permitted and encouraged to include eponyms as descriptions (non-FSN descr
 
 Exceptions require careful consideration since eponyms meanings may change over time. They are allowed when:
 
-* The full description is exceptionally long and unwieldy (e.g., Hemi-Fontan operation (procedure) instead of _bidirectional Glenn shunt with end-to-side anastomosis of proximal superior vena cava to right pulmonary artery with isolation from right atrium)_.&#x20;
+* The full description is exceptionally long and unwieldy (e.g., Hemi-Fontan operation (procedure) instead of _bidirectional Glenn shunt with end-to-side anastomosis of proximal superior vena cava to right pulmonary artery with isolation from right atrium)_.
 * The eponym is the only precise, clinically relevant name available.
 * A non-eponymous name would necessarily be vague or subject to misinterpretation (e.g., Hodgkin lymphoma, Burkitt lymphoma).
-* A brand name has become an eponym. In this case, some brand names have come to stand for a category of product and not the particular brand itself (examples in US English:  Kleenex, Band-Aid, Popsicle, Dacron, and Teflon).&#x20;
+* A brand name has become an eponym. In this case, some brand names have come to stand for a category of product and not the particular brand itself (examples in US English: Kleenex, Band-Aid, Popsicle, Dacron, and Teflon).
   * These _proprietary_ eponyms may be included in the International Release as descriptions (non-FSN descriptions) if they meet the criteria for international inclusion.
   * They should follow the same rules as other eponyms. Whenever possible, they should not be included in FSNs (e.g. plastic adhesive bandage strip for Band-Aid).
 
@@ -143,22 +143,22 @@ When creating the descriptions for a concept (e.g. a disorder concept) that name
   * 143491000146106 |Felis catus protein (substance)|
     * 448169003 |Felis catus (organism)| has a preferred term of “Domestic cat”. As a result a related concept in the Substance hierarchy, 143491000146106 |Felis catus protein (substance)| has a preferred term of “Domestic cat protein”.
   * 337311000119101 |Blepharochalasis of left upper eyelid (disorder)|
-    * This concept references the body structure hierarchy in the finding site of |Structure of left upper eyelid (body structure)| and uses "left upper eyelid" in the FSN. &#x20;
+    * This concept references the body structure hierarchy in the finding site of |Structure of left upper eyelid (body structure)| and uses "left upper eyelid" in the FSN.
   * 126885006 |Neoplasm of urinary bladder (disorder)|
-    * This concept references the body structure hierarchy in the finding site of 89837001 |Urinary bladder structure (body structure)| and uses "urinary bladder" in the FSN and PT. &#x20;
+    * This concept references the body structure hierarchy in the finding site of 89837001 |Urinary bladder structure (body structure)| and uses "urinary bladder" in the FSN and PT.
 
 {% hint style="info" %}
-The term _bladder_ must be include _urinary_ to distinguish from gallbladder in order to aid in translation.  _Urinary bladder_ must be used in both the fully specified name and preferred term.&#x20;
+The term _bladder_ must be include _urinary_ to distinguish from gallbladder in order to aid in translation. _Urinary bladder_ must be used in both the fully specified name and preferred term.
 {% endhint %}
 
 The descriptions should be context neutral for these foundation hierarchies. Where context is explicit for a disease or procedure, the preferred term from foundation hierarchies can be used instead. For example, procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional. The procedure site should be modeled with the cross-sectional abdomen. However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'. It is the same reason for the preferred term 'CT of abdomen'.
 
-#### Exceptions  <a href="#exceptions.2" id="exceptions.2"></a>
+#### Exceptions <a href="#exceptions.2" id="exceptions.2"></a>
 
-* Where an infection caused by a microorganism has a common name, the common name of the disease can be used in the preferred term if accompanied by the explicitly-stated organism.&#x20;
+* Where an infection caused by a microorganism has a common name, the common name of the disease can be used in the preferred term if accompanied by the explicitly-stated organism.
 * If a common name is shared between more than one organism, the organism preferred term may include the scientific name with annotated common name. Generally, a hyphen is used to separate the two names. However, if the organism name falls in the middle of the term, parentheses should be used to separate the two names.
 * When defining concepts in other hierarchies by referring to an organism, the taxonomical rank of the organism should not be included in the FSN or synonyms.
-  * For example,&#x20;
+  * For example,
     * Instead of |Gingivitis caused by Genus Candida (disorder)|, drop the taxonomical rank of Genus, as in |Gingivitis caused by Candida (disorder)|.
 * There are instances where the requested term for a concept containing an organism common name doesn’t correspond to specific taxa. Rather, the term is found as part of common names in multiple taxa belonging to a higher level taxon. For example, “parakeet” and “parrot” are not common names to any specific taxa, but are found as part of common names in multiple genera in 447329007 |Subfamily Psittacinae (organism)|. To avoid ambiguity, a grouper concept referring to high-level taxon should be created.
   * For example, In the Substance hierarchy, a grouper concept, 1149419004 |Psittacidae protein (substance)|, was created as a parent concept to the following two concepts:
@@ -170,15 +170,15 @@ The descriptions should be context neutral for these foundation hierarchies. Whe
 
 Outside of the body structure hierarchy, concepts should not include the words _structure_ or _structure of_ in the concept descriptions.
 
-* For example,&#x20;
+* For example,
   * For the body structure concept, [266005 |Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005), a disorder concept with this body structure is [724056005 |Malignant neoplasm of lower lobe of right lung (disorder)|](http://snomed.info/id/724056005).
   * For the body structure concept, [266005 |Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005), a procedure with this body structure is [726425007 |Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007).
 {% endhint %}
 
 ### Description Length Limitations <a href="#description-length-limitations" id="description-length-limitations"></a>
 
-In the rare event that the 255-character limit of the fully specified name is reached, standard naming conventions may be circumvented in order to adhere to the 255-term string limit.&#x20;
+In the rare event that the 255-character limit of the fully specified name is reached, standard naming conventions may be circumvented in order to adhere to the 255-term string limit.
 
-* For example, the use of commas may be used instead of the word “and”.&#x20;
+* For example, the use of commas may be used instead of the word “and”.
 
-Considerations can include language nuances, content use case, etc.  The decision on which standard naming conventions to circumvent will depend on the circumstances. &#x20;
+Considerations can include language nuances, content use case, etc. The decision on which standard naming conventions to circumvent will depend on the circumstances.
