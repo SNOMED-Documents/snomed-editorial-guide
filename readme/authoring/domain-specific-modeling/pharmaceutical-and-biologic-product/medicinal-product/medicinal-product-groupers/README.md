@@ -12,9 +12,4 @@ A _grouper_ is a concept designed to aggregate concepts based on specific charac
   * Structure - grouping based on structural patterns of the active ingredient substance(s) in the product
   * Structure and Disposition - combination of the above
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775974.png" alt=""><figcaption><p><em>[Groupers Based on Structure](Groupers-Based-on-Structure</em>174691043.html)</p></figcaption></figure>
-
-* [Groupers Based on Disposition](../../../../../../authoring/pharmaceutical-and-biologic-product/Groupers-Based-on-Disposition_174690991.html)
-* [Groupers Based on Multiple Dispositions, Structures](../../../../../../authoring/pharmaceutical-and-biologic-product/174691077.html)
-* [Groupers Based on Infusion and or Injection](../../../../../../authoring/pharmaceutical-and-biologic-product/Groupers-Based-on-Infusion-and-or-Injection_174691096.html)
-* [Groupers Based on Dose form intended site](../../../../../../authoring/pharmaceutical-and-biologic-product/Groupers-Based-on-Dose-form-intended-site_174690976.html)
+<figure><img src="../../../../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Medicinal Product Grouping</p></figcaption></figure>

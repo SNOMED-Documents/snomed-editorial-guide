@@ -18,6 +18,22 @@
 
 ## Naming
 
+## Terming
+
+### FSN
+
+
+
+### Preferred Term
+
+
+
+### Synonym
+
+
+
+### Text Definitions
+
 | FSN              | X (release characteristic) Conventional release (release characteristic) Delayed-release (release characteristic) Prolonged-release (release characteristic)\* Modified-release (release characteristic)\*\* Delayed-release and prolonged-release (release characteristic) Use the following pattern for the FSN where X is the release characteristic, adding a hyphen when appropriateCombined release-characteristic concepts may be created to support modeling of concepts that display multiple release characteristics in a single formulation. For example, \*Prolonged was selected rather than Extended because feedback was received that it is more clear to translate for non-English speaking users; existing national drug extensions appear to use one or the other of these terms. \*\*Modified-release is a grouper that is not allowed to be used to model an internationalclinical drugconcept. |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Preferred Term   | X Conventional release Delayed-release Prolonged-release Modified-release Delayed-release and prolonged-release Use the following pattern for the PT where X is the release characteristic, adding a hyphen when appropriate: For example,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

@@ -7,9 +7,7 @@ The following figure shows the structure of genetic, developmental, and congenit
 * Is it present at birth or not?
 * Is it due to an extrinsic physical force or not?
 
-<figure><img src="../../../../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
-
-<p align="center">Figure: The relationships of genetic, congenital, developmental, and acquired disorders</p>
+<figure><img src="../../../../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p align="center">The relationships of genetic, congenital, developmental, and acquired disorders</p></figcaption></figure>
 
 **Explanation of Figure**
 

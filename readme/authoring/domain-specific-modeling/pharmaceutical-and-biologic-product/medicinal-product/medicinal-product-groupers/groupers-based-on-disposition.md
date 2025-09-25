@@ -14,27 +14,48 @@ This section applies to grouper concepts representing a **single** disposition; 
 
 ## Modeling
 
-| Stated parent concept            | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Semantic tag                     | (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Definition status                | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Attribute: Has active ingredient | While the allowed range is broader, the \|Medicinal product\| grouper concepts based on disposition should only use sufficiently defined grouper concepts that are descendants of 766739005 \|Substance categorized by disposition (substance)\| as attribute values. While the allowed range is broader, the \|Medicinal product\| grouper concepts based on disposition should have one and only one \|Has active ingredient\| attribute . Range: <<105590001 \|Substance (substance) Cardinality: 0..\* |
+| **Stated parent concept**                                                       | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Semantic tag**                                                                | (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Definition status**                                                           | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| <p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p> | <p>Range: &#x3C;&#x3C;105590001 |Substance (substance)</p><ul><li><p> </p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on disposition should only use sufficiently defined grouper concepts that are descendants of 766739005 |Substance categorized by disposition (substance)| as attribute values.<br><br></li></ul></li></ul><p>Cardinality: 0..*</p><ul><li><p> </p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on disposition should have one and only one |Has active ingredient| attribute.</li></ul></li></ul> |
 
 ## Naming
 
-| FSN            | Product containing histamine receptor antagonist (product) Product containing histamine H2 receptor antagonist (product) Product containing(product) For example, Align naming and case sensitivity with the PT for the concept that is selected as the 726542003 \|Has disposition (attribute)\| attribute value for the substance concept used as the attribute value for the 127489000 \|Has active ingredient (attribute)\|. |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term | Histamine receptor antagonist-containing product Histamine H2 receptor antagonist-containing product -containingproduct For example, Align naming and casesignificancewith the PTfor the concept that is selected as the726542003 \|Has disposition (attribute)\|attribute value for the substance concept used as the attribute value for the127489000 \|Has active ingredient (attribute)\|.                                   |
-| Synonyms       | Synonyms matching the FSN are not required.                                                                                                                                                                                                                                                                                                                                                                                      |
+### FSN
+
+Product containing \<Active ingredient PT> (product)
+
+For example,
+
+* Product containing histamine receptor antagonist (product)
+* Product containing histamine H2 receptor antagonist (product)
+
+Align naming and case sensitivity with the PT for the concept that is selected as the 726542003 |Has disposition (attribute)| attribute value for the substance concept used as the attribute value for the 127489000 |Has active ingredient (attribute)|.
+
+### Preferred Term
+
+\<Active ingredient PT>-containing product
+
+For example,
+
+* Histamine receptor antagonist-containing product
+* Histamine H2 receptor antagonist-containing product
+
+Align naming and case significance with the PT for the concept that is selected as the 726542003 |Has disposition (attribute)| attribute value for the substance concept used as the attribute value for the 127489000 |Has active ingredient (attribute)|.
+
+### Synonym
+
+Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-The following illustrates the **stated** view for grouper concept 6425004 |Product containing histamine receptor antagonist (product)|:
+<figure><img src="../../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><strong>Stated</strong> view for grouper concept 6425004 |Product containing histamine receptor antagonist (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690995.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for grouper concept 6425004 |Product containing histamine receptor antagonist (product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (32).png" alt=""><figcaption><p><strong>Inferred</strong> view for grouper concept 6425004 |Product containing histamine receptor antagonist (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690994.png" alt=""><figcaption><p>The following illustrates the <strong>stated</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (33).png" alt=""><figcaption><p><strong>Stated</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690993.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (34).png" alt=""><figcaption><p><strong>Inferred</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690992.png" alt=""><figcaption></figcaption></figure>

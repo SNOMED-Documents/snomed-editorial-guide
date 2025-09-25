@@ -79,11 +79,11 @@ The 'part of' relationship should not be used for concept modeling in anatomy. T
 
 For term pattern 1, the concept X or lateral half of Y should be used to fully define a concept with laterality, as shown in these examples:
 
-<figure><img src="../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../authoring/domain-specific-modeling/body-structure/anatomical-concept-model/images/174690328.png" alt=""><figcaption></figcaption></figure>
 
@@ -91,18 +91,18 @@ For term pattern 2, the pre-coordinated concept {part} of X should be used to fu
 
 For example,
 
-<figure><img src="../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Please note that the concept modeling and utility of pre-coordinated concepts of 'structure of {part} of lateral half of Y' and 'structure of half of Y lateral to mid-sagittal plane' are still under investigation. Similar new anatomy concepts should not be added. The concept model should only use existing pre-coordinated concept {part} of lateral half of Y.
 
 For example,
 
-<figure><img src="../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If pre-coordinated concept does not exist for '{part} of structure of half of Y' or 'structure of half of Y lateral to mid-sagittal plane', the concept can be defined by {part} of Y and the definition status should be primitive.
 
 For example, concept |Structure of lateral half of lower back| does not exist, the concept 'Structure of left half of lower back' should be defined as a primitive concept. Two parent concepts are expected: `61379005 |Structure of left side of trunk (body structure)|` and `37822005 |Lower back structure (body structure)|`. The additional parent |Structure of left side of trunk (body structure)| is to ensure that any lateralized concept must be a subconcept of a lateralizable structure.
 
-<figure><img src="../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../authoring/domain-specific-modeling/body-structure/anatomical-concept-model/images/174690331.png" alt=""><figcaption></figcaption></figure>

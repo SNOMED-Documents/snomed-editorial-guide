@@ -49,11 +49,11 @@ The 736542009 |Pharmaceutical dose form (dose form)| hierarchy is comprised of t
 
 For the purposes of the following editorial guidelines, pharmaceutical dose form refers to the physical manifestation of a medicinal product that contains the active ingredient substance(s) and inactive ingredient substances that are intended for administration for the patient.
 
-| Concept type                            | Examples                                                                                                                                                                           |
-| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Grouper based on intended site          | 740596000 \|Cutaneous dose form (dose form)\| 385268001 \|Oral dose form (dose form)\|                                                                                             |
-| Grouper concept without basic dose form | 385105007 \|Conventional release cutaneous spray (dose form) \| 385136004 \|Conventional release ear drops (dose form)\|                                                           |
-| Pharmaceutical dose form                | 385151008 \|Conventional release nasal ointment (dose form) \| 421026006 \|Conventional release oral tablet (dose form)\| 385053008 \|Prolonged-release oral capsule (dose form)\| |
+| Concept type                                | Examples                                                                                                                                                                                                       |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Grouper based on intended site**          | <ul><li>740596000 |Cutaneous dose form (dose form)|</li><li>385268001 |Oral dose form (dose form)|</li></ul>                                                                                                   |
+| **Grouper concept without basic dose form** | <ul><li>385105007 |Conventional release cutaneous spray (dose form) |</li><li>385136004 |Conventional release ear drops (dose form)|</li></ul>                                                                 |
+| **Pharmaceutical dose form**                | <ul><li>385151008 |Conventional release nasal ointment (dose form) |</li><li>421026006 |Conventional release oral tablet (dose form)|</li><li>385053008 |Prolonged-release oral capsule (dose form)|</li></ul> |
 
 ## Dose form intended site vs. Route of administration
 
@@ -75,7 +75,7 @@ The following definitions explain the differences between dose form intended sit
 
 * The set of values for route of administration. For medicinal products, these values are associated with the action of administration.
 
-## Multiple\*\*\*\* intended sites and administration methods
+## Multiple intended sites and administration methods
 
 Pharmaceutical dose forms with two or more intended sites will use “and” in their terming and include all intended sites in the model. Representing combinations of intended sites as a conjunction ('and' in the description) will facilitate searching by end users. The concepts are logically modeled as conjunction.
 
@@ -83,7 +83,18 @@ Pharmaceutical dose forms with two or more administration methods is a less comm
 
 ## Subpages
 
-* [Pharmaceutical Dose Form Naming and Modeling Conventions](pharmaceutical-dose-form-naming-and-modeling-conventions.md)
-* [Pharmaceutical Dose Form Grouper Based on Intended Site](pharmaceutical-dose-form-grouper-based-on-intended-site.md)
-* [Pharmaceutical Dose Form Grouper Without Basic Dose Form](pharmaceutical-dose-form-grouper-without-basic-dose-form.md)
-* [Pharmaceutical Dose Form Supporting Hierarchies](index/)
+{% content-ref url="pharmaceutical-dose-form-naming-and-modeling-conventions.md" %}
+[pharmaceutical-dose-form-naming-and-modeling-conventions.md](pharmaceutical-dose-form-naming-and-modeling-conventions.md)
+{% endcontent-ref %}
+
+{% content-ref url="pharmaceutical-dose-form-grouper-based-on-intended-site.md" %}
+[pharmaceutical-dose-form-grouper-based-on-intended-site.md](pharmaceutical-dose-form-grouper-based-on-intended-site.md)
+{% endcontent-ref %}
+
+{% content-ref url="pharmaceutical-dose-form-grouper-without-basic-dose-form.md" %}
+[pharmaceutical-dose-form-grouper-without-basic-dose-form.md](pharmaceutical-dose-form-grouper-without-basic-dose-form.md)
+{% endcontent-ref %}
+
+{% content-ref url="index/" %}
+[index](index/)
+{% endcontent-ref %}

@@ -8,7 +8,7 @@ For example,
 
 201776007 |Rheumatoid arthritis of sacroiliac joint (disorder)|
 
-<figure><img src="../../../../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690543.png" alt=""><figcaption><p>Figure. Stated view of 201776007 |Rheumatoid arthritis of sacroiliac joint (disorder)|</p></figcaption></figure>
 
@@ -16,7 +16,7 @@ Example of extra-articular rheumatoid manifestation,
 
 28880005 |Rheumatoid arthritis with carditis (disorder)|
 
-<figure><img src="../../../../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (47) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690542.png" alt=""><figcaption><p>Figure:  Stated view of 28880005 |Rheumatoid arthritis with carditis (disorder)|</p></figcaption></figure>
 

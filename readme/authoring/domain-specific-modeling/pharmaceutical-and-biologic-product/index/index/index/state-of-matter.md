@@ -16,6 +16,22 @@
 
 ## Naming
 
+## Terming
+
+### FSN
+
+
+
+### Preferred Term
+
+
+
+### Synonym
+
+
+
+### Text Definitions
+
 | FSN              | Gas (state of matter) Liquid (state of matter) Semi-solid (state of matter) Solid (state of matter) Use the following pattern for the FSN where X is the state of matter: X(state of matter) For example, |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Preferred Term   | Gas Liquid Semi-solid Solid Use the following pattern for the PT where X is the state of matter: X For example,                                                                                           |

@@ -19,10 +19,12 @@ For example,
 
 1252729004 |Product containing precisely ofloxacin 2 milligram/1 milliliter conventional release solution for infusion and/or injection (clinical drug)| is modeled with |Has manufactured dose form (attribute)| of |Conventional release solution for infusion and/or injection (dose form)|.
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/232391039.png" alt=""><figcaption><p>Figure 1. Stated view of 1252729004 |Product containing precisely ofloxacin 2 milligram/1 milliliter conventional release solution for infusion and/or injection (clinical drug)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (40).png" alt=""><figcaption><p> Stated view of 1252729004 |Product containing precisely ofloxacin 2 milligram/1 milliliter conventional release solution for infusion and/or injection (clinical drug)|</p></figcaption></figure>
 
 In cases where corresponding clinical drugs for both injection and infusion exist, the grouper for “infusion and/or injection” should be created. In other words, when creating a new clinical drug for infusion and an existing injection concept exists with the same substance and strength, then the grouper "for infusion and/or injection" should be created.
 
 For example,
+
+<figure><img src="../../../../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/232391040.png" alt=""><figcaption></figcaption></figure>

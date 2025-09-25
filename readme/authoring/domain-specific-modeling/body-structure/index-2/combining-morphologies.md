@@ -11,7 +11,7 @@ Instead of modeling as per this diagram in the stated view with two morphologies
 
 Model as in the stated view of this diagram with a combined morphology:
 
-<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Morphologies can be combined to create a single morphologic abnormality concept where doing so creates a specialization of the morphology e.g. 55075001 |Bleeding ulcer (morphologic abnormality)|. Where morphologies are different e.g. abscess and cellulitis, they can not be combined.
 

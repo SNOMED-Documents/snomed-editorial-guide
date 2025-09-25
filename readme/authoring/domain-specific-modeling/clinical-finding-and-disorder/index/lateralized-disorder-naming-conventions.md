@@ -21,7 +21,7 @@ Descriptions
 > * FSN: Inflammation of left mastoid (disorder)
 > * PT: Left mastoiditis
 
-<figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Stated view of Inflammation of left mastoid (disorder)</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Stated view of Inflammation of left mastoid (disorder)</p></figcaption></figure>
 
 When creating a lateralized disorder concept, if a non-lateralized parent does not exist, then it should be created as well. In other words, do not just create the right and left versions, but also create a concept to represent the laterality-agnostic parent.
 
@@ -79,7 +79,7 @@ Do not use _both_ to describe disorders of the eyelids unless the concept's mean
 
 Bilateral disorders should be modeled using two relationship groups, one for each lateralized body structure.
 
-<figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Stated view of Inflammation of bilateral mastoids (disorder) with a role group for each side</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>Stated view of Inflammation of bilateral mastoids (disorder) with a role group for each side</p></figcaption></figure>
 
 Lateralized disorder concepts should not include the words _structure_ or _structure of_.
 

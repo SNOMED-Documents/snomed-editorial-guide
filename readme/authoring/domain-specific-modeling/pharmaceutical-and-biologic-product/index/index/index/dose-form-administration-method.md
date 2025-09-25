@@ -18,6 +18,22 @@ The 736665006 |Dose form administration method (administration method)| hierarch
 
 ## Naming Guidelines
 
+## Terming
+
+### FSN
+
+
+
+### Preferred Term
+
+
+
+### Synonym
+
+
+
+### Text Definitions
+
 | FSN              | Administer (administration method) Apply (administration method) Instill (administration method) Spray (administration method) Swallow (administration method) Use the following pattern for the FSN where X is the administration method and is in the form of an imperative: X(administration method) For example, |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Preferred Term   | Administer Apply Instill Spray Swallow Use the following pattern for the PT where X is the administration method: X For example,                                                                                                                                                                                     |

@@ -16,6 +16,22 @@
 
 ## Naming
 
+## Terming
+
+### FSN
+
+
+
+### Preferred Term
+
+
+
+### Synonym
+
+
+
+### Text Definitions
+
 | FSN              | Oral (intended site) Otic (intended site) Parenteral (intended site) Vaginal (intended site) Use the following pattern for the FSN where X is the intended site: X(intended site) For example, |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Preferred Term   | Oral Otic Parenteral Vaginal Use the following pattern for the PT where X is the intended site: X For example,                                                                                 |

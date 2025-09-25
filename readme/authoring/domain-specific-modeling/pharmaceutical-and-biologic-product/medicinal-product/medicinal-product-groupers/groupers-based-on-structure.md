@@ -14,27 +14,48 @@ This section applies to grouper concepts representing a **single** structure; gr
 
 ## Modeling
 
-| Stated parent concept            | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Semantic tag                     | (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Definition status                | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Attribute: Has active ingredient | While the allowed range is broader, the \|Medicinal product\| grouper concepts based on structure should only use primitive grouper concepts that are descendants of 312413002 \|Substance categorized by structure (substance)\| as attribute values. While the allowed range is broader, the \|Medicinal product\| grouper concepts based on structure should have one and only one \|Has active ingredient (attribute)\| . Range: << 105590001 \|Substance (substance)\| Cardinality: 0..\* |
+| **Stated parent concept**                                                       | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Semantic tag**                                                                | (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Definition status**                                                           | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p> | <p>Range: &#x3C;&#x3C; 105590001 |Substance (substance)|</p><ul><li><p> </p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on structure should only use primitive grouper concepts that are descendants of 312413002 |Substance categorized by structure (substance)| as attribute values.<br><br></li></ul></li></ul><p>Cardinality: 0..*</p><ul><li><p> </p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on structure should have one and only one |Has active ingredient (attribute)|.</li></ul></li></ul> |
 
 ## Naming
 
-| FSN            | Product containing prostaglandin (product) Product containing A series prostaglandin (product) Product containing(product) Align naming and case sensitivity with the Preferred Term for the concept that is selected as the attribute value for the 127489000 \|Has active ingredient (attribute)\|. For example, |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Preferred Term | Prostaglandin-containing product A series prostaglandin-containing product -containingproduct Align naming and case significance with the Preferred Term for the concept that is selected as the attribute value. For example,                                                                                     |
-| Synonyms       | Synonyms matching the FSN are not required.                                                                                                                                                                                                                                                                        |
+### FSN
+
+Product containing \<active ingredient> (product)
+
+Align naming and case sensitivity with the Preferred Term for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.
+
+For example,
+
+* Product containing prostaglandin (product)
+* Product containing A series prostaglandin (product)
+
+### Preferred Term
+
+\<Active ingredient>-containing product
+
+Align naming and case significance with the Preferred Term for the concept that is selected as the attribute value.
+
+For example,
+
+* Prostaglandin-containing product
+* A series prostaglandin-containing product
+
+### Synonym
+
+Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-The following illustrates the **stated** view for 350067007 |Product containing prostaglandin (product)|:
+<figure><img src="../../../../../../.gitbook/assets/image (27).png" alt=""><figcaption><p><strong>Stated</strong> view for 350067007 |Product containing prostaglandin (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691047.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 350067007 |Product containing prostaglandin (product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><strong>Inferred</strong> view for 350067007 |Product containing prostaglandin (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691046.png" alt=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 350068002 |Product containing A series prostaglandin (product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p><strong>Stated</strong> view for 350068002 |Product containing A series prostaglandin (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691045.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 350068002 |Product containing A series prostaglandin (product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (30).png" alt=""><figcaption><p> <strong>Inferred</strong> view for 350068002 |Product containing A series prostaglandin (product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691044.png" alt=""><figcaption></figcaption></figure>

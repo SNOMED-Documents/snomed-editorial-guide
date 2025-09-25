@@ -14,7 +14,21 @@
 | Definition status | Primitive                                                 |
 | Attributes        | None                                                      |
 
-## Naming
+## Terming
+
+### FSN
+
+
+
+### Preferred Term
+
+
+
+### Synonym
+
+
+
+### Text Definitions
 
 | FSN              | X (transformation) Dissolve (transformation) Disperse (transformation) No transformation (transformation) Disperse or dissolve (transformation) Use the following pattern for the FSN where X is the transformation: For example, |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -20,29 +20,35 @@ The following table provides the possible combinations of answers. It allows aut
 
 ### Causal & Temporal Combinations
 
-| Is there a stated causal relationship?                                           | Temporal relationship   | Resulting FSN pattern                   |
-| -------------------------------------------------------------------------------- | ----------------------- | --------------------------------------- |
-| **Yes – cause is another finding, disorder, event, or procedure (Causation 1)**  | Not stated              | X due to Y                              |
-|                                                                                  | After                   | X due to and following Y                |
-|                                                                                  | Before                  | X before Y                              |
-|                                                                                  | During                  | X due to and during Y                   |
-|                                                                                  | Before / During / After | X due to and temporally related to Y    |
-| **Yes – cause is a physical object/force, organism, or substance (Causation 2)** | Not stated              | X caused by Y                           |
-|                                                                                  | After                   | X after Y                               |
-|                                                                                  | Before                  | X before Y                              |
-|                                                                                  | During                  | X during Y                              |
-|                                                                                  | Before / During / After | X temporally related to Y\*             |
-| **No**                                                                           | Not stated              | Document separately                     |
-|                                                                                  | After                   | X follows Y                             |
-|                                                                                  | Before                  | X precedes Y                            |
-|                                                                                  | During                  | X occurs during Y                       |
-|                                                                                  | Before / During / After | X occurs before, during, and/or after Y |
+| Is there a stated causal relationship?                                           | Temporal relationship        | Resulting FSN pattern                |
+| -------------------------------------------------------------------------------- | ---------------------------- | ------------------------------------ |
+| **Yes – cause is another finding, disorder, event, or procedure (Causation 1)**  | Not stated                   | X due to Y                           |
+|                                                                                  | After                        | X due to and following Y             |
+|                                                                                  | Before                       | X before Y                           |
+|                                                                                  | During                       | X due to and during Y                |
+|                                                                                  | Before, During, and/or After | X due to and temporally related to Y |
+| **Yes – cause is a physical object/force, organism, or substance (Causation 2)** | Not stated                   | X caused by Y                        |
+|                                                                                  | After                        | N/A                                  |
+|                                                                                  | Before                       | N/A                                  |
+|                                                                                  | During                       | N/A                                  |
+|                                                                                  | Before, During, and/or After | N/A                                  |
+| **No stated causal relationship**                                                | Not stated                   | Document separately                  |
+|                                                                                  | After                        | X after Y                            |
+|                                                                                  | Before                       | X before Y                           |
+|                                                                                  | During                       | X during Y                           |
+|                                                                                  | Before / During / After      | X temporally related to Y\*          |
 
-> _Note: “Temporally related to (attribute)” and its subtypes Before and During are only approved to model perioperative complications and a limited number of other findings._
+> _\*Note: |Temporally related to (attribute)| and its subtypes_ Before _and_ During _are only approved to model perioperative complications and a limited number of other clinical findings._
 
 ***
 
 ## **Simple Co-occurrence**
+
+#### Naming pattern:
+
+FSN: _X with Y_
+
+#### Modeling pattern:
 
 Assign each condition as a supertype (or ensure that each participating disorder is present in the ancestor tree following classification)
 
@@ -50,26 +56,16 @@ Use simple co-occurrence for two or more conditions that are strongly associated
 
 For example,
 
-*   Named syndromes, such as
-
-    [398114001 | Ehlers-Danlos syndrome (disorder)|](http://snomed.info/id/398114001)
+* Named syndromes, such as [398114001 | Ehlers-Danlos syndrome (disorder)|](http://snomed.info/id/398114001)
 * Manifestations of systemic disorders, such as 83901003 |Sjögren's syndrome (disorder)|
 
 Do not use simple co-occurrence for those disorders with more than one anatomical site or more than one associated morphology. Those disorders should rather be represented as individual concepts in a medical record.
 
-### Summary
+### Example
 
-<table><thead><tr><th width="237.12890625">Aspect</th><th>Guidance</th></tr></thead><tbody><tr><td>Modeling pattern</td><td>Assign each condition as a supertype (or ensure each disorder appears in the ancestor tree following classification). Use when conditions are strongly associated but not explicitly causal/temporal.</td></tr><tr><td>Naming pattern</td><td>X with Y</td></tr><tr><td>Correct examples</td><td><em>Sinusitis with nasal polyps (disorder)Acute bronchitis with bronchiectasis (disorder)</em></td></tr><tr><td>Incorrect examples</td><td><em>Psoriasis-eczema overlap condition (disorder)Hay fever with asthma (disorder)</em></td></tr><tr><td>Warnings</td><td>Do not use for multi-site or multi-morphology disorders. Be aware of pre-existing conditions (e.g. induced termination example).</td></tr></tbody></table>
+#### C
 
-#### Correct examples:
-
-* Sinusitis with nasal polyps (disorder)
-* Acute bronchitis with bronchiectasis (disorder)
-
-#### Incorrect examples not to be repeated:
-
-* Psoriasis-eczema overlap condition (disorder)
-* Hay fever with asthma (disorder)
+####
 
 {% hint style="warning" %}
 Be aware of conditions which likely exist prior to a disorder or procedure.
@@ -261,7 +257,7 @@ In some cases, the DUE TO takes precedence because of a relationship between the
 
 288021000119107 |Disorder due to alcohol abuse (disorder)|
 
-<figure><img src="../../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Stated form of |Disorder due to alcohol abuse (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>Stated form of |Disorder due to alcohol abuse (disorder)|</p></figcaption></figure>
 
 In other cases, the DUE TO relationship is used as a means to classify the concept appropriately while the CAUSATIVE AGENT takes precedence.
 
@@ -269,7 +265,7 @@ In other cases, the DUE TO relationship is used as a means to classify the conce
 
 1251395000 |Injury of skin caused by class Anthozoa (disorder)|
 
-<figure><img src="../../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Inferred form of |Injury of skin caused by class Anthozoa (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Inferred form of |Injury of skin caused by class Anthozoa (disorder)|</p></figcaption></figure>
 
 In this case, the DUE TO represents the "injury" part of the concept and allows classification as a traumatic injury. An alternative, but less appealing FSN would have been "Disorder of skin due to traumatic injury caused by class Anthoza". So, if the concept FSN specifies a disorder causally associated with another disorder, then use "due to" in the FSN; if the FSN specifies a disorder causally associated with an "agent" (organism, physical object, substance, etc.), then use "caused by" in the FSN.
 

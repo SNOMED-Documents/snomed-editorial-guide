@@ -2,9 +2,9 @@
 
 The Clinical Drug "containing precisely" (CD-precise) concept is an abstract representation of the precise active ingredient, basis of strength substance (BoSS), strength, and manufactured dose form of a drug product. It implies that the drug product must contain only the precise active ingredient(s) specified in the FSN.
 
-* [Clinical Drug with Discrete Dose Form](../../../../../../authoring/pharmaceutical-and-biologic-product/clinical-drug/Clinical-Drug-with-Discrete-Dose-Form_174690775.html)
-* [Clinical Drug with Continuous Dose Form](../../../../../../authoring/pharmaceutical-and-biologic-product/clinical-drug/Clinical-Drug-with-Continuous-Dose-Form_174690866.html)
-* [Specific Clinical drug modeling](../../../../../../authoring/pharmaceutical-and-biologic-product/clinical-drug/Specific-Clinical-drug-modeling_303923266.html)
+* [Clinical Drug with Discrete Dose Form](clinical-drug-with-discrete-dose-form.md)
+* [Clinical Drug with Continuous Dose Form](clinical-drug-with-continuous-dose-form.md)
+* [Specific Clinical drug modeling](index/)
 
 All Clinical Drugs that contain multiple _active_ ingredient substances will have parent MP and MPF concepts that have the same set of active ingredient substances.
 
@@ -95,9 +95,9 @@ Expression of product strength in metric units is preferred.
 To avoid semantically equivalent concepts, product strength for metric units are normalized as follows:
 
 * Use milligram if value is <1000; if _>_ 1000, convert to gram.
-  * Use microgram if value is <1000; if _>_ 1000, convert to milligram.
-  * Use nanogram if value is <1000; if _>_ 1000, convert to microgram.
-  * Use picogram if value is <1000; if _>_ 1000, convert to nanogram.
+* Use microgram if value is <1000; if _>_ 1000, convert to milligram.
+* Use nanogram if value is <1000; if _>_ 1000, convert to microgram.
+* Use picogram if value is <1000; if _>_ 1000, convert to nanogram.
 
 Similarly, if a unit is less than one, convert to a smaller unit. gram → milligram → microgram → nanogram → picogram
 
@@ -128,9 +128,3 @@ Clinical drugs _containing precisely x_ are modeled with a count based on the _s
 For example,
 
 1220547004 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release eye drops (clinical drug)| correctly infers a subtype of 1142217003 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release ear and eye drops (clinical drug)|.
-
-## Subpages
-
-* [Clinical Drug with Discrete Dose Form](clinical-drug-with-discrete-dose-form.md)
-* [Clinical Drug with Continuous Dose Form](clinical-drug-with-continuous-dose-form.md)
-* [Specific Clinical drug modeling](index/)

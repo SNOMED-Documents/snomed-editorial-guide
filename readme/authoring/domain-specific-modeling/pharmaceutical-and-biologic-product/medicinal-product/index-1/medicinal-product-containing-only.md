@@ -33,14 +33,14 @@ In IDMP, for products using adjuvants, it is probable that the adjuvant would be
 
 ## Modeling
 
-| Stated parent                                                            | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Semantic tag                                                             | (medicinal product)                                                                                                                                                                                                                                                                                                                                                  |
-| Definition status                                                        | Defined                                                                                                                                                                                                                                                                                                                                                              |
-| Attribute: 127489000 \|Has active ingredient (attribute)\|               | Range: <105590001 \|Substance (substance), excluding concepts representing structural groupers, dispositions, or combined substances Cardinality: 1..\* There is no technical limit on the number of \|Has active ingredient (attribute)\|s that may be added to a concept. A practical limit may be imposed at a later date. This attribute is within a role group. |
-| Attribute: 1142139005 \|Count of base of active ingredient (attribute)\| | Concrete Type: Integer Range: >#0.. Cardinality: 1..1                                                                                                                                                                                                                                                                                                                |
+| **Stated parent**                                                                                                     | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Semantic tag**                                                                                                      | (medicinal product)                                                                                                                                                                                                                                                                                                                                                                               |
+| **Definition status**                                                                                                 | Defined                                                                                                                                                                                                                                                                                                                                                                                           |
+| <p><strong>Attribute:</strong></p><p><strong>127489000 |Has active ingredient (attribute)|</strong></p>               | <p>Range: &#x3C;105590001 |Substance (substance), excluding concepts representing structural groupers, dispositions, or combined substances</p><p>Cardinality: 1..* </p><p>There is no technical limit on the number of |Has active ingredient (attribute)|s that may be added to a concept.  A practical limit may be imposed at a later date.</p><p>This attribute is within a role group. </p> |
+| <p><strong>Attribute:</strong></p><p><strong>1142139005 |Count of base of active ingredient (attribute)|</strong></p> | <p>Concrete Type: Integer</p><p>Range: >#0..</p><p>Cardinality: 1..1</p>                                                                                                                                                                                                                                                                                                                          |
 
-### Exception for Benzylpenicillin
+#### Exception for Benzylpenicillin
 
 774826003 |Product containing only benzylpenicillin (medicinal product)| is primitive and is a proximal primitive parent to 786119008 |Product containing only benzylpenicillin in oral dose form (medicinal product form)| plus 2 subtype clinical drugs, and 778490002 |Product containing only benzylpenicillin in parenteral dose form (medicinal product form)| plus 3 subtype clinical drugs. 774826003 |Product containing only benzylpenicillin (medicinal product)| is intentionally not modeled as a supertype of 1234764000 |Product containing only benzathine benzylpenicillin (medicinal product)| and 1234762001 |Product containing only procaine benzylpenicillin (medicinal product)| because clinically the child concepts are not considered as specialisations of the supertype, but as sibling concepts.
 
@@ -50,19 +50,48 @@ Use the following pattern for the FSN and PT. Align naming and case sensitivity 
 
 For multiple ingredient drug products, the active ingredients must be in alphabetical order and separated by the word “and”.
 
-| FSN            | Product containing only axitinib (medicinal product) Product containing only abacavir and lamivudine (medicinal product) Product containing only abacavir and lamivudine and zidovudine (medicinal product) Product containing only(medicinal product) Product containing onlyand(medicinal product) Product containing onlyandand(medicinal product) For example, |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Preferred Term | Axitinib only product Abacavir and lamivudine only product Abacavir and lamivudine and zidovudine only product onlyproduct andonlyproduct andandonlyproduct For example,                                                                                                                                                                                           |
-| Synonym        | Synonyms matching the FSN are not required.                                                                                                                                                                                                                                                                                                                        |
+### FSN
+
+Product containing only \<Active ingredient FSN> (medicinal product)
+
+Product containing only \<Active ingredient FSN> and \<Active ingredient FSN> (medicinal product)
+
+Product containing only \<Active ingredient FSN> and \<Active ingredient FSN> and \<Active ingredient FSN> (medicinal product)
+
+For example,
+
+* Product containing only axitinib (medicinal product)
+* Product containing only abacavir and lamivudine (medicinal product)
+* Product containing only abacavir and lamivudine and zidovudine (medicinal product)
+
+### Preferred Term
+
+\<Active ingredient PT> only product
+
+\<Active ingredient PT> and \<Active ingredient PT> only product
+
+\<Active ingredient PT> and \<Active ingredient PT> and \<Active ingredient PT> only product
+
+For example,
+
+* Axitinib only product
+* Abacavir and lamivudine only product
+* Abacavir and lamivudine and zidovudine only product
+
+### Synonym
+
+Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775976.png" alt=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 773390003 |Product containing only axitinib (medicinal product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/240453153.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 773390003 |Product containing only axitinib (medicinal product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (51).png" alt=""><figcaption><p><strong>Stated</strong> view for 773390003 |Product containing only axitinib (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/240453152.png" alt=""><figcaption><p>The following illustrates the <strong>stated</strong> view for 775360007 |Product containing only codeine and paracetamol (medicinal product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (52).png" alt=""><figcaption><p><strong>Inferred</strong> view for 773390003 |Product containing only axitinib (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/240453151.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 775360007 |Product containing only codeine and paracetamol (medicinal product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (84).png" alt=""><figcaption><p><strong>Stated</strong> view for 775360007 |Product containing only codeine and paracetamol (medicinal product)|</p></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/image (85).png" alt=""><figcaption><p><strong>Inferred</strong> view for 775360007 |Product containing only codeine and paracetamol (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/240453150.png" alt=""><figcaption></figcaption></figure>

@@ -37,6 +37,22 @@ The following illustrates the **stated** view for 420699003 |Basic dose form wit
 
 ## Naming Guidelines for Basic Dose Form Concept
 
+
+
+### FSN
+
+
+
+### Preferred Term
+
+
+
+### Synonym
+
+
+
+### Text Definitions
+
 | FSN              | X (basic dose form) Cream (basic dose form) Gel (basic dose form) Suppository (basic dose form) Tablet (basic dose form) Plural form to be used for Granules (basic dose form) Use the following pattern for the FSN where X is the basic dose form: For example, Exceptions: |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Preferred Term   | X Cream Gel Suppository Tablet Plural form to be used for Granules Use the following pattern for the PTwhere X is the basic dose form: For example, Exceptions:                                                                                                               |

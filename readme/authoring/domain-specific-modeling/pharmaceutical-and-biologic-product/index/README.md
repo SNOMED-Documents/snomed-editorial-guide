@@ -4,6 +4,15 @@ This section explains subtypes of 362981000 |Qualifier value (qualifier value)| 
 
 ## Subpages
 
-* [Pharmaceutical Dose Form](index/)
-* [Type of drug preparation](type-of-drug-preparation.md)
-* [Unit of presentation](unit-of-presentation.md)
+{% content-ref url="index/" %}
+[index](index/)
+{% endcontent-ref %}
+
+{% content-ref url="type-of-drug-preparation.md" %}
+[type-of-drug-preparation.md](type-of-drug-preparation.md)
+{% endcontent-ref %}
+
+{% content-ref url="type-of-drug-preparation.md" %}
+[type-of-drug-preparation.md](type-of-drug-preparation.md)
+{% endcontent-ref %}
+

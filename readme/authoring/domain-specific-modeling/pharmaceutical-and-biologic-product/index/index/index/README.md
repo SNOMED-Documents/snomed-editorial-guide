@@ -1,15 +1,31 @@
 # Pharmaceutical Dose Form Supporting Hierarchies
 
-The 736542009 |Pharmaceutical dose form (dose form)| subhierarchy of 362981000 |Qualifier value (qualifier value)| contains concepts which support the Medicinal product model. 
+The 736542009 |Pharmaceutical dose form (dose form)| subhierarchy of 362981000 |Qualifier value (qualifier value)| contains concepts which support the Medicinal product model.
 
 Editorial guidelines for the supporting hierarchies required to support creation of sufficiently defined pharmaceutical dose form concepts are documented in the following sections.
 
 ## Subpages
 
-- [Basic Dose Form](basic-dose-form.md)
-- [Dose Form Administration Method](dose-form-administration-method.md)
-- [Dose Form Intended Site](dose-form-intended-site.md)
-- [Dose Form Release Characteristic](dose-form-release-characteristic.md)
-- [Dose Form Transformation](dose-form-transformation.md)
-- [State of Matter](state-of-matter.md)
+{% content-ref url="basic-dose-form.md" %}
+[basic-dose-form.md](basic-dose-form.md)
+{% endcontent-ref %}
 
+{% content-ref url="dose-form-administration-method.md" %}
+[dose-form-administration-method.md](dose-form-administration-method.md)
+{% endcontent-ref %}
+
+{% content-ref url="dose-form-intended-site.md" %}
+[dose-form-intended-site.md](dose-form-intended-site.md)
+{% endcontent-ref %}
+
+{% content-ref url="dose-form-release-characteristic.md" %}
+[dose-form-release-characteristic.md](dose-form-release-characteristic.md)
+{% endcontent-ref %}
+
+{% content-ref url="dose-form-transformation.md" %}
+[dose-form-transformation.md](dose-form-transformation.md)
+{% endcontent-ref %}
+
+{% content-ref url="state-of-matter.md" %}
+[state-of-matter.md](state-of-matter.md)
+{% endcontent-ref %}

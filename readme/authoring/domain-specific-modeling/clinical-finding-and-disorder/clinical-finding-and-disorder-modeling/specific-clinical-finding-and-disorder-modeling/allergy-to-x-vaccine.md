@@ -59,16 +59,16 @@ For national extensions modeling using "vaccine containing only" product concept
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (25).png" alt=""><figcaption><p>St<strong>ated</strong> view for top level grouper 863903001 |Allergy to component of vaccine product (finding)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p>St<strong>ated</strong> view for top level grouper 863903001 |Allergy to component of vaccine product (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>In<strong>ferred</strong> view for top level grouper 863903001 |Allergy to component of vaccine product (finding)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>In<strong>ferred</strong> view for top level grouper 863903001 |Allergy to component of vaccine product (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (27).png" alt=""><figcaption><p><strong>Stated</strong> view for 294663006 |Allergy to component of vaccine product containing Hepatitis A virus antigen (finding)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 294663006 |Allergy to component of vaccine product containing Hepatitis A virus antigen (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p><strong>Inferred</strong> view for 294663006 |Allergy to component of of vaccine product containing Hepatitis A virus antigen (finding)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 294663006 |Allergy to component of of vaccine product containing Hepatitis A virus antigen (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><strong>Stated</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><strong>Inferred</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690426.png" alt=""><figcaption><p>_</p></figcaption></figure>

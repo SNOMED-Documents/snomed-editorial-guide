@@ -12,5 +12,10 @@ For further information, see section 5.3.2.7 of ISO 11239:2012 _Health informati
 
 ## Subpages
 
-* [Medicinal Product Form containing only](medicinal-product-form-containing-only.md)
-* [Medicinal Product Form containing](medicinal-product-form-containing.md)
+{% content-ref url="medicinal-product-form-containing-only.md" %}
+[medicinal-product-form-containing-only.md](medicinal-product-form-containing-only.md)
+{% endcontent-ref %}
+
+{% content-ref url="medicinal-product-form-containing.md" %}
+[medicinal-product-form-containing.md](medicinal-product-form-containing.md)
+{% endcontent-ref %}
