@@ -10,13 +10,23 @@ For example,
 
 1136681000004107 |Anatomic location of excised primary malignant neoplasm (observable entity)| applies the Characterizes (attribute) with a target of Malignant proliferation of primary neoplasm (qualifier value).
 
-<figure><img src="../../../../../authoring/observable-entity/images/240455416.png" alt=""><figcaption><p>Figure 1. Stated view of 1136681000004107 |Anatomic location of excised primary malignant neoplasm (observable entity)|</p></figcaption></figure>
+Stated view of 1136681000004107 |Anatomic location of excised primary malignant neoplasm (observable entity)|:
 
-<figure><img src="../../../../../authoring/observable-entity/images/240455415.png" alt=""><figcaption><p>Figure 2. Stated view of 372087000 |Primary malignant neoplasm (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
+
+Stated view of 372087000 |Primary malignant neoplasm (disorder)|:
+
+<figure><img src="../../../../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
 
 Concepts containing a _metastatic_ malignant neoplasm from the observable entity subhierarchy do not use 704321009 |Characterizes (attribute)|, but instead are defined by the specific _metastatic_ morphologic abnormality. For example, 444384007 |Number of regional lymph nodes containing metastatic neoplasm in excised specimen (observable entity)| has the attribute 246093002 |Component (attribute)| with a target value of 14799000 |Neoplasm, metastatic (morphologic abnormality)|.
 
-The terms _colorectal_ and _colorectum_ , commonly used by pathologists, are included in descriptions for concepts referring to neoplasms modeled with 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)|. 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)| is needed because neoplasms are the same from the cecum to rectum and are considered as a group in cancer synoptic reporting protocols. Note, there is no consensus concerning the definition of _colon_ in the literature and between different domains.
+{% hint style="success" %}
+**Colorectum**
+
+The terms _colorectal_ and _colorectum_, commonly used by pathologists, are included in descriptions for concepts referring to neoplasms modeled with 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)|. 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)| is needed because neoplasms are the same from the cecum to rectum and are considered as a group in cancer synoptic reporting protocols. Note, there is no consensus concerning the definition of _colon_ in the literature and between different domains.
+{% endhint %}
+
+
 
 Concepts containing a _metastatic_ malignant neoplasm from the observable entity subhierarchy do not use 704321009 |Characterizes (attribute)|, but instead are defined by the specific _metastatic_ morphologic abnormality. For example, 444384007 |Number of regional lymph nodes containing metastatic neoplasm in excised specimen (observable entity)| has the attribute 246093002 |Component (attribute)| with a target value of 14799000 |Neoplasm, metastatic (morphologic abnormality)|.
 

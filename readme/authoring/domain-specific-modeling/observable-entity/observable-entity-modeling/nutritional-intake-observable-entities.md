@@ -10,12 +10,17 @@ See the specific template [A nutritional intake (observable entity) - v1.0](http
 
 For example,
 
-[789106008 | Estimated quantity of intake of phosphorous in 24 hours (observable entity)|](http://snomed.info/id/789106008)
+789106008 | Estimated quantity of intake of phosphorous in 24 hours (observable entity)|
 
 FSN: Estimated quantity of intake of phosphorous in 24 hours (observable entity)
 
 PT: Estimated quantity of intake of phosphorous in 24 hours
 
-<figure><img src="../../../../../authoring/observable-entity/images/240455413.png" alt=""><figcaption><p>Figure 1. Stated view of 789106008 |Estimated quantity of intake of phosphorous in 24 hours (observable entity)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (167).png" alt=""><figcaption><p>Figure 1. Stated view of 789106008 |Estimated quantity of intake of phosphorous in 24 hours (observable entity)|</p></figcaption></figure>
+
+{% hint style="warning" %}
+**Dietary**
 
 "Dietary" is considered ambiguous and should not be included in SNOMED CT. Existing content that includes "dietary" will be considered for inactivation.
+{% endhint %}
+
