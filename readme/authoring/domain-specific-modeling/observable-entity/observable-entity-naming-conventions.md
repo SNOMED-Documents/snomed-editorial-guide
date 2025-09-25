@@ -15,10 +15,8 @@ General naming pattern: Property, Component, Direct Site
   * Property is named first, followed by the entity that is the value of Component, when possible.
 * **Third: Direct Site**
   * Modifier: Time aspect. Time aspect provides information about the direct site and precedes it in the naming order. (Time aspect, Direct Site)
-
-For example,
-
-* [416125006 |Concentration of hemoglobin in erythrocyte (observable entity)|](http://snomed.info/id/416125006)
+* For example,
+  * 416125006 | Concentration of hemoglobin in erythrocyte (observable entity) |
 
 Measurements done by screening should be specified with _by screening method_ added at the end of the description.
 
