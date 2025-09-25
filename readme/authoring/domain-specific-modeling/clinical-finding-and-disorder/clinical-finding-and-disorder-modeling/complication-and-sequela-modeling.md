@@ -42,9 +42,11 @@ The following naming convention applies to those conditions that occur temporall
 > For example,
 >
 > * Perioperative hematoma (disorder)
->   * Postoperative hypothyroidism (disorder)
+> * Postoperative hypothyroidism (disorder)
 
+{% hint style="success" %}
 88797001 |Complication of surgical procedure (disorder)| is not a subtype of perioperative complication, as it does not include a temporal relationship. Similarly, 738668004 |Perioperative complication (disorder)| is not a subtype of 88797001 |Complication of surgical procedure (disorder)|, as there is no causal relationship. Some disorders may specify both a causal and temporarily relationship and would be modeled such that they would classify under both 738668004 |Perioperative complication (disorder)| and 88797001 |Complication of surgical procedure (disorder)|.
+{% endhint %}
 
 ## The following attributes are used in the modeling of various combinations:
 
@@ -54,11 +56,11 @@ The following naming convention applies to those conditions that occur temporall
 
 This attribute is used to model concepts in which a clinical finding occurs after another clinical finding, procedure, or event. Neither asserting nor excluding a causal relationship, it instead emphasizes a sequence of events. Naming pattern is ‘x following y’.
 
-**Example**
+**For example,**
 
-123948009 |Disorder following viral disease (disorder)| occurs After [34014006 |Viral disease (disorder)|](http://snomed.info/id/34014006)
+123948009 |Disorder following viral disease (disorder)| occurs After (attribute) 34014006 |Viral disease (disorder)|
 
-<figure><img src="../../../../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption><p>Stated view of 123948009 |Disorder following viral disease (disor</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption><p>Stated view of 123948009 |Disorder following viral disease (disorder)</p></figcaption></figure>
 
 {% hint style="info" %}
 Post-infectious disorders are not subtypes of infectious disorders (unless the disorder is itself an infectious disease). The |After (attribute)| is used for linking post-infectious disorders with their associated infections.
@@ -66,11 +68,11 @@ Post-infectious disorders are not subtypes of infectious disorders (unless the d
 
 #### After with causal relationship
 
-The Due to and After attributes are used to model a disorder that occurs after a disorder or procedure with a causal relationship. Both the cause and the After relationship must be specified. The naming pattern is ‘due to and following’.
+The Due to and After attributes are used to model a disorder that occurs after a disorder or procedure with a causal relationship. Both the cause and the After relationship must be specified. The naming pattern is _due to and following_.
 
 ### Before
 
-This attribute is used to model a preoperative complication. Strictly, a preoperative complication is a disorder that complicates the procedure, rather than being a complication of that procedure. A preoperative complication might be considered to be a disorder that exists prior to surgery that adversely affects the surgery or that results in an intraoperative or postoperative complication.
+This attribute is used to model a preoperative complication. Strictly, a preoperative complication is a disorder that complicates the procedure, rather than being a complication of that procedure.  A preoperative complication might be considered to be a disorder that exists prior to surgery that adversely affects the surgery or that results in an intraoperative or postoperative complication.
 
 ### During
 
@@ -78,13 +80,13 @@ This attribute is used to model a preoperative complication. Strictly, a preoper
 
 This attribute is used to model a disorder that occurs during a procedure.
 
-**Example**
+**For example,**
 
 <figure><img src="../../../../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption><p>Stated view of 713890008 |Hypoxemia during surgery (disorder)</p></figcaption></figure>
 
 #### During with causal relationship
 
-Due to and During attributes can be used to model a disorder that occurs during a procedure (e.g. intraoperative complication) with a causal relationship. Both a cause and a temporal relationship to the cause must be specified.
+Due to and During attributes can be used to model a disorder that occurs during a procedure (e.g., intraoperative complication) with a causal relationship. Both a cause and a temporal relationship to the cause must be specified.
 
 ## Sequelae
 
@@ -114,12 +116,12 @@ These conditions should be modeled with _After_ (and also _Due to_ if there is a
 > For example,
 >
 > * Disorder due to and following another disorder (disorder)
->   * Disorder due to and following meningitis (disorder)
->   * Disorder due to and following procedure (disorder)
+> * Disorder due to and following meningitis (disorder)
+> * Disorder due to and following procedure (disorder)
 
 ### Naming conventions for surgical sequelae (temporal relationship but _no_ causal relationship)
 
-Not all surgical sequelae are complications of surgery but rather expected late effects. Conditions that occur following surgery, but not necessarily _Due to_ the surgery, are modeled only with an _A_ _fter_ relationship.
+Not all surgical sequelae are complications of surgery but rather expected late effects. Conditions that occur following surgery, but not necessarily _Due to_ the surgery, are modeled only with an _After_ relationship.
 
 * FSN: Disorder X following << 387713003 |Surgical procedure (procedure)
 * PT: Disorder X following << 387713003 |Surgical procedure (procedure)
@@ -127,7 +129,7 @@ Not all surgical sequelae are complications of surgery but rather expected late 
 > For example,
 >
 > * Contraction of eye socket following enucleation (disorder)
->   * Scar following surgery (disorder)
+> * Scar following surgery (disorder)
 
 ### Naming conventions for surgical sequelae complications (temporal relationship _and_ causal relationship)
 
@@ -139,12 +141,7 @@ Conditions that occur following surgery and are explicitly stated as causal/due 
 > For example,
 >
 > * Encephalopathy due to and following cardiopulmonary bypass (disorder)
->   * Cataract lens fragments in vitreous of eye due to and following cataract surgery (disorder)
->   * Disorder due to and following breast reduction (disorder)
+> * Cataract lens fragments in vitreous of eye due to and following cataract surgery (disorder)
+> * Disorder due to and following breast reduction (disorder)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Complication%20and%20Sequela%20Modeling" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Complication%20and%20Sequela%20Modeling" class="button primary">Provide Feedback</a>
