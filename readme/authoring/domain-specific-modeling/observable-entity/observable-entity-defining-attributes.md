@@ -33,7 +33,7 @@ This attribute is used to specify the entity on which the observation is directl
 This attribute is used to specify the process or activity that is the consequence of realization of the function.
 
 * For example,
-  * 282097004 | Ability to walk (observable entity)| 719722006 | Has realization (attribute)| of 870595007 |Walking (qualifier value)|
+  * 282097004 | Ability to walk (observable entity)| 719722006 | Has realization (attribute) | of 870595007 |Walking (qualifier value)|
 
 ## Inherent location
 
@@ -80,21 +80,21 @@ This attribute is used to specify the continuant (e.g. body structure or organis
 This attribute specifies the duration of the process characterized by the observable property type.
 
 * For example,
-  * Mass rate of excretion of cortisone in 24 hour urine (observable entity) has the 704323007 | Process duration (attribute)| of 123027009 |24 hours (qualifier value)|
+  * Mass rate of excretion of cortisone in 24 hour urine (observable entity) has the 704323007 | Process duration (attribute) | of 123027009 | 24 hours (qualifier value) |
 
 ## Process extends to
 
 This attribute specifies that the process which the property characterizes has led to the inclusion of a previously not included structure.
 
 * For example,
-  * The concept |Presence of direct invasion by primary malignant neoplasm of prostate to seminal vesicle (observable entity)| has a 1003703000 |Process extends to (attribute)| of |Seminal vesicle structure (body structure)|
+  * The concept |Presence of direct invasion by primary malignant neoplasm of prostate to seminal vesicle (observable entity)| has a 1003703000 |Process extends to (attribute)| of | Seminal vesicle structure (body structure) |
 
 ## Process output
 
 This attribute is used to specify the substance or process produced by the process characterized by the observable property type.
 
 * For example,
-  * Substance rate of excretion of pregnanediol in micromoles per day (observable entity) has a 704324001 | Process output (attribute)| of 28268006 |Pregnanediol (substance)|
+  * Substance rate of excretion of pregnanediol in micromoles per day (observable entity) has a 704324001 | Process output (attribute) | of 28268006 | Pregnanediol (substance) |
 
 ## Property
 
@@ -174,7 +174,7 @@ This attribute is used to specify the instrument or equipment utilized to execut
 
 For example,
 
-* 415921007 | Temperature of forehead using skin strip thermometer (observable entity)| has 424226004 | Using device (attribute)| of 448916003 |Skin strip thermometer (physical object)|
+* 415921007 | Temperature of forehead using skin strip thermometer (observable entity) | has 424226004 | Using device (attribute) | of 448916003 | Skin strip thermometer (physical object) |
 
 {% hint style="warning" %}
 There are examples on this page that do not have a concept ID. These examples are included for members who may be modeling observables within their extension.
