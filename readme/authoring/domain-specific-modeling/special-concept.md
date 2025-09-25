@@ -1,8 +1,6 @@
 # Special Concept
 
-| Definition                            | Examples                                                                                                                     |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Inactive concept Navigational concept | 363664003 \| Erroneous concept (inactive concept) \| 394899003 \| Oral administration of treatment (navigational concept) \| |
+<table><thead><tr><th width="216.912353515625">Definition</th><th width="579.2318115234375">Examples</th></tr></thead><tbody><tr><td><ul><li>Inactive concept </li></ul><ul><li>Navigational concept</li></ul></td><td><ul><li>363664003 | Erroneous concept (inactive concept) | </li><li>394899003 | Oral administration of treatment (navigational concept) |</li></ul></td></tr></tbody></table>
 
 ## Inactive concepts
 
