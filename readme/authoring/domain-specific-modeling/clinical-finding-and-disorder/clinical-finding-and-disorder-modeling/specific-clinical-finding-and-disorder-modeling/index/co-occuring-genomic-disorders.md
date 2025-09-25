@@ -1,10 +1,10 @@
 # Co-occuring Genomic Disorders
 
-### Germline chromosomal abnormality _co-occurring_ and _causing_ disorder: [41040004 | Complete trisomy 21 syndrome (disorder)|](http://snomed.info/id/41040004)
+### Germline chromosomal abnormality _co-occurring_ and _causing_ disorder: 41040004 | Complete trisomy 21 syndrome (disorder)|
 
 If the phenotype is always caused by a specific genotype, there is no need to include the cause in the FSN or clarify with a _Due to_ relationship.
 
-### Germline nucleotide sequence variant _co-occurring_ and _causing_ disorder: [190905008 | Cystic fibrosis (disorder)|](http://snomed.info/id/190905008)
+### Germline nucleotide sequence variant _co-occurring_ and _causing_ disorder: 190905008 | Cystic fibrosis (disorder)|
 
 Modeling for germline mutations causing conditions, such as cystic fibrosis, should have mutations, _Occurrence =_ congenital, and _Due to_ (attribute) the mutation finding.
 
@@ -32,9 +32,4 @@ For example,
 The term phrase, "co-occurrent and due to" is no longer to be used in the fully specified name. There are existing concepts that use the co-occurrent and due to pattern, but these will be re-termed. Genetic mutations that cause a disorder are by definition co-occurrent, so there is no need to represent this in the FSN, but they should be modeled as co-occurring, i.e. supertypes for both conditions should be present.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Co-occuring%20Genomic%20Disorders" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Co-occuring%20Genomic%20Disorders" class="button primary">Provide Feedback</a>
