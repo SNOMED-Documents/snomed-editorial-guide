@@ -7,9 +7,11 @@ The 362981000 | Qualifier value (qualifier value) | hierarchy contains concepts 
 * For example,
   * 18639004 | Left kidney structure (body structure) | has a Laterality (attribute) of Left (qualifier value)
 
-The use of qualifiers varies greatly according to the domain to which they are applied. Thus, guidance in their use is often found within the guidance of the respective domain. So for the above example, information regarding the laterality/left attribute-value pair, see [Laterality](../../../../authoring/body-structure/laterality.md) found within the Body structure domain. The range of values for a particular attribute is provided in the specific concept model of the domain. For further information on the range of values for a specific domain, see the different content types and rules in the MRCM maintenance tool at [https://browser.ihtsdotools.org/mrcm](https://browser.ihtsdotools.org/mrcm).
+The use of qualifiers varies greatly according to the domain to which they are applied. Thus, guidance in their use is often found within the guidance of the respective domain. So for the above example, information regarding the laterality/left attribute-value pair, see [Laterality](../body-structure/anatomical-concept-model/laterality.md) found within the Body structure domain. The range of values for a particular attribute is provided in the specific concept model of the domain. For further information on the range of values for a specific domain, see the different content types and rules in the MRCM maintenance tool at [https://browser.ihtsdotools.org/mrcm](https://browser.ihtsdotools.org/mrcm).
 
+{% hint style="warning" %}
 Changes cannot be made to the Qualifier Value hierarchy without permission from the Chief Terminologist
+{% endhint %}
 
 ## Specific information on a few select subhierarchies can be found below:
 
