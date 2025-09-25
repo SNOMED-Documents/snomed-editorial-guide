@@ -11,15 +11,14 @@ _A malformation_ is a structural abnormality that results from intrinsically dis
 
 When referring to a broad term to denote an intrinsic structural abnormality (e.g., Structural abnormality of fetal bladder) and plan to include 49755003 |Morphologically abnormal structure (morphologic abnormality)| in the model, use the pattern _Malformation of fetal X_ or _Congenital malformation of X_.
 
-See other related section in the guide:
+{% hint style="success" %}
+**See other related section in the guide**
+
+
 
 * Genetic, developmental, congenital, and physical origin
 * Acquired abnormality of congenital anomaly
 * Congenital
+{% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Malformation%2C%20deformation%2C%20anomaly" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Malformation%2C%20deformation%2C%20anomaly" class="button primary">Provide Feedback</a>
