@@ -8,38 +8,48 @@
 
 ## Modeling
 
-| Parent concept    | <<736479009 \|Dose form intended site (intended site) |
-| ----------------- | ----------------------------------------------------- |
-| Semantic tag      | (intended site)                                       |
-| Definition status | Primitive                                             |
-| Attributes        | None                                                  |
-
-## Naming
+| **Parent concept**    | <<736479009 \|Dose form intended site (intended site)  |
+| --------------------- | ------------------------------------------------------ |
+| **Semantic tag**      | (intended site)                                        |
+| **Definition status** | Primitive                                              |
+| **Attributes**        | None                                                   |
 
 ## Terming
 
 ### FSN
 
+Use the following pattern for the FSN where X is the intended site:
 
+X (intended site)
+
+For example,
+
+* Oral (intended site)
+* Otic (intended site)
+* Parenteral (intended site)
+* Vaginal (intended site)
 
 ### Preferred Term
 
+Use the following pattern for the PT where X is the intended site:
 
+X
+
+For example,
+
+* Oral
+* Otic
+* Parenteral
+* Vaginal
 
 ### Synonym
 
-
+Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines.
 
 ### Text Definitions
 
-| FSN              | Oral (intended site) Otic (intended site) Parenteral (intended site) Vaginal (intended site) Use the following pattern for the FSN where X is the intended site: X(intended site) For example, |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term   | Oral Otic Parenteral Vaginal Use the following pattern for the PT where X is the intended site: X For example,                                                                                 |
-| Synonyms         | Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines.                                                                                             |
-| Text Definitions | Preferred; not required.                                                                                                                                                                       |
+Preferred; not required.
 
 ## Exemplars
 
-The following illustrates the **stated** and**inferred** view for 738984000 |Parenteral (intended site)|:
-
-<figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691177.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (92).png" alt=""><figcaption><p>S<strong>tated</strong> and <strong>inferred</strong> view for 738984000 |Parenteral (intended site)|</p></figcaption></figure>

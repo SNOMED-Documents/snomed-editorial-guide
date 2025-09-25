@@ -10,38 +10,50 @@ The 736665006 |Dose form administration method (administration method)| hierarch
 
 ## Modeling
 
-| Parent concept    | 736665006 \| Dose form administration method (administration method) |
-| ----------------- | -------------------------------------------------------------------- |
-| Semantic tag      | ( administration method )                                            |
-| Definition status | Defined                                                              |
-| Attributes        | None                                                                 |
+| **Parent concept**    | 736665006 \|Dose form administration method (administration method) |
+| --------------------- | ------------------------------------------------------------------- |
+| **Semantic tag**      | (administration method)                                             |
+| **Definition status** | Defined                                                             |
+| **Attributes**        | None                                                                |
 
 ## Naming Guidelines
 
-## Terming
-
 ### FSN
 
+Use the following pattern for the FSN where X is the administration method and is in the form of an imperative:
 
+X (administration method)
+
+For example,
+
+* Administer (administration method)
+* Apply (administration method)
+* Instill (administration method)
+* Spray (administration method)
+* Swallow (administration method)
 
 ### Preferred Term
 
+Use the following pattern for the PT where X is the administration method:
 
+X
+
+For example,
+
+* Administer
+* Apply
+* Instill
+* Spray
+* Swallow
 
 ### Synonym
 
-
+Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines.
 
 ### Text Definitions
 
-| FSN              | Administer (administration method) Apply (administration method) Instill (administration method) Spray (administration method) Swallow (administration method) Use the following pattern for the FSN where X is the administration method and is in the form of an imperative: X(administration method) For example, |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term   | Administer Apply Instill Spray Swallow Use the following pattern for the PT where X is the administration method: X For example,                                                                                                                                                                                     |
-| Synonyms         | Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines.                                                                                                                                                                                                                   |
-| Text Definitions | Preferred; not required.                                                                                                                                                                                                                                                                                             |
+Preferred; not required.
 
 ## Exemplars
 
-The following illustrates the **stated** and**inferred** view for 738992009 |Chew (administration method)|:
-
-<figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691200.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (91).png" alt=""><figcaption><p>S<strong>tated</strong> and I<strong>nferred</strong> view for 738992009 |Chew (administration method)|</p></figcaption></figure>

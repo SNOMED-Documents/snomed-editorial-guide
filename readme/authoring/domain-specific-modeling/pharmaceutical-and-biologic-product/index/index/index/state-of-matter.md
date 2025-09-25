@@ -8,38 +8,50 @@
 
 ## Modeling
 
-| Parent concept    | 736471007 \|State of matter (state of matter)\| |
-| ----------------- | ----------------------------------------------- |
-| Semantic tag      | (state of matter)                               |
-| Definition status | Primitive                                       |
-| Attributes        | None                                            |
-
-## Naming
+| **Parent concept**    | 736471007 \|State of matter (state of matter)\| |
+| --------------------- | ----------------------------------------------- |
+| **Semantic tag**      | (state of matter)                               |
+| **Definition status** | Primitive                                       |
+| **Attributes**        | None                                            |
 
 ## Terming
 
 ### FSN
 
+Use the following pattern for the FSN where X is the state of matter:
 
+X (state of matter)
+
+For example,
+
+* Gas (state of matter)
+* Liquid (state of matter)
+* Semi-solid (state of matter)
+* Solid (state of matter)
 
 ### Preferred Term
 
+Use the following pattern for the PT where X is the state of matter:
 
+X
+
+For example,
+
+* Gas
+* Liquid
+* Semi-solid
+* Solid
 
 ### Synonym
 
-
+Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines.
 
 ### Text Definitions
 
-| FSN              | Gas (state of matter) Liquid (state of matter) Semi-solid (state of matter) Solid (state of matter) Use the following pattern for the FSN where X is the state of matter: X(state of matter) For example, |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Preferred Term   | Gas Liquid Semi-solid Solid Use the following pattern for the PT where X is the state of matter: X For example,                                                                                           |
-| Synonyms         | Synonyms are not allowed unless explicitly identified as an exception in the Editorial Guidelines.                                                                                                        |
-| Text Definitions | Preferred; not required.                                                                                                                                                                                  |
+Preferred; not required.
 
 ## Exemplar
 
-The following illustrates the **stated** and**inferred** view for 736679003 |Liquid (state of matter)|:
+<figure><img src="../../../../../../../.gitbook/assets/image (99).png" alt=""><figcaption><p><strong>Stated</strong> and <strong>inferred</strong> view for 736679003 |Liquid (state of matter)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691147.png" alt=""><figcaption></figcaption></figure>
