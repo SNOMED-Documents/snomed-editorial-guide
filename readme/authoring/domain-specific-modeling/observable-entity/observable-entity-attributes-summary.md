@@ -4,12 +4,7 @@ When authoring in this domain, these are the approved attributes and allowable r
 
 ## Domain Information for Observable Entity
 
-| Property                      | Value                                                    |
-| ----------------------------- | -------------------------------------------------------- |
-| Domain Constraint             | << 363787002 \| Observable entity (observable entity) \| |
-| Parent Domain                 | -                                                        |
-| Proximal Primitive Constraint | << 363787002 \| Observable entity (observable entity) \| |
-| Proximal Primitive Refinement | -                                                        |
+<table><thead><tr><th width="302.0728759765625">Property</th><th>Value</th></tr></thead><tbody><tr><td>Domain Constraint</td><td>&#x3C;&#x3C; 363787002 | Observable entity (observable entity) |</td></tr><tr><td>Parent Domain</td><td>-</td></tr><tr><td>Proximal Primitive Constraint</td><td>&#x3C;&#x3C; 363787002 | Observable entity (observable entity) |</td></tr><tr><td>Proximal Primitive Refinement</td><td>-</td></tr></tbody></table>
 
 ## Author View of Attributes and Ranges for Observable Entity
 
