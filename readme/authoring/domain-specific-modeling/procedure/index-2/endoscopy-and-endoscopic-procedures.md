@@ -18,7 +18,7 @@ Role group:
 
 For example
 
-<figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Stated view of |Endoscopy of stomach (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Stated view of |Endoscopy of stomach (procedure)|</p></figcaption></figure>
 
 
 
@@ -41,7 +41,7 @@ Role group 2:
 
 For example
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Stated view of |Endoscopic brush biopsy of stomach (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Stated view of |Endoscopic brush biopsy of stomach (procedure)|</p></figcaption></figure>
 
 #### **Inspection via skin incision = 2 role groups of Inspection and Incision**
 
@@ -58,7 +58,7 @@ Role group 2:
 
 For example
 
-<figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Stated view of |Thoracoscopy (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Stated view of |Thoracoscopy (procedure)|</p></figcaption></figure>
 
 #### **Inspection + action via skin incision = 3 role groups of Inspection and Incision and Action**
 
@@ -80,7 +80,7 @@ Role group 3:
 
 For example
 
-<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Stated view of |Thoracoscopy with biopsy (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Stated view of |Thoracoscopy with biopsy (procedure)|</p></figcaption></figure>
 
 ## Devices <a href="#devices" id="devices"></a>
 
@@ -108,6 +108,6 @@ _Laparoscopy_ and _laparoscopic procedure_ are synonymous. These procedures are 
   * <\<Procedure site = Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall (body structure)
   * Using device = Laparoscope, device (physical object
 
-<figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Stated view of 73632009 |Laparoscopy (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Stated view of 73632009 |Laparoscopy (procedure)|</p></figcaption></figure>
 
 <figure><img src="../../../../../authoring/procedure/images/229114165.png" alt=""><figcaption></figcaption></figure>

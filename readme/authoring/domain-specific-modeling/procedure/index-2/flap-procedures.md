@@ -29,15 +29,15 @@ For example,
 
 #### Example 1: 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|
 
-<figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Stated diagrammatic view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Stated diagrammatic view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p> Inferred browser view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p> Inferred browser view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
 
 #### Example 2: 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|
 
-<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Stated diagrammatic view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Stated diagrammatic view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Inferred browser view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Inferred browser view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
 
 ## Flap procedure naming
 

@@ -29,7 +29,7 @@ For example,
     * PT: Amputation of bilateral upper limbs
     * SYN: Amputation of both upper limbs
 
-    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
 
 
 
