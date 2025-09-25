@@ -8,11 +8,9 @@
 
 Observables entities may be used to code headers on a template, elements on a checklist, or to assign values to elements.
 
-For example,
-
-* ```
-    |Color of nail| is an observable entity. |Gray nails| is a finding.
-  ```
+* For example,
+  * |Color of nail| is an observable entity.&#x20;
+  * |Gray nails| is a finding.
 
 ### Types of Observable Entities
 

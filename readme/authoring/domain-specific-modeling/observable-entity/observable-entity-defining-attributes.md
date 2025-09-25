@@ -45,7 +45,7 @@ This attribute is used to specify a body site or other location of the independe
 
 For example,
 
-5310001000004108 |Histologic type of neoplasm of skin (observable entity)| has 718497002 | Inherent location (attribute)| of 39937001 |Skin structure (body structure)|
+* 5310001000004108 |Histologic type of neoplasm of skin (observable entity)| has 718497002 | Inherent location (attribute)| of 39937001 |Skin structure (body structure)|
 
 ## Inheres in
 
@@ -53,7 +53,7 @@ This attribute specifies the independent continuant in which the quality exists 
 
 For example,
 
-307047009 |Core body temperature measured in rectum (observable entity)| has 704319004 |Inheres in (attribute)| of 278826002 |Body internal region (body structure)|
+* 307047009 |Core body temperature measured in rectum (observable entity)| has 704319004 |Inheres in (attribute)| of 278826002 |Body internal region (body structure)|
 
 ## Precondition
 
@@ -98,7 +98,7 @@ This attribute specifies that the process which the property characterizes has l
 
 For example,
 
-The concept |Presence of direct invasion by primary malignant neoplasm of prostate to seminal vesicle (observable entity)| has a 1003703000 |Process extends to (attribute)| of |Seminal vesicle structure (body structure)|
+* The concept |Presence of direct invasion by primary malignant neoplasm of prostate to seminal vesicle (observable entity)| has a 1003703000 |Process extends to (attribute)| of |Seminal vesicle structure (body structure)|
 
 ## Process output
 
@@ -134,7 +134,7 @@ This attribute is used to specify the denominator of a relational property type,
 For example,
 
 * Urine alpha aminobutyrate to creatinine ratio (observable entity) has [704325000 | Relative to (attribute)|](http://snomed.info/id/704325000) 15373003 |Creatinine (substance)|
-  * Neutrophils per 100 leukocytes in blood (observable entity) has [704325000 | Relative to (attribute)|](http://snomed.info/id/704325000) 702962009 |Population of all leukocytes in portion of fluid (body structure)|
+* Neutrophils per 100 leukocytes in blood (observable entity) has [704325000 | Relative to (attribute)|](http://snomed.info/id/704325000) 702962009 |Population of all leukocytes in portion of fluid (body structure)|
 
 ## Relative to part of
 
