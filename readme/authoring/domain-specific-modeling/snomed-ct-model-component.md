@@ -4,19 +4,19 @@
 
 ## SNOMED Model component module (metadata)
 
-<figure><img src="../../../images/174691388.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../images/174691388.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Core metadata concept
 
-Subtypes of [900000000000442005 | Core metadata concept (core metadata concept)|](http://snomed.info/id/900000000000442005) provide structural information required to support International Release data. This supporting information includes sets of enumerated values that apply to attributes of concepts, descriptions, and relationships.
+Subtypes of 900000000000442005 | Core metadata concept (core metadata concept)| provide structural information required to support International Release data. This supporting information includes sets of enumerated values that apply to attributes of concepts, descriptions, and relationships.
 
 ## Foundation metadata concept
 
-Subtypes of the [900000000000454005 | Foundation metadata concept (foundation metadata concept)|](http://snomed.info/id/900000000000454005) provide supporting metadata and structural information for derivative release structures including Reference Sets.
+Subtypes of the 900000000000454005 | Foundation metadata concept (foundation metadata concept)| provide supporting metadata and structural information for derivative release structures including Reference Sets.
 
 ## Linkage concept
 
-A [106237007 | Linkage concept (linkage concept)|](http://snomed.info/id/106237007) links two or more concepts to express compositional meanings. All concept codes that can be used as a _Relationship Type_ are included under Linkage concept (linkage concept). The Concept Model attributes are approved for use.
+A 106237007 | Linkage concept (linkage concept)| links two or more concepts to express compositional meanings. All concept codes that can be used as a _Relationship Type_ are included under Linkage concept (linkage concept). The Concept Model attributes are approved for use.
 
 Linkage concept is a subtype of 900000000000441003 |SNOMED CT Model Component (metadata)|. The Linkage concept hierarchy \_\_ has the subhierarchies:
 
@@ -36,8 +36,16 @@ Users should beware that unapproved attributes can potentially
 
 ## Namespace concept
 
-[370136006 | Namespace concept (namespace concept)|](http://snomed.info/id/370136006) is a subtype of 900000000000441003 |SNOMED CT Model Component (metadata)|. Each of its subtypes has an integer term which is an assigned extension namespace identifier.
+370136006 |Namespace concept (namespace concept)| is a subtype of 900000000000441003 |SNOMED CT Model Component (metadata)|. Each of its subtypes has an integer term which is an assigned extension namespace identifier.
 
 New namespace concepts are requested via email to _info@snomed.org_. A SNOMED International staff terminologist will add new extension namespace identifiers as requests are received. It is also necessary to change the Module ID per the following:
 
-<figure><img src="../../../images/174691390.png" alt=""><figcaption><p>For further details, see <em>Namespace identifiers</em> on the SNOMED website at: . Find the <em>Namespace Identifier Registry</em> at</p></figcaption></figure>
+<figure><img src="../../../images/174691390.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+**For more information**
+
+For further details, see _Namespace identifiers_ on the SNOMED website at: [https://www.snomed.org/use-snomed-ct](https://www.snomed.org/use-snomed-ct).&#x20;
+
+Find the _Namespace Identifier Registry_ at [https://cis.ihtsdotools.org/info/](https://cis.ihtsdotools.org/info/)&#x20;
+{% endhint %}
