@@ -12,12 +12,12 @@ Exotoxins are more lethal in comparison to endotoxins, but there are vaccines ag
 
 Example,
 
-276202003 |Infection caused by Clostridium tetani (disorder)| is modeled with a causative agent of 30917009 |Clostridium tetani (organism)| only.
+* 276202003 |Infection caused by Clostridium tetani (disorder)| is modeled with a causative agent of 30917009 |Clostridium tetani (organism)| only.
 
 In the situation where a disease is caused by both the infection and the associated toxin, model with both the causative agent and the toxin substance.
 
 Example,
 
-76902006 |Tetanus (disorder)| is modeled with a causative agent of 30917009 |Clostridium tetani (organism)| as well as 26159005 |Clostridium tetani toxin (substance)|.
+* 76902006 |Tetanus (disorder)| is modeled with a causative agent of 30917009 |Clostridium tetani (organism)| as well as 26159005 |Clostridium tetani toxin (substance)|.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Bacterial%20disorders%20with%20organism%20or%20toxin" class="button primary">Provide Feedback</a>
