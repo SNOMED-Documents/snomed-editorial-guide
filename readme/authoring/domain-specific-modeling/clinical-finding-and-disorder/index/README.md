@@ -94,15 +94,14 @@ SNOMED international is no longer accepting new requests for concepts of the typ
 
 ## Region
 
-If the [363698007 | Finding site (attribute)|](http://snomed.info/id/363698007) value of a concept is a body structure with "region" in its FSN, then the description of the finding site within the clinical finding concept's FSN should also include "region".
+If the 363698007 | Finding site (attribute)| value of a concept is a body structure with "region" in its FSN, then the description of the finding site within the clinical finding concept's FSN should also include "region".
 
-> For example \
-> [274205003 | Burn of eye region (disorder)|](http://snomed.info/id/274205003) has a finding site of [371398005 | Eye region structure (body structure)|](http://snomed.info/id/371398005) .
->
->
->
-> * FSN: Burn of eye region (disorder)
-> * PT: Burn of eye region
+*   For example,&#x20;
+
+    274205003 | Burn of eye region (disorder)| has a finding site of 371398005 | Eye region structure (body structure)|.
+
+    * FSN: Burn of eye region (disorder)
+    * PT: Burn of eye region
 
 <figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
 
@@ -111,6 +110,8 @@ If the [363698007 | Finding site (attribute)|](http://snomed.info/id/363698007) 
 Previously, allergies caused by multiple substances were modeled by multiple causative agents suggesting that the allergy is caused by all those substances. However, when multiple substances are noted in the FSN, the intended clinical meaning is that a patient might be affected by one or more of these substances (or products containing them). To convey this meaning, these types of concepts should be modeled GCIs to represent the disjunctive meaning. e.g. 870731003 |Allergy to carbidopa and/or levodopa (finding)|
 
 {% hint style="info" %}
+**Information**
+
 The modeling approach for multiple-ingredient concepts is a temporary solution. It incorrectly asserts an allergy/adverse reaction to each, rather than to one, agent. The use of concepts from the Pharmaceutical/biologic product hierarchy is being considered as a final solution, but further work is required to determine if this would be a viable solution.
 {% endhint %}
 
@@ -129,12 +130,12 @@ Allergic and nonallergic hypersensitivity (pseudoallergic) concepts include drug
 * FSN: Allergy to X (finding)
 * PT: Allergy to X
 
-> For example
->
-> * FSN: Allergy to abacavir (finding)
-> * PT: Allergy to abacavir
-> * FSN: Allergy to Artemisia vulgaris pollen (finding)
-> * PT: Allergy to mugwort pollen
+For example,&#x20;
+
+* FSN:  Allergy to abacavir (finding)
+* PT:     Allergy to abacavir
+* FSN:  Allergy to Artemisia vulgaris pollen (finding)
+* PT:     Allergy to mugwort pollen
 
 ### Pattern - Allergy to multiple substances:
 
@@ -160,10 +161,9 @@ These disorders represent pathological processes that are defined as adverse rea
 
 Contact hypersensitivity represents a response elicited by contact of the skin or mucous membranes with a substance. The response may be immune mediated (allergic) or nonimmune (irritant) using the pathological process _contact hypersensitivity process (qualifier value)._
 
-> For example
->
-> * Contact dermatitis (disorder)
-> * Irritant contact dermatitis (disorder)
+* For example,
+  * Contact dermatitis (disorder)
+  * Irritant contact dermatitis (disorder)
 
 ## Intolerance to substances
 
@@ -177,9 +177,10 @@ Due to the difficulty in precisely defining an intolerance pathological process,
 
 Identification of findings of inadequate or excessive intake of nutrients inconsistent with nutrient requirements and established reference standards includes nutrients with a variety of forms where applicable.
 
-> For example
->
-> [870465001 | Excessive intake of vitamin A and vitamin A derivative (finding)|](http://snomed.info/id/870465001)
->
-> * FSN: Excessive intake of vitamin A and vitamin A derivative (finding)
-> * PT: Excessive intake of vitamin A and vitamin A derivative
+For example,
+
+870465001 | Excessive intake of vitamin A and vitamin A derivative (finding)|
+
+FSN: Excessive intake of vitamin A and vitamin A derivative (finding)
+
+PT: Excessive intake of vitamin A and vitamin A derivative
