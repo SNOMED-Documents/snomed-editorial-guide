@@ -6,7 +6,7 @@
 
 ## Variable meanings according to context
 
-Depending on context, concepts \_\_ can be used in many different ways with various meanings.
+Depending on context, concepts can be used in many different ways with various meanings.
 
 A _disorder_ concept can represent:
 
