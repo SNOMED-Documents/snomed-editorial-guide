@@ -2,9 +2,9 @@
 
 ## Patient vs Subject <a href="#patient-vs-subject" id="patient-vs-subject"></a>
 
-The |Situation with explicit context (situation)| hierarchy is intended for concepts that explicitly include contextual information.  Context can include whom the finding is about, or on whom a procedure is performed.  These concepts can be used to represent different meanings, e.g., past history, family history, planned care, excluded diagnosis, etc.
+The |Situation with explicit context (situation)| hierarchy is intended for concepts that explicitly include contextual information. Context can include whom the finding is about, or on whom a procedure is performed. These concepts can be used to represent different meanings, e.g., past history, family history, planned care, excluded diagnosis, etc.
 
-In contrast, a concept in the Clinical Finding or Procedure hierarchy has a default [Intended Use](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133240159) of the subject of the record. This context can be overridden by the information model.
+In contrast, a concept in the Clinical Finding or Procedure hierarchy has a default [Intended Use](../../snomed-ct-introduction/intended-use.md) of the subject of the record. This context can be overridden by the information model.
 
 * For example,
   * The concept |Asthma (disorder)| could be used in a family history field to represent a family history of asthma.
@@ -14,11 +14,11 @@ However, including the term _subject_ or _patient_ within a Clinical finding or 
 * For example,
   * The concept |Patient immunocompromised (finding)| could not be used in a family history field to represent that a family member is immunocompromised.
 
-Therefore, the use of _patient_ and _subject_ should be used only when necessary.&#x20;
+Therefore, the use of _patient_ and _subject_ should be used only when necessary.
 
 Descriptions should use the word _subject_, not _patient_, if required, as _subject_ is broader than _patient_.
 
-* For example,&#x20;
+* For example,
 
 ```
 420058008 | Provider of history other than subject (person)|
@@ -42,17 +42,12 @@ Descriptions with _caregiver_ should be as follows:
 * An FSN should use _caregiver_ as (one word).
 * There should be a synonym using _carer_.
 
-For example,&#x20;
+For example,
 
 ```
 425578005 | Caregiver able to cope (finding)|
 ```
 
-* Synonym:  Carer able to cope
+* Synonym: Carer able to cope
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Person%20Naming%20Conventions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Person%20Naming%20Conventions" class="button primary">Provide Feedback</a>
