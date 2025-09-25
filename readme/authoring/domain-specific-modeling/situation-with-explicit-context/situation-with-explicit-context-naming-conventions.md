@@ -1,22 +1,20 @@
 # Situation with Explicit Context Naming Conventions
 
-For information on precoordinated naming patterns that have been reviewed or are currently in review, see \_[Pre-coordination Naming Patterns project](https://confluence.ihtsdotools.org/display/IHTSDO1/Pre-coordination+Naming+Patterns+Project). \_ Unreviewed patterns for the Situation with explicit context hierarchy can be found [here](https://confluence.ihtsdotools.org/display/IHTSDO1/Situation+with+explicit+context). New content should conform with the naming patterns; however, legacy content may not.
+For information on precoordinated naming patterns that have been reviewed or are currently in review, see [Pre-coordination Naming Patterns project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project).  Unreviewed patterns for the Situation with explicit context hierarchy can be found [here](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836/Unreviewed+Patterns+by+Hierarchy). New content should conform with the naming patterns; however, legacy content may not.
 
 For example,
 
-Acceptable naming pattern
+**Acceptable naming pattern**
 
 FSN: declined (situation)
 
 PT: declined
 
-SYN: refused (This is optional.)
+SYN: refused (This is optional).
 
-* ```
-  *       * 736013005 |Body weight measurement declined (situation)|
-  ```
+* 736013005 |Body weight measurement declined (situation)|
 
-The following naming patterns are no longer accepted for addition to the International Edition:
+**The following naming patterns are no longer accepted for addition to the International Edition:**
 
 Procedure offered
 
@@ -26,11 +24,11 @@ Procedure done
 
 Procedure not done
 
-Note that [385658003 |Done (qualifier value)|](http://snomed.info/id/385658003) (a descendent of [410523001 |Post-starting action status (qualifier value)|](http://snomed.info/id/410523001)) remains in use as the target value of the [408730004 |Procedure context (attribute)|](http://snomed.info/id/408730004) in _History of_ concepts.
+Note that 385658003 |Done (qualifier value)| (a descendent of 410523001 |Post-starting action status (qualifier value)|) remains in use as the target value of the 408730004 |Procedure context (attribute)| in _History of_ concepts.
 
-Not every naming pattern is found in the Pre-coordination Naming Pattern project. Some naming patterns can be prescribed in [Templates](../../general-modeling/templates.md). Others can come from trackers or fast track documents, such as the examples below.
+Not every naming pattern is found in the Pre-coordination Naming Pattern project. Some naming patterns can be prescribed in [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/overview?homepageId=133988366). Others can come from trackers or fast track documents, such as the examples below.
 
-[**716186003 |No known allergy (situation)|**](http://snomed.info/id/716186003)
+**716186003 |No known allergy (situation)|**
 
 FSN: No known allergy (situation)
 
@@ -38,7 +36,7 @@ PT: No known allergy
 
 SYN: NKA - No known allergy
 
-[**428197003 |No known insect allergy (situation)|**](http://snomed.info/id/428197003)
+**428197003 |No known insect allergy (situation)|**
 
 FSN: No known insect allergy (situation)
 
