@@ -48,9 +48,8 @@ Descriptions for Clinical findings and Disorders should follow the naming guidel
 
 Concepts describing limbs are abundant, and the use of _limb_ in the FSN and the synonyms of upper/lower extremity, arm/leg should be followed.
 
-> For example
->
-> * [249945007 |Monoparesis of lower limb (disorder)|](http://snomed.info/id/249945007)
+* For example,&#x20;
+  * 249945007 |Monoparesis of lower limb (disorder)|
 
 Because the finding site is 61685007 |Lower limb structure (body structure)|, which follows the anatomical guidelines, the disorder concept reflects _lower limb_ in the FSN, while using synonyms of _Monoparesis of leg_ and _Monoparesis of lower extremity_.
 
