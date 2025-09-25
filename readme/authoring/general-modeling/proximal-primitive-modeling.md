@@ -25,7 +25,7 @@ The classifier infers all appropriate proximal supertypes. With sufficiently def
 
       [71388002 | Procedure (procedure)|](http://snomed.info/id/71388002). It has been modeled with one stated supertype and two attribute value pairs in a relationship group.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated view of<a href="http://snomed.info/id/702499000">702499000 | Computed tomography of humerus (procedure)|</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated view of <a href="http://snomed.info/id/702499000">702499000 | Computed tomography of humerus (procedure)|</a></p></figcaption></figure>
 
 The _inferred_ view shows the logical definition of the concept. By using the stated relationships (for this concept and other concepts currently in the terminology), the classifier infers three defined proximal supertypes:
 
@@ -48,13 +48,6 @@ Where more than one potential primitive supertype is identified for a concept, a
 
 ### GCI-Modeled primitive supertypes <a href="#gci-modeled-primitive-supertypes" id="gci-modeled-primitive-supertypes"></a>
 
-For information on the effect of GCIs on modeling primitive supertypes, see [General Concept Inclusions (GCIs), GCI-Modeled Primitive Ancestor](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133244597).
+For information on the effect of GCIs on modeling primitive supertypes, see [General Concept Inclusions (GCIs), GCI-Modeled Primitive Ancestor](general-concept-inclusions-gcis.md).
 
-\\
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Proximal%20Primitive%20Modeling" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Proximal%20Primitive%20Modeling" class="button primary">Provide Feedback</a>
