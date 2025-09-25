@@ -20,7 +20,7 @@ Subtypes of the 900000000000454005 | Foundation metadata concept (foundation met
 
 A 106237007 | Linkage concept (linkage concept)| links two or more concepts to express compositional meanings. All concept codes that can be used as a _Relationship Type_ are included under Linkage concept (linkage concept). The Concept Model attributes are approved for use.
 
-Linkage concept is a subtype of 900000000000441003 |SNOMED CT Model Component (metadata)|. The Linkage concept hierarchy \_\_ has the subhierarchies:
+Linkage concept is a subtype of 900000000000441003 |SNOMED CT Model Component (metadata)|. The Linkage concept hierarchy has the subhierarchies:
 
 * Attribute (attribute)
 * Link assertion (link assertion)
