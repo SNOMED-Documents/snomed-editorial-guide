@@ -62,15 +62,18 @@ The term _cerebral_ is used in clinical language to mean both _cerebrum_ , and m
 
 The word _disorder_ should be singular, so _Disorder of nose_ , not _Disorders of nose_.
 
+{% hint style="warning" %}
+**Exceptions**
+
 Plurals may be used:
 
 * As synonyms for grouper concepts, e.g. _disorders_ or _diseases_
 * In bilateral concepts, e.g. Disorder of bilateral eyes, Disorder of both eyes (see also _Lateralized Disorder Naming Conventions_)
-* When the concept is a general grouping of disorders of a body system, body site, or other broad category, the word _disorder_ is preferred over the word _disease_ for the FSN, e.g. _Disorder of reproductive system_ , not _Disease of reproductive system_. This does not apply at the leaf level.
+{% endhint %}
 
-> For example[t crisis (disorder)|](http://snomed.info/id/417683006)
->
-> * [417683006 | Sickle cell-hemoglobin C disease withou](http://snomed.info/id/417683006)
+* When the concept is a general grouping of disorders of a body system, body site, or other broad category, the word _disorder_ is preferred over the word _disease_ for the FSN, e.g. _Disorder of reproductive system_ , not _Disease of reproductive system_. This does not apply at the leaf level.
+* For example,&#x20;
+  * 417683006 | Sickle cell-hemoglobin C disease without crisis (disorder)|
 
 For naming conventions concerning _surgical complications, sequelae, and late effects;_ see this section at [Complication and Sequela Modeling](../clinical-finding-and-disorder-modeling/complication-and-sequela-modeling.md).
 
