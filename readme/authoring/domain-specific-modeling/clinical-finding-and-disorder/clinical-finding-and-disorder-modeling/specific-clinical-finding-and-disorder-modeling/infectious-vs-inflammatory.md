@@ -4,19 +4,19 @@ Disorders with the suffix "-itis" (e.g., cystitis, prostatitis, tonsillitis, app
 
 For inflammatory conditions whose FSNs specify an _infective_ _cause_ , the modeling should include:
 
-* [|Causative agent (attribute)|](http://snomed.org/-fictid) with the specified organism
-* [|Pathological process (attribute)|](http://snomed.org/-fictid) with the type of infectious process
-* [|Associated morphology (attribute)|](http://snomed.org/-fictid) with Inflammatory morphology or subtype
-* [|Finding site (attribute)|](http://snomed.org/-fictid) with a body structure when known
+* |Causative agent (attribute)| with the specified organism
+* |Pathological process (attribute)| with the type of infectious process
+* |Associated morphology (attribute)| with Inflammatory morphology or subtype
+* |Finding site (attribute)| with a body structure when known
 
 For inflammatory conditions whose FSNs do _not_ specify an infective cause, an infectious cause should neither be assumed nor modeled when the FSN does not specify it. The modeling would then exclude a Causative agent and Pathological process and should include only:
 
-* [|Associated morphology (attribute)|](http://snomed.org/-fictid) of Inflammatory morphology or subtype
-* [|Finding site (attribute)|](http://snomed.org/-fictid) with a body structure when known
+* |Associated morphology (attribute)| of Inflammatory morphology or subtype
+* |Finding site (attribute)| with a body structure when known
 
 Example of inflammatory _and_ infectious disorder,
 
-[441551009 |Inflammation of larynx caused by virus (disorder)|](http://snomed.info/id/441551009) (synonym, Viral laryngitis) includes a [|Causative agent (attribute)|](http://snomed.org/-fictid) of [|Virus (organism)|](http://snomed.org/-fictid) and a [|Pathological process (attribute)|](http://snomed.org/-fictid) of [|Infectious process (qualifier value)|](http://snomed.org/-fictid).
+441551009 |Inflammation of larynx caused by virus (disorder)| (synonym, Viral laryngitis) includes a |Causative agent (attribute)| of |Virus (organism)| and a |Pathological process (attribute)| of |Infectious process (qualifier value)|.
 
 <figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -24,15 +24,10 @@ Example of inflammatory _and_ infectious disorder,
 
 Example of inflammatory disorder _not_ specified as infectious,
 
-[446292002 |Necrotizing inflammation of lymph node (disorder)|](http://snomed.info/id/446292002) (synonym, Necrotizing lymphadenitis) does not specify an infective cause, so it is neither modeled with Causative agent nor Pathological process. The model contains an [|Associated morphology (attribute)|](http://snomed.org/-fictid) and a [|Finding site (attribute)|](http://snomed.org/-fictid).
+446292002 |Necrotizing inflammation of lymph node (disorder)| (synonym, Necrotizing lymphadenitis) does not specify an infective cause, so it is neither modeled with Causative agent nor Pathological process. The model contains an |Associated morphology (attribute)| and a |Finding site (attribute)|.
 
 <figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690496.png" alt=""><figcaption><p>Figure: Stated view of 446292002 |Necrotizing inflammation of lymph node (disorder)|</p></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Infectious%20vs.%20inflammatory" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Infectious%20vs.%20inflammatory" class="button primary">Provide Feedback</a>
