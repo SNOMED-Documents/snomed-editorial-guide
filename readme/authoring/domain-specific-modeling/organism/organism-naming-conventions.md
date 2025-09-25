@@ -130,6 +130,8 @@ Abbreviations (var, var., sv, sv., bv, bv., pv, pv.) must not be used in the FSN
 
 ## Capitalization of organism names
 
+Official scientific names for organisms should be capitalized. The designation of rank does not require capitalization. This guideline is applicable to the organism current name as well as older names and synonyms.
+
 * For example,
   * 426813007 | Order Acidobacteriales (organism) | has case significance of _Initial character case insensitive_.
   * 72646003 | Streptococcus equinus (organism) | contains a heterotypic synonym of "Streptococcus bovis".  Both of these descriptions are scientific names of the organism, and therefore, both have a case sensitivity indicator of _Entire term case sensitive_ (CS).&#x20;
