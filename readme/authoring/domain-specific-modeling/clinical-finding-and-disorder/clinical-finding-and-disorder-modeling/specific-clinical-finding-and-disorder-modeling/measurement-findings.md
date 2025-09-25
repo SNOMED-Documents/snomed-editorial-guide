@@ -2,19 +2,13 @@
 
 The following applies to the subcategory of 118245000 |Measurement finding (finding)|:
 
-  * _Detected_ and _Not detected_ are used in the FSN, PT, and modeling of measurement findings instead of _Present_ , _Positive_ , _Absent,_ and _Negative_. 
-    * Existing acceptable descriptions with  _Present_ , _Positive_ , _Absent,_ and _Negative_ can remain.
-  * _Above reference range_ , _Below reference range_ , _Within reference range_ , and _Outside reference range_ should be used in the FSN, PT, and modeling of measurement findings instead of _High_ , _Raised_ , _Elevated_ , _Increased_ , _Low_ , _Decreased_ , _Normal_ , and _Abnormal_. 
-    * Existing acceptable descriptions with _High_ , _Raised_ , _Elevated_ , _Increased_ , _Low_ , _Decreased_ , _Normal_ , and _Abnormal_ can remain.
+* _Detected_ and _Not detected_ are used in the FSN, PT, and modeling of measurement findings instead of _Present_ , _Positive_ , _Absent,_ and _Negative_.
+  * Existing acceptable descriptions with _Present_ , _Positive_ , _Absent,_ and _Negative_ can remain.
+* _Above reference range_ , _Below reference range_ , _Within reference range_ , and _Outside reference range_ should be used in the FSN, PT, and modeling of measurement findings instead of _High_ , _Raised_ , _Elevated_ , _Increased_ , _Low_ , _Decreased_ , _Normal_ , and _Abnormal_.
+  * Existing acceptable descriptions with _High_ , _Raised_ , _Elevated_ , _Increased_ , _Low_ , _Decreased_ , _Normal_ , and _Abnormal_ can remain.
+* _Borderline_ measurement findings are ambiguous and should not be added.
+* False positive and false negative measurement findings should not be included.
 
-  * _Borderline_ measurement findings are ambiguous and should not be added.
-  * False positive and false negative measurement findings should not be included. 
+See [template](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133999191)
 
-See [template](https://confluence.ihtsdotools.org/display/SCTEMPLATES/Measurement+%28finding%29+-+v0.2). 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Measurement%20findings" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Measurement%20findings" class="button primary">Provide Feedback</a>
