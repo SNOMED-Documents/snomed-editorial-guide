@@ -6,7 +6,7 @@ The word _tumor_ has two primary meanings: a mass, regardless of whether it is n
 
 For example,
 
-* [92385005 |Benign neoplasm of small intestine (disorder)|](http://snomed.info/id/722671009)
+* 92385005 |Benign neoplasm of small intestine (disorder)|
 
 ## Primary malignant neoplasm
 
@@ -22,11 +22,11 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (40) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center">Figure: Stated view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p>
+**Figure: Stated view of 93825008 |Primary malignant neoplasm of heart (disorder)|**
 
 <figure><img src="../../../../../../.gitbook/assets/image (41) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690490.png" alt=""><figcaption><p>Figure. Inferred view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
+**Figure. Inferred view of 93825008 |Primary malignant neoplasm of heart (disorder)**
 
 ## Metastatic malignant neoplasm
 
@@ -44,9 +44,11 @@ For example,
 FSN: Metastatic malignant neoplasm to foot (disorder)\
 PT: Metastatic malignant neoplasm to foot\
 SYN: Secondary malignant neoplasm of foot\
-SYN: Metastatic malignant neoplasm of foot
+SYN: Metastatic malignant neoplasm of foot.
 
+{% hint style="info" %}
 _Secondary_ is no longer the preferred word within the cancer & pathology community of practice; use _metastatic_.
+{% endhint %}
 
 Metastatic disorders are defined by a role group containing the finding site and specific metastatic morphologic abnormality.
 
@@ -54,17 +56,17 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (42) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Figure: Stated view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|
+**Figure: Stated view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|**
 
 <figure><img src="../../../../../../.gitbook/assets/image (43) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Figure: Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|
+**Figure: Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|**
 
 {% hint style="info" %}
-See also[ Neoplasms Observable ](https://confluence.ihtsdotools.org/display/WIPEG/Neoplasm+Observables)page
+See also [Neoplasms Observable](../../../observable-entity/observable-entity-modeling/neoplasm-observables.md) page
 {% endhint %}
 
-## Use of the term _cancer_&#x20;
+## Use of the term _cancer_
 
 Disorder concepts defined with 1240414004 |Malignant neoplasm (morphologic abnormality)| may have _cancer_ added as an acceptable synonym. The term _cancer_ should not be used in the FSN or preferred term. Neither should it be used in descriptions for concepts that are more specific subtypes of the top level malignant neoplasm grouper (i.e., where the morphology is a specialized cell type).
 
@@ -72,7 +74,7 @@ The term _cancer_ may also be used in the '_metastatic cancer to x body structur
 
 ## Neoplasia
 
-When modeling neoplasia, distinguish structure from process. Do not use _neoplasia_ in the FSN to identify the structure (even though it implies it). Use [126537000 |Neoplasm of bone (disorder)|](http://snomed.info/id/126537000), not _neoplasia of bone_.
+When modeling neoplasia, distinguish structure from process. Do not use _neoplasia_ in the FSN to identify the structure (even though it implies it). Use 126537000 |Neoplasm of bone (disorder)|, not _neoplasia of bone_.
 
 _Neoplastic disease_ refers to the process of _neoplasia_ , leading to the formation of a _neoplasm_.
 
@@ -80,23 +82,23 @@ _Neoplastic disease_ refers to the process of _neoplasia_ , leading to the forma
 
 A neoplasm is defined as a growth of tissue no longer under normal control. A hamartoma is defined as a benign, self-limiting growth of disorganized mature cells normally found in the region, representing faulty development. SNOMED CT has disorder (and morphologic abnormality) concepts and subtypes representing neoplasia, hamartomas, and tumors.
 
-The SNOMED CT concept [399981008 |Neoplasm and/or hamartoma (disorder)|](http://snomed.info/id/399981008) has six subtypes:
+The SNOMED CT concept 399981008 |Neoplasm and/or hamartoma (disorder)| has six subtypes:
 
 * angiomatosis
-  * hamartoma
-  * hemangioma
-  * lymphangioma
-  * melanocytic nevus
-  * neoplastic disease
+* hamartoma
+* hemangioma
+* lymphangioma
+* melanocytic nevus
+* neoplastic disease
 
-The SNOMED CT concept [400177003 |Neoplasm and/or hamartoma (morphologic abnormality)|](http://snomed.info/id/400177003) also has six subtypes:
+The SNOMED CT concept 400177003 |Neoplasm and/or hamartoma (morphologic abnormality)| also has six subtypes:
 
 * angiomatosis
-  * blood vessel tumor
-  * hamartoma
-  * lymphatic vessel tumor
-  * melanocytic nevus
-  * neoplasm
+* blood vessel tumor
+* hamartoma
+* lymphatic vessel tumor
+* melanocytic nevus
+* neoplasm
 
 ## Nevus
 
@@ -131,12 +133,12 @@ In those cases where common clinical usage of a term containing nevus is unambig
 
 Overlapping neoplasm concepts refer to a neoplasm that overlaps two or more adjacent **sites.** For clarity, the phrase _overlapping sites_ should be included in the descriptions for the FSN and PT for new overlapping neoplasm content.
 
-For example,\
-[188247000 | Malignant neoplasm of overlapping sites of bladder (disorder)|](http://snomed.info/id/188247000)
-
 {% hint style="danger" %}
-Do not use 'overlapping _lesion'_.
+Do not use _overlapping_ _lesion_ wording.
 {% endhint %}
+
+For example,\
+188247000 | Malignant neoplasm of overlapping sites of bladder (disorder)|
 
 For modeling an overlapping neoplasm concept, if the concept refers to contiguous sites involving more than one anatomical site, then a separate role group is used for each finding site.
 
@@ -145,17 +147,14 @@ However, assigning a role group for each finding site does not sufficiently defi
 For example,\
 Sufficiently defined concept 721624000 |Primary adenocarcinoma of overlapping sites of esophagus (disorder)| has a stated primitive parent of 187824009 |Malignant neoplasm of overlapping sites of digestive system (disorder)|.
 
-#### Colorectum
+{% hint style="success" %}
+**Colorectum**
 
-The terms _colorectal_ and _colorectum_ , commonly used by pathologists, are included in descriptions for concepts referring to neoplasms modeled with 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)|. 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)| is needed because neoplasms are the same from the cecum to rectum and are considered as a group in cancer synoptic reporting protocols. Note, there is no consensus concerning the definition of _colon_ in the literature and between different domains.
+The terms _colorectal_ and _colorectum_, commonly used by pathologists, are included in descriptions for concepts referring to neoplasms modeled with 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)|. 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)| is needed because neoplasms are the same from the cecum to rectum and are considered as a group in cancer synoptic reporting protocols. Note, there is no consensus concerning the definition of _colon_ in the literature and between different domains.
+{% endhint %}
 
 ## Congenital neoplasm
 
 When modeling a congenital neoplasm disorder, the attribute-value relationship of _Pathological process (attribute) = Pathological development process (qualifier value)_ is not used.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Neoplasm" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Neoplasm" class="button primary">Provide Feedback</a>
