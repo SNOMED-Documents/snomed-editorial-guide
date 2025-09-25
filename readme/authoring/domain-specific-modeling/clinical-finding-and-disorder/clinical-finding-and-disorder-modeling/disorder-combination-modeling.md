@@ -165,25 +165,22 @@ Assign the causal factor (Y) as the value of a _Causative agent (attribute)._
 
 ## **Temporal Sequencing (No Causation)**
 
+### Naming pattern
+
+Where X occurs after Y:
+
+* if it is not specified that X is due to Y (although causality is frequently implied), construct the FSN as _X following Y_
+
+### Modeling pattern
+
 Assign the condition or procedure that occurred first in the patient as the target of an After (attribute) relationship. Assign the condition that occurred second as a supertype (or ensure its presence in the ancestor tree).
 
 Examples:
 
 * 402490007 |Calcinosis following localized fat necrosis (disorder)|
-
-The fat necrosis occurred first in the patient, so this concept will have an After (attribute) with a value of Fat necrosis (disorder). The calcinosis occurred secondarily, and thus Calcinosis (disorder) is a supertype of this concept.
-
+  * The fat necrosis occurred first in the patient, so this concept will have an After (attribute) with a value of Fat necrosis (disorder). The calcinosis occurred secondarily, and thus Calcinosis (disorder) is a supertype of this concept.
 * 16055031000119100 |Astigmatism of right eye following operative procedure (disorder)|
-
-The operative procedure occurred first in the patient, so this concept will have an After (attribute) with a value of Surgical procedure (procedure). The astigmatism occurred secondarily, so Astigmatism (disorder) is a supertype of this concept.
-
-### Summary
-
-| Aspect           | Guidance                                                                                                                                                                          |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Modeling pattern | Assign first condition/procedure as target of After relationship. Assign second condition as supertype.                                                                           |
-| Naming pattern   | <p>Where X occurs after Y:</p><ul><li>if it is not specified that X is due to Y (although causality is frequently implied), construct the FSN as <em>X following Y</em></li></ul> |
-| Correct examples | _Calcinosis following localized fat necrosis (disorder)Astigmatism of right eye following operative procedure (disorder)_                                                         |
+  * The operative procedure occurred first in the patient, so this concept will have an After (attribute) with a value of Surgical procedure (procedure). The astigmatism occurred secondarily, so Astigmatism (disorder) is a supertype of this concept.
 
 ## Caution against combination <a href="#caution-against-combination" id="caution-against-combination"></a>
 
@@ -194,28 +191,25 @@ Not all disorders occurring in combination should be precoordinated into a singl
 
 ## Associated with (attribute) <a href="#associated-with-attribute" id="associated-with-attribute"></a>
 
-In general, [47429007 |Associated with (attribute)|](http://snomed.info/id/47429007) should be avoided due to the ambiguity which it conveys and the difficulty in applying this role consistently. Instead, _Due to_ is used when there is a direct causal relationship between the conditions; otherwise, the clinical conditions should be recorded as separate concepts in the medical record.
+In general, 47429007 |Associated with (attribute)| should be avoided due to the ambiguity which it conveys and the difficulty in applying this role consistently. Instead, _Due to_ is used when there is a direct causal relationship between the conditions; otherwise, the clinical conditions should be recorded as separate concepts in the medical record.
 
-There are a couple of exceptions when the use of [47429007 |Associated with (attribute)|](http://snomed.info/id/47429007) is appropriate:
+There are a couple of exceptions when the use of 47429007 |Associated with (attribute)| is appropriate:
 
 **General grouping concepts which aggregate more specific associations**
 
-Example:
-
-[6211002 |Polyarthritis associated with another disorder (disorder)|](http://snomed.info/id/6211002) subsumes two children:
-
-* [201972000 |Allergic arthritis of multiple sites (disorder)|](http://snomed.info/id/201972000) modeled with [_42752001 |Due to (attribute)|_](http://snomed.info/id/42752001) of [419076005 |Allergic reaction (disorder)|](http://snomed.info/id/419076005)
-* [422565003 |Post-infective polyarthritis (disorder)|](http://snomed.info/id/422565003) modeled with [_255234002 |After (attribute)|_](http://snomed.info/id/255234002) of [40733004 |Infectious disease (disorder)|](http://snomed.info/id/40733004)
+* For example,
+  * 6211002 |Polyarthritis associated with another disorder (disorder)| subsumes two children:
+    * 201972000 |Allergic arthritis of multiple sites (disorder)| modeled with _42752001 |Due to (attribute)|_ of 419076005 |Allergic reaction (disorder)|
+    * 422565003 |Post-infective polyarthritis (disorder)| modeled with _255234002 |After (attribute)|_ of 40733004 |Infectious disease (disorder)|
 
 #### Device infections
 
-i.e an infection of the tissue surrounding an implanted or inserted device, not due to the device itself.\\
-
-* _Associated with_ is used to associate the device with the infection.
+* Involves an infection of the tissue surrounding an implanted or inserted device, not due to the device itself.
+  * _Associated with_ is used to associate the device with the infection.
 
 #### Intolerance to substances
 
-i.e the propensity of an adverse reaction to a substance to occur (other than hypersensitivity or allergic or non-allergic hypersensitivity).
+* Involves the propensity of an adverse reaction to a substance to occur (other than hypersensitivity or allergic or non-allergic hypersensitivity).
 
 #### There is no intolerance process that serves as the value for _Has realization_.
 
@@ -239,7 +233,7 @@ Model as _caused by_ _material entity_ if it is the direct cause.
 
 #### Is cause a disorder or infectious organism? <a href="#is-cause-a-disorder-or-infectious-organism" id="is-cause-a-disorder-or-infectious-organism"></a>
 
-In modeling concepts related to infectious diseases, a number of considerations need to be taken in to account.
+In modeling concepts related to infectious diseases, a number of considerations need to be taken into account.
 
 1. When the disorder is an infectious disease itself, and the organism is specified, then the concept will be modeled with
    1. |Causative agent (attribute)| with the specified organism
@@ -248,21 +242,13 @@ In modeling concepts related to infectious diseases, a number of considerations 
 2\. Disorders can be modeled with |Due to|, with |After|, or with both |Due to| and |After| relationships to infectious diseases.
 
 * If the focus disorder is itself an infectious disorder, it will also have a |Causative agent| relationship when the organism is specified.
-
-#### Examples
-
-* **|Causative agent|** relationship
-  * 721742004 |Otitis media caused by Streptococcus pneumoniae (disorder)|
-* **|Due to|** relationship:
-  * 698733009 |Intestinal obstruction due to tuberculosis (disorder)|
-* **|Due to|** and **|Causative agent|** relationship:
-  * 866044006 |Mycosis due to human immunodeficiency virus infection (disorder)|
-* **|After|** relationship:
-  * 182961000119101 |Acute disseminated encephalomyelitis following infectious disease (disorder)|
-* **|After|** and **|Causative agent|** relationship:
-  * 4740000 |Herpes zoster (disorder)|
-* **|Due to|** and **|After|** relationship:
-  * 1148594002 |Chronic arthritis due to and following rheumatic fever (disorder)|
+  * For example,
+    * **|Causative agent|** relationship:  721742004 |Otitis media caused by Streptococcus pneumoniae (disorder)|
+    * **|Due to|** relationship:  698733009 |Intestinal obstruction due to tuberculosis (disorder)|
+    * **|Due to|** and **|Causative agent|** relationship:  866044006 |Mycosis due to human immunodeficiency virus infection (disorder)|
+    * **|After|** relationship:  182961000119101 |Acute disseminated encephalomyelitis following infectious disease (disorder)|
+    * **|After|** and **|Causative agent|** relationship:  4740000 |Herpes zoster (disorder)|
+    * **|Due to|** and **|After|** relationship:  1148594002 |Chronic arthritis due to and following rheumatic fever (disorder)|
 
 {% hint style="warning" %}
 _Applying the |Due to|, |After|, or both |Due to| and |After| relationships to a concept will not lead to it being a subtype of |Infectious disease (disorder)| unless it is itself an infectious disease._
@@ -274,7 +260,7 @@ In some cases, the DUE TO takes precedence because of a relationship between the
 
 **For example,**
 
-288021000119107 |Disorder due to alcohol abuse (disorder)|
+|Disorder due to alcohol abuse (disorder)|
 
 <figure><img src="../../../../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated form of |Disorder due to alcohol abuse (disorder)|</p></figcaption></figure>
 
@@ -286,7 +272,7 @@ In other cases, the DUE TO relationship is used as a means to classify the conce
 
 <figure><img src="../../../../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption><p>Inferred form of |Injury of skin caused by class Anthozoa (disorder)|</p></figcaption></figure>
 
-In this case, the DUE TO represents the "injury" part of the concept and allows classification as a traumatic injury. An alternative, but less appealing FSN would have been "Disorder of skin due to traumatic injury caused by class Anthoza". So, if the concept FSN specifies a disorder causally associated with another disorder, then use "due to" in the FSN; if the FSN specifies a disorder causally associated with an "agent" (organism, physical object, substance, etc.), then use "caused by" in the FSN.
+In this case, the DUE TO represents the "injury" part of the concept and allows classification as a traumatic injury. An alternative, but less appealing FSN would have been |Disorder of skin due to traumatic injury caused by class Anthoza|. So, if the concept FSN specifies a disorder causally associated with another disorder, then use _due to_ in the FSN; if the FSN specifies a disorder causally associated with an _agent_ (organism, physical object, substance, etc.), then use _caused by_ in the FSN.
 
 ## Exception to naming convention for combined disorders <a href="#exception-to-naming-convention-for-combined-disorders" id="exception-to-naming-convention-for-combined-disorders"></a>
 
@@ -298,11 +284,13 @@ Rather than the naming conventions described above, use the names that are accep
 
 The stricter rules for FSN construction do not prevent the addition of more familiar connectives in other descriptions, for example _with,_ or _associated with_.
 
+{% hint style="success" %}
 **Disorder combination modeling**
 
 * Covers combinations of only two disorders. However, combinations often include more than two disorders (for example, syndromes). Document multiple conditions in a single statement only for syndromes or strong associations based on a common predisposing factor.
 * Does not cover absent components or _negation_
-* Does not cover cases where combination concepts are demonstrably classification-derived (This limitation accepts that some content may be so obviously based on a class or category in a classification that it would be undesirable to reinterpret its semantics.)
+* Does not cover cases where combination concepts are demonstrably classification-derived. (This limitation accepts that some content may be so obviously based on a class or category in a classification that it would be undesirable to reinterpret its semantics.)
 * The modeling approach may be difficult to apply in all cases of combined disorders; domain-specific templates should be developed to ensure modeling consistency and accuracy.
+{% endhint %}
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Disorder%20Combination%20Modeling" class="button primary">Provide Feedback</a>
