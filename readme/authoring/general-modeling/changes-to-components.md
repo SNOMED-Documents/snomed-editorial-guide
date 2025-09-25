@@ -21,7 +21,7 @@ Depending upon the combination of the type of component and the reason for inact
 | Not semantically equivalent component (foundation metadata concept)        | A description does not represent the same meaning as the concept's Fully Specified Name (FSN)                                                                                                                                                                                                                  | Removal of device (procedure) has a synonym, Replacement of prosthetic device (procedure), which should be inactivated because the synonym has a more specific meaning than the FSN. |
 | Outdated component (foundation metadata concept)                           | A component is no longer current, useful, appropriate or acceptable                                                                                                                                                                                                                                            | The synonym _Compression facies_ was inactivated from the concept's more modern description of _Facial asymmetry_.                                                                   |
 | Grammatical description error (foundation metadata concept)                | <p>A component contains a technical error.</p><p>The error in the description is grammatical or a spelling mistake, which when corrected does not change the meaning of the concept. Where the meaning <em>is</em> changed, the <em>concept</em> should be inactivated using <em>Erroneous component</em>.</p> | <p>Case significance error: <em>Alpha</em> should have a lower case <em>a</em></p><p>Spelling error: <em>Asthma</em> misspelled as <em>Assthma</em></p>                              |
-| Nonconformance to editorial policy component (foundation metadata concept) | A component fails to comply with the current editorial guidance                                                                                                                                                                                                                                                | <p>The concept Urine: turbid (finding) was inactivated and replaced by</p><p><a href="http://snomed.info/id/167238004">167238004</a></p>                                             |
+| Nonconformance to editorial policy component (foundation metadata concept) | A component fails to comply with the current editorial guidance                                                                                                                                                                                                                                                | The concept Urine: turbid (finding) was inactivated and replaced by \|Turbid urine (finding)\|                                                                                       |
 
 ### Order of selection of inactivation values <a href="#order-of-selection-of-inactivation-values" id="order-of-selection-of-inactivation-values"></a>
 
@@ -39,7 +39,7 @@ Only the description inactivation value of _Not semantically equivalent_ _compon
 The other three description inactivation values (outdated, grammatical error, nonconformance) do not require an associated concept.
 
 {% hint style="info" %}
-See also, _Changes in FSN_, on the [Fully Specified Name](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133244331) page.
+See also, _Changes in FSN_, on the [Fully Specified Name](../general-naming-conventions/descriptions/fully-specified-name.md#changes-to-fsn) page.
 {% endhint %}
 
 ## Concept Inactivation
@@ -155,9 +155,4 @@ A substance or organism originally believed to be a single entity has been recla
 [Management of Inactivated International Concepts within an Extension](https://app.gitbook.com/s/3RKZIWpWFT0ocCgNT16E/5-key-steps/5.4-authoring/5.4.1-general-authoring-principles/5.4.1.3-management-of-inactivated-international-concepts-within-an-extension "mention")
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Changes%20to%20Components" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Changes%20to%20Components" class="button primary">Provide Feedback</a>
