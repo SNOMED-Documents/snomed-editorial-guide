@@ -1,8 +1,12 @@
 # Clinical Finding Defining Attributes
 
-**Generally, the attributes&#x20;**_**associated with**_**&#x20;,&#x20;**_**before**_**&#x20;,&#x20;**_**during**_**&#x20;,&#x20;**_**after**_**&#x20;,&#x20;**_**due to**_**&#x20;,&#x20;**_**clinical course**_**&#x20;, or&#x20;**_**temporally related to**_**&#x20;are self-grouped, meaning they must not be placed in a relationship group with other attributes; each attribute must be the only attribute in a relationship group. Any rare exceptions will be documented within the individual attribute section below.**
+{% hint style="success" %}
+**Self-grouped Attributes**
 
-**The&#x20;**_**grouped**_**&#x20;column from the** _**Clinical Finding Attributes Summary**_ **table on the previous page correctly indicates that these attributes are put into a relationship group during classification because they are self-grouped.**
+Generally, the attributes _associated with_ , _before_ , _during_ , _after_ , _due to_ , _clinical course_ , or _temporally related to_ are self-grouped, meaning they must not be placed in a relationship group with other attributes; each attribute must be the only attribute in a relationship group. Any rare exceptions will be documented within the individual attribute section below.
+
+The _grouped_ column from the _Clinical Finding Attributes Summary_ table on the previous page correctly indicates that these attributes are put into a relationship group during classification because they are self-grouped.
+{% endhint %}
 
 The following defining attributes correspond to the _Clinical Finding/Disorder Attributes Summary_ table.
 
@@ -224,8 +228,6 @@ This attribute is used to specify the process or activity that is the consequenc
 
 Allergy to X is modeled with 719722006 | Has realization (attribute)| of 472964009 | Allergic process (qualifier value)| and 246075003 | Causative agent (attribute)| of 105590001 | Substance (substance)| . Find the allergy template at the Clinical finding/disorder templates page for more information including exceptions.
 {% endhint %}
-
-
 
 ## Occurrence
 
