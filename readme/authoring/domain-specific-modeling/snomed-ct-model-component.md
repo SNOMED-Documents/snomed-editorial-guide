@@ -1,8 +1,8 @@
 # SNOMED CT Model Component
 
-| Definition                                                                                            | Types                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Concepts and attributes necessary to organize and structure SNOMED CT terminology and its derivatives | 900000000000442005\|Core metadata concept (core metadata concept)\| 900000000000454005\|Foundation metadata concept (foundation metadata concept)\| 106237007\|Linkage concept (linkage concept)\| 370136006\|Namespace concept (namespace concept)\| |
+| Definition                                                                                            | Types                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Concepts and attributes necessary to organize and structure SNOMED CT terminology and its derivatives | <ul><li>900000000000442005|Core metadata concept (core metadata concept)| </li><li>900000000000454005|Foundation metadata concept (foundation metadata concept)| </li><li>106237007|Linkage concept (linkage concept)| </li><li>370136006|Namespace concept (namespace concept)|</li></ul> |
 
 ## SNOMED Model component module (metadata)
 
