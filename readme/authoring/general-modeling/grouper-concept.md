@@ -16,13 +16,13 @@ In the past, there was an indiscriminate move of concepts in and out of the navi
 
 Because this is a primitive hierarchy and subtypes will not auto classify, much work would be required to reorganize hierarchies and maintain the use of navigational concepts. Inactivating concepts may be met with requests to create intermediate primitives. The Content Managers Advisory Group \[CMAG] at [2020 Use of navigational concepts](https://prod-confluence.ihtsdotools.org/display/cmag/2020+Use+of+navigational+concepts) is being consulted regarding current use of navigational concepts.
 
-As [363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006) is within the [370115009 | Special concept (special concept)|](http://snomed.info/id/370115009) subhierarchy, please see that section of the Editorial Guide at [Special Concept](../../../domain-specific-modeling/special-concept/special-concept.md).
+As [363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006) is within the [370115009 | Special concept (special concept)|](http://snomed.info/id/370115009) subhierarchy, please see that section of the Editorial Guide at [Special Concept](../domain-specific-modeling/special-concept.md#navigational-concepts).
 
 ## Intermediate Primitive Groupers
 
 _Intermediate primitive_ groupers add a substantial management burden, thus, are discouraged. They may however be added on a case-by-case basis with approval from the Head of Terminology when, for example:
 
-* The concept model is not robust enough to support the full definition of a subset of terms, e.g. genomics (i.e., genetic diseases for which we cannot state, _the majority of cases of this disease present with X)_.
+* The concept model is not robust enough to support the full definition of a subset of terms, e.g., genomics (i.e., genetic diseases for which we cannot state, _the majority of cases of this disease present with X)_.
 * There are variances in the clinical manifestations.
 
 If an **existing** intermediate primitive concept cannot be sufficiently defined **and** has only one subtype, is not used to model another concept nor demonstrably clinically useful, it should be inactivated.
@@ -47,9 +47,4 @@ Where grouper concepts already exist, the following criteria apply:
 If the addition of a grouper concept duplicates a concept in the [363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006) hierarchy, the navigational concept should be inactivated.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Grouper%20Concept" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Grouper%20Concept" class="button primary">Provide Feedback</a>
