@@ -103,7 +103,7 @@ _Elaboration_ in SNOMED CT refers to any addition to or change of the meaning of
 
 ### Subtype qualification
 
-_A subtype qualification_ refines the meaning of a concept._Subtype_ _qualification_ is elaboration that results in a concept that is a subtype of the original unelaborated _focus concept_. A focus concept is the part of a SNOMED CT expression that represents a clinical finding, observation, event, or procedure. It may be given context by a surrounding _context wrapper_ and may be made more specific by a _refinement_.
+_A subtype qualification_ refines the meaning of a concept. _Subtype_ _qualification_ is elaboration that results in a concept that is a subtype of the original unelaborated _focus concept_. A focus concept is the part of a SNOMED CT expression that represents a clinical finding, observation, event, or procedure. It may be given context by a surrounding _context wrapper_ and may be made more specific by a _refinement_.
 
 * For example,
   * A past history of replacement of the left hip may be represented by a SNOMED CT expression in which the focus concept, hip replacement, is refined by _laterality, left_ and enclosed in a context wrapper representing _past history_.
