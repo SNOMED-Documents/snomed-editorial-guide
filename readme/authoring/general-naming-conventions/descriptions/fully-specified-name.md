@@ -25,7 +25,7 @@ An FSN with an approved disjunctive (although not often used), e.g., |Traumatic 
 
 An FSN should not have:
 
-* Abbreviations or acronyms \* For more information, including exceptions, see the _Abbreviations and acronyms_ section at [General Naming Conventions](../../../../authoring/general-naming-conventions/descriptions/General-Naming-Conventions_174691646.html)
+* Abbreviations or acronyms \* For more information, including exceptions, see the _Abbreviations and acronyms_ section at [General Naming Conventions](../#abbreviations-and-acronyms)
 * Hyphens
 * Duplicate concepts
 * Ambiguity
@@ -58,7 +58,7 @@ The FSN is unique among active concepts. The SNOMED International Authoring Plat
 
 The FSN should provide a linguistic representation of the concept in an unambiguous way. It is considered an anchor for the representation of meaning of a concept, to which modelers can refer, when assigning a logic-based definition. The FSN does not necessarily follow the usual phrasing used in clinical practice; it may be phrased differently and may be longer and more fully spelled out in order to represent the meaning as clearly as possible and globally communicate the intended meaning of the concept.
 
-The characters comprising the description, as well as case significance, must be taken into account to provide for a unique FSN. Uniqueness maintained through case sensitivity is handled by [Case Significance](../../../../authoring/general-naming-conventions/descriptions/Case-Significance_174691658.html). It is possible to alter the semantics of concepts whose FSN uniqueness depends upon case significance.
+The characters comprising the description, as well as case significance, must be taken into account to provide for a unique FSN. Uniqueness maintained through case sensitivity is handled by [Case Significance](../case-significance.md#case-sensitivity). It is possible to alter the semantics of concepts whose FSN uniqueness depends upon case significance.
 
 For example,
 
@@ -181,7 +181,7 @@ Acronyms are easily misinterpreted. For this reason, acronyms are discouraged in
 
 For example, the FSN should be the expanded form, Computed tomography of chest (procedure); however, as a preferred term, CT of chest (procedure) is acceptable.
 
-If there is an unacceptable acronym in an existing FSN, the FSN DescriptionId is inactivated, and a new FSN is created (regardless of whether or not the acronym was in parentheses with the expanded form). The replacement FSN concept has the expanded description with the acronym entirely removed. Inactivating the ConceptId is not necessarily required, unless the FSN had significant ambiguity before changing it to its expanded form. For more information on acronyms, see the _Abbreviations and acronyms_ section of [General Naming Conventions](../../../../authoring/general-naming-conventions/descriptions/General-Naming-Conventions_174691646.html).
+If there is an unacceptable acronym in an existing FSN, the FSN DescriptionId is inactivated, and a new FSN is created (regardless of whether or not the acronym was in parentheses with the expanded form). The replacement FSN concept has the expanded description with the acronym entirely removed. Inactivating the ConceptId is not necessarily required, unless the FSN had significant ambiguity before changing it to its expanded form. For more information on acronyms, see the _Abbreviations and acronyms_ section of [General Naming Conventions](../#abbreviations-and-acronyms).
 
 ## Imported FSNs
 
@@ -193,9 +193,4 @@ Before any changes are made to an FSN, imported directly with an extension (loca
 
 Changes to existing SNOMED CT concepts do not necessitate notifying the original submitter.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Fully%20Specified%20Name" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Fully%20Specified%20Name" class="button primary">Provide Feedback</a>
