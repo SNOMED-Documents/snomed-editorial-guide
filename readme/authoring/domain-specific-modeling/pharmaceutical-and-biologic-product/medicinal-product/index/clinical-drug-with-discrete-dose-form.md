@@ -123,16 +123,16 @@ Synonyms matching the FSN are not required.
 
 ### Stated Template View
 
-<figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Template</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (54).png" alt=""><figcaption><p>Template</p></figcaption></figure>
 
 ### Example Concepts
 
-<figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 318783003 |Product containing precisely doxazosin (as doxazosin mesilate) 4 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 318783003 |Product containing precisely doxazosin (as doxazosin mesilate) 4 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p><strong>Inferred</strong> view for 318783003 |Product containing precisely doxazosin (as doxazosin mesilate) 4 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 318783003 |Product containing precisely doxazosin (as doxazosin mesilate) 4 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (5).png" alt=""><figcaption><p><strong>Stated</strong> view for 783301004 |Product containing precisely abacavir (as abacavir sulfate) 600 milligram and lamivudine 300 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 783301004 |Product containing precisely abacavir (as abacavir sulfate) 600 milligram and lamivudine 300 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><strong>Inferred</strong> view for 783301004 |Product containing precisely abacavir (as abacavir sulfate) 600 milligram and lamivudine 300 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 783301004 |Product containing precisely abacavir (as abacavir sulfate) 600 milligram and lamivudine 300 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690776.png" alt=""><figcaption></figcaption></figure>

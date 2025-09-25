@@ -84,11 +84,11 @@ Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (51).png" alt=""><figcaption><p><strong>Stated</strong> view for 773390003 |Product containing only axitinib (medicinal product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 773390003 |Product containing only axitinib (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (52).png" alt=""><figcaption><p><strong>Inferred</strong> view for 773390003 |Product containing only axitinib (medicinal product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 773390003 |Product containing only axitinib (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (84).png" alt=""><figcaption><p><strong>Stated</strong> view for 775360007 |Product containing only codeine and paracetamol (medicinal product)|</p></figcaption></figure>
 

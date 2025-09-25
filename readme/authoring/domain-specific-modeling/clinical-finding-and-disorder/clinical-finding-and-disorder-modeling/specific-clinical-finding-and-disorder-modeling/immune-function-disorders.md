@@ -22,7 +22,7 @@ In order to fully describe the full range of hypersensitivity responses, there a
 
 Allergic reaction (disorder) has a Causative agent (attribute) of Substance (substance) or its subtypes. This attribute-value pair is grouped with another attribute-value pair of Pathological process (attribute) and Allergic process (qualifier value).
 
-<figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690511.png" alt=""><figcaption><p>Figure: Stated view of 15920201000119103 |Allergic reaction caused by fish (disorder)|</p></figcaption></figure>
 
@@ -40,7 +40,7 @@ Allergic and nonallergic hypersensitivity (pseudoallergic) diseases represent ma
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690512.png" alt=""><figcaption><p>Figure:  Stated view of 838367000 |Allergic rhinosinusitis caused by Aspergillus (disorder)|</p></figcaption></figure>
 
@@ -60,13 +60,13 @@ Causative agent (attribute): subtype of Substance (substance)
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690510.png" alt=""><figcaption><p>Figure: Allergic and nonallergic hypersensitivity (pseudoallergic) disposition example, stated view of Allergy to nut (finding)</p></figcaption></figure>
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690509.png" alt=""><figcaption><p>Figure: Allergic disposition (finding) model in stated view</p></figcaption></figure>
 
@@ -74,13 +74,13 @@ For example,
 
 Nonallergic hypersensitivity (pseudoallergic) reactions are adverse reactions; they are defined by an underlying pathological process.
 
-<figure><img src="../../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690503.png" alt=""><figcaption><p>Figure: Nonallergic hypersensitivity (pseudoallergic) reaction model in stated view</p></figcaption></figure>
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Figure: Example of nonallergic hypersensitivity (pseudoallergic) reaction model in stated view</p>
 
@@ -90,12 +90,12 @@ An _intolerance_ is the propensity to develop an adverse reaction to a substance
 
 It may be difficult to define the pathological process and to associate the substance with the propensity to develop a reaction. Consequently, [47429007 |Associated with (attribute)|](http://snomed.info/id/47429007) is used to model intolerance to substances.
 
-<figure><img src="../../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690502.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to substance (finding) model</p></figcaption></figure>
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690501.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to drug (finding)</p></figcaption></figure>

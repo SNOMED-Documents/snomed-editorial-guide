@@ -20,11 +20,11 @@ Primary malignant neoplasm disorders are now defined with a role group combining
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (40) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Figure: Stated view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p>
 
-<figure><img src="../../../../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (41) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690490.png" alt=""><figcaption><p>Figure. Inferred view of 93825008 |Primary malignant neoplasm of heart (disorder)|</p></figcaption></figure>
 
@@ -52,11 +52,11 @@ Metastatic disorders are defined by a role group containing the finding site and
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (42) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Figure: Stated view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|
 
-<figure><img src="../../../../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (43) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Figure: Inferred view of 105041000119109 |Metastatic squamous cell carcinoma to lung (disorder)|
 

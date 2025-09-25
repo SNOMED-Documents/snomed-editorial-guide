@@ -102,7 +102,7 @@ If the [363698007 | Finding site (attribute)|](http://snomed.info/id/363698007) 
 > * FSN: Burn of eye region (disorder)
 > * PT: Burn of eye region
 
-<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Stated view of |Burn of eye region (disorder)|</p></figcaption></figure>
 
 ## Allergy to substances, multiple substances
 

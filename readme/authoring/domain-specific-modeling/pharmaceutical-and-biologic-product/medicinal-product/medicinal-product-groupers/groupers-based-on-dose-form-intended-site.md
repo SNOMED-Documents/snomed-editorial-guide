@@ -47,9 +47,9 @@ Synonyms are not generally created.
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (41).png" alt=""><figcaption><p><strong>Stated and inferred</strong> view for 440131009 |Product manufactured as oral dose form (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption><p><strong>Stated and inferred</strong> view for 440131009 |Product manufactured as oral dose form (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (42).png" alt=""><figcaption><p><strong>Stated and inferred</strong> view for 440132002 |Product manufactured as parenteral dose form (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p><strong>Stated and inferred</strong> view for 440132002 |Product manufactured as parenteral dose form (product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690977.png" alt=""><figcaption></figcaption></figure>
 

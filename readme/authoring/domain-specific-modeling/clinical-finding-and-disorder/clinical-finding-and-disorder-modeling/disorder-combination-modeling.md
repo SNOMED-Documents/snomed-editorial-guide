@@ -257,7 +257,7 @@ In some cases, the DUE TO takes precedence because of a relationship between the
 
 288021000119107 |Disorder due to alcohol abuse (disorder)|
 
-<figure><img src="../../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>Stated form of |Disorder due to alcohol abuse (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption><p>Stated form of |Disorder due to alcohol abuse (disorder)|</p></figcaption></figure>
 
 In other cases, the DUE TO relationship is used as a means to classify the concept appropriately while the CAUSATIVE AGENT takes precedence.
 
@@ -265,7 +265,7 @@ In other cases, the DUE TO relationship is used as a means to classify the conce
 
 1251395000 |Injury of skin caused by class Anthozoa (disorder)|
 
-<figure><img src="../../../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Inferred form of |Injury of skin caused by class Anthozoa (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>Inferred form of |Injury of skin caused by class Anthozoa (disorder)|</p></figcaption></figure>
 
 In this case, the DUE TO represents the "injury" part of the concept and allows classification as a traumatic injury. An alternative, but less appealing FSN would have been "Disorder of skin due to traumatic injury caused by class Anthoza". So, if the concept FSN specifies a disorder causally associated with another disorder, then use "due to" in the FSN; if the FSN specifies a disorder causally associated with an "agent" (organism, physical object, substance, etc.), then use "caused by" in the FSN.
 

@@ -50,12 +50,12 @@ Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><strong>Stated</strong> view for grouper concept 6425004 |Product containing histamine receptor antagonist (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for grouper concept 6425004 |Product containing histamine receptor antagonist (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (32).png" alt=""><figcaption><p><strong>Inferred</strong> view for grouper concept 6425004 |Product containing histamine receptor antagonist (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for grouper concept 6425004 |Product containing histamine receptor antagonist (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (33).png" alt=""><figcaption><p><strong>Stated</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (34).png" alt=""><figcaption><p><strong>Inferred</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690992.png" alt=""><figcaption></figcaption></figure>

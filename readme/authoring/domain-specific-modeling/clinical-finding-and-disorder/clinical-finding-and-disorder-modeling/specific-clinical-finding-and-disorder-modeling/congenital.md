@@ -40,7 +40,7 @@ For example,
 
 [33534005 |Congenital bowing of femur (disorder)|](http://snomed.info/id/33534005) is modeled with [246454002 |Occurrence (attribute)|](http://snomed.info/id/246454002) of [255399007 |Congenital (qualifier value)|](http://snomed.info/id/255399007)
 
-<figure><img src="../../../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (32) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690519.png" alt=""><figcaption><p> Stated view of 33534005 |Congenital bowing of femur (disorder)|</p></figcaption></figure>
 
@@ -52,7 +52,7 @@ For example,
 
 240253004 |Acquired abduction deformity of foot (disorder)| has _acquired_ in the FSN and is modeled with Occurrence = 767023003 |Period of life beginning after birth and ending before death (qualifier value)|.
 
-<figure><img src="../../../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (33) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690518.png" alt=""><figcaption><p>Stated view of 240253004 |Acquired abduction deformity of foot (disorder)|</p></figcaption></figure>
 

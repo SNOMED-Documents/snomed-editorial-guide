@@ -12,4 +12,4 @@ A _grouper_ is a concept designed to aggregate concepts based on specific charac
   * Structure - grouping based on structural patterns of the active ingredient substance(s) in the product
   * Structure and Disposition - combination of the above
 
-<figure><img src="../../../../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Medicinal Product Grouping</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>Medicinal Product Grouping</p></figcaption></figure>

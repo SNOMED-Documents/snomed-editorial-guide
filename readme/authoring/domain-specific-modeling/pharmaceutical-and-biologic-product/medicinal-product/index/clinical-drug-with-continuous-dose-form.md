@@ -88,19 +88,19 @@ Synonyms converting metric units to percent or parts per millions may be include
 
 ### Stated template view
 
-<figure><img src="../../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Example Concepts
 
-<figure><img src="../../../../../../.gitbook/assets/image (8).png" alt=""><figcaption><p><strong>Stated</strong> view for 781834001 |Product containing precisely digoxin 250 microgram/1 milliliter conventional release solution for injection (clinical drug)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 781834001 |Product containing precisely digoxin 250 microgram/1 milliliter conventional release solution for injection (clinical drug)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p> <strong>Inferred</strong> view for 781834001 |Product containing precisely digoxin 250 microgram/1 milliliter conventional release solution for injection (clinical drug)|-</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p> <strong>Inferred</strong> view for 781834001 |Product containing precisely digoxin 250 microgram/1 milliliter conventional release solution for injection (clinical drug)|-</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p><strong>Stated</strong> view for 769821007 |Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution (clinical drug)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 769821007 |Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution (clinical drug)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (53).png" alt=""><figcaption><p><strong>Inferred</strong> view for 769821007 |Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution (clinical drug)|.</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 769821007 |Product containing precisely digoxin 50 microgram/1 milliliter conventional release oral solution (clinical drug)|.</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (54).png" alt=""><figcaption><p><strong>Stated</strong> view for 396279000 |Product containing precisely betamethasone (as betamethasone valerate) 1 milligram/1 gram conventional release cutaneous ointment (clinical drug)|.</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (54) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 396279000 |Product containing precisely betamethasone (as betamethasone valerate) 1 milligram/1 gram conventional release cutaneous ointment (clinical drug)|.</p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (55).png" alt=""><figcaption><p><strong>Inferred</strong> view for 396279000 |Product containing precisely betamethasone (as betamethasone valerate) 1 milligram/1 gram conventional release cutaneous ointment (clinical drug)|</p></figcaption></figure>
 

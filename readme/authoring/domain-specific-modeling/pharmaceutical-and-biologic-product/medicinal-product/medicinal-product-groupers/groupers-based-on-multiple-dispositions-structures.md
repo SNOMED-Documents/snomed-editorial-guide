@@ -61,12 +61,12 @@ Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (35).png" alt=""><figcaption><p><strong>Stated</strong> view for combined grouper concept 767562003 |Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for combined grouper concept 767562003 |Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (36).png" alt=""><figcaption><p><strong>Inferred</strong> view for combined grouper concept 767562003 |Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for combined grouper concept 767562003 |Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (38).png" alt=""><figcaption><p><strong>Stated</strong> view for combined grouper concept 70343008 |Product containing piperazine derivative and histamine receptor antagonist (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (38) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for combined grouper concept 70343008 |Product containing piperazine derivative and histamine receptor antagonist (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (37).png" alt=""><figcaption><p><strong>Inferred</strong> view for combined grouper concept 70343008 |Product containing piperazine derivative and histamine receptor antagonist (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for combined grouper concept 70343008 |Product containing piperazine derivative and histamine receptor antagonist (product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691078.png" alt=""><figcaption></figcaption></figure>

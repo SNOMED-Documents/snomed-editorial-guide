@@ -11,7 +11,7 @@ Mother and fetus share many time periods, such as antenatal. However, some perio
 
 A diagram of the relationships between these periods is shown below:
 
-<figure><img src="../../../../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (37) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690545.png" alt=""><figcaption></figcaption></figure>
 
@@ -59,7 +59,7 @@ In relation to the neonate, there is a clinical and epidemiological distinction 
 
 Maternal time period values can be found in the subhierarchies below:
 
-<figure><img src="../../../../../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Generally, it is clear what the appropriate value is, but some knowledge is required to distinguish the correct choice in some circumstances. Definitions have been added to aid in correct selection.
 
@@ -75,7 +75,7 @@ Use of the term _obstetric_ is confusing in regards to both timing and determina
 
 Similar to the Maternal time periods above, the fetal period is the superordinate as illustrated below. There is no label for the concatenated time of the actor during the fetal and neonatal period within medicine (though colloquially called baby), and so the superordinate is named _fetal and/or neonate_. Similarly, to find concepts which describe conditions of this global phase requires a preferred term expressing this, but in the case of perinatal conditions relating to the fetus and/or early neonate, the word perinatal is commonly used as a substitute.
 
-<figure><img src="../../../../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (39) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 When modeling a fetal finding or fetal disorder, the |Finding site (attribute)| should not be a _fetal_ body structure unless the structure is unique to the fetal period, such as |Umbilical cord structure (body structure)|.

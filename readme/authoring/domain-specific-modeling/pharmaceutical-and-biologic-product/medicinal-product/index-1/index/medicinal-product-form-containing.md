@@ -74,14 +74,14 @@ Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-<figure><img src="../../../../../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (22).png" alt=""><figcaption><p><strong>Stated</strong> view for 773391004 |Product containing axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 773391004 |Product containing axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (23).png" alt=""><figcaption><p><strong>Inferred</strong> view for 773391004 |Product containing axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 773391004 |Product containing axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (24).png" alt=""><figcaption><p><strong>Stated</strong> view for 767783007 |Product containing codeine and paracetamol in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 767783007 |Product containing codeine and paracetamol in oral dose form (medicinal product form)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (25).png" alt=""><figcaption><p><strong>Inferred</strong> view for 767783007 |Product containing codeine and paracetamol in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 767783007 |Product containing codeine and paracetamol in oral dose form (medicinal product form)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690705.png" alt=""><figcaption></figcaption></figure>

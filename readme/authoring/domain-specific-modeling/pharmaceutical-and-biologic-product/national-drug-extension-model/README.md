@@ -1,15 +1,14 @@
 # National Drug Extension Model
 
-## National Drug Extension Model
-
 ## Model Overview
 
-The diagram below shows the concept classes for the extension model with the related concept classes from the international medicinal product model. No role or grouper classes (i.e., parents of the international Medicinal Product (MP) class) are shown in the diagram. It is expected that all grouping classes (based on substance structure, disposition and therapeutic role) will be inherited from the international release. For all of the classes in the national drug extension model, the closed world view applies. Products are defined using only the active ingredient substances as authorised by the regulatory agency in the particular jurisdiction of use. Packs are defined using only the clinical drug concepts that they are composed of (contain) (see also [Supporting Attributes](../../../../../authoring/pharmaceutical-and-biologic-product/Supporting-Attributes_308610855.html)).
+The diagram below shows the concept classes for the extension model with the related concept classes from the international medicinal product model. No role or grouper classes (i.e., parents of the international Medicinal Product (MP) class) are shown in the diagram. It is expected that all grouping classes (based on substance structure, disposition and therapeutic role) will be inherited from the international release. For all of the classes in the national drug extension model, the closed world view applies. Products are defined using only the active ingredient substances as authorised by the regulatory agency in the particular jurisdiction of use. Packs are defined using only the clinical drug concepts that they are composed of (contain) (see also [Supporting Attributes](supporting-attributes.md)).
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/308610731.png" alt=""><figcaption><p><em><strong>Figure 1: Diagram of the classes of the SNOMED CT national extension model for Medicinal Products</strong></em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption><p><em><strong>Diagram of the classes of the SNOMED CT national extension model for Medicinal Products</strong></em></p></figcaption></figure>
 
-_In the diagram, the MP classes are shown in shades of blue, the MPF classes in shades of yellow, the CD classes in shades of green and the PCD classes in shades of orange; the concepts represent the real world medicinal products available within a nation and described within that extension are shown in the brighter shades\*\*._\
-\&#xNAN;_\*\*_
+{% hint style="info" %}
+_In the diagram, the MP classes are shown in shades of blue, the MPF classes in shades of yellow, the CD classes in shades of green and the PCD classes in shades of orange; the concepts represent the real world medicinal products available within a nation and described within that extension are shown in the brighter shade&#x73;**.**_
+{% endhint %}
 
 ## Classes of National Drug Extension Model
 
@@ -38,10 +37,8 @@ Extensions may wish to populate and use all of the classes described in the mode
 
 For example,
 
-* ```
-  * Some nations may not require packaged clinical drug or real packaged clinical drug concepts if all products are licensed and used in healthcare at the real clinical drug level.
-  ```
-  * Conversely, if a nation licenses all its products at the real packaged clinical drug level and uses those concepts in their healthcare culture, the real clinical drug class should be populated, as it acts as a grouper concept for all the packages associated with it. This grouper concept is important particularly if extensions require additional product characteristic information, such as for excipients of concern.
+* &#x20;Some nations may not require packaged clinical drug or real packaged clinical drug concepts if all products are licensed and used in healthcare at the real clinical drug level.
+* Conversely, if a nation licenses all its products at the real packaged clinical drug level and uses those concepts in their healthcare culture, the real clinical drug class should be populated, as it acts as a grouper concept for all the packages associated with it. This grouper concept is important particularly if extensions require additional product characteristic information, such as for excipients of concern.
 
 Similarly, some nations may require the MP Precisely concept for some classes of medicines where the precise ingredient substance can affect the clinical characteristics such as potency (e.g., glucocorticosteroids) if these concepts need to be available to support _dose based prescribing_ (i.e., prescribing that specifies a medicine concept, plus a route of administration, a dose quantity and a dose frequency, but does not specify a dose form or a strength, so therefore not a clinical drug with its precise ingredient substance). MP Precisely concepts can be authored in a national extension.
 
@@ -62,3 +59,7 @@ The international core content of SNOMED CT will provide all the **attribute** *
 For various reasons, not all the individual Medicinal Product and Clinical Drug concepts that a nation requires may be present in the International edition; some additional content may require authoring in the nation's own extension. All the substance, dose form, unit of presentation, and package type concepts to value the attributes should be available in the international content to satisfy the interoperability use cases for the medicinal product hierarchy. Strengths can be described accurately using the appropriate integer or decimal, following editorial rules.
 
 All concepts in the classes of the national extension model should be modelled using the proximal primitive parent modeling pattern and be fully defined wherever possible, using the attribute relationships and values from the international content for the substance, dose form and unit of presentation concepts and values from the national extension for product names and manufacturer/supplier organisations, but it is accepted that some primitive concepts may have to be authored.
+
+{% hint style="info" %}
+**Please note in the following diagrams, the terming pattern for the Fully Specified Name and other descriptions is not finalised, and more than one terming pattern has been used in the diagrams in this specification.  General terming guidance for all concepts in this specification will be issued in the future, acknowledging that different countries and different languages will need to adapt to their local needs.**
+{% endhint %}
