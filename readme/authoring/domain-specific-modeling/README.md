@@ -4,31 +4,95 @@ SNOMED CT is arranged as a polyhierarchy. A _hierarchy_ is defined as an ordered
 
 Selected SNOMED CT attributes have a hierarchical relationship to one another known as _attribute hierarchies_. In an attribute hierarchy, one general attribute is the parent of one or more specific subtypes of that attribute. Concepts defined using the more general attribute can inherit concepts modeled with the more specialized subtypes of that attribute.
 
-Domains
+## Domains
 
 The following are the 19 domains arranged in alphabetical order.
 
-* [Body Structure](body-structure/)
-* [Clinical Finding and Disorder](clinical-finding-and-disorder/)
-* [Environment and Geographical Location](environment-and-geographical-location.md)
-* [Event](event/)
-* [Observable Entity](observable-entity/)
-* [Organism](organism/)
-* [Pharmaceutical and Biologic Product](pharmaceutical-and-biologic-product/)
-* [Physical Force](physical-force.md)
-* [Physical Object](physical-object/)
-* [Procedure](procedure/)
-* [Qualifier Value](qualifier-value/)
-* [Record Artifact](record-artifact.md)
-* [Situation with Explicit Context](situation-with-explicit-context/)
-* [SNOMED CT Model Component](snomed-ct-model-component.md)
-* Social Context
-* [Special Concept](special-concept.md)
-* [Specimen](../../../Specimen_174691394.html)
-* [Staging and Scales](staging-and-scales.md)
-* [Substance](substance/)
+{% columns %}
+{% column %}
+{% content-ref url="body-structure/" %}
+[body-structure](body-structure/)
+{% endcontent-ref %}
 
-The following subhierarchies do not have concept models:
+{% content-ref url="clinical-finding-and-disorder/" %}
+[clinical-finding-and-disorder](clinical-finding-and-disorder/)
+{% endcontent-ref %}
+
+{% content-ref url="environment-and-geographical-location.md" %}
+[environment-and-geographical-location.md](environment-and-geographical-location.md)
+{% endcontent-ref %}
+
+{% content-ref url="event/" %}
+[event](event/)
+{% endcontent-ref %}
+
+{% content-ref url="observable-entity/" %}
+[observable-entity](observable-entity/)
+{% endcontent-ref %}
+
+{% content-ref url="organism/" %}
+[organism](organism/)
+{% endcontent-ref %}
+
+{% content-ref url="pharmaceutical-and-biologic-product/" %}
+[pharmaceutical-and-biologic-product](pharmaceutical-and-biologic-product/)
+{% endcontent-ref %}
+
+{% content-ref url="physical-force.md" %}
+[physical-force.md](physical-force.md)
+{% endcontent-ref %}
+
+{% content-ref url="physical-object/" %}
+[physical-object](physical-object/)
+{% endcontent-ref %}
+{% endcolumn %}
+
+{% column %}
+{% content-ref url="procedure/" %}
+[procedure](procedure/)
+{% endcontent-ref %}
+
+{% content-ref url="qualifier-value/" %}
+[qualifier-value](qualifier-value/)
+{% endcontent-ref %}
+
+{% content-ref url="record-artifact.md" %}
+[record-artifact.md](record-artifact.md)
+{% endcontent-ref %}
+
+{% content-ref url="situation-with-explicit-context/" %}
+[situation-with-explicit-context](situation-with-explicit-context/)
+{% endcontent-ref %}
+
+{% content-ref url="snomed-ct-model-component.md" %}
+[snomed-ct-model-component.md](snomed-ct-model-component.md)
+{% endcontent-ref %}
+
+{% content-ref url="snomed-ct-model-component-1.md" %}
+[snomed-ct-model-component-1.md](snomed-ct-model-component-1.md)
+{% endcontent-ref %}
+
+{% content-ref url="special-concept.md" %}
+[special-concept.md](special-concept.md)
+{% endcontent-ref %}
+
+{% content-ref url="specimen/" %}
+[specimen](specimen/)
+{% endcontent-ref %}
+
+{% content-ref url="staging-and-scales.md" %}
+[staging-and-scales.md](staging-and-scales.md)
+{% endcontent-ref %}
+
+{% content-ref url="substance/" %}
+[substance](substance/)
+{% endcontent-ref %}
+
+
+{% endcolumn %}
+{% endcolumns %}
+
+#### The following subhierarchies do not have concept models:
 
 * Environment or geographical location (environment / location)
 * Organism (organism)

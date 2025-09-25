@@ -1,6 +1,6 @@
 # Clinical Finding and Disorder
 
-<table><thead><tr><th width="132.0546875">Hierarchy</th><th width="271.7578125">Definition</th><th>Example</th></tr></thead><tbody><tr><td>Clinical finding</td><td>Nnormal/abnormal observations, judgments, or assessments of patients </td><td>167222005 | Abnormal urinalysis (finding) | </td></tr><tr><td>Disorder</td><td>Always and necessarily an abnormal clinical state</td><td>39579001 | Anaphylaxis (disorder) |</td></tr></tbody></table>
+<table><thead><tr><th width="132.0546875">Hierarchy</th><th width="271.7578125">Definition</th><th>Example</th></tr></thead><tbody><tr><td>Clinical finding</td><td>Nnormal/abnormal observations, judgments, or assessments of patients</td><td>167222005 | Abnormal urinalysis (finding) |</td></tr><tr><td>Disorder</td><td>Always and necessarily an abnormal clinical state</td><td>39579001 | Anaphylaxis (disorder) |</td></tr></tbody></table>
 
 Clinical findings or observations are the active acquisition of subjective or objective information from a primary source. This includes information acquired from human observers, through recording of data via the use of scientific instruments, or indirectly from samples taken from the source, and evaluated separately.
 
@@ -27,11 +27,25 @@ The distinction between a disorder and a finding may be difficult to define. The
 
 #### Disorder vs Finding
 
-<table><thead><tr><th width="117.6953125">Hierarchy</th><th>Characteristics</th></tr></thead><tbody><tr><td>Disorder</td><td><p>-Always and necessarily abnormal </p><p>-Necessarily have an underlying pathological process </p><p>-Have temporal persistence (may be under treatment, in remission, or inactive, even though they are still present) </p><p>-May be present as a propensity for certain abnormal states to occur, even when treatment mitigates or resolves those abnormal states</p></td></tr><tr><td>Finding</td><td><p>-May be normal (but not necessarily) </p><p>-May exist only at a single point in time (e.g. a serum sodium level) </p><p>-Cannot be temporally separate from the observation (one cannot observe them and say they are absent, nor can they be present when they cannot be observed) </p><p>-Cannot be defined only in terms of an underlying pathological process that is present, when the observation itself is not present</p></td></tr></tbody></table>
+<table><thead><tr><th width="117.6953125">Hierarchy</th><th>Characteristics</th></tr></thead><tbody><tr><td>Disorder</td><td><p>-Always and necessarily abnormal</p><p>-Necessarily have an underlying pathological process</p><p>-Have temporal persistence (may be under treatment, in remission, or inactive, even though they are still present)</p><p>-May be present as a propensity for certain abnormal states to occur, even when treatment mitigates or resolves those abnormal states</p></td></tr><tr><td>Finding</td><td><p>-May be normal (but not necessarily)</p><p>-May exist only at a single point in time (e.g. a serum sodium level)</p><p>-Cannot be temporally separate from the observation (one cannot observe them and say they are absent, nor can they be present when they cannot be observed)</p><p>-Cannot be defined only in terms of an underlying pathological process that is present, when the observation itself is not present</p></td></tr></tbody></table>
 
 In some cases the disease process is irrefutable, e.g., meningococcal meningitis. In others an underlying disease process is assumed based on the temporal and causal association of the disorder and its manifestation, e.g., nystagmus (disorder) is different from nystagmus present (finding). Nystagmus present (finding) may be a normal physiological response to head rotation. A person who spins around and has nystagmus present (finding), does not have nystagmus (disorder). Alternatively, a person may have nystagmus (disorder), but not nystagmus present (finding), i.e., they do not currently manifest nystagmus. Similarly, hearing loss (disorder) is different from perception of hearing loss (finding), which can be due to a number of temporary causes, such as excessive ear wax.
 
-* [Clinical Finding Attributes Summary](clinical-finding-attributes-summary.md)
-* [Clinical Finding Defining Attributes](clinical-finding-defining-attributes.md)
-* [Clinical Finding and Disorder Naming Conventions](index/)
-* [Clinical finding and Disorder Modeling](clinical-finding-and-disorder-modeling/)
+## Topics in this section
+
+{% content-ref url="clinical-finding-attributes-summary.md" %}
+[clinical-finding-attributes-summary.md](clinical-finding-attributes-summary.md)
+{% endcontent-ref %}
+
+{% content-ref url="clinical-finding-defining-attributes.md" %}
+[clinical-finding-defining-attributes.md](clinical-finding-defining-attributes.md)
+{% endcontent-ref %}
+
+{% content-ref url="index/" %}
+[index](index/)
+{% endcontent-ref %}
+
+{% content-ref url="clinical-finding-and-disorder-modeling/" %}
+[clinical-finding-and-disorder-modeling](clinical-finding-and-disorder-modeling/)
+{% endcontent-ref %}
+

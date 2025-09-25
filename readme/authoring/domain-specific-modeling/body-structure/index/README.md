@@ -2,7 +2,13 @@
 
 This section contains naming conventions for anatomical structures in SNOMED CT.
 
-## Pages in this section:
+## Topics in this section
 
-- [Naming Convention for SEP Model](naming-convention-for-sep-model.md)
-- [Naming Convention for Digits of Hand and Foot](naming-convention-for-digits-of-hand-and-foot.md)
+{% content-ref url="naming-convention-for-sep-model.md" %}
+[naming-convention-for-sep-model.md](naming-convention-for-sep-model.md)
+{% endcontent-ref %}
+
+{% content-ref url="naming-convention-for-digits-of-hand-and-foot.md" %}
+[naming-convention-for-digits-of-hand-and-foot.md](naming-convention-for-digits-of-hand-and-foot.md)
+{% endcontent-ref %}
+
