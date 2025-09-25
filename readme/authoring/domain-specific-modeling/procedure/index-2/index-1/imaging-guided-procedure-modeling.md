@@ -22,7 +22,7 @@ For example,
 
 In Aspiration of cyst using ultrasonic guidance (procedure), the Ultrasound imaging role group will include a Direct morphology (attribute) of Cyst (morphologic abnormality). &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### Fluoroscopic guidance <a href="#fluoroscopic-guidance" id="fluoroscopic-guidance"></a>
 
@@ -38,7 +38,7 @@ _X_ _using fluoroscopic guidance (procedure)_ is a subtype of Fluoroscopy (proce
       * Has intent (attribute) of Guidance intent (qualifier value)
 
 {% hint style="info" %}
-See also [_Clinical imaging procedure naming conventions_ section](../index-1/index/)
+See also [_Clinical imaging procedure naming conventions_ section](../../index-1/index/)
 {% endhint %}
 
 \

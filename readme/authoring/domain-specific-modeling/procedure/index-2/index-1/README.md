@@ -4,4 +4,4 @@ When an imaging procedure involves visualization of a device and/or a morphologi
 
 For example
 
-<figure><img src="../../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Stated view of 445867003 |Ultrasound angiography of arteriovenous fistula (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Stated view of 445867003 |Ultrasound angiography of arteriovenous fistula (procedure)|</p></figcaption></figure>
