@@ -16,16 +16,18 @@ All of these defining relationships should be grouped to indicate that the abnor
 
 The following guidelines apply:
 
-A disorder with the word _congenital_ in the FSN should classify under [66091009 |Congenital disease (disorder)|](http://snomed.info/id/66091009).
+A disorder with the word _congenital_ in the FSN should classify under 66091009 |Congenital disease (disorder)|.
 
-Congenital X (morphologic abnormality) concepts are being inactivated hence Congenital anomaly disorder grouper concepts, such as [9904008 |Congenital anomaly of cardiovascular system (disorder)|](http://snomed.info/id/9904008), should be modeled with an Associated morphology (attribute) of 49755003 |Morphologically abnormal structure (morphologic abnormality)I and a Pathological process relationship.
+Congenital X (morphologic abnormality) concepts are being inactivated hence Congenital anomaly disorder grouper concepts, such as 9904008 |Congenital anomaly of cardiovascular system (disorder)|, should be modeled with an Associated morphology (attribute) of 49755003 |Morphologically abnormal structure (morphologic abnormality)I and a Pathological process relationship.
 
 Whether creating new or revising existing concepts, only use Congenital X (morphologic abnormality) concepts if no non-congenital supertype of that morphologic abnormality is active.
 
-* For example, use[ 399898009 |Misalignment (morphologic abnormality)|](http://snomed.info/id/399898009) not[ 102283003 |Congenital misalignment (morphologic abnormality)|](http://snomed.info/id/102283003)
+* For example, use 399898009 |Misalignment (morphologic abnormality)| not 102283003 |Congenital misalignment (morphologic abnormality)|
 
 {% hint style="warning" %}
-According to the American Medical Association, the periods of life in the _postnatal period_ include all periods after birth including the neonatal or immediate postpartum period. It may be challenging to differentiate a congenital disorder from a neonatal disorder. A condition may be present at birth, i.e. congenital; however, clinical manifestations may take longer to appear, i.e. during the neonatal period (e.g. [14333004 |Alloimmune neonatal neutropenia (disorder)|](http://snomed.info/id/14333004)).
+**Neonatal period**
+
+According to the American Medical Association, the periods of life in the _postnatal period_ include all periods after birth including the neonatal or immediate postpartum period. It may be challenging to differentiate a congenital disorder from a neonatal disorder. A condition may be present at birth, i.e. congenital; however, clinical manifestations may take longer to appear, i.e. during the neonatal period (e.g. 14333004 |Alloimmune neonatal neutropenia (disorder)|).
 {% endhint %}
 
 When modeling a congenital neoplasm disorder, the attribute-value relationship of _Pathological process (attribute) = Pathological development process (qualifier value)_ is not used.
@@ -34,11 +36,11 @@ When modeling a congenital neoplasm disorder, the attribute-value relationship o
 
 While some disorders are _only_ congenital or _only_ acquired, some disorders may be _either_ congenital or acquired. The \_ acquired\_ form should only exist when there is a need to differentiate from the congenital form. Do not model a disorder as acquired if a congenital variant does not exist.
 
-Congenital disorders are modeled using [246454002 |Occurrence (attribute)|](http://snomed.info/id/246454002) of [255399007 |Congenital (qualifier value)|](http://snomed.info/id/255399007). If the FSN does not include _congenital_ , it should not be modeled as congenital. The precise meaning of the FSN should be followed (e.g. many hereditary disorders have congenital appearances).
+Congenital disorders are modeled using 246454002 |Occurrence (attribute)| of 255399007 |Congenital (qualifier value)|. If the FSN does not include _congenital_ , it should not be modeled as congenital. The precise meaning of the FSN should be followed (e.g. many hereditary disorders have congenital appearances).
 
 For example,
 
-[33534005 |Congenital bowing of femur (disorder)|](http://snomed.info/id/33534005) is modeled with [246454002 |Occurrence (attribute)|](http://snomed.info/id/246454002) of [255399007 |Congenital (qualifier value)|](http://snomed.info/id/255399007)
+33534005 |Congenital bowing of femur (disorder)| is modeled with 246454002 |Occurrence (attribute)| of 255399007 |Congenital (qualifier value)|
 
 <figure><img src="../../../../../../.gitbook/assets/image (32) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -56,7 +58,11 @@ For example,
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690518.png" alt=""><figcaption><p>Stated view of 240253004 |Acquired abduction deformity of foot (disorder)|</p></figcaption></figure>
 
-When revising acquired disorders, remove any acquired morphologies and replace with general parent morphologies, e.g. replace [127560004 |Acquired deformity (morphologic abnormality)|](http://snomed.info/id/127560004) with [6081001 |Deformity (morphologic abnormality)|](http://snomed.info/id/6081001). Then add Occurrence attribute with a value of 767023003 | Period of life beginning after birth and ending before death (qualifier value)|. One of its children may also be used if the FSN states the period of life, such as _Childhood_ or _Adulthood_.
+{% hint style="info" %}
+**Remodeling Acquired Disorders**
+
+When revising acquired disorders, remove any acquired morphologies and replace with general parent morphologies, e.g. replace 127560004 |Acquired deformity (morphologic abnormality)| with 6081001 |Deformity (morphologic abnormality)|. Then add Occurrence attribute with a value of 767023003 | Period of life beginning after birth and ending before death (qualifier value)|. One of its children may also be used if the FSN states the period of life, such as _Childhood_ or _Adulthood_.
+{% endhint %}
 
 ## Congenital absence
 
