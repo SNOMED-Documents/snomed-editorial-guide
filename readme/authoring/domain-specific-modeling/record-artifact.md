@@ -1,8 +1,6 @@
 # Record Artifact
 
-| Definition                           | Examples                                                                                                                         |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| Clinical documents, or parts thereof | <ul><li>422813005 | Document section (record artifact) | </li><li>416575001 | Perioperative record (record artifact) |</li></ul> |
+<table><thead><tr><th width="298.8697509765625">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Clinical documents, or parts thereof</td><td><ul><li>422813005 | Document section (record artifact) | </li><li>416575001 | Perioperative record (record artifact) |</li></ul></td></tr></tbody></table>
 
 A &#x72;_&#x65;cord artifact_ is an entity that is created by a person or persons for the purpose of providing other people with information about events or states of affairs.
 
