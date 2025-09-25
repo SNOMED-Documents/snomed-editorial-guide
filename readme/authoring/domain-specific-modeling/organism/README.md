@@ -32,7 +32,7 @@ When modeling organisms with qualifiers, the qualifier should be placed in front
   * 8745002 | Gram-positive bacterium (organism) |
     * 416983001 | Helical Gram-negative bacillus (organism) |
 
-### Physiology qualifiers\*\*\*\*
+### Physiology qualifiers
 
 * For example, a non-Linnaean class of bacteria described by physiology
   * 59343002 | Anaerobic bacteria (organism) |
