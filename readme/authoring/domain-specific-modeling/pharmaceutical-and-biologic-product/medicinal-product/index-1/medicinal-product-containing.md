@@ -71,12 +71,12 @@ Synonyms matching the FSN are not required.
 
 <figure><img src="../../../../../../.gitbook/assets/image (86).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 714627007 |Product containing aflibercept (medicinal product)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 714627007 |Product containing aflibercept (medicinal product)|:</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 714627007 |Product containing aflibercept (medicinal product)</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 714627007 |Product containing aflibercept (medicinal product)</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p> <strong>Stated</strong> view for a multiple active ingredient product, 412556009 |Product containing codeine and paracetamol (medicinal product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption><p> <strong>Stated</strong> view for a multiple active ingredient product, 412556009 |Product containing codeine and paracetamol (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for the multiple active ingredient product, 412556009 |Product containing codeine and paracetamol (medicinal product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for the multiple active ingredient product, 412556009 |Product containing codeine and paracetamol (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690630.png" alt=""><figcaption></figcaption></figure>

@@ -58,7 +58,7 @@ This attribute is used to model concepts in which a clinical finding occurs afte
 
 123948009 |Disorder following viral disease (disorder)| occurs After [34014006 |Viral disease (disorder)|](http://snomed.info/id/34014006)
 
-<figure><img src="../../../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption><p>Stated view of 123948009 |Disorder following viral disease (disor</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption><p>Stated view of 123948009 |Disorder following viral disease (disor</p></figcaption></figure>
 
 {% hint style="info" %}
 Post-infectious disorders are not subtypes of infectious disorders (unless the disorder is itself an infectious disease). The |After (attribute)| is used for linking post-infectious disorders with their associated infections.
@@ -80,7 +80,7 @@ This attribute is used to model a disorder that occurs during a procedure.
 
 **Example**
 
-<figure><img src="../../../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p>Stated view of 713890008 |Hypoxemia during surgery (disorder)</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption><p>Stated view of 713890008 |Hypoxemia during surgery (disorder)</p></figcaption></figure>
 
 #### During with causal relationship
 
@@ -102,7 +102,7 @@ These conditions should be modeled with _After_ (and also _Due to_ if there is a
 >
 > * Disorder due to and following another disorder = 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|
 
-<figure><img src="../../../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p>Stated view of 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption><p>Stated view of 698737005 |Obstructive hydrocephalus due to and following meningitis (disorder)|</p></figcaption></figure>
 
 ### Naming conventions for sequelae
 

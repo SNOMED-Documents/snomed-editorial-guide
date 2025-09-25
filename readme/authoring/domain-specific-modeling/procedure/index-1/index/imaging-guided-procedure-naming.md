@@ -16,9 +16,7 @@ There are numerous procedures where the imaging component is considered a supple
 
 For example,
 
-* ```
-  * [ 431864000 | Injection using computed tomography guidance (procedure)|](http://snomed.info/id/431864000 "431864000 | Injection using computed tomography guidance \(procedure\) |")
-  ```
+* 431864000 | Injection using computed tomography guidance (procedure)|
   * FSN: Injection using computed tomography guidance (procedure)
   * PT: CT guided injection
   * SYN: Injection using computed tomography guidance
@@ -31,9 +29,7 @@ For example,
 
 For example,
 
-* ```
-  * [ 773291002 | Biopsy of abdomen using fluoroscopic guidance (procedure)|](http://snomed.info/id/773291002 "773291002 | Biopsy of abdomen using fluoroscopic guidance \(procedure\) |")
-  ```
+* 773291002 | Biopsy of abdomen using fluoroscopic guidance (procedure)|
   * FSN: Biopsy of abdomen using fluoroscopic guidance (procedure)
   * PT: Fluoroscopy guided biopsy of abdomen
   * SYN: Biopsy of abdomen using fluoroscopic guidance
@@ -50,9 +46,7 @@ The term _fluoroscopic Y_ is interpreted as _Y using fluoroscopic guidance (proc
 
 For example,
 
-* ```
-  * [ 433008009 | Core needle biopsy of breast using magnetic resonance imaging guidance (procedure)|](http://snomed.info/id/433008009 "433008009 | Core needle biopsy of breast using magnetic resonance imaging guidance \(procedure\) |")
-  ```
+* 433008009 | Core needle biopsy of breast using magnetic resonance imaging guidance (procedure)|
   * FSN: Core needle biopsy of breast using magnetic resonance imaging guidance (procedure)
   * PT: MRI guided core needle biopsy of breast
   * SYN: Core needle biopsy of breast using magnetic resonance imaging guidance
@@ -66,9 +60,7 @@ For example,
 
 For example,
 
-* ```
-  * [ 431811004 | Biopsy of wrist using ultrasonographic guidance (procedure)|](http://snomed.info/id/431811004 "431811004 | Biopsy of wrist using ultrasonographic guidance \(procedure\) |")
-  ```
+* 431811004 | Biopsy of wrist using ultrasonographic guidance (procedure)|
   * FSN: Biopsy of wrist using ultrasonographic guidance (procedure)
   * PT: Ultrasonography guided biopsy of wrist
   * SYN: Biopsy of wrist using ultrasonographic guidance
@@ -82,9 +74,7 @@ For example,
 
 For example,
 
-* ```
-  * [ 718674009 | Injection of steroid using X-ray guidance (procedure)|](http://snomed.info/id/718674009 "718674009 | Injection of steroid using X-ray guidance \(procedure\) |")
-  ```
+* 718674009 | Injection of steroid using X-ray guidance (procedure)|
   * FSN: Injection of steroid using plain X-ray guidance (procedure)
   * PT: Plain X-ray guided steroid injection
   * SYN: Injection of steroid using plain X-ray guidance

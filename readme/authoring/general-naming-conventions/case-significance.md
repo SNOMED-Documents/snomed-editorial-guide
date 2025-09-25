@@ -28,7 +28,7 @@ Special attention is to be paid to the possibility of altering the semantics of 
 * For example,
   * The subtypes of 365638007 |Finding of Rh blood group (finding)| vary in meaning depending upon the description's case of the letters c, d, and e.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated view of 365638007 |Finding of Rh blood group (finding)| and subtypes</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated view of 365638007 |Finding of Rh blood group (finding)| and subtypes</p></figcaption></figure>
 
 {% hint style="success" %}
 Case sensitivity can be changed on an existing description without inactivating the description.

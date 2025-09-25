@@ -29,56 +29,46 @@ For example,
 
 #### Example 1: 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|
 
-<figure><img src="../../../../../authoring/procedure/images/174691303.png" alt=""><figcaption><p>Figure 1. Stated diagrammatic view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Stated diagrammatic view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/procedure/images/174691306.png" alt=""><figcaption><p>Figure 2. Inferred browser view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p> Inferred browser view of 304093002 |Reconstruction using local subcutaneous pedicle osteomyocutaneous flap (procedure)|</p></figcaption></figure>
 
 #### Example 2: 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|
 
-<figure><img src="../../../../../authoring/procedure/images/174691305.png" alt=""><figcaption><p>Figure 3. Stated diagrammatic view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Stated diagrammatic view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/procedure/images/174691304.png" alt=""><figcaption><p>Figure 4. Inferred browser view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Inferred browser view of 14390001000004103 |Reconstruction of mouth using pectoralis major myocutaneous flap (procedure)|</p></figcaption></figure>
 
 ## Flap procedure naming
 
-### Simple procedure terming
+#### Simple procedure terming <a href="#simple-procedure-terming" id="simple-procedure-terming"></a>
 
-FSN: Reconstruction using flap (procedure)
+* FSN:  Reconstruction using flap (procedure) &#x20;
+* PT:     Reconstruction using flap&#x20;
+* SYN:  Reconstruction with flap
+* SYN:  Flap reconstruction \[optional]&#x20;
 
-PT: Reconstruction using flap
+For example,&#x20;
 
-SYN: Reconstruction with flap
+* FSN:  Reconstruction using free flap (procedure) &#x20;
+* PT:     Reconstruction using free flap&#x20;
+* SYN:  Reconstruction with free flap
+* SYN:  Free flap reconstruction \[optional]&#x20;
 
-SYN: Flap reconstruction \[optional]
+#### Flap reconstruction 2 <a href="#flap-reconstruction-2" id="flap-reconstruction-2"></a>
 
-For example,
-
-FSN: Reconstruction using free flap (procedure)
-
-PT: Reconstruction using free flap
-
-SYN: Reconstruction with free flap
-
-SYN: Free flap reconstruction \[optional]
-
-### Flap reconstruction 2
-
-FSN: Reconstruction of x body structure using y flap (procedure)
-
-PT: Reconstruction of x body structure using y flap
-
-SYN: Reconstruction of x body structure with y flap
-
-SYN: y flap reconstruction of x body structure \[optional]
+* FSN:  Reconstruction of x body structure using y flap (procedure) &#x20;
+* PT:     Reconstruction of x body structure using y flap&#x20;
+* SYN:  Reconstruction of x body structure with y flap
+* SYN:  y flap reconstruction of x body structure \[optional]&#x20;
 
 For example,
 
-FSN: Reconstruction of breast using pedicle transverse rectus abdominis myocutaneous flap (procedure)
+* FSN: Reconstruction of breast using pedicle transverse rectus abdominis myocutaneous flap (procedure) &#x20;
+* PT: Reconstruction of breast using pedicle transverse rectus abdominis myocutaneous flap&#x20;
+* SYN: Reconstruction of breast with pedicle transverse rectus abdominis myocutaneous flap&#x20;
+* SYN: Breast reconstruction using pedicle transverse rectus abdominis myocutaneous flap \[optional]&#x20;
 
-PT: Reconstruction of breast using pedicle transverse rectus abdominis myocutaneous flap
-
-SYN: Reconstruction of breast with pedicle transverse rectus abdominis myocutaneous flap
-
-SYN: Breast reconstruction using pedicle transverse rectus abdominis myocutaneous flap \[optional]
-
-Existing flap procedure concepts may not align with this new terming. No new ‘flap graft’ procedures should be added going forward.
+{% hint style="danger" %}
+Existing flap procedure concepts may not align with this new terming.  No new ‘flap graft’ procedures should be added going forward.
+{% endhint %}

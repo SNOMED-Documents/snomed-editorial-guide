@@ -59,16 +59,16 @@ For national extensions modeling using "vaccine containing only" product concept
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for top level grouper 219075006 |Adverse reaction to vaccine product containing bacteria antigen (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (18) (1) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for top level grouper 219075006 |Adverse reaction to vaccine product containing bacteria antigen (disorder)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption><p><strong>inferred</strong> view for top level grouper 219075006 |Adverse reaction to vaccine product containing bacteria antigen (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption><p><strong>inferred</strong> view for top level grouper 219075006 |Adverse reaction to vaccine product containing bacteria antigen (disorder)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for single ingredient vaccine 293126009 |Adverse reaction to vaccine product containing Hepatitis A virus antigen (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (20) (1) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for single ingredient vaccine 293126009 |Adverse reaction to vaccine product containing Hepatitis A virus antigen (disorder)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for single ingredient vaccine 293126009 |Adverse reaction to vaccine product containing Hepatitis A virus antigen (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (21) (1) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for single ingredient vaccine 293126009 |Adverse reaction to vaccine product containing Hepatitis A virus antigen (disorder)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for multiple ingredient vaccine 293125008 |Adverse reaction to vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (23) (1) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for multiple ingredient vaccine 293125008 |Adverse reaction to vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption><p> I<strong>nferred</strong> view for multiple ingredient vaccine 293125008 |Adverse reaction to vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)|:</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (24) (1) (1) (1).png" alt=""><figcaption><p> I<strong>nferred</strong> view for multiple ingredient vaccine 293125008 |Adverse reaction to vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)|:</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690451.png" alt=""><figcaption></figcaption></figure>

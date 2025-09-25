@@ -41,9 +41,13 @@ For example,
 
 * 231274008 |Injection of steroid into joint (procedure)| has Direct substance (attribute) of Steroid (substance)
 
-<figure><img src="../../../../../../authoring/domain-specific-modeling/procedure/procedure-attributes-summary/procedure-attributes/images/174691346.png" alt=""><figcaption><p>Figure 1. Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
+
+{% hint style="warning" %}
+**Pharmaceutical / biologic product**
 
 Although Pharmaceutical / biologic product (product) and its descendants are considered valid values for the Direct substance (attribute) by the MRCM, they are not currently used as values for this attribute in the International Release. The only exception is 787859002 |Vaccine product (medicinal product)| and its descendants, which can be used as valid values for this attribute.
+{% endhint %}
 
 ## Has focus
 
@@ -62,7 +66,7 @@ The Has intent attribute should be grouped with other attributes that represent 
 For example,
 
 * [108249004 | Audiologic AND/OR audiometric test including vestibular function (procedure)|](http://snomed.info/id/108249004) is inherently diagnostic, so it would not be modeled with a Has intent (attribute) of Diagnostic intent (qualifier value).
-  * \_[ 274432006 | Therapeutic aspiration of ovary (procedure)|](http://snomed.info/id/274432006) \_and [274389009 | Diagnostic aspiration of ovary (procedure)|](http://snomed.info/id/274389009) are both modeled with the Has intent (attribute), as the aspiration of ovary procedure can be either therapeutic or diagnostic.
+* [274432006 | Therapeutic aspiration of ovary (procedure)|](http://snomed.info/id/274432006) and [274389009 | Diagnostic aspiration of ovary (procedure)|](http://snomed.info/id/274389009) are both modeled with the Has intent (attribute), as the aspiration of ovary procedure can be either therapeutic or diagnostic.
 
 ## Indirect device
 
@@ -147,9 +151,11 @@ For example,
 
 * 33195004 |External beam radiation therapy procedure (procedure)| has Procedure approach (attribute) of External approach (qualifier value).
 
-<figure><img src="../../../../../../authoring/domain-specific-modeling/procedure/procedure-attributes-summary/procedure-attributes/images/273515817.png" alt=""><figcaption><p>29795009 |Open reduction of orbital floor blowout fracture by periorbital approach (procedure)| has Procedure approach (attribute) of Periorbital approach (qualifier value).</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/domain-specific-modeling/procedure/procedure-attributes-summary/procedure-attributes/images/273515818.png" alt=""><figcaption></figcaption></figure>
+9795009 |Open reduction of orbital floor blowout fracture by periorbital approach (procedure)| has Procedure approach (attribute) of Periorbital approach (qualifier value).
+
+<figure><img src="../../../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ## Procedure device
 
@@ -161,15 +167,23 @@ For example,
 
 * [276272002 | Catheter procedure (procedure)|](http://snomed.info/id/276272002) has Procedure device of Catheter, device (physical object)
 
+{% hint style="warning" %}
+**Procedure device**
+
 The attribute values in the Procedure Device hierarchy include Device (physical object) and its descendants.
 
 There are a limited number of drug delivery devices in SNOMED CT. These concepts descend from Drug-device combination product (product) which is a descendant of both Device (physical object) and Pharmaceutical / biologic product (product). Although they carry the hierarchy tag of (product), they are acceptable values for attributes in the Procedure Device attribute hierarchy.
+{% endhint %}
 
 ## Procedure morphology
 
 Procedure morphology (attribute) is used to specify the morphology, or abnormal structure, involved in a procedure. It is used when defining general concepts that subsume direct and indirect morphology. It subsumes the more specific attributes, Direct and Indirect Morphology. These should be used, if possible.
 
+{% hint style="warning" %}
+**Morphologically abnormal structures**
+
 Hematoma, calculus, foreign body, blood clot, embolus, and some other morphologies are not strictly body structures. But, they are included in the body structure hierarchy under morphologically abnormal structure and are valid values for the Procedure Morphology attributes.
+{% endhint %}
 
 ## Procedure site
 
@@ -190,7 +204,10 @@ When modeling procedures where the Method is _Removal - action_ (qualifier value
 * Structures, grafts, and tissue lesions (e.g. cysts, neoplasms, abscesses, wounds, warts, aneurysms, herniations, oral clefts, etc.) are considered removal of the site, use _Procedure site - Direct._
 * Devices, calculi, thrombi, foreign bodies, and other non-tissue entities from the structure, use _Procedure site - Indirect._
 
+{% hint style="info" %}
+**Procedure site**\
 Procedures are not necessarily categorized by site.
+{% endhint %}
 
 ### Use of Structure of vs. Entire as value of the Procedure site attributes
 
@@ -223,13 +240,23 @@ Procedure site - Indirect (attribute) specifies the anatomical location but is n
 
 For example,
 
-* [405433000 | Removal of catheter from brachial vein (procedure)|](http://snomed.info/id/405433000) has: \* Method of Removal - action (qualifier value) \* Procedure site - Indirect of Structure of brachial vein (body structure) \* Direct device of Venous catheter (physical object)
+*   [405433000 | Removal of catheter from brachial vein (procedure)|](http://snomed.info/id/405433000) has:&#x20;
 
-<figure><img src="../../../../../../authoring/domain-specific-modeling/procedure/procedure-attributes-summary/procedure-attributes/images/174691345.png" alt=""><figcaption><p>Figure 4. Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
+    * Method of Removal - action (qualifier value)&#x20;
+    * Procedure site - Indirect of Structure of brachial vein (body structure)&#x20;
+    * Direct device of Venous catheter (physical object)
 
-* [371005009 | Removal of calculus of urinary bladder (procedure)|](http://snomed.info/id/371005009) has: \* Direct morphology of Calculus (morphologic abnormality) \* Method of Removal - action (qualifier value) \* Procedure site - Indirect of Urinary bladder structure (body structure)
 
-<figure><img src="../../../../../../authoring/domain-specific-modeling/procedure/procedure-attributes-summary/procedure-attributes/images/174691344.png" alt=""><figcaption><p>Figure 5. Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
+
+    <figure><img src="../../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
+
+
+* [371005009 | Removal of calculus of urinary bladder (procedure)|](http://snomed.info/id/371005009) has:
+  * Direct morphology of Calculus (morphologic abnormality)&#x20;
+  * Method of Removal - action (qualifier value)&#x20;
+  * Procedure site - Indirect of Urinary bladder structure (body structure)
+
+<figure><img src="../../../../../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
 
 ## Recipient category
 
@@ -241,7 +268,11 @@ For example,
 
 This can be used in blood banking procedures to differentiate the donor vs the recipient of blood products.
 
-It is not used for a procedure where the subject of the procedure is someone other than the subject of record.
+{% hint style="warning" %}
+**Recipient category**
+
+Recipient category is not used for a procedure where the subject of the procedure is someone other than the subject of record.
+{% endhint %}
 
 ## Revision status
 
@@ -259,18 +290,16 @@ For example,
 
 * [410572008 | Injection of steroid via intravitreal route (procedure)|](http://snomed.info/id/410572008) has the [| Route of administration (attribute)|](http://snomed.org/-fictid) of Intravitreal route (qualifier value)
 
-<figure><img src="../../../../../../authoring/domain-specific-modeling/procedure/procedure-attributes-summary/procedure-attributes/images/237110237.png" alt=""><figcaption><p>Figure 6. Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
 
 While the values for |Procedure site - Indirect| and |Route of administration| attributes may be similar and seem redundant, their presence is necessary for consistent subsumption.
 
-For example,
+Examples of complementary values of Route of administration and Procedure site - Indirect
 
 | Route of administration (qualifier value) | Body structure value of Procedure site - Indirect |
 | ----------------------------------------- | ------------------------------------------------- |
 | Intravenous route                         | Venous structure                                  |
 | Oral route                                | Mouth region structure                            |
-
-Figure 7. Examples of complementary values of Route of administration and Procedure site - Indirect
 
 ## Using access device
 
@@ -311,7 +340,3 @@ Using substance (attribute) describes the Substance used to execute the action o
 For example,
 
 * [285754008 | Contrast radiography of esophagus (procedure)|](http://snomed.info/id/285754008) has Using substance of Contrast media (substance)
-
-## Subpages
-
-* [Evaluation Procedure Attributes](evaluation-procedure-attributes.md)

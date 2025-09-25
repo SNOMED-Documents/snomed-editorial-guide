@@ -88,12 +88,12 @@ Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-<figure><img src="../../../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 773392006 |Product containing only axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 773392006 |Product containing only axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 773392006 |Product containing only axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 773392006 |Product containing only axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 772249008 |Product containing only abacavir and lamivudine in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 772249008 |Product containing only abacavir and lamivudine in oral dose form (medicinal product form)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 772249008 |Product containing only abacavir and lamivudine in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 772249008 |Product containing only abacavir and lamivudine in oral dose form (medicinal product form)|</p></figcaption></figure>

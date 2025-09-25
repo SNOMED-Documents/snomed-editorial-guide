@@ -23,12 +23,14 @@ Bilateral procedures should be modeled using two relationship groups, one for ea
 
 For example,
 
-[895470004 | Amputation of bilateral upper limbs (procedure)|](http://snomed.info/id/895470004)
+*   [895470004 | Amputation of bilateral upper limbs (procedure)|](http://snomed.info/id/895470004)
 
-FSN: Amputation of bilateral upper limbs (procedure)\
-PT: Amputation of bilateral upper limbs\
-SYN: Amputation of both upper limbs
+    * FSN: Amputation of bilateral upper limbs (procedure)
+    * PT: Amputation of bilateral upper limbs
+    * SYN: Amputation of both upper limbs
 
-<figure><img src="../../../../../authoring/procedure/images/174691336.png" alt=""><figcaption><p>Figure 1. Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
+
+
 
 Other synonyms may be added if requested, e.g. _L_ _eft and right_ _X_ ; _Bilateral X,_ etc.

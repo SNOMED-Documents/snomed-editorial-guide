@@ -32,15 +32,15 @@ In national extensions, using the MP precisely concept related to CD concepts in
 
 \*\*Example: \*\*Product with a _multiple modified_ active ingredient substance (dexamethasone phosphate is the modified concept that has a further modification to give dexamethasone sodium phosphate): stated view, showing both the count of base active ingredient and the count of base and modification pair are present, as the substance has a multiple modification (dexamethasone phosphate is the modified concept that has a further modification to give dexamethasone sodium phosphate) **and** there are multi-ingredient concepts that contain this multiple modified substance and at least one other modified ingredient substance that shares the same base substance (dexamethasone) (see next examples). The multi-ingredient concept is "dexamethasone sodium phosphate and dexamethasone acetate". As described in the MRCM rules, the additional ingredient count attributes must be applied iteratively. The following inferred view shows the correct dexamethasone moiety MP (only) parent concept.
 
-<figure><img src="../../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p><em>Single Ingredient Medicinal Product (precisely) example stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p><em>Single Ingredient Medicinal Product (precisely) example stated view</em></p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (16).png" alt=""><figcaption><p><em>Single Ingredient Medicinal Product (precisely) example inferred view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p><em>Single Ingredient Medicinal Product (precisely) example inferred view</em></p></figcaption></figure>
 
 **Example:** Multi-ingredient concept, where both precise active ingredient substances share the same base moiety substance, showing requirement for two ingredient count attributes; note that because these attributes must be applied iteratively, the MP precisely concepts exist for each single ingredient product.
 
-<figure><img src="../../../../../.gitbook/assets/image (17).png" alt=""><figcaption><p><em>Medicinal Product (precisely) example stated view - multi-ingredient concept</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p><em>Medicinal Product (precisely) example stated view - multi-ingredient concept</em></p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (18).png" alt=""><figcaption><p><em>Medicinal Product (precisely) example inferred view - multi-ingredient concept</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p><em>Medicinal Product (precisely) example inferred view - multi-ingredient concept</em></p></figcaption></figure>
 
 The count of base and modification pair ensures that this multi-ingredient product does not incorrectly subsume under either of the single ingredient products, since they have a base and modification pair count of one, and this has a base and modification pair count of two. It can subsume under the parent "Product containing only dexamethasone" as shown in the diagram above, as "Product containing only dexamethasone" has a count of base of active ingredient of 1, and that one is dexamethasone (substance), which is the same as for the "Product containing only dexamethasone acetate and dexamethasone sodium phosphate".
 

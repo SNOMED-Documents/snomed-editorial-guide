@@ -20,7 +20,7 @@ The real medicinal product class is a grouper concept for products containing th
 
 The RMP "Zocor (product)" shown in a taxonomic view in Figure 1 below presents products marketed by Organon Pharma UK Limited under a single name (Zocor) and containing only simvastatin as the active ingredient substance and shows the RCD concepts associated with it:
 
-<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 1: Diagram showing a branded single ingredient substance real medicinal product and its supporting real clinical drug concepts_ (Note: not all possible real clinical drug concepts are shown.)
 
@@ -28,13 +28,13 @@ _Figure 1: Diagram showing a branded single ingredient substance real medicinal 
 
 For those products without a unique (i.e., invented) product name, where the product uses the international non-proprietary name of the active substance as its product name (i.e., so called _generic_ products), extensions may choose not to populate the Real Medicinal Product class, as shown below, with each RCD being associated directly with the CD in the International content:&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;_Figure 2: Example of real clinical drug "generic" products where a real medicinal product concept has not be authored_
 
 Alternatively, for products without a unique (i.e. invented) product name (_generic_ products) a national extension may choose to populate the Real Medicinal Product using the generic name AND supplier, since this gives a unique RMP concept, as shown below:
 
-<figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 3: Example of real clinical drug "generic" products where a real medicinal product concept has been authored using product and manufacturer name_
 
@@ -46,7 +46,7 @@ One of the fundamentals of a Real Medicinal Product is that it represents a sing
 
 The RMP "Inegy (product)" shown in a taxonomic view in Figure 2 below presents products marketed by Organon Pharma UK Limited under a single name (Inegy) and containing only simvastatin AND ezetimibe as the active ingredient substances, and showing the RCD concepts associated with it:
 
-<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 4: Diagram showing a branded multi-ingredient substance real medicinal product and its supporting real clinical drug concepts (note, not all possible real clinical drug concepts are shown)_
 
@@ -54,13 +54,13 @@ Not all authorised medicinal products that share the same (invented) product nam
 
 In the example below, the three real clinical drug products all share the same product name  ("Benylin®") in one jurisdiction, but they do not relate to a single real medicinal product due to differences in their active ingredient substances.
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 5: Example of branded real clinical drug products sharing the same product name but not relating to a Real Medicinal Product due to differences in their set of active ingredient substances_
 
 A national extension may choose to populate RMPs for "brand families" that contain products with different active ingredient sets by extending the product name concept to include enough detail to scope just a single active ingredient set, as shown below:
 
-<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Figure 6: Example of branded real clinical drug products relating to appropriate real medicinal products by authoring of specific product name concepts_
 
@@ -94,21 +94,21 @@ The following attributes apply to Real Medicinal Product (RMP) concepts in a nat
 
 **Stated template view:**
 
-<figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption><p><em>Real Medicinal Product (RMP) stated template view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><em>Real Medicinal Product (RMP) stated template view</em></p></figcaption></figure>
 
 #### **Example:** single active ingredient substance branded product (Zocor): state view followed by the inferred view <a href="#example-single-active-ingredient-substance-branded-product-zocor-state-view-followed-by-the-inferred" id="example-single-active-ingredient-substance-branded-product-zocor-state-view-followed-by-the-inferred"></a>
 
 
 
-<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p><em>Single active ingredient substance real medicinal product example stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p><em>Single active ingredient substance real medicinal product example stated view</em></p></figcaption></figure>
 
 
 
-<figure><img src="../../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p><em>Single active ingredient substance real medicinal product example inferred view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><em>Single active ingredient substance real medicinal product example inferred view</em></p></figcaption></figure>
 
 #### **Example: multiple active i ngredient substance branded product (Inegy): stated view followed by the inferred view**
 
-<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption><p><em>Multiple active ingredient substance real medicinal product example stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p><em>Multiple active ingredient substance real medicinal product example stated view</em></p></figcaption></figure>
 
 ## IDMP Compatibility
 

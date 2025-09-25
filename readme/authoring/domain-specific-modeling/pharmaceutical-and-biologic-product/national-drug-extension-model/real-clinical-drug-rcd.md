@@ -81,47 +81,47 @@ Some examples of real clinical drug concepts are shown below.
 
 #### **Stated template view:**
 
-<figure><img src="../../../../../.gitbook/assets/image (26).png" alt=""><figcaption><p><em>Template for a real clinical drug</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p><em>Template for a real clinical drug</em></p></figcaption></figure>
 
 #### **Example:** single active ingredient substance branded product (Zocor) (presentation strength): stated view followed by the inferred view
 
-<figure><img src="../../../../../.gitbook/assets/image (27).png" alt=""><figcaption><p><em>Single active ingredient substance (presentation strength) real clinical drug example - stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (presentation strength) real clinical drug example - stated view</em></p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><em>Single active ingredient substance (presentation strength) real clinical drug example - inferred view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (presentation strength) real clinical drug example - inferred view</em></p></figcaption></figure>
 
 #### **Example: multiple active ingredient substance (presentation strength) branded product (Inegy): stated view followed by the inferred view**
 
-<figure><img src="../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p><em>Multiple active ingredient substance (presentation strength) real clinical drug example - stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption><p><em>Multiple active ingredient substance (presentation strength) real clinical drug example - stated view</em></p></figcaption></figure>
 
 <figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/308610783.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (30).png" alt=""><figcaption><p><em>Multiple active ingredient substance (presentation strength) real clinical drug example - inferred view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p><em>Multiple active ingredient substance (presentation strength) real clinical drug example - inferred view</em></p></figcaption></figure>
 
 **Example:** single active ingredient substance branded product (Canesten) (concentration strength): stated view followed by the inferred view
 
-<figure><img src="../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration strength) real clinical drug example - stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration strength) real clinical drug example - stated view</em></p></figcaption></figure>
 
 <figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/308610812.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (32).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration strength) real clinical drug example - inferred view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration strength) real clinical drug example - inferred view</em></p></figcaption></figure>
 
 #### **Example:** single active ingredient substance product (Gentamicin ampule (Hospira)) (concentration and presentation strength) _with_ equivalent clinical drug: stated view followed by the inferred view
 
 In this example, a concentration and presentation strength clinical drug has been authored in the national extension, and therefore, the real clinical drug classifies under this concept.
 
-<figure><img src="../../../../../.gitbook/assets/image (33).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)</em>with <em>equivalent clinical drug - real clinical drug example - stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)</em>with <em>equivalent clinical drug - real clinical drug example - stated view</em></p></figcaption></figure>
 
 <figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/308610810.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (34).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)</em>with <em>equivalent clinical drug - real clinical drug example - inferred view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)</em>with <em>equivalent clinical drug - real clinical drug example - inferred view</em></p></figcaption></figure>
 
 #### **Example:** single active ingredient substance product (Gentamicin vial (Hospira)) (concentration and presentation strength) _without_ equivalent clinical drug: stated view followed by the inferred view
 
 In this example, a concentration and presentation strength clinical drug has been NOT authored in the national extension, and therefore, the real clinical drug classifies under the concentration strength concept in the international edition.
 
-<figure><img src="../../../../../.gitbook/assets/image (35).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)</em>without <em>equivalent clinical drug - real clinical drug example - stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)</em>without <em>equivalent clinical drug - real clinical drug example - stated view</em></p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (36).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)without equivalent clinical drug - real clinical example - inferred view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)without equivalent clinical drug - real clinical example - inferred view</em></p></figcaption></figure>
 
 ## Optional Additional Information
 

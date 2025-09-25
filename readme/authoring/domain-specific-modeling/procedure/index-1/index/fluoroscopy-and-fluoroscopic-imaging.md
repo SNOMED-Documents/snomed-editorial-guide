@@ -10,16 +10,14 @@ _Simple_ fluoroscopy is _real time_ imaging (usually on TV monitors/image intens
 
 For example,
 
-* ```
-  * [ 169005008 | Fluoroscopy of esophagus (procedure)|](http://snomed.info/id/169005008 "169005008 | Fluoroscopy of esophagus \(procedure\) |")
-  ```
+* 169005008 | Fluoroscopy of esophagus (procedure)
   * FSN: Fluoroscopy of esophagus (procedure)
   * PT: Fluoroscopy of esophagus
   * SYN: Fluoroscopy - esophagus
 
 ## Fluoroscopic guidance
 
-_Fluoroscopic X_ is not necessarily interpreted as _X_\*\* \_\_\*\*_using fluoroscopic guidance (procedure)_. When modeling a procedure using fluoroscopic guidance, the use of _fluoroscopic x_ in the FSN is not sufficient; the FSN must explicitly state _using fluoroscopic_ _guidance_ if that is the intent.
+_Fluoroscopic X_ is not necessarily interpreted as _X_ _using fluoroscopic guidance (procedure)_. When modeling a procedure using fluoroscopic guidance, the use of _fluoroscopic x_ in the FSN is not sufficient; the FSN must explicitly state _using fluoroscopic_ _guidance_ if that is the intent.
 
 The following naming pattern can be used for direct observation:
 
@@ -29,24 +27,20 @@ The following naming pattern can be used for direct observation:
 
 For example,
 
-* ```
-  * [ 710293001 | Colonoscopy using fluoroscopic guidance (procedure)|](http://snomed.info/id/710293001 "710293001 | Colonoscopy using fluoroscopic guidance \(procedure\) |")
-  ```
+* 710293001 | Colonoscopy using fluoroscopic guidance (procedure)
   * FSN: Colonoscopy using fluoroscopic guidance (procedure)
   * PT: Fluoroscopy guided colonoscopy
   * SYN: Colonoscopy using fluoroscopic guidance
 
 For example,
 
-* ```
-  * Angioplasty using fluoroscopic guidance with contrast (procedure)
-  ```
+* Angioplasty using fluoroscopic guidance with contrast (procedure)
   * FSN: Angioplasty using fluoroscopic guidance with contrast (procedure)
   * PT: Fluoroscopy guided angioplasty with contrast
   * SYN: Angioplasty using fluoroscopic guidance with contrast
   * SYN: Fluoroscopic angioplasty with contrast
 
-Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guided procedure modeling](../../../../../../authoring/procedure/Imaging-guided-procedure-modeling_174691295.html).
+Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guided procedure modeling](../../index-2/imaging-guided-procedure-modeling.md).
 
 ## Fluoroscopic angiography with contrast
 
@@ -69,12 +63,10 @@ Fluoroscopic angiography always uses contrast. _With contrast_ must be explicitl
 
 For example,
 
-* ```
-  * FSN: Fluoroscopic angiography of right cervical vertebral artery with contrast (procedure)
-  ```
-  * PT: Fluoroscopic angiography of right cervical vertebral artery with contrast
-  * SYN: Fluoroscopic arteriography of right cervical vertebral artery with contrast
-  * SYN: Fluoroscopic arteriogram of right cervical vertebral artery with contrast
+* FSN: Fluoroscopic angiography of right cervical vertebral artery with contrast (procedure)
+* PT: Fluoroscopic angiography of right cervical vertebral artery with contrast
+* SYN: Fluoroscopic arteriography of right cervical vertebral artery with contrast
+* SYN: Fluoroscopic arteriogram of right cervical vertebral artery with contrast
 
 ### Fluoroscopic venography
 
@@ -84,11 +76,9 @@ For example,
 
 For example,
 
-* ```
-  * FSN: Fluoroscopic venography of right upper limb with contrast (procedure)
-  ```
-  * PT: Fluoroscopic venography of right upper limb with contrast
-  * SYN: Fluoroscopic venogram of right upper limb with contrast
+* FSN: Fluoroscopic venography of right upper limb with contrast (procedure)
+* PT: Fluoroscopic venography of right upper limb with contrast
+* SYN: Fluoroscopic venogram of right upper limb with contrast
 
 ## Fluoroscopic arthrography
 
@@ -98,9 +88,7 @@ For example,
 
 For example,
 
-* ```
-  * [ 723775001 | Fluoroscopic arthrography of right sacroiliac joint (procedure)|](http://snomed.info/id/723775001 "723775001 | Fluoroscopic arthrography of right sacroiliac joint \(procedure\) |")
-  ```
+* 723775001 | Fluoroscopic arthrography of right sacroiliac joint (procedure)|
   * FSN: Fluoroscopic arthrography of right sacroiliac joint (procedure)
   * PT: Fluoroscopic arthrography of right sacroiliac joint
   * SYN: Fluoroscopic arthrogram of right sacroiliac joint

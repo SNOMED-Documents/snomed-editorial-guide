@@ -4,6 +4,6 @@ Adding further concepts to the iatrogenic disorder hierarchy is discouraged. Con
 
 For example,
 
-<figure><img src="../../../../../../.gitbook/assets/image (36) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (36) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690514.png" alt=""><figcaption><p>Figure: Stated view of |Iatrogenic cervical spinal stenosis (disorder)| using IS_A 12456005 |Iatrogenic disorder (disorder)|</p></figcaption></figure>

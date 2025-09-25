@@ -8,11 +8,11 @@ Some concepts may contain a synonym with the other _pneumoni_ - term due to high
 
 Pneumonia is a type of pneumonitis, as inflammation is present in both. The distinguishing feature between the two disorders is the presence of infection in pneumonia. Pneumonia has a Pathological process (attribute) of Infectious process (qualifier value); Pneumonitis does not.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/225051456.png" alt=""><figcaption><p>Figure:  Stated view of 205237003 |Pneumonitis (disorder)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/225051457.png" alt=""><figcaption><p>Figure:  Stated view of 233604007 |Pneumonia (disorder)|</p></figcaption></figure>
 

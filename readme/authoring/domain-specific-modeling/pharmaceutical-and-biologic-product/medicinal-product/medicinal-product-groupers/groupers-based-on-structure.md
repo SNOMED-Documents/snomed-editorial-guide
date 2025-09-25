@@ -50,12 +50,12 @@ Synonyms matching the FSN are not required.
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 350067007 |Product containing prostaglandin (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 350067007 |Product containing prostaglandin (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 350067007 |Product containing prostaglandin (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 350067007 |Product containing prostaglandin (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 350068002 |Product containing A series prostaglandin (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (29) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 350068002 |Product containing A series prostaglandin (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p> <strong>Inferred</strong> view for 350068002 |Product containing A series prostaglandin (product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption><p> <strong>Inferred</strong> view for 350068002 |Product containing A series prostaglandin (product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691044.png" alt=""><figcaption></figcaption></figure>

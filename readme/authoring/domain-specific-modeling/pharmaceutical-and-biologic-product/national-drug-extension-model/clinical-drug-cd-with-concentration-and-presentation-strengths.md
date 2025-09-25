@@ -16,7 +16,7 @@ By limiting the the Clinical Drug class in the international edition to expressi
 
 In national extensions, the concentration strength clinical drug may be sufficient, or there may be a requirement to represent some, usually liquid dose form product clinical drugs, using **both** concentration and presentation strength either for the abstract clinical drug, or for the real clinical drug, or for both. This is shown in the diagram below:
 
-<figure><img src="../../../../../.gitbook/assets/image (19).png" alt=""><figcaption><p><em>Diagram of relationships and optionality for presentation strength and concentration strength Clinical Drug and Real Clinical Drug</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p><em>Diagram of relationships and optionality for presentation strength and concentration strength Clinical Drug and Real Clinical Drug</em></p></figcaption></figure>
 
 Even within a single jurisdiction, authorisations are not always consistent in dealing with presentation and concentration strength. Some regulatory agencies have or are moving to licensing all parenteral liquid products using presentation strength (with the exception of some products such as insulins and large volume parenteral fluid replacement products and bulk use vials, etc.); other agencies have been or are using this pattern for some products (e.g., pre-filled syringes) and may change for others as IDMP takes effect. Some national terminologies are working to normalise the patterns of strength representation particularly for safety considerations; others are dealing with the mixed economy that exists "as is". This specification provides support for the different patterns for both clinical drugs and real clinical drugs whilst maintaining the requirement that concepts will classify correctly within the system.
 
@@ -78,10 +78,10 @@ Some examples of clinical drug concepts, with concentration strength and present
 
 **Stated template view:**
 
-<figure><img src="../../../../../.gitbook/assets/image (20).png" alt=""><figcaption><p><em>Clinical drug (CD) concentration and presentation strength for a national extension stated template view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p><em>Clinical drug (CD) concentration and presentation strength for a national extension stated template view</em></p></figcaption></figure>
 
 **Example: single active ingredient substance clinical drug with concentration and presentation strength for a national extension**
 
-<figure><img src="../../../../../.gitbook/assets/image (21).png" alt=""><figcaption><p><em>Clinical drug (CD) concentration and presentation strength for a national extension stated view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p><em>Clinical drug (CD) concentration and presentation strength for a national extension stated view</em></p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (22).png" alt=""><figcaption><p><em>Clinical drug (CD) concentration and presentation strength for a national extension inferred view; s</em> <em>hows how the concentration and presentation strength clinical drug authored in the national extension will classify as a child of the concentration strength CD in the international edition</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p><em>Clinical drug (CD) concentration and presentation strength for a national extension inferred view; s</em> <em>hows how the concentration and presentation strength clinical drug authored in the national extension will classify as a child of the concentration strength CD in the international edition</em></p></figcaption></figure>

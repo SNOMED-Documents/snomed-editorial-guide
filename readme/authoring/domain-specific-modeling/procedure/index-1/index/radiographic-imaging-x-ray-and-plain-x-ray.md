@@ -3,7 +3,7 @@
 ## Modeling new content requests
 
 Requests for new imaging-related content must clearly specify an imaging action; for example, computed tomography, plain X-ray, fluoroscopy, etc.\
-&#xNAN;_&#x52;adiographic imaging_ is a broad term that encompasses several types of imaging studies that use ionizing radiation for visualization of internal parts of the body using X-ray techniques (for example, computed tomography) and is therefore a grouping concept. New content requests using the phrase _Radiographic imaging of_ and/or submissions requesting a Method (attribute) of 278110001 |Radiographic imaging - action (qualifier value)| are not acceptable for the international edition of SNOMED CT.
+\&#xNAN;_Radiographic imaging_ is a broad term that encompasses several types of imaging studies that use ionizing radiation for visualization of internal parts of the body using X-ray techniques (for example, computed tomography) and is therefore a grouping concept. New content requests using the phrase _Radiographic imaging of_ and/or submissions requesting a Method (attribute) of 278110001 |Radiographic imaging - action (qualifier value)| are not acceptable for the international edition of SNOMED CT.
 
 ## Approved naming pattern
 
@@ -49,9 +49,7 @@ SYN: DEXA of X
 
 For example,
 
-* ```
-  * [ 428313006 | Dual energy X-ray absorptiometry of mandible (procedure)|](http://snomed.info/id/428313006 "428313006 | Dual energy X-ray absorptiometry of mandible \(procedure\) |")
-  ```
+* 428313006 | Dual energy X-ray absorptiometry of mandible (procedure)|
   * FSN: Dual energy X-ray absorptiometry of mandible (procedure)
   * PT: Dual energy X-ray absorptiometry of mandible
   * SYN: DXA of mandible

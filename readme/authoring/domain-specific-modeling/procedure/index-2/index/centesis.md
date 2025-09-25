@@ -6,15 +6,13 @@ One group has a Method (attribute) of Puncture - action (qualifier value) and a 
 
 A second group has a Method (attribute) of Aspiration - action (qualifier value) and a Procedure site - Indirect (attribute) of the space being aspirated.
 
-For example,
-
-* [91602002 |Thoracentesis (procedure)|](http://snomed.info/id/91602002) has:
-      * Role group 1:
-        * Method = Puncture - action
-        * Procedure site - Direct (attribute) = Pleural membrane structure (body structure)
-        * Using device = Needle, device
-      * Role group 2:
-        * Method = Aspiration - action
-        * Procedure site - Indirect (attribute) = Pleural cavity structure (body structure)
-        * Using device = Needle, device
-
+* For example,
+  * [91602002 |Thoracentesis (procedure)|](http://snomed.info/id/91602002) has:
+    * Role group 1:
+      * Method = Puncture - action
+      * Procedure site - Direct (attribute) = Pleural membrane structure (body structure)
+      * Using device = Needle, device
+    * Role group 2:
+      * Method = Aspiration - action
+      * Procedure site - Indirect (attribute) = Pleural cavity structure (body structure)
+      * Using device = Needle, device

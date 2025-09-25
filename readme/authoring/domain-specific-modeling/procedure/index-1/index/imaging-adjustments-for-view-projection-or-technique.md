@@ -5,7 +5,7 @@ It may be important, from both clinical and administrative perspectives, to capt
 Examples of modifications include:
 
 * Axial (qualifier value)
-    * Skyline projection (qualifier value)
-    * Decubitus (qualifier value)
+* Skyline projection (qualifier value)
+* Decubitus (qualifier value)
 
 Though these examples are qualifying values in SNOMED CT, they are not allowable for post-coordination of diagnostic imaging procedures.

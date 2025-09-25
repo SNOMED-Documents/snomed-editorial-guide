@@ -11,7 +11,7 @@ Mother and fetus share many time periods, such as antenatal. However, some perio
 
 A diagram of the relationships between these periods is shown below:
 
-<figure><img src="../../../../../../.gitbook/assets/image (37) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (37) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690545.png" alt=""><figcaption></figcaption></figure>
 

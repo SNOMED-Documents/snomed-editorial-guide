@@ -4,7 +4,7 @@
 
 The diagram below shows the concept classes for the extension model with the related concept classes from the international medicinal product model. No role or grouper classes (i.e., parents of the international Medicinal Product (MP) class) are shown in the diagram. It is expected that all grouping classes (based on substance structure, disposition and therapeutic role) will be inherited from the international release. For all of the classes in the national drug extension model, the closed world view applies. Products are defined using only the active ingredient substances as authorised by the regulatory agency in the particular jurisdiction of use. Packs are defined using only the clinical drug concepts that they are composed of (contain) (see also [Supporting Attributes](supporting-attributes.md)).
 
-<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption><p><em><strong>Diagram of the classes of the SNOMED CT national extension model for Medicinal Products</strong></em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (37).png" alt=""><figcaption><p><em><strong>Diagram of the classes of the SNOMED CT national extension model for Medicinal Products</strong></em></p></figcaption></figure>
 
 {% hint style="info" %}
 _In the diagram, the MP classes are shown in shades of blue, the MPF classes in shades of yellow, the CD classes in shades of green and the PCD classes in shades of orange; the concepts represent the real world medicinal products available within a nation and described within that extension are shown in the brighter shade&#x73;**.**_
