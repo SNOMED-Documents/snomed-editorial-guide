@@ -103,7 +103,7 @@ This attribute is used to specify the type of feature (i.e. quality, disposition
 * For example,
   * Blood glucose mass concentration (observable entity) has the 370130000 | Property (attribute) | of 118539007 | Mass concentration (property) (qualifier value) |
 
-### Mass vs Weight
+#### Mass vs Weight
 
 The Property (qualifier value) hierarchy contains the following:
 
@@ -145,7 +145,7 @@ This attribute is used to specify the scale of the result of an observation or a
 This attribute is used to specify the systematic method of an observation.
 
 * For example,
-  * Presence of Brucella abortus antibody in serum by latex agglutination (observable entity) has the  246501002 | Technique (attribute) | of 703448004 | Latex agglutination test technique (qualifier value) |
+  * Presence of Brucella abortus antibody in serum by latex agglutination (observable entity) has the 246501002 | Technique (attribute) | of 703448004 | Latex agglutination test technique (qualifier value) |
 
 ## Time Aspect
 
@@ -180,9 +180,4 @@ For example,
 There are examples on this page that do not have a concept ID. These examples are included for members who may be modeling observables within their extension.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Observable%20Entity%20Defining%20Attributes" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Observable%20Entity%20Defining%20Attributes" class="button primary">Provide Feedback</a>
