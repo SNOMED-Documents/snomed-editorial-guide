@@ -68,6 +68,8 @@ For example,
 In relation to _postpartum uterine hemorrhage_ , this would be modeled using an Occurrence (attribute) of Postpartum period. The puerperium is generally defined as the period within 42 days after birth, and thus, the postpartum period relates to this six-week timeframe. Some conditions can occur more than 6 weeks post-delivery, e.g., _postpartum thyroiditis_ , _postnatal depression_ (onset can range from a few days to a few weeks following delivery, generally in the first 2–3 months following childbirth). In this situation, the choice of the more general _Maternal postnatal_ period should be made.
 
 {% hint style="warning" %}
+**Obstetric conditions**
+
 Use of the term _obstetric_ is confusing in regards to both timing and determination of the intended person. Concepts should rather explicitly identify these elements.
 {% endhint %}
 
@@ -92,11 +94,6 @@ Review is ongoing of all disorder concepts containing the phrase _fetal or neona
 
 ### Umbilical cord complication
 
-Model as IS A [362972006 | Disorder of labor / delivery (disorder)|](http://snomed.info/id/362972006) due to X (disorder).
+Model as IS A 362972006 | Disorder of labor / delivery (disorder)| due to X (disorder).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Maternal%2C%20fetal%2C%20neonatal" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Maternal%2C%20fetal%2C%20neonatal" class="button primary">Provide Feedback</a>
