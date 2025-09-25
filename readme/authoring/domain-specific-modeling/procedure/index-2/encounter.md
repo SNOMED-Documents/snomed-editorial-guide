@@ -12,3 +12,10 @@ For example,
 
 * [ 386473003 | Telephone follow-up (procedure)|](http://snomed.info/id/386473003 "386473003 | Telephone follow-up \(procedure\) |")
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Encounter" class="button primary">Provide Feedback</a>

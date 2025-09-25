@@ -49,3 +49,10 @@ In some cases the disease process is irrefutable, e.g., meningococcal meningitis
 [clinical-finding-and-disorder-modeling](clinical-finding-and-disorder-modeling/)
 {% endcontent-ref %}
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Finding%20and%20Disorder" class="button primary">Provide Feedback</a>

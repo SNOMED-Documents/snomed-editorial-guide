@@ -61,3 +61,10 @@ _These additional pieces of knowledge are variably present and therefore represe
 * Anorexia
 * Nausea
 * Elevated white blood count
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Knowledge%20Representation" class="button primary">Provide Feedback</a>

@@ -18,3 +18,10 @@ For example,
   * [717909004 |Bilateral microtia with deafness and cleft palate syndrome (disorder)|](http://snomed.info/id/717909004)
 
 A multisystem disorder with an eponymous syndrome name should be included as a synonym only.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Multisystem%20disorders" class="button primary">Provide Feedback</a>

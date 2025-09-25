@@ -136,3 +136,10 @@ In jurisdictions where repackaging and/or _parallel importing_ are authorised, a
 ## IDMP Compatibility
 
 For most authorised medicinal products, this class is roughly equivalent to the core Medicinal Product class, with its MPID identification in ISO 11615 of IDMP. However, the Medicinal Product class in IDMP explicitly includes combination (kit) products, whereas this model describes combination products as packaged products only. Implementation considerations may require combination products to be available to users alongside clinical drug and real clinical drug concepts; mechanisms, such as the use of reference sets, can support this requirement.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Real%20Clinical%20Drug%20%28RCD%29" class="button primary">Provide Feedback</a>

@@ -17,3 +17,10 @@ When authoring in this domain, these are the approved attributes and allowable r
 ## Author View of Attributes and Ranges for Procedure with Explicit Context
 
 <table><thead><tr><th width="159.8984375">Attribute</th><th width="111.6649169921875">Grouped</th><th width="119.69091796875">Cardinality</th><th width="177.25">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>363589002 | Associated procedure (attribute) |</td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C; 71388002 | Procedure (procedure) |</td></tr><tr><td>408730004 | Procedure context (attribute) |</td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C; 288532009 | Context values for actions (qualifier value) |</td></tr></tbody></table>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Situation%20with%20Explicit%20Context%20Attributes%20Summary" class="button primary">Provide Feedback</a>

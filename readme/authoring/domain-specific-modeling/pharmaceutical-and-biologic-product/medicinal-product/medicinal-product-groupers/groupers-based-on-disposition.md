@@ -59,3 +59,10 @@ Synonyms matching the FSN are not required.
 <figure><img src="../../../../../../.gitbook/assets/image (34) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690992.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Groupers%20Based%20on%20Disposition" class="button primary">Provide Feedback</a>

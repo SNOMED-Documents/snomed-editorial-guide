@@ -107,3 +107,10 @@ This attribute provides information on whether a body structure is left, right, 
 ### Unilateral
 
 With the addition of lateralized content in the International Release, the need for unspecified unilateral concepts is removed, as well as potentially dangerous, if used directly in a patient record. Unilateral concepts will not be accepted.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Anatomical%20Concept%20Model" class="button primary">Provide Feedback</a>

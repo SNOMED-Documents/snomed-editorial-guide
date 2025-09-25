@@ -16,3 +16,10 @@ A second group has a Method (attribute) of Aspiration - action (qualifier value)
       * Method = Aspiration - action
       * Procedure site - Indirect (attribute) = Pleural cavity structure (body structure)
       * Using device = Needle, device
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Centesis" class="button primary">Provide Feedback</a>

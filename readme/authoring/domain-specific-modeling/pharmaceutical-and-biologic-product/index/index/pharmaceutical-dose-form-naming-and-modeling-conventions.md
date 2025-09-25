@@ -77,3 +77,10 @@ Optional
 <figure><img src="../../../../../../.gitbook/assets/image (75).png" alt=""><figcaption><p><em><strong>Inferred</strong></em> view for 764774009 |Conventional release and prolonged-release oral tablet (dose form)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691246.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pharmaceutical%20Dose%20Form%20Naming%20and%20Modeling%20Conventions" class="button primary">Provide Feedback</a>

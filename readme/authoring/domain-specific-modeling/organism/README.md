@@ -115,3 +115,10 @@ Provisional serotypes, i.e. serotypes that have been defined but not given a num
 {% endhint %}
 
 SNOMED International adopted the recommendations of a joint initiative of the European Centre for Disease Prevention and Control (ECDC) and the CDC for the characterization of the different patterns of resistance found in healthcare-associated, antimicrobial resistant bacteria. A panel of international experts convened and drafted a proposal which provides clear consensus definitions. Please refer to the following article for details: Magiorakos, A. Srinivasan, A. Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: an international expert proposal for interim standard definitions for acquired resistance. _Clinical Microbiol Infect_ 2012; 18: 268-281.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Organism" class="button primary">Provide Feedback</a>

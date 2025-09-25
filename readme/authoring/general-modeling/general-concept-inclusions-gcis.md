@@ -54,3 +54,10 @@ Though most are primitive, it is possible to define concepts modeled with GCIs. 
 * GCIs are not restricted to particular hierarchies; they can be used as applicable in any hierarchy that has a concept model.
 * The Authoring Platform does not currently have the ability to create templates that include GCIs.
 * A concept which has a stated "is a" relationship to a concept with GCIs will need to have GCIs added to it directly if GCIs are required to appropriately represent the concept. GCI axioms are not inherited from supertype to a subtype concept.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=General%20Concept%20Inclusions%20-%20GCIs" class="button primary">Provide Feedback</a>

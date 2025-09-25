@@ -115,3 +115,10 @@ The following illustrates both the **stated** and **inferred** view:
 <figure><img src="../../../../../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/substance/images/174691597.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Radioactive%20substances" class="button primary">Provide Feedback</a>

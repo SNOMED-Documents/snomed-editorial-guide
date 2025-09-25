@@ -83,3 +83,10 @@ Stated view of 411973001 |Bovine thrombin (substance)|
 <figure><img src="../../../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/substance/images/174691625.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Substances%20specifying%20a%20source%20or%20origin" class="button primary">Provide Feedback</a>

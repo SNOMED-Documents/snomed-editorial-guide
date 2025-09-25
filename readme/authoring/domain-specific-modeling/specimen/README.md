@@ -24,3 +24,10 @@ Legacy concepts exist in SNOMED CT that contain both _specimen_ and _sample_ in 
 ## Combined specimens and pooled specimens
 
 A _combined specimen_ refers to more than one specimen taken from the same subject and combined in a single container to form a single specimen. A _pooled specimen_ refers to specimens taken from multiple subjects and pooled (mixed) together into a single container. SNOMED CT concepts will include the appropriate term in the FSN and will not treat _combined specimen_ and _pooled specimen_ as synonymous.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Specimen" class="button primary">Provide Feedback</a>

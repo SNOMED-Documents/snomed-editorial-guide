@@ -28,3 +28,10 @@ For example,
       * PT: Single photon emission computed tomography with computed tomography of liver
       * SYN: SPECT CT of liver
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Multi-modality%20Imaging%3A%20PET%2C%20CT%20and%20SPECT%2C%20CT" class="button primary">Provide Feedback</a>

@@ -53,3 +53,10 @@ LOINC assigns this aspect with an attribute value. It is not one of the six main
 {% hint style="warning" %}
 Some areas of the observable entity hierarchy need clarification and remodeling. This includes upper level concepts and hierarchies such as 246464006 | Function (observable entity) | and 415178003 | Process (observable entity) | as well as intermediate primitive and leaf node concepts.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Observable%20Entity" class="button primary">Provide Feedback</a>

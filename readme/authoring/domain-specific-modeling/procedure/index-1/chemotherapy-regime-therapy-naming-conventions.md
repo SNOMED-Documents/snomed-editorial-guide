@@ -24,3 +24,10 @@ Generic drug names are not capitalized; they are lower case. When creating descr
     * Synonym: Rituximab, cyclophosphamide, doxorubicin, vincristine and prednisone chemotherapy regimen
     * Synonym: R-CHOP chemotherapy protocol
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Chemotherapy%20Regime%20Therapy%20Naming%20Conventions" class="button primary">Provide Feedback</a>

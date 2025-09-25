@@ -36,3 +36,10 @@ Strength is expressed as "per one unit of presentation" and the presentation str
 | Presentation strength (logical) | 5 mg per 1 unit of presentation                             |                                                                                                                                           |
 | Presentation strength           | 5 mg \[per 1 tablet]                                        | UCUM: 5 mg \[per 1 each]                                                                                                                  |
 | Concentration strength          |                                                             | The weight of the tablet is not usually known so concentration strength is not usually available and is not deemed clinically significant |
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Discrete%20manufactured%20dose%20form%3B%20similar%20unit%20of%20presentation" class="button primary">Provide Feedback</a>

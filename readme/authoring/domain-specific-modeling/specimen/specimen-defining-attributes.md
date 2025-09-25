@@ -46,3 +46,10 @@ Although Pharmaceutical / biologic product (product) and its descendants are con
 
   
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Specimen%20Defining%20Attributes" class="button primary">Provide Feedback</a>

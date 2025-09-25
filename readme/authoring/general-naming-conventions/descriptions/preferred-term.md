@@ -21,3 +21,10 @@ For example,
 In both concepts, _cold_ represents a common clinical phrase used to capture the meaning of the concept.
 
 The PT is indicated by the acceptabilityId field, for a particular language or dialect.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Preferred%20Term" class="button primary">Provide Feedback</a>

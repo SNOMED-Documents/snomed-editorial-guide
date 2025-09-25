@@ -53,3 +53,10 @@ A _product_ concept can represent:
 * Change of a product dosage
 * Discontinuation of a product
 * Specialist's recommendation to use a particular product, if certain circumstances apply
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Situation%20with%20Explicit%20Context" class="button primary">Provide Feedback</a>

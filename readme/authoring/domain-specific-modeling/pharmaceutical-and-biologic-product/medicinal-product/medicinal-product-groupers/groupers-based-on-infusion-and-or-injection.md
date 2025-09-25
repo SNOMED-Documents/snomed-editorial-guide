@@ -28,3 +28,10 @@ For example,
 <figure><img src="../../../../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/232391040.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Groupers%20Based%20on%20Infusion%20and%20or%20Injection" class="button primary">Provide Feedback</a>

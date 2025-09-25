@@ -192,3 +192,10 @@ Before any changes are made to an FSN, imported directly with an extension (loca
 * Check for existing concepts with the same FSN; the term may be added as a preferred term or synonym.
 
 Changes to existing SNOMED CT concepts do not necessitate notifying the original submitter.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Fully%20Specified%20Name" class="button primary">Provide Feedback</a>

@@ -113,3 +113,10 @@ The following attributes apply to Real Medicinal Product (RMP) concepts in a nat
 ## IDMP Compatibility
 
 There is no identified representation of a class similar to the Real Medicinal Product concept class in IDMP despite there being (a possible) pharmacovigilance use case for this class.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Real%20Medicinal%20Product%20%28RMP%29" class="button primary">Provide Feedback</a>

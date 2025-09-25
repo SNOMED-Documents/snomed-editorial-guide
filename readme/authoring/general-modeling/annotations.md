@@ -57,3 +57,10 @@ The following are documented in the respective annotation guidance, if applicabl
 * Annotation cardinality - Most attributes will be 0..1 but some may allow multiple values.
 
 See also [SNOMED CT Annotations](https://conf.spaces.snomed.org/wiki/spaces/mag/pages/133137753/SNOMED+CT+Annotations) for more information.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Annotations" class="button primary">Provide Feedback</a>

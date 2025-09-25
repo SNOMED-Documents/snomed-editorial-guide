@@ -99,3 +99,10 @@ For example,
 <figure><img src="../../../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690501.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to drug (finding)</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Immune%20function%20disorders" class="button primary">Provide Feedback</a>

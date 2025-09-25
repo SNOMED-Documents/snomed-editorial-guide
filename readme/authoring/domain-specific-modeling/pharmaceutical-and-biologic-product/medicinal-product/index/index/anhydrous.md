@@ -11,3 +11,10 @@ When a clinical drug has a BoSS specified in a Summary of Product Characteristic
 1331919008 |Product containing precisely carbidopa anhydrous (as carbidopa) 12.5 milligram and entacapone 200 milligram and levodopa 50 milligram/1 each conventional release oral tablet (clinical drug)|
 
 [This SPC](https://www.hpra.ie/img/uploaded/swedocuments/Licence_PA0711-252-001_09032021145258.pdf) states, "Each film-coated tablet contains 50 mg of levodopa, 12.5 mg of **carbidopa anhydrous (as 13.5 mg carbidopa monohydrate)** and 200 mg of entacapone." The Boss is anhydrous carbidopa, so the PAI is Carbidopa.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Anhydrous" class="button primary">Provide Feedback</a>

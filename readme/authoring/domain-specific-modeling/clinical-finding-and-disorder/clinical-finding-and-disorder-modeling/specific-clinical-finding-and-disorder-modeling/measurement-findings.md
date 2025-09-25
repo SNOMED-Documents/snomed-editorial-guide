@@ -11,3 +11,10 @@ The following applies to the subcategory of 118245000 |Measurement finding (find
   * False positive and false negative measurement findings should not be included. 
 
 See [template](https://confluence.ihtsdotools.org/display/SCTEMPLATES/Measurement+%28finding%29+-+v0.2). 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Measurement%20findings" class="button primary">Provide Feedback</a>

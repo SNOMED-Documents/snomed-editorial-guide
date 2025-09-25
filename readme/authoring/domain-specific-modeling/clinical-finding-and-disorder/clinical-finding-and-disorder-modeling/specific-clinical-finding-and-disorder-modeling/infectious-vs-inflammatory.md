@@ -29,3 +29,10 @@ Example of inflammatory disorder _not_ specified as infectious,
 <figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690496.png" alt=""><figcaption><p>Figure: Stated view of 446292002 |Necrotizing inflammation of lymph node (disorder)|</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Infectious%20vs.%20inflammatory" class="button primary">Provide Feedback</a>

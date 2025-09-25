@@ -12,3 +12,10 @@ If a concept's meaning, based on its FSN and text definition, does not specify w
 #### Modeling Abscess in Procedures
 
 The concept's logical definition uses the Indirect morphology (attribute) of 44132006 |Abscess (morphologic abnormality)| and a Direct substance (attribute) of 11311000 |Pus (substance)|.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Abscess" class="button primary">Provide Feedback</a>

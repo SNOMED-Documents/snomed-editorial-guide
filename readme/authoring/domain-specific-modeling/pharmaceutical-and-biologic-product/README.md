@@ -90,3 +90,10 @@ The following subhierarchies will be retained "as is" until use cases and/or det
 _\* Development of editorial guidelines and related content updates for <<411115002 |Drug-device combination product (product)| will be done in conjunction with the Device Project._
 {% endhint %}
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pharmaceutical%20and%20Biologic%20Product" class="button primary">Provide Feedback</a>

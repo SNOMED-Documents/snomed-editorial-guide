@@ -19,3 +19,10 @@ In the situation where a disease is caused by both the infection and the associa
 Example,
 
 [76902006 |Tetanus (disorder)|](http://snomed.info/id/76902006) is modeled with a causative agent of  [30917009 |Clostridium tetani (organism)|](http://snomed.info/id/30917009) as well as  [26159005 |Clostridium tetani toxin (substance)|](http://snomed.info/id/26159005).
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Bacterial%20disorders%20with%20organism%20or%20toxin" class="button primary">Provide Feedback</a>

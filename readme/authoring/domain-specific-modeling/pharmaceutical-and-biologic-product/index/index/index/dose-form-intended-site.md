@@ -53,3 +53,10 @@ Preferred; not required.
 ## Exemplars
 
 <figure><img src="../../../../../../../.gitbook/assets/image (92).png" alt=""><figcaption><p>S<strong>tated</strong> and <strong>inferred</strong> view for 738984000 |Parenteral (intended site)|</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Dose%20Form%20Intended%20Site" class="button primary">Provide Feedback</a>

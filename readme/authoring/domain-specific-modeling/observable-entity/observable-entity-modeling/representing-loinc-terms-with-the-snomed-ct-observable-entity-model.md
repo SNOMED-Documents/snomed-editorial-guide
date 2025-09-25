@@ -10,3 +10,10 @@ For more information please see [https://loincsnomed.org/](https://loincsnomed.o
 
 [\
 ](https://prod-confluence.ihtsdotools.org/display/RMT/SNOMED+CT+July+2017+LOINC+-+SNOMED+CT+Cooperative+package+Production+release+-+RF2+Release+notes)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Representing%20LOINC%20Terms%20with%20the%20SNOMED%20CT%20Observable%20Entity%20Model" class="button primary">Provide Feedback</a>

@@ -26,3 +26,10 @@ A standard definition with a fixed numeric range may be acceptable, i.e., the ra
   * A histologic scoring system with a score of _1_ when there are _0 to 5 mitoses per high power field_, and a score of _2_ when there are _6 to 10_, etc.
   * The Tumor, Node, Metastases (TNM) Classification of Malignant Tumor
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Numbers%20and%20Numeric%20Ranges" class="button primary">Provide Feedback</a>

@@ -46,3 +46,10 @@ Where grouper concepts already exist, the following criteria apply:
 
 If the addition of a grouper concept duplicates a concept in the [363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006) hierarchy, the navigational concept should be inactivated.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Grouper%20Concept" class="button primary">Provide Feedback</a>

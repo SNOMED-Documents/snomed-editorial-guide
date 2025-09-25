@@ -124,3 +124,10 @@ When authoring in this domain, these are the approved attributes and allowable r
 |---|---|---|---|---|
 | 736518005 \| Has state of matter (attribute) \| | 0 | 1..1 | 0..0 | < 736471007 \| State of matter (state of matter) \| |
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pharmaceutical%20and%20Biologic%20Product%20and%20Dose%20Form%20Attributes%20Summary" class="button primary">Provide Feedback</a>

@@ -94,3 +94,10 @@ Lateralized disorder concepts should not include the words _structure_ or _struc
     * a disorder concept is termed 724056005 | Malignant neoplasm of lower lobe of right lung (disorder)|
     * a procedure is termed 726425007 | Lobectomy of lower lobe of right lung (procedure)|
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Lateralized%20Disorder%20Naming%20Conventions" class="button primary">Provide Feedback</a>

@@ -8,3 +8,10 @@ SNOMED International uses a number of primary authoritative sources to guide the
   * <https://journals.lww.com/co-rheumatology/abstract/2023/03000/inflammation_in_osteoarthritis__the_latest.9.aspx>
   * <https://www.mdpi.com/1422-0067/25/3/1710>
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Osteoarthritis" class="button primary">Provide Feedback</a>

@@ -21,3 +21,10 @@ Pneumonia is a type of pneumonitis, as inflammation is present in both. The dist
 The morphologic abnormality for both [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007) and[ 205237003 |Pneumonitis (disorder)|](http://snomed.info/id/205237003) is [409774005 |Inflammatory morphology (morphologic abnormality)|](http://snomed.info/id/409774005).
 
 The clinically-warranted morphologic abnormality for many subtypes of pneumonia is [707496003 |Inflammation and consolidation (morphologic abnormality)|](http://snomed.info/id/707496003). Consolidation is a feature of most forms of pneumonia; however, it may not be a feature of all pneumonias, such as atypical pneumonias.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pneumonia%20vs.%20Pneumonitis" class="button primary">Provide Feedback</a>

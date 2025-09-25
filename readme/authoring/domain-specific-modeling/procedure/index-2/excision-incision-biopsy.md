@@ -83,3 +83,10 @@ For example
 
 Biopsies, like other removal procedures, may have two direct objects, the _morphology_ and the _site_. It is permissible to use Procedure site - Direct (attribute) for biopsies, even if subtypes might have a direct object that is a morphology.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Excision%2C%20incision%2C%20biopsy" class="button primary">Provide Feedback</a>

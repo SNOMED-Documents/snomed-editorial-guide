@@ -30,3 +30,10 @@ When authoring in this domain, these are the approved attributes and allowable r
 
 <table data-full-width="true"><thead><tr><th>Attribute</th><th>Grouped</th><th>Cardinality</th><th>In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>246093002 | Component (attribute) |</td><td>1</td><td>0..*</td><td>0..*</td><td>&#x3C;&#x3C; 105590001 | Substance (substance) | OR &#x3C;&#x3C; 123037004 | Body structure (body structure) | OR &#x3C;&#x3C; 123038009 | Specimen (specimen) | OR &#x3C;&#x3C; 260787004 | Physical object (physical object) | OR &#x3C;&#x3C; 373873005 | Pharmaceutical / biologic product (product) | OR &#x3C;&#x3C; 410607006 | Organism (organism) | OR &#x3C;&#x3C; 419891008 | Record artifact (record artifact) | OR &#x3C;&#x3C; 540091010000105 | Calculation (calculation) |</td></tr><tr><td>116686009 | Has specimen (attribute) |</td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C; 123038009 | Specimen (specimen) |</td></tr><tr><td>370129005 | Measurement method (attribute) |</td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C; 127789004 | Laboratory procedure categorized by method (procedure) |</td></tr><tr><td>370130000 | Property (attribute) |</td><td>1</td><td>0..1</td><td>0..1</td><td>&#x3C;&#x3C; 118598001 | Property (qualifier value) |</td></tr><tr><td>370132008 | Scale type (attribute) |</td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C; 117364006 | Narrative value (qualifier value) | OR &#x3C;&#x3C; 117444000 | Text value (qualifier value) | OR &#x3C;&#x3C; 26716007 | Qualitative value (qualifier value) | OR &#x3C; 398195001 | Measurement scales (qualifier value) |</td></tr><tr><td>370134009 | Time aspect (attribute) |</td><td>1</td><td>0..1</td><td>0..1</td><td>&#x3C;&#x3C; 7389001 | Time frame (qualifier value) |</td></tr></tbody></table>
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Procedure%20Attributes%20Summary" class="button primary">Provide Feedback</a>

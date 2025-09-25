@@ -52,3 +52,10 @@ Note that the unit of presentation is likely to be useful in description of the 
 | Presentation strength (logical) | 9 g per volume contained in the unit of presentation | The amount of the dose form bounded in the unit of presentation |
 | Presentation strength           | 9 g per (5cm) patch                                  | Not a clinically safe expression of strength                    |
 | Concentration strength          | 4.6 mg per 24 hours                                  | This is a "rate" strength                                       |
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Continuous%20presentation%3A%20bounded%20by%20container%3B%20liquid/semi-solid%20dose%20forms%3B%20concentration%20strength%20required" class="button primary">Provide Feedback</a>

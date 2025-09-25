@@ -385,3 +385,10 @@ SNOMED International utilizes various resources when reviewing changes to the or
 * Catalogue of Life ([https://www.catalogueoflife.org/](https://www.catalogueoflife.org/)). This is the result of cooperation between ITIS and Species 2000.  Please note, Catalogue of Life may not be up to date for all areas.  For bacteria, fungus, and virus, consult resources noted above as primary references.
 * International Code of Zoological Nomenclature (ICZN)
 * International Code of Nomenclature for algae, fungi, and plants (IAPT)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Organism%20Naming%20Conventions" class="button primary">Provide Feedback</a>

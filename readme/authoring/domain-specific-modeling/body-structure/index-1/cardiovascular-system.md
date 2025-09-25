@@ -135,3 +135,10 @@ Tributaries are also modeled as direct tributaries of the trunk. A tributary of 
 {% hint style="info" %}
 All concepts with the name pattern _vein x and its tributaries_ were inactivated due to ambiguity about their meanings. They have _MAYBE A_ links to _Structure of vein x_ and _Entire vein x._
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Cardiovascular%20System" class="button primary">Provide Feedback</a>

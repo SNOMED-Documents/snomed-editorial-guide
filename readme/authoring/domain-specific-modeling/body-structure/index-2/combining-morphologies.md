@@ -28,3 +28,10 @@ Older 'like' content may still use the two role groups. This content would also 
 ## Neoplasm exception
 
 Subtypes of 108369006 |Neoplasm (morphologic abnormality)| are not to be combined. These morphologies represent histological cell types that are recognized internationally by pathologists, classified by WHO, and aligned with the ICD-O classification.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Combining%20morphologies" class="button primary">Provide Feedback</a>

@@ -40,3 +40,10 @@ For example,
 
 * Corticotropin, big fragment
 * Thyrotropin beta subunit
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Substances%20specifying%20intact%2C%20fragment%20or%20subunit" class="button primary">Provide Feedback</a>

@@ -34,3 +34,10 @@ For example,
 
 
 Other synonyms may be added if requested, e.g. _L_ _eft and right_ _X_ ; _Bilateral X,_ etc.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Lateralized%20Procedure%20Naming%20Conventions" class="button primary">Provide Feedback</a>

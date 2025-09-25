@@ -182,3 +182,10 @@ In the rare event that the 255-character limit of the fully specified name is re
 * For example, the use of commas may be used instead of the word “and”.
 
 Considerations can include language nuances, content use case, etc. The decision on which standard naming conventions to circumvent will depend on the circumstances.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=General%20Naming%20Conventions" class="button primary">Provide Feedback</a>

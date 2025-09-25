@@ -28,3 +28,10 @@ There are at least three different use cases and meanings, and thus categories, 
   * For tumors, _soft tissue_ is defined as non-epithelial extraskeletal tissue of the body, exclusive of the mononuclear phagocyte system, glia, and supporting tissue of various mesenchymal organs. Other explicit inclusions are: fibrous tissue, fascia, ligaments, tendons, tendon sheaths, synovia, bursae, skeletal muscle, smooth muscle, fatty tissue, adipose tissue, blood vessels, lymph vessels, peripheral nerves, sympathetic and parasympathetic nerves, and ganglia, as well as subcutaneous tissue. Skin, skeletal cartilage, pleura, and the pericardium, peritoneum, central nervous system, endocrine glands, and viscera are excluded.
 * **Sites of non-bone disorders and injuries of the limbs, head, neck, and body wall**. Skeletal cartilage, as well as all non-bone structures of the limbs, and subcutaneous tissue and fat are included. Skin and lymph nodes are not included. For the head, neck and torso, mononuclear phagocyte system, central nervous system, endocrine glands, viscera, and supporting tissues are excluded.
 * **Structures identified in images**. Soft tissue include everything except for mineralized bone tissue and teeth.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Integumentary%20System" class="button primary">Provide Feedback</a>

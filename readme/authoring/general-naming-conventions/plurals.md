@@ -35,3 +35,10 @@ A concept that necessarily involves multiples should have a plural FSN.&#x20;
 {% hint style="warning" %}
 It is advisable to keep track of these exceptions in a separate subset or using a special term type, so that they can be excluded when the singular/plural distinction is important for mapping.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Plurals" class="button primary">Provide Feedback</a>

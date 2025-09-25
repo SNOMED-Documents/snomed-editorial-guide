@@ -179,3 +179,10 @@ To negate a _concept_ with Finding context (attribute) of Known present (qualifi
     * Associated finding of Hypertensive disorder, systemic arterial (disorder)&#x20;
     * Finding context of Known absent (qualifier value)&#x20;
     * Subject Relationship Context of Person in family of subject (person)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Situation%20with%20Explicit%20Context%20Modeling" class="button primary">Provide Feedback</a>

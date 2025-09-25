@@ -59,3 +59,10 @@ Synonyms corresponding to the disorder that is the target of the vaccine are not
 <figure><img src="../../../../../../.gitbook/assets/image (61).png" alt=""><figcaption><p><strong>Inferred</strong> view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690932.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Vaccine%20Product%20containing%20Concepts" class="button primary">Provide Feedback</a>

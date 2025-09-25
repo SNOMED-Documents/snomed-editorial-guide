@@ -109,3 +109,10 @@ Text definitions are not required but are encouraged.
 <figure><img src="../../../../../../../.gitbook/assets/image (89).png" alt=""><figcaption><p><strong>Stated</strong> view for 739006009 |Solution (basic dose form)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../../.gitbook/assets/image (90).png" alt=""><figcaption><p><strong>Inferred</strong> view for 739006009 |Solution (basic dose form)|</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Basic%20Dose%20Form" class="button primary">Provide Feedback</a>

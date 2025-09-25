@@ -7,3 +7,10 @@ Templates are created by authors in an attempt to standardize the modeling, nami
 #### When to create a template
 
 No template is necessary if less than 50 concepts are affected. In cases of small numbers, check if existing templates can be generalized and/or look to add elements as optional rather than mandatory.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Templates" class="button primary">Provide Feedback</a>

@@ -34,3 +34,10 @@ For example,
 ## Unacceptable concept qualification
 
 _With and without_ and _With or without_ imaging concepts are not acceptable due to ambiguity. Two concepts should be used to express these separately.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Contrast%20for%20Imaging" class="button primary">Provide Feedback</a>

@@ -85,3 +85,10 @@ Some examples of clinical drug concepts, with concentration strength and present
 <figure><img src="../../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p><em>Clinical drug (CD) concentration and presentation strength for a national extension stated view</em></p></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p><em>Clinical drug (CD) concentration and presentation strength for a national extension inferred view; s</em> <em>hows how the concentration and presentation strength clinical drug authored in the national extension will classify as a child of the concentration strength CD in the international edition</em></p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Drug%20%28CD%29%20with%20Concentration%20and%20Presentation%20Strengths" class="button primary">Provide Feedback</a>

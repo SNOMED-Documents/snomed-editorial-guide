@@ -36,3 +36,10 @@ Information represented with SNOMED CT codes must be reliable and reproducible. 
       * Postcoordinated qualifications applied to codes or expressions in records or queries.
       * Relationships between codes and other contextual information implied by the record structure.
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Implementation%20and%20Migration" class="button primary">Provide Feedback</a>

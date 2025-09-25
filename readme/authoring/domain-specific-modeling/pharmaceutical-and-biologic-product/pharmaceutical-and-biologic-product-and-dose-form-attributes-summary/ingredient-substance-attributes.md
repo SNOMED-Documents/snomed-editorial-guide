@@ -91,3 +91,10 @@ Figure 49: Ingredient role in ISO 11615 of IDMP
 
 **I** ngredient role is a specific attribute in ISO 11615 in IDMP, but no vocabulary/value set was specified in the conceptual standard for the ingredient roles. Examples that have been given include "active", "inactive" and "adjuvant". This supports the regulatory listing of all the substances present in a product, with their basic role (therapeutic or otherwise).\
 The explicit use of ingredient roles in the medicinal product model is compatible with the IDMP conceptual model; however, the relationship of ingredient role to substance strength is still being elucidated in IDMP. Note that the concept of "basis of strength substance", in the very few cases where it is not actually a substance present in the product, is managed by the use of the Reference Substance class in IDMP. See also IDMP Compatibility for Clinical Drug ([Clinical Drug (CD)](https://prod-confluence.ihtsdotools.org/pages/viewpage.action?pageId=123904187)).
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Ingredient%20Substance%20Attributes" class="button primary">Provide Feedback</a>

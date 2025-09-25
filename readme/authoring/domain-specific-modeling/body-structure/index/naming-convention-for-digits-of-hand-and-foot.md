@@ -22,3 +22,10 @@ Fully specified names and preferred names should use proper names of digits of h
 | Fourth toe structure (body structure) | Fourth toe structure | Fourth digit of foot | Fourth toe |
 | Little toe structure (body structure) | Little toe structure | Fifth digit of foot | Fifth toe |
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Naming%20Convention%20for%20Digits%20of%20Hand%20and%20Foot" class="button primary">Provide Feedback</a>

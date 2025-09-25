@@ -17,3 +17,10 @@ Note: in all the patterns described below, although pack size may be mentioned, 
 * [Continuous presentation: bounded by container; liquid dose forms](../../../../../../authoring/pharmaceutical-and-biologic-product/304775957.html)
 * [Continuous presentation: bounded by container; liquid/semi-solid dose forms; concentration strength required](../../../../../../authoring/pharmaceutical-and-biologic-product/304775960.html)
 * [Continuous presentation: unbounded by container](../../../../../../authoring/pharmaceutical-and-biologic-product/304775964.html)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Appendix%20A%3A%20Product%20Patterns" class="button primary">Provide Feedback</a>

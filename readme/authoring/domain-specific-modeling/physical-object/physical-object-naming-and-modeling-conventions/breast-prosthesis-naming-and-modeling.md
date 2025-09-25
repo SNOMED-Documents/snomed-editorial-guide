@@ -23,3 +23,10 @@ The following illustrates the **stated** view for 769177007 |Saline-filled smoot
 <figure><img src="../../../../../authoring/physical-object/images/174691262.png" alt=""><figcaption><p>The following illustrates the <strong>inferred</strong> view for 769177007 |Saline-filled smooth breast implant (physical object)|:</p></figcaption></figure>
 
 <figure><img src="../../../../../authoring/physical-object/images/174691263.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Breast%20Prosthesis%20Naming%20and%20Modeling" class="button primary">Provide Feedback</a>

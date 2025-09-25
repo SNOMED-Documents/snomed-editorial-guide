@@ -76,3 +76,10 @@ The tooling uses these values to produce the correct subsumption hierarchy, as s
 <figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/303923271.png" alt=""><figcaption><p>Figure 53: Ingredient count attributes complex multi-ingredient example with multiple modification of a single base active ingredient requiring three ingredient count attributes</p></figcaption></figure>
 
 Neither base count alone nor base count and base + modification pair count would prevent the incorrect subsumption of the "Clinical drug containing precisely insulin aspart and insulin aspart protamine" because both give a count of 1. The differentiation comes from the counting the precise active ingredient substances. This then gives the (optional in the international release) intermediate parent concepts of "Medicinal product containing precisely" either "insulin aspart", "insulin aspart protamine" or "insulin aspart and insulin aspart protamine" with their correct clinical drug concepts as children. The MP (precisely) concepts are then correctly subsumed to the (grandparent) MP (only) concept of insulin aspart only, on the basis of the base count of 1.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Ingredient%20Count%20Attributes" class="button primary">Provide Feedback</a>

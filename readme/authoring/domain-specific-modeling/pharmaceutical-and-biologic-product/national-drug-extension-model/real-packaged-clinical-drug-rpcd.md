@@ -80,3 +80,10 @@ In jurisdictions where repackaging and/or _parallel importing_ are authorised, a
 ## IDMP Compatibility
 
 This concept as defined is equivalent to the Packaged Medicinal Product of ISO 11615, which in that standard is identified by a PCID. As the representation of the _real world product_ authorised for sale and/or supply that exists for all jurisdictions and which is marketed into the supply chain for use, it is the concept that should form the 1:1 join between representation in the regulatory domain (IDMP) and representation in the clinical domain (SNOMED CT and national medicinal product terminologies), even if some national medicinal product terminologies choose not to represent it, but only an abstraction of it (i.e., the Real Clinical Drug class of concepts).
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Real%20Packaged%20Clinical%20Drug%20%28RPCD%29" class="button primary">Provide Feedback</a>

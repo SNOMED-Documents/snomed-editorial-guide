@@ -10,3 +10,10 @@ Procedure concepts should not contain phrases that can be categorized as a sente
   * Hand tendon ganglion excised (situation) indicates the procedure was done, as a past tense declarative statement
 
 This is a situation with explicit context, not a procedure.&#x20;
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Sentence%20Types" class="button primary">Provide Feedback</a>

@@ -9,3 +9,10 @@ Examples of modifications include:
 * Decubitus (qualifier value)
 
 Though these examples are qualifying values in SNOMED CT, they are not allowable for post-coordination of diagnostic imaging procedures.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Imaging%20Adjustments%20for%20View%2C%20Projection%2C%20or%20Technique" class="button primary">Provide Feedback</a>

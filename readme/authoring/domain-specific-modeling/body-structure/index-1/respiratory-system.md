@@ -45,3 +45,10 @@ Turbinates, which include bone, overlying mucous membranes, and other tissue,
 * [33415007 |Supreme nasal turbinate structure (body structure)|](http://snomed.info/id/33415007)
 
 The [118648008 |Inferior nasal turbinate bone structure (body structure)|](http://snomed.info/id/118648008) is a facial bone and skull bone. And, parts of the ethmoid bone form the middle, superior, and supreme nasal conchae. This means that the bones of the middle, superior, and supreme turbinates are not bone organs.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Respiratory%20System" class="button primary">Provide Feedback</a>

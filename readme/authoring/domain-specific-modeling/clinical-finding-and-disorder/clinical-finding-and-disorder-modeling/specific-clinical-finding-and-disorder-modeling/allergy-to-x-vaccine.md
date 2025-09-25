@@ -72,3 +72,10 @@ For national extensions modeling using "vaccine containing only" product concept
 <figure><img src="../../../../../../.gitbook/assets/image (31) (1) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690426.png" alt=""><figcaption><p>_</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Allergy%20to%20X%20vaccine" class="button primary">Provide Feedback</a>

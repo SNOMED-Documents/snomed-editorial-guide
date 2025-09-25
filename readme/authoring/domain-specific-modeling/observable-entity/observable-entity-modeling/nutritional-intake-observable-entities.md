@@ -24,3 +24,10 @@ PT: Estimated quantity of intake of phosphorous in 24 hours
 "Dietary" is considered ambiguous and should not be included in SNOMED CT. Existing content that includes "dietary" will be considered for inactivation.
 {% endhint %}
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Nutritional%20intake%20observable%20entities" class="button primary">Provide Feedback</a>

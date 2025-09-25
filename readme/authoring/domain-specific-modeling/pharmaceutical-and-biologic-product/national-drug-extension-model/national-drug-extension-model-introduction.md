@@ -72,3 +72,10 @@ This specification does not propose a model for the types of additional knowledg
 ## Audience <a href="#audience" id="audience"></a>
 
 This document is written primarily for those responsible for the development and maintenance of a Medicinal Product terminology (national, regional or organisational) that is managed within a SNOMED CT extension.  However, it will also be of value to those who have an existing Medicinal Product terminology (national, regional or organisational) which may or may not be managed in a SNOMED CT extension, who wish to develop a mapping from concepts in their own Medicinal Product terminology to a standardized SNOMED CT representation to harness the interoperability benefits of using a common concept model defined in a clinical reference terminology.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Introduction" class="button primary">Provide Feedback</a>

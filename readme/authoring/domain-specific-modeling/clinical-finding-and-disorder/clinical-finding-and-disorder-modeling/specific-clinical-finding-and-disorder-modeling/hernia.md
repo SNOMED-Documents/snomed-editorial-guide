@@ -9,3 +9,10 @@ The concept [50063009 |Femoral hernia (disorder)|](http://snomed.info/id/5006300
 <figure><img src="../../../../../../.gitbook/assets/image (35) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Figure : Stated view of Femoral hernia (disorder)</p>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Hernia" class="button primary">Provide Feedback</a>

@@ -72,3 +72,10 @@ For example,
 {% hint style="danger" %}
 Existing flap procedure concepts may not align with this new terming.  No new ‘flap graft’ procedures should be added going forward.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Flap%20procedures" class="button primary">Provide Feedback</a>

@@ -28,3 +28,10 @@ Consultation established that for tissue transplants, _graft_ and _transplant_ a
 <figure><img src="../../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 See [Grafting](grafting.md) for grafting procedure guidance.&#x20;
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Transplantation" class="button primary">Provide Feedback</a>

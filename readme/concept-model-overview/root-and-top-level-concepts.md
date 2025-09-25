@@ -38,3 +38,10 @@ Subtype relationships are expressed in the same way as other SNOMED CT relations
 For example,
 
 * [53084003 |Bacterial pneumonia (disorder)|](http://snomed.info/id/53084003) is a subtype of [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007) because it is a subtype of [ 312342009 |Infective pneumonia (disorder)|](http://snomed.info/id/312342009) which is also a subtype of [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Root%20and%20Top-level%20Concepts" class="button primary">Provide Feedback</a>

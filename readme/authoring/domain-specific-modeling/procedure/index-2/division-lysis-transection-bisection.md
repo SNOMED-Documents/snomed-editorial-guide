@@ -18,3 +18,10 @@ _Transection_ is defined as a division across the longitudinal axis of a structu
 * For example,
   * [53176004 |Transection of muscle of eye (procedure)|](http://snomed.info/id/53176004)
   * [60158005 |Bilateral bisection of ovary (procedure)|](http://snomed.info/id/60158005)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Division%2C%20lysis%2C%20transection%2C%20bisection" class="button primary">Provide Feedback</a>

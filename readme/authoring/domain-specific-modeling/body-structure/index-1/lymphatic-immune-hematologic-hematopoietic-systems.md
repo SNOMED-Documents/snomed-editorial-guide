@@ -47,3 +47,10 @@ SNOMED CT has lymph node concepts per their anatomical locations, e.g. pulmonary
 Professional societies concerned with the clinical staging of lung cancer have developed at least three different nomenclatures for _stations_ of lung-related lymph nodes. Even though the numbering of the stations is very similar, the inter-relationships between the various node groups are complex, particularly in stations 4 and 10, near the carina and hilar regions.
 
 SNOMED International considers _American Joint Committee on Cancer_ (_AJCC) Station 10_ , _hilar lymph node_, _bronchial lymph node_, and _bronchopulmonary lymph node_ as synonyms. The American Thoracic Society (ATS) _Station 10R,_ the _right tracheobronchial lymph node_ is not a _subtype_ of _tracheobronchial lymph node_ because its definition includes nodes covered by both _lower paratracheal lymph node,_(AJCC Station 4) and by the hilar lymph node (AJCC Station 10). SNOMED CT uses _tracheobronchial lymph node_ as a supertype of both inferior tracheobronchial (subcarinal) and superior tracheobronchial (a subset of lower paratracheal).
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Lymphatic%2C%20Immune%2C%20Hematologic%2C%20Hematopoietic%20systems" class="button primary">Provide Feedback</a>

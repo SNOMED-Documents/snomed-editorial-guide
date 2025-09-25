@@ -55,3 +55,10 @@ Preferred; not required.
 <figure><img src="../../../../../../../.gitbook/assets/image (99).png" alt=""><figcaption><p><strong>Stated</strong> and <strong>inferred</strong> view for 736679003 |Liquid (state of matter)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691147.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=State%20of%20Matter" class="button primary">Provide Feedback</a>

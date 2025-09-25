@@ -35,3 +35,10 @@ In general, lymphoid and myeloid neoplasms can be modeled with their morphologie
 ## Coagulation, hemostasis, thrombosis
 
 There is more than one meaning of  _coagulation_. A broad meaning, to stop bleeding, is better described as  _hemostasis_. A more narrow definition, limited to the formation of the fibrin clot, might exclude certain components of hemostasis (e.g the ability to stop hemorrhage through the actions of blood vessels, collagen, endothelial cells, and platelets, in the absence of clotting). Individuals with  _congenital fibrinogen deficiency_ cannot form fibrin clots, yet their bodies are able to stop bleeding. Therefore,  _coagulation disorders_ are kinds of  _hemostatic disorders_.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Hematologic%20and%20lymphatic%20conditions" class="button primary">Provide Feedback</a>

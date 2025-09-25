@@ -65,3 +65,10 @@ Including patterns and trends in SNOMED CT, such as ‘weight increasing’ or �
 
 1. **Purpose of SNOMED CT** : SNOMED CT is designed to provide a comprehensive set of clinical terms for supporting clinical care and consistent data exchange. Patterns and trends pertain more to data interpretation and analysis, which is outside the scope of clinical terminology. However, summary statements relating to patterns can be clinically relevant and should be represented in SNOMED, e.g. 422868009 |Unexplained weight loss (finding)|
 2. **Appropriate Tools** : Patterns and trends are better managed by the information model or statistical and analytical tools, not terminology. Including them in SNOMED CT could confuse the distinction between data capture and data analytics. Trend data can be captured using additional metadata such as timestamps. Clinical decision support systems can also interpret and act on trends.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Scope" class="button primary">Provide Feedback</a>

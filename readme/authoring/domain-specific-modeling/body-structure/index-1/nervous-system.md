@@ -54,3 +54,10 @@ All concepts named _nerve x and its branches_ were inactivated due to their ambi
 Cerebrum may refer to the _supratentorial brain,_ which is everything except the midbrain, medulla, pons, and cerebellum. In this interpretation, the telencephalon and diencephalon are in the cerebrum. On the other hand, cerebrum may only refer to the parts derived embryologically from the telencephalon, the cerebral hemispheres and the intercerebral commissure (corpus callosum and anterior commissure).
 
 _Supratentorial brain_ may be used for categorizing tumors and for designating the location of swelling that can result in herniation. The telencephalon and diencephalon (including thalamus, geniculate bodies, pineal body, habenulae, and hypothalamus) are definitely supratentorial. The upper part of the midbrain (mesencephalon) is also supratentorial. SNOMED CT excludes all midbrain structures from the supratentorial brain.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Nervous%20System" class="button primary">Provide Feedback</a>

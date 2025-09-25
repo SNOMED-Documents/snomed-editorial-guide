@@ -27,3 +27,10 @@ Exceptions exist where the current concept model is not expressive enough to rep
 
 For example, disorders where the clinical manifestations are variably present (i.e., genetic diseases)
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Authoring" class="button primary">Provide Feedback</a>

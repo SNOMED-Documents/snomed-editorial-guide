@@ -88,3 +88,10 @@ For example,
   * FSN: Computed tomography arthrography of intratarsal joint (procedure)
   * PT: CT arthrogram of intratarsal joint&#x20;
   * SYN: CT arthrography of intratarsal joint
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Computed%20Tomography%20-%20CT" class="button primary">Provide Feedback</a>

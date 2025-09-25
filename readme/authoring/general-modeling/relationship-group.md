@@ -143,3 +143,10 @@ When defining [363787002 | Observable entity (observable entity)|](http://snomed
 For example, [400975005 | Standing diastolic blood pressure (observable entity)|](http://snomed.info/id/400975005) is represented using multiple attributes within one relationship group.
 
 <figure><img src="../../../images/240455426.png" alt=""><figcaption><p>Stated view of a concept from the Observable entity hierarchy with grouped attributes</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Relationship%20Group" class="button primary">Provide Feedback</a>

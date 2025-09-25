@@ -14,3 +14,10 @@ _Techniques_ , as qualifier values, should include the word _technique_ in their
 * For example,
   * 702658000 | Microbial culture technique (qualifier value) |
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Disposition" class="button primary">Provide Feedback</a>

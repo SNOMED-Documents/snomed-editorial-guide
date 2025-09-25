@@ -147,3 +147,10 @@ For exemplar,
 * To genetic engineering process variations (e.g., Somatropin(epr), Somatropin(rbe), or Somatropin(rmc)), as SNOMED CT does not generally differentiate substances based on production process.
 * Between a chemical element and its salt.
   * For example, 387307005 |Calcium carbonate (substance)| is not a modification of |Calcium (substance)|.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Concepts%20Representing%20a%20Substance%20or%20its%20Modifications" class="button primary">Provide Feedback</a>

@@ -47,3 +47,10 @@ The count of base and modification pair ensures that this multi-ingredient produ
 The requirement for all the three ingredient count attributes depends significantly on how the substance hierarchy is modeled. For example, with calcium products (calcium lactate and calcium lactate gluconate) if both are considered modifications of Calcium (substance), then for multi-ingredient products containing both, the three ingredient counts would be required to obtain correct classification for MP only and MP precisely concepts.
 
 For further details, see the [Ingredient Count Attributes](../pharmaceutical-and-biologic-product-and-dose-form-attributes-summary/ingredient-count-attributes.md) in the International Model specification.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Medicinal%20Product%20Precisely%20%28MP%20precisely%29" class="button primary">Provide Feedback</a>

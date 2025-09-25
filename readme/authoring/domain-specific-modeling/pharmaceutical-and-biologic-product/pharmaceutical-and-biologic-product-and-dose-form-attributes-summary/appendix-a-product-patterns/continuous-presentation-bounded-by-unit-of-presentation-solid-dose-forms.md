@@ -36,3 +36,10 @@ Strength is expressed as "per one unit of presentation" and the presentation str
 | Presentation strength (logical) | 4 g per 1 unit of presentation |                                                                                                                                            |
 | Presentation strength           | 4 g per 1 sachet               | UCUM: 4 g per 1 each                                                                                                                       |
 | Concentration strength          |                                | The concentration of colestyramine in the powder inside the sachet is known to the regulatory agency but not deemed clinically significant |
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Continuous%20presentation%3A%20bounded%20by%20unit%20of%20presentation%3B%20solid%20dose%20forms" class="button primary">Provide Feedback</a>

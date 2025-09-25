@@ -109,3 +109,10 @@ Synonyms converting metric units to percent or parts per millions may be include
 <figure><img src="../../../../../../.gitbook/assets/image (57).png" alt=""><figcaption><p><strong>Inferred</strong> view for 769514000 |Product containing precisely buprenorphine 70 microgram/1 hour prolonged-release transdermal patch (clinical drug)|.</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690867.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Drug%20with%20Continuous%20Dose%20Form" class="button primary">Provide Feedback</a>

@@ -23,3 +23,10 @@ Example of extra-articular rheumatoid manifestation,
 {% hint style="info" %}
 410795001 |Juvenile rheumatoid arthritis (disorder)| has been inactivated with an inactivation reason of _Outdated_ with a target replacement of 410502007 |Juvenile idiopathic arthritis (disorder)|. Subtypes of Juvenile idiopathic arthritis (disorder) are now modeled to reflect the up-to-date classification of this disorder.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Rheumatoid%20arthritis" class="button primary">Provide Feedback</a>

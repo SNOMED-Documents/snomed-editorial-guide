@@ -11,3 +11,10 @@ Ischemic heart disease includes myocardial infarction, myocardial ischemia (with
 Coronary arteriosclerosis can, of course, be present without causing ischemia, so coronary arteriosclerosis is not a  _subtype_ of ischemic heart disease.
 
 Likewise, there are causes of myocardial ischemia and infarction other than coronary arteriosclerosis, so ischemic heart disease is not a  _subtype_ of coronary arteriosclerosis.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Ischemia" class="button primary">Provide Feedback</a>

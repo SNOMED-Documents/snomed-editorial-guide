@@ -136,3 +136,10 @@ Synonyms matching the FSN are not required.
 <figure><img src="../../../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 783301004 |Product containing precisely abacavir (as abacavir sulfate) 600 milligram and lamivudine 300 milligram/1 each conventional release oral tablet (clinical drug)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690776.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Drug%20with%20Discrete%20Dose%20Form" class="button primary">Provide Feedback</a>

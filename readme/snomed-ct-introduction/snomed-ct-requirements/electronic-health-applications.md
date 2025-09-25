@@ -154,3 +154,10 @@ Organizations, such as WHO and some government bodies, require specific data rel
 ### Identify patients in need of interventions proactively
 
 Population-based preventive care should be offered to specific groups, based on sex, age, medical history, and other factors. Health information applications based on information recorded with SNOMED CT can be used to identify patients, so they can be offered appropriate care.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Electronic%20Health%20Applications" class="button primary">Provide Feedback</a>

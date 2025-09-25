@@ -53,3 +53,10 @@ A summary of the SNOMED CT requirements is as follows. Additional information ma
 ## Availability Requirements
 
 <table><thead><tr><th width="205.2890625">Requirement</th><th>Description</th></tr></thead><tbody><tr><td>Limited Applications</td><td><ul><li>Applications vary in their ability to use terminological components. </li><li>Special consideration may be necessary for applications that require only limited use of SNOMED CT</li></ul></td></tr><tr><td>Concepts in Different Languages</td><td><ul><li>Translating SNOMED CT into other languages is required </li><li>Multiple translations may support communication of clinical information across language barriers</li></ul></td></tr><tr><td>Patients</td><td><ul><li>Patients may be users of SNOMED CT if they record information in their own medical records </li><li>This may require limited licensing of SNOMED CT for populations, in general</li></ul></td></tr></tbody></table>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Summary%20of%20SNOMED%20CT%20Requirements" class="button primary">Provide Feedback</a>

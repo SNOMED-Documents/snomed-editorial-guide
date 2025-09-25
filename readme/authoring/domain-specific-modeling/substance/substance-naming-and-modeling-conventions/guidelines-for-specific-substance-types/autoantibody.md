@@ -52,3 +52,10 @@ For example,
   * Thyroglobulin IgG autoantibody
 * In general, _anti X antibody_ or _anti X autoantibody_ is redundant and should be avoided. However, description(s) that are commonly used are considered for addition on a case by case basis, for example:
   * &#x20;ANA - anti-nuclear antibody
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Autoantibody" class="button primary">Provide Feedback</a>

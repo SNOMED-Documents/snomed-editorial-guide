@@ -54,3 +54,10 @@ For example,
   * PT: Dual energy X-ray absorptiometry of mandible
   * SYN: DXA of mandible
   * SYN: DEXA of mandible
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Radiographic%20Imaging%2C%20X-ray%20and%20Plain%20X-ray" class="button primary">Provide Feedback</a>

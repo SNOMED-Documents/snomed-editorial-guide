@@ -67,3 +67,10 @@ Preferred; not required.
 <figure><img src="../../../../../../../.gitbook/assets/image (95).png" alt=""><figcaption><p><em><strong>Stated and Inferred</strong></em> view for 737594003 |Delayed-release and prolonged-release (release characteristic)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691185.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Dose%20Form%20Release%20Characteristic" class="button primary">Provide Feedback</a>

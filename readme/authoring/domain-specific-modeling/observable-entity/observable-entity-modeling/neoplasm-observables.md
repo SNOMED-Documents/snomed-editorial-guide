@@ -31,3 +31,10 @@ The terms _colorectal_ and _colorectum_, commonly used by pathologists, are incl
 Concepts containing a _metastatic_ malignant neoplasm from the observable entity subhierarchy do not use 704321009 |Characterizes (attribute)|, but instead are defined by the specific _metastatic_ morphologic abnormality. For example, 444384007 |Number of regional lymph nodes containing metastatic neoplasm in excised specimen (observable entity)| has the attribute 246093002 |Component (attribute)| with a target value of 14799000 |Neoplasm, metastatic (morphologic abnormality)|.
 
 Concepts containing a _metastatic_ malignant neoplasm from the observable entity subhierarchy do not use 704321009 |Characterizes (attribute)|, but instead are defined by the specific _metastatic_ morphologic abnormality. For example, 444384007 |Number of regional lymph nodes containing metastatic neoplasm in excised specimen (observable entity)| has the attribute 246093002 |Component (attribute)| with a target value of 14799000 |Neoplasm, metastatic (morphologic abnormality)|.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Neoplasm%20Observables" class="button primary">Provide Feedback</a>

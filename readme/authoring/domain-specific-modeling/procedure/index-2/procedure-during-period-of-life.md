@@ -47,3 +47,10 @@ Ultrasonography of fetal head (procedure) can be fully defined by |Procedure| an
 {% hint style="success" %}
 The generic 69536005 |Head structure (body structure)| should be used, because the 54527006 |Fetal head structure (body structure)| cannot return the complete substructures of the head.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Procedure%20during%20period%20of%20life" class="button primary">Provide Feedback</a>

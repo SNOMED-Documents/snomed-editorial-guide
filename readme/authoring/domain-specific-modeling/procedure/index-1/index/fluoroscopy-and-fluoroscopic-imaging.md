@@ -92,3 +92,10 @@ For example,
   * FSN: Fluoroscopic arthrography of right sacroiliac joint (procedure)
   * PT: Fluoroscopic arthrography of right sacroiliac joint
   * SYN: Fluoroscopic arthrogram of right sacroiliac joint
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Fluoroscopy%20and%20Fluoroscopic%20Imaging" class="button primary">Provide Feedback</a>

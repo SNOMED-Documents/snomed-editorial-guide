@@ -179,3 +179,10 @@ For example,
 {% hint style="warning" %}
 There are examples on this page that do not have a concept ID. These examples are included for members who may be modeling observables within their extension.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Observable%20Entity%20Defining%20Attributes" class="button primary">Provide Feedback</a>

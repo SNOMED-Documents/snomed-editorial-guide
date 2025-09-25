@@ -68,3 +68,10 @@ This attribute indicates the degree of completion, or status, of a Procedure, as
 For example,
 
 * 183976008 | Operative procedure planned (situation)| with Procedure context, Planned (qualifier value)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Situation%20with%20Explicit%20Context%20Defining%20Attributes" class="button primary">Provide Feedback</a>

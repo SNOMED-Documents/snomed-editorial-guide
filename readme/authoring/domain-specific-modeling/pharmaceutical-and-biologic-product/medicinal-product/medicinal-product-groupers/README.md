@@ -13,3 +13,10 @@ A _grouper_ is a concept designed to aggregate concepts based on specific charac
   * Structure and Disposition - combination of the above
 
 <figure><img src="../../../../../../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption><p>Medicinal Product Grouping</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Medicinal%20Product%20Groupers" class="button primary">Provide Feedback</a>

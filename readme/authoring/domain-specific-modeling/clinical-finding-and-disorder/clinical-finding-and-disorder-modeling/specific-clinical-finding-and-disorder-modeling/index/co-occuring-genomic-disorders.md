@@ -31,3 +31,10 @@ For example,
 {% hint style="warning" %}
 The term phrase, "co-occurrent and due to" is no longer to be used in the fully specified name. There are existing concepts that use the co-occurrent and due to pattern, but these will be re-termed. Genetic mutations that cause a disorder are by definition co-occurrent, so there is no need to represent this in the FSN, but they should be modeled as co-occurring, i.e. supertypes for both conditions should be present.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Co-occuring%20Genomic%20Disorders" class="button primary">Provide Feedback</a>

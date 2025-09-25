@@ -57,3 +57,10 @@ See also the IDMP Compatibility part of the Clinical Drug section. ([Clinical dr
 #### **Measurement Point**
 
 ISO 11615 in IDMP introduces the concept of "measurement point" for strength in some products, usually those with a metered dosage value system, for example, the strength of the active ingredient substance in some inhaler products, is measured at a particular distance from the point of aerosolisation. Using a strength measurement point is currently something that is country-specific (although regulation may change to make it more standardized as its use becomes more widespread). In the international core, it may become important to specify the measurement point for the strength of some products to allow national extensions to select the correct concept for their use, since it would appear that differences in measurement point between otherwise similar products can be clinically significant. Measurement point is currently not explicitly described in the international release.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Ingredient%20Strength%20Attributes" class="button primary">Provide Feedback</a>

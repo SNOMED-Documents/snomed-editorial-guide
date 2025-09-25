@@ -34,3 +34,10 @@ When authoring in this domain, these are the approved attributes and allowable r
 | 370135005 \| Pathological process (attribute) \|  | 1       | 0..\*       | 0..1                 | << 1495041000004108 \| Proliferation of neoplasm (qualifier value) \| OR << 308490002 \| Pathological developmental process (qualifier value) \| OR << 441862004 \| Infectious process (qualifier value) \| OR << 472963003 \| Hypersensitivity process (qualifier value) \| OR << 769247005 \| Abnormal immune process (qualifier value) \| |
 | 246112005 \| Severity (attribute) \|              | 1       | 0..\*       | 0..1                 | << 272141005 \| Severities (qualifier value) \|                                                                                                                                                                                                                                                                                              |
 | 726633004 \| Temporally related to (attribute) \| | 1       | 0..\*       | 0..\*                | << 404684003 \| Clinical finding (finding) \| OR << 71388002 \| Procedure (procedure) \|                                                                                                                                                                                                                                                     |
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Finding%20Attributes%20Summary" class="button primary">Provide Feedback</a>

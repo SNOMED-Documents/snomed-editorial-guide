@@ -90,3 +90,10 @@ SNOMED CT descriptions representing assessment scales and staging systems should
 **Gram staining**\
 Gram staining is a common laboratory technique used to differentiate bacteria based on their cell wall constituents. Laboratory test results may be _Gram positive_ or _Gram negative_. The technique was developed by a Danish physician, Hans Christian Gram. Consequently _Gram_, when referring to the technique, should always begin with an upper case _G_.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Case%20Significance" class="button primary">Provide Feedback</a>

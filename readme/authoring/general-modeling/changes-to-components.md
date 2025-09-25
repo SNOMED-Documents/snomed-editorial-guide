@@ -154,3 +154,10 @@ A substance or organism originally believed to be a single entity has been recla
 
 [Management of Inactivated International Concepts within an Extension](https://app.gitbook.com/s/3RKZIWpWFT0ocCgNT16E/5-key-steps/5.4-authoring/5.4.1-general-authoring-principles/5.4.1.3-management-of-inactivated-international-concepts-within-an-extension "mention")
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Changes%20to%20Components" class="button primary">Provide Feedback</a>

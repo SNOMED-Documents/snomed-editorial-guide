@@ -123,3 +123,10 @@ These types of procedures should be classified in other hierarchies, e.g. Cauter
   * 56121000 |**Repair** of arteriovenous fistula by **coagulation** (procedure)|
   * 1287542001 |**Coagulation** of external ear (procedure)|
   * 15593007 |**Cauterization** of pharynx (procedure)|
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Diathermy" class="button primary">Provide Feedback</a>

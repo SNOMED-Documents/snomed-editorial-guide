@@ -304,3 +304,10 @@ As an alternative to pre-coordination in the international release, this severit
 This attribute's subhierarchy specifies the associated time period (i.e. before, during, after) between two clinical findings, e.g., |Pediatric inflammatory multisystem syndrome temporally associated with COVID-19|; or between a clinical finding and a procedure, e.g., perioperative complications temporally related to a surgical procedure (i.e. preoperative, intraoperative, and postoperative).
 
 This attribute is self-grouped.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Finding%20Defining%20Attributes" class="button primary">Provide Feedback</a>

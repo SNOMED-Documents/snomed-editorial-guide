@@ -21,3 +21,10 @@ Given the manual burden that intermediate primitives impose, the creation of new
 * The impact is manageable and there is a management plan, including an extensional definition for the direct sub-concepts.
 
 For the International Release, such requests are assessed case-by-case.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Intermediate%20Primitive%20Concept%20Modeling" class="button primary">Provide Feedback</a>

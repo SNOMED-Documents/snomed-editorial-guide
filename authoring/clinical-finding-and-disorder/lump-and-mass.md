@@ -5,3 +5,10 @@ Distinguishing consistently between lump and mass can be difficult in diagnostic
 Avoid using 'lump' in new content, where more specific terminology is available.
 
 Lump should not be added as a synonym for mass concepts in the Finding or Disorder hierarchies. Existing legacy synonyms and concepts will remain unchanged for now.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Lump%20and%20mass" class="button primary">Provide Feedback</a>

@@ -51,3 +51,10 @@ Where more than one potential primitive supertype is identified for a concept, a
 For information on the effect of GCIs on modeling primitive supertypes, see [General Concept Inclusions (GCIs), GCI-Modeled Primitive Ancestor](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133244597).
 
 \\
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Proximal%20Primitive%20Modeling" class="button primary">Provide Feedback</a>

@@ -19,3 +19,10 @@ For further information, see section 5.3.2.7 of ISO 11239:2012 _Health informati
 {% content-ref url="medicinal-product-form-containing.md" %}
 [medicinal-product-form-containing.md](medicinal-product-form-containing.md)
 {% endcontent-ref %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Medicinal%20Product%20Form%20%28MPF%29" class="button primary">Provide Feedback</a>

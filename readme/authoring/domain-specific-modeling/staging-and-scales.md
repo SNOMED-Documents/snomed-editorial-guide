@@ -43,3 +43,10 @@ Concepts of the type | X scale score (observable entity) | are modeled with a pr
 Subscores are not subtypes of total scores, nor are total scores subtypes of subscores. Thus, these concepts have sibling relationships.
 
 (See also _Why is Content Rejected_ page _, Proprietary Names_ for information about use of Questionnaire and Scale names)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Staging%20and%20Scales" class="button primary">Provide Feedback</a>

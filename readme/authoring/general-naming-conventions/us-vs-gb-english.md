@@ -33,3 +33,10 @@ For spelling of preferred terms in a dialect, where the reference sources provid
 ### Fetal vs. Foetal <a href="#fetal-vs.-foetal" id="fetal-vs.-foetal"></a>
 
 _Fetal_ is the preferred term in both the US and GB language reference sets.  _Fetal_ is acceptable in GB synonyms.  Foetal is not acceptable for US language but acceptable for GB language. &#x20;
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=US%20vs.%20GB%20English" class="button primary">Provide Feedback</a>

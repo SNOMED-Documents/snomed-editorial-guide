@@ -6,3 +6,10 @@ For example,
 
 * [38598009 |Measles-mumps-rubella vaccination (procedure)|](http://snomed.info/id/38598009) has _vaccination_ in all descriptions
 * [86198006 |Influenza vaccination (procedure)|](http://snomed.info/id/86198006) has the synonym, influenza _immunization_
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Immunization%20and%20vaccination" class="button primary">Provide Feedback</a>

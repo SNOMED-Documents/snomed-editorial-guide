@@ -78,3 +78,10 @@ Representation of packaged medicinal products should use Clinical Drugs that hav
 ## IDMP Compatibility
 
 Since the ISO 11615 standard treats all Packaged Medicinal Products in the same manner whether they are standard products or combination products, and because the associations between the manufactured item(s) present in the package are described using recursive relationships, the Combination Real Packaged Medicinal Product is equivalent to a Packaged Medicinal Product identified by a PCID. As with the Real Packaged Medicinal Product, the Combination Real Packaged Medicinal Product is a representation of the _real world product_ authorised for sale and/or supply that exists for all jurisdictions and is marketed into the supply chain for use, it is a concept that should form the 1:1 join between representation in the regulatory domain (IDMP) and representation in the clinical domain (SNOMED CT and national medicinal product terminologies) even if some national medicinal product terminologies choose not to represent it.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Combination%20%28Real%29%20Packaged%20Clinical%20Drugs" class="button primary">Provide Feedback</a>

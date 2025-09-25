@@ -36,3 +36,10 @@ In addition to using the record structure to represent context, there may be a n
 Designers and implementers of electronic health applications need guidance to identify which fields within their record structure will critically affect the meaning of concepts. They require open strategies to preserve meaning if concepts are retrieved or transferred and to allow detection of equivalence to constructs derived from alternative approaches.
 
 (see also _Situation with Explicit Context_ section)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Intended%20Use" class="button primary">Provide Feedback</a>

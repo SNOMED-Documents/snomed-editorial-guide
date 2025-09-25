@@ -21,3 +21,10 @@ The following types of concepts are out of scope for the Physical object hierarc
 
   
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Physical%20Object" class="button primary">Provide Feedback</a>

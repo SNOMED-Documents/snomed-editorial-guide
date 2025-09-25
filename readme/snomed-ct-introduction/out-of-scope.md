@@ -62,3 +62,10 @@ A person's citizenship or legal residence is not an intrinsic characteristic of 
 ## Funding care delivery
 
 Because of the jurisdictional and administrative aspects of medical insurance, this has been deemed out of scope for the SNOMED CT International release. It is up to individual member countries to determine if that type of content should be included in their extensions. Users should contact their country's extension administrator to determine if this type of content is acceptable.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Out%20of%20Scope" class="button primary">Provide Feedback</a>

@@ -23,3 +23,10 @@ The _Concept Model_ is used to specify logical definitions of _SNOMED CT_ concep
 {% content-ref url="qualifying-characteristics.md" %}
 [qualifying-characteristics.md](qualifying-characteristics.md)
 {% endcontent-ref %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Introduction%20to%20Concept%20Model" class="button primary">Provide Feedback</a>

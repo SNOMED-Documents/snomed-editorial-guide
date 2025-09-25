@@ -31,3 +31,10 @@ The other three description inactivation values (outdated, grammatical error, no
   
 
 See also, _Changes in FSN_ , on the [Fully Specified Name](Fully-Specified-Name_174691652.html) page. 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Description%20Inactivation" class="button primary">Provide Feedback</a>

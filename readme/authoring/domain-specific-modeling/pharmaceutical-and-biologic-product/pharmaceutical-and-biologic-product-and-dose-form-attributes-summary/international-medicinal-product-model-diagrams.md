@@ -26,3 +26,10 @@ The last model diagram below shows multi-ingredient medicinal products, and ther
 <figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775776.png" alt=""><figcaption><p>Figure 4: Medicinal Product concept model - International - showing multi-ingredient concepts</p></figcaption></figure>
 
 <figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775765.png" alt=""><figcaption><p>Figure 5: Example of multi-ingredient concepts - ezetimibe and simvastatin</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=International%20Medicinal%20Product%20Model%20Diagrams" class="button primary">Provide Feedback</a>

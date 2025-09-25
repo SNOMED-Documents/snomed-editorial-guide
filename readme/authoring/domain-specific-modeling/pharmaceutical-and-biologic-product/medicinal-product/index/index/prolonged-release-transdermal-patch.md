@@ -8,3 +8,10 @@ Opioid patches (e.g., fentanyl, buprenorphine) are an exception and must retain 
   * The |Has unit of presentation (attribute)| with a value of |Patch (unit of presentation)| is added to all prolonged-release transdermal patch concepts.
 
 Units will reflect the duration, strength, and units as specified in the SPC.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Prolonged-release%20transdermal%20patch" class="button primary">Provide Feedback</a>

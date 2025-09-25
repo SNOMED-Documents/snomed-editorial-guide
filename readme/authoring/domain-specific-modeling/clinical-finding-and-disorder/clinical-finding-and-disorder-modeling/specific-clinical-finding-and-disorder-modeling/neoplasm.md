@@ -152,3 +152,10 @@ The terms _colorectal_ and _colorectum_ , commonly used by pathologists, are inc
 ## Congenital neoplasm
 
 When modeling a congenital neoplasm disorder, the attribute-value relationship of _Pathological process (attribute) = Pathological development process (qualifier value)_ is not used.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Neoplasm" class="button primary">Provide Feedback</a>

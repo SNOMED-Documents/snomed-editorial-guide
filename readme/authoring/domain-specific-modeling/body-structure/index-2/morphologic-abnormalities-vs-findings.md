@@ -15,3 +15,10 @@ Morphologies are used as the values of the defining attributes of findings and p
 Many morphologies have names that could be misinterpreted as implying a process rather than a structure.
 
 Inflammation might mean the _structural-morphologic_ features of inflammation, such as inflammatory cell infiltrates; or it might mean the _process_ that causes the structural changes. Within the morphologic abnormality hierarchy, the _structural_ interpretation is intended, not the _process_ interpretation.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Morphologic%20Abnormalities%20vs.%20Findings" class="button primary">Provide Feedback</a>

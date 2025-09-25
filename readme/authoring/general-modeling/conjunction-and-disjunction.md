@@ -59,3 +59,10 @@ The _and_ represents conjunction in disorders and procedures that can be interpr
 
 * For example,&#x20;
   * [75857000 | Fracture of radius AND ulna (disorder)|](http://snomed.info/id/75857000) represents the occurrence of a _fracture of radius_ and a _fracture of ulna_ at the same time or event. In other words, fracture of both radius and ulna. The concept should be modeled using two finding site relationship groups: Bone structure of radius in one and Bone structure of ulna in the other.&#x20;
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Conjunction%20and%20Disjunction" class="button primary">Provide Feedback</a>

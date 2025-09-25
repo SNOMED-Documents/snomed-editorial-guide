@@ -21,3 +21,10 @@ A system may reproduce the structure and layout of a clinical form on a screen d
 ## Algorithms or logic
 
 System implementers may use the algorithm or logic inherent in a clinical form or tool (e.g. the method by which an overall score is calculated). For example, a clinical form may instruct the user to perform a mathematical operation on the individual answers to produce the overall score, and the same operation may be carried out by the system. The use of the algorithm or logic is an infringement. SNOMED International avoids such use and encourages system implementers to contact the owner to discuss possible infringement.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Implementation%20of%20Brand%2C%20Trademark%20and%20Copyright" class="button primary">Provide Feedback</a>

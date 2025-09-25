@@ -27,3 +27,10 @@ When authoring in this domain, these are the approved attributes and allowable r
 | 118169006 \| Specimen source topography (attribute) \| | 1 | 0..* | 0..1 | << 442083009 \| Anatomical or acquired body structure (body structure) \| |
 | 370133003 \| Specimen substance (attribute) \| | 1 | 0..* | 0..1 | << 105590001 \| Substance (substance) \| OR << 260787004 \| Physical object (physical object) \| OR << 373873005 \| Pharmaceutical / biologic product (product) \| |
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Specimen%20Attributes%20Summary" class="button primary">Provide Feedback</a>

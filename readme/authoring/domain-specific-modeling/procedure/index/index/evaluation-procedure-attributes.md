@@ -75,3 +75,10 @@ For example - where property may be the sole focus of the method:
 <figure><img src="../../../../../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Inferred view of 78888000 |Osmolality measurement, urine (procedure)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/procedure/images/174691353.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Evaluation%20Procedure%20Attributes" class="button primary">Provide Feedback</a>

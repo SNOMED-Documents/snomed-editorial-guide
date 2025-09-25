@@ -125,3 +125,10 @@ Synonyms representing abbreviations for product (e.g. MMR, DTaP) will not be inc
 <figure><img src="../../../../../../.gitbook/assets/image (71).png" alt=""><figcaption><p><strong>Inferred</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)| and illustrates use of the "Has ingredient characteristic" attribute</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690945.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Vaccine%20Product%20containing%20only%20Concepts" class="button primary">Provide Feedback</a>

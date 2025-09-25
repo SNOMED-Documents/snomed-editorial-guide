@@ -63,3 +63,10 @@ All concepts in the classes of the national extension model should be modelled u
 {% hint style="info" %}
 **Please note in the following diagrams, the terming pattern for the Fully Specified Name and other descriptions is not finalised, and more than one terming pattern has been used in the diagrams in this specification.  General terming guidance for all concepts in this specification will be issued in the future, acknowledging that different countries and different languages will need to adapt to their local needs.**
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=National%20Drug%20Extension%20Model" class="button primary">Provide Feedback</a>

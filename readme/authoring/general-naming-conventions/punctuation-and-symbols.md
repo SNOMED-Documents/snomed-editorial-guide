@@ -179,3 +179,10 @@ The characters &, %, and # are permitted in preferred terms or synonyms.
 {% hint style="warning" %}
 The characters @ and $ are not used in any descriptions.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Punctuation%20and%20Symbols" class="button primary">Provide Feedback</a>

@@ -7,3 +7,10 @@ For example,
 * Arrhythmias, like [72654001 |Supraventricular arrhythmia (disorder)|](http://snomed.info/id/72654001), are under [698247007 |Cardiac arrhythmia (disorder)|](http://snomed.info/id/698247007)
 
 Conduction disorders include heart block, AV block, bundle branch block, conduction delay, and conduction defect, like 418341009 | Atrioventricular conduction disorder (disorder) |. Other arrhythmias were moved from under [44808001 |Conduction disorder of the heart (disorder)|](http://snomed.info/id/44808001) and placed under [698247007 |Cardiac arrhythmia (disorder)|](http://snomed.info/id/698247007).
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Arrythmia" class="button primary">Provide Feedback</a>

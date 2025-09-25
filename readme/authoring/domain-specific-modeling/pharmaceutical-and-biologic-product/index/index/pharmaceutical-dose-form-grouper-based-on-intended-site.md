@@ -61,3 +61,10 @@ Optional
 <figure><img src="../../../../../../.gitbook/assets/image (76).png" alt=""><figcaption><p><strong>Stated</strong> view for grouper concept 740596000 |Cutaneous dose form (dose form)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691229.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pharmaceutical%20Dose%20Form%20Grouper%20Based%20on%20Intended%20Site" class="button primary">Provide Feedback</a>

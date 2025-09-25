@@ -82,3 +82,10 @@ The following information may be additionally used to describe characteristics o
 ## IDMP Compatibility
 
 There is no representation of a class similar to the Packaged Clinical Drug concept class; the primary use case for this class beyond support for generic representation of combination products is reimbursement, which is out of scope of IDMP. Combination products in their entirety are only represented in IDMP in their authorised form; there is no PhP type representation for them.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Packaged%20Clinical%20Drug%20%28PCD%29" class="button primary">Provide Feedback</a>

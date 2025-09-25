@@ -36,3 +36,10 @@ IDMP makes a distinction between Substance and the more closely defined Specifie
 2. Specified substances include mixture substances, substances defined by pharmacopoeial specification or substances where a particular manufacturing process is specified.
 
 In order for SNOMED CT to support the IDMP work, whose primary goal is to define unambiguously all substances present in regulated products, it is necessary for both the concepts that are IDMP Substances and those that are IDMP Specified Substances to be present in the SNOMED CT Substance hierarchy.  Stereoisomers, hydrates, and solvates are included in the SNOMED CT substances hierarchy as concepts, as well as concepts to represent their base chemical in the SNOMED CT substance hierarchy.  Since both IDMP Substances and IDMP Specified Substances are candidate concepts to be used in the ingredient role attributes, it does not add value in the definition of these concepts to separately identify IDMP Substances and IDMP Specified Substances in SNOMED CT and would likely cause confusion where substance concepts are used to define concepts outside the scope of IDMP and the medicinal product hierarchy.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Restructure%20of%20the%20top%20level%20substances%20hierarchy" class="button primary">Provide Feedback</a>

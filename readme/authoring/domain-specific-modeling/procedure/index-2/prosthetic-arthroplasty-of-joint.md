@@ -31,3 +31,10 @@ If the cemented component is unspecified, the single implementation role group f
 If the cemented component is known, multiple implantation role groups should be created to represent the prosthesis component of each bone.
 
 <figure><img src="../../../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Stated view of 427560001 |Prosthetic hybrid replacement of shoulder joint using cemented humeral component (procedure)|</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Prosthetic%20arthroplasty%20of%20joint" class="button primary">Provide Feedback</a>

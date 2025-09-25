@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Domain Specific Modeling
 
 SNOMED CT is arranged as a polyhierarchy. A _hierarchy_ is defined as an ordered organization of concept codes linked together through IS A relationships. Concept codes are linked to their more general parent concept codes directly above them in a hierarchy. Concepts with more general meanings are usually located at the top of the hierarchy and then at each level down the hierarchy the meanings become increasingly more specialized.
@@ -134,3 +117,10 @@ See [Process for the maintenance of MRCM rules](https://conf.spaces.snomed.org/w
 SNOMED CT relies on the rules for _usefulness_ to avoid excessive precoordination (see _Scope_ section of Editorial Guide).
 
 Approved precoordination patterns have been created and are available at: [Pre-coordination Naming Patterns Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project). For additional information about the fields used in precoordination, see: [What the fields in the Pre-coordination Naming Patterns JIRA Project mean](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130991902/What+the+fields+in+the+Pre-coordination+Pattern+JIRA+Project+mean).
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Domain%20Specific%20Modeling" class="button primary">Provide Feedback</a>

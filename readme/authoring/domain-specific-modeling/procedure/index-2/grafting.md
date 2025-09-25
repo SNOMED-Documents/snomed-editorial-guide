@@ -22,3 +22,10 @@ For example,
       * [363701004 |Direct substance (attribute)|](http://snomed.info/id/363701004) = [782792007 |Full thickness graft of skin (substance)|](http://snomed.info/id/782792007)
         * Values for direct substance should be from the [420934007 |Graft of skin (substance)|](http://snomed.info/id/420934007) hierarchy that include the origin of the material in the description.
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Grafting" class="button primary">Provide Feedback</a>

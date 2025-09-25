@@ -59,3 +59,10 @@ Terminologies need to change over time. SNOMED CT should implement these changes
 ## Recognize redundancy
 
 The same information can often be coded in different ways. A controlled terminology, that has an adequate scope, cannot exclude this possibility. Instead it should facilitate recognition of equivalent terms.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Medical%20Vocabularies%20-%20J.%20Cimino" class="button primary">Provide Feedback</a>

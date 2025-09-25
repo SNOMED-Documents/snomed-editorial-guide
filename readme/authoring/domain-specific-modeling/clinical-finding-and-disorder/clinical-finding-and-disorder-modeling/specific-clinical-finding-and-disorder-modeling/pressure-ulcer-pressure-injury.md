@@ -36,3 +36,10 @@ The following concepts have been inactivated and replaced with corresponding Pre
 399912005 |Pressure ulcer (disorder)| has been inactivated and the remaining 33 descendants that do not mention a specific stage have been renamed using Pressure _injury_ instead of pressure _ulcer_ with the value of associated morphology value changed from 420226006 |Pressure ulcer (morphologic abnormality)| to 1163214006 |Pressure injury (morphologic abnormality)|. This results in these concepts being relocated under |Pressure injury (disorder)|.  
 
 The NPIAP classification best supports the disambiguation of pressure ulcer from intact skin lesions. The SNOMED CT pressure injury disorder hierarchy follows the NPIAP terminology most closely but accommodates legacy classifications by including an ulcer morphology in the model as well as additional descriptions of _pressure ulcer_ for pressure injury stages II - VI.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pressure%20ulcer%20%20Pressure%20injury" class="button primary">Provide Feedback</a>

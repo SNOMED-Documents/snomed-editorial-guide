@@ -23,3 +23,10 @@ Many terms that refer to body systems or tracts are used imprecisely in clinical
 {% hint style="warning" %}
 The concepts under [116007004 | Combined site (body structure)|](http://snomed.info/id/116007004) should not be used for concept modeling. They do not provide value for the classification of disorders or procedures. These concepts are ambiguous because their intended meaning is unclear, i.e., a combined site could represent any part of two or more sites or all of the referred sites in the description. The combined site (body structure) concepts will eventually be inactivated.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Anatomical%20Structure%20Modeling" class="button primary">Provide Feedback</a>

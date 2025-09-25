@@ -25,3 +25,10 @@ The progressive levels of refinement are used to meet clinical data requirements
 In general, concepts in SNOMED CT should name things that exist in the real world. The concepts are usually names or short noun phrases, not complete sentences or paragraphs.
 
 SNOMED CT is intended to be used with electronic health applications that can support full clinical statements, along with their attributions, dates, times, and statement interrelationships. It may be challenging to balance SNOMED CT content with the needs of those using electronic health applications. For example, some older applications may require concepts outside of the scope of SNOMED CT. SNOMED CT tries to maximize its usefulness and at the same time minimize precoordination.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Structure%20of%20Domain%20Coverage" class="button primary">Provide Feedback</a>

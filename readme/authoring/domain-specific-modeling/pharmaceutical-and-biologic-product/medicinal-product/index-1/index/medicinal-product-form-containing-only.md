@@ -97,3 +97,10 @@ Synonyms matching the FSN are not required.
 <figure><img src="../../../../../../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 772249008 |Product containing only abacavir and lamivudine in oral dose form (medicinal product form)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 772249008 |Product containing only abacavir and lamivudine in oral dose form (medicinal product form)|</p></figcaption></figure>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Medicinal%20Product%20Form%20containing%20only" class="button primary">Provide Feedback</a>

@@ -18,3 +18,10 @@ Functional lesions should not be modeled using values from the 52988006 |Lesion 
 
   
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Lesion" class="button primary">Provide Feedback</a>

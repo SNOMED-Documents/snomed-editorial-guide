@@ -53,3 +53,10 @@ For example,
 A synonym to match the FSN is not required.
 
 Additional synonyms are allowed only if they are consistent with the synonyms for the corresponding structure grouper and disposition.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Substance%20Groupers%20Based%20on%20Both%20Structure%20and%20Disposition" class="button primary">Provide Feedback</a>
