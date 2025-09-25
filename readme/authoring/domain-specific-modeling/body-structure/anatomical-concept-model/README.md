@@ -86,17 +86,17 @@ For more information on part of relationships in the anatomy concept model, plea
 
 ## Can the SNOMED CT relationships table be used to construct a part of hierarchy?
 
-The currently distributed _part of_ Relationships \_\_ need to be much more extensively modeled and quality assured. At present they are not _defining_ , that is, their Characteristic Type \_\_ in the relationship file \_\_ is _additional_ , and, therefore, they do not affect the classifier behavior. A substantial amount of effort has gone into a draft of the updated _part of_ Relationships; these will require review and approval before incorporation into the release. This will eventually result in the SEP triplet structures and _part of_ relations being strictly paralleled. It is a matter of time to implement and quality assure the changes.
+The currently distributed _part of_ Relationships need to be much more extensively modeled and quality assured. At present they are not _defining_ , that is, their Characteristic Type in the relationship file is _additional_, and, therefore, they do not affect the classifier behavior. A substantial amount of effort has gone into a draft of the updated _part of_ Relationships; these will require review and approval before incorporation into the release. This will eventually result in the SEP triplet structures and _part of_ relations being strictly paralleled. It is a matter of time to implement and quality assure the changes.
 
 ## Why are part of relationships not defining?
 
-The SEP structure, combined with the inference mechanism that is used with SNOMED CT, allows us to take advantage of anatomical Relationships \_\_ to infer subsumption, IS\_A Relationships \_\_ between disorders, procedures, and other entities without reference to _part of_ Relationships. The SEP structure also permits us to sufficiently define anatomical structures without reference to _part of_ Relationships (making them _necessarily true_ , but not among the _necessary and sufficient_ conditions).
+The SEP structure, combined with the inference mechanism that is used with SNOMED CT, allows us to take advantage of anatomical Relationships to infer subsumption, IS\_A Relationships between disorders, procedures, and other entities without reference to _part of_ Relationships. The SEP structure also permits us to sufficiently define anatomical structures without reference to _part of_ Relationships (making them _necessarily true_ , but not among the _necessary and sufficient_ conditions).
 
-* For example, the _Structure of left hand_ can be sufficiently defined as a hand structure with laterality = _left._ This definition is sufficient. Converting the _part of_ Relationships \_\_ to have Characteristic Status = _defining_ will require significant changes to the current model.
+* For example, the _Structure of left hand_ can be sufficiently defined as a hand structure with laterality = _left._ This definition is sufficient. Converting the _part of_ Relationships to have Characteristic Status = _defining_ will require significant changes to the current model.
 
 ## Entities with mass versus purely spatial massless entities
 
-Points, lines, and surfaces can be considered to be massless. The FMA calls these _immaterial_. It is important to differentiate the codes/names for these entities from those that are intended to represent entities that have mass. At present, the concepts \_\_ under anatomical spatial entity represent massless entities. Massless entities are not represented using the SEP model. It is conceivable that users may want to reference parts of a surface, and to enable this we would need to apply the SEP model to anatomical spatial entities, or else adopt defining _part of_ Relationships.
+Points, lines, and surfaces can be considered to be massless. The FMA calls these _immaterial_. It is important to differentiate the codes/names for these entities from those that are intended to represent entities that have mass. At present, the concepts under anatomical spatial entity represent massless entities. Massless entities are not represented using the SEP model. It is conceivable that users may want to reference parts of a surface, and to enable this we would need to apply the SEP model to anatomical spatial entities, or else adopt defining _part of_ Relationships.
 
 ## Attributes used to define body structure concepts
 
@@ -108,9 +108,4 @@ This attribute provides information on whether a body structure is left, right, 
 
 With the addition of lateralized content in the International Release, the need for unspecified unilateral concepts is removed, as well as potentially dangerous, if used directly in a patient record. Unilateral concepts will not be accepted.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Anatomical%20Concept%20Model" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Anatomical%20Concept%20Model" class="button primary">Provide Feedback</a>
