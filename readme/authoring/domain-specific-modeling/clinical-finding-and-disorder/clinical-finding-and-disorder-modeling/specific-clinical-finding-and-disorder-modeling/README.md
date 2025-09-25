@@ -22,7 +22,7 @@
 * [Measurement findings](measurement-findings.md)
 * [Mental health](mental-health.md)
 * [Multisystem disorders](multisystem-disorders.md)
-* [Neoplasm](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133240844/Neoplasm)
+* [Neoplasm](neoplasm.md)
 * [Null values](null-values.md)
 * [Obstruction](obstruction.md)
 * [Osteoarthritis](osteoarthritis.md)
@@ -36,9 +36,4 @@
 * [Substance withdrawal syndrome](substance-withdrawal-syndrome.md)
 * [Trauma and Injury](trauma-and-injury.md)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Specific%20Clinical%20finding%20and%20Disorder%20Modeling" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Specific%20Clinical%20finding%20and%20Disorder%20Modeling" class="button primary">Provide Feedback</a>
