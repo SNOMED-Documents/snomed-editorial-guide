@@ -13,7 +13,7 @@ When authoring in this domain, these are the approved attributes and allowable r
 
 ## Author View of Attributes and Ranges for Situation with Explicit Context
 
-<table><thead><tr><th width="378.96966552734375">Attribute</th><th width="106.58673095703125">Grouped</th><th width="122.084228515625">Cardinality</th><th width="176.5633544921875">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td><code>408732007 | Subject relationship context (attribute) |</code></td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C;<code>125676002 | Person (person) |</code></td></tr><tr><td><code>408731000 | Temporal context (attribute) |</code></td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C; <code>410510008 | Temporal context value (qualifier value)</code> |</td></tr></tbody></table>
+<table><thead><tr><th width="378.96966552734375">Attribute</th><th width="106.58673095703125">Grouped</th><th width="122.084228515625">Cardinality</th><th width="176.5633544921875">In Group Cardinality</th><th width="303.2647705078125">Range Constraint</th></tr></thead><tbody><tr><td><code>408732007 | Subject relationship context (attribute) |</code></td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C;<code>125676002 | Person (person) |</code></td></tr><tr><td><code>408731000 | Temporal context (attribute) |</code></td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C; <code>410510008 | Temporal context value (qualifier value)</code> |</td></tr></tbody></table>
 
 ## Author View of Attributes and Ranges for Finding with Explicit Context
 
