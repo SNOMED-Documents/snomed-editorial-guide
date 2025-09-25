@@ -31,12 +31,12 @@ A revised or modified version of an assessment is not a subtype of the original.
 Concepts of the type |Assessment using X assessment scale (procedure)| are modeled with a proximal primitive parent of 445536008 | Assessment using assessment scale (procedure) | or one of its subtypes, as appropriate. A Method of Evaluation-action (qualifier value) is also added.
 
 * For example,
-  * 445719003 | Assessment using visual analog pain scale (procedure)| has a parent of 445536008 | Assessment using assessment scale (procedure)|
+  * 445719003 | Assessment using visual analog pain scale (procedure)| has a parent of 445536008 | Assessment using assessment scale (procedure) |
 
 Concepts of the type | X scale score (observable entity) | are modeled with a proximal primitive parent of 782487009 | Assessment score (observable entity) | or one of its subtypes, as appropriate.
 
 * For example,
-  * 165317007 | Mental disability discharge score (observable entity) | has a parent of 165314000 |Mental disability assessment score (observable entity)|
+  * 165317007 | Mental disability discharge score (observable entity) | has a parent of 165314000 |Mental disability assessment score (observable entity) |
 
 ### Relationship of total scores and subscores
 
