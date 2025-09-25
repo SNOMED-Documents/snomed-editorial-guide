@@ -48,7 +48,7 @@ For example,
 
 ## Associated with
 
-[47429007 | Associated with (attribute)|](http://snomed.info/id/47429007) represents a clinically relevant association between concepts without either asserting or excluding a causal or sequential relationship between the two. In general, avoid using the [47429007 | Associated with (attribute)|](http://snomed.info/id/47429007) as it may be ambiguous and difficult to apply consistently.
+47429007 | Associated with (attribute)| represents a clinically relevant association between concepts without either asserting or excluding a causal or sequential relationship between the two. In general, avoid using the 47429007 | Associated with (attribute)| as it may be ambiguous and difficult to apply consistently.
 
 This attribute is self-grouped.
 
@@ -60,7 +60,7 @@ Areas of content that use this attribute:
 
 For example,
 
-* [6211002 | Polyarthritis associated with another disorder (disorder)|](http://snomed.info/id/6211002)
+* 6211002 | Polyarthritis associated with another disorder (disorder)|
 
 <figure><img src="../../../../images/174690339.png" alt=""><figcaption><p>Stated view of 6211002 |Polyarthritis associated with another disorder (disorder)| using the |Associated with (attribute)|</p></figcaption></figure>
 
@@ -110,21 +110,22 @@ The clinical course value is added when appropriate to the condition and thus sp
 
 Many conditions with acute (sudden) onsets also have acute (short-term) courses. Few conditions with chronic (long-term) durations require rapid versus gradual onset subtyping. Thus, there is no clear need for separating the rapidity of onset from the duration of a disease. The clinical course attribute, which combines onset and course, has been more reproducible and useful than two attributes that attempt to separate the meanings.
 
-#### The term _acute_
+{% hint style="warning" %}
+**The word acute**
 
 The word acute has more than one meaning, and the meanings are often overlapping or unclear. It may imply rapid onset, short duration, or high severity; in some circumstances it might be used to mean all of these. For morphological concepts, acute may also imply the kind of morphology associated with the speed of onset.
 
-For example,
+* For example,
+  * 4532008 | Acute inflammation (morphologic abnormality)| does not necessarily have a clinical course of sudden onset and/or short duration, but rather implies polymorphonuclear infiltration (84499006 | Chronic inflammation (morphologic abnormality) | implies mononuclear cell infiltration, not necessarily a chronic course, although inflammation with a chronic course is highly correlated with a lymphocytic infiltration)
 
-* 4532008 | Acute inflammation (morphologic abnormality| does not necessarily have a clinical course of sudden onset and/or short duration, but rather implies polymorphonuclear infiltration ( 84499006 | Chronic inflammation (morphologic abnormality)| implies mononuclear cell infiltration, not necessarily a chronic course, although inflammation with a chronic course is highly correlated with a lymphocytic infiltration
-
-2704003 |Acute disease (disorder)| is modeled with a Clinical course (attribute) of Sudden onset AND/OR short duration (qualifier value). For clinical conditions that necessitate further specificity, the more appropriate subtypes are available. _Acute onset_ and _sudden onset_ are synonymous; clinical conditions specifying _acute onset_ should be modeled with a Clinical course (attribute) of Sudden onset (qualifier value).
+2704003 |Acute disease (disorder)| is modeled with a Clinical course (attribute) of Sudden onset AND/OR short duration (qualifier value).  For clinical conditions that necessitate further specificity, the more appropriate subtypes are available. _Acute onset_ and &#x73;_&#x75;dden onset_ are synonymous; clinical conditions specifying _acute onset_ should be modeled with a Clinical course (attribute) of Sudden onset (qualifier value).
 
 Acute-on-chronic (qualifier value) is an acute (sudden onset) event superimposed on a pre-existing chronic condition. This be either a sudden worsening of a chronic condition itself (an exacerbation) or the development of a new, separate acute illness on top of a chronic disease.
+{% endhint %}
 
 ## Due to
 
-This attribute is used to identify a clinical finding/disorder, event, or procedure concept as the direct cause of another Clinical finding or Disorder concept. If the clinical finding merely predisposes to another disorder, rather than causing it directly, the more general [| Associated with (attribute)|](http://snomed.org/fictid) is used instead.
+This attribute is used to identify a clinical finding/disorder, event, or procedure concept as the direct cause of another Clinical finding or Disorder concept. If the clinical finding merely predisposes to another disorder, rather than causing it directly, the more general | Associated with (attribute)| is used instead.
 
 This attribute is self-grouped.
 
@@ -148,7 +149,9 @@ For example,
 
 * Asthma with 246456000 | Episodicity (attribute)| of 255217005 | First episode (qualifier value)| represents the first time the patient presents to their healthcare provider with asthma.
 
-{% hint style="warning" %}
+{% hint style="success" %}
+**Modeling**
+
 Episodicity is not used to model any concepts precoordinated in the International Release, but it can be used as a qualifier in postcoordination.
 {% endhint %}
 
@@ -199,22 +202,30 @@ In general, the value for the |Interprets| attribute should be from the |Observa
 |Observable entity| concepts that are modeled with a |Scale type (attribute)| relationship should not be used as a value for a Clinical finding's |Interprets| relationship. The existing _vital sign_ |Observable entity| concepts, e.g. |Arterial blood pressure (observable entity)| are exceptions to this guideline; they are permitted for use.
 
 {% hint style="info" %}
-In the guidance on the use of the [|Scale type (attribute)](../../../../authoring/observable-entity/observable-entity-defining-attributes.md)|, it has been noted that going forward, international |Observable entity| concepts will not be modeled with the [|](http://snomed.org/fictid)Scale type (attribute)[|](http://snomed.org/fictid). Extension concepts are permitted to add specific subtypes of observable entities that include the [|](http://snomed.org/fictid)Scale type (attribute)[|](http://snomed.org/fictid), if desired.
+In the guidance on the use of the |Scale type (attribute)|, it has been noted that going forward, international |Observable entity| concepts will not be modeled with the [|](http://snomed.org/fictid)Scale type (attribute)[|](http://snomed.org/fictid). Extension concepts are permitted to add specific subtypes of observable entities that include the [|](http://snomed.org/fictid)Scale type (attribute)[|](http://snomed.org/fictid), if desired.
 {% endhint %}
 
 Be aware that SNOMED CT currently contains some concepts in the |Evaluation Procedure| hierarchy which logically belong in the |Observable entity| hierarchy. Reconciliation of the overlap between these two hierarchies will be undertaken at a future date. Discussions about the final solution for the |Observable entity| and |Evaluation Procedure| issue are ongoing. See [Observable Entity vs. Evaluation procedure](../../../../authoring/observable-entity/observable-entity.md).
 
 When working with the Interprets attribute, consider the values used by the supertypes and possible subtypes of your concept for this attribute. This is because the |Interprets| values must be drawn from the same hierarchy, e.g., |Observable entity| hierarchy or |Procedure| hierarchy as supertypes and subtypes, to support modeling and correct subsumption.
 
+{% hint style="success" %}
 #### Measurement finding
 
 For concepts in the 118245000 |Measurement finding (finding)| subhierarchy, the value for 363714003 |Interprets (attribute)| can be an Evaluation procedure, Laboratory procedure, or an Observable entity concept. In the future, the range of values may change when discussion of the relationship between evaluation procedures and observable entities concludes.
+{% endhint %}
 
 ## Has realization
 
 This attribute is used to specify the process or activity that is the consequence of realization of the function.
 
-Allergy to X is modeled with [719722006 | Has realization (attribute)|](http://snomed.info/id/719722006) of [472964009 | Allergic process (qualifier value)|](http://snomed.info/id/472964009) and [246075003 | Causative agent (attribute)|](http://snomed.info/id/246075003) of [105590001 | Substance (substance)|](http://snomed.info/id/105590001) . Find the allergy template at the [Clinical finding/disorder templates page](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133993595/Clinical+finding+disorder+templates) for more information including exceptions.
+{% hint style="success" %}
+**Modeling Allergy to X**
+
+Allergy to X is modeled with 719722006 | Has realization (attribute)| of 472964009 | Allergic process (qualifier value)| and 246075003 | Causative agent (attribute)| of 105590001 | Substance (substance)| . Find the allergy template at the Clinical finding/disorder templates page for more information including exceptions.
+{% endhint %}
+
+
 
 ## Occurrence
 
@@ -225,19 +236,21 @@ For example,
 * 192611004 | Childhood phobic anxiety disorder (disorder)| has the \[ 246454002 |Occurrence (attribute)| of 255398004 | Childhood (qualifier value)|
 
 {% hint style="success" %}
-Multiple values of [246454002 | Occurrence (attribute)|](http://snomed.info/id/246454002) for a single concept are not desirable. They will be addressed in a future release.
+**Modeling**
+
+Multiple values of 246454002 | Occurrence (attribute)| for a single concept are not desirable. They will be addressed in a future release.
 {% endhint %}
 
 ## Pathological process
 
 This attribute provides information about the underlying pathological process of a disorder, i.e. it describes the process that results in the structural or morphologic change.
 
-[441862004 | Infectious process (qualifier value)|](http://snomed.info/id/441862004) and its subtype [442614005 | Parasitic process (qualifier value)|](http://snomed.info/id/442614005) are included in the range for [370135005 | Pathological process (attribute)|](http://snomed.info/id/370135005) . These are used in modeling the [40733004 | Infectious disease (disorder)|](http://snomed.info/id/40733004) subhierarchy.
+441862004 | Infectious process (qualifier value)| and its subtype 442614005 | Parasitic process (qualifier value)| are included in the range for 370135005 | Pathological process (attribute)| . These are used in modeling the 40733004 | Infectious disease (disorder)| subhierarchy.
 
 * For example,
   * 17322007 | Disease caused by parasite (disorder)| has the 370135005 | Pathological process (attribute)| of 442614005 | Parasitic process (qualifier value)|
 
-[370135005 | Pathological process (attribute)|](http://snomed.info/id/370135005) must not be used for values that could overlap with [116676008 | Associated morphology (attribute)|](http://snomed.info/id/116676008) .
+370135005 | Pathological process (attribute)| must not be used for values that could overlap with 116676008 | Associated morphology (attribute)|.
 
 * For example,
   * Inflammatory processes result in inflammation (by definition), but these disorders should be defined by their morphology, i.e., 708039003 | Inflammatory lesion (morphologic abnormality)|
@@ -249,7 +262,9 @@ Disorders which involve congenital anomalies are defined with the following grou
 * Pathological process (attribute) = pathological development process (qualifier value)
 * Finding site = X (body structure)
 
-{% hint style="info" %}
+{% hint style="success" %}
+**Modeling**
+
 Congenital X morphology concepts should not be used. They may be used only if there is not a non-congenital supertype.
 {% endhint %}
 
@@ -270,11 +285,15 @@ While this attribute is useful to create subtypes of specific concepts and to di
 
 The Severity attribute is not applied to subtypes of 162465004 |Symptom severity (finding)| because the severity of a symptom is different to the severity of a disease. Please note this piece of guidance does not align with the MRCM but is an editorial guideline.
 
+{% hint style="success" %}
+**Modeling**
+
 Generally, |Severity (attribute)| is not used to model concepts precoordinated in the International Release, but there are some exceptions.
 
 Non-standardized or locally defined severity values will not be recognized or supported in SNOMED CT. However, severity values explicitly defined and standardized by an internationally recognized standard are acceptable. A valid exception requires an internationally accepted definition that can be consistently applied and used reliably for international comparison. Even though a reference may be internationally sourced, its use may not always be uniformly applied by multiple countries. Classifications of severity that represent variation in clinical presentations and enact limitations with age ranges, sex, or pregnancy status, do not apply universally to all patients of all ages, prove problematic, and may not be generally useful.
 
 As an alternative to pre-coordination in the international release, this severity attribute can be used as a qualifier in postcoordination. However, beware that postcoordination of severity results in the same irreproducibility issues as pre-coordination.
+{% endhint %}
 
 ## Temporally related to
 
