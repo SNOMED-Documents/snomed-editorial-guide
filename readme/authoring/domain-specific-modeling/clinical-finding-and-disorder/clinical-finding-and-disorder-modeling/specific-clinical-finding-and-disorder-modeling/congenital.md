@@ -1,6 +1,6 @@
 # Congenital
 
-The concept [66091009 |Congenital disease (disorder)|](http://snomed.info/id/66091009), means present at birth. Though the word _congenital_ may be applied to genetic disorders, the term _genetic_ is preferred for those disorders.
+The concept 66091009 |Congenital disease (disorder)|, means present at birth. Though the word _congenital_ may be applied to genetic disorders, the term _genetic_ is preferred for those disorders.
 
 The logical definition of a congenital disorder must include:
 
@@ -42,7 +42,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (32) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690519.png" alt=""><figcaption><p> Stated view of 33534005 |Congenital bowing of femur (disorder)|</p></figcaption></figure>
+<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690519.png" alt=""><figcaption><p>Stated view of 33534005 |Congenital bowing of femur (disorder)|</p></figcaption></figure>
 
 Acquired disorders are those that originate and manifest after birth. The disorders are associated with a period of life, as opposed to a specific process or structure. All diseases (disorders) that occur after birth are considered _acquired_.
 
@@ -106,9 +106,4 @@ Agenesis of X or Complete absence of X
 * _Acquired abnormality of congenital anomaly_
 * _Malformation, deformation, anomaly_
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Congenital" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Congenital" class="button primary">Provide Feedback</a>
