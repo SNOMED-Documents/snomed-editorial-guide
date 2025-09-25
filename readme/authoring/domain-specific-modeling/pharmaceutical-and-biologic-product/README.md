@@ -67,6 +67,7 @@ The |Pharmaceutical / biologic product (product)| hierarchy is comprised of mult
 * (product)
 * (physical object) - only 1 concept
 
+{% hint style="warning" %}
 The following subhierarchies will be retained as primitive subhierarchies until use cases and/or detailed requirements are known. Requests for addition of new concepts or modification of existing concepts will be evaluated on a case-by-case basis.
 
 * 410652009 |Blood product (product)|
@@ -77,7 +78,7 @@ The following subhierarchies will be retained as primitive subhierarchies until 
 * 373783004 |Dietary product (product)|\*
 * 410969008 |Sterile maggots (product)|
 
-_\*E ditorial guidelines and related content updates for <<373783004 |Dietary product (product)| are managed by the Nutrition Project Group._
+_\*Editorial guidelines and related content updates for <<373783004 |Dietary product (product)| are managed by the Nutrition Project Group._
 
 The following subhierarchies will be retained "as is" until use cases and/or detailed requirements are known. Requests for addition of new concepts will be rejected. Requests for modification of existing concepts will be evaluated on a case-by-case basis.
 
@@ -87,3 +88,5 @@ The following subhierarchies will be retained "as is" until use cases and/or det
 * 411126008 |Patch test product (product)|
 
 _\* Development of editorial guidelines and related content updates for <<411115002 |Drug-device combination product (product)| will be done in conjunction with the Device Project._
+{% endhint %}
+
