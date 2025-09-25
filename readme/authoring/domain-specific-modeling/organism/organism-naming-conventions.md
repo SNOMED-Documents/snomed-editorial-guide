@@ -380,6 +380,6 @@ SNOMED International utilizes various resources when reviewing changes to the or
 
 ### General
 
-* Catalogue of Life ([https://www.catalogueoflife.org/](https://www.catalogueoflife.org/)). This is the result of cooperation between ITIS ([https://www.itis.gov](https://www.itis.gov)) and Species 2000 ([https://www.sp2000.org/](https://www.sp2000.org/)). Please note, Catalogue of Life may not be up to date for all areas. For bacteria, fungus, and virus, consult resources noted above as primary references.
+* Catalogue of Life ([https://www.catalogueoflife.org/](https://www.catalogueoflife.org/)). This is the result of cooperation between ITIS ([https://www.itis.gov](https://www.itis.gov/)) and Species 2000 ([https://www.sp2000.org/](https://www.sp2000.org/)).  Please note, Catalogue of Life may not be up to date for all areas.  For bacteria, fungus, and virus, consult resources noted above as primary references.
 * International Code of Zoological Nomenclature (ICZN)
 * International Code of Nomenclature for algae, fungi, and plants (IAPT)
