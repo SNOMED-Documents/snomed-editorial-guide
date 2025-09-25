@@ -1,8 +1,8 @@
 # Observable Entity
 
-| Definition                                                                      | Examples                                                                                                                 |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Information about a quality/property to be observed and how it will be observed | 416540001 \| Calcium deposit observable (observable entity) \| 276885007 \| Core body temperature (observable entity) \| |
+| Definition                                                                      | Examples                                                                                                                                        |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Information about a quality/property to be observed and how it will be observed | <ul><li>416540001 | Calcium deposit observable (observable entity) | </li><li>276885007 | Core body temperature (observable entity) |</li></ul> |
 
 ## Use of Observable Entities
 
@@ -50,4 +50,6 @@ For example, LOINC recognizes three different aspects to an observable:
 
 LOINC assigns this aspect with an attribute value. It is not one of the six main LOINC parts typically visible to users; however, it is included in the LOINC database.
 
-Some areas of the observable entity hierarchy need clarification and remodeling. This includes upper level concepts and hierarchies such as 246464006 |Function (observable entity) and 415178003 |Process (observable entity)| as well as intermediate primitive and leaf node concepts.
+{% hint style="warning" %}
+Some areas of the observable entity hierarchy need clarification and remodeling. This includes upper level concepts and hierarchies such as 246464006 | Function (observable entity) | and 415178003 | Process (observable entity) | as well as intermediate primitive and leaf node concepts.
+{% endhint %}
