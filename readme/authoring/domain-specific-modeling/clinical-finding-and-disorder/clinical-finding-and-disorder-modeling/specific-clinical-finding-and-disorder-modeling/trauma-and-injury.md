@@ -13,31 +13,31 @@ Historically, _injury_ concepts have been modeled in SNOMED CT as damage to a bo
 
 417163006 |Traumatic or non-traumatic injury (disorder)| is currently modeled with GCIs to reflect the two notions of _damage without trauma_ (non-traumatic injury) and _trauma with or without damage_ (traumatic injury).
 
+{% hint style="info" %}
 #### Traumatic injury (disorder)
 
 The use of |Spontaneous event (event)| is in development, as many of the concepts that related to _non-traumatic_ are not in fact spontaneous.
 
 * In those cases where it is clinically apparent that the cause is spontaneous, the concept is modeled with a |Due to (attribute)| of |Spontaneous event (event)|.
 * In those cases where it cannot be determined that the clinical condition is actually spontaneous (i.e., no known underlying mechanism), a |Due to (attribute)| relationship to |Spontaneous event (event)| would be omitted.
-
-{% hint style="info" %}
-Where a request for a specific traumatic or non-traumatic disorder is made and there is support in literature for both, then concepts representing both the traumatic and non traumatic forms together with a generic form should be added.
 {% endhint %}
+
+Where a request for a specific traumatic or non-traumatic disorder is made and there is support in literature for both, then concepts representing both the traumatic and non traumatic forms together with a generic form should be added.
 
 ## Friction injury, abrasion
 
-An injury due to _friction_ can be represented using [400152004 |Friction injury (morphologic abnormality)|](http://snomed.info/id/400152004), in which case it will not classify as a kind of wound.
+An injury due to _friction_ can be represented using 400152004 |Friction injury (morphologic abnormality)|, in which case it will not classify as a kind of wound.
 
 For example,
 
-* [47222000 |Friction injury of tooth (disorder)|](http://snomed.info/id/47222000)
-  * [400068007 |Mechanical irritation (morphologic abnormality)|](http://snomed.info/id/400068007)
+* 47222000 |Friction injury of tooth (disorder)|
+  * 400068007 |Mechanical irritation (morphologic abnormality)|
 
-However, most disorders that are named _abrasion_ imply that skin or other tissue has been abraded (scraped or worn away). Thus, they are also considered wounds and will correctly classify as wounds after assigning the correct morphology, [400061001 |Abrasion (morphologic abnormality)|](http://snomed.info/id/400061001).
+However, most disorders that are named _abrasion_ imply that skin or other tissue has been abraded (scraped or worn away). Thus, they are also considered wounds and will correctly classify as wounds after assigning the correct morphology, 400061001 |Abrasion (morphologic abnormality)|.
 
 For example,
 
-* [211039006 |Abrasion of skin of chest (disorder)|](http://snomed.info/id/211039006)
+* 211039006 |Abrasion of skin of chest (disorder)|
 
 While many medical definitions refer to abrasions as superficial injuries of the skin and subcutaneous structures, the term is also used for areas such as dentistry to define superficial excoriations of teeth, ophthalmology, and also can be used for other integumentary structures such as nails. The FSN should clearly identify which structure the concept refers to and where this structure is skin, this must be specified.
 
@@ -48,9 +48,4 @@ Ruptures are modeled with an |Associated morphology (attribute)| of 125671007 |R
 * Traumatic rupture concepts are modeled with a |Due to (attribute)| of << |Traumatic event (event)|
 * Nontraumatic rupture concepts are modeled as a subtype of 1119219007 |Nontraumatic injury (disorder)|
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Trauma%20and%20Injury" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Trauma%20and%20Injury" class="button primary">Provide Feedback</a>
