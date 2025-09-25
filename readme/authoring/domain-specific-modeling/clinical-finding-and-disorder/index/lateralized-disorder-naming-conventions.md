@@ -28,7 +28,7 @@ When creating a lateralized disorder concept, if a non-lateralized parent does n
 * For example,
   * When creating _Inflammation of left mastoid_ and _Inflammation of right mastoid_, also ensure a concept for _Inflammation of mastoid_ exists.
 
-Where the disorder is left/right of a specific anatomical site, and the preferred term naming pattern of _Right/left_ causes a combination that does not sound like natural flowing English, the guidance above can be circumvented. See the section [Naming Convention for Digits of Hand and Foot](../../../../../authoring/clinical-finding-and-disorder/Naming-Convention-for-Digits-of-Hand-and-Foot_174690334.html) and Laterality section [Laterality](../../../../../authoring/clinical-finding-and-disorder/Laterality_174690325.html).
+Where the disorder is left/right of a specific anatomical site, and the preferred term naming pattern of _Right/left_ causes a combination that does not sound like natural flowing English, the guidance above can be circumvented. See the section [Naming Convention for Digits of Hand and Foot](../../body-structure/index/naming-convention-for-digits-of-hand-and-foot.md) and Laterality section [Laterality](../../body-structure/anatomical-concept-model/laterality.md).
 
 * For example,
   * _Left interphalangeal thumb joint open traumatic dislocation_ should follow naming guidance of _Open traumatic dislocation of interphalangeal joint of left thumb_.
