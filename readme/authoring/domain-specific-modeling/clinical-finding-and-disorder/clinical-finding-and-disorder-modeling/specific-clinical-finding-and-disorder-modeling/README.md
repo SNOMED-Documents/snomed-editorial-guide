@@ -1,71 +1,37 @@
 # Specific Clinical finding and Disorder Modeling
 
-[acquired-abnormality-of-congenital-anomaly.md](acquired-abnormality-of-congenital-anomaly.md "mention")
-
-[adverse-reaction-to-x-vaccine.md](adverse-reaction-to-x-vaccine.md "mention")
-
-[allergy-to-x-vaccine.md](allergy-to-x-vaccine.md "mention")
-
-[bacterial-disorders-with-organism-or-toxin.md](bacterial-disorders-with-organism-or-toxin.md "mention")
-
-[combining-morphologic-abnormalities.md](combining-morphologic-abnormalities.md "mention")
-
-[congenital.md](congenital.md "mention")
-
-[death.md](death.md "mention")
-
-[enteritis.md](enteritis.md "mention")
-
-[index](index/ "mention")
-
-[hematologic-and-lymphatic-conditions.md](hematologic-and-lymphatic-conditions.md "mention")
-
-[hernia.md](hernia.md "mention")
-
-[iatrogenic.md](iatrogenic.md "mention")
-
-[immune-function-disorders.md](immune-function-disorders.md "mention")
-
-[infectious-vs-inflammatory.md](infectious-vs-inflammatory.md "mention")
-
-[ischemia.md](ischemia.md "mention")
-
-[lesion.md](lesion.md "mention")
-
-[malformation-deformity-anomaly.md](malformation-deformity-anomaly.md "mention")
-
-[maternal-fetal-neonatal.md](maternal-fetal-neonatal.md "mention")
-
-[measurement-findings.md](measurement-findings.md "mention")
-
-[mental-health.md](mental-health.md "mention")
-
-[multisystem-disorders.md](multisystem-disorders.md "mention")
-
-[neoplasm.md](neoplasm.md "mention")
-
-[null-values.md](null-values.md "mention")
-
-[obstruction.md](obstruction.md "mention")
-
-[osteoarthritis.md](osteoarthritis.md "mention")
-
-[overdose.md](overdose.md "mention")
-
-[pneumonia-vs-pneumonitis.md](pneumonia-vs-pneumonitis.md "mention")
-
-[poisoning.md](poisoning.md "mention")
-
-[pressure-ulcer-pressure-injury.md](pressure-ulcer-pressure-injury.md "mention")
-
-[pulmonary-embolism.md](pulmonary-embolism.md "mention")
-
-[remission.md](remission.md "mention")
-
-[rheumatoid-arthritis.md](rheumatoid-arthritis.md "mention")
-
-[substance-withdrawal-syndrome.md](substance-withdrawal-syndrome.md "mention")
-
-[arrythmia.md](arrythmia.md "mention")
-
-[trauma-and-injury.md](trauma-and-injury.md "mention")
+* [Acquired abnormality of congenital anomaly](acquired-abnormality-of-congenital-anomaly.md)
+* [Adverse reaction to X vaccine](adverse-reaction-to-x-vaccine.md)
+* [Allergy to X vaccine](allergy-to-x-vaccine.md)
+* [Arrythmia](arrythmia.md)
+* [Bacterial disorders with organism or toxin](bacterial-disorders-with-organism-or-toxin.md)
+* [Combining Morphologic Abnormalities](combining-morphologic-abnormalities.md)
+* [Congenital](congenital.md)
+* [Death](death.md)
+* [Enteritis](enteritis.md)
+* [Genetic, developmental, congenital, and physical origin](index/)
+* [Hematologic and lymphatic conditions](hematologic-and-lymphatic-conditions.md)
+* [Hernia](hernia.md)
+* [Iatrogenic](iatrogenic.md)
+* [Immune function disorders](immune-function-disorders.md)
+* [Infectious vs. inflammatory](infectious-vs-inflammatory.md)
+* [Ischemia](ischemia.md)
+* [Lesion](lesion.md)
+* [Malformation, deformation, anomaly](malformation-deformity-anomaly.md)
+* [Maternal, fetal, neonatal](maternal-fetal-neonatal.md)
+* [Measurement findings](measurement-findings.md)
+* [Mental health](mental-health.md)
+* [Multisystem disorders](multisystem-disorders.md)
+* [Neoplasm](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133240844/Neoplasm)
+* [Null values](null-values.md)
+* [Obstruction](obstruction.md)
+* [Osteoarthritis](osteoarthritis.md)
+* [Overdose](overdose.md)
+* [Pneumonia vs. Pneumonitis](pneumonia-vs-pneumonitis.md)
+* [Poisoning](poisoning.md)
+* [Pressure ulcer Pressure injury](pressure-ulcer-pressure-injury.md)
+* [Pulmonary embolism](pulmonary-embolism.md)
+* [Remission](remission.md)
+* [Rheumatoid arthritis](rheumatoid-arthritis.md)
+* [Substance withdrawal syndrome](substance-withdrawal-syndrome.md)
+* [Trauma and Injury](trauma-and-injury.md)
