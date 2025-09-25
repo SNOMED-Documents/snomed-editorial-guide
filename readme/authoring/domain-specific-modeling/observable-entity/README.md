@@ -1,36 +1,28 @@
 # Observable Entity
 
-| Definition                                                                      | Examples                                                                                                                                        |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Information about a quality/property to be observed and how it will be observed | <ul><li>416540001 | Calcium deposit observable (observable entity) | </li><li>276885007 | Core body temperature (observable entity) |</li></ul> |
+| Definition                                                                      | Examples                                                                                                                       |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Information about a quality/property to be observed and how it will be observed | <ul><li>416320009 |Calcium volume (observable entity)|</li><li>276885007 |Core body temperature (observable entity)|</li></ul> |
 
 ## Use of Observable Entities
 
 Observables entities may be used to code headers on a template, elements on a checklist, or to assign values to elements.
 
 * For example,
-  * |Color of nail| is an observable entity.&#x20;
-  * |Gray nails| is a finding.
+  * |Color of nail| is an _observable entity_.  |Gray nails| is a _finding_.
 
 ### Types of Observable Entities
 
 There are four general types of observable entities for use in health care. Each has different representation requirements and patterns, i.e. the set of attributes will vary.
 
 * **Quality.** A characteristic, feature, or property that is inherent in someone or something.
-
-For example, mass of a person, temperature of internal organs, concentration of sodium in plasma, angle of a joint
-
+  * For example, mass of a person, temperature of internal organs, concentration of sodium in plasma, angle of a joint
 * **Disposition.** A characteristic or feature that is not always realized in full.
-
-For example, antibiotic susceptibility of a certain population
-
+  * For example, antibiotic susceptibility of a certain population
 * **Function.** The ability of a person, some part of a person, or a thing to perform activities or realize processes.
-
-For example, ability to walk
-
+  * For example, ability to walk
 * **Process.** A process or outcome of a process
-
-For example, secretion rate, heart rate, respiratory rate
+  * For example, secretion rate, heart rate, respiratory rate
 
 ## Observable Entity vs. Evaluation Procedure
 
@@ -54,9 +46,4 @@ LOINC assigns this aspect with an attribute value. It is not one of the six main
 Some areas of the observable entity hierarchy need clarification and remodeling. This includes upper level concepts and hierarchies such as 246464006 | Function (observable entity) | and 415178003 | Process (observable entity) | as well as intermediate primitive and leaf node concepts.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Observable%20Entity" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Observable%20Entity" class="button primary">Provide Feedback</a>
