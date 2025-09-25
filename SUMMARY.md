@@ -275,7 +275,6 @@
         * [Situation with Explicit Context Defining Attributes](readme/authoring/domain-specific-modeling/situation-with-explicit-context/situation-with-explicit-context-defining-attributes.md)
         * [Situation with Explicit Context Naming Conventions](readme/authoring/domain-specific-modeling/situation-with-explicit-context/situation-with-explicit-context-naming-conventions.md)
         * [Situation with Explicit Context Modeling](readme/authoring/domain-specific-modeling/situation-with-explicit-context/situation-with-explicit-context-modeling.md)
-        * [Naming Convention for SEP Model](readme/authoring/domain-specific-modeling/situation-with-explicit-context/naming-convention-for-sep-model.md)
       * [SNOMED CT Model Component](readme/authoring/domain-specific-modeling/snomed-ct-model-component.md)
       * [Special Concept](readme/authoring/domain-specific-modeling/special-concept.md)
       * [Specimen](readme/authoring/domain-specific-modeling/specimen/README.md)
