@@ -46,7 +46,7 @@ Where more than one potential primitive supertype is identified for a concept, a
 
       421095001 | Allergic disorder by body site affected (disorder)|. However, 64572001 | Disease (disorder)| is subsumed by 404684003 | Clinical finding (finding)|, therefore64572001 | Disease (disorder)|is the proximal primitive supertype concept.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### GCI-Modeled primitive supertypes <a href="#gci-modeled-primitive-supertypes" id="gci-modeled-primitive-supertypes"></a>
 
