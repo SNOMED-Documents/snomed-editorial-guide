@@ -45,8 +45,8 @@ When constructing the FSN for a disorder, finding, or procedure containing a bod
 
 For example,
 
-* For the body structure concept, [266005 | Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005) , a procedure with this body structure is [726425007 | Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007).
-* For the body structure concept, [74386004 | Nasal bone structure (body structure)|](http://snomed.info/id/74386004) , a disorder concept with this body structure is [413878002 | Closed, displaced fracture of nasal bone (disorder)|](http://snomed.info/id/413878002).
+* For the body structure concept, 266005 | Structure of lower lobe of right lung (body structure)| , a procedure with this body structure is 726425007 | Lobectomy of lower lobe of right lung (procedure)|.
+* For the body structure concept, 74386004 | Nasal bone structure (body structure)| , a disorder concept with this body structure is 413878002 | Closed, displaced fracture of nasal bone (disorder)|.
 
 {% hint style="info" %}
 For information on acceptable precoordinated naming patterns, see the [_Pre-coordination Naming Patterns project_](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project)_._ New content should conform with the naming patterns; however, legacy content may not yet be updated.
@@ -166,11 +166,11 @@ The logical definitions, represented using the concept model, should represent t
 
 For example,
 
-* [191268006 | Chronic anemia (disorder)|](http://snomed.info/id/191268006)
+* 191268006 | Chronic anemia (disorder)|
   * FSN: Chronic anemia (disorder)
   * US PT: Chronic anemia
   * GB PT: Chronic anaemia
-* [414545008 | Ischemic heart disease (disorder)|](http://snomed.info/id/414545008)
+* 414545008 | Ischemic heart disease (disorder)|
   * FSN: Ischemic heart disease (disorder)
   * US PT: Ischemic heart disease
   * GB PT: Ischaemic heart disease
