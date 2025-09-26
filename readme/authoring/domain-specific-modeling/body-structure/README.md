@@ -2,7 +2,7 @@
 
 The 123037004 |Body structure (body structure)| subhierarchy includes both anatomical structures and morphologic abnormalities
 
-<table><thead><tr><th width="257.80859375">Semantic tag</th><th>Example</th></tr></thead><tbody><tr><td>Body structure</td><td><p>38033009 | Amputation stump (body structure) |</p><p>91134007 | Mitral valve structure (body structure) |</p></td></tr><tr><td>Morphologic abnormality</td><td><p>189955008 | Biopsy wound (morphologic abnormality) |</p><p>31470003 | Adenosarcoma (morphologic abnormality) |</p></td></tr><tr><td>Cell</td><td><p>250293008 | Agranular white blood cell (cell) |</p><p>57184004 | T lymphocyte (cell) |</p></td></tr><tr><td>Cell structure</td><td><p>4897009 | Cell membrane, prokaryotic (cell structure) |</p><p>362293000 | Entire axon (cell structure) |</p></td></tr></tbody></table>
+<table><thead><tr><th width="257.80859375">Semantic tag</th><th>Example</th></tr></thead><tbody><tr><td>Body structure</td><td><ul><li>38033009 | Amputation stump (body structure) |</li></ul><ul><li>91134007 | Mitral valve structure (body structure) |</li></ul></td></tr><tr><td>Morphologic abnormality</td><td><ul><li>189955008 | Biopsy wound (morphologic abnormality) |</li></ul><ul><li>31470003 | Adenosarcoma (morphologic abnormality) |</li></ul></td></tr><tr><td>Cell</td><td><ul><li>250293008 | Agranular white blood cell (cell) |</li></ul><ul><li>57184004 | T lymphocyte (cell) |</li></ul></td></tr><tr><td>Cell structure</td><td><ul><li>4897009 | Cell membrane, prokaryotic (cell structure) |</li></ul><ul><li>362293000 | Entire axon (cell structure) |</li></ul></td></tr></tbody></table>
 
 The body structure domain includes anatomical structures, as well as morphologic abnormalities, as follows:
 
@@ -17,7 +17,9 @@ The body structure domain includes anatomical structures, as well as morphologic
   * Topography unknown (body structure)
 
 {% hint style="warning" %}
-Concepts under [258331007 | Anatomical site notations for tumor staging (body structure)|](http://snomed.info/id/258331007) require review and reallocation.
+**Tumor staging**
+
+Concepts under 258331007 | Anatomical site notations for tumor staging (body structure) | require review and reallocation.
 {% endhint %}
 
 ## Topics in this section
@@ -42,10 +44,4 @@ Concepts under [258331007 | Anatomical site notations for tumor staging (body st
 [index-2](index-2/)
 {% endcontent-ref %}
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Body%20Structure" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Body%20Structure" class="button primary">Provide Feedback</a>
