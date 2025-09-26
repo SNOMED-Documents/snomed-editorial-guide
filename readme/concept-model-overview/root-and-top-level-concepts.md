@@ -17,31 +17,26 @@ In SNOMED CT, the default meaning of a concept is defined above. However, a conc
 
 ## Root Concept
 
-The concept file includes a special concept referred to as the _root concep_ t. It is the single concept that is at the top of the SNOMED CT concept hierarchy. All other concepts are descended from this root concept via at least one series of relationships of the Relationship type [116680003 | Is a (attribute)|](http://snomed.info/id/116680003) , i.e. all other concepts are regarded as subclasses of this concept. The root concept code is [138875005 | SNOMED CT Concept (SNOMED RT+CTV3)|](http://snomed.info/id/138875005) . All other SNOMED CT concepts are subtypes of the root concept. Unlike other SNOMED CT concepts, the root concept is not a subtype of any other concept.
+The concept file includes a special concept referred to as the _root concep_ t. It is the single concept that is at the top of the SNOMED CT concept hierarchy. All other concepts are descended from this root concept via at least one series of relationships of the Relationship type 116680003 | Is a (attribute)| , i.e. all other concepts are regarded as subclasses of this concept. The root concept code is [138875005 | SNOMED CT Concept (SNOMED RT+CTV3)|](http://snomed.info/id/138875005) . All other SNOMED CT concepts are subtypes of the root concept. Unlike other SNOMED CT concepts, the root concept is not a subtype of any other concept.
 
 <figure><img src="../../images/174691759.png" alt=""><figcaption></figcaption></figure>
 
 ## Top-level Concepts
 
-Concepts that are directly related to the root concept by a single relationship of the Relationship type [116680003 | Is a (attribute)|](http://snomed.info/id/116680003) are referred to as _top-level concepts_. All other concepts are descended from at least one top-level concept via at least one series of relationships of the Relationship type [116680003 | Is a (attribute)|](http://snomed.info/id/116680003) , i.e. all other concepts represent subclasses of the meaning of at least one top-level concept.
+Concepts that are directly related to the root concept by a single relationship of the Relationship type 116680003 | Is a (attribute)| are referred to as _top-level concepts_. All other concepts are descended from at least one top-level concept via at least one series of relationships of the Relationship type 116680003 | Is a (attribute)| , i.e. all other concepts represent subclasses of the meaning of at least one top-level concept.
 
 ### Top-level metadata concepts
 
-A concept that is directly related to the root metadata concept, [900000000000441003 | SNOMED CT Model Component (metadata)|](http://snomed.info/id/900000000000441003) by a single relationship of the relationship type IS\_A. All metadata concepts are descended from at least one top-level metadata concept via at least one series of relationships with Relationship type IS\_A. Metadata codes represent structural information about the terminology itself. The top-level metadata concepts represent broad groups of metadata.
+A concept that is directly related to the root metadata concept, 900000000000441003 | SNOMED CT Model Component (metadata)| by a single relationship of the relationship type IS\_A. All metadata concepts are descended from at least one top-level metadata concept via at least one series of relationships with Relationship type IS\_A. Metadata codes represent structural information about the terminology itself. The top-level metadata concepts represent broad groups of metadata.
 
 ## Subtype relationships
 
 Subtype relationships provide the main semantic hierarchy that relates concepts to one another. All active concepts, except the root concept, have subtype relationships with one or more concept. Each of these relationships indicate that a concept is a subtype of another concept.
 
-Subtype relationships are expressed in the same way as other SNOMED CT relationships. They are identifiable by their fully specified names, e.g [116680003 |Is a (attribute)|](http://snomed.info/id/116680003).
+Subtype relationships are expressed in the same way as other SNOMED CT relationships. They are identifiable by their fully specified names, e.g 116680003 |Is a (attribute)|.
 
 For example,
 
-* [53084003 |Bacterial pneumonia (disorder)|](http://snomed.info/id/53084003) is a subtype of [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007) because it is a subtype of [ 312342009 |Infective pneumonia (disorder)|](http://snomed.info/id/312342009) which is also a subtype of [233604007 |Pneumonia (disorder)|](http://snomed.info/id/233604007)
+* 53084003 |Bacterial pneumonia (disorder)| is a subtype of 233604007 |Pneumonia (disorder)| because it is a subtype of 312342009 |Infective pneumonia (disorder)| which is also a subtype of 233604007 |Pneumonia (disorder)|
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Root%20and%20Top-level%20Concepts" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Root%20and%20Top-level%20Concepts" class="button primary">Provide Feedback</a>
