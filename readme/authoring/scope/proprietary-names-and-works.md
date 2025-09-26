@@ -59,6 +59,4 @@ The principles that apply to individual answers also apply to the overall score 
     * EuroQol Five Dimension (youth) doing usual activities score
     * EuroQol Five Dimension (youth) feeling worried, sad or unhappy score
 
-\\
-
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Proprietary%20Names%20and%20Works" class="button primary">Provide Feedback</a>
