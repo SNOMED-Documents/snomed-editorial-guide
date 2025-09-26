@@ -5,9 +5,9 @@ _Examples: vials, ampoules, sachets, containing solid dose forms such as powders
 The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term.\
 Strength is expressed as "per one unit of presentation" and the presentation strength and the concentration are exactly the same.
 
-### **Example 1: A pack of 10 vials each containing 2g cefotaxime powder for solution for injection**
+### **Example: Pack of 10 vials each containing 2g cefotaxime powder for solution for injection**
 
-\*\*
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.06.36 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775955.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
 
@@ -21,11 +21,9 @@ Strength is expressed as "per one unit of presentation" and the presentation str
 | Presentation strength           | 2 g \[per 1 vial]                 | UCUM: 2 g per 1 each                                                                                                                      |
 | Concentration strength          |                                   | The concentration of cefotaxime in the powder inside the vial is known to the regulatory agency but is not deemed clinically significant. |
 
-### **Example 2: A pack of 50 sachets containing 4g of colestyramine powder for oral solution**
+### **Example:  Pack of 50 sachets containing 4g of colestyramine powder for oral solution**
 
-\*\*
-
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775956.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.09.14 PM.png" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Powder for oral suspension     |                                                                                                                                            |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -37,9 +35,4 @@ Strength is expressed as "per one unit of presentation" and the presentation str
 | Presentation strength           | 4 g per 1 sachet               | UCUM: 4 g per 1 each                                                                                                                       |
 | Concentration strength          |                                | The concentration of colestyramine in the powder inside the sachet is known to the regulatory agency but not deemed clinically significant |
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Continuous%20presentation%3A%20bounded%20by%20unit%20of%20presentation%3B%20solid%20dose%20forms" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Continuous%20presentation%3A%20bounded%20by%20unit%20of%20presentation%3B%20solid%20dose%20forms" class="button primary">Provide Feedback</a>
