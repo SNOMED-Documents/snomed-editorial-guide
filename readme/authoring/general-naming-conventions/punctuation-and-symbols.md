@@ -11,7 +11,7 @@ A comma is allowed in an FSN when required for meaning or to add clarity.
 * For example,
   * Computed tomography of head, neck, abdomen and pelvis (procedure)
 
-A comma is not allowed to change _sort order_ for use in the search function.&#x20;
+A comma is not allowed to change _sort order_ for use in the search function.
 
 * Unacceptable example,
   * Frostbite, acute
@@ -43,14 +43,14 @@ In protein names, this character (represented by single quote character) is used
 * For example, 80222004 |5'-nucleotidase (substance)|
 
 {% hint style="info" %}
-The prime symbol and apostrophe may look the same, but each has its own Unicode representation.&#x20;
+The prime symbol and apostrophe may look the same, but each has its own Unicode representation.
 {% endhint %}
 
 ### Hyphen ( - ) <a href="#hyphen" id="hyphen"></a>
 
-Hyphens should follow rules of style for the dialect and language in which the descriptions are used as found in such publications as the _Chicago Manual of Style_, the _American Medical Association’s Manual of Style_, a current medical dictionary, etc.  Punctuation is to be used sparingly unless used to prevent ambiguity.&#x20;
+Hyphens should follow rules of style for the dialect and language in which the descriptions are used as found in such publications as the _Chicago Manual of Style_, the _American Medical Association’s Manual of Style_, a current medical dictionary, etc. Punctuation is to be used sparingly unless used to prevent ambiguity.
 
-When a hyphen is used to join words or to separate syllables, there is no space either before or after the hyphen. &#x20;
+When a hyphen is used to join words or to separate syllables, there is no space either before or after the hyphen.
 
 * For example,
   * Anti-infective agent (product)
@@ -61,15 +61,15 @@ When a hyphen is used to join words or to separate syllables, there is no space 
   * Pandrug-resistant bacteria (organism)
   * Extended spectrum beta-lactamase-producing bacteria (organism)
 
-A hyphen may be used to separate two phrases, to contrast values, or to show a relationship between two things.  A hyphen should rarely be used in an FSN, because it may obscure the exact meaning of the description; the hyphen should be replaced with words that clarify the meaning.&#x20;
+A hyphen may be used to separate two phrases, to contrast values, or to show a relationship between two things. A hyphen should rarely be used in an FSN, because it may obscure the exact meaning of the description; the hyphen should be replaced with words that clarify the meaning.
 
-A hyphen is used to separate an acronym from its expanded form when no other terms are included in a description.&#x20;
+A hyphen is used to separate an acronym from its expanded form when no other terms are included in a description.
 
 * For example,
   * 30549001 |Removal of suture (procedure)| has a synonym of |ROS - removal of suture|
 
 {% hint style="success" %}
-The hyphen is represented by UTF-8 and can be entered directly by a standard keyboard.  Although the hyphen may sometimes be referred to as a _dash_, the _EN dash_ and _EM dash_ are not used in SNOMED CT.&#x20;
+The hyphen is represented by UTF-8 and can be entered directly by a standard keyboard. Although the hyphen may sometimes be referred to as a _dash_, the _EN dash_ and _EM dash_ are not used in SNOMED CT.
 {% endhint %}
 
 ### Colon ( : ) <a href="#colon" id="colon"></a>
@@ -85,24 +85,24 @@ Colons are allowed in the FSNs of organisms, substances, or products where the c
   * Lidocaine hydrochloride 1.5%/epinephrine 1:200,000 injection solution vial (product)
   * pT3: tumor invades adventitia (esophagus) (finding)
 
-Colons may be allowed in non-FSN descriptions.&#x20;
+Colons may be allowed in non-FSN descriptions.
 
 * For example, to separate an abbreviation from the rest of a name or a specimen from the finding
   * Urine: turbid (finding)
 
 #### Double Colon (::) <a href="#double-colon" id="double-colon"></a>
 
-A double colon ( :: ) notation is allowed in the neoplastic morphologic abnormalities (400177003 |Neoplasm and/or hamartoma (morphologic abnormality)| subhierarchy).  The notation can be used to represent gene fusions; for example, BCR::ABL1 fusion.
+A double colon ( :: ) notation is allowed in the neoplastic morphologic abnormalities (400177003 |Neoplasm and/or hamartoma (morphologic abnormality)| subhierarchy). The notation can be used to represent gene fusions; for example, BCR::ABL1 fusion.
 
 ### Forward slash ( / ) <a href="#forward-slash" id="forward-slash"></a>
 
 The forward slash should not be used in FSNs. When the slash is part of the authoritative name (e.g. representation of heterozygosity in hemoglobinopathies), a hyphen (no space before or after) is used in the FSN. The forward slash, without spaces, may be used in a preferred term or synonym.
 
-* For example,&#x20;
+* For example,
   * FSN: Sickle cell-hemoglobin C disease (disorder)
     * SYN: Hemoglobin S/C disease
   * FSN: Per cubic millimeter (qualifier value)
-    * SYN:  /mm<sup>3</sup>
+    * SYN: /mm<sup>3</sup>
 
 #### Exceptions <a href="#exceptions.1" id="exceptions.1"></a>
 
@@ -118,22 +118,22 @@ A forward slash may be allowed in non-FSN descriptions in a variety of contexts.
 
 Protein names may contain the forward slash ‘/’ for separating multiple domains or functions:
 
-For example, 1222712000 |Serine/threonine-protein kinase B-raf (substance)|&#x20;
+For example, 1222712000 |Serine/threonine-protein kinase B-raf (substance)|
 
 Certain neoplastic variants incorporate a slash in their terming (note this slash does not mean 'and' or 'and/or'). Based on pathology input, a dash can be utilized in the FSN and a slash retained in the Preferred Term for clinical usage.
 
 * For example,
   * FSN: Myelodysplastic-myeloproliferative neoplasm with neutrophilia (disorder)
-  * PT:  Myelodysplastic/myeloproliferative neoplasm with neutrophilia
+  * PT: Myelodysplastic/myeloproliferative neoplasm with neutrophilia
 
 ### Plus sign ( + ) <a href="#plus-sign" id="plus-sign"></a>
 
-The plus sign is generally discouraged for use in descriptions, and legacy content still contains this symbol.  However, some uses are allowed. Plus signs may be found in the product, disposition, and substance hierarchies.&#x20;
+The plus sign is generally discouraged for use in descriptions, and legacy content still contains this symbol. However, some uses are allowed. Plus signs may be found in the product, disposition, and substance hierarchies.
 
 * For example,
-  *   |H+/K+-exchanging ATPase inhibitor| is an acceptable synonym for&#x20;
+  *   |H+/K+-exchanging ATPase inhibitor| is an acceptable synonym for
 
-      [734582004 | Hydrogen/potassium adenosine triphosphatase enzyme system inhibitor (disposition)|](http://snomed.info/id/734582004). &#x20;
+      734582004 | Hydrogen/potassium adenosine triphosphatase enzyme system inhibitor (disposition)|.
 
 ### Caret symbol ( ^ ) <a href="#caret-symbol" id="caret-symbol"></a>
 
@@ -150,7 +150,7 @@ The single caret is used to represent exponents, i.e. _powers of,_ in alignment 
 
 ### Pipe character ( | ) <a href="#pipe-character-or" id="pipe-character-or"></a>
 
-A description cannot contain a pipe character, |.  Since the | is used to indicate the beginning and end of a description, it may cause confusion.
+A description cannot contain a pipe character, |. Since the | is used to indicate the beginning and end of a description, it may cause confusion.
 
 ### Umlaut ( ¨ ) <a href="#umlaut" id="umlaut"></a>
 
@@ -159,9 +159,9 @@ An umlaut should only be accepted for terms that do not have equivalences in Eng
 * For example,
   * 83901003 |Sjögren's syndrome (disorder)| and one of its synonyms, Sjogrens syndrome
 
-### Brackets ( \[ ] )  <a href="#brackets" id="brackets"></a>
+### Brackets ( \[ ] ) <a href="#brackets" id="brackets"></a>
 
-The use of brackets " \[ ] " for descriptions are allowed, including in FSN and PT. &#x20;
+The use of brackets " \[ ] " for descriptions are allowed, including in FSN and PT.
 
 * For example,
   * 114819005 |Salmonella II 43:g,t:\[1,5] (organism)|
@@ -169,7 +169,7 @@ The use of brackets " \[ ] " for descriptions are allowed, including in FSN and 
 
 ### Other Special Characters ( <, >, &, %, $, @, # ) <a href="#other-special-characters-less-than-greater-than-and-usd" id="other-special-characters-less-than-greater-than-and-usd"></a>
 
-Other special characters <, >, &, %, $, @, # are not permitted in FSNs.  All instances of FSNs with these characters should be spelled out in full text.
+Other special characters <, >, &, %, $, @, # are not permitted in FSNs. All instances of FSNs with these characters should be spelled out in full text.
 
 * For example,
   * _FD\&C Yellow #2_ should be _FD and C Yellow Number Two_
@@ -180,9 +180,4 @@ The characters &, %, and # are permitted in preferred terms or synonyms.
 The characters @ and $ are not used in any descriptions.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Punctuation%20and%20Symbols" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Punctuation%20and%20Symbols" class="button primary">Provide Feedback</a>
