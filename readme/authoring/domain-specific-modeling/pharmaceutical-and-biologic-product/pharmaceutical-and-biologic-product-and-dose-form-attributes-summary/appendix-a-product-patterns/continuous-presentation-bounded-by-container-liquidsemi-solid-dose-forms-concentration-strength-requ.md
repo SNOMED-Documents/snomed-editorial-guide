@@ -33,11 +33,11 @@ Note that the unit of presentation is likely to be useful in description of the 
 | Presentation strength           | 450 mg per 500 mL                                       | Not a clinically safe expression of strength                    |
 | Concentration strength          | 9 mg per 1 mL                                           | Synonym: 0.9% w/v                                               |
 
-### **Example 3: A pack of 30 sachets each containing a transdermal patch delivering 4.6mg per 24 hours of rivastigmine**
+### **Example: A pack of 30 sachets each containing a transdermal patch delivering 4.6mg per 24 hours of rivastigmine**
 
-\*\*
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.53.31 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775963.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775963.jpg" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Transdermal patch                                    |                                                                 |
 | ------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------- |
