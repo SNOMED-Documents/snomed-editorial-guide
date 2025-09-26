@@ -6,7 +6,7 @@ SNOMED CT uses the Foundation Model of Anatomy (FMA) definition of _body part_ a
 
 Many concepts contain the phrase _surface region._ These could be interpreted as massless (immaterial) mathematical surfaces, but a clinical terminology would have no direct use for such meanings in clinical records. They could be interpreted as having mass (not immaterial), but the depth then is arbitrary. Should it be just skin deep, or should it include deeper layers of the surface? If only skin deep, the meaning of these concepts would overlap with concepts for skin regions. If deeper, the meaning would possibly be the same as the generic structure concepts.
 
-{% hint style="success" %}
+{% hint style="info" %}
 **Inactivation**
 
 Most surface region concepts will be retired as ambiguous/\_possibly equivalent to \_their corresponding concepts that are clearly not immaterial, including x structure, entire x, and skin of X. Where the x structure codes do not currently exist, they will be created, without the surface region phrase.
@@ -82,9 +82,4 @@ _Male_ and _female_ are unnecessary descriptions in describing the breast. Gende
 For information on laterality, see Anatomical Structure Naming Conventions section at [Naming Convention for Digits of Hand and Foot](../../../../../authoring/body-structure/Naming-Convention-for-Digits-of-Hand-and-Foot_174690334.html) and Laterality section at [Laterality](../../../../../authoring/body-structure/Laterality_174690325.html)
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Body%20parts%20and%20regions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Body%20parts%20and%20regions" class="button primary">Provide Feedback</a>
