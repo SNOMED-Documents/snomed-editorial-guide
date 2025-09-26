@@ -5,9 +5,9 @@ _Examples: parenteral solutions, unit dose nebuliser solutions_
 The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term.\
 Presentation strength is expressed as "per the amount of liquid bounded by the unit of presentation" but concentration strength is per mL (and therefore is often different).
 
-### **Example 1: A pack of 10 ampoules each containing 20mL of metoclopramide hydrochloride for solution for injection**
+### **Example: A pack of 10 ampoules each containing 20mL of metoclopramide hydrochloride for solution for injection**
 
-\*\*
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.43.12 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775958.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
 
@@ -21,11 +21,11 @@ Presentation strength is expressed as "per the amount of liquid bounded by the u
 | Presentation strength           | 100 mg per 20 mL                                        |                                                                 |
 | Concentration strength          | 5 mg per 1 mL                                           |                                                                 |
 
-### **Example 2: A pack of 20 UDVs each containing 2mL of ipratropium bromide for solution for nebulisation**
+### **Example: A pack of 20 UDVs each containing 2mL of ipratropium bromide for solution for nebulisation**
 
-\*\*
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.45.17 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775959.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775959.jpg" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Solution for nebulisation                                |                                                                 |
 | ------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------- |
@@ -37,9 +37,4 @@ Presentation strength is expressed as "per the amount of liquid bounded by the u
 | Presentation strength           | 500 mcg per 2 mL                                         |                                                                 |
 | Concentration strength          | 250 mcg per 1 mL                                         |                                                                 |
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Continuous%20presentation%3A%20bounded%20by%20container%3B%20liquid%20dose%20forms" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Continuous%20presentation%3A%20bounded%20by%20container%3B%20liquid%20dose%20forms" class="button primary">Provide Feedback</a>
