@@ -14,7 +14,7 @@ A concept with GCIs will display in the browser in the stated view only.
 
 For example,
 
-Below is [417163006 | Traumatic or non-traumatic injury (disorder)|](http://snomed.info/id/417163006) in the _stated_ view with the GCIs appearing to the right of the concept:
+Below is 417163006 | Traumatic or non-traumatic injury (disorder)| in the _stated_ view with the GCIs appearing to the right of the concept:
 
 <figure><img src="../../../images/174691746.png" alt=""><figcaption></figcaption></figure>
 
