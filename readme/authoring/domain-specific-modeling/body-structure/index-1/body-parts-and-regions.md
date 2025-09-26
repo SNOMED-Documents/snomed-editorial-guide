@@ -43,6 +43,8 @@ For concepts that refer to the _collection of organs_ (rather than organs in a c
 | Vastus medialis muscle              | No corresponding organ system subdivision concept |
 
 {% hint style="warning" %}
+**Unacceptable terms**
+
 _X disorder at Y level_ concepts originating from ICD-11, e.g., &#x53;_&#x6B;in laceration of arm at wrist level_ (precedent are terms added from ICD-9) are not added to the SNOMED International Release.
 {% endhint %}
 
