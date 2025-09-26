@@ -6,7 +6,7 @@ See the background, use cases, and examples for general concept inclusion axioms
 
 ## Authoring Platform User Guide for GCIs
 
-Reference the [Authoring - Description Logic (DL) Support Features](https://prod-confluence.ihtsdotools.org/display/SIAPUG/Authoring+-+Description+Logic+\(DL\)+Support+Features) for technical information describing how to add an additional axiom and general concept inclusion.
+Reference the [Authoring - Description Logic (DL) Support Features](https://docs.snomed.org/snomed-ct-user-guides/authoring-user-guide/how-to/task-edit/add-a-general-concept-inclusion-gci-to-a-concept) for technical information describing how to add an additional axiom and general concept inclusion.
 
 ## GCI display in the browser
 
@@ -55,9 +55,4 @@ Though most are primitive, it is possible to define concepts modeled with GCIs. 
 * The Authoring Platform does not currently have the ability to create templates that include GCIs.
 * A concept which has a stated "is a" relationship to a concept with GCIs will need to have GCIs added to it directly if GCIs are required to appropriately represent the concept. GCI axioms are not inherited from supertype to a subtype concept.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=General%20Concept%20Inclusions%20-%20GCIs" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=General%20Concept%20Inclusions%20-%20GCIs" class="button primary">Provide Feedback</a>
