@@ -21,7 +21,9 @@ Relationship groups are needed when modeling:
 * Relationship groups are not limited to Clinical finding and Procedure concepts.
 * There is no limit to the number of relationship groups that may be added to a concept.
 
-{% hint style="info" %}
+{% hint style="success" %}
+**Modeling**
+
 As with all authoring activities, grouping of attributes is performed in the stated view.
 {% endhint %}
 
@@ -31,7 +33,7 @@ An attribute that is not in a relationship group is considered to be in a group 
 
 <figure><img src="../../../images/174691715.png" alt=""><figcaption><p>Inferred view of self-grouped attributes values of Hemorrhage (morphologic abnormality) and Uterine structure (body structure)</p></figcaption></figure>
 
-When the attributes are grouped, the relationships imply meaning towards each other. To continue the example above for [44991000119100 | Abnormal uterine bleeding (disorder)|](http://snomed.info/id/44991000119100) , the following diagram shows the _Associated morphology_ of Hemorrhage and the _Finding site_ of Uterine structure in a relationship group together. The grouping can be interpreted that the finding site of the hemorrhage is the uterine structure.
+When the attributes are grouped, the relationships imply meaning towards each other. To continue the example above for 44991000119100 | Abnormal uterine bleeding (disorder) |, the following diagram shows the _Associated morphology_ of Hemorrhage and the _Finding site_ of Uterine structure in a relationship group together. The grouping can be interpreted that the finding site of the hemorrhage is the uterine structure.
 
 <figure><img src="../../../images/174691695.png" alt=""><figcaption><p>Inferred view of grouped attribute values of Hemorrhage (morphologic abnormality) and Uterine structure (body structure)</p></figcaption></figure>
 
@@ -39,15 +41,15 @@ Note the difference in the inferred parents between the self-grouped versus grou
 
 ## Impact of relationship grouping on inheritance
 
-Relationship groups refine inheritance, i.e., a grouped set of attributes is more specific than the same attributes that are not grouped. This is important when considering subsumption. The following diagrams demonstrate the impact of grouping or failing to group consistently using the concepts [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) and one of its supertypes, [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) .
+Relationship groups refine inheritance, i.e., a grouped set of attributes is more specific than the same attributes that are not grouped. This is important when considering subsumption. The following diagrams demonstrate the impact of grouping or failing to group consistently using the concepts 50434004 | Excision of lesion of aorta (procedure) | and one of its supertypes, 63296004 | Excision of aorta (procedure) | .
 
-The meaning of the supertype concept, [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) (where the relationships are grouped) is interpreted as a procedure with an excision on the aortic structure. This is because [405813007 | Procedure site - Direct (attribute)|](http://snomed.info/id/405813007) and [260686004 | Method (attribute)|](http://snomed.info/id/260686004) are grouped.
+The meaning of the supertype concept, 63296004 | Excision of aorta (procedure) | (where the relationships are grouped) is interpreted as a procedure with an excision on the aortic structure. This is because 405813007 | Procedure site - Direct (attribute) | and 260686004 | Method (attribute) | are grouped.
 
 <figure><img src="../../../images/174691714.png" alt=""><figcaption><p>Inferred view of Excision of aorta (procedure) with grouping of attributes</p></figcaption></figure>
 
-In the following diagram, the more general supertype concepts, [65801008 | Excision (procedure)|](http://snomed.info/id/65801008) and [118809006 | Procedure on aorta (procedure)|](http://snomed.info/id/118809006) are the proximal supertype concepts.
+In the following diagram, the more general supertype concepts, 65801008 | Excision (procedure)| and 118809006 | Procedure on aorta (procedure)| are the proximal supertype concepts.
 
-[50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) is a logical subtype of [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) . However, the attributes of the concept [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) are not grouped. Thus, the classifier interprets the definitions as non-related and [50434004 | Excision of lesion of aorta (procedure)|](http://snomed.info/id/50434004) is not inferred as a subtype of [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) . This is because the attributes in the subtype concept are not grouped, i.e are not explicitly stated. From a machine-processing perspective, each attribute is considered a group on its own; i.e., there is an excision, but nothing else is known about the excision. This results in the concept, [63296004 | Excision of aorta (procedure)|](http://snomed.info/id/63296004) , being interpreted more broadly.
+50434004 | Excision of lesion of aorta (procedure)| is a logical subtype of 63296004 | Excision of aorta (procedure)| . However, the attributes of the concept 50434004 | Excision of lesion of aorta (procedure)| are not grouped. Thus, the classifier interprets the definitions as non-related and 50434004 | Excision of lesion of aorta (procedure)| is not inferred as a subtype of 63296004 | Excision of aorta (procedure)| . This is because the attributes in the subtype concept are not grouped, i.e are not explicitly stated. From a machine-processing perspective, each attribute is considered a group on its own; i.e., there is an excision, but nothing else is known about the excision. This results in the concept, 63296004 | Excision of aorta (procedure)| , being interpreted more broadly.
 
 <figure><img src="../../../images/174691705.png" alt=""><figcaption><p>Inferred view of Excision of lesion of aorta (procedure) without grouping of attributes</p></figcaption></figure>
 
