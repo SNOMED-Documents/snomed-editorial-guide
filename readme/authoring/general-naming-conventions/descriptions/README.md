@@ -11,7 +11,7 @@ Every concept may have only one preferred term in a specific dialect. Two prefer
 
 ### Examples
 
-#### [22490002 | Bleeding of mouth (disorder)|](http://snomed.info/id/22490002)
+#### 22490002 | Bleeding of mouth (disorder)|
 
 | Description type | Description                  |
 | ---------------- | ---------------------------- |
@@ -22,7 +22,7 @@ Every concept may have only one preferred term in a specific dialect. Two prefer
 | SYN - GB English | Oral haemorrhage             |
 | SYN              | Stomatorrhagia               |
 
-#### [241563001 | Computed tomography of upper limb (procedure)|](http://snomed.info/id/241563001)
+#### 241563001 | Computed tomography of upper limb (procedure)|
 
 | Description type | Description                                   |
 | ---------------- | --------------------------------------------- |
@@ -30,7 +30,7 @@ Every concept may have only one preferred term in a specific dialect. Two prefer
 | PT               | CT of upper limb                              |
 | SYN              | Computed tomography of upper limb             |
 
-#### [32849002 | Esophageal structure (body structure)|](http://snomed.info/id/32849002)
+#### 32849002 | Esophageal structure (body structure)|
 
 | Description type | Description                           |
 | ---------------- | ------------------------------------- |
@@ -38,9 +38,4 @@ Every concept may have only one preferred term in a specific dialect. Two prefer
 | PT - US English  | Esophageal structure                  |
 | PT - GB English  | Oesophageal structure                 |
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Descriptions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Descriptions" class="button primary">Provide Feedback</a>
