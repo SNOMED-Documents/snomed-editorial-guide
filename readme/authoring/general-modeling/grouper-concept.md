@@ -2,7 +2,7 @@
 
 For hierarchies with a concept model, the usefulness of fully-defined groupers is limited to convenience groupings based on particular use cases. They may be added if they provide demonstrable benefit to organizing and navigating the terminology.
 
-_Grouper concepts_ provide a definition for subtypes that are always and necessarily true. The grouper concept must be sufficiently defined and clinically useful for the purpose of organizing content for an intensional reference set (e.g. _disease of colon_ _and all of its descendants_) or in Expression Constraint Language (ECL), << [128524007 | Disorder of colon (disorder)|](http://snomed.info/id/128524007) .
+_Grouper concepts_ provide a definition for subtypes that are always and necessarily true. The grouper concept must be sufficiently defined and clinically useful for the purpose of organizing content for an intensional reference set (e.g. _disease of colon_ _and all of its descendants_) or in Expression Constraint Language (ECL), << 128524007 | Disorder of colon (disorder)|.
 
 {% hint style="info" %}
 Anatomy concepts have separate rules.
@@ -14,9 +14,9 @@ _Grouper concepts_ should not be confused with _navigational concepts_. Navigati
 
 In the past, there was an indiscriminate move of concepts in and out of the navigational concept hierarchy based arbitrarily on use cases by those users organizing concepts based on a particular classification that was wanted. The navigational concept hierarchy was useful to group things into a particular domain. The problem is that many of these are domain-specific and cannot be generalized. For example, mosquito-borne diseases will vary depending on the location of the user. It is difficult to classify the complete instance of these as well. Potential children would have to be manually assigned.
 
-Because this is a primitive hierarchy and subtypes will not auto classify, much work would be required to reorganize hierarchies and maintain the use of navigational concepts. Inactivating concepts may be met with requests to create intermediate primitives. The Content Managers Advisory Group \[CMAG] at [2020 Use of navigational concepts](https://prod-confluence.ihtsdotools.org/display/cmag/2020+Use+of+navigational+concepts) is being consulted regarding current use of navigational concepts.
+Because this is a primitive hierarchy and subtypes will not auto classify, much work would be required to reorganize hierarchies and maintain the use of navigational concepts. Inactivating concepts may be met with requests to create intermediate primitives. The Content Managers Advisory Group \[CMAG] at 2020 Use of navigational concepts is being consulted regarding current use of navigational concepts.
 
-As [363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006) is within the [370115009 | Special concept (special concept)|](http://snomed.info/id/370115009) subhierarchy, please see that section of the Editorial Guide at [Special Concept](../domain-specific-modeling/special-concept.md#navigational-concepts).
+As 363743006 | Navigational concept (navigational concept)| is within the 370115009 | Special concept (special concept)| subhierarchy, please see that section of the Editorial Guide at Special Concept.
 
 ## Intermediate Primitive Groupers
 
@@ -44,7 +44,7 @@ Where grouper concepts already exist, the following criteria apply:
 {% hint style="success" %}
 **Modeling**
 
-If the addition of a grouper concept duplicates a concept in the [363743006 | Navigational concept (navigational concept)|](http://snomed.info/id/363743006) hierarchy, the navigational concept should be inactivated.
+If the addition of a grouper concept duplicates a concept in the 363743006 | Navigational concept (navigational concept)| hierarchy, the navigational concept should be inactivated.
 {% endhint %}
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Grouper%20Concept" class="button primary">Provide Feedback</a>
