@@ -1,6 +1,6 @@
 # Action Verbs
 
-Action verbs should be written in noun form within SNOMED CT descriptions.  This most often means the root form of the verb will end with a suffix of –tion, -sion, -ment, -al, -ence, or -ance.
+Action verbs should be written in noun form within SNOMED CT descriptions. This most often means the root form of the verb will end with a suffix of –tion, -sion, -ment, -al, -ence, or -ance.
 
 * For example,
   * _Destruction_ instead of destroy
@@ -13,7 +13,7 @@ However, the root form of the verb may be used when it does not make a word when
 
 * For example,
   * _Control_
-  * _Release_&#x20;
+  * _Release_
   * _Care_
 
 Lastly, the verb with a suffix of –ing may be used when the root form of the verb may cause ambiguity in the meaning, i.e., the root form of the verb could also be a physical object.
@@ -32,7 +32,7 @@ Common usage may dictate some exceptions.
 * For example,
   * _Repair_ instead of repairment
 
-Although ‘repairment’ may be considered a valid word, its use has fallen out of common usage in comparison to ‘repair’.&#x20;
+Although ‘repairment’ may be considered a valid word, its use has fallen out of common usage in comparison to ‘repair’.
 
 {% hint style="success" %}
 Check for approved and unapproved naming patterns in the [Precoordination Naming Pattern Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180).
@@ -42,23 +42,17 @@ Check for approved and unapproved naming patterns in the [Precoordination Naming
 
 A past tense verbal phrase should not be used to name a procedure, since it indicates that the procedure was done in the past.
 
-* Unacceptable example,&#x20;
-  * _Hand tendon ganglion excised_ indicates the procedure was done, as a past tense declarative statement.&#x20;
-* However, the following is an acceptable example using a noun phrase.&#x20;
-  * [11227005 | Excision of ganglion of tendon sheath of hand (procedure)|](http://snomed.info/id/11227005)
+* Unacceptable example,
+  * _Hand tendon ganglion excised_ indicates the procedure was done, as a past tense declarative statement.
+* However, the following is an acceptable example using a noun phrase.
+  * 11227005 | Excision of ganglion of tendon sheath of hand (procedure)|
 
 {% hint style="info" %}
 **Situation hierarchy**
 
 Existing descriptions containing past tense verbs should be moved to the
 
-[243796009 | Situation with explicit context (situation)|](http://snomed.info/id/243796009)hierarchy.
+243796009 | Situation with explicit context (situation)|hierarchy.
 {% endhint %}
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Action%20Verbs" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Action%20Verbs" class="button primary">Provide Feedback</a>
