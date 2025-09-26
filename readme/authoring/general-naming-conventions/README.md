@@ -35,13 +35,13 @@ Abbreviations are shortened forms of words or phrases. An acronym is a specific 
 Abbreviations and acronyms are allowed in a preferred term or synonym when followed by the term expansion. If the abbreviation or acronym stands alone (meaning, no additional terms are included; the letters represent the entire meaning of the description without any other text), it is followed by a space, a hyphen, and another space, then the expanded term. The first word after the hyphen should be lower case as per usual capitalization rules.
 
 * For example,
-  * [30549001 |Removal of suture (procedure)|](http://snomed.info/id/30549001) has a synonym of |_ROS - removal of suture_|
+  * 30549001 |Removal of suture (procedure)| has a synonym of |_ROS - removal of suture_|
   * 24526004 |Inflammatory bowel disease (disorder)| has a synonym of |_IBD - inflammatory bowel disease_|
 
 If the abbreviation or acronym forms only part of the description's meaning, it is followed by a space, then the expanded term in parentheses. The first word in the parentheses should be lower case as per usual capitalization rules.
 
 * For example,
-  * [140031000119103 |Acute nontraumatic kidney injury (disorder)|](http://snomed.info/id/140031000119103) has a synonym of _Nontraumatic AKI (acute kidney injury)_
+  * 140031000119103 |Acute nontraumatic kidney injury (disorder)| has a synonym of _Nontraumatic AKI (acute kidney injury)_
 
 ### Exceptions
 
@@ -62,14 +62,14 @@ An acronym is allowed in an FSN when it has become a word in its own right, i.e.
 * For example,
   *   Concept
 
-      [122456005 | Laser device (physical object)|](http://snomed.info/id/122456005) uses the term "laser", which originated as an acronym for "light amplification by stimulated emission of radiation"
+      122456005 | Laser device (physical object)| uses the term "laser", which originated as an acronym for "light amplification by stimulated emission of radiation"
 
 The preferred term for imaging procedures involving imaging modalities commonly referred to by an acronym (such as CT, MRI, SPECT, PET) omits the expanded term after the acronym.
 
 * For example,
   *   |CT of head| is the preferred term for
 
-      [303653007 | Computed tomography of head (procedure)|](http://snomed.info/id/303653007)
+      303653007 | Computed tomography of head (procedure)|
 
 Acronyms in rare and genetic diseases have been included for the concepts as part of the Orphanet project that do not include expansion of the abbreviation, as some of the diseases are commonly known by the acronym.
 
@@ -138,7 +138,7 @@ When constructing an FSN, the preposition 'of' is preferred over using the prepo
 When creating the descriptions for a concept (e.g. a disorder concept) that name an entity such as a body structure, substance or organism, the conventions that are applied for naming the entity in the source hierarchy should be used.
 
 * For example,
-  * [11218009 | Infection caused by Pseudomonas aeruginosa (disorder)|](http://snomed.info/id/11218009)
+  * 11218009 | Infection caused by Pseudomonas aeruginosa (disorder)|
     * This concept references the organism hierarchy in the causative agent of 52499004 |Pseudomonas aeruginosa (organism)| and uses that description in the FSN.
   * 143491000146106 |Felis catus protein (substance)|
     * 448169003 |Felis catus (organism)| has a preferred term of “Domestic cat”. As a result a related concept in the Substance hierarchy, 143491000146106 |Felis catus protein (substance)| has a preferred term of “Domestic cat protein”.
@@ -171,8 +171,8 @@ The descriptions should be context neutral for these foundation hierarchies. Whe
 Outside of the body structure hierarchy, concepts should not include the words _structure_ or _structure of_ in the concept descriptions.
 
 * For example,
-  * For the body structure concept, [266005 |Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005), a disorder concept with this body structure is [724056005 |Malignant neoplasm of lower lobe of right lung (disorder)|](http://snomed.info/id/724056005).
-  * For the body structure concept, [266005 |Structure of lower lobe of right lung (body structure)|](http://snomed.info/id/266005), a procedure with this body structure is [726425007 |Lobectomy of lower lobe of right lung (procedure)|](http://snomed.info/id/726425007).
+  * For the body structure concept, 266005 |Structure of lower lobe of right lung (body structure)|, a disorder concept with this body structure is 724056005 |Malignant neoplasm of lower lobe of right lung (disorder)|.
+  * For the body structure concept, 266005 |Structure of lower lobe of right lung (body structure)|, a procedure with this body structure is 726425007 |Lobectomy of lower lobe of right lung (procedure)|.
 {% endhint %}
 
 ### Description Length Limitations <a href="#description-length-limitations" id="description-length-limitations"></a>
@@ -183,9 +183,4 @@ In the rare event that the 255-character limit of the fully specified name is re
 
 Considerations can include language nuances, content use case, etc. The decision on which standard naming conventions to circumvent will depend on the circumstances.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=General%20Naming%20Conventions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=General%20Naming%20Conventions" class="button primary">Provide Feedback</a>
