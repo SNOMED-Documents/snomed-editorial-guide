@@ -6,11 +6,11 @@ The unit of presentation is the actuation, the “single operation of a metered-
 
 Strength is expressed as “per one unit of presentation” and the presentation strength and the concentration are exactly the same.
 
-### Example 1: A single inhaler containing a total of 200 actuations worth of salbutamol, 100 micrograms per actuation, packaged in a box
+### Example: Single inhaler containing a total of 200 actuations worth of salbutamol, 100 micrograms per actuation, packaged in a box
 
-\*\*
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 2.57.50 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775951.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775951.jpg" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Solution for aerosolisation        |                                                                                                                                                                                     |
 | ------------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -22,9 +22,4 @@ Strength is expressed as “per one unit of presentation” and the presentation
 | Presentation strength           | 100 mcg per 1 actuation            | UCUM: 100 mcg per 1 each                                                                                                                                                            |
 | Concentration strength          |                                    | The concentration of salbutamol sulphate in the inhalant solution inside the inhaler container is probably known to the regulatory agency but is not deemed clinically significant. |
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Continuous%20presentation%3A%20Metered%20dose%20unit%20of%20presentation" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Continuous%20presentation%3A%20Metered%20dose%20unit%20of%20presentation" class="button primary">Provide Feedback</a>
