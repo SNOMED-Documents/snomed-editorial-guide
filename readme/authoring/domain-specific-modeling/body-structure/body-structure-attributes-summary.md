@@ -8,7 +8,7 @@ When authoring in this domain, these are the approved attributes and allowable r
 
 ## Author View of Attributes and Ranges for Body Structure
 
-<table><thead><tr><th width="211.01953125">Attribute</th><th width="99.25390625">Grouped</th><th width="108.39453125">Cardinality</th><th width="101.22265625">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>733928003 | All or part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>733931002 | Constitutional part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>1230370004 | Is vasculature of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>733933004 | Lateral half of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>774081006 | Proper part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>733930001 | Regional part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>733932009 | Systemic part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr></tbody></table>
+<table><thead><tr><th width="193.9014892578125">Attribute</th><th width="103.2642822265625">Grouped</th><th width="120.5516357421875">Cardinality</th><th width="176.982177734375">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>733928003 | All or part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>733931002 | Constitutional part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>1230370004 | Is vasculature of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>733933004 | Lateral half of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>774081006 | Proper part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>733930001 | Regional part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>733932009 | Systemic part of (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr></tbody></table>
 
 ## Domain Information for Anatomical Structure
 
@@ -20,9 +20,4 @@ When authoring in this domain, these are the approved attributes and allowable r
 
 For all Anatomical structure (body structure) concepts, _Laterality_ is an approved attribute which can be populated with the range of qualifier values including _Side (qualifier value)_ or its subtypes.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Body%20Structure%20Attributes%20Summary" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Body%20Structure%20Attributes%20Summary" class="button primary">Provide Feedback</a>
