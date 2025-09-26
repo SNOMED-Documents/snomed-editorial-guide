@@ -1,15 +1,13 @@
-# Continuous presentation: bounded by container; liquid/semi-solid dose forms; concentration strength required
+# Continuous presentation: bounded by container; liquid/semi-solid dose forms; concentration strength
 
 _Examples: bulk parenteral solutions, insulins, patches_
 
 The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term. However, although presentation strength is expressed as "per one unit of presentation", the clinically relevant strength is the concentration strength, as almost all are used in individually calculated and variable amounts.\
 Note that the unit of presentation is likely to be useful in description of the medicinal product concept at some level; insulin presented in a multi-dose vial will be used/administered differently from insulin presented in a cartridge for use within a "pen device".
 
-### **Example 1: A pack of 5 cartridges each containing 1.5mL soluble human insulin 100 units/mL solution for injection**
+### **Example: A pack of 5 cartridges each containing 1.5mL soluble human insulin 100 units/mL solution for injection**
 
-\*\*
-
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775961.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.47.11 PM.png" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Solution for injection                                     |                                                                 |
 | ------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------- |
@@ -21,11 +19,9 @@ Note that the unit of presentation is likely to be useful in description of the 
 | Presentation strength           | 150 units per 1.5 mL                                       | Not a clinically safe expression of strength                    |
 | Concentration strength          | 100 units per 1 mL                                         |                                                                 |
 
-### **Example 2: A box of 10 bags of Sodium chloride 0.9% solution for infusion 500mL**
+### **Example:  Box of 10 bags of Sodium chloride 0.9% solution for infusion 500mL**
 
-\*\*
-
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775962.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.48.50 PM.png" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Solution for injection                                  |                                                                 |
 | ------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------- |
@@ -53,9 +49,4 @@ Note that the unit of presentation is likely to be useful in description of the 
 | Presentation strength           | 9 g per (5cm) patch                                  | Not a clinically safe expression of strength                    |
 | Concentration strength          | 4.6 mg per 24 hours                                  | This is a "rate" strength                                       |
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Continuous%20presentation%3A%20bounded%20by%20container%3B%20liquid/semi-solid%20dose%20forms%3B%20concentration%20strength%20required" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Continuous%20presentation%3A%20bounded%20by%20container%3B%20liquid/semi-solid%20dose%20forms%3B%20concentration%20strength%20required" class="button primary">Provide Feedback</a>
