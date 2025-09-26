@@ -18,7 +18,7 @@ Many terms that refer to body systems or tracts are used imprecisely in clinical
 * [Nervous System](nervous-system.md)
 * [Respiratory System](respiratory-system.md)
 
-{% hint style="warning" %}
+{% hint style="success" %}
 **Combined site (body structure)**
 
 The concepts under 116007004 | Combined site (body structure) | should not be used for concept modeling. They do not provide value for the classification of disorders or procedures. These concepts are ambiguous because their intended meaning is unclear, i.e., a combined site could represent any part of two or more sites or all of the referred sites in the description. The combined site (body structure) concepts will eventually be inactivated.
