@@ -50,6 +50,6 @@ Where more than one potential primitive supertype is identified for a concept, a
 
 ### GCI-Modeled primitive supertypes <a href="#gci-modeled-primitive-supertypes" id="gci-modeled-primitive-supertypes"></a>
 
-For information on the effect of GCIs on modeling primitive supertypes, see [General Concept Inclusions (GCIs), GCI-Modeled Primitive Ancestor](general-concept-inclusions-gcis.md).
+For information on the effect of GCIs on modeling primitive supertypes, see [General Concept Inclusions ](general-concept-inclusions-gcis.md)(GCIs).
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Proximal%20Primitive%20Modeling" class="button primary">Provide Feedback</a>
