@@ -78,10 +78,10 @@ Among the solid organs, there is one category, _neural_ , that is tree-structure
 
 _Male_ and _female_ are unnecessary descriptions in describing the breast. Gender information should be obtained and recorded separately in the information model. New content that requests _male_ or _female_ breast will not be accepted so as not to duplicate gender-specific anatomical concepts.
 
-## Laterality
-
 {% hint style="success" %}
-For information on laterality, see Anatomical Structure Naming Conventions section at [Naming Convention for Digits of Hand and Foot](../../../../../authoring/body-structure/Naming-Convention-for-Digits-of-Hand-and-Foot_174690334.html) and Laterality section at [Laterality](../../../../../authoring/body-structure/Laterality_174690325.html)
+**Laterality**
+
+For information on laterality, see Anatomical Structure Naming Conventions section at [Naming Convention for Digits of Hand and Foot](../index/naming-convention-for-digits-of-hand-and-foot.md) and Laterality section at [Laterality](../anatomical-concept-model/laterality.md)
 {% endhint %}
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Body%20parts%20and%20regions" class="button primary">Provide Feedback</a>
