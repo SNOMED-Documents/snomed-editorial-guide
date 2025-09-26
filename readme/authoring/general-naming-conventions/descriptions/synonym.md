@@ -6,12 +6,12 @@ Each concept may have one or more synonyms.
 
 For example,
 
-* US English synonyms for [22298006 | Myocardial infarction (disorder)|](http://snomed.info/id/22298006) are:&#x20;
-  * Myocardial infarction&#x20;
-  * Cardiac infarction&#x20;
-  * Heart attack&#x20;
-  * Infarction of heart&#x20;
-  * MI - myocardial infarction&#x20;
+* US English synonyms for 22298006 | Myocardial infarction (disorder)| are:
+  * Myocardial infarction
+  * Cardiac infarction
+  * Heart attack
+  * Infarction of heart
+  * MI - myocardial infarction
   * Myocardial infarct
 
 A synonym may not change to, i.e. replace, an existing FSN.
@@ -183,9 +183,4 @@ For example,
 
 When creating a duplicate description for concepts in two separate hierarchies, it is important to check that the descriptions are truly synonymous with the FSN. There may be cases where an additional word(s) may remove the duplication and reduce the risk of adding a broader or narrower description than the FSN. Where it is not possible to do this, it is acceptable for these duplicate descriptions to coexist across different hierarchies.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Synonym" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Synonym" class="button primary">Provide Feedback</a>
