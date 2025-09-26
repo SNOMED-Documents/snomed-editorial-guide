@@ -6,7 +6,7 @@ This is a variation on the metered dose presentation; the unit of presentation s
 
 **Example: A bottle of 125 mL of aciclovir oral suspension 200mg/5mL**
 
-\*\*
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.02.33 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775953.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
 
@@ -20,9 +20,4 @@ This is a variation on the metered dose presentation; the unit of presentation s
 | Presentation strength           | 200 mg per 5 mL                   |                                        |
 | Concentration strength          | 40 mg per 1 mL                    |                                        |
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Continuous%20presentation%3A%20Oral%20liquids%20designed%20for%20administration%20by%20%22metered%22%20medicine%20spoon" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Continuous%20presentation%3A%20Oral%20liquids%20designed%20for%20administration%20by%20%22metered%22%20medicine%20spoon" class="button primary">Provide Feedback</a>
