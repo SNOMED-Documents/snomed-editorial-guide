@@ -6,7 +6,7 @@ SNOMED CT uses the Foundation Model of Anatomy (FMA) definition of _body part_ a
 
 Many concepts contain the phrase _surface region._ These could be interpreted as massless (immaterial) mathematical surfaces, but a clinical terminology would have no direct use for such meanings in clinical records. They could be interpreted as having mass (not immaterial), but the depth then is arbitrary. Should it be just skin deep, or should it include deeper layers of the surface? If only skin deep, the meaning of these concepts would overlap with concepts for skin regions. If deeper, the meaning would possibly be the same as the generic structure concepts.
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Inactivation**
 
 Most surface region concepts will be retired as ambiguous/\_possibly equivalent to \_their corresponding concepts that are clearly not immaterial, including x structure, entire x, and skin of X. Where the x structure codes do not currently exist, they will be created, without the surface region phrase.
