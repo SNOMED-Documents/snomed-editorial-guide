@@ -8,20 +8,20 @@ Annotations are:
 * optional and non-defining
 * constructed by following the Object-Attribute-Value pattern and stored either in annotation refsets or relationship files.
 
-Each annotation uses a subtype of [1295447006 | Annotation attribute (attribute)|](http://snomed.info/id/1295447006) to represent the type of annotation with an annotation attribute value.
+Each annotation uses a subtype of 1295447006 | Annotation attribute (attribute)| to represent the type of annotation with an annotation attribute value.
 
 ## Use case
 
 Attribution - Attributing credit to the source of information
 
-For example,&#x20;
+For example,
 
 * _Inserm Orphanet_ attribution annotation at 1332326002 |Isolated cleft lip (disorder)|
 
 <figure><img src="../../../images/256869352.png" alt=""><figcaption><p>Figure shows attribution annotation is located in details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
 
 {% hint style="success" %}
-SNOMED derivative products, such as mappings to/from other terminologies, should not be represented as annotations.  Refsets have been developed for different types of maps which includes additional metadata, such as map group, priority, rule, and advice.
+SNOMED derivative products, such as mappings to/from other terminologies, should not be represented as annotations. Refsets have been developed for different types of maps which includes additional metadata, such as map group, priority, rule, and advice.
 {% endhint %}
 
 ## Guidance
@@ -58,9 +58,4 @@ The following are documented in the respective annotation guidance, if applicabl
 
 See also [SNOMED CT Annotations](https://conf.spaces.snomed.org/wiki/spaces/mag/pages/133137753/SNOMED+CT+Annotations) for more information.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Annotations" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Annotations" class="button primary">Provide Feedback</a>
