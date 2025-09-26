@@ -19,7 +19,7 @@ This document also provides a description of how aspects of the SNOMED medicinal
 
 ## Scope
 
-The scope of specification for the concept model for representation of medicinal products in the international edition of SNOMED CT is limited to pharmaceutical and biological products only; products that represent blood products, foods/nutritional supplements, additives, and complementary medicines (including homeopathic products) are currently out of scope. The representation of autologous medicinal products (those created from tissue and administered back to an individual) is also out of scope. Concepts for vaccines also follow the pattern of this model, although only to two of the three "levels" (MP and MPF). Further detail can be found in the [Medicinal Product](../../../../authoring/pharmaceutical-and-biologic-product/medicinal-product.md), Out of scope section.
+The scope of specification for the concept model for representation of medicinal products in the international edition of SNOMED CT is limited to pharmaceutical and biological products only; products that represent blood products, foods/nutritional supplements, additives, and complementary medicines (including homeopathic products) are currently out of scope. The representation of autologous medicinal products (those created from tissue and administered back to an individual) is also out of scope. Concepts for vaccines also follow the pattern of this model, although only to two of the three "levels" (MP and MPF). Further detail can be found in the [Medicinal Product, Out of scope section](medicinal-product/#out-of-scope).
 
 The international medicinal product model and concepts in the international edition are described in their more abstract form; real or actual products (including branded products and those marketed without a brand name) as authorised by medicines regulatory agencies within jurisdictions are out of scope. Describing the packages in which medicinal products are placed into the supply chain are also out of scope; both of these areas are covered in the national model specification.
 
@@ -90,10 +90,4 @@ The following subhierarchies will be retained "as is" until use cases and/or det
 _\* Development of editorial guidelines and related content updates for <<411115002 |Drug-device combination product (product)| will be done in conjunction with the Device Project._
 {% endhint %}
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pharmaceutical%20and%20Biologic%20Product" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Pharmaceutical%20and%20Biologic%20Product" class="button primary">Provide Feedback</a>
