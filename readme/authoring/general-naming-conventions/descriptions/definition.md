@@ -17,7 +17,7 @@ Definitions must:
 
 For example,
 
-* The definition for the concept [11530004 | Brittle diabetes mellitus (finding)|](http://snomed.info/id/11530004) is:
+* The definition for the concept 11530004 | Brittle diabetes mellitus (finding)| is:
   * _Frequent, clinically significant fluctuations in blood glucose levels both above and below levels expected to be achieved by available therapies._
 
 The language acceptability default for a single Definition description is _Preferred._ A definition with varying US and GB English descriptions are each applied with the respective language acceptability.
@@ -48,9 +48,4 @@ URLs that point to definition sources are unacceptable.
 External references, such as ISBN and PubMed identifiers, are not allowed in SNOMED CT concept definitions.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Definition" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Definition" class="button primary">Provide Feedback</a>
