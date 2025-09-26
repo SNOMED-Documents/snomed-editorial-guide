@@ -21,7 +21,7 @@ For more information, see [Organism Naming Conventions](../domain-specific-model
 
 #### **Case Sensitivity**
 
-<table><thead><tr><th width="100">Case Sensitivity Indicator</th><th>Values</th><th>Meaning</th><th>Examples</th></tr></thead><tbody><tr><td>cI</td><td><a href="http://snomed.info/id/900000000000020002">900000000000020002 | Only initial character case insensitive (core metadata concept)|</a></td><td>First character of the description may or may not be capitalized while the case of the rest of the description cannot be changed</td><td><ul><li>Family history of Prader-Willi syndrome (situation)</li><li>Born in Australia (finding)</li><li>Neonatal jaundice with Dubin-Johnson syndrome (disorder)</li><li>Penicillin resistant Streptococcus pneumoniae (organism)</li></ul></td></tr><tr><td>CS</td><td><a href="http://snomed.info/id/900000000000017005">900000000000017005 | Entire term case sensitive (core metadata concept)|</a></td><td><p>Cannot change any case in the description</p><p>Changing case may change the meaning of the term or is not commonly used</p></td><td><ul><li>Down syndrome</li><li>English as a second language (finding)</li><li>pH measurement (procedure)</li><li>mm (qualifier value)</li></ul></td></tr><tr><td>ci</td><td><a href="http://snomed.info/id/900000000000448009">900000000000448009 | Entire term case insensitive (core metadata concept)|</a></td><td><p>Entire description may be lower or upper case</p><p>Changing case does not change the meaning of the term</p></td><td><ul><li>Fracture of tibia (disorder)</li><li>Blood compatibility test (procedure)</li><li>Bite of fish (event)</li><li>Floor mat (physical object)</li><li>Gravida</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="100">Case Sensitivity Indicator</th><th>Values</th><th>Meaning</th><th>Examples</th></tr></thead><tbody><tr><td>cI</td><td>900000000000020002 | Only initial character case insensitive (core metadata concept)|</td><td>First character of the description may or may not be capitalized while the case of the rest of the description cannot be changed</td><td><ul><li>Family history of Prader-Willi syndrome (situation)</li><li>Born in Australia (finding)</li><li>Neonatal jaundice with Dubin-Johnson syndrome (disorder)</li><li>Penicillin resistant Streptococcus pneumoniae (organism)</li></ul></td></tr><tr><td>CS</td><td>900000000000017005 | Entire term case sensitive (core metadata concept)|</td><td><p>Cannot change any case in the description</p><p>Changing case may change the meaning of the term or is not commonly used</p></td><td><ul><li>Down syndrome</li><li>English as a second language (finding)</li><li>pH measurement (procedure)</li><li>mm (qualifier value)</li></ul></td></tr><tr><td>ci</td><td>900000000000448009 | Entire term case insensitive (core metadata concept)|</td><td><p>Entire description may be lower or upper case</p><p>Changing case does not change the meaning of the term</p></td><td><ul><li>Fracture of tibia (disorder)</li><li>Blood compatibility test (procedure)</li><li>Bite of fish (event)</li><li>Floor mat (physical object)</li><li>Gravida</li></ul></td></tr></tbody></table>
 
 Special attention is to be paid to the possibility of altering the semantics of those concepts whose FSN uniqueness depends upon case significance.
 
@@ -51,14 +51,14 @@ If a description begins with a numeric value and the word following the number d
 * For example,
   *   The concept
 
-      [33635003 | Serotonin (substance)|](http://snomed.info/id/33635003) has the synonym, 5-hydroxytryptamine. The description is recorded in SNOMED CT in lower case, not 5-Hydroxytryptamine, but the case sensitivity indicator is _ci_ for _Entire term case insensitive_.
+      33635003 | Serotonin (substance)| has the synonym, 5-hydroxytryptamine. The description is recorded in SNOMED CT in lower case, not 5-Hydroxytryptamine, but the case sensitivity indicator is _ci_ for _Entire term case insensitive_.
 
 If a description begins with a numeric value and follows with an abbreviation that contains a capital letter, the case sensitivity indicator is cl for _Initial character case insensitive_.
 
 * For example,
   *   The concept
 
-      [387407006 | Tioguanine (substance)|](http://snomed.info/id/387407006) has the synonym, 6-TG. Apply the case sensitivity indicator of cl for _Only initial character case insensitive_.
+      387407006 | Tioguanine (substance)| has the synonym, 6-TG. Apply the case sensitivity indicator of cl for _Only initial character case insensitive_.
 
 ### Special characters <a href="#special-characters" id="special-characters"></a>
 
@@ -69,7 +69,7 @@ If a description begins with a special character and the word(s) and/or symbol(s
 * For example,
   *   The concept
 
-      [277976001 | Less than 35 degrees C (qualifier value)|](http://snomed.info/id/277976001) has the synonym, <35 degrees C. The description starts with a special character that is case insensitive but contains an abbreviation "C" for Celsius that is case sensitive, so the case sensitivity indicator applied to the synonym is _cl_ for _Only_ &#x69;_&#x6E;itial character case insensitive_.
+      277976001 | Less than 35 degrees C (qualifier value)| has the synonym, <35 degrees C. The description starts with a special character that is case insensitive but contains an abbreviation "C" for Celsius that is case sensitive, so the case sensitivity indicator applied to the synonym is _cl_ for _Only_ &#x69;_&#x6E;itial character case insensitive_.
 
 {% hint style="success" %}
 **Greek alphabet characters**\
@@ -91,9 +91,4 @@ SNOMED CT descriptions representing assessment scales and staging systems should
 Gram staining is a common laboratory technique used to differentiate bacteria based on their cell wall constituents. Laboratory test results may be _Gram positive_ or _Gram negative_. The technique was developed by a Danish physician, Hans Christian Gram. Consequently _Gram_, when referring to the technique, should always begin with an upper case _G_.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Case%20Significance" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Case%20Significance" class="button primary">Provide Feedback</a>
