@@ -1,8 +1,8 @@
 # Organism
 
-<table><thead><tr><th width="360.328125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Organisms of significance to human medicine</td><td><ul><li>3265006 | Genus Candida (organism) | </li><li>710877000 | Beta lactam resistant bacteria (organism) |</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="360.328125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Organisms of significance to human medicine</td><td><ul><li>3265006 | Genus Candida (organism) |</li><li>710877000 | Beta lactam resistant bacteria (organism) |</li></ul></td></tr></tbody></table>
 
-{% hint style="warning" %}
+{% hint style="success" %}
 **Organism concepts**
 
 Organism concepts are used:
@@ -18,7 +18,7 @@ Concepts that are in scope for international release and are supported by prelim
 
 ## Organisms with qualifiers
 
-{% hint style="warning" %}
+{% hint style="success" %}
 **Intrinsic qualifiers**
 
 If a qualifier is an intrinsic part of an organism, it belongs in the organism hierarchy and is modeled accordingly. _Intrinsic_ should be interpreted as a characteristic that is inherent in the organism (e.g. Gram-positive), as opposed to a context-dependent characteristic (e.g. some uses of _intracellular_).
@@ -42,9 +42,9 @@ When modeling organisms with qualifiers, the qualifier should be placed in front
 
 * For example, A non-Linnaean class of bacteria described by antimicrobial susceptibility
   * 712662001 | Carbapenem resistant Enterobacteriaceae (organism) |
-  * 417943000 | Methicillin susceptible Staphylococcus aureus (organism) |&#x20;
+  * 417943000 | Methicillin susceptible Staphylococcus aureus (organism) |
 
-{% hint style="success" %}
+{% hint style="info" %}
 **Modeling with resistance-type qualifiers**
 
 Organisms with resistance-type qualifiers, i.e. where the qualifiers refer to the resistance phenotype and the organisms that are defined by the mechanism underlying the resistance phenotype, appear in the literature and are sometimes used interchangeably. However, in creating new concepts, these terms should be distinguished as they are separate concepts. For resistance-type qualifiers, use the antimicrobial agent as opposed to the enzyme that the organism is producing against the said antimicrobial agent.
@@ -57,7 +57,7 @@ Organisms with resistance-type qualifiers, i.e. where the qualifiers refer to th
 
 Growth morphology is not an _always and necessarily true_ characteristic of an organism and therefore should not be considered an intrinsic characteristic. The terms representing growth morphology such as _Branching Gram-positive bacillus present_ or _Gram-positive cocci in chains present_ are usually used for reporting a visual finding that is a characteristic of a sample. These terms should be represented as findings.
 
-* For example, 1231428004 | Beaded branching Gram-positive bacilli present (finding) |&#x20;
+* For example, 1231428004 | Beaded branching Gram-positive bacilli present (finding) |
 
 ## Validity
 
@@ -110,15 +110,10 @@ Provisional serotypes, i.e. serotypes that have been defined but not given a num
 
 ## Multidrug-resistant, extensively drug-resistant, pan drug-resistant bacteria
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **DRAFT UNDER REVIEW: CONTENT TO BE FINALIZED**
 {% endhint %}
 
 SNOMED International adopted the recommendations of a joint initiative of the European Centre for Disease Prevention and Control (ECDC) and the CDC for the characterization of the different patterns of resistance found in healthcare-associated, antimicrobial resistant bacteria. A panel of international experts convened and drafted a proposal which provides clear consensus definitions. Please refer to the following article for details: Magiorakos, A. Srinivasan, A. Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: an international expert proposal for interim standard definitions for acquired resistance. _Clinical Microbiol Infect_ 2012; 18: 268-281.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Organism" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Organism" class="button primary">Provide Feedback</a>
