@@ -44,7 +44,7 @@ Where more than one potential primitive supertype is identified for a concept, a
 * For example,
   *   There is more than one potential primitive supertype for
 
-      421095001 | Allergic disorder by body site affected (disorder)|. However, 64572001 | Disease (disorder)| is subsumed by 404684003 | Clinical finding (finding)|, therefore64572001 | Disease (disorder)|is the proximal primitive supertype concept.
+      421095001 | Allergic disorder by body site affected (disorder) |. However, 64572001 | Disease (disorder) | is subsumed by 404684003 | Clinical finding (finding)|, therefore 64572001 | Disease (disorder) | is the proximal primitive supertype concept.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
