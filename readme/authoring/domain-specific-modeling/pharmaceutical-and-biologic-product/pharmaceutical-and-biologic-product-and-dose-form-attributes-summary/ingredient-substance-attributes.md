@@ -4,17 +4,15 @@ The following sections discuss the attribute concepts used to represent the ingr
 
 ## **Ingredient Substances**
 
-\*\*
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.50.47 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775797.png" alt=""><figcaption><p>**</p></figcaption></figure>
-
-Figure 46: Ingredient role attributes
+<p align="center">Figure: Ingredient role attributes</p>
 
 The diagram above shows the relationship of the various attribute roles that a substance can play in the definition of MP, MPF and CD description of medicinal products. Any concept from the Substance hierarchy may play one or more of these roles within a product. In all of the descriptions below, when the phrase "a set of substances" is used, the set may have only one member.
 
 ### **Has ingredient**
 
-A medicinal product concept has a set of substances that are combined to manufacture the medicinal product that can be described using the "has ingredient" attribute. However, each substance(s) in the "has ingredient" set will have more specific ingredient role that should be described using that more specific concept. Therefore, this is a grouping concept that is not used for definition of medicinal product concepts in the medicinal product hierarchy; it is a parent concept and it provides scope for further child concepts to be added to support future use cases, such as the description of inactive/excipient ingredient substances in products in a national extension. The physical presence or otherwise of an ingredient substance in the finished product may not explicitly be necessary for it to be part of the product's substance description; for example substances that play a role in the manufacturing process, such as solvents etc. are deemed "ingredients" for the product; their presence may or may not remain in the manufactured item. As such, basis of strength substance could be considered as a child concept of the Has ingredient concept, although it is not modelled in that way currently.
+A medicinal product concept has a set of substances that are combined to manufacture the medicinal product that can be described using the "has ingredient" attribute. However, each substance(s) in the "has ingredient" set will have more specific ingredient role that should be described using that more specific concept. Therefore, this is a grouping concept that is not used for definition of medicinal product concepts in the medicinal product hierarchy; it is a parent concept and it provides scope for further child concepts to be added to support future use cases, such as the description of inactive/excipient ingredient substances in products in a national extension. The physical presence or otherwise of an ingredient substance in the finished product may not explicitly be necessary for it to be part of the product's substance description; for example substances that play a role in the manufacturing process, such as solvents etc. are deemed "ingredients" for the product; their presence may or may not remain in the manufactured item. As such, basis of strength substance could be considered as a child concept of the Has ingredient concept, although it is not modeled in that way currently.
 
 ### **Has active ingredient**
 
@@ -48,9 +46,7 @@ Examples:
 
 * "contains dexamethasone only" means that a product will contain only dexamethasone as its active ingredient; but that dexamethasone may be present as dexamethasone base, as dexamethasone phosphate, dexamethasone sodium phosphate, as dexamethasone acetate, as dexamethasone palmitate etc.
 * "contains dexamethasone phosphate only" means that a product can contain either dexamethasone phosphate or dexamethasone sodium phosphate (which is a modification of dexamethasone phosphate) as its active ingredient; but it will not contain dexamethasone acetate or dexamethasone palmitate etc.
-* "contains dexamethasone phosphate precisely" means that a product will contain exclusively dexamethasone phosphate; dexamethasone sodium phosphate will not be present\
-  \*\*\
-  \*\*
+* "contains dexamethasone phosphate precisely" means that a product will contain exclusively dexamethasone phosphate; dexamethasone sodium phosphate will not be present
 
 See also the subsection below "Using the ingredient roles" which provides a diagram further describing the use of role chaining with the active ingredient role and that there is no role chaining for the precise active ingredient role.
 
@@ -75,26 +71,23 @@ Almost always, the basis of strength substance is either the active ingredient s
 
 The Medicinal Product and Medicinal Product Form use the active ingredient attribute, which will have a role chain attached to it, so that it can use the Substance hierarchy as a hierarchy through the "is modification" relationship. This allows the classifier to make the appropriate relationships between MPs, MPFs and CDs based on their active ingredient substances. The role chain is a characteristic that is not inherited, so the precise active ingredient attribute does not inherit this characteristic. The Clinical Drug uses the precise active ingredient attribute/relationship which will use the Substance hierarchy as a flat list without role chaining, so that a clinical drug containing a modified substance is not subsumed under a clinical drug containing the unmodified substance, thereby unintentionally adding more recursion to the clinical drug class (for example: so that a morphine (base) precise clinical drug does not subsume a clinical drug containing precisely morphine sulphate).
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775801.png" alt=""><figcaption><p>Figure 47: Ingredient role chaining</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.54.26 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775799.png" alt=""><figcaption><p>Figure 48: Ingredient role chaining example**</p></figcaption></figure>
+<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775801.png" alt=""><figcaption><p>Figure: Ingredient role chaining</p></figcaption></figure>
 
-\*\*
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.54.50 PM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775799.png" alt=""><figcaption><p>Figure: Ingredient role chaining example</p></figcaption></figure>
 
 ### **IDMP Compatibility**
 
-\*\*
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.55.01 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775803.png" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775803.png" alt=""><figcaption><p>Figure:  Ingredient role in ISO 11615 of IDMP</p></figcaption></figure>
 
-Figure 49: Ingredient role in ISO 11615 of IDMP
+Ingredient role is a specific attribute in ISO 11615 in IDMP, but no vocabulary/value set was specified in the conceptual standard for the ingredient roles. Examples that have been given include "active", "inactive" and "adjuvant". This supports the regulatory listing of all the substances present in a product, with their basic role (therapeutic or otherwise).
 
-**I** ngredient role is a specific attribute in ISO 11615 in IDMP, but no vocabulary/value set was specified in the conceptual standard for the ingredient roles. Examples that have been given include "active", "inactive" and "adjuvant". This supports the regulatory listing of all the substances present in a product, with their basic role (therapeutic or otherwise).\
-The explicit use of ingredient roles in the medicinal product model is compatible with the IDMP conceptual model; however, the relationship of ingredient role to substance strength is still being elucidated in IDMP. Note that the concept of "basis of strength substance", in the very few cases where it is not actually a substance present in the product, is managed by the use of the Reference Substance class in IDMP. See also IDMP Compatibility for Clinical Drug ([Clinical Drug (CD)](https://prod-confluence.ihtsdotools.org/pages/viewpage.action?pageId=123904187)).
+\
+The explicit use of ingredient roles in the medicinal product model is compatible with the IDMP conceptual model; however, the relationship of ingredient role to substance strength is still being elucidated in IDMP. Note that the concept of "basis of strength substance", in the very few cases where it is not actually a substance present in the product, is managed by the use of the Reference Substance class in IDMP. See also [IDMP Compatibility for Clinical Drug](../medicinal-product/index/#idmp-compatibility).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Ingredient%20Substance%20Attributes" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Ingredient%20Substance%20Attributes" class="button primary">Provide Feedback</a>
