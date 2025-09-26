@@ -6,9 +6,9 @@ Concepts that are used as target values in an attribute relationship impact the 
 
 For example,
 
-The creation of [713295009 | Surgical replacement - action (qualifier value)|](http://snomed.info/id/713295009) would require a review of active concepts that represent _surgical_ replacement procedures that were previously modeled with the Method (attribute) of Replacement - action (qualifier value).
+The creation of 713295009 | Surgical replacement - action (qualifier value)| would require a review of active concepts that represent _surgical_ replacement procedures that were previously modeled with the Method (attribute) of Replacement - action (qualifier value).
 
-A concept that represents a surgical replacement procedure that currently has a Method (attribute) of [282089006 | Replacement - action (qualifier value)|](http://snomed.info/id/282089006) would require inactivation of that relationship and the creation of a new attribute-value relationship of Method (attribute) of [713295009 | Surgical replacement - action (qualifier value)|](http://snomed.info/id/713295009).
+A concept that represents a surgical replacement procedure that currently has a Method (attribute) of 282089006 | Replacement - action (qualifier value)| would require inactivation of that relationship and the creation of a new attribute-value relationship of Method (attribute) of 713295009 | Surgical replacement - action (qualifier value)|.
 
 ## Description Inactivation
 
@@ -27,10 +27,10 @@ Depending upon the combination of the type of component and the reason for inact
 
 When there is more than one reason to inactivate a description, the order of preference for the inactivation value is as follows:
 
-1. [723278000 | Not semantically equivalent component (foundation metadata concept)|](http://snomed.info/id/723278000)
-2. [900000000000483008 | Outdated component (foundation metadata concept)|](http://snomed.info/id/900000000000483008)
-3. [1217318005 | Grammatical description error (foundation metadata concept)|](http://snomed.info/id/1217318005)
-4. [723277005 | Nonconformance to editorial policy component (foundation metadata concept)|](http://snomed.info/id/723277005)
+1. 723278000 | Not semantically equivalent component (foundation metadata concept)|
+2. 900000000000483008 | Outdated component (foundation metadata concept)|
+3. 1217318005 | Grammatical description error (foundation metadata concept)|
+4. 723277005 | Nonconformance to editorial policy component (foundation metadata concept)|
 
 ### Corresponding association type <a href="#corresponding-association-type" id="corresponding-association-type"></a>
 
