@@ -2,8 +2,9 @@
 
 ## Modeling new content requests
 
-Requests for new imaging-related content must clearly specify an imaging action; for example, computed tomography, plain X-ray, fluoroscopy, etc.\
-\&#xNAN;_Radiographic imaging_ is a broad term that encompasses several types of imaging studies that use ionizing radiation for visualization of internal parts of the body using X-ray techniques (for example, computed tomography) and is therefore a grouping concept. New content requests using the phrase _Radiographic imaging of_ and/or submissions requesting a Method (attribute) of 278110001 |Radiographic imaging - action (qualifier value)| are not acceptable for the international edition of SNOMED CT.
+Requests for new imaging-related content must clearly specify an imaging action; for example, computed tomography, plain X-ray, fluoroscopy, etc.
+
+_Radiographic imaging_ is a broad term that encompasses several types of imaging studies that use ionizing radiation for visualization of internal parts of the body using X-ray techniques (for example, computed tomography) and is therefore a grouping concept. New content requests using the phrase _Radiographic imaging of_ and/or submissions requesting a Method (attribute) of 278110001 |Radiographic imaging - action (qualifier value)| are not acceptable for the international edition of SNOMED CT.
 
 ## Approved naming pattern
 
@@ -33,9 +34,9 @@ The terms _radiologic_ and _radiologic guidance_ are no longer permitted for any
   * For example,
     * Diagnostic radiography for foreign body detection and localization (procedure)
 
-Existing content with this type of description is currently under review and will be inactivated or updated to align with the new editorial guidance.
+Following review and member consultation, existing content with descriptions of this type have been reviewed and inactivated or updated to align with editorial guidance.
 
-[363680008 | Radiographic imaging procedure (procedure)|](http://snomed.info/id/363680008) is at the top-level of the hierarchy of imaging procedures utilizing X-rays. This concept is currently under review for inactivation in response to feedback from the community of practice.
+363680008 | Radiographic imaging procedure (procedure)| is at the top-level of the hierarchy of imaging procedures utilizing X-rays. This concept has been retained along with a small number of high usage subtypes that are modeled with method 278110001|Radiographic imaging - action (qualifier value)|.
 
 ## Dual energy X-ray absorptiometry
 
@@ -55,9 +56,4 @@ For example,
   * SYN: DXA of mandible
   * SYN: DEXA of mandible
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Radiographic%20Imaging%2C%20X-ray%20and%20Plain%20X-ray" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Radiographic%20Imaging%2C%20X-ray%20and%20Plain%20X-ray" class="button primary">Provide Feedback</a>
