@@ -1,40 +1,42 @@
 # Lymphatic, Immune, Hematologic, Hematopoietic systems
 
-## Lymphatic system /[ **89890002 |Structure of lymphatic system (body structure)|**](http://snomed.info/id/89890002)
+### Lymphatic system / **89890002 |Structure of lymphatic system (body structure)|**
 
 Set of structures through which lymph flows. It includes 59441001 | Structure of lymph node (body structure) | and 83555006 | Structure of lymphatic vessel (body structure) |. It supports the categorization of findings, disorders and procedures that relate to the flow of lymph.
 
-## Lymphoid system /[ 122490001 |Lymphoid system structure (body structure)|](http://snomed.info/id/122490001)
+### Lymphoid system / 122490001 |Lymphoid system structure (body structure)|
 
 Set of structures with groups of lymphoid cells, including those in the intestines, marrow, liver, and other locations, and the lymph nodes, spleen, thymus, and tonsils and adenoids; excludes the lymph vessels. It supports categorization of lymphomas.
 
-## Immune system /[ **116003000 |Structure of immune system (body structure)|**](http://snomed.info/id/116003000)
+### Immune system / **116003000 |Structure of immune system (body structure)|**
 
 All of the lymphoid system, as well as the mononuclear phagocytic system; the immune system also includes cellular and sub-cellular components involved in cellular and humoral immunity.
 
-## Mononuclear phagocytic system /[ **127908000 |Mononuclear phagocyte system structure (body structure)|**](http://snomed.info/id/127908000)
+### Mononuclear phagocytic system / **127908000 |Mononuclear phagocyte system structure (body structure)|**
 
 Collection of true macrophages, distributed widely in the body (splenic and lymphoid sinusoids, liver Kuppfer cells, pulmonary alveolar macrophages, osteoclasts, macrophages in serous membranes, and microgliocytes); also endothelial cells that line hematopoietic tissues.
 
-## Dendritic cell system /[ **127909008 |Dendritic cell system structure (body structure)|**](http://snomed.info/id/127909008)
+### Dendritic cell system / **127909008 |Dendritic cell system structure (body structure)|**
 
 Collection of antigen-presenting cells, including the following: epidermal Langerhans, dendritic reticulum, and interdigitating. Class I histiocytoses (Langerhans cell histiocytosis) are disorders of the dendritic cell system.
 
-## Hematologic system /[ **414387006 |Structure of hematological system (body structure)|**](http://snomed.info/id/414387006)
+### Hematologic system / **414387006 |Structure of hematological system (body structure)|**
 
 Bone marrow, the lymphoid system, the hematopoietic system, and the terminal cells of all lineages of the hematopoietic system (red cells, white cells, platelets, histiocytes, plasma cells, etc.). Disorders of the hematologic system do not necessarily include disorders of the hemostatic system, even though bleeding and thrombosis are usually categorized as _hematologic_.
 
-## Hematopoietic system /[ **57171008 |Hematopoietic system structure (body structure)|**](http://snomed.info/id/57171008)
+### Hematopoietic system / **57171008 |Hematopoietic system structure (body structure)|**
 
 Structures and cells responsible for erythropoiesis, granulocytopoiesis, monocytopoiesis, thrombocytopoiesis, and lymphopoiesis. Refers to the immature cellular elements that eventually form the cellular components of blood. The blood itself cannot be strictly part of the hematopoietic system, since this would cause all components of blood to be part of the hematopoietic system (including components like albumin, clearly not _hematopoietic_). SNOMED CT considers leukocytes, erythrocytes, and platelets _the result_ of hematopoiesis, but not blood-forming, otherwise leukocytosis would become a disorder of hematopoiesis, whereas it can arise simply from a demargination of white cells following stress. SNOMED CT has a concept named 419333002 | Cellular component of blood (substance) |; note that platelets are not actually cells, but are _cellular components_.
 
-{% hint style="info" %}
+{% hint style="success" %}
+_**Modeling**_
+
 _Hematopoietic_ should be differentiated from _hematologic_ , since the terminal cells of each lineage (the erythrocyte, segmented neutrophil, monocyte, histiocyte, platelet, mature T- and B-cells, plasma cells, etc.) are not strictly hematopoietic.
 {% endhint %}
 
 ## Blood
 
-The blood is not necessarily part of the cardiovascular system, nor is it necessarily part of the hematopoietic system. [87612001 |Blood (substance)|](http://snomed.info/id/87612001) is a body fluid, not strictly part of either the hematopoietic or cardiovascular systems.
+The blood is not necessarily part of the cardiovascular system, nor is it necessarily part of the hematopoietic system. 87612001 |Blood (substance)| is a body fluid, not strictly part of either the hematopoietic or cardiovascular systems.
 
 ## Single versus multiple lymph node(s)
 
@@ -48,9 +50,4 @@ Professional societies concerned with the clinical staging of lung cancer have d
 
 SNOMED International considers _American Joint Committee on Cancer_ (_AJCC) Station 10_ , _hilar lymph node_, _bronchial lymph node_, and _bronchopulmonary lymph node_ as synonyms. The American Thoracic Society (ATS) _Station 10R,_ the _right tracheobronchial lymph node_ is not a _subtype_ of _tracheobronchial lymph node_ because its definition includes nodes covered by both _lower paratracheal lymph node,_(AJCC Station 4) and by the hilar lymph node (AJCC Station 10). SNOMED CT uses _tracheobronchial lymph node_ as a supertype of both inferior tracheobronchial (subcarinal) and superior tracheobronchial (a subset of lower paratracheal).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Lymphatic%2C%20Immune%2C%20Hematologic%2C%20Hematopoietic%20systems" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Lymphatic%2C%20Immune%2C%20Hematologic%2C%20Hematopoietic%20systems" class="button primary">Provide Feedback</a>
