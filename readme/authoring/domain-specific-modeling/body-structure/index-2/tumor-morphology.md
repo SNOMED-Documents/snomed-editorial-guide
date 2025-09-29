@@ -13,17 +13,15 @@ SCT intends to avoid adding concepts that conflate the localization of a specifi
 
 The naming pattern utilized for gene-derived neoplastic morphology terms will align with the WHO Classification of Tumours (IARC 'Blue Books'). Gene acronyms are not required to be expanded. This policy is an exception to SNOMED CT's requirement for expansion of acronyms.
 
-> For example,
->
-> 1186933006 |SMARCA4-deficient undifferentiated tumor (morphologic abnormality)|
->
-> The gene SMARCA4 is not required to be named with the expanded form of _SWI/SNF Related, Matrix Associated, Actin Dependent Regulator Of Chromatin, Subfamily A, Member 4_.
+* For example,
+  * 1186933006 |SMARCA4-deficient undifferentiated tumor (morphologic abnormality)|. The gene SMARCA4 is not required to be named with the expanded form of _SWI/SNF Related, Matrix Associated, Actin Dependent Regulator Of Chromatin, Subfamily A, Member 4_.
+
+{% hint style="warning" %}
+**For more information**
 
 Visit ICD-O at [http://www.iacr.com.fr](http://www.iacr.com.fr/index.php?option=com_content\&view=category\&layout=blog\&id=100\&Itemid=577)
+{% endhint %}
 
 
 
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Tumor%20morphology" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Tumor%20morphology" class="button primary">Provide Feedback</a>
