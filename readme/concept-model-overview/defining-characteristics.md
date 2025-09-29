@@ -16,13 +16,13 @@ Defining characteristics are represented as relationships. The fields are used a
 
 ## Relationships
 
-The defining characteristics can be divided into 116680003 | Is a (attribute)| relationships and defining attribute relationships.
+The defining characteristics can be divided into `116680003 | Is a (attribute)|` relationships and defining attribute relationships.
 
-The IS\_A relationship (also called supertype-subtype or parent-child relationship) builds the hierarchies in SNOMED CT. Every concept has at least one IS\_A relationship to a supertype or parent concept except the top level concept, 138875005 | SNOMED CT Concept (SNOMED RT+CTV3)| .
+The IS\_A relationship (also called supertype-subtype or parent-child relationship) builds the hierarchies in SNOMED CT. Every concept has at least one IS\_A relationship to a supertype or parent concept except the top level concept, `138875005 | SNOMED CT Concept (SNOMED RT+CTV3)|` .
 
 Each concept in SNOMED CT is logically defined through its relationships to other concepts. A _relationship_ is defined as an association between a source concept and a destination concept. The type of association is indicated by an attribute concept. It is the relationships that make up the defining characteristics of the concepts. A _defining characteristic_ is a relationship to a target concept that is always necessarily true for any instance of the source concept.
 
-For example, the defining relationships of the concept 53442002 |Excision of stomach structure (procedure)| include:
+For example, the defining relationships of the concept `53442002 |Excision of stomach structure (procedure)|` include:
 
 {% code title="53442002 |Excision of stomach structure (procedure)|" overflow="wrap" %}
 ```
