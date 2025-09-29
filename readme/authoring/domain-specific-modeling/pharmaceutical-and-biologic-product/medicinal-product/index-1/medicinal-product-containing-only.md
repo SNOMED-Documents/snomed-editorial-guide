@@ -4,11 +4,8 @@
 
 The |Product containing only x (medicinal product)| concepts are abstract representations of the active ingredient(s) for a medicinal product. The medicinal product contains only the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN.
 
-For example,
-
-* ```
+* For example,
   * Product containing only axitinib (medicinal product)
-  ```
   * Product containing only abacavir and lamivudine (medicinal product)
 
 This is effectively the "set of active moiety(ies)" of the medicinal product. For example, "Product containing amoxicillin only" represents products that must contain _only_ amoxicillin\*\*\*\*((with any type of modification, be it amoxicillin sodium or amoxicillin trihydrate, or no modification, as in amoxicillin (base)); they must _not_ contain any other active ingredients, such as clavulanic acid. This is the closed world view.
@@ -33,12 +30,12 @@ In IDMP, for products using adjuvants, it is probable that the adjuvant would be
 
 ## Modeling
 
-| **Stated parent**                                                                                                     | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                                                                                           |
-| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                                                                                      | (medicinal product)                                                                                                                                                                                                                                                                                                                                                                               |
-| **Definition status**                                                                                                 | Defined                                                                                                                                                                                                                                                                                                                                                                                           |
-| <p><strong>Attribute:</strong></p><p><strong>127489000 |Has active ingredient (attribute)|</strong></p>               | <p>Range: &#x3C;105590001 |Substance (substance), excluding concepts representing structural groupers, dispositions, or combined substances</p><p>Cardinality: 1..* </p><p>There is no technical limit on the number of |Has active ingredient (attribute)|s that may be added to a concept.  A practical limit may be imposed at a later date.</p><p>This attribute is within a role group. </p> |
-| <p><strong>Attribute:</strong></p><p><strong>1142139005 |Count of base of active ingredient (attribute)|</strong></p> | <p>Concrete Type: Integer</p><p>Range: >#0..</p><p>Cardinality: 1..1</p>                                                                                                                                                                                                                                                                                                                          |
+| **Stated parent**                                                    | 763158003 \|Medicinal product (product)        |
+| -------------------------------------------------------------------- | ---------------------------------------------- |
+| **Semantic tag**                                                     | (medicinal product)                            |
+| **Definition status**                                                | Defined                                        |
+| <p><strong>Attribute:</strong></p><p><strong>127489000</strong></p>  | Has active ingredient (attribute)              |
+| <p><strong>Attribute:</strong></p><p><strong>1142139005</strong></p> | Count of base of active ingredient (attribute) |
 
 #### Exception for Benzylpenicillin
 
@@ -96,9 +93,4 @@ Synonyms matching the FSN are not required.
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/240453150.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Medicinal%20Product%20containing%20only" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Medicinal%20Product%20containing%20only" class="button primary">Provide Feedback</a>
