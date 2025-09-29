@@ -22,11 +22,11 @@ The evaluation procedure hierarchy is currently classified under _Procedure by m
     * Measurement procedure (procedure)
     * Physical examination assessment (procedure)
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value)</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (4).png" alt=""><figcaption><p>Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value)</p></figcaption></figure>
 
 <figure><img src="../../../../../authoring/images/174691284.png" alt=""><figcaption></figcaption></figure>
 
-Subtypes of Evaluation-action (qualifier value) include:&#x20;
+Subtypes of Evaluation-action (qualifier value) include:
 
 * Examination - action (qualifier value)
 * Imaging - action (qualifier value)
@@ -36,15 +36,15 @@ Subtypes of Evaluation-action (qualifier value) include:&#x20;
 
 ## Out of scope of procedures <a href="#out-of-scope-of-procedures" id="out-of-scope-of-procedures"></a>
 
-SNOMED International is no longer accepting new concepts to the 122869004 |Measurement procedure (procedure)| hierarchy.  New requests for content in this area will be created in the 363787002 |Observable entity (observable entity)| hierarchy.  If new content is needed in the 122869004 |Measurement procedure (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy.  Please see [Observable Entity](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241191) and [Observable Entity Naming Conventions](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241263) pages for more information.&#x20;
+SNOMED International is no longer accepting new concepts to the 122869004 |Measurement procedure (procedure)| hierarchy. New requests for content in this area will be created in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 122869004 |Measurement procedure (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see [Observable Entity](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241191) and [Observable Entity Naming Conventions](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241263) pages for more information.
 
-SNOMED International is no longer accepting new concepts in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy. New requests for concepts which are solely techniques should be created in the 272394005 | Technique (qualifier value)| subhierarchy.  New content that is an observation using a technique belongs in the 363787002 |Observable entity (observable entity)| hierarchy.  If new content is needed in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy.  Please see the [Technique](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133247202) and the [Observable Entity](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241191) pages for more information.
+SNOMED International is no longer accepting new concepts in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy. New requests for concepts which are solely techniques should be created in the 272394005 | Technique (qualifier value)| subhierarchy. New content that is an observation using a technique belongs in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see the [Technique](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133247202) and the [Observable Entity](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241191) pages for more information.
 
 ### Procedures by count <a href="#procedures-by-count" id="procedures-by-count"></a>
 
 #### Counts of the number of procedures <a href="#counts-of-the-number-of-procedures" id="counts-of-the-number-of-procedures"></a>
 
-Many procedure classifications focus on resources required to complete; this may be for reimbursement or tracking purposes (e.g. placement of one stent versus placement of two stents).  This information should be part of patient documentation and is not allowed in the International Release.
+Many procedure classifications focus on resources required to complete; this may be for reimbursement or tracking purposes (e.g. placement of one stent versus placement of two stents). This information should be part of patient documentation and is not allowed in the International Release.
 
 #### Order of procedures <a href="#order-of-procedures" id="order-of-procedures"></a>
 
@@ -78,13 +78,13 @@ The interpretation of primary may be:
 * Examples of unacceptable descriptions,
   * Primary anterior decompression of cervical spinal cord (procedure)
   * Primary anterior excision of cervical intervertebral disc (procedure)
-  * Primary arthrodesis of interphalangeal joint of toe (procedure)&#x20;
+  * Primary arthrodesis of interphalangeal joint of toe (procedure)
   * Primary anterolateral excision of thoracic intervertebral disc (procedure)
 
 {% hint style="warning" %}
 **"First" and “Subsequent” Procedures**
 
-"First" and “subsequent” procedures are not allowed, as they are inherently ambiguous and relative.  While administratively relevant, the additional descriptions of the procedure are not clinically relevant.&#x20;
+"First" and “subsequent” procedures are not allowed, as they are inherently ambiguous and relative. While administratively relevant, the additional descriptions of the procedure are not clinically relevant.
 
 **Unacceptable examples**
 
@@ -92,9 +92,4 @@ The interpretation of primary may be:
 * Antenatal subsequent blood tests (procedure)
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Procedure%20Modeling" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Procedure%20Modeling" class="button primary">Provide Feedback</a>
