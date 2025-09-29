@@ -20,7 +20,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-These concepts in the International Release, their descriptions, and their| Has active ingredient (attribute)| value, represent the **base** ingredient, not a modification.
+These concepts in the International Release, their descriptions, and their | Has active ingredient (attribute)| value, represent the **base** ingredient, not a modification.
 
 For example,
 
