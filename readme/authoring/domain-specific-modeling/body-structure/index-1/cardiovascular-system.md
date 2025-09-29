@@ -99,8 +99,6 @@ The word vein has three different meanings. In modeling SNOMED CT concepts that 
 
 <table><thead><tr><th width="313.1328125">Meaning</th><th>Notes</th></tr></thead><tbody><tr><td>A venous trunk</td><td>As with the clinical usage of the word artery , clinical usage of the word vein generally refers to the trunk and not the entire tree</td></tr><tr><td>A venous tree organ</td><td>There are only eleven venous tree organs that are readily named as such.</td></tr><tr><td>A venous trunk, plus all its branches</td><td>When modeling, it is challenging to differentiate when trunk vs. trunk plus branches is intended.</td></tr></tbody></table>
 
->
-
 {% hint style="warning" %}
 **Vein**
 
