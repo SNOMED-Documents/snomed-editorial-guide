@@ -22,6 +22,10 @@ The following illustrates the **stated** view for 736893007 |Aortic tri-leaflet 
 
 <figure><img src="../../../../../authoring/physical-object/images/174691277.png" alt=""><figcaption></figcaption></figure>
 
+The following illustrates the **inferred** view for 736893007 |Aortic tri-leaflet mechanical valve prosthesis (physical object)|:
+
+<figure><img src="../../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../../../../../authoring/physical-object/images/174691278.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Cardiac%20Valve%20Prosthesis%20Naming%20and%20Modeling" class="button primary">Provide Feedback</a>
