@@ -1,6 +1,6 @@
 # Breast Prosthesis Naming and Modeling
 
-## Naming
+## Naming Guidelines
 
 <table><thead><tr><th width="150.83154296875"></th><th></th></tr></thead><tbody><tr><td>FSN</td><td><p>Use the following naming pattern for the FSN; align terming and case sensitivity with the FSN for the concepts selected as the attribute values, excluding the semantic tag. </p><p></p><p>[filling] [surface texture] breast implant (physical object) </p><p></p><ul><li>For example, Saline-filled textured breast implant (physical object)</li></ul></td></tr><tr><td>Preferred Term</td><td><p>Use the following pattern for the PT; align terming and case sensitivity with the PT for the concept that is selected as the attribute value. </p><p></p><p>[filling] [surface texture] breast implant </p><p>Stated parent concept(s)</p><ul><li>For example, Saline-filled textured breast implant</li></ul></td></tr><tr><td>Synonym</td><td>Synonyms are not generally added for concepts in this hierarchy.</td></tr></tbody></table>
 
