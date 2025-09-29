@@ -2,15 +2,17 @@
 
 ## Skin, skin-associated mucosa
 
-This is an example of a body structure that is used to group related terms.&#x20;
+This is an example of a body structure that is used to group related terms.
 
-The concept [707861009 |Structure of skin and/or skin-associated mucous membrane (body structure)|](http://snomed.info/id/707861009) intentionally employs _disjunction_ (inclusive &#x4F;_&#x72;_).  It includes structures in the deep layers, but excludes non-skin mucosal epithelium, e.g., bronchial, gastrointestinal, and genitourinary sites of squamous cell neoplasms. The [400199006 |Structure of skin and/or surface epithelium (body structure)|](http://snomed.info/id/400199006) concept is used to represent the sites of these neoplasms.
+The concept 707861009 |Structure of skin and/or skin-associated mucous membrane (body structure)| intentionally employs _disjunction_ (inclusive &#x4F;_&#x72;_). It includes structures in the deep layers, but excludes non-skin mucosal epithelium, e.g., bronchial, gastrointestinal, and genitourinary sites of squamous cell neoplasms. The 400199006 |Structure of skin and/or surface epithelium (body structure)| concept is used to represent the sites of these neoplasms.
 
 Skin and/or skin-associated mucosa is intended for use in dermatology. It is not intended to subsume all mucosal structures, which are under Mucous membrane structure (body structure).
 
+{% hint style="warning" %}
 #### Diseases of the skin
 
-For the meaning of _diseases of the skin_ , refer to the draft of ICD-11:  _Diseases of the skin incorporate conditions affecting the epidermis, its appendages (hair, hair follicle, sebaceous glands, apocrine sweat gland apparatus, eccrine sweat gland apparatus and nails) and associated mucous membranes (conjunctival, oral and genital), the dermis, the cutaneous vasculature and the subcutaneous tissue (subcutis)._
+For the meaning of _diseases of the skin_ , refer to the draft of ICD-11: _Diseases of the skin incorporate conditions affecting the epidermis, its appendages (hair, hair follicle, sebaceous glands, apocrine sweat gland apparatus, eccrine sweat gland apparatus and nails) and associated mucous membranes (conjunctival, oral and genital), the dermis, the cutaneous vasculature and the subcutaneous tissue (subcutis)._
+{% endhint %}
 
 ## Skin regions, skin of \<body part>
 
@@ -18,7 +20,7 @@ Since the phrase _skin of finger_ can mean _some or all of the skin of finger_ (
 
 ## Scalp
 
-Formal definitions of scalp include layers beneath the skin. Therefore we make a distinction between [41695006 |Scalp structure (body structure)|](http://snomed.info/id/41695006) and [43067004 |Skin structure of scalp (body structure)|](http://snomed.info/id/43067004).
+Formal definitions of scalp include layers beneath the skin. Therefore we make a distinction between 41695006 |Scalp structure (body structure)| and 43067004 |Skin structure of scalp (body structure)|.
 
 ## Soft tissue
 
@@ -29,9 +31,4 @@ There are at least three different use cases and meanings, and thus categories, 
 * **Sites of non-bone disorders and injuries of the limbs, head, neck, and body wall**. Skeletal cartilage, as well as all non-bone structures of the limbs, and subcutaneous tissue and fat are included. Skin and lymph nodes are not included. For the head, neck and torso, mononuclear phagocyte system, central nervous system, endocrine glands, viscera, and supporting tissues are excluded.
 * **Structures identified in images**. Soft tissue include everything except for mineralized bone tissue and teeth.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Integumentary%20System" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Integumentary%20System" class="button primary">Provide Feedback</a>
