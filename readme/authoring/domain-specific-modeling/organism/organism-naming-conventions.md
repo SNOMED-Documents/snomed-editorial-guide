@@ -378,6 +378,10 @@ SNOMED International utilizes various resources when reviewing changes to the or
 
 ### Parasites
 
+* Integrated Taxonomic Information System (ITIS)
+
+### Protozoa
+
 * National Center for Biotechnology Information (NCBI) Taxonomy. Although not an authoritative source, NCBI Taxonomy provides useful links to other sources; it is used by Unified Medical Language System (UMLS) as a QA source.
 
 ### General
