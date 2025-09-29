@@ -122,7 +122,7 @@ The word acute has more than one meaning, and the meanings are often overlapping
 * For example,
   * 4532008 | Acute inflammation (morphologic abnormality)| does not necessarily have a clinical course of sudden onset and/or short duration, but rather implies polymorphonuclear infiltration (84499006 | Chronic inflammation (morphologic abnormality) | implies mononuclear cell infiltration, not necessarily a chronic course, although inflammation with a chronic course is highly correlated with a lymphocytic infiltration)
 
-2704003 |Acute disease (disorder)| is modeled with a Clinical course (attribute) of Sudden onset AND/OR short duration (qualifier value).  For clinical conditions that necessitate further specificity, the more appropriate subtypes are available. _Acute onset_ and &#x73;_&#x75;dden onset_ are synonymous; clinical conditions specifying _acute onset_ should be modeled with a Clinical course (attribute) of Sudden onset (qualifier value).
+2704003 |Acute disease (disorder)| is modeled with a Clinical course (attribute) of Sudden onset AND/OR short duration (qualifier value). For clinical conditions that necessitate further specificity, the more appropriate subtypes are available. _Acute onset_ and &#x73;_&#x75;dden onset_ are synonymous; clinical conditions specifying _acute onset_ should be modeled with a Clinical course (attribute) of Sudden onset (qualifier value).
 
 Acute-on-chronic (qualifier value) is an acute (sudden onset) event superimposed on a pre-existing chronic condition. This be either a sudden worsening of a chronic condition itself (an exacerbation) or the development of a new, separate acute illness on top of a chronic disease.
 {% endhint %}
@@ -206,7 +206,7 @@ In general, the value for the |Interprets| attribute should be from the |Observa
 |Observable entity| concepts that are modeled with a |Scale type (attribute)| relationship should not be used as a value for a Clinical finding's |Interprets| relationship. The existing _vital sign_ |Observable entity| concepts, e.g. |Arterial blood pressure (observable entity)| are exceptions to this guideline; they are permitted for use.
 
 {% hint style="info" %}
-In the guidance on the use of the |Scale type (attribute)|, it has been noted that going forward, international |Observable entity| concepts will not be modeled with the [|](http://snomed.org/fictid)Scale type (attribute)[|](http://snomed.org/fictid). Extension concepts are permitted to add specific subtypes of observable entities that include the [|](http://snomed.org/fictid)Scale type (attribute)[|](http://snomed.org/fictid), if desired.
+In the guidance on the use of the |Scale type (attribute)|, it has been noted that going forward, international |Observable entity| concepts will not be modeled with the |Scale type (attribute)|. Extension concepts are permitted to add specific subtypes of observable entities that include the |Scale type (attribute)|, if desired.
 {% endhint %}
 
 Be aware that SNOMED CT currently contains some concepts in the |Evaluation Procedure| hierarchy which logically belong in the |Observable entity| hierarchy. Reconciliation of the overlap between these two hierarchies will be undertaken at a future date. Discussions about the final solution for the |Observable entity| and |Evaluation Procedure| issue are ongoing. See [Observable Entity vs. Evaluation procedure](../observable-entity/#observable-entity-vs.-evaluation-procedure).
@@ -214,7 +214,7 @@ Be aware that SNOMED CT currently contains some concepts in the |Evaluation Proc
 When working with the Interprets attribute, consider the values used by the supertypes and possible subtypes of your concept for this attribute. This is because the |Interprets| values must be drawn from the same hierarchy, e.g., |Observable entity| hierarchy or |Procedure| hierarchy as supertypes and subtypes, to support modeling and correct subsumption.
 
 {% hint style="success" %}
-#### Measurement finding
+**Measurement finding**
 
 For concepts in the 118245000 |Measurement finding (finding)| subhierarchy, the value for 363714003 |Interprets (attribute)| can be an Evaluation procedure, Laboratory procedure, or an Observable entity concept. In the future, the range of values may change when discussion of the relationship between evaluation procedures and observable entities concludes.
 {% endhint %}
@@ -305,9 +305,4 @@ This attribute's subhierarchy specifies the associated time period (i.e. before,
 
 This attribute is self-grouped.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Finding%20Defining%20Attributes" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Clinical%20Finding%20Defining%20Attributes" class="button primary">Provide Feedback</a>
