@@ -16,11 +16,11 @@ Also, since the upper GI tract is said to end at the duodenum-jejunum junction, 
 
 ## Upper aerodigestive tract
 
-The SNOMED CT concepts 119253004 |Upper aerodigestive tract structure (body structure)| and [361922007 |Entire upper aerodigestive tract (body structure)|](http://snomed.info/id/361922007) have the meaning based on the following reference: _Cancers of the upper aerodigestive tract constitute approximately 4% of all malignancies. These include cancer of the lip, tongue, major salivary glands, gums and adjacent oral cavity tissues, floor of the mouth, tonsils, oropharynx, nasopharynx, hypopharynx and other oral regions, nasal cavity, accessory sinuses, middle ear, and larynx_ (Upper aerodigestive tract cancers, Cancer 1995 Jan 1;75 (1 Suppl): 147-53). This definition matches the tumors included in the _CAP Cancer Checklist_ for upper aerodigestive tumors. The esophagus, or at least the cervical esophagus, may be included, but not in SNOMED CT.
+The SNOMED CT concepts 119253004 |Upper aerodigestive tract structure (body structure)| and 361922007 |Entire upper aerodigestive tract (body structure)| have the meaning based on the following reference: _Cancers of the upper aerodigestive tract constitute approximately 4% of all malignancies. These include cancer of the lip, tongue, major salivary glands, gums and adjacent oral cavity tissues, floor of the mouth, tonsils, oropharynx, nasopharynx, hypopharynx and other oral regions, nasal cavity, accessory sinuses, middle ear, and larynx_ (Upper aerodigestive tract cancers, Cancer 1995 Jan 1;75 (1 Suppl): 147-53). This definition matches the tumors included in the _CAP Cancer Checklist_ for upper aerodigestive tumors. The esophagus, or at least the cervical esophagus, may be included, but not in SNOMED CT.
 
 ## Biliary tract
 
-Biliary tract includes the gallbladder, intrahepatic and extrahepatic bile ducts, and common bile duct. It does not include the liver.  SNOMED CT uses _biliary system_ as a synonym for _biliary tract._ SNOMED CT has another concept that does include the liver, [732049009 |Entire liver and biliary system (body structure)|](http://snomed.info/id/732049009).
+Biliary tract includes the gallbladder, intrahepatic and extrahepatic bile ducts, and common bile duct. It does not include the liver. SNOMED CT uses _biliary system_ as a synonym for _biliary tract._ SNOMED CT has another concept that does include the liver, 732049009 |Entire liver and biliary system (body structure)|.
 
 ## Mouth
 
@@ -42,9 +42,4 @@ The four regional parts of the tongue are the ventrum (inferior surface), dorsum
 
 The terms _colorectal_ and _colorectum_ , commonly used by pathologists, are included in descriptions for concepts referring to neoplasms modeled with 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)|. 1285733009 |Structure of cecum and/or colon and/or rectum (body structure)| is needed because neoplasms are the same from the cecum to rectum and are considered as a group in cancer synoptic reporting protocols. Note, there is no consensus concerning the definition of _colon_ in the literature and between different domains.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Digestive%20System" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Digestive%20System" class="button primary">Provide Feedback</a>
