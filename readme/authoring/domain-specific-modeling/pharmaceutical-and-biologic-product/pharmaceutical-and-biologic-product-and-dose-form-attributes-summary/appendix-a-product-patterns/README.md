@@ -9,7 +9,7 @@ To correctly interpret "_one countable instance of a whole of medicinal product_
 By describing the various standard patterns of products with their basic dose forms and intimate containers, consistent representation of strength based on unit of presentation can be maintained.
 
 {% hint style="info" %}
-
+In all the patterns described below, pack size is mentioned to show how information is sourced from "what is". Description of pack size is out of scope for the international release, although it is in scope for the national extension model, as some nations may require medicinal products that include description of pack size for their national terminology. Therefore, it is useful to have it shown here for informational purposes only.
 {% endhint %}
 
 * [Discrete manufactured dose form; similar unit of presentation](discrete-manufactured-dose-form-similar-unit-of-presentation.md)
