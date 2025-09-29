@@ -17,16 +17,16 @@ Modeling and terming for vaccines that have variable composition (e.g. influenza
 
 ## Modeling
 
-| **Stated parent concept**                                                                    | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Semantic tag**                                                                             | (medicinal product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Definition status**                                                                        | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| <p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p>              | <p>Range: &#x3C;105590001 |Substance (substance)| excluding concepts representing structural groupers, dispositions, or combined substances</p><p>Cardinality: 1..*</p><ul><li>There is no technical limit on the number of Has active ingredient attributes that may be added to a concept; a practical limit may be imposed at a later date.</li></ul><p>For content in the International Release, this attribute value should represent either the organism antigen, or the organism antigen(s), including modifications or subtypes, that are contained in a manufactured product.</p> |
-| **Attribute: Has ingredient qualitative strength**                                           | <p>Range: &#x3C; 1149484003 |Ingredient qualitative strength (qualifier value)|</p><p>Cardinality: 0..*</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Attribute: Has target population**                                                         | <p>Range: &#x3C; 27821000087106 |Product target population (qualifier value)|</p><p>Cardinality: 0..1</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| <p><strong>Attribute:</strong></p><p><strong>Plays role</strong></p>                         | <p>Range:  &#x3C;&#x3C;766940004 |Role (role)|</p><p>Cardinality: 0..*</p><ul><li>While the allowed range is broader, Vaccine product "containing" concepts should have one and only one |Plays role (attribute)| of 318331000221102 |Active immunity stimulant role (role)|.</li></ul>                                                                                                                                                                                                                                                                                                    |
-| <p><strong>Attribute:</strong></p><p><strong>Count of base of active ingredient</strong></p> | <p>Range: &#x3C; 260299005 |Number (qualifier value)|</p><p>Cardinality: 1..1</p><p>For content in the International Release, this attribute value should represent the total number of discrete active ingredients, excluding modifications or subtypes.</p>                                                                                                                                                                                                                                                                                                                              |
-| <p><strong>Attribute:</strong></p><p><strong>Count of active ingredient</strong></p>         | <p>Concrete Type:  Integer<br>Range:  >#0..<br>Cardinality:  1..1</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Stated parent concept**                                                                    | 763158003 \|Medicinal product (product)                            |
+| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Semantic tag**                                                                             | (medicinal product)                                                |
+| **Definition status**                                                                        | Defined                                                            |
+| <p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p>              | Range: <105590001                                                  |
+| **Attribute: Has ingredient qualitative strength**                                           | Range: < 1149484003                                                |
+| **Attribute: Has target population**                                                         | Range: < 27821000087106                                            |
+| <p><strong>Attribute:</strong></p><p><strong>Plays role</strong></p>                         | Range: <<766940004                                                 |
+| <p><strong>Attribute:</strong></p><p><strong>Count of base of active ingredient</strong></p> | Range: < 260299005                                                 |
+| <p><strong>Attribute:</strong></p><p><strong>Count of active ingredient</strong></p>         | <p>Concrete Type: Integer<br>Range: >#0..<br>Cardinality: 1..1</p> |
 
 ## Terming
 
@@ -42,9 +42,7 @@ For example,
 
 * Vaccine product containing only Hepatitis B virus antigen (medicinal product)
 * Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)
-* Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)\
-  \
-
+* Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)
 
 |Has product characteristic| and |Has ingredient characteristic| attribute values should be added as appropriate.
 
@@ -106,7 +104,7 @@ Synonyms representing abbreviations for product (e.g. MMR, DTaP) will not be inc
 
 <figure><img src="../../../../../../.gitbook/assets/image (62).png" alt=""><figcaption><p><strong>Stated</strong> view for 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (63).png" alt=""><figcaption><p> <strong>Inferred</strong> view for 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (63).png" alt=""><figcaption><p><strong>Inferred</strong> view for 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (64).png" alt=""><figcaption><p><strong>Stated</strong> view for 871803007 |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|</p></figcaption></figure>
 
@@ -126,9 +124,4 @@ Synonyms representing abbreviations for product (e.g. MMR, DTaP) will not be inc
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690945.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Vaccine%20Product%20containing%20only%20Concepts" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Vaccine%20Product%20containing%20only%20Concepts" class="button primary">Provide Feedback</a>
