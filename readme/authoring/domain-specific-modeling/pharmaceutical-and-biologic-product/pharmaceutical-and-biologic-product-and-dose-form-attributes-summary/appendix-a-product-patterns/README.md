@@ -9,15 +9,15 @@ To correctly interpret "_one countable instance of a whole of medicinal product_
 By describing the various standard patterns of products with their basic dose forms and intimate containers, consistent representation of strength based on unit of presentation can be maintained.
 
 {% hint style="info" %}
-In all the patterns described below, pack size is mentioned to show how information is sourced from "what is".   Description of pack size is out of scope for the international release, although it is in scope for the national extension model, as some nations may require medicinal products that include description of pack size for their national terminology. Therefore, it is useful to have it shown here for informational purposes only.
+
 {% endhint %}
 
-* [Discrete manufactured dose form; similar unit of presentation](../../../../../../authoring/pharmaceutical-and-biologic-product/304775947.html)
-* [Continuous presentation: Metered dose unit of presentation](../../../../../../authoring/pharmaceutical-and-biologic-product/304775950.html)
-* [Continuous presentation: Oral liquids designed for administration by "metered" medicine spoon](../../../../../../authoring/pharmaceutical-and-biologic-product/304775952.html)
-* [Continuous presentation: bounded by unit of presentation; solid dose forms](../../../../../../authoring/pharmaceutical-and-biologic-product/304775954.html)
-* [Continuous presentation: bounded by container; liquid dose forms](../../../../../../authoring/pharmaceutical-and-biologic-product/304775957.html)
-* [Continuous presentation: bounded by container; liquid/semi-solid dose forms; concentration strength required](../../../../../../authoring/pharmaceutical-and-biologic-product/304775960.html)
-* [Continuous presentation: unbounded by container](../../../../../../authoring/pharmaceutical-and-biologic-product/304775964.html)
+* [Discrete manufactured dose form; similar unit of presentation](discrete-manufactured-dose-form-similar-unit-of-presentation.md)
+* [Continuous presentation: Metered dose unit of presentation](continuous-presentation-metered-dose-unit-of-presentation.md)
+* [Continuous presentation: Oral liquids designed for administration by "metered" medicine spoon](continuous-presentation-oral-liquids-designed-for-administration-by-metered-medicine-spoon.md)
+* [Continuous presentation: bounded by unit of presentation; solid dose forms](continuous-presentation-bounded-by-unit-of-presentation-solid-dose-forms.md)
+* [Continuous presentation: bounded by container; liquid dose forms](continuous-presentation-bounded-by-container-liquid-dose-forms.md)
+* [Continuous presentation: bounded by container; liquid/semi-solid dose forms; concentration strength required](continuous-presentation-bounded-by-container-liquidsemi-solid-dose-forms-concentration-strength-requ.md)
+* [Continuous presentation: unbounded by container](continuous-presentation-unbounded-by-container.md)
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Appendix%20A%3A%20Product%20Patterns" class="button primary">Provide Feedback</a>
