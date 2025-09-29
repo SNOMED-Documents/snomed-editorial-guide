@@ -4,7 +4,7 @@
 
 Both _subchoroidal_ and _suprachoroidal_ refer to the same potential anatomic space between the choroid and the sclera. The term _lamina subchoroidea of choroid_ is the same as the _lamina suprachoroidea_.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 In the literature, the term _massive suprachoroidal hemorrhage_ is replacing _expulsive hemorrhage_ and _subchoroidal hemorrhage_.
 {% endhint %}
 
@@ -14,16 +14,11 @@ There is not a vein actually named _retinal vein_. However, _SNOMED CT_ has conc
 
 For example,
 
-* [85003000 |Structure of retinal vein (body structure)|](http://snomed.info/id/85003000) has the synonym _retinal vein_.
-  * [280927000 |Entire central vein of the retina (body structure)|](http://snomed.info/id/280927000) has the synonym _entire central retinal vein._
+* 85003000 |Structure of retinal vein (body structure)| has the synonym _retinal vein_.
+  * 280927000 |Entire central vein of the retina (body structure)| has the synonym _entire central retinal vein._
 
 ## Orbital region
 
-[371398005 |Eye region structure (body structure)|](http://snomed.info/id/371398005) has a synonym of _orbital region structure_ which subsumes _bony orbit_, _entire_ _eye_, and _ocular adnexa_.
+371398005 |Eye region structure (body structure)| has a synonym of _orbital region structure_ which subsumes _bony orbit_, _entire_ _eye_, and _ocular adnexa_.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Eye" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Eye" class="button primary">Provide Feedback</a>
