@@ -18,7 +18,7 @@
 
 The following illustrates the **stated** view for 736893007 |Aortic tri-leaflet mechanical valve prosthesis (physical object)|:
 
-<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../authoring/physical-object/images/174691277.png" alt=""><figcaption></figcaption></figure>
 

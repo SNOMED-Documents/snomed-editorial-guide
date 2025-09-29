@@ -20,7 +20,7 @@ The following modeling and terming guidelines apply to concepts in the Internati
 
 The following illustrates the **stated** and **inferred** view for top level grouper 293104008 |Adverse reaction to vaccine product (disorder)|:
 
-<figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="blob:https://conf.spaces.snomed.org/d39d6c6f-0808-441e-b4ee-20a147e262f9#media-blob-url=true&#x26;id=c686d6f2-19d1-4dca-b5fa-caa4b4b3ea02&#x26;collection=contentId-133240726&#x26;contextId=133240726&#x26;mimeType=application%2Foctet-stream&#x26;name=Screen%20Shot%202020-07-13%20at%2010.42.35%20AM.png&#x26;size=30032&#x26;width=765&#x26;height=183&#x26;alt=" alt=""><figcaption></figcaption></figure>
 
