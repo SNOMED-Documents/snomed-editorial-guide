@@ -18,9 +18,9 @@ The last concept has been allocated the following definition: This volume includ
 
 To emphasize the different volumes, cross-sections are shown below of (Figure 1) the vertebral column in yellow, and (Figure 2) the larger vertebral column region in amber color.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figure 1, Vertebral column</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Figure :Vertebral column</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Figure 2, Vertebral column region</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Figure : Vertebral column region</p></figcaption></figure>
 
 From the preceding descriptions, it is clear that _Vertebral column region_ is a broader concept for 'spine', and it should be used when a procedure or condition could involve not only the bony component of the vertebral column, but also the spinal cord, nerve root, muscle, bone, or joint of spine.
 
@@ -90,9 +90,4 @@ Similarly, 8454000 |Lumbar spine joint structure (body structure)| subsumes:
 * Structure of lumbosacral joint
 * Structure of facet joint between L5 and S1
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Anatomy%20relating%20to%20the%20spine" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Anatomy%20relating%20to%20the%20spine" class="button primary">Provide Feedback</a>
