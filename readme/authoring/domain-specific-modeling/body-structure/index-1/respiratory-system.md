@@ -22,7 +22,7 @@ This phrase has several meanings. The SNOMED CT concepts 119253004 |Upper aerodi
 
 ## Interarytenoid fold or larynx
 
-The interarytenoid fold forms part of the inlet of the larynx. The fold has two surfaces, one forming part of the wall of the supraglottic larynx, the other forming part of the wall of the hypopharynx (the _food tube_ behind the larynx, leading to the esophagus). The 102295003 |Structure of hypopharyngeal aspect of interarytenoid fold (body structure)| may be considered \_\_ part of the hypopharynx, the larynx, or both. A tumor of this site is categorized as a tumor of the hypopharynx, and not the larynx, but the 105585004 |Interarytenoid fold structure (body structure)| is considered part of the larynx.
+The interarytenoid fold forms part of the inlet of the larynx. The fold has two surfaces, one forming part of the wall of the supraglottic larynx, the other forming part of the wall of the hypopharynx (the _food tube_ behind the larynx, leading to the esophagus). The 102295003 |Structure of hypopharyngeal aspect of interarytenoid fold (body structure)| may be considered part of the hypopharynx, the larynx, or both. A tumor of this site is categorized as a tumor of the hypopharynx, and not the larynx, but the 105585004 |Interarytenoid fold structure (body structure)| is considered part of the larynx.
 
 SNOMED CT does not give a _Part of_ relationship between the hypopharyngeal aspect of the interarytenoid fold and the interarytenoid fold. This emphasizes SNOMED CT modeling based on the relationship of anatomical entities and disorders and procedures and not simply by reading term names.
 
