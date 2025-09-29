@@ -1,6 +1,6 @@
 # Unit of presentation
 
-A unit of presentation represents a qualitative concept that describes a countable entity in which the clinical drug is presented (e.g. tablet, capsule) or in which it is bounded (vial, ampule). The [732935002 | Unit of presentation (unit of presentation)|](http://snomed.info/id/732935002) is used to support expression of presentation strength, where it provides the denominator for the strength ratio, and to differentiate different clinical drug products when the "intimate container" (see below) is clinically important (e.g. differentiating pre-filled syringes from ampoules for a solution for injection product).\
+A unit of presentation represents a qualitative concept that describes a countable entity in which the clinical drug is presented (e.g. tablet, capsule) or in which it is bounded (vial, ampule). The 732935002 | Unit of presentation (unit of presentation)| is used to support expression of presentation strength, where it provides the denominator for the strength ratio, and to differentiate different clinical drug products when the "intimate container" (see below) is clinically important (e.g. differentiating pre-filled syringes from ampoules for a solution for injection product).\
 As described in the Strength section above and detailed further in Appendix A, there are various patterns for describing how unit of presentation and expression of strength relate together, based on whether the unit of presentation relates to the basic dose form or the intimate container (which is therefore the countable unit) of the medicinal product. As the countable entity for a medicinal product, unit of presentation is also important in describing packages, which although out of scope of the international edition, may be of major importance for national extensions describing medicinal products.
 
 There are three types of unit of presentation:
@@ -66,9 +66,4 @@ For example,
 
 Synonyms are not allowed
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Unit%20of%20presentation" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Unit%20of%20presentation" class="button primary">Provide Feedback</a>
