@@ -38,7 +38,7 @@ The following table provides the possible combinations of answers. It allows aut
 |                                                                                  | During                       | X during Y                           |
 |                                                                                  | Before / During / After      | X temporally related to Y\*          |
 
-> _\*Note: |Temporally related to (attribute)| and its subtypes_ Before _and_ During _are only approved to model perioperative complications and a limited number of other clinical findings._
+_\*Note: |Temporally related to (attribute)| and its subtypes_ Before _and_ During _are only approved to model perioperative complications and a limited number of other clinical findings._
 
 ***
 
@@ -56,7 +56,7 @@ Use simple co-occurrence for two or more conditions that are strongly associated
 
 For example,
 
-* Named syndromes, such as [398114001 | Ehlers-Danlos syndrome (disorder)|](http://snomed.info/id/398114001)
+* Named syndromes, such as 398114001 | Ehlers-Danlos syndrome (disorder)|
 * Manifestations of systemic disorders, such as 83901003 |Sjögren's syndrome (disorder)|
 
 Do not use simple co-occurrence for those disorders with more than one anatomical site or more than one associated morphology. Those disorders should rather be represented as individual concepts in a medical record.
@@ -73,14 +73,14 @@ Incorrect examples not to be repeated:
 
 ·       Hay fever with asthma (disorder)
 
-{% hint style="warning" %}
+{% hint style="success" %}
 Be aware of conditions which likely exist prior to a disorder or procedure.
 
 For example,&#x20;
 
-Legacy term [609454008 | Induced termination of pregnancy complicated by acute necrosis of liver (disorder)|](http://snomed.info/id/609454008)
+Legacy term 609454008 | Induced termination of pregnancy complicated by acute necrosis of liver (disorder)|
 
-* _Acute necrosis of liver_ was likely present prior to the procedure; there is no explicit causation. The concept will be inactivated. Instead, separate concepts [714812005 | Induced termination of pregnancy (procedure)|](http://snomed.info/id/714812005) and [197269008 | Acute necrosis of liver (disorder)|](http://snomed.info/id/197269008) should be documented in the medical record.
+* _Acute necrosis of liver_ was likely present prior to the procedure; there is no explicit causation. The concept will be inactivated. Instead, separate concepts 714812005 | Induced termination of pregnancy (procedure)| and 197269008 | Acute necrosis of liver (disorder)| should be documented in the medical record.
 {% endhint %}
 
 ***
@@ -250,7 +250,7 @@ In modeling concepts related to infectious diseases, a number of considerations 
     * **|After|** and **|Causative agent|** relationship:  4740000 |Herpes zoster (disorder)|
     * **|Due to|** and **|After|** relationship:  1148594002 |Chronic arthritis due to and following rheumatic fever (disorder)|
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 _Applying the |Due to|, |After|, or both |Due to| and |After| relationships to a concept will not lead to it being a subtype of |Infectious disease (disorder)| unless it is itself an infectious disease._
 {% endhint %}
 
