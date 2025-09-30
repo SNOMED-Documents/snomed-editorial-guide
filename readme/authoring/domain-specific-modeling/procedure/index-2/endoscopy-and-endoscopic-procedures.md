@@ -1,14 +1,12 @@
 # Endoscopy and endoscopic procedures
 
-There is no need to distinguish between _endoscopy_ and _endoscopic procedure,_ as the procedure always includes inspection and may require minor incisions to allow the endoscope and other instruments to be inserted, or insertion may be via an existing orifice. \
-\
+There is no need to distinguish between _endoscopy_ and _endoscopic procedure,_ as the procedure always includes inspection and may require minor incisions to allow the endoscope and other instruments to be inserted, or insertion may be via an existing orifice.
 
-
-In all endoscopic procedures, a role group with Method of Inspection - action (qualifier value) + Using Device is mandatory.  For endoscopies that require an incision, the role group to represent the incision is required.  Where an additional action is performed during an endoscopy, a third role group is modeled with the applicable action.
+In all endoscopic procedures, a role group with Method of Inspection - action (qualifier value) + Using Device is mandatory. For endoscopies that require an incision, the role group to represent the incision is required. Where an additional action is performed during an endoscopy, a third role group is modeled with the applicable action.
 
 ## Endoscopy/Endoscopic procedure modeling <a href="#endoscopy-endoscopic-procedure-modeling" id="endoscopy-endoscopic-procedure-modeling"></a>
 
-#### &#x20;**Inspection only via natural orifice = 1 role group with Inspection**
+#### **Inspection only via natural orifice = 1 role group with Inspection**
 
 Role group:
 
@@ -20,13 +18,11 @@ For example
 
 <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Stated view of |Endoscopy of stomach (procedure)|</p></figcaption></figure>
 
-
-
 {% hint style="info" %}
-There can be more than 1 role group if there is more than one site.  So Esophagogastroduodenoscopy (procedure) has 3 inspection role groups; one each for esophagus, stomach, and duodenum.&#x20;
+There can be more than 1 role group if there is more than one site. So Esophagogastroduodenoscopy (procedure) has 3 inspection role groups; one each for esophagus, stomach, and duodenum.
 {% endhint %}
 
-**Inspection + action via natural orifice = 2 role groups of Inspection and Action**
+#### **Inspection + action via natural orifice = 2 role groups of Inspection and Action**
 
 Role group 1:
 
@@ -84,9 +80,9 @@ For example
 
 ## Devices <a href="#devices" id="devices"></a>
 
-Endoscopes are complex pieces of equipment that support much more than just the act of visualization. However, one does not usually use the scope to access the site of the intended inspection or therapeutic procedure.&#x20;
+Endoscopes are complex pieces of equipment that support much more than just the act of visualization. However, one does not usually use the scope to access the site of the intended inspection or therapeutic procedure.
 
-USING DEVICE: When an incision RG is included in the concept model then the correct attribute for the device is USING DEVICE. For example, access to the abdominal cavity, or a  joint capsule, is achieved by an ordinary incision using a scalpel blade. The laparoscope or arthroscope is then introduced into the cavity through the incision i.e. the endoscope is not the access device.
+USING DEVICE: When an incision RG is included in the concept model then the correct attribute for the device is USING DEVICE. For example, access to the abdominal cavity, or a joint capsule, is achieved by an ordinary incision using a scalpel blade. The laparoscope or arthroscope is then introduced into the cavity through the incision i.e. the endoscope is not the access device.
 
 USING ACCESS DEVICE: Many procedures can be carried out using tools attached to or operated via channels within the endoscope. In some cases the device IS used for access (such as endoscopy of the GI tract), e.g. ERCP in particular allows you to both visualize and operate upon the sphincter of Oddi/ampulla of Vater using cutting devices (knives or wires etc.) and then passing a basket up into the CBD to remove stones. The correct attribute for the device is USING ACCESS DEVICE.
 
@@ -100,7 +96,7 @@ Naming individual scopes for procedures involving multiple body sites leads to i
 
 _Laparoscopy_ and _laparoscopic procedure_ are synonymous. These procedures are modeled with at least two role groups:
 
-* Role group:&#x20;
+* Role group:
   * Method = Incision - action (qualifier value)
   * Procedure site - Direct = Anterior abdominal wall structure (body structure)
 * Role group:
@@ -112,9 +108,4 @@ _Laparoscopy_ and _laparoscopic procedure_ are synonymous. These procedures are 
 
 <figure><img src="../../../../../authoring/procedure/images/229114165.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Endoscopy%20and%20endoscopic%20procedures" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Endoscopy%20and%20endoscopic%20procedures" class="button primary">Provide Feedback</a>
