@@ -4,13 +4,17 @@ Almost all imaging procedures can be unambiguously expressed in a number of ways
 
 At a minimum, procedures are ordinarily expressed with the modality and body site. Existing content may have inconsistencies, but new content should following the naming conventions that follow.
 
-The use of _near synonyms_ \_\_ is acceptable for clinical imaging procedures:
+{% hint style="success" %}
+The use of _near synonyms_ is acceptable for clinical imaging procedures:
 
 For example,
 
-* [79516005 | Renal arteriography (procedure)|](http://snomed.info/id/79516005) has the synonym renal angiography
-* [726077005 | Computed tomography arteriography of bronchial artery (procedure)|](http://snomed.info/id/726077005) has the synonym CT _angiography_ of bronchial artery
-* [709552006 | Computed tomography angiography of iliac artery (procedure)|](http://snomed.info/id/709552006) has the synonym CT _angiogram_ of iliac artery
+* 79516005 | Renal arteriography (procedure)| has the synonym renal angiography
+* 726077005 | Computed tomography arteriography of bronchial artery (procedure)| has the synonym CT _angiography_ of bronchial artery
+* 709552006 | Computed tomography angiography of iliac artery (procedure)| has the synonym CT _angiogram_ of iliac artery
+{% endhint %}
+
+
 
 ## Subpages
 
@@ -43,8 +47,6 @@ For example,
 {% content-ref url="fluoroscopy-and-fluoroscopic-imaging.md" %}
 [fluoroscopy-and-fluoroscopic-imaging.md](fluoroscopy-and-fluoroscopic-imaging.md)
 {% endcontent-ref %}
-
-
 {% endcolumn %}
 
 {% column %}
@@ -71,15 +73,7 @@ For example,
 {% content-ref url="radiographic-imaging-x-ray-and-plain-x-ray.md" %}
 [radiographic-imaging-x-ray-and-plain-x-ray.md](radiographic-imaging-x-ray-and-plain-x-ray.md)
 {% endcontent-ref %}
-
-
 {% endcolumn %}
 {% endcolumns %}
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Imaging%20Procedure%20Naming%20Conventions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Clinical%20Imaging%20Procedure%20Naming%20Conventions" class="button primary">Provide Feedback</a>
