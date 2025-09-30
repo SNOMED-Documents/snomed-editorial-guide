@@ -9,9 +9,8 @@ When creating a lateralized procedure concept, two concepts should be created:
 
 When creating a lateralized procedure concept, if a non-lateralized parent does not exist, then it should be created as well. In other words, do not just create the right and left versions, but also create a concept to represent the laterality-agnostic parent.
 
-For example,
-
-When creating \_Excision of left mastoid _and Excision of right mastoid , also ensure a concept for \_ Excision of mastoid_ exists.
+* For example,
+  * When creating \_Excision of left mastoid _and Excision of right mastoid , also ensure a concept for Excision of mastoid_ exists.
 
 The acceptable naming pattern for procedures with lateralizable body parts:
 
@@ -21,23 +20,17 @@ The acceptable naming pattern for procedures with lateralizable body parts:
 
 Bilateral procedures should be modeled using two relationship groups, one for each lateralized body structure.
 
-For example,
+* For example,
+  *   895470004 | Amputation of bilateral upper limbs (procedure)|
 
-*   [895470004 | Amputation of bilateral upper limbs (procedure)|](http://snomed.info/id/895470004)
+      * FSN: Amputation of bilateral upper limbs (procedure)
+      * PT: Amputation of bilateral upper limbs
+      * SYN: Amputation of both upper limbs
 
-    * FSN: Amputation of bilateral upper limbs (procedure)
-    * PT: Amputation of bilateral upper limbs
-    * SYN: Amputation of both upper limbs
+      <figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
-
-
-
+{% hint style="info" %}
 Other synonyms may be added if requested, e.g. _L_ _eft and right_ _X_ ; _Bilateral X,_ etc.
+{% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Lateralized%20Procedure%20Naming%20Conventions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Lateralized%20Procedure%20Naming%20Conventions" class="button primary">Provide Feedback</a>
