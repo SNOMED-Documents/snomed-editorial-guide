@@ -2,10 +2,14 @@
 
 The following defining attributes correspond to the _Procedure Attributes Summary_ table from the HRCM.
 
-**The following attributes are self-grouped, meaning they are not grouped with any other attributes:**
+{% hint style="info" %}
+**Self-grouped Attributes**
 
-* **Priority**
-* **Has focus**
+The following attributes are self-grouped, meaning they are not grouped with any other attributes:
+
+* Priority
+* Has focus
+{% endhint %}
 
 ## Access
 
@@ -13,7 +17,7 @@ Access (attribute) describes the route used to access the site of a procedure. I
 
 For example,
 
-* [174572001 | Open removal of bile duct stent (procedure)|](http://snomed.info/id/174572001) has Access of Open approach - access (qualifier value)
+* 174572001 | Open removal of bile duct stent (procedure)| has Access of Open approach - access (qualifier value)
 
 ## Direct device
 
@@ -21,9 +25,11 @@ Direct device (attribute) represents the device on which the method directly act
 
 For example,
 
-* [431698006 | Adjustment of gastric banding using fluoroscopic guidance (procedure)|](http://snomed.info/id/431698006) has Direct device of Surgical band (physical object)
+* 431698006 | Adjustment of gastric banding using fluoroscopic guidance (procedure)| has Direct device of Surgical band (physical object)
 
+{% hint style="success" %}
 _Subtypes of Surgical repair (procedure) that include a prosthetic device should be modeled using the DIRECT DEVICE attribute when the value is <<53350007 |Prosthesis, device (physical object)|_
+{% endhint %}
 
 ## Direct morphology
 
@@ -31,7 +37,7 @@ Direct morphology (attribute) describes the morphologically abnormal structure t
 
 For example,
 
-* [31512000 | Shaving of benign lesion with chemical cauterization (procedure)|](http://snomed.info/id/31512000) has the Direct morphology of Lesion (morphologic abnormality)
+* 31512000 | Shaving of benign lesion with chemical cauterization (procedure)| has the Direct morphology of Lesion (morphologic abnormality)
 
 ## Direct substance
 
@@ -55,7 +61,7 @@ Has focus (attribute) specifies the Clinical finding or Procedure which is the f
 
 For example,
 
-* [385941006 | Wound care assessment (procedure)|](http://snomed.info/id/385941006) Has focus of Wound care (regime/therapy)
+* 385941006 | Wound care assessment (procedure)| Has focus of Wound care (regime/therapy)
 
 ## Has intent
 
@@ -65,8 +71,8 @@ The Has intent attribute should be grouped with other attributes that represent 
 
 For example,
 
-* [108249004 | Audiologic AND/OR audiometric test including vestibular function (procedure)|](http://snomed.info/id/108249004) is inherently diagnostic, so it would not be modeled with a Has intent (attribute) of Diagnostic intent (qualifier value).
-* [274432006 | Therapeutic aspiration of ovary (procedure)|](http://snomed.info/id/274432006) and [274389009 | Diagnostic aspiration of ovary (procedure)|](http://snomed.info/id/274389009) are both modeled with the Has intent (attribute), as the aspiration of ovary procedure can be either therapeutic or diagnostic.
+* 108249004 | Audiologic AND/OR audiometric test including vestibular function (procedure)| is inherently diagnostic, so it would not be modeled with a Has intent (attribute) of Diagnostic intent (qualifier value).
+* 274432006 | Therapeutic aspiration of ovary (procedure)| and 274389009 | Diagnostic aspiration of ovary (procedure)| are both modeled with the Has intent (attribute), as the aspiration of ovary procedure can be either therapeutic or diagnostic.
 
 ## Indirect device
 
@@ -74,9 +80,8 @@ Indirect device (attribute) represents action on something that is located in or
 
 For example,
 
-* [232762008 | Excision of vegetations from implanted mitral valve (procedure)|](http://snomed.info/id/232762008) has Indirect device of Mitral valve prosthesis device (physical object).
-
-In this example, the vegetation is being excised. The mitral valve prosthesis device is where the vegetation is located, but the mitral valve prosthesis, itself, is not excised. Thus, the mitral valve prosthesis device is the Indirect device.
+* 232762008 | Excision of vegetations from implanted mitral valve (procedure)| has Indirect device of Mitral valve prosthesis device (physical object).
+  * In this example, the vegetation is being excised. The mitral valve prosthesis device is where the vegetation is located, but the mitral valve prosthesis, itself, is not excised. Thus, the mitral valve prosthesis device is the Indirect device.
 
 ## Indirect morphology
 
@@ -84,7 +89,7 @@ Indirect morphology (attribute) describes the morphology that is acted upon, but
 
 For example,
 
-* [404205006 | Removal of mesh from wound (procedure)|](http://snomed.info/id/404205006) has Indirect morphology of Wound (morphologic abnormality)
+* 404205006 | Removal of mesh from wound (procedure)| has Indirect morphology of Wound (morphologic abnormality)
 
 ## Method
 
@@ -92,7 +97,7 @@ Method (attribute) represents the action being performed to accomplish the proce
 
 For example,
 
-* [10255001 | Incision of ureter (procedure)|](http://snomed.info/id/10255001) has Method (attribute) of Incision - action (qualifier value)
+* 10255001 | Incision of ureter (procedure)| has Method (attribute) of Incision - action (qualifier value)
 
 Procedures with a Method (attribute)\_\_ can be described using an action verb that corresponds to the method. The direct object/s of the action verb should be represented using one or more of the four direct-object attributes, depending on whether the direct object on which the method acts is an:
 
@@ -138,14 +143,14 @@ Priority (attribute) is used when a procedure concept specifies a priority. This
 
 For example,
 
-* [708932005 | Emergency hemodialysis (procedure)|](http://snomed.info/id/708932005) has Priority of Emergency (qualifier value)
-  * [177141003 | Elective cesarean section (procedure)|](http://snomed.info/id/177141003) has Priority of Elective (qualifier value)
+* 708932005 | Emergency hemodialysis (procedure)| has Priority of Emergency (qualifier value)
+  * 177141003 | Elective cesarean section (procedure)| has Priority of Elective (qualifier value)
 
-[260870009 | Priority (attribute)|](http://snomed.info/id/260870009) is most often used to differentiate elective and emergency subtypes of a procedure that can be performed on either basis. With the exception of Cardiopulmonary resuscitation (procedure), this attribute is normally used only to define concepts whose FSNs specify a priority, not for modeling procedures that imply an emergency priority, such as |Heimlich maneuver (procedure)| or those that are inherently elective, such as |Augmentation mammoplasty (procedure)|.
+260870009 | Priority (attribute)| is most often used to differentiate elective and emergency subtypes of a procedure that can be performed on either basis. With the exception of Cardiopulmonary resuscitation (procedure), this attribute is normally used only to define concepts whose FSNs specify a priority, not for modeling procedures that imply an emergency priority, such as |Heimlich maneuver (procedure)| or those that are inherently elective, such as |Augmentation mammoplasty (procedure)|.
 
 ## Procedure approach
 
-Procedure approach (attribute) specifies the directional, relational, or spatial access to the site of a procedure. The range for [116688005 | Procedure approach (attribute)|](http://snomed.info/id/116688005) is << [103379005 | Procedural approach (qualifier value)|](http://snomed.info/id/103379005) .
+Procedure approach (attribute) specifies the directional, relational, or spatial access to the site of a procedure. The range for 116688005 | Procedure approach (attribute)| is << 103379005 | Procedural approach (qualifier value)| .
 
 For example,
 
@@ -165,7 +170,7 @@ Procedure device subsumes the more specific attributes, Direct Device, Indirect 
 
 For example,
 
-* [276272002 | Catheter procedure (procedure)|](http://snomed.info/id/276272002) has Procedure device of Catheter, device (physical object)
+* 276272002 | Catheter procedure (procedure)| has Procedure device of Catheter, device (physical object)
 
 {% hint style="warning" %}
 **Procedure device**
@@ -190,14 +195,14 @@ Hematoma, calculus, foreign body, blood clot, embolus, and some other morphologi
 Procedure site (attribute) describes the body site acted on or affected by a procedure. The Procedure site (attribute) is
 
 * used to model the site for high-level grouping-type procedure concepts
-* most often used for concepts that do not require a [260686004 | Method (attribute)|](http://snomed.info/id/260686004) and [129264002 | Action (qualifier value)|](http://snomed.info/id/129264002) pair
+* most often used for concepts that do not require a 260686004 | Method (attribute)| and 129264002 | Action (qualifier value)| pair
 * not required in order for the classifier to work properly
 
-[363704007 | Procedure site (attribute)|](http://snomed.info/id/363704007) subsumes the more specific attributes, [405813007 | Procedure site - Direct (attribute)|](http://snomed.info/id/405813007) , which is the site _directly_ acted upon, and [405814001 | Procedure site - Indirect (attribute)|](http://snomed.info/id/405814001) , which is the site _indirectly_ acted upon. The more specific attributes should be used if possible (see separate entries for _Procedure site - Direct_ and _Procedure site - Indirect_).
+363704007 | Procedure site (attribute)| subsumes the more specific attributes, 405813007 | Procedure site - Direct (attribute)| , which is the site _directly_ acted upon, and 405814001 | Procedure site - Indirect (attribute)| , which is the site _indirectly_ acted upon. The more specific attributes should be used if possible (see separate entries for _Procedure site - Direct_ and _Procedure site - Indirect_).
 
 For example,
 
-* [118839001 | Procedure on colon (procedure)|](http://snomed.info/id/118839001) has Procedure site of Colon structure (body structure)
+* 118839001 | Procedure on colon (procedure)| has Procedure site of Colon structure (body structure)
 
 When modeling procedures where the Method is _Removal - action_ (qualifier value) or one of its subtypes, e.g. Excision, Surgical biopsy, etc., for removal of:
 
@@ -215,18 +220,18 @@ Structure of rather than Entire should be used as the value for procedure site a
 
 For example,
 
-* [23968004 | Excision of colon (procedure)|](http://snomed.info/id/23968004) has [405813007 | Procedure site - Direct (attribute)|](http://snomed.info/id/405813007) of [71854001 | Colon structure (body structure)|](http://snomed.info/id/71854001)
-* [26390003 | Total colectomy (procedure)|](http://snomed.info/id/26390003) has [405813007 | Procedure site - Direct (attribute)|](http://snomed.info/id/405813007) of [302508007 | Entire colon (body structure)|](http://snomed.info/id/302508007)
+* 23968004 | Excision of colon (procedure)| has 405813007 | Procedure site - Direct (attribute)| of 71854001 | Colon structure (body structure)|
+* 26390003 | Total colectomy (procedure)| has 405813007 | Procedure site - Direct (attribute)| of 302508007 | Entire colon (body structure)|
 
 ## Procedure site - direct
 
-Procedure site - Direct (attribute) is used when the action of the procedure is directly aimed at anatomical or acquired body structure or site, rather than something else located there (e.g. a device), i.e. when the [260686004 | Method (attribute)|](http://snomed.info/id/260686004) is [129303008 | Removal - action (qualifier value)|](http://snomed.info/id/129303008) or one of its subtypes (Excision, Surgical biopsy, or etc.).
+Procedure site - Direct (attribute) is used when the action of the procedure is directly aimed at anatomical or acquired body structure or site, rather than something else located there (e.g. a device), i.e. when the 260686004 | Method (attribute)| is 129303008 | Removal - action (qualifier value)| or one of its subtypes (Excision, Surgical biopsy, or etc.).
 
 For example,
 
-* [54321008 | Cardiac flow imaging (procedure)|](http://snomed.info/id/54321008) has [405813007 | Procedure site - Direct (attribute)|](http://snomed.info/id/405813007) of Coronary artery structure (body structure)
+* 54321008 | Cardiac flow imaging (procedure)| has 405813007 | Procedure site - Direct (attribute)| of Coronary artery structure (body structure)
 
-Tissue lesions (cysts, neoplasms, abscesses, wounds, warts, aneurysms, herniations, oral clefts, etc.) are considered part of the procedure site and should also use [405813007 | Procedure site - Direct (attribute)|](http://snomed.info/id/405813007) .
+Tissue lesions (cysts, neoplasms, abscesses, wounds, warts, aneurysms, herniations, oral clefts, etc.) are considered part of the procedure site and should also use 405813007 | Procedure site - Direct (attribute)| .
 
 For example,
 
@@ -236,24 +241,20 @@ For example,
 
 ## Procedure site - indirect
 
-Procedure site - Indirect (attribute) specifies the anatomical location but is not the direct focus of the procedure. The direct object of the action may be a device, a substance, or a morphologic abnormality that is not a part of the tissue structure of the anatomical site in which it is located, such as a calculus, thrombus, or foreign body. Thus, [405814001 | Procedure site - Indirect (attribute)|](http://snomed.info/id/405814001) is typically found in a relationship group with a second, "direct" attribute-value relationship, such as a Direct morphology, Direct substance, or Direct device.
+Procedure site - Indirect (attribute) specifies the anatomical location but is not the direct focus of the procedure. The direct object of the action may be a device, a substance, or a morphologic abnormality that is not a part of the tissue structure of the anatomical site in which it is located, such as a calculus, thrombus, or foreign body. Thus, 405814001 | Procedure site - Indirect (attribute)| is typically found in a relationship group with a second, "direct" attribute-value relationship, such as a Direct morphology, Direct substance, or Direct device.
 
 For example,
 
-*   [405433000 | Removal of catheter from brachial vein (procedure)|](http://snomed.info/id/405433000) has:&#x20;
+*   405433000 | Removal of catheter from brachial vein (procedure)| has:
 
-    * Method of Removal - action (qualifier value)&#x20;
-    * Procedure site - Indirect of Structure of brachial vein (body structure)&#x20;
+    * Method of Removal - action (qualifier value)
+    * Procedure site - Indirect of Structure of brachial vein (body structure)
     * Direct device of Venous catheter (physical object)
 
-
-
     <figure><img src="../../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
-
-
-* [371005009 | Removal of calculus of urinary bladder (procedure)|](http://snomed.info/id/371005009) has:
-  * Direct morphology of Calculus (morphologic abnormality)&#x20;
-  * Method of Removal - action (qualifier value)&#x20;
+* 371005009 | Removal of calculus of urinary bladder (procedure)| has:
+  * Direct morphology of Calculus (morphologic abnormality)
+  * Method of Removal - action (qualifier value)
   * Procedure site - Indirect of Urinary bladder structure (body structure)
 
 <figure><img src="../../../../../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
@@ -264,7 +265,7 @@ Recipient category (attribute) specifies the type of individual or group upon wh
 
 For example,
 
-* [105455006 | Donor for medical or surgical procedure (person)|](http://snomed.info/id/105455006) has Recipient Category (attribute) of Donor if the subject of the record is the Blood product donor (person).
+* 105455006 | Donor for medical or surgical procedure (person)| has Recipient Category (attribute) of Donor if the subject of the record is the Blood product donor (person).
 
 This can be used in blood banking procedures to differentiate the donor vs the recipient of blood products.
 
@@ -280,7 +281,7 @@ Revision status (attribute) refers to another procedure performed on the same si
 
 For example,
 
-* [128323000 | Revision of implant (procedure)|](http://snomed.info/id/128323000) has a Revision status (attribute) of Revision - value (qualifier value)
+* 128323000 | Revision of implant (procedure)| has a Revision status (attribute) of Revision - value (qualifier value)
 
 ## Route of administration
 
@@ -288,7 +289,7 @@ _Route of administration_ represents the route by which a procedure introduces a
 
 For example,
 
-* [410572008 | Injection of steroid via intravitreal route (procedure)|](http://snomed.info/id/410572008) has the [| Route of administration (attribute)|](http://snomed.org/-fictid) of Intravitreal route (qualifier value)
+* 410572008 | Injection of steroid via intravitreal route (procedure)| has the | Route of administration (attribute)| of Intravitreal route (qualifier value)
 
 <figure><img src="../../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
 
@@ -307,7 +308,7 @@ Using access device (attribute) specifies the instrument or equipment used to ac
 
 For example,
 
-* [274323008 | Endoscopic biopsy of colon (procedure)|](http://snomed.info/id/274323008) has a Using access device (attribute) of Colonoscope, device (physical object)
+* 274323008 | Endoscopic biopsy of colon (procedure)| has a Using access device (attribute) of Colonoscope, device (physical object)
 
 ### Endoscopes
 
@@ -319,7 +320,7 @@ Using device (attribute) refers to the instrument or equipment utilized to execu
 
 For example,
 
-* [51064005 | Core needle biopsy of larynx (procedure)|](http://snomed.info/id/51064005) has a Using device (attribute) of Core biopsy needle, device (physical object)
+* 51064005 | Core needle biopsy of larynx (procedure)| has a Using device (attribute) of Core biopsy needle, device (physical object)
 
 ### Endoscopes
 
@@ -331,7 +332,7 @@ Using energy (attribute) refers to the energy used to execute an action.
 
 For example,
 
-* [65952009 | Gamma ray therapy (procedure)|](http://snomed.info/id/65952009) has Using energy of Gamma radiation (physical force)
+* 65952009 | Gamma ray therapy (procedure)| has Using energy of Gamma radiation (physical force)
 
 ## Using substance
 
@@ -339,11 +340,6 @@ Using substance (attribute) describes the Substance used to execute the action o
 
 For example,
 
-* [285754008 | Contrast radiography of esophagus (procedure)|](http://snomed.info/id/285754008) has Using substance of Contrast media (substance)
+* 285754008 | Contrast radiography of esophagus (procedure)| has Using substance of Contrast media (substance)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Procedure%20Attributes" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Procedure%20Attributes" class="button primary">Provide Feedback</a>
