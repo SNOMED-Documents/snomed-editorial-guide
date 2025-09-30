@@ -65,8 +65,7 @@ Procedure descriptions should follow the naming guidelines for the body structur
 For example,
 
 * 179987000 | Replantation of upper limb (procedure)|
-
-The description of _upper limb_ is used in the FSN while the synonyms refer to _arm_ and _upper extremity_.
+  * The description of _upper limb_ is used in the FSN while the synonyms refer to _arm_ and _upper extremity_.
 
 ## Device
 
