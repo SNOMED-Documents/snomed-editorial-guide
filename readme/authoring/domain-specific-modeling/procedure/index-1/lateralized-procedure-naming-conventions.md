@@ -10,7 +10,7 @@ When creating a lateralized procedure concept, two concepts should be created:
 When creating a lateralized procedure concept, if a non-lateralized parent does not exist, then it should be created as well. In other words, do not just create the right and left versions, but also create a concept to represent the laterality-agnostic parent.
 
 * For example,
-  * When creating \_Excision of left mastoid _and Excision of right mastoid , also ensure a concept for Excision of mastoid_ exists.
+  * When creating Excision of left mastoid _and Excision of right mastoid , also ensure a concept for Excision of mastoid_ exists.
 
 The acceptable naming pattern for procedures with lateralizable body parts:
 
