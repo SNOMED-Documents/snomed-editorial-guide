@@ -1,6 +1,6 @@
 # Special Concept
 
-<table><thead><tr><th width="216.912353515625">Definition</th><th width="579.2318115234375">Examples</th></tr></thead><tbody><tr><td><ul><li>Inactive concept </li></ul><ul><li>Navigational concept</li></ul></td><td><ul><li>363664003 | Erroneous concept (inactive concept) | </li><li>394899003 | Oral administration of treatment (navigational concept) |</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="191.39154052734375">Definition</th><th width="579.2318115234375">Examples</th></tr></thead><tbody><tr><td><ul><li>Inactive concept</li></ul><ul><li>Navigational concept</li></ul></td><td><ul><li>363664003 | Erroneous concept (inactive concept) |</li><li>394899003 | Oral administration of treatment (navigational concept) |</li></ul></td></tr></tbody></table>
 
 ## Inactive concepts
 
@@ -23,9 +23,4 @@ Navigational concepts:
 
 For more information on navigational concepts, [click here](../general-modeling/grouper-concept.md).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Special%20Concept" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Special%20Concept" class="button primary">Provide Feedback</a>
