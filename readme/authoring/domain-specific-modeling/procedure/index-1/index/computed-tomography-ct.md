@@ -1,6 +1,13 @@
 # Computed Tomography - CT
 
+{% hint style="info" %}
+**Exception for abbreviation**
+
 CT is an exception to the rule that all abbreviations should have their expanded form in parentheses in descriptions.
+{% endhint %}
+
+{% hint style="danger" %}
+**Axial & Scan**
 
 _Legacy issues: Existing computerized tomography concepts will be renamed consistently when the Quality Initiative undertakes improvement of the procedure hierarchy._
 
@@ -15,21 +22,24 @@ Computed tomography descriptions do not routinely include computed tomography _s
 The word _scan_ is not systematically added in new descriptions and should not be included in preferred terms. However, specific requests to add descriptions with the word _scan_ are not denied.
 
 _Computerized axial tomography scan_ _of X_ is considered obsolete and should not be added as a new description.
+{% endhint %}
 
 ## Computed tomography
 
 * FSN: Computed tomography of X (procedure)
 * PT: CT of X
 * SYN: Computed tomography of X
+* For example,
+  * 241566009 | Computed tomography of elbow (procedure)|
+    * FSN: Computed tomography of elbow (procedure)
+    * PT: CT of elbow
+    * SYN: Computed tomography of elbow
 
-For example,
-
-* [241566009 | Computed tomography of elbow (procedure)|](http://snomed.info/id/241566009)&#x20;
-  * FSN: Computed tomography of elbow (procedure)&#x20;
-  * PT: CT of elbow&#x20;
-  * SYN: Computed tomography of elbow
+{% hint style="info" %}
+**With Contrast**
 
 CT angiography uses contrast in all cases of the procedure; this must be stipulated in the descriptions.
+{% endhint %}
 
 ## Computed tomography angiography with contrast
 
@@ -38,13 +48,11 @@ This naming pattern is used when an anatomical location is specified, but the bl
 * FSN: Computed tomography angiography of X with contrast (procedure)
 * PT: CT angiography of X with contrast
 * SYN: Computed tomography angiography of X with contrast
-
-For example,
-
-* 582101000119108 |Computed tomography angiography of head with contrast (procedure)|&#x20;
-  * FSN: Computed tomography angiography of head with contrast (procedure)
-  * PT: CT angiography of head with contrast \*&#x20;
-  * SYN: Computed tomography angiography of head with contrast
+  * For example,
+    * 582101000119108 |Computed tomography angiography of head with contrast (procedure)|
+      * FSN: Computed tomography angiography of head with contrast (procedure)
+      * PT: CT angiography of head with contrast
+      * SYN: Computed tomography angiography of head with contrast
 
 ## Computed tomography arteriography with contrast
 
@@ -53,14 +61,12 @@ For example,
 * SYN: CT arteriography of \[body structure] with contrast
 * SYN: Computed tomography arteriography of \[body structure] with contrast
 * SYN: CT arteriogram of \[body structure] with contrast
-
-For example,
-
-* 726077005 Computed tomography angiography of bronchial artery with contrast (procedure)
-  * FSN: Computed tomography angiography of bronchial artery with contrast (procedure)
-  * PT: CT angiography of bronchial artery with contrast
-  * SYN: CT arteriography of bronchial artery with contrast
-  * SYN: Computed tomography arteriography of bronchial artery with contrast
+  * For example,
+    * 726077005 Computed tomography angiography of bronchial artery with contrast (procedure)
+      * FSN: Computed tomography angiography of bronchial artery with contrast (procedure)
+      * PT: CT angiography of bronchial artery with contrast
+      * SYN: CT arteriography of bronchial artery with contrast
+      * SYN: Computed tomography arteriography of bronchial artery with contrast
 
 ## Computed tomography venography with contrast
 
@@ -68,12 +74,17 @@ For example,
 * PT: CT venography of X with contrast
 * SYN: CT venogram of X with contrast
 * SYN: Computed tomography venography of X with contrast
+  * For example,
+    * 432842007 |Computed tomography venography of intracranial vein with contrast (procedure)|&#x20;
+      * FSN: Computed tomography venography of intracranial vein with contrast (procedure)
+      * PT: CT venography of intracranial vein with contrast
+      * SYN: Computed tomography venography of intracranial vein with contrast
 
-For example,
-
-* 432842007 |Computed tomography venography of intracranial vein with contrast (procedure)| \* FSN: Computed tomography venography of intracranial vein with contrast (procedure) \* PT: CT venography of intracranial vein with contrast \* SYN: Computed tomography venography of intracranial vein with contrast
+{% hint style="warning" %}
+**Venography**
 
 _Venography_ may simply be a timing phase of _angiography_. It is agreed that venography may be a useful term in an FSN, i.e. there may be a meaningful technique difference between _simple angiography_ and _purposeful venography_.
+{% endhint %}
 
 ## Computed tomography arthrography
 
@@ -81,17 +92,10 @@ _Venography_ may simply be a timing phase of _angiography_. It is agreed that ve
 * PT: CT arthrography of X
 * SYN: CT arthrogram of X
 * SYN: Computed tomography arthrography of X
+  * For example,
+    * 418940000 | Computed tomography arthrography of intratarsal joint (procedure)|
+      * FSN: Computed tomography arthrography of intratarsal joint (procedure)
+      * PT: CT arthrogram of intratarsal joint
+      * SYN: CT arthrography of intratarsal joint
 
-For example,
-
-* [418940000 | Computed tomography arthrography of intratarsal joint (procedure)|](http://snomed.info/id/418940000)&#x20;
-  * FSN: Computed tomography arthrography of intratarsal joint (procedure)
-  * PT: CT arthrogram of intratarsal joint&#x20;
-  * SYN: CT arthrography of intratarsal joint
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Computed%20Tomography%20-%20CT" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Computed%20Tomography%20-%20CT" class="button primary">Provide Feedback</a>
