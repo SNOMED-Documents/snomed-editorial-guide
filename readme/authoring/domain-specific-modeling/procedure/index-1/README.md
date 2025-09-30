@@ -112,7 +112,7 @@ Unacceptable example,
 
 Complexity can mean either the amount of effort required, or it can be based on realm-specific definitions (e.g. simple arthrodesis, simple repair, complex repair, etc.). Procedure concepts with modifiers representing complexity are not allowed in the International Release.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Exception**
 
 Procedures that use the terms _simple_ or _complex_ are allowed if defined with reproducible meanings, based on what is done to or for the patient, rather than how much effort is expended.
