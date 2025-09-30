@@ -38,7 +38,7 @@ The terms _radiologic_ and _radiologic guidance_ are no longer permitted for any
 
 Following review and member consultation, existing content with descriptions of this type have been reviewed and inactivated or updated to align with editorial guidance.
 
-363680008 | Radiographic imaging procedure (procedure)| is at the top-level of the hierarchy of imaging procedures utilizing X-rays. This concept has been retained along with a small number of high usage subtypes that are modeled with method 278110001 | Radiographic imaging - action (qualifier value) |.
+363680008 | Radiographic imaging procedure (procedure)| is at the top-level of the hierarchy of imaging procedures utilizing X-rays. This concept has been retained along with a small number of high usage subtypes that are modeled with method 278110001 | Radiographic imaging - action (qualifier value).
 
 ## Dual energy X-ray absorptiometry
 
