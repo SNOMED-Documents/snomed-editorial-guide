@@ -68,9 +68,9 @@ The term _fluoroscopic Y_ is interpreted as _Y using fluoroscopic guidance (proc
 * PT: Plain X-ray guided Y
 * SYN: Y using plain X-ray guidance
   * For example,
-  * 718674009 | Injection of steroid using X-ray guidance (procedure)|
-    * FSN: Injection of steroid using plain X-ray guidance (procedure)
-    * PT: Plain X-ray guided steroid injection
-    * SYN: Injection of steroid using plain X-ray guidance
+    * 718674009 | Injection of steroid using X-ray guidance (procedure)|
+      * FSN: Injection of steroid using plain X-ray guidance (procedure)
+      * PT: Plain X-ray guided steroid injection
+      * SYN: Injection of steroid using plain X-ray guidance
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Imaging%20Guided%20Procedure%20Naming" class="button primary">Provide Feedback</a>
