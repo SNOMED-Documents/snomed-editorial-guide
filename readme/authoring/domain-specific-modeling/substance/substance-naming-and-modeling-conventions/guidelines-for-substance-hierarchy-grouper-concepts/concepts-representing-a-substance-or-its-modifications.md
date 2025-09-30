@@ -13,7 +13,7 @@ The substance redesign project has made a number of decisions regarding the repr
 
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="223.09765625">Semantic tag</th><th>(substance)</th></tr></thead><tbody><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Is modification of</strong></p></td><td>Range: &#x3C; 105590001 |Substance (substance)|</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="223.09765625">Semantic tag</th><th>(substance)</th></tr></thead><tbody><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Is modification of</strong></p></td><td>Range: &#x3C; 105590001 |Substance (substance)|</td></tr></tbody></table>
 
 ## Exemplar
 
@@ -25,7 +25,7 @@ The following illustrates the **inferred** view for 125691000 |Sotalol hydrochlo
 
 <figure><img src="../../../../../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
-## Guidelines for the use of 738774007 | Is modification of (attribute)|
+### Guidelines for the use of 738774007 | Is modification of (attribute)|
 
 Substances may have zero to many |Is modification of attribute|(s).
 
@@ -43,7 +43,7 @@ Substances may have zero to many |Is modification of attribute|(s).
 Hydrates have an 738774007 | Is modification of (attribute)| relationship to the unspecified salt.
 
 * For example,
-  * Caffeine hydrate (substance) IS MODIFICATION OF Caffeine (substance).&#x20;
+  * Caffeine hydrate (substance) IS MODIFICATION OF Caffeine (substance).
 
 This is the **stated** view:
 
@@ -53,11 +53,11 @@ This is the **inferred** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
-For example,&#x20;
+For example,
 
-* Clindamycin hydrochloride monohydrate (substance) IS MODIFICATION OF Clindamycin hydrochloride (substance). &#x20;
+* Clindamycin hydrochloride monohydrate (substance) IS MODIFICATION OF Clindamycin hydrochloride (substance).
 
-&#x20;       This is the **stated** view:
+This is the **stated** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
@@ -109,7 +109,7 @@ For example,
 
 Pegylated substances are modeled with |s modification of (attribute)| generic substance, if such a substance has been made available. Not all pegylated medicinal substances have a non-pegylated form, as the non-pegylated form may have been too immunogenic or too toxic.
 
-For example,&#x20;
+For example,
 
 * 785674001 |Turoctocog alfa pegol (substance)|
 
@@ -119,7 +119,7 @@ For example,&#x20;
 
 Concepts specifying a particular physical form (e.g., micronized, macrocrystal, microsphere) should have a parent concept that relates to the structure of the substance and also an |Is modification of (attribute)| relationship to the unspecified substance concept.
 
-For example,&#x20;
+For example,
 
 * 414246008 |Fenofibrate micronized (substance)|
 
@@ -148,9 +148,4 @@ For exemplar,
 * Between a chemical element and its salt.
   * For example, 387307005 |Calcium carbonate (substance)| is not a modification of |Calcium (substance)|.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Concepts%20Representing%20a%20Substance%20or%20its%20Modifications" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Concepts%20Representing%20a%20Substance%20or%20its%20Modifications" class="button primary">Provide Feedback</a>
