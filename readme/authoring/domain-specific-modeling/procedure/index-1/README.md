@@ -44,7 +44,7 @@ For example,
 {% hint style="info" %}
 **Please see potential naming patterns:**
 
-* Completed or in review:  [Pre-coordination Naming Patterns](https://snomed.co/PrecoordNamingPattern)
+* Completed or in review:  [Pre-coordination Naming Patterns](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180)
 * Proposed for future review:  [Unreviewed Patterns by Hierarchy](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836)
 {% endhint %}
 
