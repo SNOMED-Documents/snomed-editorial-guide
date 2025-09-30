@@ -1,21 +1,15 @@
 # Encounter
 
-An  _encounter_ is defined as an in-person meeting between a patient and a healthcare provider for the purpose of the provision of healthcare services to the patient. 308335008 |Patient encounter procedure (procedure)| is a subtype of Procedure (procedure).
+An _encounter_ is defined as an in-person meeting between a patient and a healthcare provider for the purpose of the provision of healthcare services to the patient. 308335008 |Patient encounter procedure (procedure)| is a subtype of Procedure (procedure).
 
 For example,
 
-* [185349003 |Encounter for check up (procedure)|](http://snomed.info/id/185349003)
+* 185349003 |Encounter for check up (procedure)|
 
-An  _indirect encounter_ occurs without a face-to-face meeting. 185316007 |Indirect encounter (procedure)| is a subtype of 308335008 |Patient encounter procedure (procedure)|.
+An _indirect encounter_ occurs without a face-to-face meeting. 185316007 |Indirect encounter (procedure)| is a subtype of 308335008 |Patient encounter procedure (procedure)|.
 
 For example,
 
-* [ 386473003 | Telephone follow-up (procedure)|](http://snomed.info/id/386473003 "386473003 | Telephone follow-up \(procedure\) |")
+* 386473003 | Telephone follow-up (procedure)|
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Encounter" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Encounter" class="button primary">Provide Feedback</a>
