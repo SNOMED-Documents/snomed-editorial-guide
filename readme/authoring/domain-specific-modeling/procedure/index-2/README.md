@@ -12,7 +12,7 @@ The potential for an endless number of combined procedures that may be performed
 
 The observable entity and evaluation procedure hierarchies have some of the same attributes. There is not and should not be a one-to-one correspondence between the two hierarchies.
 
-Concepts will not be duplicated between the observable entity hierarchy and procedure hierarchy, and requests for such will not be added. While some users have indicated they want to use a procedure concept for ordering a test and an observable concept for reporting the result, this is not an acceptable use case. Please see [Observable Entity vs. Evaluation Procedure](./#observable-entity-vs.-evaluation-procedure) for more information.
+Concepts will not be duplicated between the observable entity hierarchy and procedure hierarchy, and requests for such will not be added. While some users have indicated they want to use a procedure concept for ordering a test and an observable concept for reporting the result, this is not an acceptable use case. Please see [Observable Entity vs. Evaluation Procedure](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity#observable-entity-vs.-evaluation-procedure) for more information.
 
 The evaluation procedure hierarchy is currently classified under _Procedure by method_ , with many immediate children as follows:
 
