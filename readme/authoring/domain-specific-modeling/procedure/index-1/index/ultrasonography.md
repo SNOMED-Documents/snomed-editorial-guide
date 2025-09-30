@@ -33,7 +33,7 @@ An obstetric ultrasound may require a complex description. However, the same rul
 * SYN: Obstetric ultrasound scan of X
 * SYN: Obstetric ultrasound of X
   * For example,
-    * [169670003 | Antenatal ultrasound scan at 17-22 weeks (procedure)|](http://snomed.info/id/169670003)
+    * 169670003 | Antenatal ultrasound scan at 17-22 weeks (procedure)|
       * FSN: Antenatal ultrasound scan at 17-22 weeks (procedure)
       * PT: Antenatal ultrasound scan at 17-22 weeks
 
