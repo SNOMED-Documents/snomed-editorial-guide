@@ -12,7 +12,7 @@ The potential for an endless number of combined procedures that may be performed
 
 The observable entity and evaluation procedure hierarchies have some of the same attributes. There is not and should not be a one-to-one correspondence between the two hierarchies.
 
-Concepts will not be duplicated between the observable entity hierarchy and procedure hierarchy, and requests for such will not be added. While some users have indicated they want to use a procedure concept for ordering a test and an observable concept for reporting the result, this is not an acceptable use case. Please see [Observable Entity vs Evaluation Procedure](../../../../../authoring/domain-specific-modeling/observable-entity/observable-entity.md) for more information.
+Concepts will not be duplicated between the observable entity hierarchy and procedure hierarchy, and requests for such will not be added. While some users have indicated they want to use a procedure concept for ordering a test and an observable concept for reporting the result, this is not an acceptable use case. Please see [Observable Entity vs. Evaluation Procedure](https://conf.spaces.snomed.org/wiki/spaces/EDUEG/pages/134024081/Observable+Entity#Observable-Entity-vs.-Evaluation-Procedure) for more information.
 
 The evaluation procedure hierarchy is currently classified under _Procedure by method_ , with many immediate children as follows:
 
@@ -22,23 +22,24 @@ The evaluation procedure hierarchy is currently classified under _Procedure by m
     * Measurement procedure (procedure)
     * Physical examination assessment (procedure)
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (4) (1).png" alt=""><figcaption><p>Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value)</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../authoring/images/174691284.png" alt=""><figcaption></figcaption></figure>
 
-Subtypes of Evaluation-action (qualifier value) include:
+Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value)
 
-* Examination - action (qualifier value)
-* Imaging - action (qualifier value)
-* Measurement - action (qualifier value)
-* Monitoring - action (qualifier value)
-* Spectroscopy - action (qualifier value)
+* Subtypes of Evaluation-action (qualifier value) include:
+  * Examination - action (qualifier value)
+  * Imaging - action (qualifier value)
+  * Measurement - action (qualifier value)
+  * Monitoring - action (qualifier value)
+  * Spectroscopy - action (qualifier value)
 
 ## Out of scope of procedures <a href="#out-of-scope-of-procedures" id="out-of-scope-of-procedures"></a>
 
-SNOMED International is no longer accepting new concepts to the 122869004 |Measurement procedure (procedure)| hierarchy. New requests for content in this area will be created in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 122869004 |Measurement procedure (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see [Observable Entity](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241191) and [Observable Entity Naming Conventions](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241263) pages for more information.
+SNOMED International is no longer accepting new concepts to the 122869004 |Measurement procedure (procedure)| hierarchy. New requests for content in this area will be created in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 122869004 |Measurement procedure (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see [Observable Entity](https://conf.spaces.snomed.org/wiki/spaces/EDUEG/pages/134024081) and [Observable Entity Naming Conventions](https://conf.spaces.snomed.org/wiki/spaces/EDUEG/pages/134024101) pages for more information.
 
-SNOMED International is no longer accepting new concepts in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy. New requests for concepts which are solely techniques should be created in the 272394005 | Technique (qualifier value)| subhierarchy. New content that is an observation using a technique belongs in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see the [Technique](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133247202) and the [Observable Entity](https://conf.spaces.snomed.org/wiki/spaces/DOCEG/pages/133241191) pages for more information.
+SNOMED International is no longer accepting new concepts in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy. New requests for concepts which are solely techniques should be created in the 272394005 | Technique (qualifier value)| subhierarchy. New content that is an observation using a technique belongs in the 363787002 |Observable entity (observable entity)| hierarchy. If new content is needed in the 127789004 |Laboratory procedure categorized by method (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see the [Technique](https://conf.spaces.snomed.org/wiki/spaces/EDUEG/pages/134026568) and the [Observable Entity](https://conf.spaces.snomed.org/wiki/spaces/EDUEG/pages/134024081) pages for more information.
 
 ### Procedures by count <a href="#procedures-by-count" id="procedures-by-count"></a>
 
@@ -57,9 +58,9 @@ In general, the reason for ordering a procedure should not be precoordinated wit
 * Unacceptable example,
   * Computed tomography angiography of chest with contrast for evaluation of pulmonary embolus (procedure)
 * Acceptable example including reason for procedure,
-  * [66596009 | Diagnostic radiography for foreign body detection and localization (procedure)|](http://snomed.info/id/66596009)
+  * 66596009 | Diagnostic radiography for foreign body detection and localization (procedure)|
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **Study**
 
 Procedures with the word _study_ are unacceptable. They are ambiguous, as they imply context beyond the execution of the procedure.
