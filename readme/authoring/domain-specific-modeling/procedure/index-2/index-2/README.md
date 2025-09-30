@@ -4,15 +4,18 @@ A _surgical procedure_ is defined as a procedure that involves intentional non-t
 
 SNOMED CT classifies concepts as surgical procedures if their methods are _surgical actions_ based on the action hierarchy. The surgical action hierarchy distinguishes surgical from non-surgical actions based on the definition above. Note the _Or_ in the sentence; actions that do not involve cutting or incision, but do involve the intentional non-transient alteration of anatomy, are still surgical.
 
+{% hint style="warning" %}
+**Operation**
+
 In SNOMED CT, _operation_ is synonymous with surgical procedure.
+{% endhint %}
 
 Surgical procedures are not defined simply as procedures done by a surgeon (despite some dictionary definitions). Surgeons can perform many non-surgical actions and surgical procedures need not necessarily be performed by a surgeon, i.e. if a non-surgeon performs a surgical procedure, it is still a surgical procedure.
 
+{% hint style="warning" %}
+**Medical procedure**
+
 The use of the term _medical procedure_ is deprecated, i.e. not recommended, because it lacks reproducible meaning. It might be defined as _a procedure done by a physician_ , but even that is deprecated, because it is provider-specific.
+{% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Surgical%20procedures" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Surgical%20procedures" class="button primary">Provide Feedback</a>
