@@ -7,7 +7,7 @@ The following defining attributes correspond to the _Specimen Attributes Summary
 Specimen source identity specifies the type of individual, group, or physical location from which a specimen is collected.
 
 * For example,
-  * [419695002 | Environmental swab (specimen)|](http://snomed.info/id/419695002) has the Specimen source identity, Environment (environment)
+  * 419695002 | Environmental swab (specimen)| has the Specimen source identity, Environment (environment)
 
 ## Specimen source morphology
 
