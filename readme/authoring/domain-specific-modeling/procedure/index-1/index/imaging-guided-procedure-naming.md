@@ -36,7 +36,7 @@ There are numerous procedures where the imaging component is considered a supple
 The term _fluoroscopic Y_ is interpreted as _Y using fluoroscopic guidance (procedure)_. Procedures such as 432540009 | Biopsy of wrist using fluoroscopic guidance (procedure)| are subtypes of Fluoroscopy (procedure).
 {% endhint %}
 
-(See also [Fluoroscopy and Fluoroscopic Imaging](../../../../../../authoring/procedure/Fluoroscopy-and-Fluoroscopic-Imaging_174691328.html))
+(See also [Fluoroscopy and Fluoroscopic Imaging](fluoroscopy-and-fluoroscopic-imaging.md))
 
 ## Magnetic resonance imaging guided procedure
 
