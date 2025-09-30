@@ -26,6 +26,4 @@ Surgery that accomplishes a _repair_ (a structural restoration) often uses the s
 The suffix _-plasty_ is widely used in concepts that apply to prosthetic repairs (e.g. total hip arthroplasty). So -_plasty_ may refer to any general repair (prosthetic, plastic, or other) and not just plastic repairs.
 {% endhint %}
 
-\\
-
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Surgical%20repair" class="button primary">Provide Feedback</a>
