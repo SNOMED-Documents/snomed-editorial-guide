@@ -1,6 +1,6 @@
 # Chemotherapy Regime Therapy Naming Conventions
 
-Chemotherapy regimens, which are internationally recognized and implemented, are acceptable content and may be added to the (regime/therapy) hierarchy as subtypes of 716872004 | Antineoplastic chemotherapy regimen (regime/therapy)| .
+Chemotherapy regimens, which are internationally recognized and implemented, are acceptable content and may be added to the (regime/therapy) hierarchy as subtypes of 716872004 | Antineoplastic chemotherapy regimen (regime/therapy)|.
 
 Trade names, which are indicated by an acronym, e.g. ABVD chemotherapy regimen, where _A_ represents trade name Adriamycin®, should not be spelled out but may be referenced in the acronym used to describe the regimen.
 
