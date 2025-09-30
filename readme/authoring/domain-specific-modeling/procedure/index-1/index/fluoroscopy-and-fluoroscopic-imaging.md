@@ -7,13 +7,11 @@ _Simple_ fluoroscopy is _real time_ imaging (usually on TV monitors/image intens
 * FSN: Fluoroscopy of X (procedure)
 * PT: Fluoroscopy of X
 * SYN: Fluoroscopy - X
-
-For example,
-
-* 169005008 | Fluoroscopy of esophagus (procedure)
-  * FSN: Fluoroscopy of esophagus (procedure)
-  * PT: Fluoroscopy of esophagus
-  * SYN: Fluoroscopy - esophagus
+  * For example,
+    * 169005008 | Fluoroscopy of esophagus (procedure)
+      * FSN: Fluoroscopy of esophagus (procedure)
+      * PT: Fluoroscopy of esophagus
+      * SYN: Fluoroscopy - esophagus
 
 ## Fluoroscopic guidance
 
@@ -24,21 +22,18 @@ The following naming pattern can be used for direct observation:
 * FSN: X using fluoroscopic guidance (procedure)
 * PT: Fluoroscopy guided X
 * SYN: X using fluoroscopic guidance
-
-For example,
-
-* 710293001 | Colonoscopy using fluoroscopic guidance (procedure)
-  * FSN: Colonoscopy using fluoroscopic guidance (procedure)
-  * PT: Fluoroscopy guided colonoscopy
-  * SYN: Colonoscopy using fluoroscopic guidance
-
-For example,
-
-* Angioplasty using fluoroscopic guidance with contrast (procedure)
-  * FSN: Angioplasty using fluoroscopic guidance with contrast (procedure)
-  * PT: Fluoroscopy guided angioplasty with contrast
-  * SYN: Angioplasty using fluoroscopic guidance with contrast
-  * SYN: Fluoroscopic angioplasty with contrast
+  * For example,
+    * 710293001 | Colonoscopy using fluoroscopic guidance (procedure)
+      * FSN: Colonoscopy using fluoroscopic guidance (procedure)
+      * PT: Fluoroscopy guided colonoscopy
+      * SYN: Colonoscopy using fluoroscopic guidance
+  * For example,
+    * Angioplasty using fluoroscopic guidance with contrast (procedure)
+      * FSN: Angioplasty using fluoroscopic guidance with contrast (procedure)
+      * PT: Fluoroscopy guided angioplasty with contrast
+      * SYN: Angioplasty using fluoroscopic guidance with contrast
+      *
+      * SYN: Fluoroscopic angioplasty with contrast
 
 Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guided procedure modeling](../../index-2/index-1/imaging-guided-procedure-modeling.md).
 
@@ -46,7 +41,11 @@ Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guide
 
 _Angiography_ and _angiogram_ , as terms on their own, refer to visualization of a blood vessel or vascular structure not specified as an artery or a vein and could refer to either or both. So for clarity, a blood vessel site (X) and the phrase _with_ _contrast_ must be included in the concept description.
 
+{% hint style="info" %}
+**With contrast**
+
 Fluoroscopic angiography always uses contrast. _With contrast_ must be explicitly stated in all descriptions.
+{% endhint %}
 
 ### Fluoroscopic angiography when vessel is not stated
 
@@ -60,42 +59,31 @@ Fluoroscopic angiography always uses contrast. _With contrast_ must be explicitl
 * PT: Fluoroscopic angiography of X artery with contrast
 * SYN: Fluoroscopic arteriography of X with contrast
 * SYN: Fluoroscopic arteriogram of X with contrast
-
-For example,
-
-* FSN: Fluoroscopic angiography of right cervical vertebral artery with contrast (procedure)
-* PT: Fluoroscopic angiography of right cervical vertebral artery with contrast
-* SYN: Fluoroscopic arteriography of right cervical vertebral artery with contrast
-* SYN: Fluoroscopic arteriogram of right cervical vertebral artery with contrast
+  * For example,
+    * FSN: Fluoroscopic angiography of right cervical vertebral artery with contrast (procedure)
+    * PT: Fluoroscopic angiography of right cervical vertebral artery with contrast
+    * SYN: Fluoroscopic arteriography of right cervical vertebral artery with contrast
+    * SYN: Fluoroscopic arteriogram of right cervical vertebral artery with contrast
 
 ### Fluoroscopic venography
 
 * FSN: Fluoroscopic venography of X with contrast (procedure)
 * PT: Fluoroscopic venography of X with contrast
 * SYN: Fluoroscopic venogram of X with contrast
-
-For example,
-
-* FSN: Fluoroscopic venography of right upper limb with contrast (procedure)
-* PT: Fluoroscopic venography of right upper limb with contrast
-* SYN: Fluoroscopic venogram of right upper limb with contrast
+  * For example,
+    * FSN: Fluoroscopic venography of right upper limb with contrast (procedure)
+    * PT: Fluoroscopic venography of right upper limb with contrast
+    * SYN: Fluoroscopic venogram of right upper limb with contrast
 
 ## Fluoroscopic arthrography
 
 * FSN: Fluoroscopic arthrography of X (procedure)
 * PT: Fluoroscopic arthrography of X
 * SYN: Fluoroscopic arthrogram of X
+  * For example,
+    * 723775001 | Fluoroscopic arthrography of right sacroiliac joint (procedure)|
+      * FSN: Fluoroscopic arthrography of right sacroiliac joint (procedure)
+      * PT: Fluoroscopic arthrography of right sacroiliac joint
+      * SYN: Fluoroscopic arthrogram of right sacroiliac joint
 
-For example,
-
-* 723775001 | Fluoroscopic arthrography of right sacroiliac joint (procedure)|
-  * FSN: Fluoroscopic arthrography of right sacroiliac joint (procedure)
-  * PT: Fluoroscopic arthrography of right sacroiliac joint
-  * SYN: Fluoroscopic arthrogram of right sacroiliac joint
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Fluoroscopy%20and%20Fluoroscopic%20Imaging" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Fluoroscopy%20and%20Fluoroscopic%20Imaging" class="button primary">Provide Feedback</a>
