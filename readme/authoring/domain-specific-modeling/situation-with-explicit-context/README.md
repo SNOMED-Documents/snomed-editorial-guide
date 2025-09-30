@@ -1,8 +1,6 @@
 # Situation with Explicit Context
 
-| Definition                                                                                                                                                                  | Examples                                                                                                                                                                                                                                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Concepts that include context information; a subtype of the situation to which it applies, with an attribute associating it with the relevant clinical finding or procedure | <ul><li>183982006 <mark style="color:blue;">|</mark> Herniotomy planned (situation) <mark style="color:blue;">|</mark> </li><li>1269455000 <mark style="color:blue;">|</mark> Caregiver able to administer subcutaneous injection (situation) <mark style="color:blue;">|</mark></li></ul> |
+<table><thead><tr><th width="348.9349365234375">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Concepts that include context information; a subtype of the situation to which it applies, with an attribute associating it with the relevant clinical finding or procedure</td><td><p></p><ul><li>183982006 | Herniotomy planned (situation)|</li><li>1269455000 | Caregiver able to administer subcutaneous injection (situation)|</li></ul></td></tr></tbody></table>
 
 ## Variable meanings according to context
 
@@ -54,9 +52,4 @@ A _product_ concept can represent:
 * Discontinuation of a product
 * Specialist's recommendation to use a particular product, if certain circumstances apply
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Situation%20with%20Explicit%20Context" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Situation%20with%20Explicit%20Context" class="button primary">Provide Feedback</a>
