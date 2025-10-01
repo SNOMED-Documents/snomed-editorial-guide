@@ -11,14 +11,14 @@ The following high level vaccine-related grouper concepts are included in the |M
 
 ## Modeling
 
-| **Stated parent concept**                                                       | 763158003 \|Medicinal product (product)                                                                                                                                                                                                                                                                                   |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                                                | (medicinal product)                                                                                                                                                                                                                                                                                                       |
-| **Definition status**                                                           | Defined                                                                                                                                                                                                                                                                                                                   |
-| <p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p> | <p>Range: &#x3C;&#x3C;105590001 |Substance (substance)|</p><p>Cardinality: 0..*</p><p><em>Exception:  Top level grouper 787859002 |Vaccine product (medicinal product)| does not have a Has active ingredient (attribute).</em></p>                                                                                       |
-| <p><strong>Attribute:</strong></p><p><strong>Plays role</strong></p>            | <p>Range: &#x3C;&#x3C;766940004 |Role (role)|</p><p>Cardinality: 0..*</p><ul><li>While the allowed range is broader, top level vaccine-related grouper concepts should have one and only one Plays role (attribute) with attribute value = 318331000221102 |Active immunity stimulant therapeutic role (role)|.</li></ul> |
+| **Stated parent concept**                                                       | 763158003 \|Medicinal product (product) |
+| ------------------------------------------------------------------------------- | --------------------------------------- |
+| **Semantic tag**                                                                | (medicinal product)                     |
+| **Definition status**                                                           | Defined                                 |
+| <p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p> | Range: <<105590001                      |
+| <p><strong>Attribute:</strong></p><p><strong>Plays role</strong></p>            | Range: <<766940004                      |
 
-## Terming
+## Naming
 
 ### FSN
 
@@ -28,12 +28,11 @@ Vaccine product containing \<Active ingredient PT excluding "antigen"> antigen (
 
 Vaccine product containing \<Active ingredient PT excluding "antigen"> and \<Active ingredient PT excluding "antigen"> antigens (medicinal product)
 
-For example,
-
-* Vaccine product (medicinal product)
-* Vaccine product containing bacteria antigen (medicinal product)
-* Vaccine product containing virus antigen (medicinal product)
-* Vaccine product containing bacteria and virus antigens (medicinal product)
+* For example,
+  * Vaccine product (medicinal product)
+  * Vaccine product containing bacteria antigen (medicinal product)
+  * Vaccine product containing virus antigen (medicinal product)
+  * Vaccine product containing bacteria and virus antigens (medicinal product)
 
 ### Preferred Term
 
@@ -43,12 +42,11 @@ Use the following pattern for the PT; align naming and case significance with th
 
 \<Active ingredient PT excluding "antigen">- and \<Active ingredient PT excluding "antigen"> antigens-containing vaccine product
 
-For example,
-
-* Vaccine product
-* Bacteria antigen-containing vaccine product
-* Virus antigen-containing vaccine product
-* Bacteria- and virus antigens-containing vaccine product
+* For example,
+  * Vaccine product
+  * Bacteria antigen-containing vaccine product
+  * Virus antigen-containing vaccine product
+  * Bacteria- and virus antigens-containing vaccine product
 
 ### Synonym
 
@@ -70,9 +68,4 @@ Synonyms matching the FSN are not required.
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690909.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Vaccine%20Product%20Top%20Level%20Groupers" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Vaccine%20Product%20Top%20Level%20Groupers" class="button primary">Provide Feedback</a>
