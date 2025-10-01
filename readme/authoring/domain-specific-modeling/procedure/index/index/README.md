@@ -1,6 +1,6 @@
 # Procedure Attributes
 
-The following defining attributes correspond to the _Procedure Attributes Summary_ table from the HRCM.
+The following defining attributes correspond to the [_Procedure Attributes Summary_](../) table.
 
 {% hint style="info" %}
 **Self-grouped Attributes**
@@ -85,7 +85,7 @@ For example,
 
 ## Indirect morphology
 
-Indirect morphology (attribute) describes the morphology that is acted upon, but is not the direct object of the Method action. This means the procedure acts directly on something else, e.g. a device, substance, or anatomical structure.
+Indirect morphology (attribute) describes the morphology that is acted upon, but is not the direct object of the Method action. This means the procedure acts directly on something else, e.g., a device, substance, or anatomical structure.
 
 For example,
 
@@ -99,7 +99,7 @@ For example,
 
 * 10255001 | Incision of ureter (procedure)| has Method (attribute) of Incision - action (qualifier value)
 
-Procedures with a Method (attribute)\_\_ can be described using an action verb that corresponds to the method. The direct object/s of the action verb should be represented using one or more of the four direct-object attributes, depending on whether the direct object on which the method acts is an:
+Procedures with a Method (attribute) can be described using an action verb that corresponds to the method. The direct object/s of the action verb should be represented using one or more of the four direct-object attributes, depending on whether the direct object on which the method acts is an:
 
 * Anatomical structure: Procedure site - Direct
 * Morphologic abnormality: Direct morphology
@@ -110,7 +110,7 @@ If the anatomical structure, device, or substance of the direct object is indete
 
 When modeling procedures where the Method is _Removal - action_ (qualifier value) or one of its subtypes, e.g. Excision, Surgical biopsy, etc., for removal of:
 
-* Structures, grafts, and tissue lesions (e.g. cysts, tumors, etc. are considered removal of the site), use _Procedure site - Direct._
+* Structures, grafts, and tissue lesions (e.g., cysts, tumors, etc. are considered removal of the site), use _Procedure site - Direct._
 * Devices, calculi, thrombi, foreign bodies, and other non-tissue entities from the structure, use _Procedure site - Indirect._
 
 For example,
@@ -119,9 +119,9 @@ For example,
 
 Method (attribute) does not describe
 
-* procedure approach, e.g. translumbar
-* equipment, e.g. sutures
-* physical force, e.g. laser energy
+* procedure approach, e.g., translumbar
+* equipment, e.g., sutures
+* physical force, e.g., laser energy
 
 ### Method attribute grouping
 
@@ -129,9 +129,11 @@ Attributes should be grouped with the Method (attribute) to which they apply. In
 
 Exception,
 
-* Recipient category (attribute) \* A single procedure concept should not be precoordinated when more than one Recipient Category is involved. Such complex statements should have two or more procedure concepts that are placed into an appropriately structured electronic health application. \* See separate attribute entry for _Recipient category_ below.
+* Recipient category (attribute)
+  * A single procedure concept should not be precoordinated when more than one Recipient Category is involved. Such complex statements should have two or more procedure concepts that are placed into an appropriately structured electronic health application.&#x20;
+  * See separate attribute entry for [_Recipient category_](./#recipient-category) below.
 
-No relationship group can contain more than one Method (attribute). If a procedure has more than one method, each Method (attribute) serves as the anchor of a separate relationship group that will contain any defining relationships that represent a direct object (and, where relevant, indirect object) of the Method's action. This is true even if the different Methods each act on the same direct object. Each relationship \_\_ group can be thought of as representing a component of the procedure that involves a particular action.
+No relationship group can contain more than one Method (attribute). If a procedure has more than one method, each Method (attribute) serves as the anchor of a separate relationship group that will contain any defining relationships that represent a direct object (and, where relevant, indirect object) of the Method's action. This is true even if the different Methods each act on the same direct object. Each relationship group can be thought of as representing a component of the procedure that involves a particular action.
 
 ## Occurrence
 
@@ -144,7 +146,7 @@ Priority (attribute) is used when a procedure concept specifies a priority. This
 For example,
 
 * 708932005 | Emergency hemodialysis (procedure)| has Priority of Emergency (qualifier value)
-  * 177141003 | Elective cesarean section (procedure)| has Priority of Elective (qualifier value)
+* 177141003 | Elective cesarean section (procedure)| has Priority of Elective (qualifier value)
 
 260870009 | Priority (attribute)| is most often used to differentiate elective and emergency subtypes of a procedure that can be performed on either basis. With the exception of Cardiopulmonary resuscitation (procedure), this attribute is normally used only to define concepts whose FSNs specify a priority, not for modeling procedures that imply an emergency priority, such as |Heimlich maneuver (procedure)| or those that are inherently elective, such as |Augmentation mammoplasty (procedure)|.
 
@@ -170,7 +172,7 @@ Procedure device subsumes the more specific attributes, Direct Device, Indirect 
 
 For example,
 
-* 276272002 | Catheter procedure (procedure)| has Procedure device of Catheter, device (physical object)
+* 276272002 | Catheter procedure (procedure)| has Procedure device (attribute) of Catheter, device (physical object)
 
 {% hint style="warning" %}
 **Procedure device**
@@ -204,9 +206,9 @@ For example,
 
 * 118839001 | Procedure on colon (procedure)| has Procedure site of Colon structure (body structure)
 
-When modeling procedures where the Method is _Removal - action_ (qualifier value) or one of its subtypes, e.g. Excision, Surgical biopsy, etc., for removal of:
+When modeling procedures where the Method is _Removal - action_ (qualifier value) or one of its subtypes, e.g., Excision, Surgical biopsy, etc., for removal of:
 
-* Structures, grafts, and tissue lesions (e.g. cysts, neoplasms, abscesses, wounds, warts, aneurysms, herniations, oral clefts, etc.) are considered removal of the site, use _Procedure site - Direct._
+* Structures, grafts, and tissue lesions (e.g., cysts, neoplasms, abscesses, wounds, warts, aneurysms, herniations, oral clefts, etc.) are considered removal of the site, use _Procedure site - Direct._
 * Devices, calculi, thrombi, foreign bodies, and other non-tissue entities from the structure, use _Procedure site - Indirect._
 
 {% hint style="info" %}
@@ -216,16 +218,16 @@ Procedures are not necessarily categorized by site.
 
 ### Use of Structure of vs. Entire as value of the Procedure site attributes
 
-Structure of rather than Entire should be used as the value for procedure site attributes, except where the procedure FSN explicitly specified that the entire structure is the object of the procedure.
+Structure of \<anatomical structure> rather than Entire \<anatomical structure> should be used as the value for procedure site attributes, except where the procedure FSN explicitly specified that the entire structure is the object of the procedure.
 
 For example,
 
 * 23968004 | Excision of colon (procedure)| has 405813007 | Procedure site - Direct (attribute)| of 71854001 | Colon structure (body structure)|
 * 26390003 | Total colectomy (procedure)| has 405813007 | Procedure site - Direct (attribute)| of 302508007 | Entire colon (body structure)|
 
-## Procedure site - direct
+## Procedure site - Direct
 
-Procedure site - Direct (attribute) is used when the action of the procedure is directly aimed at anatomical or acquired body structure or site, rather than something else located there (e.g. a device), i.e. when the 260686004 | Method (attribute)| is 129303008 | Removal - action (qualifier value)| or one of its subtypes (Excision, Surgical biopsy, or etc.).
+Procedure site - Direct (attribute) is used when the action of the procedure is directly aimed at anatomical or acquired body structure or site, rather than something else located there (e.g., a device), i.e., when the 260686004 | Method (attribute)| is 129303008 | Removal - action (qualifier value)| or one of its subtypes (Excision, Surgical biopsy, etc.).
 
 For example,
 
@@ -239,7 +241,7 @@ For example,
 * Closure of skin wound (procedure) has a Procedure site - Direct (attribute) of Skin structure and a Direct morphology (attribute) of Wound
 * Fixation of fracture (procedure) has a Procedure site - Direct (attribute) of Bone structure and a Direct morphology (attribute) of Fracture
 
-## Procedure site - indirect
+## Procedure site - Indirect
 
 Procedure site - Indirect (attribute) specifies the anatomical location but is not the direct focus of the procedure. The direct object of the action may be a device, a substance, or a morphologic abnormality that is not a part of the tissue structure of the anatomical site in which it is located, such as a calculus, thrombus, or foreign body. Thus, 405814001 | Procedure site - Indirect (attribute)| is typically found in a relationship group with a second, "direct" attribute-value relationship, such as a Direct morphology, Direct substance, or Direct device.
 
@@ -252,6 +254,9 @@ For example,
     * Direct device of Venous catheter (physical object)
 
     <figure><img src="../../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
+
+
+
 * 371005009 | Removal of calculus of urinary bladder (procedure)| has:
   * Direct morphology of Calculus (morphologic abnormality)
   * Method of Removal - action (qualifier value)
@@ -312,7 +317,7 @@ For example,
 
 ### Endoscopes
 
-Many procedures can be carried out using tools attached to or operated via channels within the endoscope. In some cases the device IS used for access (such as endoscopy of the GI tract), e.g. ERCP in particular allows you to both visualize and operate upon the sphincter of Oddi/ampulla of Vater using cutting devices (knives or wires etc.) and then passing a basket up into the CBD to remove stones. The correct attribute for the device is USING ACCESS DEVICE.
+Many procedures can be carried out using tools attached to or operated via channels within the endoscope. In some cases the device IS used for access (such as endoscopy of the GI tract), e.g. ERCP in particular allows you to both visualize and operate upon the sphincter of Oddi/ampulla of Vater using cutting devices (knives or wires etc.) and then passing a basket up into the CBD to remove stones. The correct attribute for the device is |Using access device (attribute)|.
 
 ## Using device
 
