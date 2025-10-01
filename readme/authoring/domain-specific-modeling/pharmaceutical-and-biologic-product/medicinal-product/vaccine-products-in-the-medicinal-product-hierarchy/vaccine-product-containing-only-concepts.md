@@ -7,9 +7,9 @@ The Vaccine Product "only" concept is an abstract representation of the active i
 For example,
 
 * |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|
-  * |Vaccine product containing only Vaccinia virus antigen (medicinal product)|
-  * |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|
-  * |Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)|
+* |Vaccine product containing only Vaccinia virus antigen (medicinal product)|
+* |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|
+* |Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)|
 
 Both vaccine product "containing" and vaccine product "containing only" concepts may be created for products that only have one active ingredient (e.g. 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)| and 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|). Vaccine product "containing" concepts are not created for multiple ingredient vaccine products; vaccine product "containing only" concepts are created for multiple ingredient vaccine products.
 
@@ -56,15 +56,17 @@ For example,
 
 ### Preferred Term
 
-Use the following pattern for the PT; align terming and case significance with the PT for the concept that is selected as the attribute value for the |Has active ingredient (attribute)|. For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
+Use the following pattern for the PT; align terming and case significance with the PT for the concept that is selected as the attribute value for the |Has active ingredient (attribute)|.  For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted.  For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
 
 * \<Active ingredient PT> only vaccine product
 * \<Active ingredient PT> and \<Active ingredient PT> antigen only vaccine product
 * \<Active ingredient PT> and \<Active ingredient PT> and \<Active ingredient PT> antigen only vaccine product
-* For example,
-  * Hepatitis B virus antigen only vaccine product
-  * Hepatitis A and Hepatitis B virus antigens only vaccine product
-  * Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product
+
+For example,
+
+* Hepatitis B virus antigen only vaccine product
+* Hepatitis A and Hepatitis B virus antigens only vaccine product
+* Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product
 
 |Has product characteristic| and |Has ingredient characteristic| attribute values should be added as appropriate.
 
@@ -98,7 +100,7 @@ For example,
   * Low dose diphtheria and tetanus vaccine
   * Low dose diphtheria and inactivated poliomyelitis and tetanus vaccine
 
-Synonyms representing abbreviations for product (e.g. MMR, DTaP) will not be included in the International Release due to lack of internationally accepted reference source.
+Synonyms representing abbreviations for product (e.g., MMR, DTaP) will not be included in the International Release due to lack of internationally accepted reference source.
 
 ## Exemplars
 
