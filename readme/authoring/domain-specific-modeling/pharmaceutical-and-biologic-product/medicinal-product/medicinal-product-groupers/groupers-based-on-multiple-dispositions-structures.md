@@ -11,11 +11,13 @@ For some medicinal products, their clinical usefulness is related to the combina
 
 For example,
 
-* Clemastine is a substance whose anti-histamine behaviour is based upon its structure being ethanolamine derived.
+* Clemastine is a substance whose anti-histamine behavior is based upon its structure being ethanolamine derived.
 
 Since structure-based grouping and disposition are characteristics of the active ingredient substance(s) present in the medicinal product, combined 'structure and disposition grouping' concepts are inferred by the classifier to medicinal products and include all their child concepts (medicinal product form and clinical drug concepts), although in a browser, the inferred grouping concepts are shown on the proximal concept only (the "medicinal product containing" concept).
 
-<figure><img src="https://confluence.ihtsdotools.org/download/attachments/293568803/MP%20with%20Structure%20and%20Disposition%20grouping.png?version=1&#x26;modificationDate=1748543718000&#x26;api=v2" alt="MP with Structure and Disposition grouping.png"><figcaption><p>Figure 1. Medicinal Product showing membership of a structure-and-disposition grouping (ethanolamine derivative and histamine receptor antagonist)</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-10-01 at 9.03.36 AM.png" alt=""><figcaption></figcaption></figure>
+
+<p align="center">Figure: Medicinal Product showing membership of a structure-and-disposition grouping (ethanolamine derivative and histamine receptor antagonist)</p>
 
 ## Modeling
 
@@ -29,13 +31,13 @@ Since structure-based grouping and disposition are characteristics of the active
 
 ### FSN
 
-Use the following pattern for the FSN if the combined grouper is comprised of two dispositions or two structural groupers; align naming and case significance with the PT as described in Section 4.1 and 4.2, respectively. The active ingredients must be in alphabetical order and separated by the word “and”.
+Use the following pattern for the FSN if the combined grouper is comprised of two dispositions or two structural groupers; align naming and case significance with the PT as described in _Groupers Based on Structure_ and _Disposition_, respectively. The active ingredients must be in alphabetical order and separated by the word “and”.
 
 * Product containing \<Active ingredient PT> and \<Active ingredient PT> (product)
   * For example,
     * Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)
 
-Use the following pattern for the FSN if the combined grouper is comprised of one disposition and one structural grouper; align naming and case significance with the FSN for the concept with the FSN as described in Section 4.1 and 4.2, respectively.
+Use the following pattern for the FSN if the combined grouper is comprised of one disposition and one structural grouper; align naming and case significance with the FSN for the concept with the FSN as described in _Groupers Based on Structure_ and _Disposition_, respectively.
 
 * Product containing \<Structural grouper active ingredient PT> and \<Disposition grouper active ingredient PT> (product)
   * For example,
@@ -43,13 +45,13 @@ Use the following pattern for the FSN if the combined grouper is comprised of on
 
 ### Preferred Term
 
-Use the following pattern for the FSN if the combined grouper is comprised of two dispositions or two structural groupers; align naming and case significance with the PT as described in Section 4.1 and 4.2, respectively. The active ingredients must be in alphabetical order and separated by the word “and”.
+Use the following pattern for the FSN if the combined grouper is comprised of two dispositions or two structural groupers; align naming and case significance with the PT as described in _Groupers Based on Structure_ and _Disposition_, respectively. The active ingredients must be in alphabetical order and separated by the word “and”.
 
 * Product containing \<Active ingredient PT> and \<Active ingredient PT> (product)
   * For example,
     * Product containing norepinephrine reuptake inhibitor and serotonin reuptake inhibitor (product)
 
-Use the following pattern for the FSN if the combined grouper is comprised of one disposition and one structural grouper; align naming and case significance with the FSN for the concept with the FSN as described in Section 4.1 and 4.2, respectively.
+Use the following pattern for the FSN if the combined grouper is comprised of one disposition and one structural grouper; align naming and case significance with the FSN for the concept with the FSN as described in _Groupers Based on Structure_ and _Disposition_, respectively.
 
 * Product containing \<Structural grouper active ingredient PT> and \<Disposition grouper active ingredient PT> (product)
   * For example,
