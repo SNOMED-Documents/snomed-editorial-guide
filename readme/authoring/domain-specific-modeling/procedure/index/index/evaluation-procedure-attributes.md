@@ -1,6 +1,6 @@
 # Evaluation Procedure Attributes
 
-The following defining attributes are unique in the context of the 386053000 |Evaluation procedure (procedure)| subhierarchy. Many of these attributes (e.g., Component, Scale type) are used to define Observable entity concepts. Evaluation procedures may use the attributes below in addition to those attributes allotted to the 71388002 | Procedure (procedure)| hierarchy (see _Procedure Attributes Summary_ page). All of the attributes for Evaluation procedure concepts should be grouped. Some of the current modeling does not reflect this guidance. The future of this hierarchy in relation to the observable entity hierarchy is under review. See 'Observable Entity vs. Evaluation Procedure' at Observable Entity.
+The following defining attributes are unique in the context of the 386053000 |Evaluation procedure (procedure)| subhierarchy. Many of these attributes (e.g., Component, Scale type) are used to define Observable entity concepts. Evaluation procedures may use the attributes below in addition to those attributes allotted to the 71388002 | Procedure (procedure)| hierarchy (see [_Procedure Attributes Summary_](../)).  All attributes for Evaluation procedure concepts should be grouped.  Some of the current modeling does not reflect this guidance. The future of this hierarchy in relation to the observable entity hierarchy is under review. See '[Observable Entity vs. Evaluation Procedure](../../../observable-entity/#observable-entity-vs.-evaluation-procedure)' at Observable Entity.
 
 ## Component
 
@@ -24,7 +24,7 @@ For example,
 
 ## Measurement method
 
-_Measurement Method_ specifies the method by which an evaluation procedure is performed. It provides additional specificity. For measurement procedures, the 260686004 | Method (attribute)| is given the value 129266000 | Measurement - action (qualifier value)| . No concept can be defined with a 370129005 | Measurement method (attribute)| unless it is being used to refine a 260686004 | Method (attribute)| that has a value of  129266000 | Measurement - action (qualifier value)| or one of its subtypes that is also specified in the concept definition. That is, use of 370129005 | Measurement method (attribute)| \_ must be **in addition** to a  260686004 | Method (attribute)|  of  129266000 | Measurement - action (qualifier value)| or one of its subtypes.
+_Measurement Method_ specifies the method by which an evaluation procedure is performed. It provides additional specificity.  For measurement procedures, the 260686004 | Method (attribute)| is given the value 129266000 | Measurement - action (qualifier value)| . No concept can be defined with a 370129005 | Measurement method (attribute)| unless it is being used to refine a 260686004 | Method (attribute)| that has a value of  129266000 | Measurement - action (qualifier value)| or one of its subtypes that is also specified in the concept definition. That is, use of 370129005 | Measurement method (attribute)| must be **in addition** to a  260686004 | Method (attribute)|  of  129266000 | Measurement - action (qualifier value)| or one of its subtypes.
 
 Also, the 370129005 | Measurement method (attribute)| and its value must be grouped with the 260686004 | Method (attribute)| and its value of the concept or subtype of 129266000 | Measurement - action (qualifier value)| .
 
@@ -54,7 +54,7 @@ For example,
 
 ## Time aspect
 
-_Time Aspect_ specifies temporal relationships \_\_ for a measurement procedure. While this attribute has been approved, guidelines for its implementation await development.
+_Time Aspect_ specifies temporal relationships for a measurement procedure.  While this attribute has been approved, guidelines for its implementation await development.
 
 ## Further clarification
 
