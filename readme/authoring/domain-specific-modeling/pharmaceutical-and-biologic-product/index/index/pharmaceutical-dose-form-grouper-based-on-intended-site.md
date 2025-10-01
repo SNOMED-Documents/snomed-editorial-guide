@@ -10,13 +10,13 @@ These concepts are used in modeling (medicinal product form) concepts in the Int
 
 Pharmaceutical dose form grouper concepts based on intended site shall be modeled using the proximal primitive modeling pattern.
 
-| **Parent concept**                                                                    | 736542009 \|Pharmaceutical dose form (dose form)                                                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                                                      | (dose form)                                                                                                                                                                                                                                                                         |
-| **Definition status**                                                                 | Defined                                                                                                                                                                                                                                                                             |
-| <p><strong>Attribute:</strong></p><p><strong>Has dose form intended site</strong></p> | <p>Range:  &#x3C;&#x3C; 736479009 |Dose form intended site (intended site)</p><p>Cardinality: 0..*</p><ul><li>While the allowed range is broader, the grouper concepts based on dose form intended site should have one or more |Has dose form intended site| attributes.</li></ul> |
+| **Parent concept**                                                                    | 736542009 \|Pharmaceutical dose form (dose form) |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Semantic tag**                                                                      | (dose form)                                      |
+| **Definition status**                                                                 | Defined                                          |
+| <p><strong>Attribute:</strong></p><p><strong>Has dose form intended site</strong></p> | Range: << 736479009                              |
 
-## Terming
+## Naming
 
 ### FSN
 
@@ -45,7 +45,7 @@ For example,
 * Cutaneous dose form
 * Oral dose form
 * Parenteral dose form
-* Ear and eye and nose drops&#x20;
+* Ear and eye and nose drops
 * Ear and eye drops
 
 ### Synonym
@@ -62,9 +62,4 @@ Optional
 
 <figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691229.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pharmaceutical%20Dose%20Form%20Grouper%20Based%20on%20Intended%20Site" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Pharmaceutical%20Dose%20Form%20Grouper%20Based%20on%20Intended%20Site" class="button primary">Provide Feedback</a>
