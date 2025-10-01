@@ -2,7 +2,7 @@
 
 Medicinal Product Form - An abstract representation of a medicinal product described by its active ingredient substances and a grouping dose form concept (based on the intended site of administration for the dose form group) but without reference to any product strength.
 
-The grouping dose form concepts are the immediate children of 736542009 |Pharmaceutical dose form (dose form)| and are described in detail in the section [Pharmaceutical Dose Form Grouper Based on Intended Site](../../../index/index/pharmaceutical-dose-form-grouper-based-on-intended-site.md). These grouper concepts gather all the formulations (solid, semi-solid, liquid, or gaseous manufactured dose forms) that have the same intended site of administration. The intended site of administration of a dose form concept is a description of the general body site (i.e., not exactly anatomically explicit - no laterality etc.) where the dose form will be administered.
+The grouping dose form concepts are the immediate children of `736542009 |Pharmaceutical dose form (dose form)|` and are described in detail in the section [Pharmaceutical Dose Form Grouper Based on Intended Site](../../../index/index/pharmaceutical-dose-form-grouper-based-on-intended-site.md). These grouper concepts gather all the formulations (solid, semi-solid, liquid, or gaseous manufactured dose forms) that have the same intended site of administration. The intended site of administration of a dose form concept is a description of the general body site (i.e., not exactly anatomically explicit - no laterality etc.) where the dose form will be administered.
 
 For example,
 
