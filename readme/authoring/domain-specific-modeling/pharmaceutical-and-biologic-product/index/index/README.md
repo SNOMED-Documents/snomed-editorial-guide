@@ -39,9 +39,8 @@ Concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy:
 
 Concepts that are not allowed to be used in modeling Medicinal product concepts in the International Release may be added to the Pharmaceutical dose form hierarchy to support national extension modeling.
 
-For example,
-
-* 420378007 |Prolonged-release film-coated oral tablet (dose form)|)
+* For example,
+  * 420378007 |Prolonged-release film-coated oral tablet (dose form)|)
 
 ## Overview
 
@@ -49,11 +48,11 @@ The 736542009 |Pharmaceutical dose form (dose form)| hierarchy is comprised of t
 
 For the purposes of the following editorial guidelines, pharmaceutical dose form refers to the physical manifestation of a medicinal product that contains the active ingredient substance(s) and inactive ingredient substances that are intended for administration for the patient.
 
-| Concept type                                | Examples                                                                                                                                                                                                       |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Grouper based on intended site**          | <ul><li>740596000 |Cutaneous dose form (dose form)|</li><li>385268001 |Oral dose form (dose form)|</li></ul>                                                                                                   |
-| **Grouper concept without basic dose form** | <ul><li>385105007 |Conventional release cutaneous spray (dose form) |</li><li>385136004 |Conventional release ear drops (dose form)|</li></ul>                                                                 |
-| **Pharmaceutical dose form**                | <ul><li>385151008 |Conventional release nasal ointment (dose form) |</li><li>421026006 |Conventional release oral tablet (dose form)|</li><li>385053008 |Prolonged-release oral capsule (dose form)|</li></ul> |
+| Concept type                                | Examples                    |
+| ------------------------------------------- | --------------------------- |
+| **Grouper based on intended site**          | <ul><li>740596000</li></ul> |
+| **Grouper concept without basic dose form** | <ul><li>385105007</li></ul> |
+| **Pharmaceutical dose form**                | <ul><li>385151008</li></ul> |
 
 ## Dose form intended site vs. Route of administration
 
@@ -99,9 +98,4 @@ Pharmaceutical dose forms with two or more administration methods is a less comm
 [index](index/)
 {% endcontent-ref %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Pharmaceutical%20Dose%20Form" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Pharmaceutical%20Dose%20Form" class="button primary">Provide Feedback</a>
