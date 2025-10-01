@@ -2,7 +2,7 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges.
 
-386053000 | Evaluation procedure (procedure)| , and 387713003 | Surgical procedure (procedure)| each have unique defining attributes as seen in their separate tables below.
+386053000 | Evaluation procedure (procedure)| has unique defining attributes as seen in its separate table below.
 
 ## Domain Information for Procedure
 
