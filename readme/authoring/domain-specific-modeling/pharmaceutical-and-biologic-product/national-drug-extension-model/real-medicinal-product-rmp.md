@@ -22,23 +22,23 @@ The RMP "Zocor (product)" shown in a taxonomic view in Figure 1 below presents p
 
 <figure><img src="../../../../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
-_Figure 1: Diagram showing a branded single ingredient substance real medicinal product and its supporting real clinical drug concepts_ (Note: not all possible real clinical drug concepts are shown.)
+_Figure: Diagram showing a branded single ingredient substance real medicinal product and its supporting real clinical drug concepts_ (Note: not all possible real clinical drug concepts are shown.)
 
 ### **Single ingredient generic products** <a href="#single-ingredient-generic-products" id="single-ingredient-generic-products"></a>
 
-For those products without a unique (i.e., invented) product name, where the product uses the international non-proprietary name of the active substance as its product name (i.e., so called _generic_ products), extensions may choose not to populate the Real Medicinal Product class, as shown below, with each RCD being associated directly with the CD in the International content:&#x20;
+For those products without a unique (i.e., invented) product name, where the product uses the international non-proprietary name of the active substance as its product name (i.e., so called _generic_ products), extensions may choose not to populate the Real Medicinal Product class, as shown below, with each RCD being associated directly with the CD in the International content:
 
 <figure><img src="../../../../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;_Figure 2: Example of real clinical drug "generic" products where a real medicinal product concept has not be authored_
+_Figure: Example of real clinical drug "generic" products where a real medicinal product concept has not be authored_
 
 Alternatively, for products without a unique (i.e. invented) product name (_generic_ products) a national extension may choose to populate the Real Medicinal Product using the generic name AND supplier, since this gives a unique RMP concept, as shown below:
 
 <figure><img src="../../../../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-_Figure 3: Example of real clinical drug "generic" products where a real medicinal product concept has been authored using product and manufacturer name_
+_Figure: Example of real clinical drug "generic" products where a real medicinal product concept has been authored using product and manufacturer name_
 
-Note that here the product name attribute is valued as "simvastatin", which in text looks similar to both the substance concept 387584000 | Simvastatin (substance) | and to the two medicinal product concepts 96304005 | Product containing simvastatin (medicinal product) | and 777537002 | Product containing only simvastatin (medicinal product) |.  But it is a different concept and has its own semantic tag of "product name"; it is therefore a different concept (unit of thought): Simvastatin (product name). 777537002 | Product containing only simvastatin (medicinal product) |
+Note that here the product name attribute is valued as "simvastatin", which in text looks similar to both the substance concept 387584000 | Simvastatin (substance) | and to the two medicinal product concepts 96304005 | Product containing simvastatin (medicinal product) | and 777537002 | Product containing only simvastatin (medicinal product) |. But it is a different concept and has its own semantic tag of "product name"; it is therefore a different concept (unit of thought): Simvastatin (product name). 777537002 | Product containing only simvastatin (medicinal product) |
 
 ### **Multi-Ingredient substance branded products** <a href="#multi-ingredient-substance-branded-products" id="multi-ingredient-substance-branded-products"></a>
 
@@ -48,47 +48,42 @@ The RMP "Inegy (product)" shown in a taxonomic view in Figure 2 below presents p
 
 <figure><img src="../../../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-_Figure 4: Diagram showing a branded multi-ingredient substance real medicinal product and its supporting real clinical drug concepts (note, not all possible real clinical drug concepts are shown)_
+_Figure: Diagram showing a branded multi-ingredient substance real medicinal product and its supporting real clinical drug concepts (note, not all possible real clinical drug concepts are shown)_
 
-Not all authorised medicinal products that share the same (invented) product name will relate to a Real Medicinal Product, especially for over the counter (OTC) medicines, where a commercial "brand family" may contain products with different active ingredient sets which would therefore have different MP only representations. For example, some cough and cold product ranges span expectorant products, cough suppressants, antipyretics and decongestant products, with different sets of active ingredients in each but all sharing the same brand name.
+Not all authorized medicinal products that share the same (invented) product name will relate to a Real Medicinal Product, especially for over the counter (OTC) medicines, where a commercial "brand family" may contain products with different active ingredient sets which would therefore have different MP only representations. For example, some cough and cold product ranges span expectorant products, cough suppressants, antipyretics and decongestant products, with different sets of active ingredients in each but all sharing the same brand name.
 
-In the example below, the three real clinical drug products all share the same product name  ("Benylin®") in one jurisdiction, but they do not relate to a single real medicinal product due to differences in their active ingredient substances.
+In the example below, the three real clinical drug products all share the same product name ("Benylin®") in one jurisdiction, but they do not relate to a single real medicinal product due to differences in their active ingredient substances.
 
 <figure><img src="../../../../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-_Figure 5: Example of branded real clinical drug products sharing the same product name but not relating to a Real Medicinal Product due to differences in their set of active ingredient substances_
+_Figure: Example of branded real clinical drug products sharing the same product name but not relating to a Real Medicinal Product due to differences in their set of active ingredient substances_
 
 A national extension may choose to populate RMPs for "brand families" that contain products with different active ingredient sets by extending the product name concept to include enough detail to scope just a single active ingredient set, as shown below:
 
 <figure><img src="../../../../../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-_Figure 6: Example of branded real clinical drug products relating to appropriate real medicinal products by authoring of specific product name concepts_
+_Figure: Example of branded real clinical drug products relating to appropriate real medicinal products by authoring of specific product name concepts_
 
 **Existing national terminology equivalents for real medicinal product:**
 
 * Trade family in NHS dm+d
-* Trade Product (TP) in AMT/NZULM&#x20;
+* Trade Product (TP) in AMT/NZULM
 * Brand Name (BN) in RxNorm (possibly)
 
 ## Attributes
 
 The following attributes apply to Real Medicinal Product (RMP) concepts in a national extension. The RMP class has two attributes inherited from the Medicinal Product (only) class in the international content and two additional attributes.
 
-| **Semantic tag**                                                  | **(real medicinal product)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Definition status**                                             | 900000000000073002 \|Sufficiently defined concept definition status\|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| **Attribute:**  1142139005 \|Count of base of active ingredient\| | <p><strong>Range</strong></p><ul><li>INT (Integer)</li></ul><p><strong>Cardinality</strong></p><ul><li>1..1</li></ul><p><strong>Notes</strong></p><ul><li>This attribute provides the number of base active ingredient substances present in the medicinal product</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Attribute:** 774159003 \|Has supplier\|                         | <p><strong>Range</strong></p><ul><li><p>&#x3C; 774164004 |Supplier (supplier)|</p><ul><li><p>Extensions must author concepts to value supplier organisation information within their extension using the root of</p><p><a href="http://snomed.info/id/774164004">774164004 | Supplier (supplier)|</a> from the Qualifier hierarchy</p></li></ul></li></ul><p><strong>Cardinality</strong></p><ul><li>1..1</li></ul><p><strong>Notes</strong></p><ul><li>The attribute value should represent the holder of the marketing authorisation or authorisation for supply; this may or may not be the organisation responsible for the actual manufacture of the product (see section below).</li></ul>                                                                                              |
-| **Attribute:** 774158006 \|Has product name\|                     | <p><strong>Range</strong></p><ul><li><p>&#x3C; 774167006| Product name (product name)|</p><ul><li><p>Extensions must author product name concepts within their extension using the root of</p><p><a href="http://snomed.info/id/774167006">774167006 | Product name (product name)|</a><a href="https://browser.ihtsdotools.org/?perspective=full&#x26;conceptId1=774167006&#x26;edition=MAIN/2021-07-31&#x26;release=&#x26;languages=en"> </a>from the Qualifier hierarchy</p></li></ul></li></ul><p><strong>Cardinality</strong></p><ul><li>1..1</li></ul><p><strong>Notes</strong></p><ul><li>The attribute value should represent the (authorised) product name; this may (or may not) be a trademarked name, and is often referred to as the "brand name" (see section below).</li></ul> |
-
-| **Role Group** | **Attribute:** 127489000 \|Has active ingredient\| | <p><strong>Range</strong></p><ul><li><p>&#x3C;  105590001 |Substance|</p><ul><li>Excluding concepts representing structural groupers, dispositions, or combined substances</li></ul></li></ul><p><strong>Cardinality</strong></p><ul><li>1..*</li></ul><p><strong>Notes</strong></p><ul><li>There is no technical limit on the number of <a href="http://snomed.info/id/127489000">|Has active ingredient|</a>attributes that may be added to a concept; a practical limit may be imposed by national extensions.  In order to classify correctly to the international content, this attribute value should represent the base ingredient substance, not a modification, unless explicitly identified as an exception and requiring an association to MP precisely concept.</li></ul><p>This attribute describes the set of active ingredient substances that the concept minimally contains. A set of active ingredient substances may well have only one member.</p> |
-| -------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Semantic tag**                                                 | **(real medicinal product)**                                                                                                                                                                                                                                                 |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Definition status**                                            | 900000000000073002 \|Sufficiently defined concept definition status\|                                                                                                                                                                                                        |
+| **Attribute:** 1142139005 \|Count of base of active ingredient\| | <p><strong>Range</strong></p><ul><li>INT (Integer)</li></ul><p><strong>Cardinality</strong></p><ul><li>1..1</li></ul><p><strong>Notes</strong></p><ul><li>This attribute provides the number of base active ingredient substances present in the medicinal product</li></ul> |
+| **Attribute:** 774159003 \|Has supplier\|                        | <p><strong>Range</strong></p><ul><li>&#x3C; 774164004</li></ul>                                                                                                                                                                                                              |
+| **Attribute:** 774158006 \|Has product name\|                    | <p><strong>Range</strong></p><ul><li>&#x3C; 774167006</li></ul>                                                                                                                                                                                                              |
 
 {% hint style="info" %}
 **Note** : The cardinalities given in the above table are for concepts in the RMP class. These cardinalities may be stricter than those in the MRCM, which typically apply across a broader range of concepts.
 {% endhint %}
-
-
 
 ## Example Diagrams
 
@@ -98,15 +93,11 @@ The following attributes apply to Real Medicinal Product (RMP) concepts in a nat
 
 #### **Example:** single active ingredient substance branded product (Zocor): state view followed by the inferred view <a href="#example-single-active-ingredient-substance-branded-product-zocor-state-view-followed-by-the-inferred" id="example-single-active-ingredient-substance-branded-product-zocor-state-view-followed-by-the-inferred"></a>
 
-
-
 <figure><img src="../../../../../.gitbook/assets/image (9) (1) (2).png" alt=""><figcaption><p><em>Single active ingredient substance real medicinal product example stated view</em></p></figcaption></figure>
-
-
 
 <figure><img src="../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><em>Single active ingredient substance real medicinal product example inferred view</em></p></figcaption></figure>
 
-#### **Example: multiple active i ngredient substance branded product (Inegy): stated view followed by the inferred view**
+#### **Example: multiple active ingredient substance branded product (Inegy): stated view followed by the inferred view**
 
 <figure><img src="../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p><em>Multiple active ingredient substance real medicinal product example stated view</em></p></figcaption></figure>
 
@@ -114,9 +105,4 @@ The following attributes apply to Real Medicinal Product (RMP) concepts in a nat
 
 There is no identified representation of a class similar to the Real Medicinal Product concept class in IDMP despite there being (a possible) pharmacovigilance use case for this class.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Real%20Medicinal%20Product%20%28RMP%29" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Real%20Medicinal%20Product%20%28RMP%29" class="button primary">Provide Feedback</a>
