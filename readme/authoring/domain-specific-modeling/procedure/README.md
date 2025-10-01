@@ -6,12 +6,12 @@
 
 ## Procedure concepts
 
-Procedure concepts represent activities performed in the provision of health care. This _hierarchy_ represents a broad variety of activities, including but not limited to:
+Procedure concepts represent activities performed in the provision of health care. This hierarchy represents a broad variety of activities, including but not limited to:
 
-* Invasive procedures, e.g. 77018005 | Excision of lesion of intracranial artery (procedure)|
-* Administration of medicines, e.g. 39343008 | Pertussis vaccination (procedure)|
-* Imaging procedures, e.g. 47079000 | Ultrasonography of breast (procedure)|
-* Education procedures, e.g. 183063000 | Low salt diet education (procedure)|
-* Administrative procedures, e.g. 305212007 | Medical records transfer (procedure)|
+* Invasive procedures, e.g., 77018005 | Excision of lesion of intracranial artery (procedure)|
+* Administration of medicines, e.g., 39343008 | Pertussis vaccination (procedure)|
+* Imaging procedures, e.g., 47079000 | Ultrasonography of breast (procedure)|
+* Education procedures, e.g., 183063000 | Low salt diet education (procedure)|
+* Administrative procedures, e.g., 305212007 | Medical records transfer (procedure)|
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Procedure" class="button primary">Provide Feedback</a>
