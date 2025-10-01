@@ -79,10 +79,10 @@ Requests for new concepts that conflict with the above require a clear justifica
 _International Unit_ as a description is arbitrary, and to be understood, each product requires reference to a particular bioefficacy specification for that entity. Therefore, _international_ _unit_ is neither a meaningful nor comparable description at Clinical Drug level. International unit will be represented as _unit_ in Clinical Drug descriptions. Abbreviations will not be used.
 
 * For example,
-  * 1237145006 |Product containing precisely octocog alfa 1000 unit/1 vial powder for conventional release solution for injection (clinical drug)|&#x20;
+  * `1237145006 |Product containing precisely octocog alfa 1000 unit/1 vial powder for conventional release solution for injection (clinical drug)|`&#x20;
   * Preferred term:  Octocog alfa 1000 unit powder for solution for injection vial
 
-The |Has presentation strength numerator unit| will still continue to have a value of |International unit (qualifier value)| even though _unit_ is stated in the FSN and PT.
+The |Has presentation strength numerator unit| will still continue to have a value of `|International unit (qualifier value)|` even though _unit_ is stated in the FSN and PT.
 
 ## Product strength _not equal to_
 
@@ -125,6 +125,6 @@ Concepts containing pancreatic enzymes are modeled based on the discrete enzymes
 Clinical drugs _containing precisely x_ are modeled with a count based on the _substance(s)_ to support a closed world view (i.e., a count of 1 will not infer a count of 2). The closed world view does not apply to dose forms. A very rare case can arise where, for example, a clinical drug that is for an _x ear and eye drop_ is a subtype of both the clinical drug _x eye drop_ and the clinical drug _x ear drop_. This makes real world sense where all descendants of _x clinical drug eye drop_ are for use in the eye, and a small subgroup of them may also be acceptable for use in the ear.
 
 * For example,
-  * 1220547004 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release eye drops (clinical drug)| correctly infers a subtype of 1142217003 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release ear and eye drops (clinical drug)|.
+  * `1220547004 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release eye drops (clinical drug)|` correctly infers a subtype of `1142217003 |Product containing precisely gentamicin (as gentamicin sulfate) 3 milligram/1 milliliter conventional release ear and eye drops (clinical drug)|`.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Clinical%20drug" class="button primary">Provide Feedback</a>
