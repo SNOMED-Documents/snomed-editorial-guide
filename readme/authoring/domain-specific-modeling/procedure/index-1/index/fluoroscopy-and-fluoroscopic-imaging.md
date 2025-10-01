@@ -2,7 +2,7 @@
 
 ## Simple fluoroscopy
 
-_Simple_ fluoroscopy is _real time_ imaging (usually on TV monitors/image intensifiers) of a body part or system. Only rarely is it an imaging process alone (without some interventional procedure). Fluoroscopy is most often used to guide or direct a primary procedure/purpose. The usual convention in clinical practice is to ignore the fluoroscopic element and refer to a procedure entirely by the primary component, e.g. angiography. However, this is unacceptable in SNOMED CT, where the imaging component must be explicitly described.
+_Simple_ fluoroscopy is _real time_ imaging (usually on TV monitors/image intensifiers) of a body part or system. Only rarely is it an imaging process alone (without some interventional procedure). Fluoroscopy is most often used to guide or direct a primary procedure/purpose. The usual convention in clinical practice is to ignore the fluoroscopic element and refer to a procedure entirely by the primary component, e.g., angiography.  However, this is unacceptable in SNOMED CT, where the imaging component must be explicitly described.
 
 * FSN: Fluoroscopy of X (procedure)
 * PT: Fluoroscopy of X
@@ -32,7 +32,6 @@ The following naming pattern can be used for direct observation:
       * FSN: Angioplasty using fluoroscopic guidance with contrast (procedure)
       * PT: Fluoroscopy guided angioplasty with contrast
       * SYN: Angioplasty using fluoroscopic guidance with contrast
-      *
       * SYN: Fluoroscopic angioplasty with contrast
 
 Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guided procedure modeling](../../index-2/index-1/imaging-guided-procedure-modeling.md).
@@ -41,7 +40,7 @@ Such procedures are subtypes of Fluoroscopy (procedure). See also [Imaging-guide
 
 _Angiography_ and _angiogram_ , as terms on their own, refer to visualization of a blood vessel or vascular structure not specified as an artery or a vein and could refer to either or both. So for clarity, a blood vessel site (X) and the phrase _with_ _contrast_ must be included in the concept description.
 
-{% hint style="info" %}
+{% hint style="success" %}
 **With contrast**
 
 Fluoroscopic angiography always uses contrast. _With contrast_ must be explicitly stated in all descriptions.
