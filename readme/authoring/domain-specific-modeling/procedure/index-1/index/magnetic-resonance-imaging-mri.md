@@ -1,6 +1,6 @@
 # Magnetic Resonance Imaging - MRI
 
-{% hint style="danger" %}
+{% hint style="info" %}
 **Exception**
 
 MRI and MR are exceptions to the rule that all abbreviations should have their expanded form in parentheses in descriptions.
