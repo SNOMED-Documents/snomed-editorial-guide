@@ -9,15 +9,15 @@ For example,
 * Product containing axitinib in oral dose form (medicinal product form)
 * Product containing abacavir and lamivudine in oral dose form (medicinal product form)
 
-In other words, "MPF containing" represents a medicinal product based on description of active ingredient substances it contains and on the (generalised) intended site of use for the product.
+In other words, "MPF containing" represents a medicinal product based on description of active ingredient substances it contains and on the (generalized) intended site of use for the product.
 
 For example,
 
-* "Product containing amoxicillin in oral dosage form" represents the group of products that must contain some amoxicillin (be it amoxicillin sodium or amoxicillin trihydrate or amoxicillin base), but \_may also\_ contain other active ingredients, such as clavulanic acid, in manufactured dose forms such as oral suspension, oral capsule (any type), oral tablet (any type).
+* "Product containing amoxicillin in oral dosage form" represents the group of products that must contain some amoxicillin (be it amoxicillin sodium or amoxicillin trihydrate or amoxicillin base), but _may also_ contain other active ingredients, such as clavulanic acid, in manufactured dose forms such as oral suspension, oral capsule (any type), oral tablet (any type).
 
 ### Use case(s) supported by |Product containing x in y dose form (medicinal product form)|
 
-The main use case for the _MPF (containing)_ is for analysis;, as an aggregation concept for use in research.
+The main use case for the _MPF (containing)_ is for analysis, as an aggregation concept for use in research.
 
 ### IDMP Compatibility
 
