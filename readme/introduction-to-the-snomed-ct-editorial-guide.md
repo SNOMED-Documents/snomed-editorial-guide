@@ -26,19 +26,10 @@ The primary audience of the Editorial Guide is SNOMED International editors resp
 
 ## Review Cycle
 
-The Editorial Guide is a living document that is continually revised and updated. The online version is updated monthly, reflecting the latest editorial decisions. &#x20;
-
-[Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/)\*
-
-\*_Changes on this spreadsheet may include those in progress for a future publication date.  The in-progress changes are available for viewing but will not be visible in the Editorial Guide until the next publication.  Please note dates in bottom tab._ &#x20;
+The Editorial Guide is a living document that is continually revised.  The [Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/) spreadsheet records changes via monthly tabs.
 
 ## Contact and Feedback
 
 The Editorial Guide is maintained by SNOMED International, the organization responsible for the ongoing development and distribution of SNOMED CT. Users are encouraged to provide feedback or seek clarification by contacting SNOMED International at [info@snomed.org](mailto:info@snomed.org) . Additional resources, licensing details, and membership information are available at [www.snomed.org](http://www.snomed.org).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Introduction%20to%20Editorial%20Guide" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Introduction%20to%20Editorial%20Guide" class="button primary">Provide Feedback</a>
