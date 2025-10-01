@@ -6,19 +6,17 @@ The naming pattern for procedures is highly dependent on the attributes used to 
 
 The FSN for a procedure should name the action (the method) of the procedure first, and then the object that the action directly acts upon.
 
-For example,
-
-* 261531000 | Excision of rib (procedure)|
+* For example,
+  * 261531000 | Excision of rib (procedure)|
 
 Include the approach where more than one option exists. See the various approaches as subtypes of 103379005 |Procedural approach (qualifier value)|.
 
-For example,
-
-* 386792000 Transurethral resection of neoplasm of bladder (procedure) vs 287726000 Open resection of neoplasm of bladder (procedure)
+* For example,
+  * 386792000 Transurethral resection of neoplasm of bladder (procedure) vs 287726000 Open resection of neoplasm of bladder (procedure)
 
 Because a resection of a neoplasm of the bladder can be performed by transurethral and open approaches, concepts are separately identified with each approach.
 
-{% hint style="info" %}
+{% hint style="success" %}
 Use _via_ for route or approach and _using_ for device.
 
 For example,
@@ -37,11 +35,10 @@ PT: \<Method (Action)> of
 
 SYN: \[plasty/stomy/ectomy/otomy]
 
-For example,
+* For example,
+  * 82035006 | Resection of polyp (procedure)| has a synonym of polypectomy
 
-* 82035006 | Resection of polyp (procedure)| has a synonym of polypectomy
-
-{% hint style="info" %}
+{% hint style="success" %}
 **Please see potential naming patterns:**
 
 * Completed or in review:  [Pre-coordination Naming Patterns](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180)
@@ -109,7 +106,7 @@ Unacceptable example,
 
 ## Complexity
 
-Complexity can mean either the amount of effort required, or it can be based on realm-specific definitions (e.g. simple arthrodesis, simple repair, complex repair, etc.). Procedure concepts with modifiers representing complexity are not allowed in the International Release.
+Complexity can mean either the amount of effort required, or it can be based on realm-specific definitions (e.g., simple arthrodesis, simple repair, complex repair, etc.). Procedure concepts with modifiers representing complexity are not allowed in the International Release.
 
 {% hint style="warning" %}
 **Exception**
