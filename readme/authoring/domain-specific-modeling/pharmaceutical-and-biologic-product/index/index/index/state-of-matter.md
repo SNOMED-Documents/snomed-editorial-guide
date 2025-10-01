@@ -14,7 +14,7 @@
 | **Definition status** | Primitive                                       |
 | **Attributes**        | None                                            |
 
-## Terming
+## Naming
 
 ### FSN
 
@@ -56,9 +56,4 @@ Preferred; not required.
 
 <figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691147.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=State%20of%20Matter" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=State%20of%20Matter" class="button primary">Provide Feedback</a>
