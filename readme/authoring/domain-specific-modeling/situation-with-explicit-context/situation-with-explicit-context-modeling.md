@@ -108,7 +108,7 @@ _A subtype qualification_ refines the meaning of a concept. _Subtype_ _qualifica
 * For example,
   * A past history of replacement of the left hip may be represented by a SNOMED CT expression in which the focus concept, hip replacement, is refined by _laterality, left_ and enclosed in a context wrapper representing _past history_.
 
-{% hint style="danger" %}
+{% hint style="success" %}
 **Subtype qualification**
 
 Subtype qualification has also been called a _qualifier_ (e.g. ENV136060, GEHR, CTV3) or a _secondary status term_ (e.g. NHS Context of Care). In SNOMED CT, the term _subtype_ expresses more clearly the distinctive property of a qualifier. This is helpful because the meaning of _modify_ and _qualify_ are synonymous in many dictionaries and by some International Organization of Standardization (ISO) authorities.
@@ -124,7 +124,7 @@ For example,
 * The concept 52734007 | Total replacement of hip (procedure)| may be elaborated by stating that the procedure is planned for some future date. A record of planned total hip replacement does not imply that the patient has actually had a total hip replacement, i.e. it is not the default context for a procedure.
 * The concept 167272007 | Urine protein test not done (situation)| uses the context-modifying attribute Procedure context (attribute) and a value of Not done (qualifier value). This concept is not a subtype of 167271000 | Urine protein test (procedure)| , because its axis (hierarchy) is modified. Note that | not done| is no longer allowed. See the list disallowed naming patterns at [Pre-coordination Naming Patterns Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project).
 
-{% hint style="danger" %}
+{% hint style="info" %}
 **Axis modification**
 
 _Axis modification_ is not the same as _affirmation_ (present) or _negation_ (not present) of a concept, where the essential characteristics of the concept are unchanged.
@@ -132,7 +132,7 @@ _Axis modification_ is not the same as _affirmation_ (present) or _negation_ (no
 
 ### Affirmation and Negation
 
-Depending on perspective,_affirmation_ and _negation_ may simply be viewed as the inversion of meaning of an unelaborated concept that represents a _Clinical finding_. A concept may be stated in the _negative_ in a clinical situation (e.g. _meningism not present_). This creates the potential for a concept to represent two meanings, one of which is the inverse of the other. However, the effects of negation on interpretation are far-reaching and distinct from other elaborations.
+Depending on perspective, _affirmation_ and _negation_ may simply be viewed as the inversion of meaning of an unelaborated concept that represents a _Clinical finding_. A concept may be stated in the _negative_ in a clinical situation (e.g., _meningism not present_). This creates the potential for a concept to represent two meanings, one of which is the inverse of the other. However, the effects of negation on interpretation are far-reaching and distinct from other elaborations.
 
 Negation, like axis modification, results in a concept that is not a subtype of the unelaborated concept. However, negation explicitly rules out the unelaborated concept.
 
@@ -163,10 +163,10 @@ Two or more concepts may be embedded in a clinical situation in a way that links
 Once a concept has _context-shifted_ and become _context-dependent_ , it should not be used in an expression that once again shifts context. In other words, when one context attribute is given an axis modifying value, the other context attributes are fixed.
 
 * For example,
-  * The model for 430679000 | Family history of diabetes mellitus type 2 (situation)| _IS A_ Situation with explicit context (situation) with:&#x20;
-    * Subject relationship context of Person in family of subject (person)&#x20;
-    * Associated finding of Diabetes mellitus type 2 (disorder)&#x20;
-    * Finding context of Known present (qualifier value)&#x20;
+  * The model for 430679000 | Family history of diabetes mellitus type 2 (situation)| _IS A_ Situation with explicit context (situation) with:
+    * Subject relationship context of Person in family of subject (person)
+    * Associated finding of Diabetes mellitus type 2 (disorder)
+    * Finding context of Known present (qualifier value)
     * Temporal context of Current or past (actual) (qualifier value)
 
 Even though the _Family_ part of the concept results in an explicit axis shift of the Subject relationship context only, SNOMED CT requires default values for Finding context and Temporal context, rather than allowing them to be unspecified.
@@ -174,15 +174,10 @@ Even though the _Family_ part of the concept results in an explicit axis shift o
 To negate a _concept_ with Finding context (attribute) of Known present (qualifier value), the Finding context (attribute) should instead have a value of Known absent (qualifier value).
 
 * For example,
-  * The concept 160273004 | No family history: Hypertension (situation)| negates 160357008 | Family history: Hypertension (situation)| by changing the value of Finding context (attribute) to Known absent (qualifier value) with Temporal Context (attribute) of All times past (qualifier value). The parent _IS A_ Situation with explicit context (situation) with:&#x20;
-    * Temporal context of All times past (qualifier value)&#x20;
-    * Associated finding of Hypertensive disorder, systemic arterial (disorder)&#x20;
-    * Finding context of Known absent (qualifier value)&#x20;
+  * The concept 160273004 | No family history: Hypertension (situation)| negates 160357008 | Family history: Hypertension (situation)| by changing the value of Finding context (attribute) to Known absent (qualifier value) with Temporal Context (attribute) of All times past (qualifier value). The parent _IS A_ Situation with explicit context (situation) with:
+    * Temporal context of All times past (qualifier value)
+    * Associated finding of Hypertensive disorder, systemic arterial (disorder)
+    * Finding context of Known absent (qualifier value)
     * Subject Relationship Context of Person in family of subject (person)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Situation%20with%20Explicit%20Context%20Modeling" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Situation%20with%20Explicit%20Context%20Modeling" class="button primary">Provide Feedback</a>
