@@ -17,11 +17,13 @@ For example,
 For example, to create the concept, History of thyroid disease in father,
 
 * Subject relationship context (attribute) with the value, father (person)
-  * Associated finding (attribute), with the value, Disorder of thyroid gland (disorder)
+* Associated finding (attribute), with the value, Disorder of thyroid gland (disorder)
 
 Incorrect example,
 
-* Using Family history with explicit context (situation), \* Subject relationship context (attribute) with the value, father (person) \* Associated finding with value, Family history: Thyroid disorder (situation)
+* Using Family history with explicit context (situation),&#x20;
+  * Subject relationship context (attribute) with the value, father (person)&#x20;
+  * Associated finding with value, Family history: Thyroid disorder (situation)
 
 ## Finding context
 
@@ -41,11 +43,13 @@ For example,
 
 * 161077003 | Father smokes (situation)| with Associated finding, Smoker (finding) and Subject relationship context, Father of subject (person)
 
+{% hint style="info" %}
 Observables about someone other than the subject of record are included in the Observable entity hierarchy, not the Situation with explicit context hierarchy, e.g,. 443722004 |Educational level of parent of subject (observable entity).
+{% endhint %}
 
 ## Temporal context
 
-This attribute indicates the _time_ of the procedure or finding. It may be _actual_ _,_ i.e occurred in the present, in the past, at a specified time; or in the future, i.e. it is planned or expected. The most general value is simply Current or past (actual), meaning that the concept was actual (not planned or expected), but not specifying anything further about the time. The word _specified_ in the Temporal context| means that there is a date or time stamp associated with the concept in the record. The date and/or time is a point and/or interval, that applies to the concept.
+This attribute indicates the _time_ of the procedure or finding. It may be _actual,_ i.e., occurred in the present, in the past, at a specified time; or in the future, i.e., it is planned or expected. The most general value is simply |Current or past (actual) (qualifier value)|, meaning that the concept was actual (not planned or expected), but not specifying anything further about the time. The word _specified_ in the Temporal context means that there is a date or time stamp associated with the concept in the record. The date and/or time is a point and/or interval, that applies to the concept.
 
 For example,
 
@@ -69,9 +73,4 @@ For example,
 
 * 183976008 | Operative procedure planned (situation)| with Procedure context, Planned (qualifier value)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Situation%20with%20Explicit%20Context%20Defining%20Attributes" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Situation%20with%20Explicit%20Context%20Defining%20Attributes" class="button primary">Provide Feedback</a>
