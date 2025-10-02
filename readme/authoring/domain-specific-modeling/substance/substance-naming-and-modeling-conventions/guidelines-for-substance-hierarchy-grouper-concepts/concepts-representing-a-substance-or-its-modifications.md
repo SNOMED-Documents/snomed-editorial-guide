@@ -34,9 +34,8 @@ Substances may have zero to many |Is modification of attribute|(s).
 
 <figure><img src="../../../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
-#### For example,
-
-* Fluorothymidine (18-F) (substance)
+* For example,
+  * Fluorothymidine (18-F) (substance)
 
 <figure><img src="../../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
@@ -79,49 +78,42 @@ This is the **stated and inferred** view.
 
 Anhydrous salts have an 738774007 | Is modification of (attribute)| relationship to the unspecified salt.
 
-For example,
-
-* Theophylline anhydrous (substance) IS MODIFICATION OF Theophylline (substance).
+* For example,
+  * Theophylline anhydrous (substance) IS MODIFICATION OF Theophylline (substance).
 
 This is the **stated** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
-This os the **inferred** view:
+This is the **inferred** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
 The salts are modeled with an 738774007 | Is modification of (attribute)| the acid substance.
 
-For example,
-
-* Pamidronate monosodium (substance) IS MODIFICATION OF Pamidronic acid (substance). This is the **stated** and **inferred** view.
+* For example,
+  * Pamidronate monosodium (substance) IS MODIFICATION OF Pamidronic acid (substance). This is the **stated** and **inferred** view.
 
 <figure><img src="../../../../../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 Liposomal preparations are modifications of the chemical substance.
 
-For example,
-
-* Daunorubicin citrate liposome (substance)|
+* For example,
+  * Daunorubicin citrate liposome (substance)|
 
 <figure><img src="../../../../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 Pegylated substances are modeled with |s modification of (attribute)| generic substance, if such a substance has been made available. Not all pegylated medicinal substances have a non-pegylated form, as the non-pegylated form may have been too immunogenic or too toxic.
 
-For example,
-
-* 785674001 |Turoctocog alfa pegol (substance)|
+* For example,
+  * 785674001 |Turoctocog alfa pegol (substance)|
 
 <figure><img src="../../../../../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691450.png" alt=""><figcaption></figcaption></figure>
-
 Concepts specifying a particular physical form (e.g., micronized, macrocrystal, microsphere) should have a parent concept that relates to the structure of the substance and also an |Is modification of (attribute)| relationship to the unspecified substance concept.
 
-For example,
-
-* 414246008 |Fenofibrate micronized (substance)|
+* For example,
+  * 414246008 |Fenofibrate micronized (substance)|
 
 <figure><img src="../../../../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
