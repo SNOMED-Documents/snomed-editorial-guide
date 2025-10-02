@@ -1,6 +1,6 @@
 # Revision
 
-A _revision procedure_ may or may not be a subtype of the original procedure. Revision procedure concepts should be in the 118635009 |Revision (procedure)| sub-hierarchy.
+A _revision procedure_ may or may not be a subtype of the original procedure. Revision procedure concepts should be in the 118635009 |Revision (procedure)| subhierarchy.
 
 * For example,
   * 171839006 |Re-release of carpal tunnel (procedure)| is modeled as follows:
