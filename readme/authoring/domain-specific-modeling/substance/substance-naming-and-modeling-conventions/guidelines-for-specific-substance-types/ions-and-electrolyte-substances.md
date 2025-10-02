@@ -11,7 +11,7 @@ Previously, SNOMED CT represented ions and electrolytes as separate concepts. Al
 
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="178.6484375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concepts</strong></td><td><p>Most distal appropriate descendant of  86355000 | Electrolyte (substance)|</p><p>Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|</p></td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="178.6484375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concepts</strong></td><td><p>Most distal appropriate descendant of 86355000 | Electrolyte (substance)|</p><p>Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|</p></td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
 
 ## Naming
 
@@ -19,7 +19,7 @@ Previously, SNOMED CT represented ions and electrolytes as separate concepts. Al
 
 Pattern:
 
-* **X ion (substance)**&#x20;
+* X ion (substance)
 
 For example,
 
@@ -31,7 +31,7 @@ For example,
 
 Pattern:
 
-* **X ion**
+* X ion
 
 For example,
 
@@ -41,8 +41,8 @@ For example,
 
 ### Synonyms
 
-Pattern:**"Ionized X" and "X electrolyte"**\
-**Add "Ionised X" as GB synonym.**
+Patter&#x6E;**:** "Ionized X" and "X electrolyte"\
+Add "Ionised X" as GB synonym.
 
 For example,
 
@@ -64,9 +64,4 @@ The following illustrates the hierarchy view:
 
 <figure><img src="../../../../../../authoring/substance/images/174691613.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Ions%20and%20electrolyte%20substances" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Ions%20and%20electrolyte%20substances" class="button primary">Provide Feedback</a>
