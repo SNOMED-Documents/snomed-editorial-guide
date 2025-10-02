@@ -293,7 +293,7 @@
             * [Substance Groupers Based on Disposition](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-disposition.md)
             * [Substance Groupers Based on Both Structure and Disposition](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-both-structure-and-disposition.md)
             * [Concepts Representing a Substance or its Modifications](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/concepts-representing-a-substance-or-its-modifications.md)
-          * [Guidelines for Specific Substance Types](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/README.md)
+          * [Substance Specific Guidelines](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/README.md)
             * [Antibodies and antigens](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/antibodies-and-antigens.md)
             * [Antivenom](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/antivenom.md)
             * [Autoantibody](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/autoantibody.md)
