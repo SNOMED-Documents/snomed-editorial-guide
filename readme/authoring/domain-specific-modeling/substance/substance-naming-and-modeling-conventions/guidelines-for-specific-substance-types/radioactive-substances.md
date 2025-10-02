@@ -4,11 +4,13 @@
 
 ### Modeling
 
-<table data-header-hidden><thead><tr><th width="225.53125"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td><p>Most distal appropriate descendant of 89457008 |Radioactive isotope (substance)|</p><p>Most distal appropriate descendant of 33638001 |Isotope (substance)|</p></td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Is modification of</strong></p></td><td><ul><li>Range  &#x3C;105590001 |Substance (substance)|</li><li>Cardinality: 0..*</li><li>One relationship to be created to represent each modified component of the substance</li></ul></td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Has disposition</strong></p></td><td><ul><li><p>Range:  &#x3C;726711005 |Disposition (disposition)|</p><ul><li>NOTE: While the allowed range is broader, substance concepts should only use descendants of the concept 726711005 |Disposition (disposition)| as the attribute value.</li></ul></li><li>Cardinality: 0..1</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="225.53125"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td><p>Most distal appropriate descendant of 89457008 |Radioactive isotope (substance)|</p><p>Most distal appropriate descendant of 33638001 |Isotope (substance)|</p></td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Is modification of</strong></p></td><td><ul><li>Range &#x3C;105590001 |Substance (substance)|</li><li>Cardinality: 0..*</li><li>One relationship to be created to represent each modified component of the substance</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Has disposition</strong></p></td><td><ul><li><p>Range: &#x3C;726711005 |Disposition (disposition)|</p><ul><li>NOTE: While the allowed range is broader, substance concepts should only use descendants of the concept 726711005 |Disposition (disposition)| as the attribute value.</li></ul></li><li>Cardinality: 0..1</li></ul></td></tr></tbody></table>
 
 ### Naming
 
+{% hint style="warning" %}
 Superscripts should not be used in either Fully Specified Name, Preferred Term, or synonyms.
+{% endhint %}
 
 #### FSN
 
@@ -60,7 +62,7 @@ The following illustrates the **stated** and **inferred** view:
 
 ### Modeling
 
-<table data-header-hidden><thead><tr><th width="219.58984375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 89457008 |Radioactive isotope (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong>  </p><p><strong>Is modification of</strong></p></td><td><ul><li>Range  &#x3C;105590001 |Substance (substance)|</li><li>Cardinality: 0..*</li><li>One relationship to be created to represent each modified component of the substance</li></ul></td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Has disposition</strong></p></td><td><ul><li>Range:  &#x3C;726711005 |Disposition (disposition) |</li><li>NOTE: While the allowed range is broader, substance concepts should only use &#x3C;726711005 |Disposition (disposition)| as the attribute value.</li><li>Cardinality: 0..1</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="219.58984375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 89457008 |Radioactive isotope (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Is modification of</strong></p></td><td><ul><li>Range &#x3C;105590001 |Substance (substance)|</li><li>Cardinality: 0..*</li><li>One relationship to be created to represent each modified component of the substance</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Has disposition</strong></p></td><td><ul><li><p>Range: &#x3C;726711005 |Disposition (disposition) |</p><ul><li>NOTE: While the allowed range is broader, substance concepts should only use &#x3C;726711005 |Disposition (disposition)| as the attribute value.</li></ul></li><li>Cardinality: 0..1</li></ul></td></tr></tbody></table>
 
 ### Naming
 
@@ -70,7 +72,7 @@ Parentheses should be used to delineate the atomic number and chemical symbol fr
 
 #### FSN
 
-Pattern:  \[name of isotope] (\[atomic number]-\[chemical symbol]) \[salt] (substance)
+Pattern: \[name of isotope] (\[atomic number]-\[chemical symbol]) \[salt] (substance)
 
 For example,
 
@@ -80,7 +82,7 @@ For example,
 
 #### Preferred Term
 
-Pattern:  \[name of isotope] (\[atomic number]-\[chemical symbol]) \[salt]
+Pattern: \[name of isotope] (\[atomic number]-\[chemical symbol]) \[salt]
 
 For example,
 
@@ -98,7 +100,7 @@ The following illustrates the **stated** and **inferred** view:
 
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="208.640625"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 89457008 |Radioactive isotope (substance)| and a second parent identifying the labeled component</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Is modification of</strong></p></td><td><p>Range  &#x3C;105590001 |Substance (substance)|</p><p>Cardinality: 0..*</p><p>One relationship to be created to represent each modified component of the substance</p></td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Has disposition</strong></p></td><td><p>Range:  &#x3C;726711005 |Disposition (disposition) |</p><ul><li>While the allowed range is broader, substance concepts should only use &#x3C;726711005 |Disposition (disposition)| as the attribute value.</li></ul><p>Cardinality: 0..1</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="208.640625"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 89457008 |Radioactive isotope (substance)| and a second parent identifying the labeled component</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Is modification of</strong></p></td><td><p>Range &#x3C;105590001 |Substance (substance)|</p><p>Cardinality: 0..*</p><p>One relationship to be created to represent each modified component of the substance</p></td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Has disposition</strong></p></td><td><p>Range: &#x3C;726711005 |Disposition (disposition) |</p><ul><li>While the allowed range is broader, substance concepts should only use &#x3C;726711005 |Disposition (disposition)| as the attribute value.</li></ul><p>Cardinality: 0..1</p></td></tr></tbody></table>
 
 ### Naming
 
@@ -116,9 +118,4 @@ The following illustrates both the **stated** and **inferred** view:
 
 <figure><img src="../../../../../../authoring/substance/images/174691597.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Radioactive%20substances" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Radioactive%20substances" class="button primary">Provide Feedback</a>
