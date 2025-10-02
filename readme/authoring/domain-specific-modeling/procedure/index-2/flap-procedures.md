@@ -7,7 +7,7 @@ The concept model for flap procedures is based on three attributes in a role gro
 * 363701004 |Direct substance (attribute)| must have a value from the 256683004 |Flap (substance)| subhierarchy, and indicate the direct flap substance composition, and its blood supply.
 * 363701004 |Direct substance (attribute)| must be used for flap procedures (and **not** 424361007 |Using substance (attribute)|).
 * Flap substances exist for free flaps and pedicle flaps (<<261238005 |Free flap (substance)| and << 261235008 |Pedicle flap (substance)|) and reflect the fact that whether a flap is free or pedicle is also a function of its blood supply (i.e. completely unattached from its original blood supply, or still attached via a vascular pedicle).
-* Also see Flap (substance) editorial guidance.
+* Also see [Flap (substance) editorial guidance](../../substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/flap-substances.md).
 
 ### 260686004 |Method (attribute)|
 
@@ -62,7 +62,7 @@ The concept model for flap procedures is based on three attributes in a role gro
     * SYN: Reconstruction of breast with pedicle transverse rectus abdominis myocutaneous flap
     * SYN: Breast reconstruction using pedicle transverse rectus abdominis myocutaneous flap \[optional]
 
-{% hint style="danger" %}
+{% hint style="info" %}
 Existing flap procedure concepts may not align with this new terming. No new ‘flap graft’ procedures should be added going forward.
 {% endhint %}
 
