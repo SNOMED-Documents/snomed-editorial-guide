@@ -6,7 +6,7 @@
 
 ## Naming
 
-* Use _antivenom_ , not _antivenin_ , for FSNs and Preferred Terms. Synonyms containing _antivenin_ are not created routinely but may be created upon request.
+* Use _antivenom_, not _antivenin_, for FSNs and Preferred Terms. Synonyms containing _antivenin_ are not created routinely but may be created upon request.
 * FSNs should be based on the scientific name if there is a one-to-one correspondence. Naming conventions for polyvalent antivenoms (effective against multiple organisms) will not comply with this naming convention and will be evaluated on a case-by-case basis. Preferred Terms are based on the common name.
 * Synonyms based on the scientific name should be created in most cases.
 
@@ -44,13 +44,13 @@ Exception
 
 Pattern:
 
-* &#x20;A synonym that matches FSN (If not used Preferred term; see notes above)
+* A synonym that matches FSN (If not used Preferred term; see notes above)
 
 For example,
 
 * Chironex fleckeri antivenom
 
-Additional synonyms (e.g. when other legitimate synonyms exist for Organism name) are applicable and are evaluated on a case-by-case basis
+Additional synonyms (e.g., when other legitimate synonyms exist for Organism name) are applicable and are evaluated on a case-by-case basis
 
 For example,
 
@@ -64,9 +64,4 @@ The following illustrates the **stated** view of 699514008 |Chironex fleckeri an
 
 <figure><img src="../../../../../../authoring/substance/images/212337707.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Antivenom" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Antivenom" class="button primary">Provide Feedback</a>
