@@ -4,15 +4,11 @@ A regime/therapy is a set, sequence, or group of procedures. 243120004 |Regimes 
 
 Regime and therapies are either repeated multiple times or performed over an extended period of time.
 
-For example,
-
-* 716872004 |Antineoplastic chemotherapy regimen (regime/therapy)|
-
-This regime/therapy might include individual instances of administration of chemotherapy agents; the instances are at separate, predetermined periods of time.
-
+* For example,
+  * 716872004 |Antineoplastic chemotherapy regimen (regime/therapy)|
+    * This regime/therapy might include individual instances of administration of chemotherapy agents; the instances are at separate, predetermined periods of time.
 * 229586001 |Rest, ice, compression and elevation treatment program (regime/therapy)|
-
-This regime/therapy refers to repeated rest, ice, compression and elevation (RICE) for an indefinite period of time.
+  * This regime/therapy refers to repeated rest, ice, compression and elevation (RICE) for an indefinite period of time.
 
 Regime and therapies are focused on a single purpose but do not have any single sub-procedure as a necessary part.
 
