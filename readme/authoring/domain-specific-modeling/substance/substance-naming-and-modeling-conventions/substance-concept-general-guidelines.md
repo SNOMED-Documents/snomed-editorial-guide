@@ -43,10 +43,8 @@ Substance concepts should not include a strength.
 Substance concepts should not include a dose form or use case.
 
 * Exception: Substances that do not have stain as part of their approved name but are used as stains and are subtypes of 397165007 |Stain (substance)|
-
-For example,
-
-* 25351006 |Fluorescein sodium stain (substance)|
+  * For example,
+    * 25351006 |Fluorescein sodium stain (substance)|
 
 ***
 
