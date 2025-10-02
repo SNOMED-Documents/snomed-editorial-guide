@@ -14,7 +14,7 @@ For example,
 * Caffeine hydrate (substance) is modification of → Caffeine
 * Zinc sulfate heptahydrate (substance) is modification of → Zinc sulfate
 
-### Naming Guidelines
+### Naming&#x20;
 
 ### FSN
 
@@ -52,7 +52,7 @@ Caffeine hydrate (substance) IS MODIFICATION OF Caffeine (substance)
 
 ## Anhydrous compounds
 
-Anhydrous compounds have an 738774007 | Is modification of (attribute)| relationship to the unspecified substance, i.e. where the level hydration is not specified.
+Anhydrous compounds have an 738774007 | Is modification of (attribute)| relationship to the unspecified substance, i.e., where the level hydration is not specified.
 
 For example,
 
@@ -97,9 +97,4 @@ The following illustrates the **inferred** view.
 
 <figure><img src="../../../../../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Hydrates%20and%20anhydrous%20substances" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Hydrates%20and%20anhydrous%20substances" class="button primary">Provide Feedback</a>
