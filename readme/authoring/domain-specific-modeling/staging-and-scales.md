@@ -1,6 +1,6 @@
 # Staging and Scales
 
-<table><thead><tr><th width="345.71875">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>This hierarchy contains concepts which are named, authoritative, and internationally relevant staging or grading systems used to either make a judgment about the patient, e.g. cognition, or, evaluate a patient to determine the phase, or progression of a disease.</td><td><p></p><p>Assessment</p><ul><li>273472005 | Functional status index (assessment scale) |</li></ul><p>Staging</p><ul><li>254294008 | Tumor-node-metastasis (TNM) head and neck tumor staging (tumor staging) |</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="345.71875">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>This hierarchy contains concepts which are named, authoritative, and internationally relevant staging or grading systems used to either make a judgment about the patient, e.g. cognition, or, evaluate a patient to determine the phase, or progression of a disease.</td><td><p>Assessment</p><ul><li>273472005 | Functional status index (assessment scale) |</li></ul><p>Staging</p><ul><li>254294008 | Tumor-node-metastasis (TNM) head and neck tumor staging (tumor staging) |</li></ul></td></tr></tbody></table>
 
 Some diseases are represented using a staging and/or grading system to signify the severity, extent, or rate of growth of a disease. For example, _chronic kidney disease_ is represented with five stages determined by level of kidney function.
 
@@ -13,8 +13,8 @@ When adding an assessment to the 273249006 |Assessment scales (assessment scale)
 For example,
 
 * X assessment scale (assessment scale)
-  * Assessment using X assessment scale (procedure)
-  * X scale score (observable entity)
+* Assessment using X assessment scale (procedure)
+* X scale score (observable entity)
 
 Case sensitivity will most often be CS, except for the procedure concepts with descriptions beginning, "assessment using..."; these will use cl, _Only initial character case insensitive_.
 
@@ -22,31 +22,26 @@ Do not change the US/GB spelling variants for standardized names.
 
 For example,
 
-* Do not add a GB spelling for _World Health Organisation_ , as in 769390009 | World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale (assessment scale) |, because _World Health Organization_ is the proper name of the organization.
+* Do not add a GB spelling for _World Health Organisation_, as in 769390009 | World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale (assessment scale)|, because _World Health Organization_ is the proper name of the organization.
 
 A revised or modified version of an assessment is not a subtype of the original.
 
 ## Modeling
 
-Concepts of the type |Assessment using X assessment scale (procedure)| are modeled with a proximal primitive parent of 445536008 | Assessment using assessment scale (procedure) | or one of its subtypes, as appropriate. A Method of Evaluation-action (qualifier value) is also added.
+Concepts of the type |Assessment using X assessment scale (procedure)| are modeled with a proximal primitive parent of 445536008 | Assessment using assessment scale (procedure)| or one of its subtypes, as appropriate.  A Method of Evaluation-action (qualifier value) is also added.
 
 * For example,
-  * 445719003 | Assessment using visual analog pain scale (procedure)| has a parent of 445536008 | Assessment using assessment scale (procedure) |
+  * 445719003 |Assessment using visual analog pain scale (procedure)| has a parent of 445536008 |Assessment using assessment scale (procedure)|
 
-Concepts of the type | X scale score (observable entity) | are modeled with a proximal primitive parent of 782487009 | Assessment score (observable entity) | or one of its subtypes, as appropriate.
+Concepts of the type |X scale score (observable entity)| are modeled with a proximal primitive parent of 782487009 |Assessment score (observable entity) | or one of its subtypes, as appropriate.
 
 * For example,
-  * 165317007 | Mental disability discharge score (observable entity) | has a parent of 165314000 |Mental disability assessment score (observable entity) |
+  * 165317007 |Mental disability discharge score (observable entity)| has a parent of 165314000 |Mental disability assessment score (observable entity)|
 
 ### Relationship of total scores and subscores
 
 Subscores are not subtypes of total scores, nor are total scores subtypes of subscores. Thus, these concepts have sibling relationships.
 
-(See also _Why is Content Rejected_ page _, Proprietary Names_ for information about use of Questionnaire and Scale names)
+(See also [_Proprietary Names_](../scope/proprietary-names-and-works.md#clinical-forms-tools-or-assessment-scales) for information about use of Questionnaire and Scale names)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Staging%20and%20Scales" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Staging%20and%20Scales" class="button primary">Provide Feedback</a>
