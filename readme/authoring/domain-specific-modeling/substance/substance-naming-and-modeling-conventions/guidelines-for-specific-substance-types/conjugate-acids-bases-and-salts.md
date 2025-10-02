@@ -14,7 +14,7 @@ New instances of substance concepts containing the word _salt_ will not be added
 
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="231.39453125">Parent concept</th><th>Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Is Modification of</strong></p></td><td><p>Range  &#x3C;105590001 |Substance (substance)|</p><p>Cardinality: 0..1</p><p>Used to identify the conjugate acid</p></td></tr><tr><td><p><strong>Attribute:</strong> </p><p><strong>Has disposition</strong></p></td><td><p>Range:  &#x3C;726711005 |Disposition (disposition)|</p><ul><li>While the allowed range is broader, substance concepts should only use &#x3C;726711005 |Disposition (disposition)| as the attribute value.</li></ul><p>Cardinality: 0..1</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="231.39453125">Parent concept</th><th>Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 312413002 |Substance categorized structurally (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Is Modification of</strong></p></td><td><p>Range &#x3C;105590001 |Substance (substance)|</p><p>Cardinality: 0..1</p><p>Used to identify the conjugate acid</p></td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Has disposition</strong></p></td><td><p>Range: &#x3C;726711005 |Disposition (disposition)|</p><ul><li>While the allowed range is broader, substance concepts should only use &#x3C;726711005 |Disposition (disposition)| as the attribute value.</li></ul><p>Cardinality: 0..1</p></td></tr></tbody></table>
 
 ## Naming
 
@@ -30,7 +30,7 @@ Pattern:
 For example,
 
 * Copper sulfate (substance)
-* **Disodium pamidronate (substance)**
+* Disodium pamidronate (substance)
 * Etidronate (substance)
 
 Exception:
@@ -91,10 +91,4 @@ The following illustrates the **stated** and **inferred** views.
 
 <figure><img src="../../../../../../authoring/substance/images/174691579.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Conjugate%20acids%2C%20bases%20and%20salts" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Conjugate%20acids%2C%20bases%20and%20salts" class="button primary">Provide Feedback</a>
