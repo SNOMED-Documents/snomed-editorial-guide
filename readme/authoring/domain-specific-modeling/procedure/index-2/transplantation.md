@@ -3,7 +3,7 @@
 In a transplant procedure, the transplanted organ or tissue may not be in the same place as the original organ/structure, and the original organ/structure may or may not remain in situ.
 
 * For example, 70536003 |Transplant of kidney (procedure)|
-  * In most kidney transplants, the recipient’s own kidneys remain in situ, but in some cases the kidney is removed.  The new kidney is usually placed in the right iliac fossa, but not always; it can be placed in the left iliac fossa, retroperitoneal area, or sometimes within the abdominal cavity.
+  * In most kidney transplants, the recipient’s own kidneys remain in situ, but in some cases the kidney is removed. The new kidney is usually placed in the right iliac fossa, but not always; it can be placed in the left iliac fossa, retroperitoneal area, or sometimes within the abdominal cavity.
 
 Due to these reasons, encompassing a variety of scenarios depending on each particular organ and patient, << 24486003 |Structure of transplant (body structure)| is used for the target for 405813007 |Procedure site - Direct (attribute)| for transplantation procedures.
 
@@ -17,21 +17,16 @@ Due to these reasons, encompassing a variety of scenarios depending on each part
 
 <figure><img src="../../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
+{% hint style="success" %}
 See transplantation template at [Surgical transplantation (procedure)](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/134002135).
 {% endhint %}
 
-Consultation established that for tissue transplants, _graft_ and _transplant_ are used interchangeably with the preferred option being grafting procedure, with a transplant description placed as a synonym on the grafting procedure concept. &#x20;
+Consultation established that for tissue transplants, _graft_ and _transplant_ are used interchangeably with the preferred option being grafting procedure, with a transplant description placed as a synonym on the grafting procedure concept.
 
 * For example, 27493007 |Peripheral nerve graft (procedure)|
 
 <figure><img src="../../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-See [Grafting](grafting.md) for grafting procedure guidance.&#x20;
+See [Grafting](grafting.md) for grafting procedure guidance.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Transplantation" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Transplantation" class="button primary">Provide Feedback</a>
