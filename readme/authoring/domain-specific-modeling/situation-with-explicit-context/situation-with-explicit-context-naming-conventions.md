@@ -1,6 +1,6 @@
 # Situation with Explicit Context Naming Conventions
 
-For information on precoordinated naming patterns that have been reviewed or are currently in review, see [Pre-coordination Naming Patterns project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project).  Unreviewed patterns for the Situation with explicit context hierarchy can be found [here](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836/Unreviewed+Patterns+by+Hierarchy). New content should conform with the naming patterns; however, legacy content may not.
+For information on precoordinated naming patterns that have been reviewed or are currently in review, see [Pre-coordination Naming Patterns project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project). Unreviewed patterns for the Situation with explicit context hierarchy can be found [here](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836/Unreviewed+Patterns+by+Hierarchy). New content should conform with the naming patterns; however, legacy content may not.
 
 * For example,
   * **Acceptable naming pattern**
@@ -16,7 +16,7 @@ For information on precoordinated naming patterns that have been reviewed or are
 * Procedure done
 * Procedure not done
 
-Note that 385658003 |Done (qualifier value)| (a descendent of 410523001 |Post-starting action status (qualifier value)|) remains in use as the target value of the 408730004 |Procedure context (attribute)| in _History of_ concepts.
+Note that 385658003 |Done (qualifier value)| (a descendent of 410523001 |Post-starting action status (qualifier value)|) remains in use as the target value of the 408730004 |Procedure context (attribute)| in _History of \<procedure>_ concepts.
 
 Not every naming pattern is found in the Pre-coordination Naming Pattern project. Some naming patterns can be prescribed in [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/overview?homepageId=133988366). Others can come from trackers or fast track documents, such as the examples below.
 
@@ -43,9 +43,4 @@ For content relating to _family_ history, this must be specified in both the FSN
 * For example,
   * |_Past pregnancy history_ of neonatal death (situation)| versus |_Family_ _history_ of neonatal death (situation)|
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Situation%20with%20Explicit%20Context%20Naming%20Conventions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Situation%20with%20Explicit%20Context%20Naming%20Conventions" class="button primary">Provide Feedback</a>
