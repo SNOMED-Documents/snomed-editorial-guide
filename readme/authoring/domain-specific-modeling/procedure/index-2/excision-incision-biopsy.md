@@ -20,7 +20,7 @@ For example,
 
 ## Partial excision
 
-Concepts may include _partial_ \_\_ to indicate removal or excision of part of the organ. Specifying _partial excision_ does not differentiate between a partial excision _of_ or _from_ the organ.
+Concepts may include _partial_ to indicate removal or excision of part of the organ. Specifying _partial excision_ does not differentiate between a partial excision _of_ or _from_ the organ.
 
 For example,
 
@@ -51,7 +51,7 @@ For example,
 
 ## Incision
 
-An organ incision is any incisional act involving the organ; usually \_(organ)-otomy, \_or similar, is a synonym
+An organ incision is any incisional act involving the organ; usually (_organ_)-_otomy_, or similar, is a synonym
 
 For example,
 
@@ -63,7 +63,7 @@ Any _incision_ procedure that does not necessarily involve division (as opposed 
 
 ## Incisional biopsy
 
-Incisional biopsy of organ; incisional biopsy of lesion of organ; usually with open approach. Incisional biopsy of \[organ] necessarily implies incision and removal of a lesion, and is by definition a _partial excision_ , since the site is the organ, and an excision is done, but the entire lesion is not necessarily removed.
+Incisional biopsy of organ; incisional biopsy of lesion of organ; usually with open approach. Incisional biopsy of \[organ] necessarily implies incision and removal of a lesion, and is by definition a _partial excision_, since the site is the organ, and an excision is done, but the entire lesion is not necessarily removed.
 
 For example,
 
@@ -79,7 +79,7 @@ For example
 {% endhint %}
 
 {% hint style="success" %}
-**Modelling Biopsies**
+**Modeling Biopsies**
 
 Biopsies, like other removal procedures, may have two direct objects, the _morphology_ and the _site_. It is permissible to use Procedure site - Direct (attribute) for biopsies, even if subtypes might have a direct object that is a morphology.
 {% endhint %}
