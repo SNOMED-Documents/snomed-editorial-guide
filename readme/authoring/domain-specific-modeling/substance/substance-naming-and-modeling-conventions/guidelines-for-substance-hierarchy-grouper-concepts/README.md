@@ -1,6 +1,4 @@
-# Guidelines for Substance Hierarchy Grouper Concepts
-
-## Substance hierarchy grouper concepts
+# Substance Groupers
 
 In the SNOMED CT substance hierarchy, there are a large number of grouper concepts. Currently, groupers within the substances can be considered to be structural groupers, disposition groupers, or role based.
 
@@ -12,7 +10,7 @@ Groupers that organize substances by their chemical structure are used as the ma
 
 ### Dispositions Groupers
 
-In the context of substances, a disposition is “a behavior that a substance will exhibit or participate in, given the appropriate context.” This context-based definition of disposition would allow us to assign |Has disposition (attribute)| values that are necessarily true, even though the substance does not exhibit the disposition in all contexts.
+In the context of substances, a disposition is “a behavior that a substance will exhibit or participate in, given the appropriate context.”  This context-based definition of disposition would allow us to assign |Has disposition (attribute)| values that are necessarily true, even though the substance does not exhibit the disposition in all contexts.
 
 ### Role based Groupers
 
@@ -28,10 +26,4 @@ Known issues with use of Substance role groupers, including potential incorrect 
 * [Substance Groupers Based on Both Structure and Disposition](substance-groupers-based-on-both-structure-and-disposition.md)
 * [Concepts Representing a Substance or its Modifications](concepts-representing-a-substance-or-its-modifications.md)
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Guidelines%20for%20Substance%20Hierarchy%20Grouper%20Concepts" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Guidelines%20for%20Substance%20Hierarchy%20Grouper%20Concepts" class="button primary">Provide Feedback</a>
