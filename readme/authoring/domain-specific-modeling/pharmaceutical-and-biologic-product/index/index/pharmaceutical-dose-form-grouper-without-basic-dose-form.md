@@ -8,19 +8,18 @@ Pharmaceutical dose form grouper concepts that do not include a basic dose form 
 
 Grouper concepts concepts that do not include a basic dose form shall be modeled using the proximal primitive modeling pattern.
 
-| **Parent concept**                                                                             | 736542009 \|Pharmaceutical dose form (dose form)                                                                                                |
-| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                                                               | (dose form)                                                                                                                                     |
-| **Definition status**                                                                          | <p>Defined</p><p>Exception:</p><ul><li>Grouper concepts representing drug delivery systems will have a definition status of Primitive</li></ul> |
-| <p><strong>Attribute:</strong></p><p><strong>Has dose form release characteristic</strong></p> | Range: << 736480007                                                                                                                             |
-| <p><strong>Attribute:</strong></p><p><strong>Has dose form intended site</strong></p>          | Range: << 736479009                                                                                                                             |
-| <p><strong>Attribute:</strong></p><p><strong>Has dose form administration method</strong></p>  | Range: << 736665006                                                                                                                             |
+| **Semantic tag**                                                              | (dose form)                                                                                                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Definition status**                                                         | <p>Defined</p><p><strong>Exception</strong>:</p><ul><li>Grouper concepts representing drug delivery systems will have a definition status of Primitive</li></ul>                                                                                                                                                                                         |
+| <p><strong>Attribute:</strong></p><p>Has dose form release characteristic</p> | <p><strong>Range</strong>: <code>&#x3C;&#x3C; 736480007 |Dose form release characteristic (release characteristic)|</code></p><p></p><p><strong>Cardinality</strong>: 0..*<br></p><ul><li>While the allowed range is broader, the grouper concepts without basic dose form should have 1..1 |Has dose form release characteristic| attributes.</li></ul> |
+| <p><strong>Attribute:</strong></p><p>Has dose form intended site</p>          | <p><strong>Range</strong>: <code>&#x3C;&#x3C; 736479009 |Dose form intended site (intended site)</code></p><p></p><p><strong>Cardinality</strong>: 0..*<br></p><ul><li>While the allowed range is broader, the grouper concepts without basic dose form should have 1..* |Has dose form intended site| attributes.</li></ul>                             |
+| <p><strong>Attribute:</strong></p><p>Has dose form administration method</p>  | <p><strong>Range</strong>: <code>&#x3C;&#x3C; 736665006 |Dose form administration method (administration method)</code></p><p></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, the grouper concepts without basic dose form should have 1..1 |Has dose form administration method| attributes.</li></ul>         |
 
 ## Naming
 
 ### FSN
 
-For concepts with 736472000 |Has dose form administration method (attribute)| = 738996007 |Spray (administration method)|, use the following pattern for the FSN; align naming and case sensitivity with the FSN for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”.
+For concepts with `736472000 |Has dose form administration method (attribute)| = 738996007 |Spray (administration method)|`, use the following pattern for the FSN; align naming and case sensitivity with the FSN for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”.
 
 * \<Dose form release characteristic> \<Dose form intended site FSN> \<Dose form administration method> (dose form)
 
@@ -54,7 +53,7 @@ For example,
 
 ### Preferred Term
 
-For concepts with 736472000 |Has dose form administration method (attribute)| = 738996007 |Spray (administration method)|, use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”. Exclude \<Dose form release characteristic> when = 736849007 |Conventional release (release characteristic)|.
+For concepts with `736472000 |Has dose form administration method (attribute)| = 738996007 |Spray (administration method)|`, use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”. Exclude \<Dose form release characteristic> when = 736849007 |Conventional release (release characteristic)|.
 
 * \<Dose form release characteristic> \<Dose form intended site FSN> \<Dose form administration method>
 
@@ -66,7 +65,7 @@ For example,
 
 ***
 
-For concepts representing drops with 736472000 |Has dose form administration method (attribute)| = 738994005 |Instill (administration method)|, use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”. Exclude \<Dose form release characteristic> when = 736849007 |Conventional release (release characteristic)|.
+For concepts representing drops with `736472000 |Has dose form administration method (attribute)| = 738994005 |Instill (administration method)|`, use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”. Exclude \<Dose form release characteristic> when = 736849007 |Conventional release (release characteristic)|.
 
 * \<Dose form release characteristic> \<Dose form intended site FSN> \<Dose form administration method>
 

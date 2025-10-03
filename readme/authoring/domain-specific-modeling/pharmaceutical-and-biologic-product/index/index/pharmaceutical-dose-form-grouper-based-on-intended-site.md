@@ -10,11 +10,11 @@ These concepts are used in modeling (medicinal product form) concepts in the Int
 
 Pharmaceutical dose form grouper concepts based on intended site shall be modeled using the proximal primitive modeling pattern.
 
-| **Parent concept**                                                                    | 736542009 \|Pharmaceutical dose form (dose form) |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Semantic tag**                                                                      | (dose form)                                      |
-| **Definition status**                                                                 | Defined                                          |
-| <p><strong>Attribute:</strong></p><p><strong>Has dose form intended site</strong></p> | Range: << 736479009                              |
+| **Parent concept**                                                                    | `736542009 \|Pharmaceutical dose form (dose form)`                                                                                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Semantic tag**                                                                      | (dose form)                                                                                                                                                                                                                                                                                                                                   |
+| **Definition status**                                                                 | Defined                                                                                                                                                                                                                                                                                                                                       |
+| <p><strong>Attribute:</strong></p><p><strong>Has dose form intended site</strong></p> | <p><strong>Range</strong>:  <code>&#x3C;&#x3C; 736479009 |Dose form intended site (intended site)</code></p><p></p><p><strong>Cardinality</strong>: 0..*<br></p><ul><li>While the allowed range is broader, the grouper concepts based on dose form intended site should have one or more |Has dose form intended site| attributes.</li></ul> |
 
 ## Naming
 

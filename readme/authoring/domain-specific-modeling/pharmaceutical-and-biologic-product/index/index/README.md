@@ -37,10 +37,12 @@ Concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy:
 * Concepts in pattern "x for y for z" (e.g. Powder for concentrate for dispersion for infusion)
 * Concepts representing proprietary dose forms
 
+{% hint style="info" %}
 Concepts that are not allowed to be used in modeling Medicinal product concepts in the International Release may be added to the Pharmaceutical dose form hierarchy to support national extension modeling.
 
-* For example,
+* For example,&#x20;
   * 420378007 |Prolonged-release film-coated oral tablet (dose form)|)
+{% endhint %}
 
 ## Overview
 

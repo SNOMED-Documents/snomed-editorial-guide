@@ -11,12 +11,7 @@ The following high level vaccine-related grouper concepts are included in the |M
 
 ## Modeling
 
-| **Stated parent concept**                                                       | 763158003 \|Medicinal product (product) |
-| ------------------------------------------------------------------------------- | --------------------------------------- |
-| **Semantic tag**                                                                | (medicinal product)                     |
-| **Definition status**                                                           | Defined                                 |
-| <p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p> | Range: <<105590001                      |
-| <p><strong>Attribute:</strong></p><p><strong>Plays role</strong></p>            | Range: <<766940004                      |
+<table data-header-hidden><thead><tr><th width="270"></th><th></th></tr></thead><tbody><tr><td><strong>Stated parent concept</strong></td><td>763158003 |Medicinal product (product)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(medicinal product)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has active ingredient</p></td><td><p>Range: &#x3C;&#x3C;105590001 |Substance (substance)|<br></p><p>Cardinality: 0..*</p><p><em>Exception:  Top level grouper 787859002 |Vaccine product (medicinal product)| does not have a Has active ingredient (attribute).</em></p></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Plays role</p></td><td><p>Range: &#x3C;&#x3C;766940004 |Role (role)|<br></p><p>Cardinality: 0..*</p><ul><li>While the allowed range is broader, top level vaccine-related grouper concepts should have one and only one Plays role (attribute) with attribute value = 318331000221102 |Active immunity stimulant therapeutic role (role)|.</li></ul></td></tr></tbody></table>
 
 ## Naming
 

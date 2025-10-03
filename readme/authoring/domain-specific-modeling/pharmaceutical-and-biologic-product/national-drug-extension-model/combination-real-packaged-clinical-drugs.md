@@ -43,19 +43,29 @@ The (real) packaged clinical drug class is related to the clinical drug class by
 
 Representation of packaged medicinal products should use Clinical Drugs that have presentation strength (either only, or in addition to, concentration strength) whenever possible in order to be able to accurately describe the number of presentation units present in the package. The exception is for continuous products such as semi-solid dose forms of creams, gels, etc. where strength pattern 3a is used (see [Ingredient Strength Attributes](../../../../../authoring/pharmaceutical-and-biologic-product/Ingredient-Strength-Attributes_303923286.html)). In all cases, the pack size and pack size unit should relate to the denominator unit of the strength.
 
-| **Semantic tag**                                    | <p>(packaged clinical drug)</p><p>OR</p><p>(real packaged clinical drug)</p> |
-| --------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **Definition status**                               | 900000000000073002                                                           |
-| <p><strong>Attribute:</strong></p><p>1142143009</p> | Count of clinical drug type (attribute)                                      |
-| <p><strong>Attribute</strong>:</p><p>774158006</p>  | Has product name (attribute)                                                 |
-| <p><strong>Attribute</strong>:</p><p>774159003</p>  | Has supplier (attribute)                                                     |
-|                                                     |                                                                              |
+Here’s the combined Packaged Clinical Drug (PCD) / Real Packaged Clinical Drug (RPCD) table in the same GIRBook-ready style (no merged cells, consistent with your other six):
 
-| <p><strong>Role Group</strong><br>1..* for combination packaged clinical drugs</p> |                                    |
-| ---------------------------------------------------------------------------------- | ---------------------------------- |
-| <p><strong>Attribute:</strong></p><p>774160008</p>                                 | Contains clinical drug (attribute) |
-| <p><strong>Attribute:</strong></p><p>1142142004</p>                                | Has pack size (attribute)          |
-| <p><strong>Attribute:</strong></p><p>774163005</p>                                 | Has pack size unit (attribute)     |
+***
+
+<table data-header-hidden><thead><tr><th width="214.85546875"></th><th></th></tr></thead><tbody><tr><td>Semantic tag</td><td>(packaged clinical drug) OR (real packaged clinical drug)</td></tr><tr><td>Definition status</td><td><code>900000000000073002 |Sufficiently defined concept definition status (core metadata concept)|</code> — Note: This can only be the case if extensions author concepts to represent real clinical drugs and/or product names and manufacturer/supplier organisations.</td></tr></tbody></table>
+
+<table data-header-hidden><thead><tr><th width="222.37109375"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td><code>1142143009 |Count of clinical drug type|</code></td></tr><tr><td>Range</td><td>INT (integer)</td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>Provides the number (count) of distinct clinical drug concepts present in the package. For combination packages, this value should be greater than one.</td></tr></tbody></table>
+
+<table data-header-hidden><thead><tr><th width="227.58984375"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td><code>774158006 |Has product name|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 774167006 |Product name (product name)|</code></td></tr><tr><td>Cardinality</td><td>0..1</td></tr><tr><td>Notes</td><td>The attribute value should represent the (authorised) product name; may or may not be trademarked, often called the “brand name”. Should only be valued in rare cases when the combination product’s name differs from the names of its component real clinical drugs. Extensions must author product name concepts using the root of 774167006.</td></tr></tbody></table>
+
+<table data-header-hidden><thead><tr><th width="231.1953125"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td><code>774159003 |Has supplier|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 774164004 |Supplier (supplier)|</code></td></tr><tr><td>Cardinality</td><td>0..1</td></tr><tr><td>Notes</td><td>The attribute value should represent the holder of the marketing authorisation or authorisation for supply; may or may not be the organisation responsible for actual manufacture. Should only be valued in rare cases when the supplier for the combination product differs from the suppliers of its component real clinical drugs. Extensions must author supplier organisation concepts using the root of 774164004.</td></tr></tbody></table>
+
+***
+
+#### Role group \[1..\*] (for combination packaged clinical drugs)
+
+<table data-header-hidden><thead><tr><th width="238.52734375"></th><th></th></tr></thead><tbody><tr><td>Role Group Attribute</td><td><code>774160008 |Contains clinical drug|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 763158003 |Medicinal product (product)|</code></td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>Represents the real clinical drug contained in the packaged product. It is currently not possible to explicitly specify a range of (real) clinical drugs from a national extension to populate this attribute, since a range cannot recognise a semantic tag. For now, the range is specified as descendants of <code>763158003 |Medicinal product (product)|</code>.</td></tr></tbody></table>
+
+<table data-header-hidden><thead><tr><th width="238.6796875"></th><th></th></tr></thead><tbody><tr><td>Role Group Attribute</td><td><code>1142142004 |Has pack size|</code></td></tr><tr><td>Range</td><td>INT (integer)</td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>Represents the quantity of clinical drug in the role group present in the package. For presentation strength: number of countable units of presentation. For concentration strength: mass or volume of the continuous dose form.</td></tr></tbody></table>
+
+<table data-header-hidden><thead><tr><th width="244.54296875"></th><th></th></tr></thead><tbody><tr><td>Role Group Attribute</td><td><code>774163005 |Has pack size unit|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 767524001 |Unit of measure (qualifier value)|</code></td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>Represents the unit of measure of the pack size in the role group. For presentation strength: the unit of presentation in the package. For concentration strength: the unit of mass (e.g. gram) or volume (e.g. millilitre) of the continuous dose form. More specific range expressions (e.g. “One of either <code>&#x3C;732935002 |Unit of presentation| OR &#x3C;258680008 |Unit of mass| OR &#x3C;258769000 |Unit of volume|</code>”) are not supported, nor are conditional rules (e.g. “if the clinical drug has a unit of presentation of tablet then Has pack size unit = tablet”).</td></tr></tbody></table>
+
+***
 
 ## Example Diagrams
 

@@ -2,21 +2,21 @@
 
 ## Overview
 
-The basic dose form represents a general type of pharmaceutical formulation (e.g. tablet, capsule, cream, ointment, solution, emulsion) used for medicinal products. To support fully defining concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy, a hierarchy representing basic dose form is required.
+The basic dose form represents a general type of pharmaceutical formulation (e.g. tablet, capsule, cream, ointment, solution, emulsion) used for medicinal products. To support fully defining concepts in the `736542009 |Pharmaceutical dose form (dose form)|` hierarchy, a hierarchy representing basic dose form is required.
 
-Concepts in the 736478001 |Basic dose form (basic dose form)| hierarchy will be used to model concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy; they will not be used to model concepts in the 763158003 |Medicinal product (product)| hierarchy.
+Concepts in the `736478001 |Basic dose form (basic dose form)|` hierarchy will be used to model concepts in the `736542009 |Pharmaceutical dose form (dose form)|` hierarchy; they will not be used to model concepts in the `763158003 |Medicinal product (product)|` hierarchy.
 
-The 736478001 |Basic dose form (basic dose form)| hierarchy is a descendant of 362981000 |Qualifier value (qualifier value)|.
+The `736478001 |Basic dose form (basic dose form)|` hierarchy is a descendant of `362981000 |Qualifier value (qualifier value)|`.
 
 ## Modeling
 
 Descendants shall be modeled as follows.
 
-| **Parent concept**                                                                        | 736478001 \|Basic dose form (basic dose form)                                                                                                                 |
-| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                                                          | (basic dose form)                                                                                                                                             |
-| **Definition status**                                                                     | <p>Primitive</p><ul><li><p>Exceptions:</p><ul><li>Grouper concepts based on state of matter shall have <em>Defined</em> definition status</li></ul></li></ul> |
-| <p><strong>Attribute:</strong></p><p><strong>Has state of matter (attribute)</strong></p> | <p>Range: &#x3C;736471007 |State of matter (state of matter)</p><p>Cardinality: 1..1</p>                                                                      |
+| Parent concept                                                           | `736478001 \|Basic dose form (basic dose form)`                                                                                                               |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Semantic tag                                                             | (basic dose form)                                                                                                                                             |
+| Definition status                                                        | <p>Primitive</p><ul><li><p>Exceptions:</p><ul><li>Grouper concepts based on state of matter shall have <em>Defined</em> definition status</li></ul></li></ul> |
+| <p><strong>Attribute</strong>:</p><p>Has state of matter (attribute)</p> | <p><strong>Range</strong>: <code>&#x3C;736471007 |State of matter (state of matter)</code></p><p></p><p><strong>Cardinality</strong>: 1..1</p>                |
 
 ## Naming Guidelines for Grouper Concept
 
@@ -33,7 +33,7 @@ For example,
 
 ### Preferred Term
 
-Use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value.&#x20;
+Use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value.
 
 * \<State of matter PT> state of matter
 
@@ -110,9 +110,4 @@ Text definitions are not required but are encouraged.
 
 <figure><img src="../../../../../../../.gitbook/assets/image (90).png" alt=""><figcaption><p><strong>Inferred</strong> view for 739006009 |Solution (basic dose form)|</p></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Basic%20Dose%20Form" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Basic%20Dose%20Form" class="button primary">Provide Feedback</a>
