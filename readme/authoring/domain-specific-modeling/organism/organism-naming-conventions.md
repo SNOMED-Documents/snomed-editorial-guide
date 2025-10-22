@@ -356,14 +356,14 @@ In SNOMED CT, homotypic synonyms can be added as descriptions on concepts as per
 
 According to the _International Code of Nomenclature for algae, fungi, and plants_ (IAPT), as of 1 January 2013, the historical system of permitting separate names for anamorphs and telemorphs of fungi with a pleomorphic lifecycle was ended, and one fungus can only have one name. All legitimate names proposed for a species, regardless of what stage they are typified by, can serve as the correct name for that species. It has been recognized that there could be many names that might merit formal retention or rejection, and the problem of choosing one name among many remains to be examined for many species. Therefore, latest updates in the credible resources and/or scientific articles should be consulted for the most current name.
 
-## O Rough organisms
+## O Rough bacteria
 
-As the majority of existing content uses the format “O rough”, this is the recommended convention for the fully specified name and preferred term for new content.&#x20;
+There is currently no standard approach in authoritative sources for naming rough bacterial strains. Multiple representations of _rough_ organisms exist in the literature; however, in the absence of a formal standard, SNOMED International has adopted the notation “O rough” for the fully specified name and preferred term of new content.
 
 * For example,
   * 720764004 | _Yersinia enterocolitica_ serogroup O rough (organism)
 
-Other variations found in the literature — such as _O-rough_, _rough_, or _Orough_ — may be included as synonyms.
+Alternative representations, such as _O-rough_, _rough_, or _Orough_, may be included as synonyms when use case requires.
 
 ## Resources for organism naming
 
