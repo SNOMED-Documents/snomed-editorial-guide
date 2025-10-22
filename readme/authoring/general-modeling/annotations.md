@@ -29,6 +29,7 @@ SNOMED derivative products, such as mappings to/from other terminologies, should
 Annotations can be:
 
 * added to both new and legacy concepts.
+  * For legacy concepts, attribution may only be added if there is a change to the modeling of the concept to support the collaborating organization's definition.&#x20;
 * added in the international edition or extensions.
 * inactivated if incorrect or no longer relevant. An inactivation reason is not required. Each annotation attribute has its own requirements and rules on maintenance documented in separate guidance.
 
