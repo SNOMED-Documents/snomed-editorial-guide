@@ -80,23 +80,23 @@ There is a requirement for the inclusion of characteristic technologies that are
 
 ### Variants reviewed to date:
 
-“Antigen of X” is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.&#x20;
+“Antigen of X” is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.
 
-* X refers to a bacteria, virus, fungus, or parasite except when antigen refers to the organism “toxin/toxoid”, where it can only apply to a bacteria.&#x20;
+* X refers to a bacteria, virus, fungus, or parasite except when antigen refers to the organism “toxin/toxoid”, where it can only apply to a bacteria.
 
 “Antigen of live attenuated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.
 
-* It refers to attenuated whole cell bacteria or whole virus where the strains are made less virulent so infection is usually inapparent or very mild. It may be used in the creation of vaccine products for certain patient groups, and hence, is of clinical significance.&#x20;
-* The following subtypes are also in scope for the international release and are modeled in the Substance hierarchy as direct children of Antigen of live attenuated X. Note that in the following examples "human" and "bovine" refer to source organisms which are differentiated from the organism producing antigen, i.e., Rotavirus.&#x20;
+* It refers to attenuated whole cell bacteria or whole virus where the strains are made less virulent so infection is usually inapparent or very mild. It may be used in the creation of vaccine products for certain patient groups, and hence, is of clinical significance.
+* The following subtypes are also in scope for the international release and are modeled in the Substance hierarchy as direct children of Antigen of live attenuated X. Note that in the following examples "human" and "bovine" refer to source organisms which are differentiated from the organism producing antigen, i.e., Rotavirus.
   * “Live attenuated human X”, e.g., Antigen of live attenuated human Rotavirus serotype G1P\[8]
-  * “Live attenuated human-bovine reassortant X”, e.g., Antigen of live attenuated human-bovine reassortant Rotavirus serotype G1&#x20;
+  * “Live attenuated human-bovine reassortant X”, e.g., Antigen of live attenuated human-bovine reassortant Rotavirus serotype G1
 
-“Antigen of whole inactivated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.&#x20;
+“Antigen of whole inactivated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.
 
-* It refers to the killed version of the organism that causes a disease.&#x20;
+* It refers to the killed version of the organism that causes a disease.
 * As of the July 2020 release, the word "whole" is added to all new and existing concepts referring to "Antigen of inactivated X" to further clarify the differentiation between "Antigen of whole inactivated organism" (referring to a killed organism as a whole) and "Antigen of organism \[subunit]" (referring to subparts of an organism).
 
-“Antigen of acellular X” is in scope for the international release and is modeled in the Substance hierarchy as the direct child of "Antigen of X".&#x20;
+“Antigen of acellular X” is in scope for the international release and is modeled in the Substance hierarchy as the direct child of "Antigen of X".
 
 * "Antigen of acellular X", when it exists, can only apply to a bacteria.
 
@@ -104,10 +104,10 @@ There is a requirement for the inclusion of characteristic technologies that are
 
 * Subunit antigens differ from inactivated whole-cell antigens by referring only to the antigenic parts of the pathogen. These parts are necessary to elicit a protective immune response. The word “inactivated” does not need to be part of the name unless it is referring to a whole cell or a whole virus, i.e., for descriptions referring to a subunit, the word _inactivated_ will be omitted as redundant.
 * \[Subunit] refers to a sub-part of an organism i.e. a specific, isolated protein of the pathogen, a recombinant protein (made by recombinant DNA techniques), an inactivated toxin (toxoid), or a capsular polysaccharide/oligosaccharide coating of an encapsulated bacterium:
-  * "Antigen of X \[protein/recombinant protein]" is in scope for the international release and is modeled in the Substance hierarchy.&#x20;
+  * "Antigen of X \[protein/recombinant protein]" is in scope for the international release and is modeled in the Substance hierarchy.
     * It represents a specific, isolated protein of the pathogen or a recombinant protein.
     * When both "Antigen of X \[protein]" and "Antigen of X \[recombinant protein]" exist for X organism, they are modeled as siblings.
-  * “Antigen of X capsular polysaccharide/oligosaccharide" is in scope for the international release and is modeled in the Substance hierarchy.&#x20;
+  * “Antigen of X capsular polysaccharide/oligosaccharide" is in scope for the international release and is modeled in the Substance hierarchy.
     * It represents a polysaccharide/oligosaccharide antigen and acts as a grouper for the following:
       * "Antigen of X capsular polysaccharide/oligosaccharide unconjugated”, which represents a polysaccharide/oligosaccharide antigen without conjugation to any carrier protein or toxoid
       * “Antigen of X capsular polysaccharide/oligosaccharide conjugated”, represents a grouper concept and will be created in the international release and in the Substance hierarchy per request and (based on current ED guidelines) only if it has more than one child concept.
@@ -116,19 +116,19 @@ There is a requirement for the inclusion of characteristic technologies that are
           * Aggregating data for forecasting
         * The existing grouper concepts with just one child will not be deprecated at this time. However, requests for addition of these concepts will be rejected.
       * “Antigen of X capsular polysaccharide/oligosaccharide conjugated to Y”, which represents an oligosaccharide or polysaccharide antigen attached to a protein Y, where “Y” refers to a carrier protein to increase efficacy and immunogenicity e.g. Corynebacterium diphtheriae cross-reacting material 197 protein.
-        * It is the direct child of single parent "Antigen of X capsular polysaccharide/oligosaccharide conjugated".  There are no clinical use-case that requires association to the conjugated part of antigen as an additional parent. This classification is in line with all other similar concepts (modifications such as pegylated substances).
-  * “Antigen of X toxoid” is in scope for the international release and is modeled in the Substance hierarchy.&#x20;
+        * It is the direct child of single parent "Antigen of X capsular polysaccharide/oligosaccharide conjugated". There are no clinical use-case that requires association to the conjugated part of antigen as an additional parent. This classification is in line with all other similar concepts (modifications such as pegylated substances).
+  * “Antigen of X toxoid” is in scope for the international release and is modeled in the Substance hierarchy.
     * Like other subunit antigens, “Antigen of X toxoid” is classified under "Antigen of X". While the toxin is not an intrinsic part of the organism, it is a product of the organism that would not exist in the absence of that organism. In other words, there is always a direct association between the substance and the source organism. There are other antigenic proteins that are generated by the organism (e.g. surface protein) and they are classified as children of "Antigen X organism". The only difference, in comparison to toxoids, is that they are not being excreted by the organism.
     * Toxoid antigens are based on the toxin produced by certain bacteria (e.g., tetanus or diphtheria), which has been chemically processed so that it is still immunogenic. Once the toxin has been inactivated, it is called a toxoid.
     * A toxoid can be an antigen in its own right, or it can be conjugated to another antigen.
 * When referring to Organism parts/subunits:
   * Referring to more than one subunit (e.g., combined protein such as Bordetella pertussis FIM 2 and FIM 3 antigen) would not be acceptable for the Substance hierarchy; the combined protein needs to be modeled at the product level with more than one active ingredient.
   * Abbreviated organism subunit names such as "Corynebacterium diphtheriae **CRM197** protein", are not allowed in a fully specified name (and similar synonym). The FSN and similar synonym should only include the spelled-out terms, i.e., "Corynebacterium diphtheriae cross-reacting material 197 protein".
-  * Abbreviated organism part names are allowed in a preferred term (and other synonyms). The abbreviations do not need to be accompanied by the fully expanded term, which is an exception to the general naming guidelines on abbreviations and acronyms in the SNOMED CT Editorial Guide. T
+  * Abbreviated organism part names are allowed in a preferred term (and other synonyms). The abbreviations do not need to be accompanied by the fully expanded term, which is an exception to the general naming guidelines on abbreviations and acronyms in the SNOMED CT Editorial Guide.&#x20;
     * For example, the following PT includes CRM which is the abbreviated form for cross-reacting material.
       * Streptococcus pneumoniae Danish serotype 1 capsular polysaccharide antigen conjugated to Corynebacterium diphtheriae CRM197 protein
 
-Inclusion of Vaccine manufacturing techniques and/or residuals in antigen names is generally out of scope for the international release. However, exceptions can be made for applicable use cases.&#x20;
+Inclusion of Vaccine manufacturing techniques and/or residuals in antigen names is generally out of scope for the international release. However, exceptions can be made for applicable use cases.
 
 * "Antigen of X grown in nervous tissue" or "Antigen of X grown in cellular line" is acceptable for inactivated Rabies antigens grown in brain tissue or cell lines and is included in the international release, considering the difference in the adverse reactions that they cause. If and when created:
   * "Antigen of X grown in cellular line" will be a grouper and other subgroups will be added as needed, e.g., "grown in Human diploid cell".
@@ -222,7 +222,7 @@ The following illustrates the **stated** and **inferred** view:
 
 ### FSN
 
-Pattern:  Immunoglobulin G, M, A, E, D antibody to X organism (substance)
+Pattern: Immunoglobulin G, M, A, E, D antibody to X organism (substance)
 
 For example,
 
@@ -232,7 +232,7 @@ For example,
 
 ### Preferred Term
 
-Pattern:  X organism IgG, M, A, E, D
+Pattern: X organism IgG, M, A, E, D
 
 For example,
 
@@ -252,7 +252,7 @@ For example,
 
 For example,
 
-* &#x20;Anti-Clostridium difficile IgM
+* Anti-Clostridium difficile IgM
 
 Additional synonyms (e.g., when a legitimate synonyms exist for Organism name) are applicable.
 
@@ -268,9 +268,4 @@ The following illustrates the **stated** and **inferred** view:
 
 <figure><img src="../../../../../../authoring/substance/images/174691546.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Antibodies%20and%20antigens" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Antibodies%20and%20antigens" class="button primary">Provide Feedback</a>
