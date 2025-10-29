@@ -91,10 +91,10 @@ There is a requirement for the inclusion of characteristic technologies that are
   * “Live attenuated human X”, e.g., Antigen of live attenuated human Rotavirus serotype G1P\[8]
   * “Live attenuated human-bovine reassortant X”, e.g., Antigen of live attenuated human-bovine reassortant Rotavirus serotype G1
 
-“Antigen of whole inactivated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.
+“Antigen of inactivated whole X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.
 
 * It refers to the killed version of the organism that causes a disease.
-* As of the July 2020 release, the word "whole" is added to all new and existing concepts referring to "Antigen of inactivated X" to further clarify the differentiation between "Antigen of whole inactivated organism" (referring to a killed organism as a whole) and "Antigen of organism \[subunit]" (referring to subparts of an organism).
+* As of the July 2020 release, the word "whole" is added to all new and existing concepts referring to "Antigen of inactivated X" to further clarify the differentiation between "Antigen of inactivated whole  organism" (referring to a killed organism as a whole) and "Antigen of organism \[subunit]" (referring to subparts of an organism).
 
 “Antigen of acellular X” is in scope for the international release and is modeled in the Substance hierarchy as the direct child of "Antigen of X".
 
@@ -139,7 +139,7 @@ Inclusion of Vaccine manufacturing techniques and/or residuals in antigen names 
 * With the exception of conjugated proteins/toxoids that are in scope for the international release, inclusion of other adjuvants as well as delivery mechanisms (e.g., Aluminum Salts, Oil-in-Water Emulsions, Virosomes) is currently on hold and will be considered if and when associated requests and uses cases are presented.
 * "Purified" will not be included in antigen names as the clinical value of stating "Purified antigen" is not clear. In addition, in some cases, it is implied that an antigen is purified based on the preparation technique. This inconsistency in naming (stated vs. implied) can lead to misclassification. If needed, it can be accomplished by using groupers or other modeling considerations in future. But for now, adding a maintenance burden with very limited benefit does not seem valuable.
 * Inclusion of non-antigenic vaccine ingredients, such as preservatives and stabilizers, is out of scope for the international release.
-* For “Antigen of whole inactivated X”, the inactivation technique (e.g., heat inactivated, formalin inactivated) is out of scope for antigens in the International Release.
+* For “Antigen of inactivated whole X”, the inactivation technique (e.g., heat inactivated, formalin inactivated) is out of scope for antigens in the International Release.
 
 ### The classification of the antigen variants in the Substance hierarchy:
 
