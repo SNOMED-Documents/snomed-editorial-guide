@@ -300,6 +300,7 @@
             * [Conjugate acids, bases and salts](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/conjugate-acids-bases-and-salts.md)
             * [Deoxyribonucleic acid and ribonucleic acid](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/deoxyribonucleic-acid-and-ribonucleic-acid.md)
             * [Edible substances](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/edible-substance-and-descendants.md)
+            * [Extracts](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/extracts.md)
             * [Flap substances](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/flap-substances.md)
             * [Fractionated and unfractionated substances](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/fractionated-and-unfractionated-substances.md)
             * [Hydrates and anhydrous substances](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/hydrates-and-anhydrous-substances.md)
@@ -313,5 +314,4 @@
             * [Substances specifying free or unbound or unconjugated](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/substances-specifying-free-or-unbound-or-unconjugated.md)
             * [Substances specifying intact, fragment or subunit](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/substances-specifying-intact-fragment-or-subunit.md)
             * [Substances specifying physical state or physical form](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/substances-specifying-physical-state-or-physical-form.md)
-            * [Extracts](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/extracts.md)
         * [Supporting hierarchy - Disposition](readme/authoring/domain-specific-modeling/substance/supporting-hierarchy-disposition.md)

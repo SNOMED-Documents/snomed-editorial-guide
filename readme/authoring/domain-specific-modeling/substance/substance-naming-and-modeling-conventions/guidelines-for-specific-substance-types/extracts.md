@@ -6,7 +6,7 @@ Naming pattern:
 
 FSN:  \[Scientific name of source organism] \<part of plant> \<form> extract (substance)
 
-PT:  \[Common name of organism] \<part of plant> extract
+PT:  \[Common name of organism] \<part of plant> extract\*
 
 SYN:  \[Scientific name of source organism] \<part of plant> \<form> extract
 
@@ -14,7 +14,7 @@ SYN:  \[Scientific name of source organism] \<part of plant> \<form> extract
 Note:  Extraction method (via alcohol, water, CO2) is not required as it obscures the distinction between the substance and product hierarchies.  While the method of extraction is clinically important, types of solvents used in production are not required due to the need for less precise use cases.
 {% endhint %}
 
-For extracts that include form, the form should follow the source in the FSN and the corresponding SYN.  The PT can have the form either in front of or following the source, whichever is prevailing in the literature.&#x20;
+\*For extracts that include form, the form should follow the source in the FSN and the corresponding SYN.  The PT can have the form either in front of or following the source, whichever is prevailing in the literature.&#x20;
 
 * For example,&#x20;
   * FSN:  Betula dry extract (substance)
