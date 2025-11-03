@@ -195,13 +195,6 @@ In general, 47429007 |Associated with (attribute)| should be avoided due to the 
 
 There are a couple of exceptions when the use of 47429007 |Associated with (attribute)| is appropriate:
 
-**General grouping concepts which aggregate more specific associations**
-
-* For example,
-  * 6211002 |Polyarthritis associated with another disorder (disorder)| subsumes two children:
-    * 201972000 |Allergic arthritis of multiple sites (disorder)| modeled with _42752001 |Due to (attribute)|_ of 419076005 |Allergic reaction (disorder)|
-    * 422565003 |Post-infective polyarthritis (disorder)| modeled with _255234002 |After (attribute)|_ of 40733004 |Infectious disease (disorder)|
-
 #### Device infections
 
 * Involves an infection of the tissue surrounding an implanted or inserted device, not due to the device itself.
