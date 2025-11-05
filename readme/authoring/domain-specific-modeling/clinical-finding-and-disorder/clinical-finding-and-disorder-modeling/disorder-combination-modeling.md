@@ -105,7 +105,6 @@ For conditions specified as causal and temporal, construct the FSN with _due to_
 
 * Assign the causal disorder as the target of a _Due to_ relationship
 * When modeling only causation, ensure the caused condition is represented in the supertypes and/or axioms
-* When modeling co-occurrence and causation, ensure both the causal and the caused conditions are represented in the supertypes and/or axioms
 
 #### For a condition caused by a procedure <a href="#for-a-condition-caused-by-a-procedure" id="for-a-condition-caused-by-a-procedure"></a>
 
