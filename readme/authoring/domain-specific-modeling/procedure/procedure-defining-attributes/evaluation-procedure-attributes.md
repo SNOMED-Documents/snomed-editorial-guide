@@ -1,6 +1,6 @@
 # Evaluation Procedure Attributes
 
-The following defining attributes are unique in the context of the 386053000 |Evaluation procedure (procedure)| subhierarchy. Many of these attributes (e.g., Component, Scale type) are used to define Observable entity concepts. Evaluation procedures may use the attributes below in addition to those attributes allotted to the 71388002 | Procedure (procedure)| hierarchy (see [_Procedure Attributes Summary_](../)).  Attributes for Evaluation procedure concepts  are grouped.   The future of this hierarchy in relation to the observable entity hierarchy is under review. See '[Observable Entity vs. Evaluation Procedure](../../../observable-entity/#observable-entity-vs.-evaluation-procedure)' at Observable Entity.
+The following defining attributes are unique in the context of the 386053000 |Evaluation procedure (procedure)| subhierarchy. Many of these attributes (e.g., Component, Scale type) are used to define Observable entity concepts. Evaluation procedures may use the attributes below in addition to those attributes allotted to the 71388002 | Procedure (procedure)| hierarchy (see [_Procedure Attributes Summary_](../index.md)).  Attributes for Evaluation procedure concepts  are grouped.   The future of this hierarchy in relation to the observable entity hierarchy is under review. See '[Observable Entity vs. Evaluation Procedure](../../observable-entity/#observable-entity-vs.-evaluation-procedure)' at Observable Entity.
 
 ## Component
 
@@ -10,7 +10,7 @@ For example,
 
 * 442091000 | Measurement of ethanol using gas chromatography (procedure)| has 246093002 | Component (attribute)| of 419442005 | Ethanol (substance)|
 
-<figure><img src="../../../../../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Inferred view of 442091000 |Measurement of ethanol using gas chromatography (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Inferred view of 442091000 |Measurement of ethanol using gas chromatography (procedure)|</p></figcaption></figure>
 
 Although Pharmaceutical / biologic product (product) and its descendants are considered valid values for the Component (attribute), they are not currently used as values for this attribute in the International Release. The only exception is 787859002 |Vaccine product (medicinal product)| and its descendants, which are used as valid values for this attribute.
 
@@ -32,7 +32,7 @@ For example,
 
 * 442165003 | Quantitative measurement of polychlorinated biphenyl in blood specimen using gas chromatography (procedure)| has a 370129005 | Measurement method (attribute)| of 2842000 | Gas chromatography measurement (procedure)|
 
-<figure><img src="../../../../../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Stated view of 442165003 |Quantitative measurement of polychlorinated biphenyl in blood specimen using gas chromatography (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Stated view of 442165003 |Quantitative measurement of polychlorinated biphenyl in blood specimen using gas chromatography (procedure)|</p></figcaption></figure>
 
 ## Property
 
@@ -42,7 +42,7 @@ For example,
 
 * 19165008 | Measurement of limb length (procedure)| has a 370130000 | Property (attribute)| of 410668003 | Length property (qualifier value)|
 
-<figure><img src="../../../../../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Stated view of 19165008 |Measurement of limb length (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Stated view of 19165008 |Measurement of limb length (procedure)|</p></figcaption></figure>
 
 ## Scale type
 
@@ -64,14 +64,14 @@ For example - an evaluation procedure evaluating a property of a component:
 
 * 443834000 | Quantitative measurement of mass concentration of bismuth in urine specimen (procedure)| has 370130000 | Property (attribute)| of 118539007 | Mass concentration (property) (qualifier value)| and 246093002 | Component (attribute)| of 23172004 | Bismuth (substance)|
 
-<figure><img src="../../../../../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Inferred view of 443834000 |Quantitative measurement of mass concentration of bismuth in urine specimen (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Inferred view of 443834000 |Quantitative measurement of mass concentration of bismuth in urine specimen (procedure)|</p></figcaption></figure>
 
 For example - where property may be the sole focus of the method:
 
 * 78888000 | Osmolality measurement, urine (procedure)|
 
-<figure><img src="../../../../../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Inferred view of 78888000 |Osmolality measurement, urine (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Inferred view of 78888000 |Osmolality measurement, urine (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/procedure/images/174691353.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../authoring/procedure/images/174691353.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Evaluation%20Procedure%20Attributes" class="button primary">Provide Feedback</a>

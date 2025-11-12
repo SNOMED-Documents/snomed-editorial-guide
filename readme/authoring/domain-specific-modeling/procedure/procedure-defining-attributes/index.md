@@ -1,6 +1,6 @@
 # Procedure Attributes
 
-The following defining attributes correspond to the [_Procedure Attributes Summary_](../) table.
+The following defining attributes correspond to the [_Procedure Attributes Summary_](../index.md) table.
 
 {% hint style="info" %}
 **Self-grouped Attributes**
@@ -47,7 +47,7 @@ For example,
 
 * 231274008 |Injection of steroid into joint (procedure)| has Direct substance (attribute) of Steroid (substance)
 
-<figure><img src="../../../../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Stated view of 231274008 |Injection of steroid into joint (procedure)| with Direct substance (attribute) of Steroid (substance)</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Pharmaceutical / biologic product**
@@ -131,7 +131,7 @@ Exception,
 
 * Recipient category (attribute)
   * A single procedure concept should not be precoordinated when more than one Recipient Category is involved. Such complex statements should have two or more procedure concepts that are placed into an appropriately structured electronic health application.&#x20;
-  * See separate attribute entry for [_Recipient category_](./#recipient-category) below.
+  * See separate attribute entry for [_Recipient category_](index.md#recipient-category) below.
 
 No relationship group can contain more than one Method (attribute). If a procedure has more than one method, each Method (attribute) serves as the anchor of a separate relationship group that will contain any defining relationships that represent a direct object (and, where relevant, indirect object) of the Method's action. This is true even if the different Methods each act on the same direct object. Each relationship group can be thought of as representing a component of the procedure that involves a particular action.
 
@@ -158,11 +158,11 @@ For example,
 
 * 33195004 |External beam radiation therapy procedure (procedure)| has Procedure approach (attribute) of External approach (qualifier value).
 
-<figure><img src="../../../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 9795009 |Open reduction of orbital floor blowout fracture by periorbital approach (procedure)| has Procedure approach (attribute) of Periorbital approach (qualifier value).
 
-<figure><img src="../../../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ## Procedure device
 
@@ -253,7 +253,7 @@ For example,
     * Procedure site - Indirect of Structure of brachial vein (body structure)
     * Direct device of Venous catheter (physical object)
 
-    <figure><img src="../../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
 
 
 
@@ -262,7 +262,7 @@ For example,
   * Method of Removal - action (qualifier value)
   * Procedure site - Indirect of Urinary bladder structure (body structure)
 
-<figure><img src="../../../../../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Stated view of 371005009 |Removal of calculus of urinary bladder (procedure)|</p></figcaption></figure>
 
 ## Recipient category
 
@@ -296,7 +296,7 @@ For example,
 
 * 410572008 | Injection of steroid via intravitreal route (procedure)| has the | Route of administration (attribute)| of Intravitreal route (qualifier value)
 
-<figure><img src="../../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Stated view of 410572008 |Injection of steroid via intravitreal route (procedure)|</p></figcaption></figure>
 
 While the values for |Procedure site - Indirect| and |Route of administration| attributes may be similar and seem redundant, their presence is necessary for consistent subsumption.
 
