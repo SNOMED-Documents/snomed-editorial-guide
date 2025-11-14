@@ -33,13 +33,21 @@ Annotations can be:
 * added in the international edition or extensions.
 * inactivated if incorrect or no longer relevant. An inactivation reason is not required. Each annotation attribute has its own requirements and rules on maintenance documented in separate guidance.
 
-Annotations in annotation refsets can be found by using ECL queries for refset members. Currently, there is only data in the refset called _Component annotation refset with string value_ , so the following ECL query yields all SNOMED CT concepts currently with an annotation:
+Annotations in annotation refsets can be found by using ECL queries for refset members. Currently, there is only data in the refset called _Component annotation refset with string value_, so the following ECL query yields all SNOMED CT concepts currently with an annotation:
 
 {% code overflow="wrap" %}
 ```
 ^ 1292992004 |Component annotation with string value reference set (foundation metadata concept)|
 ```
 {% endcode %}
+
+The ECL query can filter the members via ^1292992004 \{{ M value="enter annotation string" \}}
+
+* For example,&#x20;
+
+```
+^1292992004 {{ M value="Inserm Orphanet" }}
+```
 
 {% hint style="warning" %}
 Concepts with annotations cannot be found by using text search in the browser.
