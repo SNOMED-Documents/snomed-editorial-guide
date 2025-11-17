@@ -115,7 +115,7 @@ When common usage requires it, there should be at least one description that has
 
 It is permitted and encouraged to include eponyms as descriptions (non-FSN descriptions) whenever they are understandable, reproducible, and useful in a given context.
 
-#### Exceptions <a href="#exceptions.1" id="exceptions.1"></a>
+### Exceptions <a href="#exceptions.1" id="exceptions.1"></a>
 
 Exceptions require careful consideration since eponyms meanings may change over time. They are allowed when:
 
@@ -126,14 +126,14 @@ Exceptions require careful consideration since eponyms meanings may change over 
   * These _proprietary_ eponyms may be included in the International Release as descriptions (non-FSN descriptions) if they meet the criteria for international inclusion.
   * They should follow the same rules as other eponyms. Whenever possible, they should not be included in FSNs (e.g. plastic adhesive bandage strip for Band-Aid).
 
-### Preferred prepositions <a href="#preferred-prepositions" id="preferred-prepositions"></a>
+## Preferred prepositions <a href="#preferred-prepositions" id="preferred-prepositions"></a>
 
 When constructing an FSN, the preposition 'of' is preferred over using the preposition 'in' to describe the morphology of an anatomic structure.
 
 * For example,
   * _Cyst of scalp_ should be used for the FSN and not _Cyst in scalp_ because the latter may indicate a morphology within a layer of the structure, whereas 'of' indicates the morphology is within the region of the anatomic structure.
 
-### Foundation hierarchies (body structure, substance, or organism) referenced in other hierarchy descriptions <a href="#foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio" id="foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio"></a>
+## Foundation hierarchies (body structure, substance, or organism) referenced in other hierarchy descriptions <a href="#foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio" id="foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio"></a>
 
 When creating the descriptions for a concept (e.g. a disorder concept) that name an entity such as a body structure, substance or organism, the conventions that are applied for naming the entity in the source hierarchy should be used.
 
@@ -153,7 +153,7 @@ The term _bladder_ must be include _urinary_ to distinguish from gallbladder in 
 
 The descriptions should be context neutral for these foundation hierarchies. Where context is explicit for a disease or procedure, the preferred term from foundation hierarchies can be used instead. For example, procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional. The procedure site should be modeled with the cross-sectional abdomen. However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'. It is the same reason for the preferred term 'CT of abdomen'.
 
-#### Exceptions <a href="#exceptions.2" id="exceptions.2"></a>
+### Exceptions <a href="#exceptions.2" id="exceptions.2"></a>
 
 * Where an infection caused by a microorganism has a common name, the common name of the disease can be used in the preferred term if accompanied by the explicitly-stated organism.
 * If a common name is shared between more than one organism, the organism preferred term may include the scientific name with annotated common name. Generally, a hyphen is used to separate the two names. However, if the organism name falls in the middle of the term, parentheses should be used to separate the two names.
@@ -175,7 +175,7 @@ Outside of the body structure hierarchy, concepts should not include the words _
   * For the body structure concept, 266005 |Structure of lower lobe of right lung (body structure)|, a procedure with this body structure is 726425007 |Lobectomy of lower lobe of right lung (procedure)|.
 {% endhint %}
 
-### Description Length Limitations <a href="#description-length-limitations" id="description-length-limitations"></a>
+## Description Length Limitations <a href="#description-length-limitations" id="description-length-limitations"></a>
 
 In the rare event that the 255-character limit of the fully specified name is reached, standard naming conventions may be circumvented in order to adhere to the 255-term string limit.
 
