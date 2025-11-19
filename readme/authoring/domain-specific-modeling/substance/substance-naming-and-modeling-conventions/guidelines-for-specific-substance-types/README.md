@@ -1,4 +1,21 @@
-# Guidelines for Specific Substance Types
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+
+# Substance Specific Guidelines
 
 This section of the document provides guidance for specific types of substances.
 
@@ -8,6 +25,7 @@ This section of the document provides guidance for specific types of substances.
 * [Conjugate acids, bases and salts](conjugate-acids-bases-and-salts.md)
 * [Deoxyribonucleic acid and ribonucleic acid](deoxyribonucleic-acid-and-ribonucleic-acid.md)
 * [Edible substances](edible-substance-and-descendants.md)
+* [Extracts](extracts.md)
 * [Flap substances](flap-substances.md)
 * [Fractionated and unfractionated substances](fractionated-and-unfractionated-substances.md)
 * [Hydrates and anhydrous substances](hydrates-and-anhydrous-substances.md)
@@ -22,9 +40,4 @@ This section of the document provides guidance for specific types of substances.
 * [Substances specifying intact, fragment or subunit](substances-specifying-intact-fragment-or-subunit.md)
 * [Substances specifying physical state or physical form](substances-specifying-physical-state-or-physical-form.md)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Guidelines%20for%20Specific%20Substance%20Types" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Guidelines%20for%20Specific%20Substance%20Types" class="button primary">Provide Feedback</a>
