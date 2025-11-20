@@ -4,7 +4,7 @@
 
 SNOMED CT uses a structure-entire-part triple, known as the _SEP triple_ , to represent anatomical structures. The following Relationships provided a way for the anatomy in CTV3 to be mapped to RT:
 
-<figure><img src="../../../../../images/174690324.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/174690324.png" alt=""><figcaption></figcaption></figure>
 
 The SNOMED CT anatomy hierarchy differentiates classes of entire anatomical entities from classes of _parts of_ entire anatomical entities.
 

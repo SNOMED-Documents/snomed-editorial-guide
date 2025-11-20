@@ -48,7 +48,7 @@ For example,
 
 * 70529004 | Lymphoid hyperplasia of appendix (disorder)| has | Associated morphology (attribute)| of 43961000 | Lymphoid hyperplasia (morphologic abnormality)| and a | Finding site (attribute)| of 45679000 | Appendiceal lymphoid nodule (body structure)|
 
-<figure><img src="../../../../images/174690343.png" alt=""><figcaption><p>Stated view of Lymphoid hyperplasia of appendix (disorder)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/174690343.png" alt=""><figcaption><p>Stated view of Lymphoid hyperplasia of appendix (disorder)</p></figcaption></figure>
 
 ## Associated with
 
@@ -66,7 +66,7 @@ For example,
 
 * 6211002 | Polyarthritis associated with another disorder (disorder)|
 
-<figure><img src="../../../../images/174690339.png" alt=""><figcaption><p>Stated view of 6211002 |Polyarthritis associated with another disorder (disorder)| using the |Associated with (attribute)|</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/174690339.png" alt=""><figcaption><p>Stated view of 6211002 |Polyarthritis associated with another disorder (disorder)| using the |Associated with (attribute)|</p></figcaption></figure>
 
 ## Before
 
@@ -187,7 +187,7 @@ Interprets and Has Interpretation are grouped together in a relationship group w
 
 For example,
 
-<figure><img src="../../../../images/174690341.png" alt=""><figcaption><p>Inferred view of Inadequate intake of vitamin D and vitamin D derivative (finding)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/174690341.png" alt=""><figcaption><p>Inferred view of Inadequate intake of vitamin D and vitamin D derivative (finding)</p></figcaption></figure>
 
 Qualifier values of |Below reference range| and |Above reference range| are preferred over values such as high/low, increased/decreased, etc. to describe Measurement finding (finding) concepts.
 
@@ -199,7 +199,7 @@ Interprets and Has Interpretation are grouped together in a relationship group w
 
 For example,
 
-<figure><img src="../../../../images/174690340.png" alt=""><figcaption><p>Stated view of |Decreased muscle tone (finding)|</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/174690340.png" alt=""><figcaption><p>Stated view of |Decreased muscle tone (finding)|</p></figcaption></figure>
 
 In general, the value for the |Interprets| attribute should be from the |Observable entity| hierarchy rather than the |Procedure| hierarchy.
 

@@ -19,7 +19,7 @@ In SNOMED CT, the default meaning of a concept is defined above. However, a conc
 
 The concept file includes a special concept referred to as the _root concep_ t. It is the single concept that is at the top of the SNOMED CT concept hierarchy. All other concepts are descended from this root concept via at least one series of relationships of the Relationship type 116680003 | Is a (attribute)| , i.e. all other concepts are regarded as subclasses of this concept. The root concept code is [138875005 | SNOMED CT Concept (SNOMED RT+CTV3)|](http://snomed.info/id/138875005) . All other SNOMED CT concepts are subtypes of the root concept. Unlike other SNOMED CT concepts, the root concept is not a subtype of any other concept.
 
-<figure><img src="../../images/174691759.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/174691759.png" alt=""><figcaption></figcaption></figure>
 
 ## Top-level Concepts
 

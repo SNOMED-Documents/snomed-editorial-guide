@@ -18,7 +18,7 @@ For example,
 
 * _Inserm Orphanet_ attribution annotation at 1332326002 |Isolated cleft lip (disorder)|
 
-<figure><img src="../../../images/256869352.png" alt=""><figcaption><p>Figure shows attribution annotation is located in details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/256869352.png" alt=""><figcaption><p>Figure shows attribution annotation is located in details tab of 1332326002 |Isolated cleft lip (disorder)| in the browser</p></figcaption></figure>
 
 {% hint style="success" %}
 SNOMED derivative products, such as mappings to/from other terminologies, should not be represented as annotations. Refsets have been developed for different types of maps which includes additional metadata, such as map group, priority, rule, and advice.

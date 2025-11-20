@@ -1,12 +1,12 @@
 # SNOMED CT Model Component
 
-| Definition                                                                                            | Types                                                                                                                                                                                                                                                                                          |
-| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Concepts and attributes necessary to organize and structure SNOMED CT terminology and its derivatives | <ul><li>900000000000442005 |Core metadata concept (core metadata concept)|</li><li> 900000000000454005 |Foundation metadata concept (foundation metadata concept)| </li><li>106237007 |Linkage concept (linkage concept)| </li><li>370136006 |Namespace concept (namespace concept)|</li></ul> |
+| Definition                                                                                            | Types                                |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| Concepts and attributes necessary to organize and structure SNOMED CT terminology and its derivatives | <ul><li>900000000000442005</li></ul> |
 
 ## SNOMED Model component module (metadata)
 
-<div align="left"><figure><img src="../../../images/174691388.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/174691388.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Core metadata concept
 
@@ -42,19 +42,14 @@ Users should beware that unapproved attributes can potentially
 
 New namespace concepts are requested via email to _info@snomed.org_. A SNOMED International staff terminologist will add new extension namespace identifiers as requests are received. It is also necessary to change the Module ID per the following:
 
-<figure><img src="../../../images/174691390.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/174691390.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **For more information**
 
-For further details, see _Namespace identifiers_ on the SNOMED website at: [https://www.snomed.org/use-snomed-ct](https://www.snomed.org/use-snomed-ct).&#x20;
+For further details, see _Namespace identifiers_ on the SNOMED website at: [https://www.snomed.org/use-snomed-ct](https://www.snomed.org/use-snomed-ct).
 
-Find the _Namespace Identifier Registry_ at [https://cis.ihtsdotools.org/info/](https://cis.ihtsdotools.org/info/)&#x20;
+Find the _Namespace Identifier Registry_ at [https://cis.ihtsdotools.org/info/](https://cis.ihtsdotools.org/info/)
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=SNOMED%20CT%20Model%20Component" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=SNOMED%20CT%20Model%20Component" class="button primary">Provide Feedback</a>
