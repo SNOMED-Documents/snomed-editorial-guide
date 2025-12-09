@@ -78,6 +78,8 @@ There is a requirement for the inclusion of characteristic technologies that are
 * Inclusion in the international release vs. national extensions
 * Hierarchy they belong to: Substance or Product
 
+To prevent the creation of transient or short-lived viral strain content, the International Release will not create specific viral variant strains or their corresponding antigen substance concepts when those variants have only brief or limited existence. For the purpose of defining clinical drugs or vaccine products in the International Release, stable higher-level parent virus or antigen concepts should be used instead. National Release Centers (NRCs) that require representation of specific viral variants for local regulatory or clinical use cases may create such concepts within their extensions.
+
 ### Variants reviewed to date
 
 “Antigen of X” is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.
