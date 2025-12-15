@@ -59,7 +59,7 @@ When a hyphen is used to join words or to separate syllables, there is no space 
   * Phospho-2-dehydro-3-deoxygluconate aldolase (substance)
   * Multidrug-resistant bacteria (organism)
   * Pandrug-resistant bacteria (organism)
-  * Extended spectrum beta-lactamase-producing bacteria (organism)
+  * Extended-spectrum beta-lactamase-producing bacteria (organism)
 
 A hyphen may be used to separate two phrases, to contrast values, or to show a relationship between two things. A hyphen should rarely be used in an FSN, because it may obscure the exact meaning of the description; the hyphen should be replaced with words that clarify the meaning.
 
