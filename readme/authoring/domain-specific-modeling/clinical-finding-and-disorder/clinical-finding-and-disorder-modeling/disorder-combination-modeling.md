@@ -194,10 +194,10 @@ In general, 47429007 |Associated with (attribute)| should be avoided due to the 
 
 There are a couple of exceptions when the use of 47429007 |Associated with (attribute)| is appropriate:
 
-#### Device infections
+#### Device complications
 
-* Involves an infection of the tissue surrounding an implanted or inserted device, not due to the device itself.
-  * _Associated with_ is used to associate the device with the infection.
+* _Associated with_ is used to associate the device with a complication where the device may not be a direct cause.
+  * For example, an infection of the tissue surrounding an implanted or inserted device is associated with the device but may not be due to the device itself.
 
 #### Intolerance to substances
 
