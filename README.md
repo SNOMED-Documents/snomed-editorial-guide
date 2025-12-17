@@ -1,22 +1,17 @@
 # SNOMED CT Editorial Guide
 
-The SNOMED CT Editorial Guide provides the information necessary to model concepts in SNOMED CT.&#x20;
+The SNOMED CT Editorial Guide provides the information necessary to model concepts in SNOMED CT.
 
-_**These guidelines should be applied to new content.  While there are many concepts in the existing content that are not in compliance with this guidance, the process of correcting existing content will be carried out as time and resources permit.**_
+_**These guidelines should be applied to new content. While there are many concepts in the existing content that are not in compliance with this guidance, the process of correcting existing content will be carried out as time and resources permit.**_
 
 SNOMED CT is distributed in sets of electronic files. Supporting software tools are not necessarily provided directly by SNOMED International.
 
 ***
 
-<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="readme/snomed-ct-introduction/">snomed-ct-introduction</a></td></tr><tr><td><a href="readme/concept-model-overview/">concept-model-overview</a></td></tr><tr><td><a href="readme/authoring/">authoring</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="readme/introduction-to-the-snomed-ct-editorial-guide.md">introduction-to-the-snomed-ct-editorial-guide.md</a></td></tr><tr><td><a href="readme/snomed-ct-introduction/">snomed-ct-introduction</a></td></tr><tr><td><a href="readme/concept-model-overview/">concept-model-overview</a></td></tr><tr><td><a href="readme/authoring/">authoring</a></td></tr></tbody></table>
 
 ***
 
 {% include "https://app.gitbook.com/s/5ePKL1wPtOcE6DS3HJBR/~/reusable/MLPTPVV150ldNmCkOl87/" %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=SNOMED%20CT%20Editorial%20Guide" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=SNOMED%20CT%20Editorial%20Guide" class="button primary">Provide Feedback</a>
