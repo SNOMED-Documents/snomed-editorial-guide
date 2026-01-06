@@ -96,4 +96,11 @@ Review is ongoing of all disorder concepts containing the phrase _fetal or neona
 
 Model as IS A 362972006 | Disorder of labor / delivery (disorder)| due to X (disorder).
 
+### Neonatal seizure (finding)
+
+The definition status of the concept 87476004 |Neonatal seizure (finding)| is to remain primitive for two reasons:
+
+* The time period where a neonatal seizure may occur  (from birth to 44 weeks postmenstrual age) differs from the period usually representing the neonatal phase of life (the first 28 days following birth).&#x20;
+* Defining this concept results in incorrect subsumption with types of epilepsy being classified as subtypes.  Epilepsy is not a type of seizure, rather an epileptic seizure is a manifestation of epilepsy.
+
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Maternal%2C%20fetal%2C%20neonatal" class="button primary">Provide Feedback</a>
