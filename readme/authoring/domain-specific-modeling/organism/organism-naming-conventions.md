@@ -154,7 +154,7 @@ Capitalization is applicable to the organism scientific name, e.g., Hepatitis B 
 
 The name of the associated disease does not require capitalization, e.g., hepatitis, buffalopox, cowpox, dengue, herpes, influenza, measles, orf, rabies, rubella, typhoid, smallpox, vesicular stomatitis, yellow fever.
 
-Non-taxonomic groupers, such as _human herpes simplex virus_ , _herpes simplex virus_ , _influenza virus_ , _h_ _uman immunodeficiency virus_ , and _human papillomavirus_ are recorded with a case sensitivity indicator of _Entire term case insensitive_ (ci).
+Non-taxonomic groupers, such as _human herpes simplex virus_ , _herpes simplex virus_ , _influenza virus_ , _human immunodeficiency virus_ , and _human papillomavirus_ are recorded with a case sensitivity indicator of _Entire term case insensitive_ (ci).
 
 There are cases where the authoritative resources do not have an entry for the official name of an organism. For these concepts, the associated literature is referenced for naming and case sensitivity assignments.
 
