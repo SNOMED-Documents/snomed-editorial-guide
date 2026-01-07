@@ -14,7 +14,7 @@ Organism concepts are used:
 
 ## Addition of new organism concepts
 
-Concepts that are in scope for international release and are supported by preliminary references will be added to the organism hierarchy. Upon addition of any new concept, if the immediate parent is missing, it will be added along with the requested concept.
+Concepts that are in scope for international release and are supported by primary references will be added to the organism hierarchy. Upon addition of any new concept, if the immediate parent is missing, it will be added along with the requested concept.
 
 ## Organisms with qualifiers
 
