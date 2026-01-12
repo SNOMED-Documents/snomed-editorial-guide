@@ -1,6 +1,6 @@
 # Clinical Finding and Disorder
 
-<table><thead><tr><th width="132.0546875">Hierarchy</th><th width="271.7578125">Definition</th><th>Example</th></tr></thead><tbody><tr><td>Clinical finding</td><td>Nnormal/abnormal observations, judgments, or assessments of patients</td><td>167222005 | Abnormal urinalysis (finding) |</td></tr><tr><td>Disorder</td><td>Always and necessarily an abnormal clinical state</td><td>39579001 | Anaphylaxis (disorder) |</td></tr></tbody></table>
+<table><thead><tr><th width="132.0546875">Hierarchy</th><th width="271.7578125">Definition</th><th>Example</th></tr></thead><tbody><tr><td>Clinical finding</td><td>Normal/abnormal observations, judgments, or assessments of patients</td><td>167222005 |Abnormal urinalysis (finding)|</td></tr><tr><td>Disorder</td><td>Always and necessarily an abnormal clinical state</td><td>39579001 |Anaphylaxis (disorder)|</td></tr></tbody></table>
 
 Clinical findings or observations are the active acquisition of subjective or objective information from a primary source. This includes information acquired from human observers, through recording of data via the use of scientific instruments, or indirectly from samples taken from the source, and evaluated separately.
 
@@ -49,10 +49,4 @@ In some cases the disease process is irrefutable, e.g., meningococcal meningitis
 [clinical-finding-and-disorder-modeling](clinical-finding-and-disorder-modeling/)
 {% endcontent-ref %}
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Finding%20and%20Disorder" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Clinical%20Finding%20and%20Disorder" class="button primary">Provide Feedback</a>
