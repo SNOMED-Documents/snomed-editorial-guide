@@ -16,7 +16,7 @@ Not only are the differences significant relative to a patient's health record, 
 
 ## Default context
 
-When a SNOMED CT concept appears in an EHR without any explicitly stated context, that concept is considered to have a _default context_. However, the information in the health record structure or information model, can override the default context.
+When a SNOMED CT concept appears in an EHR without any explicitly stated context, that concept is considered to have a _default context_. However, the information in the health record structure or information model can override the default context.
 
 Default context for a _Clinical finding_ concept implies that the finding is present (vs. being absent), that it applies to the subject of the record (the patient), and that it is current (or at a specified time in the past, linked to the concept).
 
