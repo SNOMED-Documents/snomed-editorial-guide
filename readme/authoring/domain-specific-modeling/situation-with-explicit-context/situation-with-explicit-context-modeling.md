@@ -7,7 +7,7 @@ In SNOMED CT, _context_ describes the effects of embedding a concept in a clinic
 For example,
 
 * When the concept 22298006 |Myocardial infarction (disorder)| is used in an EHR, it takes on a specific contextualized meaning. The meaning might be an assertion by the person entering the information, that on a given date, the patient was diagnosed with a _myocardial infarction._ Or, it may be used to document a complication of smoking, a protocol for chest pain, a medication contraindication, a part of a patient's medical history, a possible diagnosis justifying a diagnostic test, a diagnosis excluded by a diagnostic test, a patient's family history, etc.
-  * The concept for _breast cancer_ , 254837009 |Malignant neoplasm of breast (disorder)|, might be used to indicate either a current diagnosis of breast cancer, a family history of breast cancer, or a past history of breast cancer. Each of these three meanings differs in regard to the _context_ in which breast cancer is described.
+  * The concept for _breast cancer_, 254837009 |Malignant neoplasm of breast (disorder)|, might be used to indicate either a current diagnosis of breast cancer, a family history of breast cancer, or a past history of breast cancer. Each of these three meanings differs in regard to the _context_ in which breast cancer is described.
     * Current diagnosis of breast cancer indicates that the breast cancer is present now, and in this patient.
     * Family history of breast cancer refers to breast cancer occurring in a family member of a patient.
     * Past history of breast cancer indicates that the breast cancer occurred in the patient, at some time in the past, and it is not necessarily present now.
