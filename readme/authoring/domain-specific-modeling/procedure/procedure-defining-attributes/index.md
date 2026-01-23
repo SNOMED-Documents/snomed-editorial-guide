@@ -152,17 +152,19 @@ For example,
 
 ## Procedure approach
 
-Procedure approach (attribute) specifies the directional, relational, or spatial access to the site of a procedure. The range for 116688005 | Procedure approach (attribute)| is << 103379005 | Procedural approach (qualifier value)| .
+Procedure approach (attribute) specifies the directional, relational, or spatial access to the site of a procedure. The range for 116688005 |Procedure approach (attribute)| is << 103379005 |Procedural approach (qualifier value)| .
 
 For example,
 
-* 33195004 |External beam radiation therapy procedure (procedure)| has Procedure approach (attribute) of External approach (qualifier value).
+* 841021000000107 |Trabeculotomy by internal approach (procedure)| using |Internal approach (qualifier value)|
 
-<figure><img src="../../../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2026-01-23 at 11.04.36 AM.png" alt=""><figcaption></figcaption></figure>
 
-9795009 |Open reduction of orbital floor blowout fracture by periorbital approach (procedure)| has Procedure approach (attribute) of Periorbital approach (qualifier value).
 
-<figure><img src="../../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+* 6421000087103 |Fluoroscopic antegrade pyelography of right renal pelvis (procedure)| using |Antegrade approach (qualifier value)|
+
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2026-01-23 at 11.07.43 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## Procedure device
 
