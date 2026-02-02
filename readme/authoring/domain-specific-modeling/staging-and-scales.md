@@ -10,19 +10,17 @@ Generally, requests to add the most recent version of an assessment scale are ac
 
 When adding an assessment to the 273249006 |Assessment scales (assessment scale)| subhierarchy, also add corresponding concepts in the procedure and observable entity hierarchies:
 
-For example,
-
-* X assessment scale (assessment scale)
-* Assessment using X assessment scale (procedure)
-* X scale score (observable entity)
+* For example,
+  * X assessment scale (assessment scale)
+  * Assessment using X assessment scale (procedure)
+  * X scale score (observable entity)
 
 Case sensitivity will most often be CS, except for the procedure concepts with descriptions beginning, "assessment using..."; these will use cl, _Only initial character case insensitive_.
 
 Do not change the US/GB spelling variants for standardized names.
 
-For example,
-
-* Do not add a GB spelling for _World Health Organisation_, as in 769390009 | World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale (assessment scale)|, because _World Health Organization_ is the proper name of the organization.
+* For example,
+  * Do not add a GB spelling for _World Health Organisation_, as in 769390009 | World Health Organization Adult Attention-Deficit Hyperactivity Disorder Self-Report Scale (assessment scale)|, because _World Health Organization_ is the proper name of the organization.
 
 A revised or modified version of an assessment is not a subtype of the original.
 
@@ -33,10 +31,12 @@ Concepts of the type |Assessment using X assessment scale (procedure)| are model
 * For example,
   * 445719003 |Assessment using visual analog pain scale (procedure)| has a parent of 445536008 |Assessment using assessment scale (procedure)|
 
-Concepts of the type |X scale score (observable entity)| are modeled with a proximal primitive parent of 782487009 |Assessment score (observable entity) | or one of its subtypes, as appropriate.
+Concepts of the type |X scale score (observable entity)| are modeled with a proximal primitive parent of 782487009 |Assessment score (observable entity) | or one of its subtypes, as appropriate. A |Technique (attribute)| with appropriate value from <<254291000 |Staging and scales (staging scale)| is also added when possible.
 
 * For example,
   * 165317007 |Mental disability discharge score (observable entity)| has a parent of 165314000 |Mental disability assessment score (observable entity)|
+* For example,
+  * 1357715007 |Clinical Risk Index for Babies II score (observable entity)| has a |Technique (attribute)| value of 1357714006 |Clinical Risk Index for Babies II (assessment scale)|
 
 ### Relationship of total scores and subscores
 
