@@ -21,7 +21,9 @@ A well formed FSN includes:
 * Procedures in present tense, not past tense
 * A semantic tag in parentheses at the end
 
-An FSN with an approved disjunctive (although not often used), e.g., |Traumatic and/or non-traumatic injury of back (disorder)| should have lower case _and/or_.
+An FSN with an approved disjunctive (although not often used) should have lower case _and/or._
+
+* For example, |Traumatic **and/or** non-traumatic injury of back (disorder)|
 
 An FSN should not have:
 
