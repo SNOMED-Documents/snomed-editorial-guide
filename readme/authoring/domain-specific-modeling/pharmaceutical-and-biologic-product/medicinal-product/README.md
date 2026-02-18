@@ -6,13 +6,13 @@ The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pha
 
 ## General Assumptions and Requirements
 
-| Assumption or Requirement                                                                                                                                                                                                                                |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The top level concepts in the hierarchy will primarily be sufficiently defined grouper concepts.                                                                                                                                                         |
-| Any requirement to align to external standards or registries will be explicitly documented. Concept model will be compatible with ISO's Identification of Medicinal Products (IDMP) standards (where appropriate).                                       |
-| Concepts shall be sufficiently defined using proximal primitive modeling methodology unless explicitly noted as an exception in the editorial guidelines.                                                                                                |
-| Concept model supports neither universal restrictions nor nesting.                                                                                                                                                                                       |
-| <p>Content in the |Medicinal product| hierarchy in the International Release is not intended to: </p><p>-support prescribing use cases, but may be sufficient to do so for some implementations. </p><p>eliminate the need for a national extension.</p> |
+| Assumption or Requirement                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The top level concepts in the hierarchy will primarily be sufficiently defined grouper concepts.                                                                                                                                                          |
+| Any requirement to align to external standards or registries will be explicitly documented. Concept model will be compatible with ISO's Identification of Medicinal Products (IDMP) standards (where appropriate).                                        |
+| Concepts shall be sufficiently defined using proximal primitive modeling methodology unless explicitly noted as an exception in the editorial guidelines.                                                                                                 |
+| Concept model supports neither universal restrictions nor nesting.                                                                                                                                                                                        |
+| <p>Content in the |Medicinal product| hierarchy in the International Release is not intended to: </p><p>-support prescribing use cases, but may be sufficient to do so for some implementations. </p><p>-eliminate the need for a national extension.</p> |
 
 ## Out of Scope
 
@@ -29,8 +29,6 @@ The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pha
 * Flavors
 * Investigational products/Products under development but not marketed in any member country
   * _Exceptions may be made on a case-by-case basis (e.g., adding investigational products that are being widely used in pandemic)._
-* Medicinal product (MP) and Medicinal product form (MPF) concepts without Clinical drug (CD) descendants
-  * _There are historical concepts that do not have descendant CDs; this is not a pattern that will continue moving forward (e.g., MPs and MPFs are not created unless needed to support classification of a CD)._
 * Packs
 * Products intended only for non-human use
 * Products no longer marketed or available for sale
