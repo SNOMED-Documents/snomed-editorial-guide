@@ -146,6 +146,7 @@ This attribute is used to specify the systematic method of an observation.
 
 * For example,
   * Presence of Brucella abortus antibody in serum by latex agglutination (observable entity) has the 246501002 | Technique (attribute) | of 703448004 | Latex agglutination test technique (qualifier value) |
+  * 146611000146107 |Breast Imaging Reporting and Data System assessment category (observable entity)| has the 246501002 | Technique (attribute) | of 1348266008 |Breast Imaging and Reporting and Data System (assessment scale)|&#x20;
 
 ## Time Aspect
 
