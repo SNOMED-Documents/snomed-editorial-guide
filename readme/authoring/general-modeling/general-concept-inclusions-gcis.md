@@ -26,7 +26,7 @@ Here is the same concept in the _inferred_ view without the GCIs appearing:
 
 General concept inclusions allow multiple definitions of a concept. A group of subtypes may be defined using GCIs and be considered subtypes of the parent concept without fully defining that parent concept. That parent concept could have multiple definitions, each of which is valid but none of which completely describes the parent concept on its own.
 
-When modeling a concept that will be classified under a GCI-modeled concept, there is no need to add the GCI-modeled concept as a stated parent, even if that GCI concept is primitive, because subsumption still occurs due to the GCI axiom.
+When modeling a concept intended to be a subconcept of a GCI concept defined by General Concept Inclusion (GCI) axioms, it is unnecessary to state the GCI concept as a parent if the logic of the concept being modeled is already covered by a GCI axiom. This holds true even if the GCI-modeled concept is primitive, as the GCI axioms ensure that the correct subsumption relationship is inferred regardless.
 
 * For example,
   * 281372009 |Lumbarized first sacral vertebra (disorder)|
