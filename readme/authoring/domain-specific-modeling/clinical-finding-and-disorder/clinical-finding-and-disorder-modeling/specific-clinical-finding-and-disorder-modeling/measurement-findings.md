@@ -8,6 +8,7 @@ The following applies to the subcategory of 118245000 |Measurement finding (find
   * Existing acceptable descriptions with _High_ , _Raised_ , _Elevated_ , _Increased_ , _Low_ , _Decreased_ , _Normal_ , and _Abnormal_ can remain.
 * _Borderline_ measurement findings are ambiguous and should not be added.
 * False positive and false negative measurement findings should not be included.
+* Clinical measurements concerning specific parts of the body should be modeled with a Finding site relationship if an appropriate body structure is available in addition to the role group with Interprets (attribute) and Has interpretation (attribute).
 
 See [template](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133999191)
 
