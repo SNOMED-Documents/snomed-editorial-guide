@@ -14,11 +14,9 @@ Concepts representing dispositions in the |Substance| hierarchy shall be suffici
 
 This section applies to the |Substance| hierarchy in the International Release:
 
-### Scope
+### In Scope
 
-| Substances that support the modeling of concepts in other SNOMED CT hierarchies including but are not limited to: Medicinal product, Clinical finding, Procedure, Observable Entity, and Specimen                                                                                                                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Substances that support the modeling of the existing herbal products in SNOMED CT</p><p></p><p>• 418165002 |Herbal medicine agent (substance)| is a role and will be replaced in future. Its descendants will be retained “as is” until use cases and/or detailed requirements are known. Requests for addition of new concepts or for modification of existing concepts will be evaluated on a case-by-case basis.</p> |
+Substances that support the modeling of concepts in other SNOMED CT hierarchies, including but  not limited to: Medicinal product, Clinical finding, Procedure, Observable Entity, and Specimen
 
 ### Out of Scope
 
