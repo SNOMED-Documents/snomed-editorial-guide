@@ -15,9 +15,17 @@ The following attributes are self-grouped, meaning they are not grouped with any
 
 Access (attribute) describes the route used to access the site of a procedure. It distinguishes open, closed, and percutaneous procedures.
 
-For example,
+* For example,
+  * 174572001 | Open removal of bile duct stent (procedure)| has |Access (attribute)| of Open approach - access (qualifier value)
 
-* 174572001 | Open removal of bile duct stent (procedure)| has Access of Open approach - access (qualifier value)
+The Access (attribute) should only be used if there is more than one possible route for that specific procedure.
+
+* For example,
+  * Cesarean section (procedure) does not need the Access (attribute) because _open_ is the only possible route.
+
+If a procedure (like a biopsy) can be done via multiple routes, the Access (attribute) must be used if the route is inherent to that specific procedure, even if the FSN does not explicitly state it.\
+\
+For all new procedures, if multiple routes are possible, the specific access route must be stated in the FSN.  Legacy content will be addressed as resources allow.
 
 ## Direct device
 
