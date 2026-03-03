@@ -14,7 +14,7 @@ SYN:  \[Scientific name of source organism] \<part of plant> extract
 Note:  Extraction method (via alcohol, water, CO2) is not required as it obscures the distinction between the substance and product hierarchies.  While the method of extraction is clinically important, types of solvents used in production are not required due to the need for less precise use cases.
 {% endhint %}
 
-#### Extracts that include form
+### Extracts that include form
 
 For extracts that include form (such as _dry_), the form should follow the source in the FSN and the corresponding SYN.  The PT can have the form either in front of or following the source, whichever is prevailing in the literature.&#x20;
 
@@ -23,7 +23,18 @@ For extracts that include form (such as _dry_), the form should follow the sourc
   * PT:  Dry birch extract
   * SYN:  Betula dry extract
 
-#### Level of specificity
+### Naming references
+
+Preferred references for plant scientific and common names include the following:
+
+* Integrated Taxonomic Information System
+* Catalogue of Life
+
+Thermo Fisher Scientific may be consulted for allergens. &#x20;
+
+The Global Substance Registration System (GSRS) is a good resource for substance names (INN, chemical names) but not necessarily the best for synonyms.&#x20;
+
+### Level of specificity
 
 Some requests are for extracts of which the genus is too broad, while the requirement for the species is too specific.  In these cases, the common name can be used; a scientific name is not used.&#x20;
 
@@ -32,7 +43,7 @@ Some requests are for extracts of which the genus is too broad, while the requir
 
 > _See related section at_ [General Naming Conventions | Specifications SNOMED CT Editorial Guide | SNOMED International Documents](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/general-naming-conventions#exceptions.2)
 
-#### Extract is not a type of the plant
+### Extract is not a type of the plant
 
 Though an extract is derived from a substance, it is not a type of that substance.&#x20;
 

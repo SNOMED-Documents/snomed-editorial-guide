@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Substance Specific Guidelines
 
 This section of the document provides guidance for specific types of substances.
