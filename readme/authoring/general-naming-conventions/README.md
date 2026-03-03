@@ -148,10 +148,13 @@ When creating the descriptions for a concept (e.g. a disorder concept) that name
     * This concept references the body structure hierarchy in the finding site of 89837001 |Urinary bladder structure (body structure)| and uses "urinary bladder" in the FSN and PT.
 
 {% hint style="info" %}
-The term _bladder_ must be include _urinary_ to distinguish from gallbladder in order to aid in translation. _Urinary bladder_ must be used in both the fully specified name and preferred term.
+The term _bladder_ must include _urinary_ to distinguish from gallbladder and aid in translation. _Urinary bladder_ must be used in both the fully specified name and preferred term.
 {% endhint %}
 
-The descriptions should be context neutral for these foundation hierarchies. Where context is explicit for a disease or procedure, the preferred term from foundation hierarchies can be used instead. For example, procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional. The procedure site should be modeled with the cross-sectional abdomen. However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'. It is the same reason for the preferred term 'CT of abdomen'.
+Descriptions should be context-neutral for foundation hierarchies. Where context is explicit for a disease or procedure, the preferred term from foundation hierarchies can be used instead.&#x20;
+
+* For example,&#x20;
+  * Procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional.  The procedure site should be modeled with the cross-sectional abdomen.  However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'.  It is the same reason for the preferred term 'CT of abdomen'.
 
 ### Exceptions <a href="#exceptions.2" id="exceptions.2"></a>
 
