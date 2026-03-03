@@ -163,10 +163,11 @@ Descriptions should be context-neutral for foundation hierarchies. Where context
 * When defining concepts in other hierarchies by referring to an organism, the taxonomical rank of the organism should not be included in the FSN or synonyms.
   * For example,
     * Instead of |Gingivitis caused by Genus Candida (disorder)|, drop the taxonomical rank of Genus, as in |Gingivitis caused by Candida (disorder)|.
-* There are instances where the requested term for a concept containing an organism common name doesn’t correspond to specific taxa. Rather, the term is found as part of common names in multiple taxa belonging to a higher level taxon. For example, “parakeet” and “parrot” are not common names to any specific taxa, but are found as part of common names in multiple genera in 447329007 |Subfamily Psittacinae (organism)|. To avoid ambiguity, a grouper concept referring to high-level taxon should be created.
-  * For example, In the Substance hierarchy, a grouper concept, 1149419004 |Psittacidae protein (substance)|, was created as a parent concept to the following two concepts:
-    * 146711000146102 |Parakeet protein (substance)|
-    * 146701000146104 |Parrot protein (substance)|
+* There are instances where the requested term for a concept containing an organism common name doesn’t correspond to specific taxa.  Rather, the term is found as part of common names in multiple taxa belonging to a higher level taxon.  To avoid ambiguity, a grouper concept referring to high-level taxon should be created.
+  * For example,&#x20;
+    * _Parakeet_ and _parrot_ are not common names to any specific taxa, but are found as part of common names in multiple genera in 447329007 |Subfamily Psittacinae (organism)|.  In the Substance hierarchy, a grouper concept, 1149419004 |Psittacidae protein (substance)|, was created as a parent concept to the following two concepts:
+      * 146711000146102 |Parakeet protein (substance)|
+      * 146701000146104 |Parrot protein (substance)|
 
 {% hint style="warning" %}
 **Structure, Structure of**
