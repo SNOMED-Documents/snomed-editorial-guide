@@ -304,7 +304,7 @@ For example, the results of a
 Concepts in the organism hierarchy should not represent organism _structures_ (e.g. fungal hyphae). In addition, the word "_stage"_ should be excluded from concepts representing life cycle of an organism (e.g. larval **stage** of a nematode parasite). This does not preclude representations of organisms ‘participating’ in a specific stage of life e.g., 609061000 |Larva of genus Ascaris (organism)|.
 {% endhint %}
 
-## Naming patterns
+### Naming patterns
 
 FSN pattern: (Life cycle stage) of (Taxon including rank, if required) (organism)
 
@@ -320,7 +320,7 @@ PT pattern: (Taxon including rank, if required) (life cycle stage)
   * Phylum Nemata adult
   * Strongyloides stercoralis egg
 
-### Cestode larvae
+#### Cestode larvae
 
 A number of _cestode larvae_ have historically been referred to using Linnaean binomial names that are completely different from corresponding adult (or egg) names.
 
@@ -340,7 +340,7 @@ PT pattern: Linnaean binomial of larva OR (Taxon including rank if required) (li
 
     * Diphyllobothrium latum sparganum
 
-### Other acceptable synonyms
+#### Other acceptable synonyms
 
 Some organisms and stages are referred to in an _adjectival_ form (e.g. Ascarid egg) or by common name (e.g. adult nematode). When used (especially when described as part of a request), these terms may be included as additional synonyms.
 
