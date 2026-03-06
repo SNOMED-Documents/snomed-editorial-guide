@@ -6,7 +6,7 @@ A high-level grouper concept supports the organization of the hierarchy based on
 
 All substances have spatial arrangement of the atoms and molecules and bonds that they are constituted from and which therefore govern the final shape that the substance takes; this arrangement is their "structure". Substance structures often follow patterns so that similar structures are grouped together and often share particular name patterns. Medicinal products can be collected together into groups based on the structural pattern(s) of their active ingredient substance(s).
 
-Structure-based grouping is a characteristic of the active ingredient substance(s) present in the medicinal product, therefore structure-based grouping concepts are assigned (inferred) by the classifier to medicinal products and include all their child concepts (medicinal product form and clinical drug concepts) although in a browser such as DailyBuild the inferred grouping concepts will be shown on the proximal concept only (the "medicinal product containing" concept).
+Structure-based grouping is a characteristic of the active ingredient substance(s) present in the medicinal product, therefore structure-based grouping concepts are assigned (inferred) by the classifier to medicinal products and include all their child concepts (medicinal product form and clinical drug concepts) although in a browser such as the DailyBuild, the inferred grouping concepts will be shown on the proximal concept only (the "medicinal product containing" concept).
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-10-01 at 8.48.30 AM.png" alt=""><figcaption></figcaption></figure>
 

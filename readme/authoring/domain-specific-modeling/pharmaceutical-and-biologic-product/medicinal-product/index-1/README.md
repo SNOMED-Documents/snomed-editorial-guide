@@ -24,7 +24,7 @@ These concepts in the International Release, their descriptions, and their `|Has
 
 For example,
 
-`1204319004 |Product containing precisely retinol (as retinol palmitate) 50000 unit/1 milliliter conventional release solution for injection (clinical drug)|` has medicinal product and medicinal product form supertypes with _retinol_ , not _retinol palmitate_. Retinol palmitate is a modification of Retinol and thus should not be used in the creation of the medicinal product and medicinal product form supertypes.
+`1204319004 |Product containing precisely retinol (as retinol palmitate) 50000 unit/1 milliliter conventional release solution for injection (clinical drug)|` has medicinal product and medicinal product form supertypes with _retinol_, not _retinol palmitate_. Retinol palmitate is a modification of Retinol and thus should not be used in the creation of the medicinal product and medicinal product form supertypes.
 
 <figure><img src="../../../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 

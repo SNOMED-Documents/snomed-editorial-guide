@@ -19,8 +19,6 @@ For example,
 
 ## Naming
 
-Use one of the following patterns for the FSN and PT.
-
 ### FSN
 
 **Where Precise active ingredient = BoSS:**
@@ -33,7 +31,7 @@ For example,
 * Product containing precisely buprenorphine 70 microgram/1 hour prolonged-release transdermal patch (clinical drug)
 * Product containing precisely clotrimazole 10 milligram/1 gram conventional release cutaneous cream (clinical drug)
 * Product containing precisely zidovudine 10 milligram/1 milliliter conventional release oral solution (clinical drug)
-* Product containing precisely lopinavir 80 milligram/1 milliliter and ritonavir 20 milligram/1 milliliter conventional release oral solution (clinical drug)\\
+* Product containing precisely lopinavir 80 milligram/1 milliliter and ritonavir 20 milligram/1 milliliter conventional release oral solution (clinical drug)
 
 **Where Precise active ingredient is not = BoSS:**
 

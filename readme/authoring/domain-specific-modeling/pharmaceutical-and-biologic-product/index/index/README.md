@@ -41,14 +41,14 @@ Concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy:
 Concepts that are not allowed to be used in modeling Medicinal product concepts in the International Release may be added to the Pharmaceutical dose form hierarchy to support national extension modeling.
 
 * For example,&#x20;
-  * 420378007 |Prolonged-release film-coated oral tablet (dose form)|)
+  * 420378007 |Prolonged-release film-coated oral tablet (dose form)|
 {% endhint %}
 
 ## Overview
 
-The 736542009 |Pharmaceutical dose form (dose form)| hierarchy is comprised of the types of concepts as shown in the table below. Detailed editorial guidelines for each distinct concept type, including required attributes and naming guidelines, are found in the sections that follow.
+The 736542009 |Pharmaceutical dose form (dose form)| hierarchy is comprised of the types of concepts as shown in the table below.  Detailed editorial guidelines for each distinct concept type, including required attributes and naming guidelines, are found in the sections that follow.
 
-For the purposes of the following editorial guidelines, pharmaceutical dose form refers to the physical manifestation of a medicinal product that contains the active ingredient substance(s) and inactive ingredient substances that are intended for administration for the patient.
+For the purposes of the following editorial guidelines, _pharmaceutical dose form_ refers to the physical manifestation of a medicinal product that contains the active ingredient substance(s) and inactive ingredient substances that are intended for administration for the patient.
 
 | Concept type                                | Examples                    |
 | ------------------------------------------- | --------------------------- |
@@ -78,7 +78,7 @@ The following definitions explain the differences between dose form intended sit
 
 ## Multiple intended sites and administration methods
 
-Pharmaceutical dose forms with two or more intended sites will use “and” in their terming and include all intended sites in the model. Representing combinations of intended sites as a conjunction ('and' in the description) will facilitate searching by end users. The concepts are logically modeled as conjunction.
+Pharmaceutical dose forms with two or more intended sites will use 'and' in their terming and include all intended sites in the model. Representing combinations of intended sites as a conjunction ('and' in the description) will facilitate searching by end users. The concepts are logically modeled as conjunction.
 
 Pharmaceutical dose forms with two or more administration methods is a less common requirement, thus requests for this type of dose form are reviewed on a case by case basis.
 
