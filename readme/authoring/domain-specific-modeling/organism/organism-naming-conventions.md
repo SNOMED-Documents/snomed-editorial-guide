@@ -64,6 +64,8 @@ If a common name exists for an organism in primary references, then it could be 
   * 388618001 |Family Felidae (organism)|, PT: cats
   * 388626009 |Genus Felis (organism)|, PT: small cats
 
+
+
 If a common name is shared between more than one organism, the preferred term should adhere to the following format: Scientific Name with annotated common name to prevent confusion. A dash may be used to separate the two names.
 
 For example,
@@ -72,13 +74,17 @@ For example,
   * 1697006 |Genus Megapodius (organism)| PT: Megapodius - megapodes
   * 107060000 |Family Megapodiidae (organism)| PT: Megapodiidae - megapodes
 
+
+
 An organism's common name might be the same as the scientific name for another organism. Example: _Gorilla_ is the scientific name for 389217005 |Genus Gorilla (organism)|, but it is the common name for 8807009 |Gorilla gorilla (organism)|. In these cases, the latter concept's preferred term should be the scientific name with annotated common name to prevent confusion.
 
 For example,
 
 * For concept 8807009 |Gorilla gorilla (organism)|, the preferred term is _Gorilla gorilla - gorilla._
 
-Occasionally, we may need to add a word to the common name specified in the resources to make the common name more explicit.
+
+
+Occasionally, a word may need to be added to the common name specified in the resources to make the common name more explicit.
 
 For example,
 
@@ -86,7 +92,11 @@ For example,
   * FSN: 23312003 |Loxosceles reclusus (organism)|
   * PT: Brown recluse spider
 
+
+
 When there are multiple names listed as common name for an organism in primary references, additional references should be consulted to locate the most commonly used term.
+
+
 
 High level taxonomic terms often refer to groups of organisms. The preferred terms need to reflect that grouping.
 
@@ -94,11 +104,22 @@ For example,
 
 * "Order Columbiformes" represent all Genera of Doves and pigeons, so the preferred term for 107097005 |Order Columbiformes (organism)| is: Doves and pigeons.
 
+
+
 Follow the authoritative sources naming conventions for plural vs. singular where the same name is applicable to a higher taxonomic rank and one of its subtypes.
 
 For example,
 
 * 329681000009104 |Genus Orcinus (organism)| has a preferred term of _Killer whales_, while its child concept 50377004 |Orcinus orca (organism)| has a preferred term of _Killer whale_.
+
+
+
+There are instances where the requested term for a concept containing an organism common name doesn’t correspond to specific taxa.  Rather, the term is found as part of common names in multiple taxa belonging to a higher level taxon.  To avoid ambiguity, a grouper concept referring to high-level taxon should be created.
+
+* For example,&#x20;
+  * _Parakeet_ and _parrot_ are not common names to any specific taxa, but are found as part of common names in multiple genera in 447329007 |Subfamily Psittacinae (organism)|.  In the Substance hierarchy, a grouper concept, 1149419004 |Psittacidae protein (substance)|, was created as a parent concept to the following two concepts:
+    * 146711000146102 |Parakeet protein (substance)|
+    * 146701000146104 |Parrot protein (substance)|
 {% endhint %}
 
 ## Organism class variants
@@ -165,7 +186,7 @@ Common names usually have case sensitivity indicator of _Entire term case insens
 If the common name includes any proper nouns, or parts of proper nouns, they need to capitalized.
 
 * For example,
-  * 598003 |Vespa crabro (organism)| has the preferred /common name of _European hornet_ with the case sensitivity indicator of _Entire term case sensitive_ (CS)
+  * 598003 |Vespa crabro (organism)| has the preferred /common name of _European hornet_ with the case sensitivity indicator of _Entire term case sensitive_ (CS).
 
 ## Salmonella serotype nomenclature
 
