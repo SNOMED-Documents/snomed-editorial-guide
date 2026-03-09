@@ -101,10 +101,6 @@ For example,
 * 329681000009104 |Genus Orcinus (organism)| has a preferred term of _Killer whales_, while its child concept 50377004 |Orcinus orca (organism)| has a preferred term of _Killer whale_.
 {% endhint %}
 
-## Qualifiers in organism names
-
-When modeling organisms with qualifiers, the qualifier should be placed in front of the organism name.
-
 ## Organism class variants
 
 The description of organism classes that are subspecies subtypes and variants may include terms such as serogroup, serotype, biotype, variant, biovar, serovar, and pathovar.
