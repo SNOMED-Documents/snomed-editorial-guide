@@ -78,7 +78,7 @@ This attribute identifies an organism, substance, physical object, physical forc
 
 For example,
 
-* 4989003 | Electrical burn of skin (disorder)| has the 246075003 | Causative agent (attribute)| of 18213006 | Electricity (physical force)|
+* 4989003 |Electrical burn of skin (disorder)| has the 246075003 |Causative agent (attribute)| of 18213006 |Electricity (physical force)|
 
 {% hint style="info" %}
 Although Pharmaceutical / biologic product (product) and its descendants are considered valid values for Causative agent (attribute) by the MRCM, they are not currently used as values for this attribute in the International Release. The only exception is 787859002 |Vaccine product (medicinal product)| and its descendants, which can be used as valid values for this attribute.
@@ -95,7 +95,7 @@ For example,
 * 767116002 |Allergy to substance with ether structure (finding)|
 * 870376001 |Adverse reaction to dopamine receptor agonist (disorder)|
 
-Concepts representing a clinical finding caused by a substance modification (e.g., 82485006 |Pentamethonium bromide (substance)|) are generally not allowed. Exceptions may be included if the condition caused by the substance modification is significantly different from the one caused by the base substance. Exceptions may include Liposome or lipid complex substances, Pegylated substances, or salt forms:
+Concepts representing a clinical finding caused by a substance modification (e.g., 82485006 |Pentamethonium bromide (substance)|) are generally not allowed. Exceptions may be included if the condition caused by the substance modification is significantly different from the one caused by the base substance. Exceptions may include liposome or lipid complex substances, pegylated substances, or salt forms:
 
 For example,
 
@@ -108,7 +108,7 @@ This attribute is used to represent both the course and onset of a disease or co
 
 For example,
 
-* 74973004 | Chronic fibrosing pancreatitis (disorder)| has a 263502005 | Clinical course (attribute)| of 90734009 | Chronic (qualifier value)|
+* 74973004 |Chronic fibrosing pancreatitis (disorder)| has a 263502005 |Clinical course (attribute)| of 90734009 |Chronic (qualifier value)|
 
 The clinical course value is added when appropriate to the condition and thus specified in the FSN. The distinction is often necessary in those conditions that can have either an acute or a chronic course, such as bronchitis. For those conditions that have only one clinical course, i.e. diabetes is a chronic disease, a wider discussion is necessary before a decision can be made whether to assign a clinical course. Decisions on these concepts are currently made on a case-by-case basis.
 
@@ -120,7 +120,7 @@ Many conditions with acute (sudden) onsets also have acute (short-term) courses.
 The word acute has more than one meaning, and the meanings are often overlapping or unclear. It may imply rapid onset, short duration, or high severity; in some circumstances it might be used to mean all of these. For morphological concepts, acute may also imply the kind of morphology associated with the speed of onset.
 
 * For example,
-  * 4532008 | Acute inflammation (morphologic abnormality)| does not necessarily have a clinical course of sudden onset and/or short duration, but rather implies polymorphonuclear infiltration (84499006 | Chronic inflammation (morphologic abnormality) | implies mononuclear cell infiltration, not necessarily a chronic course, although inflammation with a chronic course is highly correlated with a lymphocytic infiltration)
+  * 4532008 |Acute inflammation (morphologic abnormality)| does not necessarily have a clinical course of sudden onset and/or short duration, but rather implies polymorphonuclear infiltration (84499006 |Chronic inflammation (morphologic abnormality) | implies mononuclear cell infiltration, not necessarily a chronic course, although inflammation with a chronic course is highly correlated with a lymphocytic infiltration)
 
 2704003 |Acute disease (disorder)| is modeled with a Clinical course (attribute) of Sudden onset AND/OR short duration (qualifier value). For clinical conditions that necessitate further specificity, the more appropriate subtypes are available. _Acute onset_ and &#x73;_&#x75;dden onset_ are synonymous; clinical conditions specifying _acute onset_ should be modeled with a Clinical course (attribute) of Sudden onset (qualifier value).
 
@@ -129,13 +129,13 @@ Acute-on-chronic (qualifier value) is an acute (sudden onset) event superimposed
 
 ## Due to
 
-This attribute is used to identify a clinical finding/disorder, event, or procedure concept as the direct cause of another Clinical finding or Disorder concept. If the clinical finding merely predisposes to another disorder, rather than causing it directly, the more general | Associated with (attribute)| is used instead.
+This attribute is used to identify a clinical finding/disorder, event, or procedure concept as the direct cause of another Clinical finding or Disorder concept. If the clinical finding merely predisposes to another disorder, rather than causing it directly, the more general |Associated with (attribute)| is used instead.
 
 This attribute is self-grouped.
 
 For example,
 
-* 43959009 | Cataract of eye due to diabetes mellitus (disorder)|
+* 43959009 |Cataract of eye due to diabetes mellitus (disorder)|
 
 ## During
 
@@ -151,7 +151,7 @@ This attribute is used to represent episodes of care provided by a physician or 
 
 For example,
 
-* Asthma with 246456000 | Episodicity (attribute)| of 255217005 | First episode (qualifier value)| represents the first time the patient presents to their healthcare provider with asthma.
+* Asthma with 246456000 |Episodicity (attribute)| of 255217005 |First episode (qualifier value)| represents the first time the patient presents to their healthcare provider with asthma.
 
 {% hint style="success" %}
 **Modeling**
@@ -169,7 +169,7 @@ This attribute specifies the means by which a clinical finding was determined. I
 
 For example,
 
-* 713071004 |Alcohol misuser in household (finding)| has the 418775008 | Finding method (attribute)| of 84100007 | History taking (procedure)|
+* 713071004 |Alcohol misuser in household (finding)| has the 418775008 |Finding method (attribute)| of 84100007 |History taking (procedure)|
 
 ## Finding site
 
@@ -226,7 +226,7 @@ This attribute is used to specify the process or activity that is the consequenc
 {% hint style="success" %}
 **Modeling Allergy to X**
 
-Allergy to X is modeled with 719722006 | Has realization (attribute)| of 472964009 | Allergic process (qualifier value)| and 246075003 | Causative agent (attribute)| of 105590001 | Substance (substance)| . Find the allergy template at the Clinical finding/disorder templates page for more information including exceptions.
+Allergy to X is modeled with 719722006 |Has realization (attribute)| of 472964009 |Allergic process (qualifier value)| and 246075003 |Causative agent (attribute)| of 105590001 |Substance (substance)| . Find the allergy template at the Clinical finding/disorder templates page for more information including exceptions.
 {% endhint %}
 
 ## Occurrence
@@ -235,27 +235,27 @@ This attribute refers to the specific period of life during which a condition fi
 
 For example,
 
-* 192611004 | Childhood phobic anxiety disorder (disorder)| has the \[ 246454002 |Occurrence (attribute)| of 255398004 | Childhood (qualifier value)|
+* 192611004 |Childhood phobic anxiety disorder (disorder)| has the \[246454002 |Occurrence (attribute)| of 255398004 |Childhood (qualifier value)|
 
 {% hint style="success" %}
 **Modeling**
 
-Multiple values of 246454002 | Occurrence (attribute)| for a single concept are not desirable. They will be addressed in a future release.
+Multiple values of 246454002 |Occurrence (attribute)| for a single concept are not desirable. They will be addressed in a future release.
 {% endhint %}
 
 ## Pathological process
 
 This attribute provides information about the underlying pathological process of a disorder, i.e. it describes the process that results in the structural or morphologic change.
 
-441862004 | Infectious process (qualifier value)| and its subtype 442614005 | Parasitic process (qualifier value)| are included in the range for 370135005 | Pathological process (attribute)| . These are used in modeling the 40733004 | Infectious disease (disorder)| subhierarchy.
+441862004 |Infectious process (qualifier value)| and its subtype 442614005 |Parasitic process (qualifier value)| are included in the range for 370135005 |Pathological process (attribute)| . These are used in modeling the 40733004 |Infectious disease (disorder)| subhierarchy.
 
 * For example,
-  * 17322007 | Disease caused by parasite (disorder)| has the 370135005 | Pathological process (attribute)| of 442614005 | Parasitic process (qualifier value)|
+  * 17322007 |Disease caused by parasite (disorder)| has the 370135005 |Pathological process (attribute)| of 442614005 |Parasitic process (qualifier value)|
 
-370135005 | Pathological process (attribute)| must not be used for values that could overlap with 116676008 | Associated morphology (attribute)|.
+370135005 |Pathological process (attribute)| must not be used for values that could overlap with 116676008 |Associated morphology (attribute)|.
 
 * For example,
-  * Inflammatory processes result in inflammation (by definition), but these disorders should be defined by their morphology, i.e., 708039003 | Inflammatory lesion (morphologic abnormality)|
+  * Inflammatory processes result in inflammation (by definition), but these disorders should be defined by their morphology, i.e., 708039003 |Inflammatory lesion (morphologic abnormality)|
 
 Disorders which involve congenital anomalies are defined with the following grouped attribute-value pairs:
 
