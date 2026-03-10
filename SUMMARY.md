@@ -243,6 +243,7 @@
         * [Procedure Modeling](readme/authoring/domain-specific-modeling/procedure/index-2/README.md)
           * [Aspiration](readme/authoring/domain-specific-modeling/procedure/index-2/index/README.md)
             * [Centesis](readme/authoring/domain-specific-modeling/procedure/index-2/index/centesis.md)
+          * [Dental procedures](readme/authoring/domain-specific-modeling/procedure/index-2/dental-procedures.md)
           * [Diathermy](readme/authoring/domain-specific-modeling/procedure/index-2/diathermy.md)
           * [Division, lysis, transection, bisection](readme/authoring/domain-specific-modeling/procedure/index-2/division-lysis-transection-bisection.md)
           * [Duplex ultrasonography, Doppler ultrasound, and Doppler ultrasonography](readme/authoring/domain-specific-modeling/procedure/index-2/duplex-ultrasonography-doppler-ultrasound-and-doppler-ultrasonography.md)
