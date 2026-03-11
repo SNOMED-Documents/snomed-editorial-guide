@@ -32,7 +32,7 @@ The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pha
 * Packs
 * Products intended only for non-human use
 * Products no longer marketed or available for sale
-  * _Existing concepts representing products that are no longer marketed or available for sale will be retained as active concepts in the International Release. \_ Requests for new content will be considered for inclusion on a case-by-case basis._
+  * _Existing concepts representing products that are no longer marketed or available for sale will be retained as active concepts in the International Release.  Requests for new content will be considered for inclusion on a case-by-case basis._
 * Relevant omissions (e.g., sugar-free, preservative-free)
 * Routes of administration not explicitly represented
 * Sterility
