@@ -48,6 +48,8 @@ Align FSN and PT naming and case sensitivity with the concepts selected as attri
 
 For multiple-ingredient drug products, the BoSS must be in alphabetical order and separated by the word “and”.
 
+Synonyms matching FSNs are not required.
+
 The following units of measure should not be abbreviated in any descriptions; always spell out:
 
 * microequivalent
@@ -59,7 +61,14 @@ The following units of measure should not be abbreviated in any descriptions; al
 * picogram
 * unit
 
-Synonyms matching the FSN are not required.
+Descriptions that include abbreviations for drug unit, such as ‘mg’, ‘g’, ‘mg/’, 'unit/g', 'unit/mg', 'microgram/g', and 'microgram/mg' have a case sensitivity indicator of cl, |Only initial character case insensitive (core metadata concept)|.
+
+* For example:
+  * 3500544012 |Acetaminophen 500 mg oral tablet|
+  * 3692869013 | Betamethasone (as betamethasone dipropionate) 500 microgram/g and salicylic acid 30 mg/g cutaneous ointment|
+  * 4550119010 |Cyclophosphamide 500 mg powder for solution for injection vial|
+
+These descriptions are cI; the first character of the description may or may not be capitalized, while the case of the rest of the description cannot be changed.
 
 ## Concentration strength units
 
