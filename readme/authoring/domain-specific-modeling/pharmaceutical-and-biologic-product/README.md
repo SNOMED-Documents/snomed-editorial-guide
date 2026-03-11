@@ -83,7 +83,6 @@ _\*Editorial guidelines and related content updates for <<373783004 |Dietary pro
 The following subhierarchies will be retained "as is" until use cases and/or detailed requirements are known. Requests for addition of new concepts will be rejected. Requests for modification of existing concepts will be evaluated on a case-by-case basis.
 
 * 411115002 |Drug-device combination product (product)|\*
-* 349365008 |Herbal medicine (product)|
 * 349363001 |Homeopathic medicine (product)|
 * 411126008 |Patch test product (product)|
 
