@@ -60,19 +60,16 @@ The Preferred Term is the official scientific name. It may include abbreviations
 
 If a common name exists for an organism in primary references, then it could be used as the Preferred Term for the organism.
 
+*   For example,
+
+    * 388618001 |Family Felidae (organism)|, PT: cats
+    * 388626009 |Genus Felis (organism)|, PT: small cats
+
+    If a common name is shared between more than one organism, the organism preferred term may include the scientific name with annotated common name. Generally, a hyphen is used to separate the two names. However, if the organism name falls in the middle of the term, parentheses should be used to separate the two names.
 * For example,
-  * 388618001 |Family Felidae (organism)|, PT: cats
-  * 388626009 |Genus Felis (organism)|, PT: small cats
-
-
-
-If a common name is shared between more than one organism, the preferred term should adhere to the following format: Scientific Name with annotated common name to prevent confusion. A dash may be used to separate the two names.
-
-For example,
-
-* 1697006 |Genus Megapodius (organism)| and 107060000 |Family Megapodiidae (organism)| share the common name _Megapodes_. The Preferred term for the two concepts is as follows:
-  * 1697006 |Genus Megapodius (organism)| PT: Megapodius - megapodes
-  * 107060000 |Family Megapodiidae (organism)| PT: Megapodiidae - megapodes
+  * 1697006 |Genus Megapodius (organism)| and 107060000 |Family Megapodiidae (organism)| share the common name _Megapodes_. The Preferred term for the two concepts is as follows:
+    * 1697006 |Genus Megapodius (organism)| PT: Megapodius - megapodes
+    * 107060000 |Family Megapodiidae (organism)| PT: Megapodiidae - megapodes
 
 
 
@@ -412,7 +409,8 @@ SNOMED International utilizes various resources when reviewing changes to the or
 
 ### General
 
-* Catalogue of Life ([https://www.catalogueoflife.org/](https://www.catalogueoflife.org/)). This is the result of cooperation between ITIS and Species 2000. Please note, Catalogue of Life may not be up to date for all areas. For bacteria, fungus, and virus, consult resources noted above as primary references.
+* Catalogue of Life. &#x20;
+  * This is the result of cooperation between ITIS and Species 2000.  Catalogue of Life may not be up to date for all areas. For bacteria, fungus, and virus, consult resources noted above as primary references.
 * International Code of Zoological Nomenclature (ICZN)
 * International Code of Nomenclature for algae, fungi, and plants (IAPT)
 

@@ -155,7 +155,6 @@ Descriptions should be context-neutral for foundation hierarchies. Where context
 ### Exceptions <a href="#exceptions.2" id="exceptions.2"></a>
 
 * Where an infection caused by a microorganism has a common name, the common name of the disease can be used in the preferred term if accompanied by the explicitly-stated organism.
-* If a common name is shared between more than one organism, the organism preferred term may include the scientific name with annotated common name. Generally, a hyphen is used to separate the two names. However, if the organism name falls in the middle of the term, parentheses should be used to separate the two names.
 * When defining concepts in other hierarchies by referring to an organism, the taxonomical rank of the organism should not be included in the FSN or synonyms.
   * For example,
     * Instead of |Gingivitis caused by Genus Candida (disorder)|, drop the taxonomical rank of Genus, as in |Gingivitis caused by Candida (disorder)|.
