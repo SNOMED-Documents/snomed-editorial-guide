@@ -60,9 +60,7 @@ The preferred term for allergen components in the Substance hierarchy follows th
 An acronym is allowed in an FSN when it has become a word in its own right, i.e. included in dictionaries; understood without expansion to its original full form.
 
 * For example,
-  *   Concept
-
-      122456005 | Laser device (physical object)| uses the term "laser", which originated as an acronym for "light amplification by stimulated emission of radiation"
+  * 122456005 | Laser device (physical object)| uses the term "laser", which originated as an acronym for "light amplification by stimulated emission of radiation"
 
 The preferred term for imaging procedures involving imaging modalities commonly referred to by an acronym (such as CT, MRI, SPECT, PET) omits the expanded term after the acronym.
 
