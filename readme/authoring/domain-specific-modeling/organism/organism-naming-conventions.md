@@ -2,7 +2,7 @@
 
 ## Fully Specified Name
 
-The fully specified name (FSN) of organism concepts, names classes that are officially recognized Linnaean taxonomic classes (other than species), and include a designation of _rank_. They include, but are not limited to Phylum, Order, Suborder, Class, Family, Genus, and subspecies.
+The fully specified name (FSN) of organism concepts names classes that are officially recognized Linnaean taxonomic classes, and include a designation of rank (other than species).  They include, but are not limited to, Phylum, Order, Suborder, Class, Family, Genus, and subspecies.
 
 Properly constructed FSNs contain terms indicating the taxonomic rank + the recognized name of that rank + semantic tag.
 
