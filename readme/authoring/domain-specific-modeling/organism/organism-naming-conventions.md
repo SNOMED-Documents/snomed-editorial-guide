@@ -19,14 +19,21 @@ The naming convention is not applied to concepts that only refer to a subgroup o
   * _Vancomycin resistant Genus Enterococcus_ is **incorrect**. It refers to the rank only, Genus Enterococcus.
 {% endhint %}
 
-Official names of organisms may include abbreviations such as “subsp.” and “subgen.” (Domain Bacteria and Kingdom Plantae). Official names of organisms may also include parentheses e.g. “Cypraea (Cypraea) tigris” (Kingdom Animalia) and “Bacillus (subgen. Bacillus Cohn 1872, 174) subtilis” (Domain Bacteria).
+#### Exclusion of parentheses and/or abbreviations in FSNs
 
-* The FSN of organisms should include the expanded word for rank i.e. “subgenus” or “subspecies” and not an abbreviation of same.
-* The FSN should not include parentheses.
-  * For example,
-    * Genus Pleione subgenus Scopulorum (organism)
-    * Genus Cypraea subgenus Cypraea tigris (organism)
-    * Staphylococcus succinus subspecies casei (organism)
+While some references and scientific notations include details such as the subgenus and historical authority to achieve maximum precision in descriptions, SNOMED CT does not.&#x20;
+
+Official names of organisms may include abbreviations such as “subsp.” and “subgen.” (relevant to Domain Bacteria and Kingdom Plantae).  However, the SNOMED CT fully specified names of organisms should include the expanded word for rank, i.e., “subgenus” or “subspecies”, and not an abbreviation of these terms.
+
+* For example,&#x20;
+  * |Sarcoptes scabiei variety canis (organism)| is the correctly formatted FSN, while the description with the abbreviation |Sarcoptes scabiei var. canis| is the PT.&#x20;
+  * |Streptococcus equi subspecies equi (organism)| is the correctly formatted FSN, while the description with the abbreviation |Staphylococcus succinus subsp. casei | is the PT.&#x20;
+
+Official names of organisms may include parentheses.  However, the SNOMED CT FSN should not include parentheses.
+
+* For example,
+  * _Cypraea (Cypraea) tigris_ would have a correctly formatted FSN of |Genus Cypraea subgenus Cypraea tigris (organism)|
+  * _Bacillus (subgen. Bacillus Cohn 1872, 174) subtilis_ would have a correctly formatted FSN and PT of |Bacillus subtilis (organism)|
 
 {% hint style="warning" %}
 **Exception**
@@ -45,15 +52,18 @@ Synonyms such as "Genus Edwardsiella" or "Edwardsiella" are not added as accepta
 
 ## Preferred Term
 
-The Preferred Term is the official scientific name. It may include abbreviations and/or parentheses. The preferred term usually does not include the taxonomic rank designation except for the following cases:
+The Preferred Term is the official scientific name.  It may include abbreviations and/or parentheses.&#x20;
 
-* Official names of organisms may include abbreviated taxonomic rank such as “subg.“ "subgen." or “subsp.”.
-* In rare cases, two Linnaean taxon ranks in the same hierarchy may have the same name. For example, in Kingdom Bacteria, "Thermodesulfobacteria" is an applicable term at both Phylum and Class levels. In this case, the taxon rank is included in the preferred term to prevent any ambiguity.
 * For example,
   * Cypraea (Cypraea) tigris
   * Pleione subg. Scopulorum
   * Bacillus (subgen. Bacillus Cohn 1872, 174) subtilis
   * Staphylococcus succinus subsp. casei
+
+The preferred term usually does not include the taxonomic rank designation except for the following cases:
+
+* Official names of organisms may include abbreviated taxonomic rank such as “subg.“ "subgen." or “subsp.”.
+* In rare cases, two Linnaean taxon ranks in the same hierarchy may have the same name. For example, in Kingdom Bacteria, "Thermodesulfobacteria" is an applicable term at both Phylum and Class levels. In this case, the taxon rank is included in the preferred term to prevent any ambiguity.
 
 {% hint style="warning" %}
 **Common Name Exceptions**
