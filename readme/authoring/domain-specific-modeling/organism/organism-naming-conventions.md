@@ -27,7 +27,7 @@ Official names of organisms may include abbreviations such as “subsp.” and �
 
 * For example,&#x20;
   * |Sarcoptes scabiei variety canis (organism)| is the correctly formatted FSN, while the description with the abbreviation |Sarcoptes scabiei var. canis| is the PT.&#x20;
-  * |Streptococcus equi subspecies equi (organism)| is the correctly formatted FSN, while the description with the abbreviation |Staphylococcus succinus subsp. casei | is the PT.&#x20;
+  * |Streptococcus equi subspecies equi (organism)| is the correctly formatted FSN, while the description with the abbreviation |Streptococcus equi subsp. equi| is the PT.&#x20;
 
 Official names of organisms may include parentheses.  However, the SNOMED CT FSN should not include parentheses.
 
@@ -57,8 +57,6 @@ The Preferred Term is the official scientific name.  It may include abbreviation
 * For example,
   * Cypraea (Cypraea) tigris
   * Pleione subg. Scopulorum
-  * Bacillus (subgen. Bacillus Cohn 1872, 174) subtilis
-  * Staphylococcus succinus subsp. casei
 
 The preferred term usually does not include the taxonomic rank designation except for the following cases:
 
