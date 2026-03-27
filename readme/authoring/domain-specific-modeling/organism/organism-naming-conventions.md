@@ -73,7 +73,10 @@ If a common name exists for an organism in primary references, then it could be 
     * 388618001 |Family Felidae (organism)|, PT: cats
     * 388626009 |Genus Felis (organism)|, PT: small cats
 
-    If a common name is shared between more than one organism, the organism preferred term may include the scientific name with annotated common name. Generally, a hyphen is used to separate the two names. However, if the organism name falls in the middle of the term, parentheses should be used to separate the two names.
+
+
+If a common name is shared between more than one organism, the organism preferred term may include the scientific name with annotated common name. Generally, a hyphen is used to separate the two names. However, if the organism name falls in the middle of the term, parentheses should be used to separate the two names.
+
 * For example,
   * 1697006 |Genus Megapodius (organism)| and 107060000 |Family Megapodiidae (organism)| share the common name _Megapodes_. The Preferred term for the two concepts is as follows:
     * 1697006 |Genus Megapodius (organism)| PT: Megapodius - megapodes
