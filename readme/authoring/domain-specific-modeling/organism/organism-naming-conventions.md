@@ -83,19 +83,17 @@ If a common name exists for an organism in primary references, then it could be 
 
 An organism's common name might be the same as the scientific name for another organism. Example: _Gorilla_ is the scientific name for 389217005 |Genus Gorilla (organism)|, but it is the common name for 8807009 |Gorilla gorilla (organism)|. In these cases, the latter concept's preferred term should be the scientific name with annotated common name to prevent confusion.
 
-For example,
-
-* For concept 8807009 |Gorilla gorilla (organism)|, the preferred term is _Gorilla gorilla - gorilla._
+* For example,
+  * For concept 8807009 |Gorilla gorilla (organism)|, the preferred term is _Gorilla gorilla - gorilla._
 
 
 
 Occasionally, a word may need to be added to the common name specified in the resources to make the common name more explicit.
 
-For example,
-
-* Loxosceles reclusa has a common name of _brown recluse_ in ITIS, which is one of the SNOMED primary references. To make the naming more explicit, the word _spider_ has been added to the preferred term:
-  * FSN: 23312003 |Loxosceles reclusus (organism)|
-  * PT: Brown recluse spider
+* For example,
+  * Loxosceles reclusa has a common name of _brown recluse_ in ITIS, which is one of the SNOMED primary references. To make the naming more explicit, the word _spider_ has been added to the preferred term:
+    * FSN: 23312003 |Loxosceles reclusus (organism)|
+      * PT: Brown recluse spider
 
 
 
@@ -105,17 +103,15 @@ When there are multiple names listed as common name for an organism in primary r
 
 High level taxonomic terms often refer to groups of organisms. The preferred terms need to reflect that grouping.
 
-For example,
-
-* "Order Columbiformes" represent all Genera of Doves and pigeons, so the preferred term for 107097005 |Order Columbiformes (organism)| is: Doves and pigeons.
+* For example,
+  * "Order Columbiformes" represent all Genera of Doves and pigeons, so the preferred term for 107097005 |Order Columbiformes (organism)| is: Doves and pigeons.
 
 
 
 Follow the authoritative sources naming conventions for plural vs. singular where the same name is applicable to a higher taxonomic rank and one of its subtypes.
 
-For example,
-
-* 329681000009104 |Genus Orcinus (organism)| has a preferred term of _Killer whales_, while its child concept 50377004 |Orcinus orca (organism)| has a preferred term of _Killer whale_.
+* For example,
+  * 329681000009104 |Genus Orcinus (organism)| has a preferred term of _Killer whales_, while its child concept 50377004 |Orcinus orca (organism)| has a preferred term of _Killer whale_.
 
 
 
@@ -222,7 +218,7 @@ There are two serotype naming systems, one in the U.S. and one in Denmark. The D
 FSN and preferred term (PT) descriptions should follow the Danish naming system. When an American synonym exists, it should be added. A synonym (SYN) that matches the FSN, but does not contain the naming system can also be added.
 
 * For example,
-  * 698149000 | Streptococcus pneumoniae serotype 48 (organism) | is as follows:
+  * 698149000 |Streptococcus pneumoniae serotype 48 (organism)| is as follows:
     * FSN: Streptococcus pneumoniae Danish serotype 48 (organism)
     * PT: Streptococcus pneumoniae Danish serotype 48
     * SYN: Streptococcus pneumoniae American serotype 82
@@ -231,7 +227,7 @@ FSN and preferred term (PT) descriptions should follow the Danish naming system.
 The guidelines for creating new concepts containing Streptococcus pneumoniae serotypes also apply to concepts in other SNOMED CT hierarchies, such as substances and procedures.
 
 * For example,
-  * 120683007 | Streptococcus pneumoniae serotype 7F antibody (substance) | is as follows:
+  * 120683007 |Streptococcus pneumoniae serotype 7F antibody (substance)| is as follows:
     * FSN: Antibody to Streptococcus pneumoniae Danish serotype 7F (substance)
     * PT: Streptococcus pneumoniae Danish serotype 7F Ab
     * SYN: Antibody to Streptococcus pneumoniae Danish serotype 7F
@@ -308,22 +304,20 @@ Organism stages themselves are characteristics common to members of a given taxo
 SNOMED CT allows for the representation of an organism in a specific life cycle stage.
 
 * For example,
-  * 337915000 | Homo sapiens (organism) | are organisms. Homo sapiens include humans, in general, as well as children.
+  * 337915000 |Homo sapiens (organism)| are organisms. Homo sapiens include humans, in general, as well as children.
   * Childhood is a _life cycle stage_, however it is not an organism.
-* Similarly,
-  *   An egg of a particular nematode, e.g.
 
-      42625000 | Strongyloides stercoralis (organism) | is an organism. It is alive and can pass through other stages appropriate to its species.\
-      However, the _egg stage_ of Strongyloides stercoralis is not an organism. Many diagnostic test results, identify organisms ‘participating’ in particular life cycle stages.
+Similarly,
 
-For example, the results of a
+* An egg of a particular nematode, e.g., 42625000 |Strongyloides stercoralis (organism)| is an organism. It is alive and can pass through other stages appropriate to its species.\
+  However, the _egg stage_ of Strongyloides stercoralis is not an organism. Many diagnostic test results, identify organisms ‘participating’ in particular life cycle stages.
 
-83033005 | Fecal analysis (procedure) | may identify the presence of 609326000 | Larva of Strongyloides stercoralis (organism) | and 699572004 | Egg of Strongyloides stercoralis (organism) |.
+For example, the results of a 83033005 |Fecal analysis (procedure)| may identify the presence of 609326000 |Larva of Strongyloides stercoralis (organism)| and 699572004 |Egg of Strongyloides stercoralis (organism) |.
 
 {% hint style="info" %}
 **Organism concepts**
 
-Concepts in the organism hierarchy should not represent organism _structures_ (e.g. fungal hyphae). In addition, the word "_stage"_ should be excluded from concepts representing life cycle of an organism (e.g. larval **stage** of a nematode parasite). This does not preclude representations of organisms ‘participating’ in a specific stage of life e.g., 609061000 |Larva of genus Ascaris (organism)|.
+Concepts in the organism hierarchy should not represent organism _structures_ (e.g., fungal hyphae). In addition, the word "_stage"_ should be excluded from concepts representing life cycle of an organism (e.g. larval **stage** of a nematode parasite). This does not preclude representations of organisms ‘participating’ in a specific stage of life e.g., 609061000 |Larva of genus Ascaris (organism)|.
 {% endhint %}
 
 ### Naming patterns
@@ -357,14 +351,13 @@ PT pattern: Linnaean binomial of larva OR (Taxon including rank if required) (li
     * Cysticercus cellulosae
     * Class Cestoda larva
 
-    \
     Although rare, a subtype of cestode larva may appear to be a Linnaean trinomial name. This, then, is the PT:
 
     * Diphyllobothrium latum sparganum
 
 #### Other acceptable synonyms
 
-Some organisms and stages are referred to in an _adjectival_ form (e.g. Ascarid egg) or by common name (e.g. adult nematode). When used (especially when described as part of a request), these terms may be included as additional synonyms.
+Some organisms and stages are referred to in an _adjectival_ form (e.g., Ascarid egg) or by common name (e.g., adult nematode). When used (especially when described as part of a request), these terms may be included as additional synonyms.
 
 ## Homotypic and heterotypic synonyms
 
