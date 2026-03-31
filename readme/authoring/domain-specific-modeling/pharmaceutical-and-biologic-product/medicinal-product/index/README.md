@@ -65,10 +65,12 @@ Descriptions that include abbreviations for drug unit, such as ‘mg’, ‘g’
 
 * For example:
   * 3500544012 |Acetaminophen 500 mg oral tablet|
-  * 3692869013 | Betamethasone (as betamethasone dipropionate) 500 microgram/g and salicylic acid 30 mg/g cutaneous ointment|
+  * 3692869013 |Betamethasone (as betamethasone dipropionate) 500 microgram/g and salicylic acid 30 mg/g cutaneous ointment|
   * 4550119010 |Cyclophosphamide 500 mg powder for solution for injection vial|
 
 These descriptions are cI; the first character of the description may or may not be capitalized, while the case of the rest of the description cannot be changed.
+
+The terms _sulfate_ and _sulphate_ refer to salts or esters of sulfuric acid. _Sulfate_ is the preferred international spelling in IUPAC and GSRS. However, _sulphate_ is the traditional British English spelling. SNOMED CT uses _sulfate_ in the FSN and the PT. A synonym with _sulphate_ is added as acceptable to GB English but unacceptable to US English.
 
 ## Concentration strength units
 
