@@ -17,10 +17,10 @@ The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pha
 ## Out of Scope
 
 * Age ranges (e.g., adult, pediatric, infant, junior, adolescent)
-  * _Exception: Vaccine products MP-only concepts maybe modeled with Has target population (attribute) that specifies a target population._
+  * Exception: Vaccine products MP-only concepts may be modeled with Has target population (attribute) that specifies a target population.
 * Adjuvants
 * Allergy immunotherapy products
-  * _Should be represented in a national extension because of the manufacturer-specific variability regarding standardization and expression of strength._
+  * Should be represented in a national extension because of the manufacturer-specific variability regarding standardization and expression of strength.
 * Ayurvedic medicine
 * Brand names
 * Color (e.g., color of tablet, capsule, or solution)
@@ -28,16 +28,18 @@ The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pha
 * Excipients
 * Flavors
 * Investigational products/Products under development but not marketed in any member country
-  * _Exceptions may be made on a case-by-case basis (e.g., adding investigational products that are being widely used in pandemic)._
+  * Exceptions may be made on a case-by-case basis; such as:
+    * Adding investigational products that are being widely used in a pandemic
+    * European Medicines Agency's _Human Medicines Under Evaluation_
 * Packs
 * Products intended only for non-human use
 * Products no longer marketed or available for sale
-  * _Existing concepts representing products that are no longer marketed or available for sale will be retained as active concepts in the International Release.  Requests for new content will be considered for inclusion on a case-by-case basis._
+  * Existing concepts representing products that are no longer marketed or available for sale will be retained as active concepts in the International Release.  Requests for new content will be considered for inclusion on a case-by-case basis.
 * Relevant omissions (e.g., sugar-free, preservative-free)
 * Routes of administration not explicitly represented
 * Sterility
 * Tall man lettering
-  * _Descriptions that include tall man lettering \[partial capitalization of drug names to distinguish from similar sounding drugs] should be authored in a national or local extension._
+  * Descriptions that include tall man lettering \[partial capitalization of drug names to distinguish from similar sounding drugs] should be authored in a national or local extension.
 * Traditional medicine products
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Medicinal%20Product" class="button primary">Provide Feedback</a>
