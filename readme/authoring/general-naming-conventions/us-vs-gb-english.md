@@ -1,6 +1,6 @@
 # US vs. GB English
 
-All fully specified names (FSN) should be represented in US English. When there is a difference between the US and GB spelling, there should be US and General British (GB) preferred terms (PT) and/or synonyms (SYN). &#x20;
+All fully specified names (FSN) should be represented in US English. When there is a difference between the US and GB spelling, there should be US and General British (GB) preferred terms (PT) and/or synonyms (SYN).
 
 * For example:
   * FSN: Benign tumor of endocrine pancreas (disorder)
@@ -27,16 +27,15 @@ SNOMED CT may include (or add) more than one description, each with a different 
 
 For spelling of preferred terms in a dialect, where the reference sources provide multiple options, a judgment about the most common spelling may be needed. This may be determined by reviewing journal articles containing the word in question.
 
-* Articles should be from highly cited journals, e.g BMJ (for British English) or NEJM or JAMA (for US English).&#x20;
+* Articles should be from highly cited journals, e.g BMJ (for British English) or NEJM or JAMA (for US English).
 * For concepts that are not clinical, appropriate scientific journals should be consulted, e.g. Science (US publisher) or Nature (UK publisher).
 
 ### Fetal vs. Foetal <a href="#fetal-vs.-foetal" id="fetal-vs.-foetal"></a>
 
-_Fetal_ is the preferred term in both the US and GB language reference sets.  _Fetal_ is acceptable in GB synonyms.  Foetal is not acceptable for US language but acceptable for GB language. &#x20;
+_Fetal_ is the preferred term in both the US and GB language reference sets. _Fetal_ is acceptable in GB synonyms. Foetal is not acceptable for US language but acceptable for GB language.
 
+### Sulfate vs. Sulphate
 
+The terms _sulfate_ and _sulphate_ refer to salts or esters of sulfuric acid. _Sulfate_ is the preferred international spelling in IUPAC and GSRS. However, _sulphate_ is the traditional British English spelling. SNOMED CT uses _sulfate_ in the FSN and the PT. A synonym with _sulphate_ is added as acceptable to GB English but unacceptable to US English.
 
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=US%20vs.%20GB%20English" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=US%20vs.%20GB%20English" class="button primary">Provide Feedback</a>
