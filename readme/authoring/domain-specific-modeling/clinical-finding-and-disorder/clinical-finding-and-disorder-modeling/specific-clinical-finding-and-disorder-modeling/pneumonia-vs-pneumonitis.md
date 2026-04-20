@@ -3,10 +3,10 @@
 The terms _pneumonia_ and _pneumonitis_ are often used interchangeably. In SNOMED CT, _pneumonia_ is used for infectious causes, and _pneumonitis_ is used for noninfectious causes.
 
 {% hint style="warning" %}
-Some concepts may contain a synonym with the other _pneumoni_ - term due to high/common usage in medical literature.
+Some concepts may contain a synonym with the other _pneumoni_- term due to high/common usage in medical literature.
 {% endhint %}
 
-Pneumonia is a type of pneumonitis, as inflammation is present in both. The distinguishing feature between the two disorders is the presence of infection in pneumonia. Pneumonia has a Pathological process (attribute) of Infectious process (qualifier value); Pneumonitis does not.
+Pneumonia is a type of pneumonitis, as inflammation is present in both. The distinguishing feature between the two disorders is the presence of infection in pneumonia. Pneumonia has a Pathological process (attribute) of Infectious process (qualifier value); pneumonitis does not.
 
 <figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -16,10 +16,14 @@ Pneumonia is a type of pneumonitis, as inflammation is present in both. The dist
 
 <figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/225051457.png" alt=""><figcaption><p>Figure: Stated view of 233604007 |Pneumonia (disorder)|</p></figcaption></figure>
 
-## Morphologic abnormality
+### Morphologic abnormality
 
 The morphologic abnormality for both 233604007 |Pneumonia (disorder)| and 205237003 |Pneumonitis (disorder)| is 409774005 |Inflammatory morphology (morphologic abnormality)|.
 
 The clinically-warranted morphologic abnormality for many subtypes of pneumonia is 707496003 |Inflammation and consolidation (morphologic abnormality)|. Consolidation is a feature of most forms of pneumonia; however, it may not be a feature of all pneumonias, such as atypical pneumonias.
+
+### Guidance exception
+
+Content has been added that aligns with the 2025 International Multidisciplinary Classification of the Interstitial Pneumonias with attribution to ERS/ATS - European Respiratory Society/American Thoracic Society.  For these concepts, the fully specified term and preferred term align with the classification which uses the term _pneumonia_ instead of _pneumonitis,_ even in the absence of an infectious cause.&#x20;
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Pneumonia%20vs.%20Pneumonitis" class="button primary">Provide Feedback</a>
