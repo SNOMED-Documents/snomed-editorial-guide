@@ -19,5 +19,5 @@ Differentiated cells concepts with positive or negative antigen expression(s) sh
   * 117507002 |FMC7+ lymphocyte (cell)| should be a descendant of 56972008 |Lymphocyte (cell)| and also 1373072009 |Cell positive for FMC7 antigen (cell)|.
 
 {% hint style="info" %}
-See also _Naming Convention for Cells Expressing Antigens_
+See also [_Naming Convention for Cells Expressing Antigens_](../index/naming-convention-for-cells-expressing-antigens.md)
 {% endhint %}

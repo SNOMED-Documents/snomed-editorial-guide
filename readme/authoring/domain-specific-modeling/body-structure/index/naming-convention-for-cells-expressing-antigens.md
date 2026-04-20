@@ -43,5 +43,5 @@ If appropriate, include an acceptable description with the expansion of a gene n
 Note:  _Not all existing content conforms to this guidance._&#x20;
 
 {% hint style="info" %}
-See also _Modeling_ _Cells Expressing Antigens_
+See also [_Modeling_ _Cells Expressing Antigens_](../index-1/cell.md#modeling-of-cells-expressing-antigens)
 {% endhint %}
