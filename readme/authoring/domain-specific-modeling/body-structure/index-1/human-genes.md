@@ -4,7 +4,7 @@ Human genes are modeled as cell structures in the Body structure hierarchy. Gene
 
 ### Naming
 
-* FSN: < HGNC Approved Name> gene (cell structure)
+* FSN: \<HGNC Approved Name> gene (cell structure)
   * Note: Only add _gene_ if the HGNC Approved Name does not already include it.
   * Case sensitivity = CS
 * PT: \<HGNC Gene Symbol> gene
