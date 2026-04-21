@@ -6,6 +6,7 @@ Many terms that refer to body systems or tracts are used imprecisely in clinical
 
 * [Body parts and regions](body-parts-and-regions.md)
 * [Cardiovascular System](cardiovascular-system.md)
+* [Cell](cell.md)
 * [Digestive System](digestive-system.md)
 * [Ear](ear.md)
 * [Endocrine System](endocrine-system.md)
