@@ -67,6 +67,7 @@
           * [Endocrine System](readme/authoring/domain-specific-modeling/body-structure/index-1/endocrine-system.md)
           * [Eye](readme/authoring/domain-specific-modeling/body-structure/index-1/eye.md)
           * [Genitourinary system](readme/authoring/domain-specific-modeling/body-structure/index-1/genitourinary-system.md)
+          * [Human Genes](readme/authoring/domain-specific-modeling/body-structure/index-1/human-genes.md)
           * [Integumentary System](readme/authoring/domain-specific-modeling/body-structure/index-1/integumentary-system.md)
           * [Lymphatic, Immune, Hematologic, Hematopoietic systems](readme/authoring/domain-specific-modeling/body-structure/index-1/lymphatic-immune-hematologic-hematopoietic-systems.md)
           * [Musculoskeletal System](readme/authoring/domain-specific-modeling/body-structure/index-1/index/README.md)

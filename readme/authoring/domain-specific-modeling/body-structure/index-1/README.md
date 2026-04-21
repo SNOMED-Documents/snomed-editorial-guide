@@ -12,6 +12,7 @@ Many terms that refer to body systems or tracts are used imprecisely in clinical
 * [Endocrine System](endocrine-system.md)
 * [Eye](eye.md)
 * [Genitourinary system](genitourinary-system.md)
+* [Human genes](human-genes.md)
 * [Integumentary System](integumentary-system.md)
 * [Lymphatic, Immune, Hematologic, Hematopoietic systems](lymphatic-immune-hematologic-hematopoietic-systems.md)
 * [Musculoskeletal System](index/)
