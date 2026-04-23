@@ -2,6 +2,8 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges.
 
+See also the respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133997020/Physical+object+templates).
+
 ## Domain Information for Physical Object
 
 <table><thead><tr><th width="280.2325439453125">Property</th><th>Value</th></tr></thead><tbody><tr><td>Domain Constraint</td><td>&#x3C;&#x3C; 260787004 | Physical object (physical object) |</td></tr><tr><td>Parent Domain</td><td>-</td></tr><tr><td>Proximal Primitive Constraint</td><td>&#x3C;&#x3C; 260787004 | Physical object (physical object) |</td></tr><tr><td>Proximal Primitive Refinement</td><td>-</td></tr></tbody></table>

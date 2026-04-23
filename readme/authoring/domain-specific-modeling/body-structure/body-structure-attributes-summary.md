@@ -2,6 +2,8 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges.
 
+See also the respective [templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133997528/Anatomy+templates).&#x20;
+
 ## Domain Information for Body Structure
 
 <table><thead><tr><th width="322.75">Property</th><th>Value</th></tr></thead><tbody><tr><td>Domain Constraint</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>Parent Domain</td><td>-</td></tr><tr><td>Proximal Primitive Constraint</td><td>&#x3C;&#x3C; 123037004 | Body structure (body structure) |</td></tr><tr><td>Proximal Primitive Refinement</td><td>-</td></tr></tbody></table>

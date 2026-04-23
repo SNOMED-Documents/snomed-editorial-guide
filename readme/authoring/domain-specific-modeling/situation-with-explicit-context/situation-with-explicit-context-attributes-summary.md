@@ -2,6 +2,8 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges.
 
+See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133993467/Situation+templates).&#x20;
+
 ## Domain Information for Situation with Explicit Context
 
 <table data-header-hidden><thead><tr><th width="272.59814453125">Property</th><th>Value</th></tr></thead><tbody><tr><td>Domain Constraint</td><td>&#x3C;&#x3C; 243796009 | Situation with explicit context (situation) |</td></tr><tr><td>Parent Domain</td><td>-</td></tr><tr><td>Proximal Primitive Constraint</td><td>&#x3C;&#x3C; 243796009 | Situation with explicit context (situation) |</td></tr><tr><td>Proximal Primitive Refinement</td><td>-</td></tr></tbody></table>

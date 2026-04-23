@@ -2,6 +2,8 @@
 
 When authoring in this domain, these are the approved attributes and allowable ranges.
 
+See also the respective [templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133993595/Clinical+finding+disorder+templates).&#x20;
+
 ## Domain Information for Clinical Finding
 
 | Property                      | Value                                         |
