@@ -179,6 +179,18 @@ For example,
 
 * 90708001 |Kidney disease (disorder)| has 363698007 |Finding site (attribute)| of 64033007 |Kidney structure (body structure)|
 
+## Has associated gene
+
+This attribute represents a recognized association between a disorder (or clinical finding) and a gene, where the gene is implicated in the condition but is not itself the anatomical site of the abnormality. This relationship does not assert a specific causal mechanism and may represent causative, susceptibility, modifying, or otherwise biologically relevant involvement.
+
+## Has deficiency of
+
+This attribute represents a pathological physiological state in which a substance or cell type is present in insufficient quantity or activity in the subject.
+
+## Has excess of
+
+This attribute represents a pathological physiological state in which a substance or cell type is present in excessive quantity or activity in the subject.
+
 ## Has interpretation
 
 This attribute refers to and designates the judgment aspect being evaluated or interpreted (e.g., presence, absence, degree, normality, abnormality, etc.). Subtypes of Environment or geographical location (environment / location) can also be used as the value in cases such as specifying a location of an incident to be reported to death and injury registries.
