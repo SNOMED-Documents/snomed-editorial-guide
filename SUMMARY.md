@@ -85,7 +85,7 @@
           * [Multiple x morphologic abnormality](readme/authoring/domain-specific-modeling/body-structure/index-2/multiple-x-morphologic-abnormality.md)
           * [Tumor morphology](readme/authoring/domain-specific-modeling/body-structure/index-2/tumor-morphology.md)
       * [Clinical Finding and Disorder](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/README.md)
-        * [Clinical Finding Attributes Summary](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-attributes-summary.md)
+        * [Clinical Finding and Disorder Attributes Summary](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-attributes-summary.md)
         * [Clinical Finding Defining Attributes](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-defining-attributes.md)
         * [Clinical Finding and Disorder Naming Conventions](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/index/README.md)
           * [Lateralized Disorder Naming Conventions](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/index/lateralized-disorder-naming-conventions.md)
