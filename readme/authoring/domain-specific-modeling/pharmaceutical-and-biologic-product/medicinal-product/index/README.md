@@ -121,7 +121,7 @@ The following units are not allowed unless specifically noted as an exception:
 
 * 408165007 |Mega u (qualifier value)|
 
-Repeating decimals are rounded to three decimal places (with 5 and above rounded up and 4 and below rounded down).
+Repeating decimals are rounded to three decimal places (with 5 and above rounded up and 4 and below rounded down).  In general, avoid decimal points.
 
 ## Precise active ingredient
 
