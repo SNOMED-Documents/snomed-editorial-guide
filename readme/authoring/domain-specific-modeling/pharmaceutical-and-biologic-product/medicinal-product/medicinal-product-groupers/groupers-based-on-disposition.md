@@ -14,6 +14,11 @@ Disposition is a characteristic of the active ingredient substance(s) present in
 
 This section applies to grouper concepts representing a **single** disposition; groupers comprised of multiple dispositions are described in [Groupers Based on Multiple Dispositions, Structures](../../../../../../authoring/pharmaceutical-and-biologic-product/174691077.html).
 
+See also
+
+* [Substance; Supporting hierarchy - Disposition](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/substance/supporting-hierarchy-disposition)
+* [Substance Groupers Based on Disposition](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-disposition)
+
 ## Modeling
 
 | **Stated parent concept**                                      | `763158003 \|Medicinal product (product)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |

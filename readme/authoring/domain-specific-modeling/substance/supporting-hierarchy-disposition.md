@@ -4,6 +4,11 @@
 
 The hierarchy, 726711005 |Disposition (disposition)|, was created to support the remodeling of the Substance hierarchy. The concepts in this hierarchy are used as the attribute value for the |Has disposition (attribute)| for concepts in the Substance hierarchy, to sufficiently define grouper concepts representing dispositions, and to sufficiently define concepts in other SNOMED CT hierarchies. To provide adequate context to differentiate concepts in this hierarchy from similar concepts in other existing SNOMED CT hierarchies, a new (disposition) semantic tag was created.
 
+See also:
+
+* [Medicinal Product Groupers; Groupers Based on Disposition](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/pharmaceutical-and-biologic-product/medicinal-product/medicinal-product-groupers/groupers-based-on-disposition)
+* [Substance Groupers Based on Disposition](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-disposition)
+
 ## Modeling
 
 <table data-header-hidden><thead><tr><th width="224.31640625"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>&#x3C;&#x3C;726711005 |Disposition (disposition)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(disposition)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attributes</strong></td><td>Not applicable</td></tr></tbody></table>
@@ -207,9 +212,4 @@ The following illustrates the **stated** and **inferred** view:
 
 <figure><img src="../../../../authoring/substance/images/174691645.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Supporting%20hierarchy%20-%20Disposition" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Supporting%20hierarchy%20-%20Disposition" class="button primary">Provide Feedback</a>

@@ -6,9 +6,14 @@ Groupers based on disposition that are deemed to be clinically useful and that c
 
 _Note: This section applies to concepts representing a single disposition. It does not apply to concepts representing a disposition combined with a structural grouper or concepts representing more than one disposition._
 
+See also:
+
+* [Substance; Supporting hierarchy - Disposition](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/substance/supporting-hierarchy-disposition)
+* [Substance Groupers Based on Disposition](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-disposition)
+
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="176.88671875">Parent concept</th><th>105590001 |Substance (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>105590001 |Substance (substance)|</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><strong>|Has disposition|</strong></td><td><p></p><p>Range: &#x3C;726711005 |Disposition (disposition)</p><ul><li>While the allowed range is broader, the Substance Groupers based on Disposition should only use &#x3C;726711005 |Disposition (disposition) as the attribute value.</li></ul><p>Cardinality: 1..1</p><ul><li>While the allowed range is broader, the Substance Groupers based on Disposition should have one and only one |Has disposition| attribute.</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="176.88671875">Parent concept</th><th>105590001 |Substance (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>105590001 |Substance (substance)|</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><strong>|Has disposition|</strong></td><td><p>Range: &#x3C;726711005 |Disposition (disposition)</p><ul><li>While the allowed range is broader, the Substance Groupers based on Disposition should only use &#x3C;726711005 |Disposition (disposition) as the attribute value.</li></ul><p>Cardinality: 1..1</p><ul><li>While the allowed range is broader, the Substance Groupers based on Disposition should have one and only one |Has disposition| attribute.</li></ul></td></tr></tbody></table>
 
 Substance groupers representing etiopathic dispositions (e.g. 88376000 |Carcinogen (substance), 45986006 |Teratogen (substance)) will be created. Since most substances can exhibit these characteristics in some circumstances, the descendant concepts will not be populated. Exceptions will be noted in the editorial guidelines.
 
@@ -56,9 +61,4 @@ Synonyms corresponding to the FSN are not required.
 
 Additional synonyms are allowed only if they are consistent with the synonyms for the corresponding disposition concept.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Substance%20Groupers%20Based%20on%20Disposition" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Substance%20Groupers%20Based%20on%20Disposition" class="button primary">Provide Feedback</a>
