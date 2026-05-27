@@ -129,9 +129,9 @@ When constructing an FSN, the preposition 'of' is preferred over using the prepo
 * For example,
   * _Cyst of scalp_ should be used for the FSN and not _Cyst in scalp_ because the latter may indicate a morphology within a layer of the structure, whereas 'of' indicates the morphology is within the region of the anatomic structure.
 
-## Foundation hierarchies (body structure, substance, or organism) referenced in other hierarchy descriptions <a href="#foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio" id="foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio"></a>
+## Foundation hierarchies referenced in other hierarchy descriptions <a href="#foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio" id="foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio"></a>
 
-When creating the descriptions for a concept (e.g. a disorder concept) that name an entity such as a body structure, substance or organism, the conventions that are applied for naming the entity in the source hierarchy should be used.
+The foundation hierarchies are body structure, substance, organism, physical object, and product.  These hierarchies underpin the naming and modeling of other hierarchies.  When creating the descriptions for a concept (e.g., a disorder concept) that name an entity such as a body structure, substance or organism, the conventions that are applied for naming the entity in the source hierarchy should be used.
 
 * For example,
   * 11218009 | Infection caused by Pseudomonas aeruginosa (disorder)|
@@ -158,6 +158,9 @@ Descriptions should be context-neutral for foundation hierarchies. Where context
 * When defining concepts in other hierarchies by referring to an organism, the taxonomical rank of the organism should not be included in the FSN or synonyms.
   * For example,
     * Instead of |Gingivitis caused by Genus Candida (disorder)|, drop the taxonomical rank of Genus, as in |Gingivitis caused by Candida (disorder)|.
+* For concepts defined under 419442005 |Ethanol (substance)|, it is generally assumed in clinical practice that the term _alcohol_ refers to _ethanol_ unless otherwise specified. This is also consistent with widely used clinical classifications such as ICD and DSM.
+  * To improve precision, the Fully Specified Name should explicitly include “Ethanol” in accordance with this guideline. However, “alcohol” should be retained as the Preferred Term for clinical usability.
+  * In addition, a synonym containing “ethyl alcohol” should be added or retained where appropriate.
 
 {% hint style="warning" %}
 **Structure, Structure of**
