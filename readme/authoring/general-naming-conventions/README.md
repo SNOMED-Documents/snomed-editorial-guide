@@ -131,17 +131,17 @@ When constructing an FSN, the preposition 'of' is preferred over using the prepo
 
 ## Foundation hierarchies referenced in other hierarchy descriptions <a href="#foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio" id="foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio"></a>
 
-The foundation hierarchies are body structure, substance, organism, physical object, and product.  These hierarchies underpin the naming and modeling of other hierarchies.  When creating the descriptions for a concept (e.g., a disorder concept) that name an entity such as a body structure, substance or organism, the conventions that are applied for naming the entity in the source hierarchy should be used.
+The foundation hierarchies are body structure, substance, organism, physical object, and product.  These hierarchies underpin the naming and modeling of other hierarchies.  When creating the descriptions for a concept that name an entity from a foundation hierarchy, such as a disorder concept referencing a body structure, the conventions that are applied for naming the entity in the foundation hierarchy should be used in the non-foundation hierarchy descriptions as well.
 
 * For example,
   * 11218009 | Infection caused by Pseudomonas aeruginosa (disorder)|
     * This concept references the organism hierarchy in the causative agent of 52499004 |Pseudomonas aeruginosa (organism)| and uses that description in the FSN.
   * 143491000146106 |Felis catus protein (substance)|
-    * 448169003 |Felis catus (organism)| has a preferred term of “Domestic cat”. As a result a related concept in the Substance hierarchy, 143491000146106 |Felis catus protein (substance)| has a preferred term of “Domestic cat protein”.
+    * 448169003 |Felis catus (organism)| has a preferred term of |Domestic cat|. As a result, a related concept in the substance hierarchy, 143491000146106 |Felis catus protein (substance)| has a preferred term of |Domestic cat protein|.
   * 337311000119101 |Blepharochalasis of left upper eyelid (disorder)|
-    * This concept references the body structure hierarchy in the finding site of |Structure of left upper eyelid (body structure)| and uses "left upper eyelid" in the FSN.
+    * This concept references the body structure hierarchy in the finding site of |Structure of left upper eyelid (body structure)| and uses _left upper eyelid_ in the FSN.
   * 126885006 |Neoplasm of urinary bladder (disorder)|
-    * This concept references the body structure hierarchy in the finding site of 89837001 |Urinary bladder structure (body structure)| and uses "urinary bladder" in the FSN and PT.
+    * This concept references the body structure hierarchy in the finding site of 89837001 |Urinary bladder structure (body structure)| and uses _urinary bladder_ in the FSN and PT.
 
 {% hint style="info" %}
 The term _bladder_ must include _urinary_ to distinguish from gallbladder and aid in translation. _Urinary bladder_ must be used in both the fully specified name and preferred term.
@@ -150,7 +150,7 @@ The term _bladder_ must include _urinary_ to distinguish from gallbladder and ai
 Descriptions should be context-neutral for foundation hierarchies. Where context is explicit for a disease or procedure, the preferred term from foundation hierarchies can be used instead.&#x20;
 
 * For example,&#x20;
-  * Procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional.  The procedure site should be modeled with the cross-sectional abdomen.  However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'.  It is the same reason for the preferred term 'CT of abdomen'.
+  * Procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional.  The procedure site should be modeled with the cross-sectional abdomen.  However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'.  It is the same reason for the preferred term |CT of abdomen|.
 
 ### Exceptions <a href="#exceptions.2" id="exceptions.2"></a>
 
