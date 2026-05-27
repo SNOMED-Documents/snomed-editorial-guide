@@ -25,9 +25,9 @@ The following illustrates the **inferred** view for 125691000 |Sotalol hydrochlo
 
 <figure><img src="../../../../../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
-### Guidelines for the use of 738774007 | Is modification of (attribute)|
+## Guidelines for | Is modification of (attribute)|
 
-Substances may have zero to many |Is modification of attribute|(s).
+#### Substances may have zero to many |Is modification of (attribute)|(s).
 
 * For example,
   * Morphine hydrochloride (substance)
@@ -39,7 +39,7 @@ Substances may have zero to many |Is modification of attribute|(s).
 
 <figure><img src="../../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-Hydrates have an 738774007 | Is modification of (attribute)| relationship to the unspecified salt.
+#### Hydrates have an | Is modification of (attribute)| relationship to the unspecified salt.
 
 * For example,
   * Caffeine hydrate (substance) IS MODIFICATION OF Caffeine (substance).
@@ -76,7 +76,7 @@ This is the **stated and inferred** view.
 
 ***
 
-Anhydrous salts have an 738774007 | Is modification of (attribute)| relationship to the unspecified salt.
+#### Anhydrous salts have an 738774007 | Is modification of (attribute)| relationship to the unspecified salt.
 
 * For example,
   * Theophylline anhydrous (substance) IS MODIFICATION OF Theophylline (substance).
@@ -89,55 +89,60 @@ This is the **inferred** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
-The salts are modeled with an 738774007 | Is modification of (attribute)| the acid substance.
+#### The salts are modeled with | Is modification of (attribute)| of the acid substance.
 
 * For example,
   * Pamidronate monosodium (substance) IS MODIFICATION OF Pamidronic acid (substance). This is the **stated** and **inferred** view.
 
 <figure><img src="../../../../../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-Liposomal preparations are modifications of the chemical substance.
+#### Liposomal preparations are modifications of the chemical substance.
 
 * For example,
   * Daunorubicin citrate liposome (substance)|
 
 <figure><img src="../../../../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
-Pegylated substances are modeled with |s modification of (attribute)| generic substance, if such a substance has been made available. Not all pegylated medicinal substances have a non-pegylated form, as the non-pegylated form may have been too immunogenic or too toxic.
+#### Pegylated substances are modeled with |s modification of (attribute)| generic substance, if such a substance has been made available. Not all pegylated medicinal substances have a non-pegylated form, as the non-pegylated form may have been too immunogenic or too toxic.
 
 * For example,
   * 785674001 |Turoctocog alfa pegol (substance)|
 
 <figure><img src="../../../../../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
-Concepts specifying a particular physical form (e.g., micronized, macrocrystal, microsphere) should have a parent concept that relates to the structure of the substance and also an |Is modification of (attribute)| relationship to the unspecified substance concept.
+#### Concepts specifying a particular physical form (e.g., micronized, macrocrystal, microsphere) should have a parent concept that relates to the structure of the substance and also an |Is modification of (attribute)| relationship to the unspecified substance concept.
 
 * For example,
   * 414246008 |Fenofibrate micronized (substance)|
 
 <figure><img src="../../../../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
-Grouper concepts should not be targets of an 738774007 | Is modification of (attribute)| relationship.
+Dried gels have an |Is modification of (attribute)| relationship to the gel substance.
 
-In general, an 738774007 | Is modification of (attribute)| is not applicable to prodrugs. This is because there is no requirement for the |Has active ingredient (attribute)| of medicinal products containing prodrug substances to use any relationship to the active substance to manage relationships within the medicinal product hierarchy.
+* For example, 768558006 |Dried aluminium hydroxide gel (substance)| has an |Is modification of (attribute)| relationship of |Algeldrate (substance)|.&#x20;
+
+#### In general, an |Is modification of (attribute)| is not applicable to prodrugs.&#x20;
+
+This is because there is no requirement for the |Has active ingredient (attribute)| of medicinal products containing prodrug substances to use any relationship to the active substance to manage relationships within the medicinal product hierarchy.
 
 For example, aspirin is not generally considered a modification of the substance salicylic acid.
 
 {% hint style="info" %}
 When a prodrug is an esterified form of substance, there should be an 738774007 | Is modification of (attribute)| relationship between the substance and its esterified form.
 
-For exemplar,
+For example,
 
 * 715220007 |Tenofovir alafenamide (substance)|
 * 89678001 |Cefuroxime axetil (substance)|
 {% endhint %}
 
-738774007 | Is modification of (attribute)| is not applicable:
+#### |Is modification of (attribute)| is not applicable:
 
 * Between a glycan and its glycoconjugate.
   * For example, 259289005 |Trimethylene glycol (substance)| is not a modification of 52086008 |Glycol (substance)|.
 * To genetic engineering process variations (e.g., Somatropin(epr), Somatropin(rbe), or Somatropin(rmc)), as SNOMED CT does not generally differentiate substances based on production process.
 * Between a chemical element and its salt.
   * For example, 387307005 |Calcium carbonate (substance)| is not a modification of |Calcium (substance)|.
+* When the potential target would have been a grouper concept.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Concepts%20Representing%20a%20Substance%20or%20its%20Modifications" class="button primary">Provide Feedback</a>
