@@ -103,7 +103,7 @@ This is the **inferred** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
-#### Pegylated substances are modeled with |s modification of (attribute)| generic substance, if such a substance has been made available. Not all pegylated medicinal substances have a non-pegylated form, as the non-pegylated form may have been too immunogenic or too toxic.
+#### Pegylated substances are modeled with |Is modification of (attribute)| generic substance, if such a substance has been made available. Not all pegylated medicinal substances have a non-pegylated form, as the non-pegylated form may have been too immunogenic or too toxic.
 
 * For example,
   * 785674001 |Turoctocog alfa pegol (substance)|
