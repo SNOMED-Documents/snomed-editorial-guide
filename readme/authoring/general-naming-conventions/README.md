@@ -172,12 +172,18 @@ Outside of the body structure hierarchy, concepts should not include the words _
   * For the body structure concept, 266005 |Structure of lower lobe of right lung (body structure)|, a procedure with this body structure is 726425007 |Lobectomy of lower lobe of right lung (procedure)|.
 {% endhint %}
 
-## Description Length Limitations <a href="#description-length-limitations" id="description-length-limitations"></a>
+## Description Length Limit <a href="#description-length-limitations" id="description-length-limitations"></a>
 
-In the rare event that the 255-character limit of the fully specified name is reached, standard naming conventions may be circumvented in order to adhere to the 255-term string limit.
+All descriptions (FSN, PT, SYN, DEF) have a character limit of 4096 characters.
+
+In the rare event that the character limit of the fully specified name is reached, standard naming conventions may be circumvented in order to adhere to the term string limit.
 
 * For example, the use of commas may be used instead of the word “and”.
 
 Considerations can include language nuances, content use case, etc. The decision on which standard naming conventions to circumvent will depend on the circumstances.
+
+{% hint style="info" %}
+The facility to incorporate a maximum length of Fully Specified Name (FSN) and Synonym beyond 255 characters to a maximum of 4096 characters has been implemented from the July 2026 International Edition release onwards. The primary benefit of this change is to ensure SNOMED CT remains flexible to accommodate future terming requirements, particularly for medicinal products.
+{% endhint %}
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=General%20Naming%20Conventions" class="button primary">Provide Feedback</a>
