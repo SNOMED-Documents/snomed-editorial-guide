@@ -61,14 +61,18 @@ The following units of measure should not be abbreviated in any descriptions; al
 * picogram
 * unit
 
-Descriptions that include abbreviations for drug unit, such as ‘mg’, ‘g’, ‘mg/’, 'unit/g', 'unit/mg', 'microgram/g', and 'microgram/mg' have a case sensitivity indicator of cl, |Only initial character case insensitive (core metadata concept)|.
+Descriptions that include abbreviations for drug unit, such as ‘mg’, ‘g’, ‘mg/’, 'unit/g', 'unit/mg', 'microgram/g', and 'microgram/mg' have a case sensitivity indicator of cl, |Only initial character case insensitive (core metadata concept)|.  These descriptions are cI; the first character of the description may or may not be capitalized, while the case of the rest of the description cannot be changed.
 
-* For example:
+* For example,
   * 3500544012 |Acetaminophen 500 mg oral tablet|
   * 3692869013 |Betamethasone (as betamethasone dipropionate) 500 microgram/g and salicylic acid 30 mg/g cutaneous ointment|
   * 4550119010 |Cyclophosphamide 500 mg powder for solution for injection vial|
 
-These descriptions are cI; the first character of the description may or may not be capitalized, while the case of the rest of the description cannot be changed.
+While not an abbreviation, _gram_ is the standard international metric unit of mass and is lowercase in descriptions.&#x20;
+
+* For example,
+  * 258682000 |gram (qualifier value)| is _Entire term case sensitive_
+  * 1230118007 |Product containing precisely bacitracin 250 unit/1 gram and neomycin sulfate 5 milligram/1 gram and sulfacetamide sodium 60 milligram/1 gram conventional release cutaneous powder (clinical drug)| is _Only initial character case insensitive_
 
 ## Concentration strength units
 
