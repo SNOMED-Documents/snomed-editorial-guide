@@ -9,6 +9,10 @@ This attribute represents the absorbability aspect of an object.
 * For example,
   * 705633004 |Bioabsorbable vascular stent (physical object)| Has absorbability value of 860574003 |Bioabsorbable (qualifier value)|
 
+## Has additive
+
+This attribute represents a substance that is intended to mix with a sample, e.g. a fluid, granular substance or a spray coating on the inside of a container. An additive can be added to a container at time of manufacture, or to a specimen while or after the specimen is added to the container.
+
 ## Has coating material
 
 This attribute represents the material with which an object is coated.

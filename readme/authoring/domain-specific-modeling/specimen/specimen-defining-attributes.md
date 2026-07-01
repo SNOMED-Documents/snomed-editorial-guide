@@ -2,6 +2,10 @@
 
 The following defining attributes correspond to the _Specimen Attributes Summary_ table.
 
+## Has additive
+
+This attribute represents a substance that is intended to mix with a sample, e.g. a fluid, granular substance or a spray coating on the inside of a container. An additive can be added to a container at time of manufacture, or to a specimen while or after the specimen is added to the container.
+
 ## Specimen source identity
 
 Specimen source identity specifies the type of individual, group, or physical location from which a specimen is collected.
