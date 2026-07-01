@@ -41,6 +41,10 @@ This attribute represents the material or substance that fills an object.
 * For example,
   * 464376000 |Saline-filled breast implant (physical object)| Has filling value of 387390002 |Sodium chloride (substance)|
 
+## Has separator
+
+This attribute represents a separator, something that is intended to keep parts of a sample apart.  A separator can be a substance, such as a gel separator, or a mechanical separator, such as a plastic barrier.
+
 ## Has surface texture
 
 This attribute represents the tactile characteristic or appearance of the surface of an object.
