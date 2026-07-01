@@ -44,6 +44,10 @@ This attribute represents the tactile characteristic or appearance of the surfac
 * For example,
   * 769177007 |Saline-filled smooth breast implant (physical object)| Has surface texture value of 82280004 |Smooth (qualifier value)|
 
+## Is receptacle for
+
+This attribute represents the type of specimen that the container was intended to contain by its manufacturer.
+
 ## Is sterile
 
 This attribute represents the sterility quality (e.g. sterile or non-sterile) of an object.
