@@ -48,6 +48,9 @@ This attribute represents the material or substance that fills an object.
 
 This attribute represents a separator, something that is intended to keep parts of a sample apart.  A separator can be a substance, such as a gel separator, or a mechanical separator, such as a plastic barrier.
 
+* For example,
+  * 767390000 |Evacuated blood collection tube with heparin lithium and gel separator (physical object)| Has separator of 1343637004 |Gel separator (substance)|
+
 ## Has surface texture
 
 This attribute represents the tactile characteristic or appearance of the surface of an object.
@@ -58,6 +61,9 @@ This attribute represents the tactile characteristic or appearance of the surfac
 ## Is receptacle for
 
 This attribute represents the type of specimen that the container was intended to contain by its manufacturer.
+
+* For example,
+  * 767390000 |Evacuated blood collection tube with heparin lithium and gel separator (physical object)| Is receptacle for 119297000 |Blood specimen (specimen)|
 
 ## Is sterile
 
