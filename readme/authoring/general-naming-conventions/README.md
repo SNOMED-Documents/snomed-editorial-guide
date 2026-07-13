@@ -85,6 +85,12 @@ Msh6 in "DNA mismatch repair protein Msh6 (substance)" is a protein symbol stand
 * For example, 1229847004 |Ubiquitin carboxyl-terminal hydrolase BAP1 (substance)|
 {% endhint %}
 
+A synonym may contain an abbreviation without expansion for a description containing multiple chemical substances whose expansion may potentially impact usability or clinical safety; the synonym should be supported by its use in product information.&#x20;
+
+* For example,&#x20;
+  * 1984901000001119 HYNIC-\[D-Phe1, Tyr3-octreotide] TFA salt
+    * Expanding the four abbreviations found within the synonym above would yield confusing results.  Additionally, the synonym is referenced in the summary of product characteristics. &#x20;
+
 ## Eponyms
 
 Eponyms are names that are derived from proper names (usually the person who made the discovery or created the original description). It is neither desirable nor possible, to completely avoid using eponyms in a medical terminology. They are found in many areas of medical terminology, including anatomic structures, morphologic abnormalities, diseases, findings, and procedures (e.g. Rutherford Morison's pouch, vein of Galen, Aschoff body, Kell blood group, Down syndrome, Moro reflex, and Whipple procedure).
