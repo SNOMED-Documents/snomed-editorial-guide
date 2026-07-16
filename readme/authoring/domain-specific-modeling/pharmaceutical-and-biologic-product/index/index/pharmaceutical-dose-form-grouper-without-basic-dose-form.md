@@ -21,6 +21,8 @@ Grouper concepts concepts that do not include a basic dose form shall be modeled
 
 For concepts with `736472000 |Has dose form administration method (attribute)| = 738996007 |Spray (administration method)|`, use the following pattern for the FSN; align naming and case sensitivity with the FSN for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”.
 
+Template:
+
 * \<Dose form release characteristic> \<Dose form intended site FSN> \<Dose form administration method> (dose form)
 
 For example,
@@ -33,6 +35,8 @@ For example,
 
 For concepts representing drops with 736472000 |Has dose form administration method (attribute)| = 738994005 |Instill (administration method)|, use the following pattern for the FSN; align naming and case sensitivity with the FSN for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”.
 
+Template:
+
 * \<Dose form release characteristic> \<Dose form intended site FSN> \<Dose form administration method> (dose form)
 
 For example,
@@ -44,6 +48,8 @@ For example,
 
 For concepts representing drug delivery systems, use the following pattern for the FSN; align naming and case sensitivity with the FSN for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”.
 
+Template:
+
 * \<Dose form release characteristic> \<Dose form intended site FSN> drug delivery system
 
 For example,
@@ -54,6 +60,8 @@ For example,
 ### Preferred Term
 
 For concepts with `736472000 |Has dose form administration method (attribute)| = 738996007 |Spray (administration method)|`, use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”. Exclude \<Dose form release characteristic> when = 736849007 |Conventional release (release characteristic)|.
+
+Template:
 
 * \<Dose form release characteristic> \<Dose form intended site FSN> \<Dose form administration method>
 
@@ -67,6 +75,8 @@ For example,
 
 For concepts representing drops with `736472000 |Has dose form administration method (attribute)| = 738994005 |Instill (administration method)|`, use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”. Exclude \<Dose form release characteristic> when = 736849007 |Conventional release (release characteristic)|.
 
+Template:
+
 * \<Dose form release characteristic> \<Dose form intended site FSN> \<Dose form administration method>
 
 For example,
@@ -77,6 +87,8 @@ For example,
 ***
 
 For concepts representing drug delivery systems, use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value. For multiple intended sites, the intended sites must be in alphabetical order and separated by the word “and”. Exclude \<Dose form release characteristic> when = 736849007 |Conventional release (release characteristic)|.
+
+Template:
 
 * \<Dose form release characteristic> \<Dose form intended site FSN> drug delivery system
 

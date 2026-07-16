@@ -2,19 +2,15 @@
 
 ## Overview
 
-The dose form administration method represents a general type of method of administration (e.g. apply, chew, spray, swallow) that a dose form is designed to be administered by (e.g. a chewable tablet is formulated to be administered by chewing). To support fully defining concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy, a hierarchy representing dose form administration method is required.
+The dose form administration method represents a general type of method of administration (e.g., apply, chew, spray, swallow) that a dose form is designed to be administered by (e.g. a chewable tablet is formulated to be administered by chewing). To support fully defining concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy, a hierarchy representing dose form administration method is required.
 
-Concepts in the 736665006 |Dose form administration method (administration method)| hierarchy will be used to model concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy; they will not be used to model concepts in the 763158003 |Medicinal product (product)| hierarchy.
+Concepts in the 736665006 |Dose form administration method (administration method)| hierarchy are used to model concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy; they are not used to model concepts in the 763158003 |Medicinal product (product)| hierarchy.
 
 The 736665006 |Dose form administration method (administration method)| hierarchy is a descendant of 362981000 |Qualifier value (qualifier value)|.
 
 ## Modeling
 
-| **Parent concept**    | 736665006 \|Dose form administration method (administration method) |
-| --------------------- | ------------------------------------------------------------------- |
-| **Semantic tag**      | (administration method)                                             |
-| **Definition status** | Defined                                                             |
-| **Attributes**        | None                                                                |
+<table data-header-hidden><thead><tr><th width="182.564453125"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>736665006 |Dose form administration method (administration method)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(administration method)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
 
 ## Naming&#x20;
 

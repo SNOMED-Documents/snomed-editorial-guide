@@ -2,7 +2,7 @@
 
 ## Overview
 
-Pharmaceutical dose form concepts (e.g. conventional release oral tablet, prolonged-release oral capsule) that are deemed to be clinically useful and that can be sufficiently defined will be included in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy. Primitive concepts may be included if documented as an exception.
+Pharmaceutical dose form concepts (e.g., conventional release oral tablet, prolonged-release oral capsule) that are deemed to be clinically useful and that can be sufficiently defined will be included in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy. Primitive concepts may be included if documented as an exception.
 
 ### Out of Scope
 
@@ -17,6 +17,8 @@ Lyophilized dose forms are out of scope for the international edition of SNOMED 
 ### FSN
 
 Use the following pattern for the FSN; align naming and case sensitivity with the FSN for the concepts that are selected as the attribute values, excluding the semantic tag. For multiple intended sites, the sites must be in alphabetical order and separated by the word “and”.
+
+Template:
 
 \<Dose form release characteristic FSN> \<Dose form intended site FSN> \<Basic dose form> (dose form)
 
@@ -33,6 +35,8 @@ For example,
 ### Preferred Term
 
 Use the following pattern for the PT; align naming and case sensitivity with the PT for the concepts that are selected as the attribute values, excluding the semantic tag. For multiple intended sites, the sites must be in alphabetical order and separated by the word “and”. Exclude \<Dose form release characteristic> when = `736849007 |Conventional release (release characteristic)|`.
+
+Template:
 
 \<Dose form release characteristic FSN> \<Dose form intended site FSN> \<Basic dose form>
 
@@ -68,6 +72,6 @@ Optional
 
 <figure><img src="../../../../../../.gitbook/assets/image (75).png" alt=""><figcaption><p><em><strong>Inferred</strong></em> view for 764774009 |Conventional release and prolonged-release oral tablet (dose form)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691246.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174691246.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Pharmaceutical%20Dose%20Form%20Naming%20and%20Modeling%20Conventions" class="button primary">Provide Feedback</a>

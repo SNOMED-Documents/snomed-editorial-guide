@@ -2,17 +2,13 @@
 
 ## Overview
 
-736479009 |Dose form intended site (intended site)| represents a general type of site of administration (e.g. cutaneous, nasal, oral, parenteral). This subhierarchy is a descendant of 362981000 |Qualifier value (qualifier value)| that supports fully defining the 736542009 |Pharmaceutical dose form (dose form)| hierarchy. |Dose form intended site (intended site)| is used to model concepts in the |Pharmaceutical dose form (dose form)| hierarchy; they are not used to model 763158003 |Medicinal product (product)|.
+736479009 |Dose form intended site (intended site)| represents a general type of site of administration (e.g., cutaneous, nasal, oral, parenteral). This subhierarchy is a descendant of 362981000 |Qualifier value (qualifier value)| that supports fully defining the 736542009 |Pharmaceutical dose form (dose form)| hierarchy.  |Dose form intended site (intended site)| is used to model concepts in the |Pharmaceutical dose form (dose form)| hierarchy; they are not used to model 763158003 |Medicinal product (product)|.
 
-|Dose form intended site| should not be confused with _route of administration_ , which is a concept used in dosage instructions for the administration of a particular medicinal product to a particular patient.
+|Dose form intended site| should not be confused with _route of administration_, which is a concept used in dosage instructions for the administration of a particular medicinal product to a particular patient.
 
 ## Modeling
 
-| **Parent concept**    | <<736479009 \|Dose form intended site (intended site) |
-| --------------------- | ----------------------------------------------------- |
-| **Semantic tag**      | (intended site)                                       |
-| **Definition status** | Primitive                                             |
-| **Attributes**        | None                                                  |
+<table data-header-hidden><thead><tr><th width="183.96484375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>&#x3C;&#x3C;736479009 |Dose form intended site (intended site)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(intended site)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
 
 ## Naming
 

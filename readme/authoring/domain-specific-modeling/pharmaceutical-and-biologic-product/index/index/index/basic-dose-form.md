@@ -2,7 +2,7 @@
 
 ## Overview
 
-The basic dose form represents a general type of pharmaceutical formulation (e.g. tablet, capsule, cream, ointment, solution, emulsion) used for medicinal products. To support fully defining concepts in the `736542009 |Pharmaceutical dose form (dose form)|` hierarchy, a hierarchy representing basic dose form is required.
+The basic dose form represents a general type of pharmaceutical formulation (e.g., tablet, capsule, cream, ointment, solution, emulsion) used for medicinal products. To support fully defining concepts in the `736542009 |Pharmaceutical dose form (dose form)|` hierarchy, a hierarchy representing basic dose form is required.
 
 Concepts in the `736478001 |Basic dose form (basic dose form)|` hierarchy will be used to model concepts in the `736542009 |Pharmaceutical dose form (dose form)|` hierarchy; they will not be used to model concepts in the `763158003 |Medicinal product (product)|` hierarchy.
 
@@ -12,17 +12,15 @@ The `736478001 |Basic dose form (basic dose form)|` hierarchy is a descendant of
 
 Descendants shall be modeled as follows.
 
-| Parent concept                                                           | `736478001 \|Basic dose form (basic dose form)`                                                                                                               |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Semantic tag                                                             | (basic dose form)                                                                                                                                             |
-| Definition status                                                        | <p>Primitive</p><ul><li><p>Exceptions:</p><ul><li>Grouper concepts based on state of matter shall have <em>Defined</em> definition status</li></ul></li></ul> |
-| <p><strong>Attribute</strong>:</p><p>Has state of matter (attribute)</p> | <p><strong>Range</strong>: <code>&#x3C;736471007 |State of matter (state of matter)</code></p><p></p><p><strong>Cardinality</strong>: 1..1</p>                |
+<table data-header-hidden><thead><tr><th width="299.5703125"></th><th></th></tr></thead><tbody><tr><td>Parent concept</td><td><code>736478001 |Basic dose form (basic dose form)</code></td></tr><tr><td>Semantic tag</td><td>(basic dose form)</td></tr><tr><td>Definition status</td><td><p>Primitive</p><ul><li><p>Exceptions:</p><ul><li>Grouper concepts based on state of matter shall have <em>Defined</em> definition status</li></ul></li></ul></td></tr><tr><td><p><strong>Attribute</strong>:</p><p>Has state of matter (attribute)</p></td><td><p><strong>Range</strong>: <code>&#x3C;736471007 |State of matter (state of matter)</code></p><p></p><p><strong>Cardinality</strong>: 1..1</p></td></tr></tbody></table>
 
 ## Naming Guidelines for Grouper Concept
 
 ### FSN
 
 Use the following pattern for the FSN; align naming and case sensitivity with the FSN for the concept that is selected as the attribute value, excluding the semantic tag.
+
+Template:
 
 * Basic dose form with \<State of matter> state of matter (basic dose form)
 
@@ -34,6 +32,8 @@ For example,
 ### Preferred Term
 
 Use the following pattern for the PT; align naming and case sensitivity with the PT for the concept that is selected as the attribute value.
+
+Template:
 
 * \<State of matter PT> state of matter
 
@@ -58,7 +58,7 @@ Preferred; not required.
 
 <figure><img src="../../../../../../../.gitbook/assets/image (88).png" alt=""><figcaption><p><em><strong>Inferred</strong></em> view for 420699003 |Basic dose form with liquid state of matter (basic dose form)</p></figcaption></figure>
 
-<figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174691158.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174691158.png" alt=""><figcaption></figcaption></figure>
 
 ## Naming Guidelines for Basic Dose Form Concept
 
