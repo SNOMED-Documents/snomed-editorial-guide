@@ -36,11 +36,14 @@ When common usage requires it, there should be at least one description that has
 Existing eponymous descriptions with the possessive _s_, but no apostrophe, need not be inactivated, but newly added descriptions should either have no _s_, or else include the apostrophe.
 {% endhint %}
 
-### Prime symbol ( ' ) <a href="#prime-symbol" id="prime-symbol"></a>
+### Prime symbol ( ′ ) <a href="#prime-symbol" id="prime-symbol"></a>
 
-In protein names, this character (represented by single quote character) is used to indicate the cleavage location on a substrate and to distinguish different subunits with the same notation.
+In protein names, a prime symbol is used to indicate the cleavage location on a substrate and to distinguish different subunits with the same notation.  SNOMED CT uses the single quote character, also known as apostrophe, to represent prime. &#x20;
 
-* For example, 80222004 |5'-nucleotidase (substance)|
+* For example,&#x20;
+  * 80222004 |5'-nucleotidase (substance)|
+
+The international edition of SNOMED CT does not publish descriptions with prime symbols.
 
 {% hint style="info" %}
 The prime symbol and apostrophe may look the same, but each has its own Unicode representation.
