@@ -2,7 +2,7 @@
 
 ## Overview
 
-The vaccine product "only" concept is an abstract representation of the active ingredient(s) in a vaccine product.  It means that the vaccine product must contain only the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN. The vaccine product "containing only" may be sufficient to serve as an interoperability layer or to support prescribing use cases.
+The "Vaccine product containing only" concept is an abstract representation of the active ingredient(s) in a vaccine product.  It means that the vaccine product must contain only the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN. The "Vaccine product containing only" may be sufficient to serve as an interoperability layer or to support prescribing use cases.
 
 For example,
 
@@ -13,14 +13,14 @@ For example,
 
 #### Single ingredient vaccines
 
-Both vaccine product "containing" and vaccine product "containing only" concepts may be created for products that only have one active ingredient.
+Both "Vaccine product containing" and "Vaccine product containing only" concepts may be created for products that only have one active ingredient.
 
 * For example,&#x20;
   * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)| and 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|
 
 #### Multiple ingredient vaccines
 
-Vaccine product "containing" concepts are not created for multiple ingredient vaccine products. Vaccine product "containing only" concepts are created for multiple ingredient vaccine products.
+"Vaccine product containing" concepts are not created for multiple ingredient vaccine products. "Vaccine product containing only" concepts are created for multiple ingredient vaccine products.
 
 {% hint style="info" %}
 Modeling and terming for vaccines that have variable composition (e.g., influenza specific to a year or hemisphere) will be addressed at a future date when use cases and requirements are better understood.
@@ -28,7 +28,7 @@ Modeling and terming for vaccines that have variable composition (e.g., influenz
 
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="280.77734375"></th><th></th></tr></thead><tbody><tr><td><strong>Stated parent concept</strong></td><td>763158003 |Medicinal product (product)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(medicinal product)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><p><strong>Attribute</strong>:</p><p>Has active ingredient</p></td><td><p><strong>Range</strong>: &#x3C;105590001 |Substance (substance)| excluding concepts representing structural groupers, dispositions, or combined substances</p><p><strong>Cardinality</strong>: 1..*</p><ul><li>There is no technical limit on the number of Has active ingredient attributes that may be added to a concept; a practical limit may be imposed at a later date.</li></ul><p>For content in the International Release, this attribute value should represent either the organism antigen, or the organism antigen(s), including modifications or subtypes, that are contained in a manufactured product.</p></td></tr><tr><td><strong>Attribute</strong>: <br>Has ingredient qualitative strength</td><td><p><strong>Range</strong>: &#x3C; 1149484003 |Ingredient qualitative strength (qualifier value)|</p><p><strong>Cardinality</strong>: 0..*</p></td></tr><tr><td><strong>Attribute</strong>: <br>Has target population</td><td><p><strong>Range</strong>: &#x3C; 27821000087106 |Product target population (qualifier value)|</p><p><strong>Cardinality</strong>: 0..1</p></td></tr><tr><td><p><strong>Attribute</strong>:</p><p>Plays role</p></td><td><p><strong>Range</strong>:  &#x3C;&#x3C;766940004 |Role (role)|<br></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, Vaccine product "containing" concepts should have one and only one |Plays role (attribute)| of 318331000221102 |Active immunity stimulant role (role)|.</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Count of base of active ingredient</p></td><td><p><strong>Range</strong>: &#x3C; 260299005 |Number (qualifier value)|</p><p></p><p><strong>Cardinality</strong>: 1..1</p><p></p><p>For content in the International Release, this attribute value should represent the total number of discrete active ingredients, excluding modifications or subtypes.</p></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Count of active ingredient</p></td><td><strong>Concrete Type</strong>:  Integer<br><strong>Range</strong>:  >#0..<br><strong>Cardinality</strong>:  1..1</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="280.77734375"></th><th></th></tr></thead><tbody><tr><td><strong>Stated parent concept</strong></td><td>763158003 |Medicinal product (product)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(medicinal product)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><p><strong>Attribute</strong>:</p><p>Has active ingredient</p></td><td><p><strong>Range</strong>: &#x3C;105590001 |Substance (substance)| excluding concepts representing structural groupers, dispositions, or combined substances</p><p><strong>Cardinality</strong>: 1..*</p><ul><li>There is no technical limit on the number of Has active ingredient attributes that may be added to a concept; a practical limit may be imposed at a later date.</li></ul><p>For content in the International Release, this attribute value should represent either the organism antigen, or the organism antigen(s), including modifications or subtypes, that are contained in a manufactured product.</p></td></tr><tr><td><strong>Attribute</strong>: <br>Has ingredient qualitative strength</td><td><p><strong>Range</strong>: &#x3C; 1149484003 |Ingredient qualitative strength (qualifier value)|</p><p><strong>Cardinality</strong>: 0..*</p></td></tr><tr><td><strong>Attribute</strong>: <br>Has target population</td><td><p><strong>Range</strong>: &#x3C; 27821000087106 |Product target population (qualifier value)|</p><p><strong>Cardinality</strong>: 0..1</p></td></tr><tr><td><p><strong>Attribute</strong>:</p><p>Plays role</p></td><td><p><strong>Range</strong>:  &#x3C;&#x3C;766940004 |Role (role)|<br></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, "Vaccine product containing" concepts should have one and only one |Plays role (attribute)| of 318331000221102 |Active immunity stimulant role (role)|.</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Count of base of active ingredient</p></td><td><p><strong>Range</strong>: &#x3C; 260299005 |Number (qualifier value)|</p><p></p><p><strong>Cardinality</strong>: 1..1</p><p></p><p>For content in the International Release, this attribute value should represent the total number of discrete active ingredients, excluding modifications or subtypes.</p></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Count of active ingredient</p></td><td><strong>Concrete Type</strong>:  Integer<br><strong>Range</strong>:  >#0..<br><strong>Cardinality</strong>:  1..1</td></tr></tbody></table>
 
 ## Terming
 
@@ -50,6 +50,7 @@ For example,
 * Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)
 * Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)
 
+{% hint style="success" %}
 |Has product characteristic| and |Has ingredient characteristic| attribute values should be added as appropriate.
 
 * Example of |Has product characteristic (attribute)|:
@@ -59,6 +60,7 @@ For example,
 * Example of |Has ingredient characteristic (attribute):
   * Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae antigens (medicinal product)
   * Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)
+{% endhint %}
 
 ### Preferred Term
 
@@ -74,6 +76,7 @@ For example,
 * Hepatitis A and Hepatitis B virus antigens only vaccine product
 * Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product
 
+{% hint style="success" %}
 |Has product characteristic| and |Has ingredient characteristic| attribute values should be added as appropriate.
 
 * Example of |Has product characteristic (attribute)|:
@@ -83,6 +86,7 @@ For example,
 * Example of |Has ingredient characteristic (attribute):
   * Clostridium tetani and low dose Corynebacterium diphtheriae antigens only vaccine product
   * Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product
+{% endhint %}
 
 ### Synonym
 
@@ -96,6 +100,7 @@ For example,
 * Hepatitis A and Hepatitis B vaccine
 * Diphtheria and pertussis and tetanus vaccine
 
+{% hint style="success" %}
 |Has product characteristic| and |Has ingredient characteristic| attribute values should be added as appropriate.
 
 * Example of |Has product characteristic (attribute)|:
@@ -105,6 +110,7 @@ For example,
 * Example of |Has ingredient characteristic (attribute):
   * Low dose diphtheria and tetanus vaccine
   * Low dose diphtheria and inactivated poliomyelitis and tetanus vaccine
+{% endhint %}
 
 Synonyms representing abbreviations for product (e.g., MMR, DTaP) will not be included in the International Release due to lack of internationally accepted reference sources.
 

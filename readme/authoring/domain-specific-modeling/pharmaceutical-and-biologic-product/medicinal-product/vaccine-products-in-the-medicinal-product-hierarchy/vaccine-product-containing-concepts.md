@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Vaccine Product "containing" concept is an abstract representation of the active ingredient(s) in a vaccine product. It means that the vaccine product must contain the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN or may contain additional active ingredient(s).
+The "Vaccine product containing" concept is an abstract representation of the active ingredient(s) in a vaccine product. It means that the vaccine product must contain the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN or may contain additional active ingredient(s).
 
 * For example,
   * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|
@@ -10,7 +10,7 @@ The Vaccine Product "containing" concept is an abstract representation of the ac
 
 #### Single ingredient vaccines
 
-Both vaccine product "containing" and vaccine product "containing only" concepts may be created for products that only have one active ingredient.&#x20;
+Both "Vaccine product containing" and "Vaccine product containing only" concepts may be created for products that only have one active ingredient.&#x20;
 
 * &#x20;For example,
   * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|&#x20;
@@ -18,11 +18,13 @@ Both vaccine product "containing" and vaccine product "containing only" concepts
 
 #### Multiple ingredient vaccines
 
-Vaccine product "containing" concepts are not created for multiple ingredient vaccine products; vaccine product "containing only" concepts are created for multiple ingredient vaccine products.
+"Vaccine product containing" concepts are not created for multiple ingredient vaccine products.
+
+"Vaccine product containing only" concepts are created for multiple ingredient vaccine products.
 
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="265.6484375"></th><th></th></tr></thead><tbody><tr><td>Stated parent concept</td><td>763158003 |Medicinal product (product)</td></tr><tr><td>Semantic tag</td><td>(medicinal product)</td></tr><tr><td>Definition status</td><td>Defined</td></tr><tr><td><p>Attribute:</p><p>Has active ingredient</p></td><td><p><strong>Range:</strong>  &#x3C;105590001 |Substance (substance) excluding concepts representing structural groupers, dispositions, or combined substances</p><p>Cardinality: 1..*</p><ul><li>While the allowed range is broader, Vaccine product "containing" concepts in the International Release should have one and only one |Has active ingredient| attribute.</li></ul><p>For content in the International Release, this attribute value should represent the organism antigen, not a modification or subtype, unless explicitly identified as an exception.</p><p></p><p><strong>Exceptions:</strong> Vaccine product containing concepts for the following substance subtypes are included (to support vaccination certificates):</p><ul><li>161000221102 |Antigen of Corynebacterium diphtheriae toxoid (substance)|</li><li>551000221106 |Antigen of Clostridium tetani toxoid (substance)|</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Plays role</p></td><td><p><strong>Range</strong>:  &#x3C;&#x3C;766940004 |Role (role)|<br></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, Vaccine product "containing" concepts should have one and only one |Plays role| attribute with attribute value = 318331000221102 |Active immunity stimulant therapeutic role (role)|.</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="265.6484375"></th><th></th></tr></thead><tbody><tr><td>Stated parent concept</td><td>763158003 |Medicinal product (product)</td></tr><tr><td>Semantic tag</td><td>(medicinal product)</td></tr><tr><td>Definition status</td><td>Defined</td></tr><tr><td><p>Attribute:</p><p>Has active ingredient</p></td><td><p><strong>Range:</strong>  &#x3C;105590001 |Substance (substance) excluding concepts representing structural groupers, dispositions, or combined substances</p><p>Cardinality: 1..*</p><ul><li>While the allowed range is broader, "Vaccine product containing" concepts in the International Release should have one and only one |Has active ingredient| attribute.</li></ul><p>For content in the International Release, this attribute value should represent the organism antigen, not a modification or subtype, unless explicitly identified as an exception.</p><p></p><p><strong>Exceptions:</strong> Vaccine product containing concepts for the following substance subtypes are included (to support vaccination certificates):</p><ul><li>161000221102 |Antigen of Corynebacterium diphtheriae toxoid (substance)|</li><li>551000221106 |Antigen of Clostridium tetani toxoid (substance)|</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Plays role</p></td><td><p><strong>Range</strong>:  &#x3C;&#x3C;766940004 |Role (role)|<br></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, "Vaccine product containing" concepts should have one and only one |Plays role| attribute with attribute value = 318331000221102 |Active immunity stimulant therapeutic role (role)|.</li></ul></td></tr></tbody></table>
 
 ## Naming
 
