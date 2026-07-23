@@ -23,7 +23,7 @@ Both vaccine product "containing" and vaccine product "containing only" concepts
 Vaccine product "containing" concepts are not created for multiple ingredient vaccine products. Vaccine product "containing only" concepts are created for multiple ingredient vaccine products.
 
 {% hint style="info" %}
-Modeling and terming for vaccines that have variable composition (e.g. influenza that may be specific to a year or hemisphere) will be addressed at a future date when use cases and requirements are better understood.
+Modeling and terming for vaccines that have variable composition (e.g., influenza specific to a year or hemisphere) will be addressed at a future date when use cases and requirements are better understood.
 {% endhint %}
 
 ## Modeling
@@ -32,9 +32,11 @@ Modeling and terming for vaccines that have variable composition (e.g. influenza
 
 ## Terming
 
-### FSN
+In the naming patterns below, align terming and case significance with the PT for the concept that is selected as the attribute value for the |Has active ingredient (attribute)|.&#x20;
 
-Use the following pattern for the FSN; align terming and case sensitivity with the PT for the concept that is selected as the attribute value for the |Has active ingredient (attribute)|. For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
+For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted.  For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
+
+### FSN
 
 Template:
 
@@ -59,8 +61,6 @@ For example,
   * Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)
 
 ### Preferred Term
-
-Use the following pattern for the PT; align terming and case significance with the PT for the concept that is selected as the attribute value for the |Has active ingredient (attribute)|.  For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted.  For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
 
 Template:
 

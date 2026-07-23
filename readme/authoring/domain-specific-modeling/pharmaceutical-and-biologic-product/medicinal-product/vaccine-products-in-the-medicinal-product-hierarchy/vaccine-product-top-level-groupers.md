@@ -15,13 +15,16 @@ The following high level vaccine-related grouper concepts are included in the |M
 
 ## Naming
 
+In the naming patterns below, align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.
+
 ### FSN
 
-Use the following pattern for the FSN; align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.
-
-Template:
+Single ingredient vaccine
 
 * Vaccine product containing \<Active ingredient PT excluding "antigen"> antigen (medicinal product)
+
+Multiple ingredient vaccine
+
 * Vaccine product containing \<Active ingredient PT excluding "antigen"> and \<Active ingredient PT excluding "antigen"> antigens (medicinal product)
 
 For example,
@@ -32,11 +35,12 @@ For example,
 
 ### Preferred Term
 
-Use the following pattern for the PT; align naming and case significance with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.
-
-Template:
+Single ingredient
 
 * \<Active ingredient PT excluding "antigen">-containing vaccine product
+
+Multiple ingredient
+
 * \<Active ingredient PT excluding "antigen">- and \<Active ingredient PT excluding "antigen"> antigens-containing vaccine product
 
 For example,

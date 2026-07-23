@@ -8,7 +8,15 @@ The Vaccine Product "containing" concept is an abstract representation of the ac
   * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|
   * 836389008 |Vaccine product containing Vaccinia virus antigen (medicinal product)|
 
-Both vaccine product "containing" and vaccine product "containing only" concepts may be created for products that only have one active ingredient (e.g., 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)| and 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|).
+#### Single ingredient vaccines
+
+Both vaccine product "containing" and vaccine product "containing only" concepts may be created for products that only have one active ingredient.&#x20;
+
+* &#x20;For example,
+  * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|&#x20;
+  * 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|
+
+#### Multiple ingredient vaccines
 
 Vaccine product "containing" concepts are not created for multiple ingredient vaccine products; vaccine product "containing only" concepts are created for multiple ingredient vaccine products.
 
@@ -18,13 +26,13 @@ Vaccine product "containing" concepts are not created for multiple ingredient va
 
 ## Naming
 
+In the naming patterns below, align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.&#x20;
+
+For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
+
 ### FSN
 
-Use the following pattern for the FSN; align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|. For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
-
-Template:
-
-* Vaccine product containing \<Active ingredient PT> (medicinal product)
+* Vaccine product containing \<active ingredient PT> (medicinal product)
 
 For example,
 
@@ -32,10 +40,6 @@ For example,
 * Vaccine product containing Haemophilus influenzae type B antigen (medicinal product)
 
 ### Preferred Term
-
-Use the following pattern for the PT; align naming and case significance with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|. For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
-
-Template:
 
 * \<Active ingredient PT>-containing vaccine product
 
