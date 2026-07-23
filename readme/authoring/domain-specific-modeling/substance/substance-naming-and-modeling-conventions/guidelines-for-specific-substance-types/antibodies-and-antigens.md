@@ -10,10 +10,10 @@ This section includes concepts that represent&#x20;
 
 _Organism_ above includes substances derived from an organism, for example, feather or protein. &#x20;
 
-When referring to an organism name, while the Linnean taxon ranks (such as "genus") are not included, the subspecies variants (such as "biotype" and "serotype") are included in the naming. This avoids ambiguity when the same number or letter is used to refer to different organism variants.
+When referring to an organism name, while the Linnean taxon ranks (such as _genus_) are not included, the subspecies variants (such as _biotype_ and _serotype_) are included in the naming. This avoids ambiguity when the same number or letter is used to refer to different organism variants.
 
 * For example,
-  * Without mentioning the specific variant (serogroup vs. serotype) and the nomenclature system (Danish vs. American), "Streptococcus pneumoniae 48" can refer to the following:
+  * Without mentioning the specific variant (serogroup vs. serotype) and the nomenclature system (Danish vs. American), _Streptococcus pneumoniae 48_ can refer to the following:
     * Streptococcus pneumoniae Danish serotype 48 (which is equivalent to Streptococcus pneumoniae American serotype 82)
     * Streptococcus pneumoniae American serotype 48 (which is equivalent to Streptococcus pneumoniae Danish serotype 7B)
     * Streptococcus pneumoniae serogroup 48
@@ -24,7 +24,7 @@ When referring to an organism name, while the Linnean taxon ranks (such as "genu
 
 ## Naming - Antigen of X organism
 
-The antigen name is usually derived from the biological name of the organism as opposed to the “disease” or “infection” that the organism may cause and/or that the vaccine may provide immunization for.
+The antigen name is usually derived from the biological name of the organism as opposed to the _disease_ or _infection_ that the organism may cause and/or that the vaccine may provide immunization for.
 
 ### FSN
 
@@ -67,7 +67,7 @@ Exception:
       1. Filaria Ag
       2. Alternaria alternata protein Ag
 3. **Other**
-   1. "X organism inactivated toxin" for concepts referring to "X organism toxoid (substance)"
+   1. |X organism inactivated toxin| for concepts referring to |X organism toxoid (substance)|
    2. Additional synonyms (e.g., when a legitimate synonym exists for Organism name, such as common names) are applicable and are evaluated on a case-by-case basis.
 
 ## Antigen variants
@@ -82,14 +82,14 @@ To prevent the creation of transient or short-lived viral strain content, the In
 
 ### Variants reviewed to date
 
-“Antigen of X” is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.
+"Antigen of X" is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.
 
 * X refers to a bacteria, virus, fungus, or parasite except when antigen refers to the organism “toxin/toxoid”, where it can only apply to a bacteria.
 
-“Antigen of live attenuated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.
+“Antigen of live attenuated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of |Antigen of X|.
 
 * It refers to attenuated whole cell bacteria or whole virus where the strains are made less virulent so infection is usually inapparent or very mild. It may be used in the creation of vaccine products for certain patient groups, and hence, is of clinical significance.
-* The following subtypes are also in scope for the international release and are modeled in the Substance hierarchy as direct children of Antigen of live attenuated X. Note that in the following examples "human" and "bovine" refer to source organisms which are differentiated from the organism producing antigen, i.e., Rotavirus.
+* The following subtypes are also in scope for the international release and are modeled in the Substance hierarchy as direct children of |Antigen of live attenuated X|.   In the following examples, _human_ and _bovine_ refer to source organisms which are differentiated from the organism producing antigen, i.e., Rotavirus.
   * “Live attenuated human X”, e.g., Antigen of live attenuated human Rotavirus serotype G1P\[8]
   * “Live attenuated human-bovine reassortant X”, e.g., Antigen of live attenuated human-bovine reassortant Rotavirus serotype G1
 
@@ -118,7 +118,7 @@ To prevent the creation of transient or short-lived viral strain content, the In
           * Aggregating data for forecasting
         * The existing grouper concepts with just one child will not be deprecated at this time. However, requests for addition of these concepts will be rejected.
       * “Antigen of X capsular polysaccharide/oligosaccharide conjugated to Y”, which represents an oligosaccharide or polysaccharide antigen attached to a protein Y, where “Y” refers to a carrier protein to increase efficacy and immunogenicity e.g. Corynebacterium diphtheriae cross-reacting material 197 protein.
-        * It is the direct child of single parent "Antigen of X capsular polysaccharide/oligosaccharide conjugated". There are no clinical use-case that requires association to the conjugated part of antigen as an additional parent. This classification is in line with all other similar concepts (modifications such as pegylated substances).
+        * It is the direct child of single parent |Antigen of X capsular polysaccharide/oligosaccharide conjugated|. There are no clinical use case that requires association to the conjugated part of antigen as an additional parent. This classification is in line with all other similar concepts (modifications such as pegylated substances).
   * “Antigen of X toxoid” is in scope for the international release and is modeled in the Substance hierarchy.
     * Like other subunit antigens, “Antigen of X toxoid” is classified under "Antigen of X". While the toxin is not an intrinsic part of the organism, it is a product of the organism that would not exist in the absence of that organism. In other words, there is always a direct association between the substance and the source organism. There are other antigenic proteins that are generated by the organism (e.g. surface protein) and they are classified as children of "Antigen X organism". The only difference, in comparison to toxoids, is that they are not being excreted by the organism.
     * Toxoid antigens are based on the toxin produced by certain bacteria (e.g., tetanus or diphtheria), which has been chemically processed so that it is still immunogenic. Once the toxin has been inactivated, it is called a toxoid.
@@ -164,7 +164,7 @@ The following illustrates the **stated** and **inferred** view:
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691548.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691548.png" alt=""><figcaption></figcaption></figure>
 
 ## Modeling - Antibody to X organism
 
@@ -271,8 +271,8 @@ The following illustrates the **stated** and **inferred** view:
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691547.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691547.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691546.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691546.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Antibodies%20and%20antigens" class="button primary">Provide Feedback</a>
