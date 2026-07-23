@@ -22,6 +22,8 @@ Vaccine product "containing" concepts are not created for multiple ingredient va
 
 Use the following pattern for the FSN; align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|. For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
 
+Template:
+
 * Vaccine product containing \<Active ingredient PT> (medicinal product)
 
 For example,
@@ -32,6 +34,8 @@ For example,
 ### Preferred Term
 
 Use the following pattern for the PT; align naming and case significance with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|. For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted. For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
+
+Template:
 
 * \<Active ingredient PT>-containing vaccine product
 
@@ -52,6 +56,6 @@ Synonyms corresponding to the disorder that is the target of the vaccine are not
 
 <figure><img src="../../../../../../.gitbook/assets/image (61).png" alt=""><figcaption><p><strong>Inferred</strong> view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690932.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174690932.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Vaccine%20Product%20containing%20Concepts" class="button primary">Provide Feedback</a>

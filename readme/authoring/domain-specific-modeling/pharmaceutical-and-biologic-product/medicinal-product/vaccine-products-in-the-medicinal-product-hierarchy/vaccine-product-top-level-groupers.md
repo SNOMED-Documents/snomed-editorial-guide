@@ -19,29 +19,31 @@ The following high level vaccine-related grouper concepts are included in the |M
 
 Use the following pattern for the FSN; align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.
 
-Vaccine product containing \<Active ingredient PT excluding "antigen"> antigen (medicinal product)
+Template:
 
-Vaccine product containing \<Active ingredient PT excluding "antigen"> and \<Active ingredient PT excluding "antigen"> antigens (medicinal product)
+* Vaccine product containing \<Active ingredient PT excluding "antigen"> antigen (medicinal product)
+* Vaccine product containing \<Active ingredient PT excluding "antigen"> and \<Active ingredient PT excluding "antigen"> antigens (medicinal product)
 
-* For example,
-  * Vaccine product (medicinal product)
-  * Vaccine product containing bacteria antigen (medicinal product)
-  * Vaccine product containing virus antigen (medicinal product)
-  * Vaccine product containing bacteria and virus antigens (medicinal product)
+For example,
+
+* Vaccine product containing bacteria antigen (medicinal product)
+* Vaccine product containing virus antigen (medicinal product)
+* Vaccine product containing bacteria and virus antigens (medicinal product)
 
 ### Preferred Term
 
 Use the following pattern for the PT; align naming and case significance with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.
 
-\<Active ingredient PT excluding "antigen">-containing vaccine product
+Template:
 
-\<Active ingredient PT excluding "antigen">- and \<Active ingredient PT excluding "antigen"> antigens-containing vaccine product
+* \<Active ingredient PT excluding "antigen">-containing vaccine product
+* \<Active ingredient PT excluding "antigen">- and \<Active ingredient PT excluding "antigen"> antigens-containing vaccine product
 
-* For example,
-  * Vaccine product
-  * Bacteria antigen-containing vaccine product
-  * Virus antigen-containing vaccine product
-  * Bacteria- and virus antigens-containing vaccine product
+For example,
+
+* Bacteria antigen-containing vaccine product
+* Virus antigen-containing vaccine product
+* Bacteria- and virus antigens-containing vaccine product
 
 ### Synonym
 
@@ -61,6 +63,6 @@ Synonyms matching the FSN are not required.
 
 <figure><img src="../../../../../../.gitbook/assets/image (48) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 863950005 |Vaccine product containing bacteria and virus antigens (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690909.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174690909.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Vaccine%20Product%20Top%20Level%20Groupers" class="button primary">Provide Feedback</a>
