@@ -38,7 +38,7 @@ The following table describes the attributes for real packaged clinical drugs (R
 
 The real packaged clinical drugs class is related to the real clinical drug class by a composition relationship, and therefore the attribute |Contains real clinical drug (attribute)| is used to make the association between the real packaged clinical drug and the (real) clinical drug it contains.
 
-Representation of real packaged medicinal products should use presentation strength (either only, or in addition to, concentration strength) whenever possible in order to be able to accurately describe the number of presentation units present in the package. The exception is for continuous products such as semi-solid dose forms of creams, gels, etc. where strength pattern 3a is used (see [Ingredient Strength Attributes](../../../../../authoring/pharmaceutical-and-biologic-product/Ingredient-Strength-Attributes_303923286.html)). In all cases, the pack size and pack size unit should relate to the denominator unit of the strength.
+Representation of real packaged medicinal products should use presentation strength (either only, or in addition to, concentration strength) whenever possible in order to be able to accurately describe the number of presentation units present in the package. The exception is for continuous products such as semi-solid dose forms of creams, gels, etc. where strength pattern 3a is used (see [Ingredient Strength Attributes](https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/Ingredient-Strength-Attributes_303923286.html)). In all cases, the pack size and pack size unit should relate to the denominator unit of the strength.
 
 ***
 

@@ -6,7 +6,7 @@
 
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="323.4271240234375"></th><th></th></tr></thead><tbody><tr><td>Stated parent concept(s)</td><td><p>257351008 |Shunt (physical object)|</p><p></p><p>Additional parent, if applicable:</p><ul><li>258166002 |Custom made implant (physical object)</li></ul></td></tr><tr><td>Semantic tag</td><td>(physical object)</td></tr><tr><td>Attribute:Has device intended site</td><td><ul><li>Note this attribute is used to model the proximal site of the shunt only. </li></ul><ul><li><p>Range: &#x3C;&#x3C;123037004 |Body structure (body structure)| </p><ul><li>NOTE: While the MRCM allowed range includes the top-level concept, 123037004 |Body structure (body structure)|, only the descendants should be used in modeling shunt concepts. </li></ul></li><li>Cardinality: 0..1</li></ul></td></tr><tr><td>Attribute: Has compositional material</td><td><ul><li><p>Range: &#x3C;&#x3C;105590001 |Substance (substance)| </p><ul><li>NOTE: While the MRCM allowed range includes the top-level concept, 105590001 |Substance (substance)|, only the descendants should be used in modeling shunt concepts. </li></ul></li><li>Cardinality: 0..*</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="323.4271240234375"></th><th></th></tr></thead><tbody><tr><td>Stated parent concept(s)</td><td><p>257351008 |Shunt (physical object)|</p><p></p><p>Additional parent, if applicable:</p><ul><li>258166002 |Custom made implant (physical object)</li></ul></td></tr><tr><td>Semantic tag</td><td>(physical object)</td></tr><tr><td>Attribute:Has device intended site</td><td><ul><li>Note this attribute is used to model the proximal site of the shunt only. </li><li><p>Range: &#x3C;&#x3C;123037004 |Body structure (body structure)| </p><ul><li>NOTE: While the MRCM allowed range includes the top-level concept, 123037004 |Body structure (body structure)|, only the descendants should be used in modeling shunt concepts. </li></ul></li><li>Cardinality: 0..1</li></ul></td></tr><tr><td>Attribute: Has compositional material</td><td><ul><li><p>Range: &#x3C;&#x3C;105590001 |Substance (substance)| </p><ul><li>NOTE: While the MRCM allowed range includes the top-level concept, 105590001 |Substance (substance)|, only the descendants should be used in modeling shunt concepts. </li></ul></li><li>Cardinality: 0..*</li></ul></td></tr></tbody></table>
 
 ## Exemplars
 
@@ -14,7 +14,7 @@ The following illustrates the **stated** view for 258593008 |Ventricular shunt (
 
 <figure><img src="../../../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/physical-object/images/174691266.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/physical-object/images/174691266.png" alt=""><figcaption></figcaption></figure>
 
 The following illustrates the **inferred** view for 258593008 |Ventricular shunt (physical object)|:
 

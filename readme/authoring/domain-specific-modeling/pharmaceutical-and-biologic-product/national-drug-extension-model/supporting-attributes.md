@@ -24,7 +24,7 @@ For example,
 
 <figure><img src="../../../../../.gitbook/assets/image (52).png" alt=""><figcaption><p><em>Diagram of examples of a product name hierarchy</em></p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/308610857.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/308610857.png" alt=""><figcaption></figcaption></figure>
 
 In a product name hierarchy, the parent product name concept should be authored to reflect the unique set of active ingredient substances for the real medicinal product and associated real clinical drug concepts. It is therefore most useful if the parent product name does not include any reference to dose form (e.g., "LA" or "Retard") or to strength (e.g., "Double Strength") or any other information such as indication (e.g., "Shingles Treatment"). Child product name concepts can be authored to include additional information as provided in the authorized name for real clinical drugs.
 

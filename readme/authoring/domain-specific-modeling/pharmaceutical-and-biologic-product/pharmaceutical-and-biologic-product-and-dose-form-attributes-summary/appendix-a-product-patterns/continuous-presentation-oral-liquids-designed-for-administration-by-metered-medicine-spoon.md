@@ -8,7 +8,7 @@ This is a variation on the metered dose presentation; the unit of presentation s
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.02.33 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775953.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/304775953.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
 
 | Manufactured dose form          | Oral suspension                   |                                        |
 | ------------------------------- | --------------------------------- | -------------------------------------- |

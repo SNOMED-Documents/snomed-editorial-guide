@@ -7,6 +7,6 @@ A _revision procedure_ may or may not be a subtype of the original procedure. Re
 
 <figure><img src="../../../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>Stated view of 171839006 |Re-release of carpal tunnel (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/procedure/images/174691290.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/procedure/images/174691290.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Revision" class="button primary">Provide Feedback</a>

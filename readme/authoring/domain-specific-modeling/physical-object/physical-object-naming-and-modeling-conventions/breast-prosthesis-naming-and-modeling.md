@@ -18,6 +18,6 @@ The following illustrates the **inferred** view for 769177007 |Saline-filled smo
 
 <figure><img src="../../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/physical-object/images/174691263.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/physical-object/images/174691263.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Breast%20Prosthesis%20Naming%20and%20Modeling" class="button primary">Provide Feedback</a>

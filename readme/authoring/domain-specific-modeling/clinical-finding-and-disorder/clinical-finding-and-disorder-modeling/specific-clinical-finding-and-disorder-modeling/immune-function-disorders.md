@@ -26,7 +26,7 @@ Allergic reaction (disorder) has a Causative agent (attribute) of Substance (sub
 
 <figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690511.png" alt=""><figcaption><p>Figure: Stated view of 15920201000119103 |Allergic reaction caused by fish (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690511.png" alt=""><figcaption><p>Figure: Stated view of 15920201000119103 |Allergic reaction caused by fish (disorder)|</p></figcaption></figure>
 
 Allergic process (qualifier value) is a subtype of Abnormal immune process (qualifier value) which means allergic disorders, as well as autoimmune disorders, classify as types of disorders of immune function. Disorder of immune function (disorder) modeling with Abnormal immune process (qualifier value) allows allergic and autoimmune disorders to correctly classify as subtypes of Disorder of immune function (disorder).
 
@@ -44,7 +44,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690512.png" alt=""><figcaption><p>Figure: Stated view of 838367000 |Allergic rhinosinusitis caused by Aspergillus (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690512.png" alt=""><figcaption><p>Figure: Stated view of 838367000 |Allergic rhinosinusitis caused by Aspergillus (disorder)|</p></figcaption></figure>
 
 ### Allergic and nonallergic hypersensitivity (pseudoallergic) disposition
 
@@ -64,13 +64,13 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690510.png" alt=""><figcaption><p>Figure: Allergic and nonallergic hypersensitivity (pseudoallergic) disposition example, stated view of Allergy to nut (finding)</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690510.png" alt=""><figcaption><p>Figure: Allergic and nonallergic hypersensitivity (pseudoallergic) disposition example, stated view of Allergy to nut (finding)</p></figcaption></figure>
 
 For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690509.png" alt=""><figcaption><p>Figure: Allergic disposition (finding) model in stated view</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690509.png" alt=""><figcaption><p>Figure: Allergic disposition (finding) model in stated view</p></figcaption></figure>
 
 ### Nonallergic hypersensitivity (pseudoallergic) reaction
 
@@ -78,7 +78,7 @@ Nonallergic hypersensitivity (pseudoallergic) reactions are adverse reactions; t
 
 <figure><img src="../../../../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690503.png" alt=""><figcaption><p>Figure: Nonallergic hypersensitivity (pseudoallergic) reaction model in stated view</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690503.png" alt=""><figcaption><p>Figure: Nonallergic hypersensitivity (pseudoallergic) reaction model in stated view</p></figcaption></figure>
 
 For example,
 
@@ -94,12 +94,12 @@ It may be difficult to define the pathological process and to associate the subs
 
 <figure><img src="../../../../../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690502.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to substance (finding) model</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690502.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to substance (finding) model</p></figcaption></figure>
 
 For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690501.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to drug (finding)</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690501.png" alt=""><figcaption><p>Figure: Stated view of Intolerance to drug (finding)</p></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Immune%20function%20disorders" class="button primary">Provide Feedback</a>

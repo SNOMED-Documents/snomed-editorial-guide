@@ -12,7 +12,7 @@ Disposition is a characteristic of the active ingredient substance(s) present in
 
 <p align="center">Figure: Inferred view of Medicinal product showing membership of a disposition grouping (carbonic anydrase inhibitor)</p>
 
-This section applies to grouper concepts representing a **single** disposition; groupers comprised of multiple dispositions are described in [Groupers Based on Multiple Dispositions, Structures](../../../../../../authoring/pharmaceutical-and-biologic-product/174691077.html).
+This section applies to grouper concepts representing a **single** disposition; groupers comprised of multiple dispositions are described in [Groupers Based on Multiple Dispositions, Structures](https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/174691077.html).
 
 See also
 
@@ -65,6 +65,6 @@ Synonyms matching the FSN are not required.
 
 <figure><img src="../../../../../../.gitbook/assets/image (34) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for grouper concept 108661002 |Product containing histamine H2 receptor antagonist (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690992.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174690992.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Groupers%20Based%20on%20Disposition" class="button primary">Provide Feedback</a>

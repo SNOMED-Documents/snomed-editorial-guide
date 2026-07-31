@@ -72,17 +72,17 @@ The Medicinal Product and Medicinal Product Form use the active ingredient attri
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.54.26 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775801.png" alt=""><figcaption><p>Figure: Ingredient role chaining</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/304775801.png" alt=""><figcaption><p>Figure: Ingredient role chaining</p></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.54.50 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775799.png" alt=""><figcaption><p>Figure: Ingredient role chaining example</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/304775799.png" alt=""><figcaption><p>Figure: Ingredient role chaining example</p></figcaption></figure>
 
 ### **IDMP Compatibility**
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.55.01 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/304775803.png" alt=""><figcaption><p>Figure:  Ingredient role in ISO 11615 of IDMP</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/304775803.png" alt=""><figcaption><p>Figure:  Ingredient role in ISO 11615 of IDMP</p></figcaption></figure>
 
 Ingredient role is a specific attribute in ISO 11615 in IDMP, but no vocabulary/value set was specified in the conceptual standard for the ingredient roles. Examples that have been given include "active", "inactive" and "adjuvant". This supports the regulatory listing of all the substances present in a product, with their basic role (therapeutic or otherwise).
 

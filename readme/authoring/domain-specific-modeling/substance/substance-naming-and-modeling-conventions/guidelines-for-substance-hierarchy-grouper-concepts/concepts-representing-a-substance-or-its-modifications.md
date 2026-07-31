@@ -64,7 +64,7 @@ This is the **inferred** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691495%20(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691495%20(1).png" alt=""><figcaption></figcaption></figure>
 
 For example,
 

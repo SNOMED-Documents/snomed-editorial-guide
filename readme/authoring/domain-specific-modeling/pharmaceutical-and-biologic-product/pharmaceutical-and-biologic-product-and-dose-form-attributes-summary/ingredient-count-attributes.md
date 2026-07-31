@@ -10,7 +10,7 @@ Three count attributes are available for use, but only one is mandatory for all 
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.43.31 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/303923277.png" alt=""><figcaption><p>Figure: Ingredient count attributes</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/303923277.png" alt=""><figcaption><p>Figure: Ingredient count attributes</p></figcaption></figure>
 
 ### **Count of base of active ingredient - mandatory for the closed world view**
 
@@ -54,7 +54,7 @@ The tooling uses these values to produce the correct subsumption hierarchy, as s
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.46.52 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/303923273.png" alt=""><figcaption><p>Figure: Ingredient count attributes complex multi-ingredient example with multiple modification of a single base active ingredient requiring two ingredient count attributes</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/303923273.png" alt=""><figcaption><p>Figure: Ingredient count attributes complex multi-ingredient example with multiple modification of a single base active ingredient requiring two ingredient count attributes</p></figcaption></figure>
 
 Base count alone would not prevent the incorrect subsumption of the "Clinical drug containing precisely betamethasone sodium phosophate and betamethasone acetate" to the parent medicinal product concepts containing only betamethasone sodium phosophate (or only betamethasone acetate - not shown on the above diagram). By adding in the Count of base + modification pair, that incorrect subsumption is avoided and the "Clinical drug containing precisely betamethasone sodium phosophate and betamethasone acetate" is correctly subsumed by just the one parent medicinal product - that "containing only betamethasone sodium phosophate and betamethasone acetate". The (grand)parent medicinal product concept "Product containing only betamethasone" does not (cannot) have a Count of base + modification pair, since it does not have any active ingredient modification described; therefore it can correctly parent medicinal product concepts containing only betamethasone sodium phosophate, containing only betamethasone acetate (not shown) and containing "only betamethasone sodium phosophate and betamethasone acetate", because they all share a base count of 1, relating to betamethasone.
 
@@ -76,7 +76,7 @@ The tooling uses these values to produce the correct subsumption hierarchy, as s
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.49.06 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/303923271.png" alt=""><figcaption><p>Figure: Ingredient count attributes complex multi-ingredient example with multiple modification of a single base active ingredient requiring three ingredient count attributes</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/303923271.png" alt=""><figcaption><p>Figure: Ingredient count attributes complex multi-ingredient example with multiple modification of a single base active ingredient requiring three ingredient count attributes</p></figcaption></figure>
 
 Neither base count alone nor base count and base + modification pair count would prevent the incorrect subsumption of the "Clinical drug containing precisely insulin aspart and insulin aspart protamine" because both give a count of 1. The differentiation comes from the counting the precise active ingredient substances. This then gives the (optional in the international release) intermediate parent concepts of "Medicinal product containing precisely" either "insulin aspart", "insulin aspart protamine" or "insulin aspart and insulin aspart protamine" with their correct clinical drug concepts as children. The MP (precisely) concepts are then correctly subsumed to the (grandparent) MP (only) concept of insulin aspart only, on the basis of the base count of 1.
 

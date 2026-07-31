@@ -50,7 +50,7 @@ The following illustrates the **stated** and **inferred** view:
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691563.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691563.png" alt=""><figcaption></figcaption></figure>
 
 ## Ribosomal ribonucleic acid of X organism
 
@@ -104,7 +104,7 @@ The following illustrates the **stated** and **inferred** view:
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691562.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691562.png" alt=""><figcaption></figcaption></figure>
 
 ## Messenger ribonucleic acid of X organism
 
@@ -152,7 +152,7 @@ Stated and inferred view of 1119343008 |Messenger ribonucleic acid of severe acu
 
 <figure><img src="../../../../../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691558.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691558.png" alt=""><figcaption></figcaption></figure>
 
 ## Messenger ribonucleic acid of X organism encoding for specific protein
 
@@ -200,7 +200,7 @@ Stated and inferred view of 1155866009 |Messenger ribonucleic acid of severe acu
 
 <figure><img src="../../../../../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691557.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691557.png" alt=""><figcaption></figcaption></figure>
 
 ## Deoxyribonucleic acid of X organism
 
@@ -248,6 +248,6 @@ The following illustrates the **stated** and **inferred** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691561.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691561.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Deoxyribonucleic%20acid%20and%20ribonucleic%20acid" class="button primary">Provide Feedback</a>

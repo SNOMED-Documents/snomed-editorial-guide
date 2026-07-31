@@ -10,7 +10,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (44) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690538.png" alt=""><figcaption><p>Figure: Stated view of 16270831000119107 |Bulimia nervosa in partial remission (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690538.png" alt=""><figcaption><p>Figure: Stated view of 16270831000119107 |Bulimia nervosa in partial remission (disorder)|</p></figcaption></figure>
 
 Where the primitive supertype for the disorder is |Disease (disorder)|, only the _Disorder in remission_ supertype will be required.
 
@@ -20,7 +20,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (45) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690540.png" alt=""><figcaption><p>Figure: Stated view of 91856007 |Acute lymphoid leukemia in remission (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690540.png" alt=""><figcaption><p>Figure: Stated view of 91856007 |Acute lymphoid leukemia in remission (disorder)|</p></figcaption></figure>
 
 See also relative section:
 

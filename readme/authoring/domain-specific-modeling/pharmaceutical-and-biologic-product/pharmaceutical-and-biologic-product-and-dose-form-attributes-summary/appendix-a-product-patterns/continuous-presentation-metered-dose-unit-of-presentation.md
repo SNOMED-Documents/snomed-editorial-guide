@@ -10,7 +10,7 @@ Strength is expressed as “per one unit of presentation” and the presentation
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 2.57.50 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775951.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/304775951.jpg" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Solution for aerosolisation        |                                                                                                                                                                                     |
 | ------------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -28,7 +28,7 @@ For example,
 1332358007 |Full schwannomatosis (disorder)|
 ```
 
-<figure><img src="../../../../authoring/general-naming-conventions/descriptions/images/265618742.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/general-naming-conventions/descriptions/images/265618742.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Definition of 1332358007 |Full schwannomatosis (disorder)| with US and GB English acceptability values.</p></figcaption></figure>
 

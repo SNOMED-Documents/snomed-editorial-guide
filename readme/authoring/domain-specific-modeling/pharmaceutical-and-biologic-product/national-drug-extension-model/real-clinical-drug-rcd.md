@@ -33,7 +33,7 @@ The real clinical drug is the marketed (therefore "real") instantiation in any o
 
 The real clinical drug class inherits from the clinical drug class in the international edition, and the product name and supplier from the real medicinal product class.
 
-In the following table, two relationship groups (marked with \*) are described: one for presentation strength, and one for concentration strength. The appropriate relationship group type(s) should be selected based on the real product being described. A liquid product being described using a presentation strength in a national extension should follow the pattern used for "[concentration and presentation strength clinical drugs in the national extension](../../../../../authoring/pharmaceutical-and-biologic-product/308610770.html)" in this specification.
+In the following table, two relationship groups (marked with \*) are described: one for presentation strength, and one for concentration strength. The appropriate relationship group type(s) should be selected based on the real product being described. A liquid product being described using a presentation strength in a national extension should follow the pattern used for "[concentration and presentation strength clinical drugs in the national extension](https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/308610770.html)" in this specification.
 
 ***
 
@@ -199,7 +199,7 @@ Some examples of real clinical drug concepts are shown below.
 
 <figure><img src="../../../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption><p><em>Multiple active ingredient substance (presentation strength) real clinical drug example - stated view</em></p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/308610783.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/308610783.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p><em>Multiple active ingredient substance (presentation strength) real clinical drug example - inferred view</em></p></figcaption></figure>
 
@@ -207,7 +207,7 @@ Some examples of real clinical drug concepts are shown below.
 
 <figure><img src="../../../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration strength) real clinical drug example - stated view</em></p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/308610812.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/308610812.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration strength) real clinical drug example - inferred view</em></p></figcaption></figure>
 
@@ -217,7 +217,7 @@ In this example, a concentration and presentation strength clinical drug has bee
 
 <figure><img src="../../../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)</em>with <em>equivalent clinical drug - real clinical drug example - stated view</em></p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/pharmaceutical-and-biologic-product/images/308610810.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/308610810.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p><em>Single active ingredient substance (concentration and presentation strength)</em>with <em>equivalent clinical drug - real clinical drug example - inferred view</em></p></figcaption></figure>
 

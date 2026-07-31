@@ -85,7 +85,7 @@ For term pattern 1, the concept X or lateral half of Y should be used to fully d
 
 <figure><img src="../../../../../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/domain-specific-modeling/body-structure/anatomical-concept-model/images/174690328.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/domain-specific-modeling/body-structure/anatomical-concept-model/images/174690328.png" alt=""><figcaption></figcaption></figure>
 
 For term pattern 2, the pre-coordinated concept {part} of X should be used to fully define the concept with laterality. Note: Concepts for which an identifier has not been assigned have been shown with an identifier of '1111111111'.
 
@@ -105,11 +105,6 @@ For example, concept |Structure of lateral half of lower back| does not exist, t
 
 <figure><img src="../../../../../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/domain-specific-modeling/body-structure/anatomical-concept-model/images/174690331.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/domain-specific-modeling/body-structure/anatomical-concept-model/images/174690331.png" alt=""><figcaption></figcaption></figure>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Laterality" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Laterality" class="button primary">Provide Feedback</a>

@@ -39,7 +39,7 @@ The following table describes the attributes for packaged clinical drugs that co
 
 The packaged clinical drug class is related to the clinical drug class by a composition relationship, and therefore, the 774160008 | Contains clinical drug (attribute)| is used to make the association between the packaged clinical drug and the clinical drugs it contains.
 
-Representation of packaged medicinal products should use clinical drugs that have presentation strength (either only, or in addition to, concentration strength) whenever possible in order to be able to accurately describe the number of presentation units present in the package. The exception is for continuous products such as semi-solid dose forms of creams, gels, etc. where strength pattern 3a is used (see [Ingredient Strength Attributes](../../../../../authoring/pharmaceutical-and-biologic-product/Ingredient-Strength-Attributes_303923286.html)). In all cases, the pack size and pack size unit should relate to the denominator unit of the strength.
+Representation of packaged medicinal products should use clinical drugs that have presentation strength (either only, or in addition to, concentration strength) whenever possible in order to be able to accurately describe the number of presentation units present in the package. The exception is for continuous products such as semi-solid dose forms of creams, gels, etc. where strength pattern 3a is used (see [Ingredient Strength Attributes](https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/Ingredient-Strength-Attributes_303923286.html)). In all cases, the pack size and pack size unit should relate to the denominator unit of the strength.
 
 ***
 

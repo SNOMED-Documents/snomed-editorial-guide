@@ -9,7 +9,7 @@ Presentation strength is expressed as "per the amount of liquid bounded by the u
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.43.12 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775958.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/304775958.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
 
 | Manufactured dose form          | Solution for injection                                  |                                                                 |
 | ------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------- |
@@ -25,7 +25,7 @@ Presentation strength is expressed as "per the amount of liquid bounded by the u
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.45.17 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775959.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/304775959.jpg" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Solution for nebulisation                                |                                                                 |
 | ------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------- |

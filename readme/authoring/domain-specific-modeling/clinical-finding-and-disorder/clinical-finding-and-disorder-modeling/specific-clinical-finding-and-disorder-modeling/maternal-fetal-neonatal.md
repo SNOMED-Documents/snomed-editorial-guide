@@ -13,7 +13,7 @@ A diagram of the relationships between these periods is shown below:
 
 <figure><img src="../../../../../../.gitbook/assets/image (37) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690545.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690545.png" alt=""><figcaption></figcaption></figure>
 
 The life phase of pregnancy-related findings and disorders is applied using the Occurrence (attribute). A concept must identify:
 

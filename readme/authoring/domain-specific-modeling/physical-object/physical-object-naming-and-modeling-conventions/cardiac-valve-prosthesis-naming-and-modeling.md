@@ -6,7 +6,7 @@
 
 ## Modeling
 
-<table data-header-hidden><thead><tr><th width="279.47265625"></th><th></th></tr></thead><tbody><tr><td>Stated parent concept(s)</td><td><ul><li>14789005 |Prosthetic implant (physical object)| </li><li>303619008 |Cardiac implant (physical object)| </li><li>705991002 |Mechanical heart valve prosthesis (physical object)|, if applicable </li><li>258166002 |Custom made implant (physical object)|, if applicable</li></ul></td></tr><tr><td>Semantic tag</td><td>(physical object)</td></tr><tr><td>Attribute: Has device intended site (attribute)</td><td><ul><li><p>Range: &#x3C;&#x3C;123037004 |Body structure (body structure)| </p><ul><li>NOTE: While the MRCM allowed range includes the top-level concept, 123037004 |Body structure (body structure)|, only the descendants should be used in modeling cardiac valve prosthesis concepts. </li></ul></li></ul><ul><li>Cardinality: 0..1</li></ul></td></tr><tr><td>Attribute: Has compositional material (attribute)</td><td><ul><li><p>Range: &#x3C;&#x3C;105590001 |Substance (substance)| </p><ul><li>NOTE: While the MRCM allowed range includes the top-level concept, 105590001 |Substance (substance)|, only the descendants should be used in modeling cardiac valve prosthesis concepts. </li></ul></li></ul><ul><li>Cardinality: 0..*</li></ul></td></tr><tr><td>Attribute: Is sterile (attribute)</td><td><ul><li>Range: 31874001 |True (qualifier value)| OR 64100000 |False (qualifier value)</li><li>Cardinality: 0..1</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="279.47265625"></th><th></th></tr></thead><tbody><tr><td>Stated parent concept(s)</td><td><ul><li>14789005 |Prosthetic implant (physical object)| </li><li>303619008 |Cardiac implant (physical object)| </li><li>705991002 |Mechanical heart valve prosthesis (physical object)|, if applicable </li><li>258166002 |Custom made implant (physical object)|, if applicable</li></ul></td></tr><tr><td>Semantic tag</td><td>(physical object)</td></tr><tr><td>Attribute: Has device intended site (attribute)</td><td><ul><li><p>Range: &#x3C;&#x3C;123037004 |Body structure (body structure)| </p><ul><li>NOTE: While the MRCM allowed range includes the top-level concept, 123037004 |Body structure (body structure)|, only the descendants should be used in modeling cardiac valve prosthesis concepts. </li></ul></li><li>Cardinality: 0..1</li></ul></td></tr><tr><td>Attribute: Has compositional material (attribute)</td><td><ul><li><p>Range: &#x3C;&#x3C;105590001 |Substance (substance)| </p><ul><li>NOTE: While the MRCM allowed range includes the top-level concept, 105590001 |Substance (substance)|, only the descendants should be used in modeling cardiac valve prosthesis concepts. </li></ul></li><li>Cardinality: 0..*</li></ul></td></tr><tr><td>Attribute: Is sterile (attribute)</td><td><ul><li>Range: 31874001 |True (qualifier value)| OR 64100000 |False (qualifier value)</li><li>Cardinality: 0..1</li></ul></td></tr></tbody></table>
 
 ## Exemplars
 
@@ -14,12 +14,12 @@ The following illustrates the **stated** view for 736893007 |Aortic tri-leaflet 
 
 <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/physical-object/images/174691277.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/physical-object/images/174691277.png" alt=""><figcaption></figcaption></figure>
 
 The following illustrates the **inferred** view for 736893007 |Aortic tri-leaflet mechanical valve prosthesis (physical object)|:
 
 <figure><img src="../../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/physical-object/images/174691278.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/physical-object/images/174691278.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Cardiac%20Valve%20Prosthesis%20Naming%20and%20Modeling" class="button primary">Provide Feedback</a>

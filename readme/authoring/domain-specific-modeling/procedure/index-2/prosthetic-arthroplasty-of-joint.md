@@ -10,7 +10,7 @@ Total joint procedures are modeled by repair and implantation role groups. The r
 
 <figure><img src="../../../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Stated view of 609588000 |Prosthetic total arthroplasty of knee joint (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/procedure/images/232391031.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/procedure/images/232391031.png" alt=""><figcaption></figcaption></figure>
 
 ## Cemented total arthroplasty
 
@@ -26,7 +26,7 @@ If the cemented component is unspecified, the single implementation role group f
 
 <figure><img src="../../../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Stated view of 1287945008 |Prosthetic hybrid total knee replacement (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/procedure/images/232391029.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/procedure/images/232391029.png" alt=""><figcaption></figcaption></figure>
 
 If the cemented component is known, multiple implantation role groups should be created to represent the prosthesis component of each bone.
 

@@ -106,6 +106,6 @@ _Laparoscopy_ and _laparoscopic procedure_ are synonymous. These procedures are 
 
 <figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Stated view of 73632009 |Laparoscopy (procedure)|</p></figcaption></figure>
 
-<figure><img src="../../../../../authoring/procedure/images/229114165.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/procedure/images/229114165.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Endoscopy%20and%20endoscopic%20procedures" class="button primary">Provide Feedback</a>

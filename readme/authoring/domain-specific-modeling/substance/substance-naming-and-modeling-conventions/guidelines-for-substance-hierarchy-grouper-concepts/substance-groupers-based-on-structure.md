@@ -19,15 +19,15 @@ The following illustrates the **stated** and **inferred** view.
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691432.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691432.png" alt=""><figcaption></figcaption></figure>
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691430.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691430.png" alt=""><figcaption></figcaption></figure>
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691429.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691429.png" alt=""><figcaption></figcaption></figure>
 
 ## Terming
 

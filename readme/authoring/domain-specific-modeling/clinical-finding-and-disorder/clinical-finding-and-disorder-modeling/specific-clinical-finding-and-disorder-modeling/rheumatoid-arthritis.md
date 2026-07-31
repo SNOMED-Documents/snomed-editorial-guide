@@ -10,7 +10,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (46) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690543.png" alt=""><figcaption><p>Figure. Stated view of 201776007 |Rheumatoid arthritis of sacroiliac joint (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690543.png" alt=""><figcaption><p>Figure. Stated view of 201776007 |Rheumatoid arthritis of sacroiliac joint (disorder)|</p></figcaption></figure>
 
 Example of extra-articular rheumatoid manifestation,
 
@@ -18,15 +18,10 @@ Example of extra-articular rheumatoid manifestation,
 
 <figure><img src="../../../../../../.gitbook/assets/image (47) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690542.png" alt=""><figcaption><p>Figure:  Stated view of 28880005 |Rheumatoid arthritis with carditis (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690542.png" alt=""><figcaption><p>Figure: Stated view of 28880005 |Rheumatoid arthritis with carditis (disorder)|</p></figcaption></figure>
 
 {% hint style="info" %}
 410795001 |Juvenile rheumatoid arthritis (disorder)| has been inactivated with an inactivation reason of _Outdated_ with a target replacement of 410502007 |Juvenile idiopathic arthritis (disorder)|. Subtypes of Juvenile idiopathic arthritis (disorder) are now modeled to reflect the up-to-date classification of this disorder.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Rheumatoid%20arthritis" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Rheumatoid%20arthritis" class="button primary">Provide Feedback</a>

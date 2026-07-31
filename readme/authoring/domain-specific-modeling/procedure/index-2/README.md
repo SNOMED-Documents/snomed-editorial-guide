@@ -24,7 +24,7 @@ The evaluation procedure hierarchy is currently classified under _Procedure by m
 
 <figure><img src="../../../../../.gitbook/assets/image (1) (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../authoring/images/174691284.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/images/174691284.png" alt=""><figcaption></figcaption></figure>
 
 Evaluation procedures can be defined by a Method (attribute) of Evaluation - action (qualifier value)
 

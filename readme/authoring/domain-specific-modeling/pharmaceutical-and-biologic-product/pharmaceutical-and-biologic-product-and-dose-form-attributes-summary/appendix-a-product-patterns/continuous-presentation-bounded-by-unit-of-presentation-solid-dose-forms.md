@@ -9,7 +9,7 @@ Strength is expressed as "per one unit of presentation" and the presentation str
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.06.36 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/304775955.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/304775955.jpg" alt=""><figcaption><p>**</p></figcaption></figure>
 
 | Manufactured dose form          | Powder for solution for injection |                                                                                                                                           |
 | ------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |

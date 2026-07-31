@@ -10,11 +10,11 @@ Pneumonia is a type of pneumonitis, as inflammation is present in both. The dist
 
 <figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/225051456.png" alt=""><figcaption><p>Figure: Stated view of 205237003 |Pneumonitis (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/225051456.png" alt=""><figcaption><p>Figure: Stated view of 205237003 |Pneumonitis (disorder)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/225051457.png" alt=""><figcaption><p>Figure: Stated view of 233604007 |Pneumonia (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/225051457.png" alt=""><figcaption><p>Figure: Stated view of 233604007 |Pneumonia (disorder)|</p></figcaption></figure>
 
 ### Morphologic abnormality
 

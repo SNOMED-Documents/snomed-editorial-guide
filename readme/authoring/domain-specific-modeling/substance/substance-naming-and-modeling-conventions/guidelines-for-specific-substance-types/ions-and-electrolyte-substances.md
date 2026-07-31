@@ -62,6 +62,6 @@ The following illustrates the hierarchy view:
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../../../../authoring/substance/images/174691613.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691613.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Ions%20and%20electrolyte%20substances" class="button primary">Provide Feedback</a>

@@ -50,6 +50,6 @@ Synonyms are not generally created.
 
 <figure><img src="../../../../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p><strong>Stated and inferred</strong> view for 440132002 |Product manufactured as parenteral dose form (product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690977.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174690977.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Groupers%20Based%20on%20Dose%20form%20intended%20site" class="button primary">Provide Feedback</a>

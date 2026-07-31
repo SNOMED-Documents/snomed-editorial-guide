@@ -27,7 +27,7 @@ The following illustrates the **inferred** view for grouper concepts based on di
 
 <figure><img src="../../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/substance/images/174691438.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691438.png" alt=""><figcaption></figcaption></figure>
 
 ## Terming
 

@@ -44,7 +44,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (32) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690519.png" alt=""><figcaption><p>Stated view of 33534005 |Congenital bowing of femur (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690519.png" alt=""><figcaption><p>Stated view of 33534005 |Congenital bowing of femur (disorder)|</p></figcaption></figure>
 
 Acquired disorders are those that originate and manifest after birth. The disorders are associated with a period of life, as opposed to a specific process or structure. All diseases (disorders) that occur after birth are considered _acquired_.
 
@@ -56,7 +56,7 @@ For example,
 
 <figure><img src="../../../../../../.gitbook/assets/image (33) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../authoring/clinical-finding-and-disorder/images/174690518.png" alt=""><figcaption><p>Stated view of 240253004 |Acquired abduction deformity of foot (disorder)|</p></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690518.png" alt=""><figcaption><p>Stated view of 240253004 |Acquired abduction deformity of foot (disorder)|</p></figcaption></figure>
 
 {% hint style="info" %}
 **Remodeling Acquired Disorders**

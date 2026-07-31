@@ -84,6 +84,6 @@ Synonyms matching the FSN are not required.
 
 <figure><img src="../../../../../../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 767783007 |Product containing codeine and paracetamol in oral dose form (medicinal product form)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../../authoring/pharmaceutical-and-biologic-product/images/174690705.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174690705.png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Medicinal%20Product%20Form%20containing" class="button primary">Provide Feedback</a>
