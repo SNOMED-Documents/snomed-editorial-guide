@@ -59,6 +59,7 @@ See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEM
 | -------------------------------------------------------- | ------- | ----------- | -------------------- | ---------------------------------------------------- |
 | 774160008 \| Contains clinical drug (attribute) \|       | 1       | 1..\*       | 1..1                 | << 763158003 \| Medicinal product (product) \|       |
 | 1142143009 \| Count of clinical drug type (attribute) \| | 0       | 1..1        | 0..0                 | int(>#0..)                                           |
+| 30465011000036106 \|Has container type (attribute)\|     | 0       | 0..1        | 0..0                 | 49062001 \|Device (physical object)\|                |
 | 1142142004 \| Has pack size (attribute) \|               | 1       | 0..\*       | 0..1                 | dec(>#0..)                                           |
 | 774163005 \| Has pack size unit (attribute) \|           | 1       | 0..\*       | 0..1                 | << 767524001 \| Unit of measure (qualifier value) \| |
 
