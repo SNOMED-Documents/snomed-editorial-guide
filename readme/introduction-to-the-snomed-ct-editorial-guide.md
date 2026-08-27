@@ -24,10 +24,6 @@ Text that is protected by copyright will not be accepted for inclusion unless ac
 
 The primary audience of the Editorial Guide is SNOMED International editors responsible for maintaining the International Release. However, it is also relevant for extension developers, implementers, and others involved in clinical terminology management . For national or local extensions, the [Extensions Practical Guide](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/3RKZIWpWFT0ocCgNT16E/) offers complementary guidance.
 
-## Review Cycle
-
-The Editorial Guide is a living document that is continually revised.  The [Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/) spreadsheet records changes via monthly tabs.
-
 ## Contact and Feedback
 
 The Editorial Guide is maintained by SNOMED International, the organization responsible for the ongoing development and distribution of SNOMED CT. Users are encouraged to provide feedback or seek clarification by contacting SNOMED International at [info@snomed.org](mailto:info@snomed.org) . Additional resources, licensing details, and membership information are available at [www.snomed.org](http://www.snomed.org).
