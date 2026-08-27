@@ -1,6 +1,6 @@
 # Change Log
 
-For detailed Editorial Guide changes, see the [Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/).
+For key Editorial Guide changes, see the [Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/).
 
 For past document releases, see the [Editorial Guide releases](https://github.com/SNOMED-Documents/snomed-editorial-guide/releases).
 
