@@ -319,4 +319,4 @@
             * [Substances specifying intact, fragment or subunit](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/substances-specifying-intact-fragment-or-subunit.md)
             * [Substances specifying physical state or physical form](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/substances-specifying-physical-state-or-physical-form.md)
         * [Supporting hierarchy - Disposition](readme/authoring/domain-specific-modeling/substance/supporting-hierarchy-disposition.md)
-  * [Change Log](readme/change-log.md)
+  * [Editorial Guide Change Log](readme/editorial-guide-change-log.md)
