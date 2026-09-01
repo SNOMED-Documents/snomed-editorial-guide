@@ -2,23 +2,6 @@
 
 Generally, SNOMED CT descriptions begin with an upper case letter; the rest of the words in the description are lower case, except for abbreviations and proper nouns (names of people, organizations, taxonomic groups (e.g. species, genus, family)).
 
-With regard to organism naming:
-
-* Non-taxonomic groupers, such as “Human herpes simplex virus”, are recorded with a case sensitivity indicator of _Entire term case insensitive_ (ci).
-* There are cases where the authoritative resources do not have an entry for the official name of an organism. For these concepts, the associated literature is referenced for naming and case sensitivity assignments.
-  * For example,
-    * “Severe acute respiratory syndrome coronavirus 2” is below species level and does not have an entry in the authoritative resource, _International Committee on Taxonomy of Viruses_ (ICTV). Therefore, it is recorded with a case sensitivity indicator of _Entire term case insensitive_ (ci), since the majority of references do not capitalize “severe”.
-* When an _organism_ is part of the term of a concept in another hierarchy, it is capitalized. However, when the general reference to the organism is part of the term, the term in the description is not capitalized.
-  * For example,
-    * 19431000 |Infective arthritis caused by Rubella virus (disorder)| - Since the Rubella virus is specified, Rubella is capitalized.
-    * 1857005 |Congenital rubella syndrome (disorder)| - Since _rubella_ refers to the disease, rubella is not capitalized.
-* 293120003 |Adverse reaction to component of vaccine product containing Vaccinia virus antigen (disorder)| - Since the species Vaccinia virus (of the genus Orthopoxvirus) is specified, Vaccinia is capitalized.
-* 56978007 |Generalized vaccinia (disorder)| - Since vaccinia is describing a condition, vaccinia is not capitalized.
-
-{% hint style="warning" %}
-For more information, see [Organism Naming Conventions](../domain-specific-modeling/organism/organism-naming-conventions.md).
-{% endhint %}
-
 #### **Case Sensitivity**
 
 <table><thead><tr><th width="100">Case Sensitivity Indicator</th><th>Values</th><th>Meaning</th><th>Examples</th></tr></thead><tbody><tr><td>cI</td><td>900000000000020002 | Only initial character case insensitive (core metadata concept)|</td><td>First character of the description may or may not be capitalized while the case of the rest of the description cannot be changed</td><td><ul><li>Family history of Prader-Willi syndrome (situation)</li><li>Born in Australia (finding)</li><li>Neonatal jaundice with Dubin-Johnson syndrome (disorder)</li><li>Penicillin resistant Streptococcus pneumoniae (organism)</li></ul></td></tr><tr><td>CS</td><td>900000000000017005 | Entire term case sensitive (core metadata concept)|</td><td><p>Cannot change any case in the description</p><p>Changing case may change the meaning of the term or is not commonly used</p></td><td><ul><li>Down syndrome (disorder)</li><li>English as a second language (finding)</li><li>pH measurement (procedure)</li><li>mm (qualifier value)</li></ul></td></tr><tr><td>ci</td><td>900000000000448009 | Entire term case insensitive (core metadata concept)|</td><td><p>Entire description may be lower or upper case</p><p>Changing case does not change the meaning of the term</p></td><td><ul><li>Fracture of tibia (disorder)</li><li>Blood compatibility test (procedure)</li><li>Bite of fish (event)</li><li>Floor mat (physical object)</li><li>Gravida (observable entity)</li></ul></td></tr></tbody></table>
@@ -40,7 +23,38 @@ The common name for |Structure of pharyngotympanic tube (body structure)| is eus
 
 #### Extensions <a href="#extensions" id="extensions"></a>
 
-SNOMED CT includes three case significance values: _ci_, _cI_, and _CS_. However, this range of values depends on the languages and linguistic norms. For the International Edition, where the first character of descriptions is always capitalized, the value "Only initial character case insensitive" ("cI") is necessary. This value is not required for descriptions in extensions that do not adhere to this convention. When appropriate, it is also acceptable to limit the range to a single case significance value.
+SNOMED CT includes three case significance values: _ci_, _cI_, and _CS_. However, this range of values depends on the languages and linguistic norms. For the International Edition, where the first character of descriptions is always capitalized, the value _Only initial character case insensitive_ (cI) is necessary. This value is not required for descriptions in extensions that do not adhere to this convention. When appropriate, it is also acceptable to limit the range to a single case significance value.
+
+### Organism naming
+
+Non-taxonomic groupers, such as “Human herpes simplex virus”, are recorded with a case sensitivity indicator of _Entire term case insensitive_ (ci).
+
+There are cases where the authoritative resources do not have an entry for the official name of an organism. For these concepts, the associated literature is referenced for naming and case sensitivity assignments.
+
+* For example,
+  * “Severe acute respiratory syndrome coronavirus 2” is below species level and does not have an entry in the authoritative resource, _International Committee on Taxonomy of Viruses_ (ICTV). Therefore, it is recorded with a case sensitivity indicator of _Entire term case insensitive_ (ci), since the majority of references do not capitalize “severe”.
+
+When an _organism_ is part of the term of a concept in another hierarchy, it is capitalized. However, when the general reference to the organism is part of the term, the term in the description is not capitalized.
+
+* For example,
+  * 19431000 |Infective arthritis caused by Rubella virus (disorder)| - Since the Rubella virus is specified, Rubella is capitalized.
+  * 1857005 |Congenital rubella syndrome (disorder)| - Since _rubella_ refers to the disease, rubella is not capitalized.
+
+#### Vaccinia
+
+When the species Vaccinia virus (of the genus Orthopoxvirus) is specified, _Vaccinia_ is capitalized.
+
+* For example,&#x20;
+  * 293120003 |Adverse reaction to component of vaccine product containing Vaccinia virus antigen (disorder)|
+
+When _vaccinia_ is describing a condition, _vaccinia_ is not capitalized.
+
+* For example,
+  * 56978007 |Generalized vaccinia (disorder)|&#x20;
+
+{% hint style="warning" %}
+For more information, see [Organism Naming Conventions](../domain-specific-modeling/organism/organism-naming-conventions.md).
+{% endhint %}
 
 ### Numeric values <a href="#numeric-values" id="numeric-values"></a>
 
@@ -49,16 +63,16 @@ Numeric values will not display differently if switched between upper and lower 
 If a description begins with a numeric value and the word following the number does not begin with a capital letter, the case sensitivity indicator is ci for _Entire term case insensitive_.
 
 * For example,
-  *   The concept
-
-      33635003 | Serotonin (substance)| has the synonym, 5-hydroxytryptamine. The description is recorded in SNOMED CT in lower case, not 5-Hydroxytryptamine, but the case sensitivity indicator is _ci_ for _Entire term case insensitive_.
+  * The concept 33635003 | Serotonin (substance)| has the synonym, 5-hydroxytryptamine. The description is recorded in SNOMED CT in lower case, not 5-Hydroxytryptamine, but the case sensitivity indicator is _ci_ for _Entire term case insensitive_.
 
 If a description begins with a numeric value and follows with an abbreviation that contains a capital letter, the case sensitivity indicator is cl for _Initial character case insensitive_.
 
 * For example,
-  *   The concept
+  * The concept 387407006 | Tioguanine (substance)| has the synonym, 6-TG. Apply the case sensitivity indicator of cl for _Only initial character case insensitive_.
 
-      387407006 | Tioguanine (substance)| has the synonym, 6-TG. Apply the case sensitivity indicator of cl for _Only initial character case insensitive_.
+### Genes and genetic diseases <a href="#special-characters" id="special-characters"></a>
+
+The case significance setting for concepts that represent formal gene names are to align with the source (usually HGNC).  However, when referring to the disease caused by the gene, there is no such requirement, and the standard terming editorial guidance applies. The disorder caused by the gene should have an initial capital letter, even if the name of the disease is the same as the gene name.  Exceptions are if the initial letter of the disorder is case sensitive; for example, 48449016 |tRNA|,  1402127002 |APC regulator of Wnt signaling pathway 2 gene related Sotos syndrome (disorder)|.
 
 ### Special characters <a href="#special-characters" id="special-characters"></a>
 

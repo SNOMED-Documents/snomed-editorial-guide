@@ -42,6 +42,7 @@ Exceptions that should not be amended include:
 * Trademark names
 * Latin names of organism
 * Scientific names
+* Gene names
 
 When constructing the FSN for a disorder, finding, or procedure containing a body structure, the wording of the body structure should follow the naming convention of the body structure concept. However, it should not include the words _structure_ or _structure of._
 
