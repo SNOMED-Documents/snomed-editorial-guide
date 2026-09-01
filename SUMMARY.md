@@ -264,6 +264,7 @@
           * [Regimes and therapies](readme/authoring/domain-specific-modeling/procedure/index-2/regimes-and-therapies.md)
           * [Revision](readme/authoring/domain-specific-modeling/procedure/index-2/revision.md)
           * [Skeletal system](readme/authoring/domain-specific-modeling/procedure/index-2/skeletal-system.md)
+          * [Stoma procedures](readme/authoring/domain-specific-modeling/procedure/index-2/stoma-procedures.md)
           * [Surgical procedures](readme/authoring/domain-specific-modeling/procedure/index-2/index-2/README.md)
             * [Surgical repair](readme/authoring/domain-specific-modeling/procedure/index-2/index-2/surgical-repair.md)
             * [Surgical vs. non-surgical](readme/authoring/domain-specific-modeling/procedure/index-2/index-2/surgical-vs-non-surgical.md)
