@@ -74,13 +74,7 @@ See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEM
 
 ## Author View of Attributes and Ranges for Pharmaceutical Dose Form
 
-| Attribute                                                        | Grouped | Cardinality | In Group Cardinality | Range Constraint                                                            |
-| ---------------------------------------------------------------- | ------- | ----------- | -------------------- | --------------------------------------------------------------------------- |
-| 736476002 \| Has basic dose form (attribute) \|                  | 0       | 0..1        | 0..0                 | < 736478001 \| Basic dose form (basic dose form) \|                         |
-| 736472000 \| Has dose form administration method (attribute) \|  | 0       | 0..\*       | 0..0                 | < 736665006 \| Dose form administration method (administration method) \|   |
-| 736474004 \| Has dose form intended site (attribute) \|          | 0       | 0..\*       | 0..0                 | < 736479009 \| Dose form intended site (intended site) \|                   |
-| 736475003 \| Has dose form release characteristic (attribute) \| | 0       | 0..1        | 0..0                 | < 736480007 \| Dose form release characteristic (release characteristic) \| |
-| 736473005 \| Has dose form transformation (attribute) \|         | 0       | 0..\*       | 0..0                 | < 736477006 \| Dose form transformation (transformation) \|                 |
+<table><thead><tr><th width="188.5859375">Attribute</th><th width="106.369140625">Grouped</th><th width="124.458984375">Cardinality</th><th width="122.326171875">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>736476002 | Has basic dose form (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736478001 | Basic dose form (basic dose form) |</td></tr><tr><td>736472000 | Has dose form administration method (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736665006 | Dose form administration method (administration method) |</td></tr><tr><td>1402355005 |Has dose form after transformation (attribute)|</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736542009 |Pharmaceutical dose form (dose form)|</td></tr><tr><td>736474004 | Has dose form intended site (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736479009 | Dose form intended site (intended site) |</td></tr><tr><td>736475003 | Has dose form release characteristic (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736480007 | Dose form release characteristic (release characteristic) |</td></tr><tr><td>736473005 | Has dose form transformation (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736477006 | Dose form transformation (transformation) |</td></tr></tbody></table>
 
 ## Domain Information for Basic Dose Form
 
