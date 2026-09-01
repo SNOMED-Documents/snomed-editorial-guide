@@ -66,64 +66,34 @@ The preferred term usually does not include the taxonomic rank designation excep
 {% hint style="warning" %}
 **Common Name Exceptions**
 
-If a common name exists for an organism in primary references, then it could be used as the Preferred Term for the organism.
-
-*   For example,
-
-    * 388618001 |Family Felidae (organism)|, PT: cats
-    * 388626009 |Genus Felis (organism)|, PT: small cats
-
-
-
-If a common name is shared between more than one organism, the organism preferred term may include the scientific name with annotated common name. Generally, a hyphen is used to separate the two names. However, if the organism name falls in the middle of the term, parentheses should be used to separate the two names.
-
-* For example,
-  * 1697006 |Genus Megapodius (organism)| and 107060000 |Family Megapodiidae (organism)| share the common name _Megapodes_. The Preferred term for the two concepts is as follows:
-    * 1697006 |Genus Megapodius (organism)| PT: Megapodius - megapodes
-    * 107060000 |Family Megapodiidae (organism)| PT: Megapodiidae - megapodes
-
-
-
-An organism's common name might be the same as the scientific name for another organism. Example: _Gorilla_ is the scientific name for 389217005 |Genus Gorilla (organism)|, but it is the common name for 8807009 |Gorilla gorilla (organism)|. In these cases, the latter concept's preferred term should be the scientific name with annotated common name to prevent confusion.
-
-* For example,
-  * For concept 8807009 |Gorilla gorilla (organism)|, the preferred term is _Gorilla gorilla - gorilla._
-
-
-
-Occasionally, a word may need to be added to the common name specified in the resources to make the common name more explicit.
-
-* For example,
-  * Loxosceles reclusa has a common name of _brown recluse_ in ITIS, which is one of the SNOMED primary references. To make the naming more explicit, the word _spider_ has been added to the preferred term:
-    * FSN: 23312003 |Loxosceles reclusus (organism)|
-      * PT: Brown recluse spider
-
-
-
-When there are multiple names listed as common name for an organism in primary references, additional references should be consulted to locate the most commonly used term.
-
-
-
-High level taxonomic terms often refer to groups of organisms. The preferred terms need to reflect that grouping.
-
-* For example,
-  * "Order Columbiformes" represent all Genera of Doves and pigeons, so the preferred term for 107097005 |Order Columbiformes (organism)| is: Doves and pigeons.
-
-
-
-Follow the authoritative sources naming conventions for plural vs. singular where the same name is applicable to a higher taxonomic rank and one of its subtypes.
-
-* For example,
-  * 329681000009104 |Genus Orcinus (organism)| has a preferred term of _Killer whales_, while its child concept 50377004 |Orcinus orca (organism)| has a preferred term of _Killer whale_.
-
-
-
-There are instances where the requested term for a concept containing an organism common name doesn’t correspond to specific taxa.  Rather, the term is found as part of common names in multiple taxa belonging to a higher level taxon.  To avoid ambiguity, a grouper concept referring to high-level taxon should be created.
-
-* For example,&#x20;
-  * _Parakeet_ and _parrot_ are not common names to any specific taxa, but are found as part of common names in multiple genera in 447329007 |Subfamily Psittacinae (organism)|.  In the Substance hierarchy, a grouper concept, 1149419004 |Psittacidae protein (substance)|, was created as a parent concept to the following two concepts:
-    * 146711000146102 |Parakeet protein (substance)|
-    * 146701000146104 |Parrot protein (substance)|
+1. Core Naming Principle:&#x20;
+   1. The Preferred Term for an organism concept is the official scientific (Linnaean) name by default.&#x20;
+   2. A common name may replace the scientific name as the PT only when all of the following criteria are satisfied:
+      1. The common name is attested in a primary reference (ITIS) or a recognized secondary reference (COL, Thermo Fisher).
+      2. The common name is in English. Non-English common names (e.g. French or Spanish vernacular names) must not be used as the PT. &#x20;
+      3. A single common name (or grouper name) can be identified that applies unambiguously to every extant descendant of the concept. If no single term covers all descendants, the scientific name is retained as the PT.
+      4. The common name is stable and widely recognized as evidenced by its use in 2 or more primary or secondary references. It should not be constructed or invented specifically to satisfy the guideline.
+2. Application by Taxonomic Level
+   1. Species and Genus: Common names work best at the species level  and relatively well at the genus level, where groupings are phylogenetically stable and a single name typically covers the group cleanly. The criteria in Section 1 should be used in assigning the common name as the PT wherever they are met. Examples&#x20;
+      1. Genus Felis → PT: small cats (covers domestic cats, wildcats, and mountain cats; unique within Felidae)&#x20;
+      2. Genus Orcinus → PT: Killer whales  (monotypic genus; term is widely established)&#x20;
+      3. Genus Canis → PT: Canis  (primary references list dogs, foxes, jackals, wolves, and coyotes; no singular term encompasses all descendants; scientific name is maintained; ‘Wolf-like canines’ potentially added as synonym if referenced)
+3. Family and Above
+   1. At the Family level and higher, the diversity of included taxa frequently means that no single common name covers all descendants cleanly. These taxonomic ranks are particularly susceptible to phylogenetic revision as new genetic data emerges. Attaching a common name PT to  these taxons increases the maintenance burden when genera move between families, since the common name may no longer apply to all descendants. The default at these levels is to retain the scientific name as the PT. A common name (or grouper name) may be used only where section 1 criteria are met and typically will be limited to cases where a widely recognised grouper name already exists and has clinical utility. Example:&#x20;
+      1. Family Cervidae → PT: Cervids (ITIS lists term as valid grouper covering all deer, caribou, moose, and wapiti)
+      2. Order Columbiformes → PT: Doves and pigeons (widely recognised term with established clinical utility)
+      3. Family Albulidae → PT: Albulidae (competing vernacular names exist; since no single term encompasses all descendants, scientific name is maintained. A grouper common name (a combination of vernacular names in a single synonym) can be added as synonym. For example ‘bonefishes and bananafishes’ can be added as a synonym for Family Albulidae
+      4. Class Tetrapoda → PT: Tetrapoda (no singular common name identified across references)
+4. Handling Multiple Common Names
+   1. When a primary reference lists multiple common names for a taxon, consult secondary references (COL, Thermo Fisher) to identify the most widely used single English term.
+   2. If secondary references confirm that no single English common name predominates, or that the listed names describe different subsets of the taxon, retain the scientific name as the PT and add the attested common names as synonyms.&#x20;
+5. Shared Common Names
+   1. Where a common name is shared between two or more organism concepts, the PT should follow the existing format: scientific name with annotated common name, separated by a dash.
+      1. Example&#x20;
+         1. Genus Megapodius → PT: Megapodius - megapodes&#x20;
+         2. Family Megapodiidae → PT: Megapodiidae - megapodes
+   2. Where a common name coincides with the scientific name of a different organism concept, the same dash-annotation convention applies to avoid ambiguity.
+      1. Example Gorilla gorilla → PT: Gorilla gorilla - gorilla  (Gorilla is the scientific name for Genus Gorilla)
 {% endhint %}
 
 ## Organism class variants
