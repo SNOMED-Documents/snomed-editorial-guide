@@ -12,9 +12,16 @@ Organism concepts are used:
 * In evidence-based infectious disease protocols, e.g. in clinical decision-support systems
 {% endhint %}
 
-## Addition of new organism concepts
+## Organism inclusion criteria
 
-Concepts that are in scope for international release and are supported by primary references will be added to the organism hierarchy. Upon addition of any new concept, if the immediate parent is missing, it will be added along with the requested concept.
+Organism concepts are generally considered in scope for inclusion in the International Edition, with the following exceptions and considerations:
+
+* Microorganisms are typically included in the International Edition because they may be human pathogens, opportunistic pathogens in immunocompromised individuals, or organisms of relevance to clinical laboratory reporting, including animal pathogens.
+* Macroorganisms are included in the International Edition when they are relevant to human medicine or public health, or when requested by more than one SNOMED International Member country. Otherwise, they may be authored in the Veterinary Extension, which is maintained by the Veterinary Terminology Services Laboratory (VTSL) at Virginia Tech.  Content from the Veterinary Extension is not promoted to the International Edition unless it subsequently meets the criteria for relevance to human medicine, public health, or demonstrated international demand.
+
+Breeds are restricted to the veterinary domain and are not represented in the International Edition.
+
+For represented organisms, the International Release will include the principal taxonomic ranks needed to support classification. Intermediate ranks (e.g., Subphylum, Order, Suborder, Infraorder) should be added only when they provide a clear structural, modeling, navigation, maintenance, or reporting benefit.  In particular, an intermediate taxon should be included when it is a structurally necessary node for one or more existing concepts that would otherwise be incorrectly classified. Once an intermediate rank is introduced, sufficient sibling taxa at that rank should also be represented, where appropriate, to maintain a complete and internally consistent hierarchy.
 
 ## Organisms with qualifiers
 
