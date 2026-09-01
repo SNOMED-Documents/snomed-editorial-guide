@@ -2,7 +2,7 @@
 icon: book-medical
 cover: .gitbook/assets/GitBook Banner (1).png
 coverY: 0
-coverHeight: 152
+coverHeight: 144
 layout:
   width: default
   cover:
