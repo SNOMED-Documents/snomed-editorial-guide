@@ -2,7 +2,7 @@
 
 ## Modeling philosophy of SNOMED CT
 
-SNOMED CT authors use a zero-based _, proximal primitive_ approach when modeling or editing logical definitions of concepts, i.e., a concept is newly defined, as opposed to inheriting the definition from the parent and then refining it. This is accomplished by assigning the immediate proximal primitive parent and attribute relationships based on their relevance to the defining characteristics of the concept, again, instead of relying on inheritance and refinement of relevant attributes from immediate, sufficiently defined supertypes.
+SNOMED CT authors use a zero-base&#x64;_, proximal primitive_ approach when modeling or editing logical definitions of concepts, i.e., a concept is newly defined, as opposed to inheriting the definition from the parent and then refining it. This is accomplished by assigning the immediate proximal primitive parent and attribute relationships based on their relevance to the defining characteristics of the concept, again, instead of relying on inheritance and refinement of relevant attributes from immediate, sufficiently defined supertypes.
 
 The steps are as follows:
 
@@ -28,9 +28,4 @@ Exceptions exist where the current concept model is not expressive enough to rep
 For example, disorders where the clinical manifestations are variably present (i.e., genetic diseases)
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Authoring" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Authoring" class="button primary">Provide Feedback</a>
