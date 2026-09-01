@@ -162,25 +162,36 @@ If the common name includes any proper nouns, or parts of proper nouns, they nee
 * For example,
   * 598003 |Vespa crabro (organism)| has the preferred /common name of _European hornet_ with the case sensitivity indicator of _Entire term case sensitive_ (CS).
 
-## Salmonella serotype nomenclature
+## Salmonella serovar nomenclature
 
-Salmonella serotypes have a quadrinomial format of Genus species subspecies Serotype where the serotype name is capitalized.
+### Salmonella serovars with a name
+
+Many Salmonella serovars bear a name.  These salmonella serovars have a quadrinomial format of Genus species subspecies Serovar where the serovar name is capitalized.
 
 * For example,
   * A synonym for 114683003 | Salmonella Doel (organism) | is Salmonella enterica subsp. enterica ser. Doel
 
-Additional descriptions, without the species and subspecies names, are in common usage for Salmonella serotypes.
+Additional descriptions, without the species and subspecies names, are in common usage for Salmonella serovars.  The antigenic formula is often included in a description as well.
 
 * For example,
   * 656008 | Salmonella Os (organism) |
+  * Salmonella 9,12:a:1,6
 
-In SNOMED CT, the serotype name in the description should be capitalized.
+In SNOMED CT, the serovar name in the description should be capitalized.
 
 {% hint style="info" %}
-**Salmonella Serotypes**
+**Salmonella Serovars**
 
-Salmonella serotypes, without the species and subspecies names, should not be confused with binomial species names of other organisms.
+Salmonella serovars, without the species and subspecies names, should not be confused with binomial species names of other organisms.
 {% endhint %}
+
+### Salmonella serovars without a name
+
+Salmonella serovars that do not have a name are represented by their antigenic formula in the FSN.
+
+* For example,
+  * 6793003 |Salmonella II 6,8:z29:1,5 (organism)|
+  * 1406835004 |Salmonella enterica subspecies enterica serovar 6,8:i:- (organism)|
 
 ## Streptococcus pneumoniae
 
