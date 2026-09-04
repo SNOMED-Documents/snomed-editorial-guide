@@ -7,30 +7,30 @@ When creating a lateralized procedure concept, two concepts should be created:
 1. concept for the left side
 2. concept for the right side
 
-When creating a lateralized procedure concept, if a non-lateralized parent does not exist, then it should be created as well. In other words, do not just create the right and left versions, but also create a concept to represent the laterality-agnostic parent.
+When creating a lateralized procedure concept, if a non-lateralized parent does not exist, then it should be created as well.  In other words, do not just create the right and left versions, but also create a concept to represent the laterality-agnostic parent.
 
 * For example,
-  * When creating _Excision of left mastoid_ and _Excision of right mastoid_, also ensure a concept for _Excision of mastoid_ exists.
+  * When creating |_Excision of left mastoid|_ and |_Excision of right mastoid|_, ensure a concept for |_Excision of mastoid|_ exists.
 
 The acceptable naming pattern for procedures with lateralizable body parts:
 
-* FSN: of bilateral (procedure)
-* PT: of bilateral
-* SYN: of both
+* FSN: \<Method> of bilateral \<body structures> (procedure)
+* PT:  \<Method> of bilateral \<body structures>
+* SYN:  \<Method> of both \<body structures>
 
 Bilateral procedures should be modeled using two relationship groups, one for each lateralized body structure.
 
 * For example,
-  *   895470004 | Amputation of bilateral upper limbs (procedure)|
+  *   895470004 |Amputation of bilateral upper limbs (procedure)|
 
       * FSN: Amputation of bilateral upper limbs (procedure)
-      * PT: Amputation of bilateral upper limbs
+      * PT:  Amputation of bilateral upper limbs
       * SYN: Amputation of both upper limbs
 
       <figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>
 
 {% hint style="info" %}
-Other synonyms may be added if requested, e.g. _L_ _eft and right_ _X_ ; _Bilateral X,_ etc.
+Other synonyms may be added if requested, e.g., _Left and right_ _X_; _Bilateral X,_ etc.
 {% endhint %}
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Lateralized%20Procedure%20Naming%20Conventions" class="button primary">Provide Feedback</a>
