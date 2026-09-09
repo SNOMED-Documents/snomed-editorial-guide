@@ -8,7 +8,7 @@ The substance redesign project has made a number of decisions regarding the repr
 2. The intrinsic physicochemical properties do not encompass non-intrinsic characteristics of a substance, such as toxicity, bioavailability, or extended release (in the case of medicinal products).
 3. Modification concepts that exist to group modifications or derivatives of a specific substance are not to be created.
 4. Metabolite groupers in the substances hierarchy are considered roles. No further concepts of this format will be created in the |Substance| hierarchy. Existing concepts will only be retained where there is a specific requirement and will be modeled as a child of |Metabolite (substance)|. See [Metabolites](../guidelines-for-specific-substance-types/metabolites.md).
-5. Structural groupers that reference modifications as a chemical group will be retained. Where the structural group name also refers to a specific chemical, the grouper will be re-termed “Substance with X structure”. See relative section [Substance Groupers Based on Structure](substance-groupers-based-on-structure.md).
+5. Structural groupers that reference modifications as a chemical group will be retained. Where the structural group name also refers to a specific chemical, the grouper will be re-termed “Substance with X structure”. See relative section [Substance Groupers Based on Structure](../guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-structure.md).
 6. There is no requirement to introduce a new semantic tag in order to distinguish concepts representing a substance or its modifications from any other type of concept in the |Substance| hierarchy.
 
 ## Modeling

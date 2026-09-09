@@ -4,7 +4,7 @@
 
 Acids substance concepts should be modeled with a structural parent concept.
 
-Salts should be modeled with a conjugate base as parent (if one exists, otherwise they are modeled with a structural parent). Salts may have an Is modification of (attribute) relationship to the conjugate acid where a specific use case is identified. See examples of such use cases at [Concepts Representing a Substance or its Modifications](../guidelines-for-substance-hierarchy-grouper-concepts/concepts-representing-a-substance-or-its-modifications.md).
+Salts should be modeled with a conjugate base as parent (if one exists, otherwise they are modeled with a structural parent). Salts may have an Is modification of (attribute) relationship to the conjugate acid where a specific use case is identified. See examples of such use cases at [Concepts Representing a Substance or its Modifications](../substance-concept-general-guidelines/concepts-representing-a-substance-or-its-modifications.md).
 
 Conjugate base concepts (e.g., valproate, pamidronate, etidronate) should only be created where a specific use case is identified, for example, when required to support the definition of other concepts in the terminology.
 

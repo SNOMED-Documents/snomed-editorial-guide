@@ -24,6 +24,6 @@ Known issues with use of Substance role groupers, including potential incorrect 
 * [Substance Groupers Based on Structure](substance-groupers-based-on-structure.md)
 * [Substance Groupers Based on Disposition](substance-groupers-based-on-disposition.md)
 * [Substance Groupers Based on Both Structure and Disposition](substance-groupers-based-on-both-structure-and-disposition.md)
-* [Concepts Representing a Substance or its Modifications](concepts-representing-a-substance-or-its-modifications.md)
+* [Concepts Representing a Substance or its Modifications](../substance-concept-general-guidelines/concepts-representing-a-substance-or-its-modifications.md)
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Guidelines%20for%20Substance%20Hierarchy%20Grouper%20Concepts" class="button primary">Provide Feedback</a>
