@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Descriptions
 
 A concept has multiple associated _descriptions_.

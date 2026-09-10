@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Restructure of the top level substances hierarchy
 
 Previously, the substances hierarchy in SNOMED CT was organized using a number of different axes, some of which did not comply with the terminological principle of being always true. This resulted in incorrect inferences both within the substance hierarchy and in other hierarchies where substances were used to define concepts.  To avoid this, the substances hierarchy has been organized by characteristics that are always true (e.g., chemical structure). For substances where the structure is unknown or the substance is heterogeneous, other characteristics that are always true should be used as parent concepts within the substances hierarchy.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Ear
 
 The ear includes the external, middle and inner ear. The external ear has two main parts, the _auricle_ (also called the _pinna_) and the 84301002 |External auditory canal structure (body structure)|.

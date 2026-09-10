@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Pharmaceutical and Biologic Product
 
 - [Pharmaceutical and Biologic Product](../pharmaceutical-and-biologic-product/pharmaceutical-and-biologic-product.md)

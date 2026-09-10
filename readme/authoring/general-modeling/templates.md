@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Templates
 
 In addition to the guidance found here in the Editorial Guide, please see information on the use of templates at [SNOMED CT Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/overview).

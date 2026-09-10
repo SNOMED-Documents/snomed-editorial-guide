@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Real Clinical Drug (RCD)
 
 ## Definition

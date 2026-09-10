@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Nuclear Medicine - Radionuclide Imaging
 
 Nuclear medicine imaging uses radionuclides or radioisotopes.

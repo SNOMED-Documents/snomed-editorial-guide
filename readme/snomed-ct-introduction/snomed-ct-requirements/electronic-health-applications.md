@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Electronic Health Applications
 
 The anticipated benefits of SNOMED CT are derived from use of information to support effective delivery of high quality healthcare to individuals and populations.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Ingredient Substance Attributes
 
 The following sections discuss the attribute concepts used to represent the ingredient substances of concepts in the medicinal product hierarchy.

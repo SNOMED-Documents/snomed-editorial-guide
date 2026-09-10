@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Specific Clinical finding and Disorder Modeling
 
   * [Acquired abnormality of congenital anomaly](Acquired-abnormality-of-congenital-anomaly_174690516.html)

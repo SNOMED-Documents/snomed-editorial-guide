@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Proprietary Names and Works
 
 This section considers scope as it relates to the incorporation of proprietary names (e.g. brand names of drugs, devices, clinical forms or tools) into SNOMED CT.

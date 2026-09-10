@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Multisystem disorders
 
 Multisystem disorders are often rare conditions. There may be limited information about such disorders, so they should be carefully modeled.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Adjudication for Content Requests
 
 There are processes for making decisions about adding or changing content in SNOMED CT.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Human Genes
 
 Human genes are represented as cell structures (subcellular structures) within the Body structure hierarchy. This reflects the biological reality of genes as physical, organized, functional units within chromosomes.

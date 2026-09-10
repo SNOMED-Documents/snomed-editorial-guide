@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical Finding and Disorder
 
 - [Clinical Finding and Disorder](../clinical-finding-and-disorder/clinical-finding-and-disorder.md)

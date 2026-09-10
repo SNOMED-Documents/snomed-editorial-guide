@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Procedure Attributes
 
 The following defining attributes correspond to the [_Procedure Attributes Summary_](../index.md) table.

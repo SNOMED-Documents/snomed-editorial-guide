@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Mental health
 
 Dependence-related concepts which express the current existence of abuse are acceptable.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Supporting hierarchy - Disposition
 
 ## Overview

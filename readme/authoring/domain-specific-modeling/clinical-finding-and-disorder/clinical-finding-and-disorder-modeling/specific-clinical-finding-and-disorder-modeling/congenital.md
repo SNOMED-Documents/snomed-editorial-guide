@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Congenital
 
 The concept 66091009 |Congenital disease (disorder)|, means present at birth. Though the word _congenital_ may be applied to genetic disorders, the term _genetic_ is preferred for those disorders.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Revision
 
 A _revision procedure_ may or may not be a subtype of the original procedure. Revision procedure concepts should be in the 118635009 |Revision (procedure)| subhierarchy.

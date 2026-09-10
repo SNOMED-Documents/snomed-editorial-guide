@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Laterality
 
 ## Determine if an anatomy structure is lateralizable

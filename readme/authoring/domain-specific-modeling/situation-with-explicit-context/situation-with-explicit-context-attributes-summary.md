@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Situation with Explicit Context Attributes Summary
 
 When authoring in this domain, these are the approved attributes and allowable ranges.

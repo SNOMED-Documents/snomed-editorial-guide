@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical Drug with Continuous Dose Form
 
 ## Overview

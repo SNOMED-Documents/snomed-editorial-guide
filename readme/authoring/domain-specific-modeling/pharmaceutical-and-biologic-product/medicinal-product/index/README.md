@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical drug
 
 The Clinical Drug "containing precisely" (CD-precise) concept is an abstract representation of the precise active ingredient, basis of strength substance (BoSS), strength, and manufactured dose form of a drug product. It implies that the drug product must contain only the precise active ingredient(s) specified in the FSN.

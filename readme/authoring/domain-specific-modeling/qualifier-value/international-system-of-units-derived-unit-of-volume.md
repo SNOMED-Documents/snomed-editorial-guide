@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # International System of Units - derived unit of volume
 
 The 282115005 | International System of Units-derived unit of volume (qualifier value) | hierarchy contains concepts representing metric units of volume.

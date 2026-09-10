@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Imaging-guided procedure modeling
 
 Imaging guidance can be modeled using the _Has intent (attribute)_. The concept 429892002 |Guidance intent (qualifier value)|, a child of 363675004 |Intents (nature of procedure values) (qualifier value)|, is the value for the Has intent (attribute) for imaging-guided procedures.

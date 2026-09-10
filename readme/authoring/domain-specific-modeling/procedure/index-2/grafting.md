@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Grafting
 
 Although the use of terminology may vary across specialties, in general, grafting is where tissue is completely separated from its source of origin or donor, without its own blood supply, then affixed to a recipient site. The recipient site provides the vascularity.

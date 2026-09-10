@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Fluoroscopy and Fluoroscopic Imaging
 
 ## Simple fluoroscopy

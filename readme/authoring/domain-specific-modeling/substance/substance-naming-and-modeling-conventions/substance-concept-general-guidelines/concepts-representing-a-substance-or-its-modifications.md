@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Concepts Representing a Substance or its Modifications
 
 ## Overview

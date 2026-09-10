@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Technique
 
 272394005 | Technique (qualifier value) |

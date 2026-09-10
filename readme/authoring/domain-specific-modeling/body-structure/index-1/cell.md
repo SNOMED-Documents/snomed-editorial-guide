@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Cell
 
 ## Modeling of cells expressing antigens

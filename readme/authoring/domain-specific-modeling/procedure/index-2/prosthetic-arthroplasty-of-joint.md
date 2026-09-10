@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Prosthetic arthroplasty of joint
 
 << 1288025000 | Prosthetic arthroplasty of joint (procedure)|

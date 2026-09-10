@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Flap procedures
 
 The concept model for flap procedures is based on three attributes in a role group as outlined below:

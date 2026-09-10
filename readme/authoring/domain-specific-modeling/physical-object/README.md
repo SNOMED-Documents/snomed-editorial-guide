@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Physical Object
 
 <table><thead><tr><th width="288.0625">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Physical devices relevant to healthcare or to injuries/accidents</td><td><ul><li>469785004 | Heel protector (physical object) | </li><li>40388003 | Implant, device (physical object) |</li></ul></td></tr></tbody></table>

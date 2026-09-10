@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Continuous presentation: bounded by container; liquid dose forms
 
 _Examples: parenteral solutions, unit dose nebuliser solutions_

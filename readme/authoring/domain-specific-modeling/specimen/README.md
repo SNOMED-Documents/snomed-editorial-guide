@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Specimen
 
 | Definition                                                                     | Examples                                                                                                                                                                                       |

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Tumor morphology
 
 SNOMED CT accepts tumor concepts, as long as they are included in the International Classification of Diseases for Oncology (ICD-O). ICD-O has two coding systems for coding the site (topography) and the histology (morphology) of the neoplasm:

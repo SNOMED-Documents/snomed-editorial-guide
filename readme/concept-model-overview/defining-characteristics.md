@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Defining Characteristics
 
 ## Role of defining characteristics

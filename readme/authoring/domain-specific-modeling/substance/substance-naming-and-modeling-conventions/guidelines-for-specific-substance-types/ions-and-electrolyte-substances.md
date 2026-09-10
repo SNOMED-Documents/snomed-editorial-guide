@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Ions and electrolyte substances
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Encounter
 
 An _encounter_ is defined as an in-person meeting between a patient and a healthcare provider for the purpose of the provision of healthcare services to the patient. 308335008 |Patient encounter procedure (procedure)| is a subtype of Procedure (procedure).

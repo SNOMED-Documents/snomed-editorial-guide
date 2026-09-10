@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # International Medicinal Product Model Diagrams
 
 ## **Medicinal Product model diagrams**

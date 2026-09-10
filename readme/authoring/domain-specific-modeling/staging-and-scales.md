@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Staging and Scales
 
 <table><thead><tr><th width="345.71875">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>This hierarchy contains concepts which are named, authoritative, and internationally relevant staging or grading systems used to either make a judgment about the patient, e.g. cognition, or, evaluate a patient to determine the phase, or progression of a disease.</td><td><p>Assessment</p><ul><li>273472005 | Functional status index (assessment scale) |</li></ul><p>Staging</p><ul><li>254294008 | Tumor-node-metastasis (TNM) head and neck tumor staging (tumor staging) |</li></ul></td></tr></tbody></table>

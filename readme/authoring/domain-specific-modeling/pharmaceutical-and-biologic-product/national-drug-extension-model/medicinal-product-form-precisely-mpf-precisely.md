@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Medicinal Product Form Precisely (MPF precisely)
 
 ## **Medicinal Product Form Precisely (****MPF precisely****)**

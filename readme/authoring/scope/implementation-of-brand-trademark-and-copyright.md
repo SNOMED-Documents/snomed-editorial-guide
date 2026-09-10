@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Implementation of Brand, Trademark and Copyright
 
 ## Names

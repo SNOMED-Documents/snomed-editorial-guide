@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Real Medicinal Product (RMP)
 
 ## Definition <a href="#definition" id="definition"></a>

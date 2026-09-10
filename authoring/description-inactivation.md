@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Description Inactivation
 
 **Description inactivation values**

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substance Defining Attributes
 
 The following defining attributes correspond to the  _Substance Attribute Summary_ table.

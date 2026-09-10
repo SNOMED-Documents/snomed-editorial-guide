@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Morphologic Abnormality Modeling
 
 The morphologic abnormality subhierarchy is located two levels below the Body structure hierarchy with\

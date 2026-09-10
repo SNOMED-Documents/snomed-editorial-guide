@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Positron Emission Tomography - PET
 
 ## Positron emission tomography (procedure)

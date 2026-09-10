@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substances specifying bound
 
 ## Bound substances Overview

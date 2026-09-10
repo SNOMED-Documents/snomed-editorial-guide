@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Qualifying Characteristics
 
 A _qualifying characteristic_ is expressed by an attribute-value pair. The attribute may have one value, from a range of values, based on the domain's concept model. If a particular qualifying characteristic is applied to a concept, the resulting expression represents a more tightly defined subtype of that concept.

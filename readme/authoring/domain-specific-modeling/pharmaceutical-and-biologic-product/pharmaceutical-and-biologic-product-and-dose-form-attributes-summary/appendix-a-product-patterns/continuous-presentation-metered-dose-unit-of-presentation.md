@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Continuous presentation: Metered dose unit of presentation
 
 _Examples: various inhalers, nasal sprays, some cutaneous sprays/foams_

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Physical Object Naming and Modeling Conventions
 
 Specific editorial guidelines for modeling and terming will be documented for each device type as completed.

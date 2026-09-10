@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Procedure during period of life
 
 Where a procedure is undertaken during a specific period of life, such as in the maternal pregnancy period, the descriptions may include the term _during._  However, the concept is modeled with Occurrence (attribute) with a value of <282032007 |Periods of life (qualifier value)|.

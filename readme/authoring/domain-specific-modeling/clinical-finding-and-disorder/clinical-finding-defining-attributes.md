@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical Finding Defining Attributes
 
 {% hint style="success" %}

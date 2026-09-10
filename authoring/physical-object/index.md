@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Physical Object
 
 - [Physical Object](../physical-object/physical-object.md)

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substance withdrawal syndrome
 
 The concepts in the 1254795002 |Substance withdrawal syndrome (disorder)| subhierarchy are modeled as direct children of 64572001 |Disease (disorder)| and are further defined using _Due to_ and _After_ attributes of | dependance (disorder)|.

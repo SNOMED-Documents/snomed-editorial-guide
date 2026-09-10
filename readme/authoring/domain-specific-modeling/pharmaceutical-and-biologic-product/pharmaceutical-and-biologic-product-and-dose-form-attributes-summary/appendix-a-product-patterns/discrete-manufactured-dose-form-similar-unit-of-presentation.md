@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Discrete manufactured dose form; similar unit of presentation
 
 _Examples: various tablets, capsules, cachets, pessaries, suppositories, tampons_

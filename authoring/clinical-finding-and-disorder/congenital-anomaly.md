@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Congenital anomaly
 
 Disorders which involve congenital anomalies are defined with:

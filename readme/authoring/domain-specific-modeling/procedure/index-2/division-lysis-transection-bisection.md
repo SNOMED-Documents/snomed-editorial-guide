@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Division, lysis, transection, bisection
 
 ### Division and lysis <a href="#division-and-lysis" id="division-and-lysis"></a>

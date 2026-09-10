@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Case Significance
 
 Generally, SNOMED CT descriptions begin with an upper case letter; the rest of the words in the description are lower case, except for abbreviations and proper nouns (names of people, organizations, taxonomic groups (e.g. species, genus, family)).

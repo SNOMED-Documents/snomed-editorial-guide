@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Osteoarthritis
 
 396275006 |Osteoarthritis (disorder)| is primarily a degenerative disease, although recent research has identified an increased role of inflammation as an inciting cause. Because of this, 396275006 |Osteoarthritis (disorder)| should now be modeled with a morphology that represents both the inflammatory and degenerative aspects of the disease, 1343602002 |Degeneration and inflammation (morphologic abnormality)|. According to many authoritative sources, osteoarthritis is now regarded as an inflammatory disease, and is now a _subtype_ of arthritis.

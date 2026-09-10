@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Changes to Components
 
 ## Considerations for current concepts when creating new concepts

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # SNOMED CT Model Component
 
 | Definition                                                                                            | Types                                |

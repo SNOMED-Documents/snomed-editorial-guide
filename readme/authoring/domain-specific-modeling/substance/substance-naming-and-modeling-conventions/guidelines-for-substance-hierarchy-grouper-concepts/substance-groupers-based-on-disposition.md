@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substance Groupers Based on Disposition
 
 ## Overview

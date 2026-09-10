@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substance Naming and Modeling Conventions
 
 * [Substance Groupers](guidelines-for-substance-hierarchy-grouper-concepts/)

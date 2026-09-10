@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Sufficiently Defined vs Primitive Concept
 
 ## Sufficiently defined

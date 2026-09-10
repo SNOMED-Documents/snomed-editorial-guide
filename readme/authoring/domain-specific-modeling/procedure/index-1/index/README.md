@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical Imaging Procedure Naming Conventions
 
 Almost all imaging procedures can be unambiguously expressed in a number of ways. There is a balance between flexibility in language and efficiency in terminology maintenance. Consequently, all variants for imaging modalities are not routinely included in SNOMED CT. Submissions for additional descriptions must be justified explicitly.

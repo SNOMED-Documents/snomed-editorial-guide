@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Relationship Group
 
 This page describes the grouping of attributes.

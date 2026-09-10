@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical Drug (CD) with Concentration and Presentation Strengths
 
 Clinical drug concepts in the international edition are authored _either_ using presentation strength (for discrete dose forms) _or_ using concentration strength (for liquid dose forms and patches, etc.) as appropriate for different types of product (see [Clinical Drug with Continuous Dose Form](../medicinal-product/index/clinical-drug-with-continuous-dose-form.md), [Clinical Drug with Discrete Dose Form](../medicinal-product/index/clinical-drug-with-discrete-dose-form.md), and [Appendix A: Product Patterns](../pharmaceutical-and-biologic-product-and-dose-form-attributes-summary/appendix-a-product-patterns/)). Concentration strength in SNOMED CT is where the description of the strength of a clinical drug has been normalized such that the denominator value is "one" and the denominator unit is a unit of mass (e.g., grams) or volume (e.g., milliliters). Presentation strength is a description of the strength of the clinical drug as it is present in its unit of presentation (vial, ampoule, sachet).

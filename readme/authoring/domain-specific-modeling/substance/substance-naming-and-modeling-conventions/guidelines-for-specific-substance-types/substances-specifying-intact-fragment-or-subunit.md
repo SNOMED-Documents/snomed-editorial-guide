@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substances specifying intact, fragment or subunit
 
 ## Overview

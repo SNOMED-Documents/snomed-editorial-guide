@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Fully Specified Name
 
 | Fully specified name (FSN) definition                                                                                                                                           |

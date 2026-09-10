@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Observable Entity Templates
 
 Templates are available for modeling quality observables and for process observables:

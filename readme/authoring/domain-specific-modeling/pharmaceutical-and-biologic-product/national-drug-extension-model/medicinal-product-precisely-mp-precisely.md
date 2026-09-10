@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Medicinal Product Precisely (MP precisely)
 
 ### Definition <a href="#definition" id="definition"></a>

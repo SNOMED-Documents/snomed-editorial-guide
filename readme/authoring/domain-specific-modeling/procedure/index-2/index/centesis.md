@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Centesis
 
 _Centesis_ may be defined as the act of puncturing a body cavity or space with a hollow needle and drawing out fluid. Each centesis procedure involves both a puncture action and a needle aspiration action. It is correct to have two relationship groups for centesis procedures.

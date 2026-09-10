@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Introduction
 
 # Rationale for the National Drug Extension Model

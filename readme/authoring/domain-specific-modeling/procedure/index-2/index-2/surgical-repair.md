@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Surgical repair
 
 The definition of _surgical repair_ is restoring, to the extent possible, an anatomical structure, using a surgical action. _Repair_ is an objective or intended accomplishment, not a means (e.g., suturing, transplanting, etc.) nor a need (e.g., normal functioning, cosmetic appearance, pain relief, etc.).

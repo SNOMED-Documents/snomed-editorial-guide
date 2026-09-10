@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # US vs. GB English
 
 All fully specified names (FSN) should be represented in US English. When there is a difference between the US and GB spelling, there should be US and General British (GB) preferred terms (PT) and/or synonyms (SYN).

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Specific Clinical drug modeling
 
 ## Subpages

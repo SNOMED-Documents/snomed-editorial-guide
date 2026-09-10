@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Specimen Defining Attributes
 
 The following defining attributes correspond to the _Specimen Attributes Summary_ table.

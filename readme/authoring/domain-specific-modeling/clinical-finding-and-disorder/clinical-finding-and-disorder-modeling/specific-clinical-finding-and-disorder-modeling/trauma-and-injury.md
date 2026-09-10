@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Trauma and Injury
 
 ## Trauma, injury

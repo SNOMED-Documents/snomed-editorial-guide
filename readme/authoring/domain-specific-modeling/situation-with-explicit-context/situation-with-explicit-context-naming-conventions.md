@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Situation with Explicit Context Naming Conventions
 
 For information on precoordinated naming patterns that have been reviewed or are currently in review, see [Pre-coordination Naming Patterns project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project). Unreviewed patterns for the Situation with explicit context hierarchy can be found [here](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836/Unreviewed+Patterns+by+Hierarchy). New content should conform with the naming patterns; however, legacy content may not.

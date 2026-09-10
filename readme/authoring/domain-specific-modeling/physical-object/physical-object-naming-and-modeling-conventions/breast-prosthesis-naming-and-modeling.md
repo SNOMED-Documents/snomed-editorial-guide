@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Breast Prosthesis Naming and Modeling
 
 ## Naming Guidelines

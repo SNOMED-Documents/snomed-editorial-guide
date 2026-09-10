@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Diagnostic Imaging for Multiple Body Sites
 
 ## Adjacent structures

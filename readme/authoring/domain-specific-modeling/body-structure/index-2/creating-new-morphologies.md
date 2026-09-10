@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Creating new morphologies
 
 When considering the creation of a new morphological abnormality concept, consider the following:

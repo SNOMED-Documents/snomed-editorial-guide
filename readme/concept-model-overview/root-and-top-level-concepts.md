@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Root and Top-level Concepts
 
 ## Concept

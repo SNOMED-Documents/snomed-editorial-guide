@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Contrast for Imaging
 
 It is essential to express when contrast is part of a procedure and that descriptions are constructed consistently.

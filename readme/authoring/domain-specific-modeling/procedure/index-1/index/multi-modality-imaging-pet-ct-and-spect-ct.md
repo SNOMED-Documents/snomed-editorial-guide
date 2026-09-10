@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Multi-modality Imaging: PET, CT and SPECT, CT
 
 There are very few imaging procedures which are truly _multi-modality_ procedures. Two procedures are usually conducted in parallel, rather than as one. Positron emission tomography with computed tomography (PET/CT) and Single photon emission computed tomography with computed tomography (SPECT/CT), however, are produced by one piece of equipment, possibly by a single technician, but with multiple imaging energies.

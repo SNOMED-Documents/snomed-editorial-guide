@@ -12,7 +12,7 @@ layout:
   pagination:
     visible: true
   metadata:
-    visible: true
+    visible: false
   tags:
     visible: true
   actions:

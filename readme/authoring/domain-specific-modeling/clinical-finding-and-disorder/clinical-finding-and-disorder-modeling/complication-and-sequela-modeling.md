@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Complication and Sequela Modeling
 
 Combined disorders can occur, for example:

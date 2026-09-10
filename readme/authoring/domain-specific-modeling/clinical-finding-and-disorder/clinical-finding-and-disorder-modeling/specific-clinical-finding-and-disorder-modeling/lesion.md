@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Lesion
 
 The word _lesion_ can be used to refer to both structural and functional abnormalities. This makes a subtle distinction between the clinical finding and disorder semantic tags. The majority of lesions in SNOMED CT are in the disorder subhierarchy.

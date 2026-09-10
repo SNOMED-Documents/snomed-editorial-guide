@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Hematologic and lymphatic conditions
 
 ## Hematologic, lymphatic

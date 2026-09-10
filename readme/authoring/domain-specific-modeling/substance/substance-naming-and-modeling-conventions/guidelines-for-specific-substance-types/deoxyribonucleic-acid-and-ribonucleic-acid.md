@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Deoxyribonucleic acid and ribonucleic acid
 
 ## Ribonucleic acid of X organism

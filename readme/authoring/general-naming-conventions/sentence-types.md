@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Sentence Types
 
 Concepts should be names or short noun phrases. Full statements or sentences are unacceptable.

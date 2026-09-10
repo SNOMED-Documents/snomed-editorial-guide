@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # SNOMED CT Introduction
 
 ## What is SNOMED CT?

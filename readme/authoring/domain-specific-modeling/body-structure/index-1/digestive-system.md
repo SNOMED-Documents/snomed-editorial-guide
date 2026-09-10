@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Digestive System
 
 _Digestive tract_ is the same as alimentary tract, and includes the entire passage for food through the body, including mouth, oral cavity (both vestibule of mouth and cavitas oris propria), oropharynx, esophagus, stomach, duodenum, jejunum, ileum, colon, rectum, and anal canal.

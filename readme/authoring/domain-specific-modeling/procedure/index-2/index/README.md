@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Aspiration
 
 Aspiration is extraction using negative pressure. When modeling aspiration concepts, procedure site distinction is made if the removal is either (1) a substance from within a body structure or specific morphology, or (2) removal of any of the body structure itself (including cells).

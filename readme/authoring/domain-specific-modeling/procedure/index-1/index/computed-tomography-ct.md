@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Computed Tomography - CT
 
 {% hint style="info" %}

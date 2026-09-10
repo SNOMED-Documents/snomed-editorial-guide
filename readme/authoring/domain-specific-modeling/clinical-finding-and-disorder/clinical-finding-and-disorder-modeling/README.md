@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical finding and Disorder Modeling
 
 A disorder is always and necessarily an _abnormal clinical state_.

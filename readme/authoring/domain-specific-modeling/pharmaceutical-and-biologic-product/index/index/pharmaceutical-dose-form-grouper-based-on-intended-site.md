@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Pharmaceutical Dose Form Grouper Based on Intended Site
 
 ## Overview

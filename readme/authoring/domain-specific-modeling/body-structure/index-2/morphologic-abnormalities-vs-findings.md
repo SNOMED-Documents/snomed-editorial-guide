@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Morphologic Abnormalities vs. Findings
 
 Concepts from the Morphologic Abnormality hierarchy should not be used in place of concepts from the Clinical Findings hierarchy, even though they appear to refer to similar _clinical_ _situations_.

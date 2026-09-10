@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # National Drug Extension Model
 
 ## Model Overview

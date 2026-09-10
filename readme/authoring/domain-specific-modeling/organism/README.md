@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Organism
 
 <table><thead><tr><th width="360.328125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Organisms of significance to human medicine</td><td><ul><li>3265006 | Genus Candida (organism) |</li><li>710877000 | Beta lactam resistant bacteria (organism) |</li></ul></td></tr></tbody></table>

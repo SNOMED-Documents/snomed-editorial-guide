@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # SNOMED CT Requirements
 
 Key requirements that drive the design, development, and maintenance of SNOMED CT are as follows. They are related to:

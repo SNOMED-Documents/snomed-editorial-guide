@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Lymphatic, Immune, Hematologic, Hematopoietic systems
 
 ### Lymphatic system / **89890002 |Structure of lymphatic system (body structure)|**

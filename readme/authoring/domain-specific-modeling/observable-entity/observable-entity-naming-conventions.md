@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Observable Entity Naming Conventions
 
 ## Test Observable Entity Naming Conventions

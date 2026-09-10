@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Anatomical Structure Naming Conventions
 
 This section contains naming conventions for anatomical structures in SNOMED CT.

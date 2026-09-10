@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Continuous presentation: bounded by container; liquid/semi-solid dose forms; concentration strength
 
 _Examples: bulk parenteral solutions, insulins, patches_

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Special Concept
 
 <table><thead><tr><th width="162.22918701171875">Definition</th><th width="579.2318115234375">Examples</th></tr></thead><tbody><tr><td><ul><li>Inactive concept</li></ul><ul><li>Navigational concept</li></ul></td><td><ul><li>363664003 | Erroneous concept (inactive concept) |</li></ul><p></p><ul><li>394899003 | Oral administration of treatment (navigational concept) |</li></ul></td></tr></tbody></table>

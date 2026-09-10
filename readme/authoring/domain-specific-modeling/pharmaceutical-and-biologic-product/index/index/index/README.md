@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Pharmaceutical Dose Form Supporting Hierarchies
 
 The 736542009 |Pharmaceutical dose form (dose form)| subhierarchy of 362981000 |Qualifier value (qualifier value)| contains concepts which support the Medicinal product model.

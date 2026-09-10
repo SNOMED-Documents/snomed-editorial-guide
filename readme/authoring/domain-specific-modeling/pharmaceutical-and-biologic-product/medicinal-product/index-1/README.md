@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Medicinal Product and Medicinal Product Forms
 
 When a clinical drug is created, the following supertypes must either already exist or must be created:

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Medicinal Product Groupers
 
 A _grouper_ is a concept designed to aggregate concepts based on specific characteristics or commonalities. Medicinal products and their representations in a terminology can be put into groups in many ways, both in terms of abstraction and aggregation of product descriptions. In the SNOMED CT medicinal product model, the following grouping concepts will be used:

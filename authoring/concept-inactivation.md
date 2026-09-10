@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Concept Inactivation
 
 ## Concept inactivation values

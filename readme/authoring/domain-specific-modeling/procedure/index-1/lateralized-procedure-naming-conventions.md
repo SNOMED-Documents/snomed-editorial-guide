@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Lateralized Procedure Naming Conventions
 
 ## Procedure concepts with a body structure that has a left/right side

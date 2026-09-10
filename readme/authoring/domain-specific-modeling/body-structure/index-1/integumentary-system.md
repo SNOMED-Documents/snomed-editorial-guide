@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Integumentary System
 
 ## Skin, skin-associated mucosa

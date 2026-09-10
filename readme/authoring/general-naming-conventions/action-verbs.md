@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Action Verbs
 
 Action verbs should be written in noun form within SNOMED CT descriptions. This most often means the root form of the verb will end with a suffix of –tion, -sion, -ment, -al, -ence, or -ance.

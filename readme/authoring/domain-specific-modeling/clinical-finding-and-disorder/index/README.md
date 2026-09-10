@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical Finding and Disorder Naming Conventions
 
 ## FSN

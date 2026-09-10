@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substance
 
 <table><thead><tr><th width="461.52734375">Definition</th><th>Examples</th></tr></thead><tbody><tr><td><p>The |Substance| hierarchy contains concepts that can be used for recording and modeling: chemical constituents of medicinal and non-medicinal products; allergies, adverse reactions, poisoning; physicians and nursing orders and laboratory reports and results.</p><p></p><p>Subhierarchies of |Substance| include but are not limited to: |Body substance (substance)| and |Chemical (substance)|</p></td><td><ul><li>Albumin (substance)</li><li>Amoxicillin (substance)</li><li>Amoxicillin trihydrate (substance)</li><li>Chromatin (substance)</li><li>Endorphin (substance)</li><li>Methane (substance)</li><li>Paracetamol (substance)</li></ul></td></tr></tbody></table>

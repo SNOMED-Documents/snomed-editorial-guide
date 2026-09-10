@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Authoring
 
 ## Modeling philosophy of SNOMED CT

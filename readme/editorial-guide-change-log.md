@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Editorial Guide Change Log
 
 ### For **key** Editorial Guide changes, see the [Summary of changes](https://docs.google.com/spreadsheets/d/1xHZNeNQwkCcUPaZGEl28GFGv_WMTHZoeHeAV5cSjOFU/).

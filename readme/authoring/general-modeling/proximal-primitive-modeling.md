@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Proximal Primitive Modeling
 
 See glossary for definition here:

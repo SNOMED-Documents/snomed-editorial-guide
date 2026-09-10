@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Continuous presentation: unbounded by container
 
 _Examples: bulk powders and granules, bulk liquids, semi-solids_

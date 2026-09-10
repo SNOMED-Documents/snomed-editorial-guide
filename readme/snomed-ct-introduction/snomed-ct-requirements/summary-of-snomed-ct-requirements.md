@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Summary of SNOMED CT Requirements
 
 A summary of the SNOMED CT requirements is as follows. Additional information may be found throughout this guide, as well as in other documents on the [SNOMED International website](https://www.snomed.org/).

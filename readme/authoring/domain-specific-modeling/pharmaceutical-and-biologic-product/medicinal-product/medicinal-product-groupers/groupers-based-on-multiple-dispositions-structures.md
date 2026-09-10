@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Groupers Based on Multiple Dispositions, Structures
 
 ## Overview

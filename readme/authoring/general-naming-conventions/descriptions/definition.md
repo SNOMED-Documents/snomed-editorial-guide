@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Definition
 
 A _definition_ is a textual description applied to some SNOMED CT concepts that provides additional information about the intended meaning or usage of the concept. Definitions are not mandated and are considered for addition on a case-by-case basis, and if required, to differentiate a concept from its related concepts.

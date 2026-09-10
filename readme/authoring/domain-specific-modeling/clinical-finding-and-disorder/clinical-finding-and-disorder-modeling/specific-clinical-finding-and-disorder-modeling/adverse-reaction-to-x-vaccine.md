@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Adverse reaction to X vaccine
 
 ## Overview

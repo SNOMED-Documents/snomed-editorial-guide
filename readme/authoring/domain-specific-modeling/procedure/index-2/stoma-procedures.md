@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Stoma procedures
 
 A distinction is needed between stoma procedures and procedures where an anastomosis is created between two hollow organs.&#x20;

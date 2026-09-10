@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Qualifier Value
 
 <table><thead><tr><th width="356.6866455078125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Qualifier values include a wide range of concepts that provide attribute values used in the definitions of other concepts. These values can also be used in expressions to refine the meaning of a concept, or in the appropriate fields of a health record to add additional information.</td><td><ul><li>Action, Numbers, Clinical specialty, Context values, Mode of transmission, Type of diagnosis, Scale type, Sport, Technique, Time frame, World languages </li><li>There are also many Qualifier value subtypes relating to the pharmaceutical realm: Additional dosage instructions, Basic dose form, Route of administration value, etc.</li></ul></td></tr></tbody></table>

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Measurement findings
 
 The following applies to the subcategory of 118245000 |Measurement finding (finding)|:

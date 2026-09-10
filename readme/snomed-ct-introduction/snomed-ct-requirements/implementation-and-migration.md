@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Implementation and Migration
 
 ## Electronic health application

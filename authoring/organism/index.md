@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Organism
 
 - [Organism](../organism/organism.md)

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Extracts
 
 Many extracted substances in SNOMED CT are not specific to either the part of the plant (root, seed, leaf, etc.) or the form (powder, dry or soft extract, etc.).  The specific part of the plant should be known and documented when using these substances in modeling medicinal products.  The less specific descriptions may find use in hierarchies besides Pharmaceutical / biologic product (product), such as the need to record an adverse reaction to a substance where the full details are unknown.   While the most specific information is encouraged, all levels of specificity can be represented in SNOMED CT.  &#x20;

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Naming Convention for Digits of Hand and Foot
 
 Fully specified names and preferred names should use proper names of digits of hand and foot. The names by order of digits can be added as optional synonyms. The order of fingers is different from the order of digits of hand because the thumb is not a finger in SNOMED CT. Therefore, the order of the finger should not be used to avoid potential confusion.

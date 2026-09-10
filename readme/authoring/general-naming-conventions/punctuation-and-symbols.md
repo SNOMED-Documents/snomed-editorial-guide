@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Punctuation and Symbols
 
 {% hint style="info" %}

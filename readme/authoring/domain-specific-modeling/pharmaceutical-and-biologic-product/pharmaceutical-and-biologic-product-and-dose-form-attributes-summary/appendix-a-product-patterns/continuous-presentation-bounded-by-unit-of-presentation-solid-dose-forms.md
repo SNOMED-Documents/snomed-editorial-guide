@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Continuous presentation: bounded by unit of presentation; solid dose forms
 
 _Examples: vials, ampoules, sachets, containing solid dose forms such as powders or granules which may or may not be dissolved before administration_

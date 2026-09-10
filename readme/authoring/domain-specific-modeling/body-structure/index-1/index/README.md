@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Musculoskeletal System
 
 ## Skeletal system, bony skeleton

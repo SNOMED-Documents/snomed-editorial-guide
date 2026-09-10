@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Anatomical Concept Model
 
 ## The Structure-Entire-Part (SEP) model

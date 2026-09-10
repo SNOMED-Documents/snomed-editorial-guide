@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Lateralized Disorder Naming Conventions
 
 {% hint style="warning" %}

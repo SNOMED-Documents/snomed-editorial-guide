@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Cardiac Valve Prosthesis Naming and Modeling
 
 ## Naming

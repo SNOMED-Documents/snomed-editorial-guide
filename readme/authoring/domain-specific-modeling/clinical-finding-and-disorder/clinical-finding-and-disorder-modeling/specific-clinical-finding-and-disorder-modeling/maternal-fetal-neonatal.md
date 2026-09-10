@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Maternal, fetal, neonatal
 
 ## Pregnancy Periods

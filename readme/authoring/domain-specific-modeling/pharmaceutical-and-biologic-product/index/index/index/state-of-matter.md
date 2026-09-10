@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # State of Matter
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substance Groupers
 
 In the SNOMED CT substance hierarchy, there are a large number of grouper concepts. Currently, groupers within the substances can be considered to be structural groupers, disposition groupers, or role based.

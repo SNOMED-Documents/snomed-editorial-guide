@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Vaccine Products in the Medicinal Product Hierarchy
 
 The following sections apply to the vaccine product concepts in the |Medicinal product (product)| hierarchy in the International Release.  In the International Release, vaccine products are those concepts with |Plays role (attribute) = |Active immunity stimulant role (role)|.

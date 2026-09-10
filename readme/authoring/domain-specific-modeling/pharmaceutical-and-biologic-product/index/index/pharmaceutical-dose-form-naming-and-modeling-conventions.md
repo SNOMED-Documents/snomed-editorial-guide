@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Pharmaceutical Dose Form Naming and Modeling Conventions
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Fracture
 
 Fractures should be agnostic as to whether they are pathologic or not, unless specified in the FSN or could only be caused by trauma (e.g. open fractures).  Although most fractures are traumatic, there are some pathological fractures.  Based on its FSN and text definition, if the word _pathological_ is present, use Pathologic fracture (morphologic abnormality).

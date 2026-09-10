@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Situation with Explicit Context Defining Attributes
 
 The following defining attributes correspond to the _Situation with Explicit Context Attributes Summary_ table.

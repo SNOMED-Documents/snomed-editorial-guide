@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Physical Object Defining Attributes
 
 The following defining attributes correspond to the _Physical Object Attributes Summary_ table.

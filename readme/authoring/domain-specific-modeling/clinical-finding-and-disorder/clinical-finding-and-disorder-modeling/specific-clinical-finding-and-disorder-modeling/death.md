@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Death
 
 _Death_ is an event, not a disorder.

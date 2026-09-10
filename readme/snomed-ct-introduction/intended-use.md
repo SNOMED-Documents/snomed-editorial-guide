@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Intended Use
 
 SNOMED CT is intended to be used in healthcare:

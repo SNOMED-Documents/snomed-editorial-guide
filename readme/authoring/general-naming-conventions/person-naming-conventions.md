@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Person Naming Conventions
 
 ## Patient vs Subject <a href="#patient-vs-subject" id="patient-vs-subject"></a>

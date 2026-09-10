@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Dose Form Release Characteristic
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Anhydrous
 
 When a clinical drug has a BoSS specified in a Summary of Product Characteristics as an anhydrous substance, the PAI is represented as the unmodified substance, i.e., the substance with an unspecified level of hydration.

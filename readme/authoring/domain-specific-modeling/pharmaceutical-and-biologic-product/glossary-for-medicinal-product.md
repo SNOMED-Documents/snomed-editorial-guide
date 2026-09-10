@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Glossary for Medicinal Product
 
 The following definitions and abbreviations apply to this document:

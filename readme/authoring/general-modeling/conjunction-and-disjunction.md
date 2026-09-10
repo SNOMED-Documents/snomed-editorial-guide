@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Conjunction and Disjunction
 
 <table><thead><tr><th width="227.58074951171875">and</th><th width="213.97998046875">or</th><th>and/or</th></tr></thead><tbody><tr><td><p>Conjunction: And</p><p>A set of operands is true, if and, only if all of its operands are true A and B are true</p></td><td><p>Exclusive disjunction: Or</p><p>Either A or B is true but not both</p></td><td><p>Inclusive disjunction: And/or</p><p>A set of operands is true, if and, only if one or more of its operands is true</p><p>Either A or B is true</p><p>or</p><p>both A and B are true</p></td></tr></tbody></table>

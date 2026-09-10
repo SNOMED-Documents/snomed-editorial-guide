@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical Drug with Discrete Dose Form
 
 ## Overview

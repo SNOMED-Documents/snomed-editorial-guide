@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Body Structure
 
 The 123037004 |Body structure (body structure)| subhierarchy includes both anatomical structures and morphologic abnormalities

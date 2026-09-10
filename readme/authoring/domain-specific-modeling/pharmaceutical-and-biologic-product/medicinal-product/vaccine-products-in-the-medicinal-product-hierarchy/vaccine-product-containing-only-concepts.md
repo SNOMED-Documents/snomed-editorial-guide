@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Vaccine Product containing only Concepts
 
 ## Overview

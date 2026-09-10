@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Conjugate acids, bases and salts
 
 ## Overview

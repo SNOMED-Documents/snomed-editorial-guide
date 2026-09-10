@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Anatomical Structure Naming Conventions
 
 * [Naming Convention for SEP Model](../../body-structure/naming-convention-for-sep-model.md)

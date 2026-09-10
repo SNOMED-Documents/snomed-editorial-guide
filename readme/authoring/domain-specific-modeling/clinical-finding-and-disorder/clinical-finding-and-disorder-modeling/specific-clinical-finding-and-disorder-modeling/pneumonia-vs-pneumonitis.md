@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Pneumonia vs. Pneumonitis
 
 The terms _pneumonia_ and _pneumonitis_ are often used interchangeably. In SNOMED CT, _pneumonia_ is used for infectious causes, and _pneumonitis_ is used for noninfectious causes.

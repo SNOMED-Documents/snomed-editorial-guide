@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Mass vs Weight
 
 The Property (qualifier value) hierarchy contains the following:

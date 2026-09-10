@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Radiographic Imaging, X-ray and Plain X-ray
 
 ## Modeling new content requests

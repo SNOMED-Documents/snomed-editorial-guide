@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Dental procedures
 
 ### Multi-step Procedures

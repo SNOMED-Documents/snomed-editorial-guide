@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Record Artifact
 
 <table><thead><tr><th width="298.8697509765625">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Clinical documents, or parts thereof</td><td><ul><li>422813005 | Document section (record artifact) |</li><li>416575001 | Perioperative record (record artifact) |</li></ul></td></tr></tbody></table>

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Naming Convention for Cells Expressing Antigens
 
 ## Fully specified name

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Ingredient Strength Attributes
 
 The following sections describe the attribute concepts used to represent the ingredient strength of concepts in the medicinal product hierarchy.

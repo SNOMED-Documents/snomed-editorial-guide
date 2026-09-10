@@ -2,6 +2,9 @@
 description: >-
   The section describes the attributes used in the definition of the concepts
   classes in the national extension model.
+layout:
+  metadata:
+    visible: false
 ---
 
 # Supporting Attributes

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Qualifier Value
 
 - [Qualifier Value](../qualifier-value/qualifier-value.md)

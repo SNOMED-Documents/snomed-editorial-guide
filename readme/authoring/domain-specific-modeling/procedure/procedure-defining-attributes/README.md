@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Procedure Defining Attributes
 
 The following contain the defining attributes for Procedure concepts. Evaluation procedures have unique defining attributes.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Situation with Explicit Context
 
 - [Situation with Explicit Context](../situation-with-explicit-context/situation-with-explicit-context.md)

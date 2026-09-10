@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Numbers and Numeric Ranges
 
 ## Roman numerals versus Arabic numbers <a href="#roman-numerals-versus-arabic-numbers" id="roman-numerals-versus-arabic-numbers"></a>

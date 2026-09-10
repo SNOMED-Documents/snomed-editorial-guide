@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Clinical Finding and Disorder Attributes Summary
 
 When authoring in this domain, these are the approved attributes and allowable ranges.

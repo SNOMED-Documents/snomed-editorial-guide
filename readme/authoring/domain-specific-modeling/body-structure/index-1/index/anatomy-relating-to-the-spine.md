@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Anatomy relating to the spine
 
 The terms 'spine' and 'vertebral column' in descriptions of conditions or procedures are often used loosely in clinical discourse but can relate to three different general anatomical concepts:

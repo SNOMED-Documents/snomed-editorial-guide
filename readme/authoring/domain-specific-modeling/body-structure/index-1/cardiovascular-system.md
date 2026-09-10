@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Cardiovascular System
 
 ## Cardiac valves, normal and malformed

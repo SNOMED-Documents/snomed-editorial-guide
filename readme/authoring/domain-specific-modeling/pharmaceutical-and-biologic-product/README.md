@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Pharmaceutical and Biologic Product
 
 | Definition                                                                                                          |

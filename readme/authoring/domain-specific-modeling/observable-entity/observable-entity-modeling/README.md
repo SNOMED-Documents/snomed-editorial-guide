@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Observable Entity Modeling
 
 ## Observable Entity Modeling

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Stent Naming and Modeling
 
 ## Naming

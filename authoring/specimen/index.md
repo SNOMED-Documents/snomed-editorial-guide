@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Specimen
 
 - [Specimen](../specimen/specimen.md)

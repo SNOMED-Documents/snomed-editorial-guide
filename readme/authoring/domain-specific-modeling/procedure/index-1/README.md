@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Procedure Naming Conventions
 
 ## General rules

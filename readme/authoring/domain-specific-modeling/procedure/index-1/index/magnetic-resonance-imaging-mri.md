@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Magnetic Resonance Imaging - MRI
 
 {% hint style="info" %}

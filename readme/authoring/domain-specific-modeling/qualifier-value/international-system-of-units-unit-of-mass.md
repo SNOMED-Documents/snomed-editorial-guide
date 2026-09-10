@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # International System of Units - unit of mass
 
 The 258681007 | International System of Units unit of mass (qualifier value) | hierarchy contains concepts representing metric units of mass.

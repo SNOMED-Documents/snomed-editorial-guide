@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Observable Entity
 
 - [Observable Entity](../observable-entity/observable-entity.md)

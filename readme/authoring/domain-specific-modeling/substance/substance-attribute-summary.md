@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Substance Attribute Summary
 
 When authoring in this domain, this is the approved attribute and allowable range.

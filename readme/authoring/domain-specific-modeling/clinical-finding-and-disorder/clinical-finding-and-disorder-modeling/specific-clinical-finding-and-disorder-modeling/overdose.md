@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Overdose
 
 ## Overdose of illicit drug

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Packaged Clinical Drug (PCD)
 
 ## Packaged Clinical Drug (PCD)

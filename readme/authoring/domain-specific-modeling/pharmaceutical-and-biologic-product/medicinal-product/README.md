@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Medicinal Product
 
 An abstract representation of a medicinal product without reference to its dose form or its strength.

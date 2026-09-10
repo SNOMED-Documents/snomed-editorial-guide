@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Neoplasm Observables
 
 Observable entity concepts representing histopathology examination observables of neoplasms are being modeled according to a series of templates.

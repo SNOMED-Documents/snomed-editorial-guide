@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Evaluation Procedure Attributes
 
 The following defining attributes are unique in the context of the 386053000 |Evaluation procedure (procedure)| subhierarchy. Many of these attributes (e.g., Component, Scale type) are used to define Observable entity concepts. Evaluation procedures may use the attributes below in addition to those attributes allotted to the 71388002 | Procedure (procedure)| hierarchy (see [_Procedure Attributes Summary_](../index.md)).  Attributes for Evaluation procedure concepts  are grouped.   The future of this hierarchy in relation to the observable entity hierarchy is under review. See '[Observable Entity vs. Evaluation Procedure](../../observable-entity/#observable-entity-vs.-evaluation-procedure)' at Observable Entity.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Single Photon Emission Computed Tomography - SPECT
 
 ## Single photon emission computerized tomography (procedure)

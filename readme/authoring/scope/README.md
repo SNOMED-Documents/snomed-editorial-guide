@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Scope
 
 International release criteria include affirmative answers to the following:

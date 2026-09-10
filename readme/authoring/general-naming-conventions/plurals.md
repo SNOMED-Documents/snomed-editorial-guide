@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Plurals
 
 ## Fully specified names (FSNs) <a href="#fully-specified-names-fsns" id="fully-specified-names-fsns"></a>

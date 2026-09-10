@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Organism Naming Conventions
 
 ## Fully Specified Name

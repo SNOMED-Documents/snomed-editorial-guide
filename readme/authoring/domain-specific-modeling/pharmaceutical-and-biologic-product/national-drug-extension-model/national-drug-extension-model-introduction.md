@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Introduction
 
 ## Rationale for the National Drug Extension Model <a href="#rationale-for-the-national-drug-extension-model" id="rationale-for-the-national-drug-extension-model"></a>

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Nervous System
 
 The nervous system has two parts, central and peripheral.

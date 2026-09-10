@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # General Concept Inclusions - GCIs
 
 ## Draft guidance

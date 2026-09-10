@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Shunt Naming and Modeling
 
 ## Naming

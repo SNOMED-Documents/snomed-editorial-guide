@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Acquired abnormality of congenital anomaly
 
 For those concepts that describe a congenital anomaly that has been repaired and subsequently acquired an abnormality, follow the naming convention of |Acquired abnormality of X following repair of congenital X (disorder)|.

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Hydrates and anhydrous substances
 
 ## Modeling

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Radioactive substances
 
 ## Representation of radioactive isotopes

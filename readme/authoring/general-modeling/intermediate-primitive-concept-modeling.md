@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Intermediate Primitive Concept Modeling
 
 Concepts that cannot be sufficiently defined by necessary conditions are called _primitive concepts_.\

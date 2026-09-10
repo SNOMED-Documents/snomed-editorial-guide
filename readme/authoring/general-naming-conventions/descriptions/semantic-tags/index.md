@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Semantic Tag
 
 A &#x73;_&#x65;mantic tag_ is part of a concept's Fully Specified Name description. It is placed in parentheses at the end of an FSN when authoring concepts. It indicates the domain to which a concept belongs; for example: body structure, disorder, or specimen.

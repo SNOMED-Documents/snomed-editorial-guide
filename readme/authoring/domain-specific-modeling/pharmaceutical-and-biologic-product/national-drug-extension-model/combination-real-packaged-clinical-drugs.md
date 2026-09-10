@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Combination (Real) Packaged Clinical Drugs
 
 ## Definition

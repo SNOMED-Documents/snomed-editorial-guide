@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Pharmaceutical and Biologic Product and Dose Form Attributes Summary
 
 When authoring in this domain, these are the approved attributes and allowable ranges.

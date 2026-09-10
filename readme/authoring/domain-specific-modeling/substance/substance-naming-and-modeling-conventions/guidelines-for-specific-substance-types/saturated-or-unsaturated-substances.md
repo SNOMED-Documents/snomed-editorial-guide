@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Saturated or unsaturated substances
 
 ## Modeling

@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Real Packaged Clinical Drug (RPCD)
 
 ## Definition
