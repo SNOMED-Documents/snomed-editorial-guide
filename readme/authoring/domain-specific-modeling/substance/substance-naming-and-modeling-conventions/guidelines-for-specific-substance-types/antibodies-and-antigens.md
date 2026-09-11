@@ -1,19 +1,35 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Antibodies and antigens
 
 ## Overview
 
-This section includes concepts that represent&#x20;
+This section includes concepts that represent
 
 * Antigen of organism
 * Antibody to organism
 * Immunoglobulin G, M, A, E, D antibody to organism
 
-_Organism_ above includes substances derived from an organism, for example, feather or protein. &#x20;
+_Organism_ above includes substances derived from an organism, for example, feather or protein.
 
 When referring to an organism name, while the Linnean taxon ranks (such as _genus_) are not included, the subspecies variants (such as _biotype_ and _serotype_) are included in the naming. This avoids ambiguity when the same number or letter is used to refer to different organism variants.
 
@@ -23,19 +39,21 @@ When referring to an organism name, while the Linnean taxon ranks (such as _genu
     * Streptococcus pneumoniae American serotype 48 (which is equivalent to Streptococcus pneumoniae Danish serotype 7B)
     * Streptococcus pneumoniae serogroup 48
 
-## Modeling - Antigen of X organism
+## Antigen of organism
+
+### Modeling
 
 <table data-header-hidden><thead><tr><th width="177.4453125">Parent concept</th><th>Most distal appropriate descendant of 116633006 |Microbial antigen (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 116633006 |Microbial antigen (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>N/A</td></tr></tbody></table>
 
-## Naming - Antigen of X organism
+### Naming
 
 The antigen name is usually derived from the biological name of the organism as opposed to the _disease_ or _infection_ that the organism may cause and/or that the vaccine may provide immunization for.
 
-### FSN
+#### FSN
 
 Pattern:
 
-* Antigen of X organism (substance)
+* Antigen of \<organism> (substance)
 
 For example,
 
@@ -44,11 +62,11 @@ For example,
 
 ***
 
-### Preferred Term
+#### Preferred Term
 
 Pattern:
 
-* X organism antigen
+* \<Organism> antigen
 
 For example,
 
@@ -61,7 +79,7 @@ Exception:
 
 ***
 
-### Synonyms
+#### Synonyms
 
 1. **Pattern:** A synonym that matches FSN
    1. For example,
@@ -72,7 +90,7 @@ Exception:
       1. Filaria Ag
       2. Alternaria alternata protein Ag
 3. **Other**
-   1. |X organism inactivated toxin| for concepts referring to |X organism toxoid (substance)|
+   1. |\<Organism> inactivated toxin| for concepts referring to |\<Organism> toxoid (substance)|
    2. Additional synonyms (e.g., when a legitimate synonym exists for Organism name, such as common names) are applicable and are evaluated on a case-by-case basis.
 
 ## Antigen variants
@@ -87,21 +105,21 @@ To prevent the creation of transient or short-lived viral strain content, the In
 
 ### Variants reviewed to date
 
-"Antigen of X" is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.
+"Antigen of X organism" is in scope for the international release and is modeled in the Substance hierarchy. It is a generic grouper concept and subsumes all instances of antigen variants related to Organism X.
 
 * X refers to a bacteria, virus, fungus, or parasite except when antigen refers to the organism “toxin/toxoid”, where it can only apply to a bacteria.
 
 “Antigen of live attenuated X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of |Antigen of X|.
 
 * It refers to attenuated whole cell bacteria or whole virus where the strains are made less virulent so infection is usually inapparent or very mild. It may be used in the creation of vaccine products for certain patient groups, and hence, is of clinical significance.
-* The following subtypes are also in scope for the international release and are modeled in the Substance hierarchy as direct children of |Antigen of live attenuated X|.   In the following examples, _human_ and _bovine_ refer to source organisms which are differentiated from the organism producing antigen, i.e., Rotavirus.
+* The following subtypes are also in scope for the international release and are modeled in the Substance hierarchy as direct children of |Antigen of live attenuated X|. In the following examples, _human_ and _bovine_ refer to source organisms which are differentiated from the organism producing antigen, i.e., Rotavirus.
   * “Live attenuated human X”, e.g., Antigen of live attenuated human Rotavirus serotype G1P\[8]
   * “Live attenuated human-bovine reassortant X”, e.g., Antigen of live attenuated human-bovine reassortant Rotavirus serotype G1
 
 “Antigen of inactivated whole X” is in scope for the international release and is modeled in the Substance hierarchy as a direct child of Antigen of X.
 
 * It refers to the killed version of the organism that causes a disease.
-* As of the July 2020 release, the word "whole" is added to all new and existing concepts referring to "Antigen of inactivated X" to further clarify the differentiation between "Antigen of inactivated whole  organism" (referring to a killed organism as a whole) and "Antigen of organism \[subunit]" (referring to subparts of an organism).
+* As of the July 2020 release, the word "whole" is added to all new and existing concepts referring to "Antigen of inactivated X" to further clarify the differentiation between "Antigen of inactivated whole organism" (referring to a killed organism as a whole) and "Antigen of organism \[subunit]" (referring to subparts of an organism).
 
 “Antigen of acellular X” is in scope for the international release and is modeled in the Substance hierarchy as the direct child of "Antigen of X".
 
@@ -133,7 +151,7 @@ When referring to Organism parts/subunits:
 
 * Referring to more than one subunit (e.g., combined protein such as Bordetella pertussis FIM 2 and FIM 3 antigen) would not be acceptable for the Substance hierarchy; the combined protein needs to be modeled at the product level with more than one active ingredient.
 * Abbreviated organism subunit names such as "Corynebacterium diphtheriae **CRM197** protein", are not allowed in a fully specified name (and similar synonym). The FSN and similar synonym should only include the spelled-out terms, i.e., "Corynebacterium diphtheriae cross-reacting material 197 protein".
-* Abbreviated organism part names are allowed in a preferred term (and other synonyms). The abbreviations do not need to be accompanied by the fully expanded term, which is an exception to the general naming guidelines on abbreviations and acronyms in the SNOMED CT Editorial Guide.&#x20;
+* Abbreviated organism part names are allowed in a preferred term (and other synonyms). The abbreviations do not need to be accompanied by the fully expanded term, which is an exception to the general naming guidelines on abbreviations and acronyms in the SNOMED CT Editorial Guide.
   * For example, the following PT includes CRM which is the abbreviated form for cross-reacting material.
     * Streptococcus pneumoniae Danish serotype 1 capsular polysaccharide antigen conjugated to Corynebacterium diphtheriae CRM197 protein
 
@@ -150,7 +168,7 @@ Inclusion of vaccine manufacturing techniques and/or residuals in antigen names 
 * Inclusion of non-antigenic vaccine ingredients, such as preservatives and stabilizers, is out of scope for the international release.
 * For “Antigen of inactivated whole X”, the inactivation technique (e.g., heat inactivated, formalin inactivated) is out of scope for antigens in the International Release.
 
-### The classification of the antigen variants in the Substance hierarchy:
+#### The classification of the antigen variants in the Substance hierarchy:
 
 * Antigen of X
   * Antigen of live attenuated X
@@ -171,17 +189,19 @@ The following illustrates the **stated** and **inferred** view:
 
 <figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691548.png" alt=""><figcaption></figcaption></figure>
 
-## Modeling - Antibody to X organism
+## Antibody to organism
+
+### Modeling
 
 <table data-header-hidden><thead><tr><th width="197.5">Parent concept</th><th>Most distal appropriate descendant of |116642004 |Antimicrobial antibody (substance)|</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of |116642004 |Antimicrobial antibody (substance)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
 
-## Naming - Antibody to X organism
+### Naming
 
-### FSN
+#### FSN
 
 Pattern:
 
-* Antibody to X organism (substance)
+* Antibody to \<organism> (substance)
 
 For example,
 
@@ -189,11 +209,11 @@ For example,
 
 ***
 
-### Preferred Term
+#### Preferred Term
 
 Pattern:
 
-* X organism antibody
+* \<Organism> antibody
 
 For example,
 
@@ -201,12 +221,12 @@ For example,
 
 ***
 
-### Synonyms
+#### Synonyms
 
-1. &#x20;**Pattern:** A synonym that matches FSN
+1. **Pattern:** A synonym that matches FSN
    1. For example,
       1. Antibody to Bebaru virus
-2. &#x20;**Pattern:** X organism Ab
+2. **Pattern:** X organism Ab
    1. For example,
       1. Bebaru virus Ab
 
@@ -218,17 +238,19 @@ The following illustrates the **stated** and **inferred** view:
 
 <figure><img src="../../../../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
-## Modeling - Immunoglobulin G, M, A, E, D antibody to X organism
+## Immunoglobulin G, M, A, E, D antibody to organism
 
-<table data-header-hidden><thead><tr><th width="162.62109375">Parent concept</th><th>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to X organism (substance)| if present in SNOMED CT</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to X organism (substance)| if present in SNOMED CT</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
+### Modeling
 
-## Naming - Immunoglobulin G, M, A, E, D antibody to X organism
+<table data-header-hidden><thead><tr><th width="162.62109375">Parent concept</th><th>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to X organism (substance)| if present in SNOMED CT</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to &#x3C;organism> (substance)| if present in SNOMED CT</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
 
-### FSN
+### Naming
 
-Pattern: &#x20;
+#### FSN
 
-* Immunoglobulin G, M, A, E, D antibody to X organism (substance)
+Pattern:
+
+* Immunoglobulin G, M, A, E, D antibody to \<organism> (substance)
 
 For example,
 
@@ -237,36 +259,36 @@ For example,
 
 ***
 
-### Preferred Term
+#### Preferred Term
 
-Pattern: &#x20;
+Pattern:
 
-* X organism IgG, M, A, E, D
+* \<Organism> IgG, M, A, E, D
 
 For example,
 
 * Clostridium difficile IgM
 * Walnut IgG
-  * _Walnut_ is the common name for Juglans. &#x20;
+  * _Walnut_ is the common name for Juglans.
 
 ***
 
-### Synonyms
+#### Synonyms
 
 1. **Pattern:** A synonym that matches FSN
    1. For example,
       1. Immunoglobulin M antibody to Clostridium difficile
       2. Immunoglobulin G antibody to Juglans
-2. **Pattern:** Anti-X organism IgM
+2. **Pattern:** Anti-\<Organism> IgM
    1. For example,
       1. Anti-Clostridium difficile IgM
       2. Anti-Juglans IgG
 
 Additional synonyms (e.g., when a legitimate synonym exists for Organism name, such as common names) are applicable.
 
-* For example,&#x20;
+* For example,
   * Juglans IgG
-    * _Juglans_ is the scientific name for walnut.&#x20;
+    * _Juglans_ is the scientific name for walnut.
 
 ### Exemplar
 
