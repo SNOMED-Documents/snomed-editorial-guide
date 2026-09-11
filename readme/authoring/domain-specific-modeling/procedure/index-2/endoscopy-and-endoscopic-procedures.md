@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Endoscopy and endoscopic procedures
 
 There is no need to distinguish between _endoscopy_ and _endoscopic procedure,_ as the procedure always includes inspection and may require minor incisions to allow the endoscope and other instruments to be inserted, or insertion may be via an existing orifice.
@@ -42,7 +58,7 @@ Role group 2:
 
 For example
 
-<figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Stated view of |Endoscopic brush biopsy of stomach (procedure)|</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Stated view of |Endoscopic brush biopsy of stomach (procedure)|</p></figcaption></figure>
 
 #### **Inspection via skin incision = 2 role groups of Inspection and Incision**
 

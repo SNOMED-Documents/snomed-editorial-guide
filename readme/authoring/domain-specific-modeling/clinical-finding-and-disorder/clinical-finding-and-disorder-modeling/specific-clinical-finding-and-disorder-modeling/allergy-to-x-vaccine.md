@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Allergy to X vaccine
 
 ## Overview
@@ -15,7 +31,7 @@ The following modeling and terming guidelines apply to concepts in the Internati
 
 **Single or multiple ingredient vaccine**
 
-<table data-header-hidden><thead><tr><th width="255.8515625"></th><th>Single or multiple ingredient vaccine</th></tr></thead><tbody><tr><td>Stated parent concept</td><td>420134006 |Propensity to adverse reaction (finding)|</td></tr><tr><td>Semantic tag</td><td>(finding)</td></tr><tr><td>Definition status</td><td><p>Primitive</p><ul><li>Because 'Allergy to X vaccine' represents the propensity to an allergic reaction to any component (including excipients) of a vaccine rather than the modeled active ingredient(s), these concepts cannot be sufficiently defined. As a result, there will not be subsumption between "Allergy to X vaccine" concepts.</li></ul><ul><li>Exceptions: Grouper concept 863903001 |Allergy to component of vaccine product (finding)| is modeled as sufficiently defined and subsumes the remaining concepts.</li></ul></td></tr><tr><td>Attribute: Has realization</td><td>Attribute value = 472964009 |Allergic process (qualifier value)|</td></tr><tr><td>Attribute: Causative agent</td><td><p>Range: 787859002 |Vaccine product (medicinal product)|</p><p>Cardinality: 1..1</p><ul><li>Allergy to X vaccine concepts should have one and only one |Causative agent| attribute. </li><li>Concepts representing "vaccine product containing only" should not be used in modeling Allergy to X vaccine concepts.</li></ul></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="255.8515625"></th><th>Single or multiple ingredient vaccine</th></tr></thead><tbody><tr><td>Stated parent concept</td><td>420134006 |Propensity to adverse reaction (finding)|</td></tr><tr><td>Semantic tag</td><td>(finding)</td></tr><tr><td>Definition status</td><td><p>Primitive</p><ul><li>Because 'Allergy to X vaccine' represents the propensity to an allergic reaction to any component (including excipients) of a vaccine rather than the modeled active ingredient(s), these concepts cannot be sufficiently defined. As a result, there will not be subsumption between "Allergy to X vaccine" concepts.</li><li>Exceptions: Grouper concept 863903001 |Allergy to component of vaccine product (finding)| is modeled as sufficiently defined and subsumes the remaining concepts.</li></ul></td></tr><tr><td>Attribute: Has realization</td><td>Attribute value = 472964009 |Allergic process (qualifier value)|</td></tr><tr><td>Attribute: Causative agent</td><td><p>Range: 787859002 |Vaccine product (medicinal product)|</p><p>Cardinality: 1..1</p><ul><li>Allergy to X vaccine concepts should have one and only one |Causative agent| attribute.</li><li>Concepts representing "vaccine product containing only" should not be used in modeling Allergy to X vaccine concepts.</li></ul></td></tr></tbody></table>
 
 ## Terming
 
@@ -37,7 +53,7 @@ The following illustrates the **stated** view for 294663006 |Allergy to componen
 
 <figure><img src="../../../../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
 
-The following illustrates the **inferred** view for  294663006 |Allergy to component of of vaccine product containing Hepatitis A virus antigen (finding)|:
+The following illustrates the **inferred** view for 294663006 |Allergy to component of of vaccine product containing Hepatitis A virus antigen (finding)|:
 
 <figure><img src="../../../../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
 
@@ -47,6 +63,6 @@ The following illustrates the **stated** view for 294662001 |Allergy to componen
 
 The following illustrates the **inferred** view for 294662001 |Allergy to component of vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)|:
 
-<figure><img src="../../../../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Allergy%20to%20X%20vaccine" class="button primary">Provide Feedback</a>

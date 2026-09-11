@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Continuous presentation: unbounded by container
 
 _Examples: bulk powders and granules, bulk liquids, semi-solids_
@@ -47,7 +63,7 @@ Strength is expressed as a concentration and as such the presentation strength a
 
 ### **Example: A pack of 500g of sterculia 62% w/w granules (EDQM –"granules" = "oral granules")**
 
-<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.57.24 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.57.24 PM.png" alt=""><figcaption></figcaption></figure>
 
 | Manufactured dose form          | Oral granules    |                                                                                             |
 | ------------------------------- | ---------------- | ------------------------------------------------------------------------------------------- |

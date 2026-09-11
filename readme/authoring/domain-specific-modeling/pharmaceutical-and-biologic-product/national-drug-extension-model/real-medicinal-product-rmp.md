@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Real Medicinal Product (RMP)
 
 ## Definition <a href="#definition" id="definition"></a>
@@ -107,8 +123,6 @@ The following attributes apply to Real Medicinal Product (RMP) concepts in a nat
 | Cardinality          | 1..\*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Notes                | There is no technical limit on the number of \|Has active ingredient\| attributes that may be added to a concept; a practical limit may be imposed by national extensions. In order to classify correctly to the international content, this attribute value should represent the base ingredient substance, not a modification, unless explicitly identified as an exception and requiring an association to MP precisely concept. This attribute describes the set of active ingredient substances that the concept minimally contains. A set of active ingredient substances may well have only one member. |
 
-
-
 {% hint style="info" %}
 **Note** : The cardinalities given in the above table are for concepts in the RMP class. These cardinalities may be stricter than those in the MRCM, which typically apply across a broader range of concepts.
 {% endhint %}
@@ -117,7 +131,7 @@ The following attributes apply to Real Medicinal Product (RMP) concepts in a nat
 
 **Stated template view:**
 
-<figure><img src="../../../../../.gitbook/assets/image (8) (1) (2).png" alt=""><figcaption><p><em>Real Medicinal Product (RMP) stated template view</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption><p><em>Real Medicinal Product (RMP) stated template view</em></p></figcaption></figure>
 
 #### **Example:** single active ingredient substance branded product (Zocor): state view followed by the inferred view <a href="#example-single-active-ingredient-substance-branded-product-zocor-state-view-followed-by-the-inferred" id="example-single-active-ingredient-substance-branded-product-zocor-state-view-followed-by-the-inferred"></a>
 

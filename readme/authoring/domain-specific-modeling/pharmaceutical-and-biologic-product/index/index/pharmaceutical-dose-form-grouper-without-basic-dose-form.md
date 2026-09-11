@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Pharmaceutical Dose Form Grouper Without Basic Dose Form
 
 ## Overview
@@ -13,12 +29,12 @@ Pharmaceutical dose form grouper concepts that do not include a basic dose form 
 
 Grouper concepts concepts that do not include a basic dose form shall be modeled using the proximal primitive modeling pattern.
 
-| **Semantic tag**                                                              | (dose form)                                                                                                                                                                                                                                                                                                                                              |
-| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Definition status**                                                         | <p>Defined</p><p><strong>Exception</strong>:</p><ul><li>Grouper concepts representing drug delivery systems will have a definition status of Primitive</li></ul>                                                                                                                                                                                         |
-| <p><strong>Attribute:</strong></p><p>Has dose form release characteristic</p> | <p><strong>Range</strong>: <code>&#x3C;&#x3C; 736480007 |Dose form release characteristic (release characteristic)|</code></p><p></p><p><strong>Cardinality</strong>: 0..*<br></p><ul><li>While the allowed range is broader, the grouper concepts without basic dose form should have 1..1 |Has dose form release characteristic| attributes.</li></ul> |
-| <p><strong>Attribute:</strong></p><p>Has dose form intended site</p>          | <p><strong>Range</strong>: <code>&#x3C;&#x3C; 736479009 |Dose form intended site (intended site)</code></p><p></p><p><strong>Cardinality</strong>: 0..*<br></p><ul><li>While the allowed range is broader, the grouper concepts without basic dose form should have 1..* |Has dose form intended site| attributes.</li></ul>                             |
-| <p><strong>Attribute:</strong></p><p>Has dose form administration method</p>  | <p><strong>Range</strong>: <code>&#x3C;&#x3C; 736665006 |Dose form administration method (administration method)</code></p><p></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, the grouper concepts without basic dose form should have 1..1 |Has dose form administration method| attributes.</li></ul>         |
+| **Semantic tag**                                                              | (dose form)                                                                                                                                                      |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Definition status**                                                         | <p>Defined</p><p><strong>Exception</strong>:</p><ul><li>Grouper concepts representing drug delivery systems will have a definition status of Primitive</li></ul> |
+| <p><strong>Attribute:</strong></p><p>Has dose form release characteristic</p> | **Range**: `<< 736480007`                                                                                                                                        |
+| <p><strong>Attribute:</strong></p><p>Has dose form intended site</p>          | **Range**: `<< 736479009`                                                                                                                                        |
+| <p><strong>Attribute:</strong></p><p>Has dose form administration method</p>  | **Range**: `<< 736665006`                                                                                                                                        |
 
 ## Naming
 
@@ -126,6 +142,6 @@ Optional
 
 <figure><img src="../../../../../../.gitbook/assets/image (80).png" alt=""><figcaption><p><strong>Stated</strong> view for concept 421716009 |Prolonged-release transdermal drug delivery system (dose form)|:</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (82).png" alt=""><figcaption><p><strong>inferred</strong> view for concept 421716009 |Prolonged-release transdermal drug delivery system (dose form)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (81).png" alt=""><figcaption><p><strong>inferred</strong> view for concept 421716009 |Prolonged-release transdermal drug delivery system (dose form)|</p></figcaption></figure>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Pharmaceutical%20Dose%20Form%20Grouper%20Without%20Basic%20Dose%20Form" class="button primary">Provide Feedback</a>

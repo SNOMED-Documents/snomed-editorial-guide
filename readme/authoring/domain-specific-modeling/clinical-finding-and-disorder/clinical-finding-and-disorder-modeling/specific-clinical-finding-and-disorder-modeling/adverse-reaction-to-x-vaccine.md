@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Adverse reaction to X vaccine
 
 ## Overview
@@ -51,7 +67,7 @@ The following illustrates the **stated** view for multiple ingredient vaccine 29
 
 The following illustrates the **inferred** view for multiple ingredient vaccine 293125008 |Adverse reaction to vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)|:
 
-<figure><img src="../../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/clinical-finding-and-disorder/images/174690451.png" alt=""><figcaption></figcaption></figure>
 

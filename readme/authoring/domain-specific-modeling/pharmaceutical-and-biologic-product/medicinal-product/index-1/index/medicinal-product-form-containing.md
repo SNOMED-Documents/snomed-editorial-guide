@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Medicinal Product Form containing
 
 ## Overview
@@ -30,12 +46,12 @@ A concept at this level with the open world view does not correspond to any conc
 
 ## Modeling
 
-| **Stated parent**                                                   | `763158003 \|Medicinal product (product)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Semantic tag**                                                    | (medicinal product form)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| _**Definition status**_                                             | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| <p><strong>Attribute:</strong></p><p>Has active ingredient</p>      | <p><strong>Range:</strong> <code>&#x3C;105590001 |Substance (substance)|</code>, excluding concepts representing structural groupers, dispositions, or roles</p><p></p><p><strong>Cardinality:</strong> 1..*</p><p>There is no technical limit on the number of Has active ingredient attributes that may be added to a concept; a practical limit may be imposed at a later date.</p><p></p><p><strong>This attribute is grouped.</strong> </p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| <p><strong>Attribute:</strong></p><p>Has manufactured dose form</p> | <p><strong>Range:</strong> <code>&#x3C;736542009 |Pharmaceutical dose form (dose form)</code></p><ul><li>Only descendants that are groupers representing intended site only (e.g. <code>385268001 |Oral dose form (dose form)|</code>, <code>385287007 |Parenteral dose form (dose form)|</code>)</li></ul><p></p><p><strong>Cardinality:</strong> 1..1</p><p></p><p><strong>Exceptions:</strong> </p><ul><li><code>385217004 |Conventional release gas for inhalation (dose form)|</code> may be used as manufactured dose form for Medicinal product form concepts.</li><li><code>785898006 |Conventional release solution for irrigation (dose form)|</code> does not have <code>736474004 |Has dose form intended site (attribute)|</code> but can be used as a target for manufactured dose form for Medicinal product form concepts.</li></ul><p><strong>Notes</strong></p><ul><li>This attribute describes a grouping dose form concept for the medicinal product, where the grouping is the intended site for administration of the dose form of the product</li></ul> |
+| **Stated parent**                                                   | `763158003 \|Medicinal product (product)` |
+| ------------------------------------------------------------------- | ----------------------------------------- |
+| **Semantic tag**                                                    | (medicinal product form)                  |
+| _**Definition status**_                                             | Defined                                   |
+| <p><strong>Attribute:</strong></p><p>Has active ingredient</p>      | **Range:** `<105590001`                   |
+| <p><strong>Attribute:</strong></p><p>Has manufactured dose form</p> | **Range:** `<736542009`                   |
 
 ## Naming
 
@@ -81,7 +97,7 @@ Synonyms matching the FSN are not required.
 
 <figure><img src="../../../../../../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption><p>Stated Template View</p></figcaption></figure>
 
-<figure><img src="../../../../../../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 773391004 |Product containing axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption><p><strong>Stated</strong> view for 773391004 |Product containing axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption><p><strong>Inferred</strong> view for 773391004 |Product containing axitinib in oral dose form (medicinal product form)|</p></figcaption></figure>
 

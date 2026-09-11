@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Ingredient Count Attributes
 
 The following sections describe the attribute concepts that are used to represent the ingredient counts for all concepts represented using the "closed world view" (the "only" and "precisely" concepts) in the medicinal product hierarchy.
@@ -35,7 +51,7 @@ For simplicity, all the intermediate medicinal product form concepts have been o
 
 **The tooling uses these values to produce the correct subsumption hierarchy, as shown diagrammatically below:**
 
-<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.44.45 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.44.45 PM.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Figure: Ingredient count attributes simple multi-ingredient example</p>
 

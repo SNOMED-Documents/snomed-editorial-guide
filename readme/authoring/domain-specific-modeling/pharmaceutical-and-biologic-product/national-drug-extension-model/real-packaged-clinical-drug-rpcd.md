@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Real Packaged Clinical Drug (RPCD)
 
 ## Definition
@@ -91,7 +107,7 @@ Some examples of real packaged clinical drugs are shown below.
 
 **Stated template view:**
 
-<figure><img src="../../../../../.gitbook/assets/image (44).png" alt=""><figcaption><p><em>Template for a simple real packaged clinical drug</em></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (43).png" alt=""><figcaption><p><em>Template for a simple real packaged clinical drug</em></p></figcaption></figure>
 
 #### **Example:** simple real packaged clinical drug: stated view followed by the inferred view
 

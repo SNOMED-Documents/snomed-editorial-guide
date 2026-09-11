@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Lateralized Disorder Naming Conventions
 
 {% hint style="warning" %}
@@ -23,8 +39,8 @@ Descriptions
 * FSN: \<morphologic abnormality> of \<right/left> \<body structure> (disorder)
 * PT: _Right/left_
   * For example, 1089071000119109 |Inflammation of left mastoid (disorder)|
-    * FSN:  Inflammation of left mastoid (disorder)
-    * PT:  Left mastoiditis
+    * FSN: Inflammation of left mastoid (disorder)
+    * PT: Left mastoiditis
 
 <figure><img src="../../../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated view of Inflammation of left mastoid (disorder)</p></figcaption></figure>
 
@@ -57,21 +73,21 @@ Where the bilateral disorder description causes a combination that does not soun
 * SYN: of both
   * For example, 1084011000119100 |Inflammation of bilateral mastoids (disorder)|
     * FSN: Inflammation of bilateral mastoids (disorder)
-    * PT:  Bilateral mastoiditis
+    * PT: Bilateral mastoiditis
     * SYN: Inflammation of bilateral mastoids
     * SYN: Inflammation of both mastoids
 
 ### When the body structure and morphologic abnormality are separate, the following naming pattern applies:
 
 * FSN: of bilateral (disorder)
-* PT:  of bilateral
+* PT: of bilateral
 * SYN: of both
 
 Note the PT of _Bilateral_ is not required. _Bilateral_ is to describe the body site, not the morphologic abnormality.
 
 * For example, 15725081000119100 | Effusion of joint of bilateral feet (disorder) |
   * FSN: Effusion of joint of bilateral feet (disorder)
-  * PT:  Effusion of joint of bilateral feet
+  * PT: Effusion of joint of bilateral feet
   * SYN: Effusion of joint of both feet
 
 Also note that _joint_ is singular. This is to denote that the joint may be singular on each side of the body; the plurality of feet will represent the laterality. Using _joints_ as plural may incorrectly reflect that there are multiple joints affected in both feet.
@@ -84,7 +100,7 @@ Do not use _both_ to describe disorders of the eyelids unless the concept means 
 
 Bilateral disorders should be modeled using two relationship groups, one for each lateralized body structure.
 
-<figure><img src="../../../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated view of Inflammation of bilateral mastoids (disorder) with a role group for each side</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>Stated view of Inflammation of bilateral mastoids (disorder) with a role group for each side</p></figcaption></figure>
 
 {% hint style="info" %}
 **Structure, Structure of**

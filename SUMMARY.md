@@ -292,7 +292,6 @@
         * [Substance Defining Attributes](readme/authoring/domain-specific-modeling/substance/substance-defining-attributes.md)
         * [Substance Naming and Modeling Conventions](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/README.md)
           * [Substance Groupers](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/README.md)
-            * [Restructure of the top level substances hierarchy](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/restructure-of-the-top-level-substances-hierarchy.md)
             * [Substance Groupers Based on Structure](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-structure.md)
             * [Substance Groupers Based on Disposition](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-disposition.md)
             * [Substance Groupers Based on Both Structure and Disposition](readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-both-structure-and-disposition.md)

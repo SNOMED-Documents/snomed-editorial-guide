@@ -1,8 +1,24 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
+
 # Groupers Based on Disposition
 
 ## Overview
@@ -13,7 +29,7 @@ Disposition is a behavior that something can exhibit (or participate in) given t
 
 Disposition is a characteristic of the active ingredient substance(s) present in the Medicinal Product, therefore disposition grouping concepts are assigned (inferred) by the classifier to medicinal products and to all their descendant concepts (medicinal product form and clinical drug concepts), although in a browser such as the DailyBuild, the inferred grouping concepts will be shown on the proximal concept only (the "medicinal product containing" concept).
 
-<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-10-01 at 8.48.30 AM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-10-01 at 8.48.30 AM.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Figure: Inferred view of Medicinal product showing membership of a disposition grouping (carbonic anydrase inhibitor)</p>
 
@@ -26,11 +42,11 @@ See also
 
 ## Modeling
 
-| **Stated parent concept**                                      | `763158003 \|Medicinal product (product)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Semantic tag**                                               | (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Definition status**                                          | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| <p><strong>Attribute:</strong></p><p>Has active ingredient</p> | <p><strong>Range:</strong> <code>&#x3C;&#x3C;105590001 |Substance (substance)</code></p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on disposition should only use sufficiently defined grouper concepts that are descendants of <code>766739005 |Substance categorized by disposition (substance)|</code> as attribute values.<br></li></ul><p><strong>Cardinality:</strong> 0..*</p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on disposition should have one and only one |Has active ingredient| attribute.</li></ul> |
+| **Stated parent concept**                                      | `763158003 \|Medicinal product (product)` |
+| -------------------------------------------------------------- | ----------------------------------------- |
+| **Semantic tag**                                               | (product)                                 |
+| **Definition status**                                          | Defined                                   |
+| <p><strong>Attribute:</strong></p><p>Has active ingredient</p> | **Range:** `<<105590001`                  |
 
 ## Naming
 
