@@ -53,7 +53,7 @@ The antigen name is usually derived from the biological name of the organism as 
 
 Pattern:
 
-* Antigen of \<organism> (substance)
+* Antigen of organism (substance)
 
 For example,
 
@@ -66,7 +66,7 @@ For example,
 
 Pattern:
 
-* \<Organism> antigen
+* Organism antigen
 
 For example,
 
@@ -90,7 +90,7 @@ Exception:
       1. Filaria Ag
       2. Alternaria alternata protein Ag
 3. **Other**
-   1. |\<Organism> inactivated toxin| for concepts referring to |\<Organism> toxoid (substance)|
+   1. |Organism inactivated toxin| for concepts referring to |Organism toxoid (substance)|
    2. Additional synonyms (e.g., when a legitimate synonym exists for Organism name, such as common names) are applicable and are evaluated on a case-by-case basis.
 
 ## Antigen variants
@@ -201,7 +201,7 @@ The following illustrates the **stated** and **inferred** view:
 
 Pattern:
 
-* Antibody to \<organism> (substance)
+* Antibody to organism (substance)
 
 For example,
 
@@ -213,7 +213,7 @@ For example,
 
 Pattern:
 
-* \<Organism> antibody
+* Organism antibody
 
 For example,
 
@@ -242,7 +242,7 @@ The following illustrates the **stated** and **inferred** view:
 
 ### Modeling
 
-<table data-header-hidden><thead><tr><th width="162.62109375">Parent concept</th><th>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to X organism (substance)| if present in SNOMED CT</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to &#x3C;organism> (substance)| if present in SNOMED CT</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="162.62109375">Parent concept</th><th>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to X organism (substance)| if present in SNOMED CT</th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>Most distal appropriate descendant of 70095009 |Immunoglobulin isotype (substance)| and |Antibody to organism (substance)| if present in SNOMED CT</td></tr><tr><td><strong>Semantic tag</strong></td><td>(substance)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attribute</strong></td><td>None</td></tr></tbody></table>
 
 ### Naming
 
@@ -250,7 +250,7 @@ The following illustrates the **stated** and **inferred** view:
 
 Pattern:
 
-* Immunoglobulin G, M, A, E, D antibody to \<organism> (substance)
+* Immunoglobulin G, M, A, E, D antibody to organism (substance)
 
 For example,
 
@@ -263,7 +263,7 @@ For example,
 
 Pattern:
 
-* \<Organism> IgG, M, A, E, D
+* Organism IgG, M, A, E, D
 
 For example,
 
@@ -279,7 +279,7 @@ For example,
    1. For example,
       1. Immunoglobulin M antibody to Clostridium difficile
       2. Immunoglobulin G antibody to Juglans
-2. **Pattern:** Anti-\<Organism> IgM
+2. **Pattern:** Anti-Organism IgM
    1. For example,
       1. Anti-Clostridium difficile IgM
       2. Anti-Juglans IgG
