@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Medicinal Product containing
 
 ## Overview
@@ -18,21 +36,13 @@ The medicinal product must contain the active ingredient(s) specified in the FSN
 
 In stating “abstract representations...for a medicinal product”, the concept definition implies that at least one medicinal product exists, or has existed globally, that has that set of active ingredient substance(s). This precludes the possibility of generating MPs representing theoretical, or indeed all possible, combinations of sets of active ingredient substances.
 
-### Use case(s) supported by |Product containing x (medicinal product)|
+#### Use case(s) supported by |Product containing x (medicinal product)|
 
 The main use case for describing products containing some active ingredient substance(s) is for analysis, as an aggregation concept for use in research.
 
-### IDMP Compatibility for |Product containing x (medicinal product)|
+#### IDMP Compatibility for |Product containing x (medicinal product)|
 
 A concept at this level with the open world view does not correspond to any concept currently in the IDMP suite of standards, although it could act as a parent (higher level grouper) concept for PhP1 concepts, if use case(s) were identified to require this.
-
-## Modeling
-
-| **Stated parent**                                                                      | `763158003 \|Medicinal product (product)`                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                                                       | (medicinal product)                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Definition status**                                                                  | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| <p><strong>Attribute:</strong></p><p>127489000 |Has active ingredient (attribute)|</p> | <p><strong>Range:</strong> <br><code>&#x3C;105590001 |Substance (substance)</code> excluding concepts representing structural groupers, dispositions, or combined substances</p><p></p><p><strong>Cardinality: 1..*</strong> </p><p>There is no technical limit on the number of |Has active ingredient (attribute)|'s that may be added to a concept.  A practical limit may be imposed at a later date.<br></p><p><strong>This attribute is within a role group.</strong></p> |
 
 ## Naming
 
@@ -71,6 +81,14 @@ For example,
 ### Synonym
 
 Synonyms matching the FSN are not required.
+
+## Modeling
+
+| **Stated parent**                                  | `763158003 \|Medicinal product (product)` |
+| -------------------------------------------------- | ----------------------------------------- |
+| **Semantic tag**                                   | (medicinal product)                       |
+| **Definition status**                              | Defined                                   |
+| <p><strong>Attribute:</strong></p><p>127489000</p> | Has active ingredient (attribute)         |
 
 ## Exemplars
 

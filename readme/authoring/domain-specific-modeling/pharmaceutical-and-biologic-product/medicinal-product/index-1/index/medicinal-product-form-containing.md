@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Medicinal Product Form containing
@@ -36,22 +38,13 @@ For example,
 
 * "Product containing amoxicillin in oral dosage form" represents the group of products that must contain some amoxicillin (be it amoxicillin sodium or amoxicillin trihydrate or amoxicillin base), but _may also_ contain other active ingredients, such as clavulanic acid, in manufactured dose forms such as oral suspension, oral capsule (any type), oral tablet (any type).
 
-### Use case(s) supported by |Product containing x in y dose form (medicinal product form)|
+#### Use case(s) supported by |Product containing x in y dose form (medicinal product form)|
 
 The main use case for the _MPF (containing)_ is for analysis, as an aggregation concept for use in research.
 
-### IDMP Compatibility
+#### IDMP Compatibility
 
 A concept at this level with the open world view does not correspond to any concept currently in the IDMP suite of standards.
-
-## Modeling
-
-| **Stated parent**                                                   | `763158003 \|Medicinal product (product)` |
-| ------------------------------------------------------------------- | ----------------------------------------- |
-| **Semantic tag**                                                    | (medicinal product form)                  |
-| _**Definition status**_                                             | Defined                                   |
-| <p><strong>Attribute:</strong></p><p>Has active ingredient</p>      | **Range:** `<105590001`                   |
-| <p><strong>Attribute:</strong></p><p>Has manufactured dose form</p> | **Range:** `<736542009`                   |
 
 ## Naming
 
@@ -92,6 +85,15 @@ For example,
 ### Synonym
 
 Synonyms matching the FSN are not required.
+
+## Modeling
+
+| **Stated parent**                                                   | `763158003 \|Medicinal product (product)` |
+| ------------------------------------------------------------------- | ----------------------------------------- |
+| **Semantic tag**                                                    | (medicinal product form)                  |
+| _**Definition status**_                                             | Defined                                   |
+| <p><strong>Attribute:</strong></p><p>Has active ingredient</p>      | **Range:** `<105590001`                   |
+| <p><strong>Attribute:</strong></p><p>Has manufactured dose form</p> | **Range:** `<736542009`                   |
 
 ## Exemplars
 

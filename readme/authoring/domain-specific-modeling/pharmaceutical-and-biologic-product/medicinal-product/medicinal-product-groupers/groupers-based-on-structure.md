@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Groupers Based on Structure
 
 ## Overview
@@ -20,14 +38,6 @@ Structure-based grouping is a characteristic of the active ingredient substance(
 {% hint style="info" %}
 This section applies to grouper concepts representing a **single** structure; groupers comprised of multiple structures are described in [Groupers Based on Multiple Dispositions, Structures](https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/174691077.html).
 {% endhint %}
-
-## Modeling
-
-| **Stated parent concept**                                      | `763158003 \|Medicinal product (product)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                               | (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Definition status**                                          | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| <p><strong>Attribute:</strong></p><p>Has active ingredient</p> | <p></p><p><strong>Range:</strong> <code>&#x3C;&#x3C; 105590001 |Substance (substance)|</code></p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on structure should only use primitive grouper concepts that are descendants of <code>312413002 |Substance categorized by structure (substance)|</code> as attribute values.<br></li></ul><p><strong>Cardinality:</strong> 0..*</p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on structure should have one and only one <code>|Has active ingredient (attribute)|</code>.</li></ul> |
 
 ## Naming
 
@@ -56,6 +66,10 @@ For example,
 ### Synonym
 
 Synonyms matching the FSN are not required.
+
+## Modeling
+
+<table data-header-hidden><thead><tr><th width="329.408203125"></th><th></th></tr></thead><tbody><tr><td><strong>Stated parent concept</strong></td><td><code>763158003 |Medicinal product (product)</code></td></tr><tr><td><strong>Semantic tag</strong></td><td>(product)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has active ingredient</p></td><td><strong>Range:</strong> <code>&#x3C;&#x3C; 105590001</code></td></tr></tbody></table>
 
 ## Exemplars
 

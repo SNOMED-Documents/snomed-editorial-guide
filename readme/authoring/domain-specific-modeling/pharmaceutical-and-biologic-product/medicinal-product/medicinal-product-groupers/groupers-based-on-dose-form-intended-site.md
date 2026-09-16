@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Groupers Based on Dose form intended site
 
 ## Overview
@@ -12,14 +30,6 @@ Groupers based on "Dose form intended site" that can be sufficiently defined may
 * For example,
   * Product manufactured as oral dose form (product)
   * Product manufactured as parenteral dose form (product)
-
-## Modeling
-
-| **Stated parent**                                                                    | `763158003 \|Medicinal product (product)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                                                     | (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Definition status**                                                                | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| <p><strong>Attribute:</strong></p><p><strong>Has manufactured dose form</strong></p> | <p>Range: <code>&#x3C;&#x3C;736542009 |Pharmaceutical dose form (dose form)</code></p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on dose form intended site should use sufficiently defined grouper concepts that are descendants of <code>736542009 |Pharmaceutical dose form (dose form)|</code> representing intended site as attribute values.</li></ul><p>Cardinality: 0..*</p><ul><li>While the allowed range is broader, the |Medicinal product| grouper concepts based on disposition should have one and only one Has manufactured dose form (attribute).</li></ul> |
 
 ## Naming
 
@@ -48,6 +58,14 @@ Align naming and case significance with the PT for the concept that is selected 
 ### Synonym
 
 Synonyms are not generally created.
+
+## Modeling
+
+| **Stated parent**                                                                    | `763158003 \|Medicinal product (product)` |
+| ------------------------------------------------------------------------------------ | ----------------------------------------- |
+| **Semantic tag**                                                                     | (product)                                 |
+| **Definition status**                                                                | Defined                                   |
+| <p><strong>Attribute:</strong></p><p><strong>Has manufactured dose form</strong></p> | Range: `<<736542009`                      |
 
 ## Exemplars
 

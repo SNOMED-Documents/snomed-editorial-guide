@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Medicinal Product Form containing only
 
 ## Overview
@@ -14,42 +32,11 @@ For example,
 * Product containing only axitinib in oral dose form (medicinal product form)
 * Product containing only abacavir and lamivudine in oral dose form (medicinal product form)
 
-In other words, "MPF only" represents a medicinal product based on description of only and exclusively the active ingredient(s) it contains and on the (generalised) intended site of use for the product.
+In other words, "MPF only" represents a medicinal product based on description of only and exclusively the active ingredient(s) it contains and on the (generalized) intended site of use for the product.
 
 For example,
 
 * "Product containing only amoxicillin in oral dose form (medicinal product form)" represents products that must contain only amoxicillin (be it amoxicillin sodium or amoxicillin trihydrate), with no other active ingredients in manufactured dose forms such as oral suspension, oral capsule (any type), oral tablet (any type).
-
-## Modeling
-
-| **Stated parent**                                                           | `763158003 \|Medicinal product (product)\|`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Semantic tag**                                                            | (medicinal product form)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Definition status**                                                       | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| <p><strong>Attribute:</strong></p><p>Has active ingredient</p>              | <p><strong>Range:</strong> <code>&#x3C;105590001|Substance (substance)|</code>, excluding concepts representing structural groupers, dispositions, or combined substances</p><p></p><p><strong>Cardinality:</strong>  1..*</p><p>There is no technical limit on the number of |Has active ingredient| attributes that may be added to a concept; a practical limit may be imposed at a later date.</p><p></p><p><strong>This attribute is self-grouped.</strong></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| <p><strong>Attribute:</strong></p><p>Has manufactured dose form</p>         | <p><strong>Range:</strong> <code>736542009 |Pharmaceutical dose form (dose form)</code></p><ul><li>Only descendants that are groupers representing intended site only (e.g., <code>385268001 |Oral dose form (dose form)|</code>, <code>385287007 |Parenteral dose form (dose form)|</code>)</li></ul><p></p><p></p><p><strong>Cardinality:</strong> 1..1</p><p><strong>Exceptions:</strong> </p><ul><li><code>385217004 |Conventional release gas for inhalation (dose form)|</code> may be used as manufactured dose form for Medicinal product form concepts.</li><li><code>785898006 |Conventional release solution for irrigation (dose form)|</code> does not have <code>736474004 |Has dose form intended site (attribute)|</code> but can be used as a target for manufactured dose form for Medicinal product form concepts.</li></ul><p><strong>Note</strong></p><ul><li>This attribute describes a grouping dose form concept for the medicinal product, where the grouping is the intended site for administration of the dose form of the product</li></ul> |
-| <p><strong>Attribute:</strong></p><p>Count of base of active ingredient</p> | <p><strong>Concrete Type:</strong> Integer</p><p></p><p><strong>Range:</strong> >#0..</p><p></p><p><strong>Cardinality:</strong> 1..1</p><p></p><p><strong>Note</strong></p><ul><li>This attribute provides the number of base active ingredient substances present in the medicinal product</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-
-### **Use cases supported by MPF (only)**
-
-There are several use cases that the MPF (only) concept can support:
-
-* Internationally and nationally in decision support (especially drug interaction checking) and in protocols and treatment guidelines
-* Internationally and nationally for interoperability of patient medication information such as in patient summaries and medication profiles, where patient information may only be available in using an abstract description (e.g. "patient reports they were taking oral captopril for 5 years")
-* Internationally for the provision of cross border care, where a particular formulation of a medicinal product from one jurisdiction may not be present in a second jurisdiction; the MPD (only) class can support finding alternatives
-* In pharmacovigilance, especially for description of concomitant medications where less information may be available (see also below in IDMP Compatibility)
-* In analysis and research
-* As a supporting attribute for other concepts elsewhere in SNOMED CT
-
-### **IDMP Compatibility**
-
-A concept at this level, despite using the universal restriction, does not directly correspond to any concept currently in the IDMP suite of standards.
-
-The Level 3 Pharmaceutical Product concept (PhPID\_SUB\_C3) uses a granular _administrable dose form concept_ for a product which will have an intended site of administration (bearing in mind that the exact implementation of ISO 11616 is not yet known). The MPF uses a more abstract dose form grouping concept where the grouping is on the basis of the intended site of administration for _manufactured_ dose form (with some exceptions for oral antibiotic products that are supplied as powders/granules but dispensed to patients as solutions/suspensions). However, there should be little difference in the intended site of administration between a manufactured dose form and its administrable form for those dose forms that do not require transformation. For some groups of products, the MPF (only) concept has the potential to bring additional value to users beyond PhPID\_SUB\_C3 because it is a larger grouping concept.
-
-For example, the dose form intended site concept `385276004 |Ocular dose form (dose form)|` covers 14 more granular pharmaceutical dose forms, of which two would undergo transformation to different administrable dose forms, but still with the ocular intended site. This means that the single MPF grouping concept will be relevant to a considerably larger group of actual products than the 12 potential PhPID\_SUB\_C3 concepts for the same active ingredient substance(s) that might exist in IDMP.
-
-As with the Medicinal Product (only) concept, the granularity of description of substance for the PhP3 is not completely clear, but may well be more granular than that used for the MPF (only) concept.
 
 ## Naming
 
@@ -90,6 +77,37 @@ For example,
 ### Synonym
 
 Synonyms matching the FSN are not required.
+
+## Modeling
+
+| **Stated parent**                                                           | `763158003 \|Medicinal product (product)\|`                                                                                                                                                                                                                                       |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Semantic tag**                                                            | (medicinal product form)                                                                                                                                                                                                                                                          |
+| **Definition status**                                                       | Defined                                                                                                                                                                                                                                                                           |
+| <p><strong>Attribute:</strong></p><p>Has active ingredient</p>              | **Range:** `<105590001`                                                                                                                                                                                                                                                           |
+| <p><strong>Attribute:</strong></p><p>Has manufactured dose form</p>         | **Range:** `736542009`                                                                                                                                                                                                                                                            |
+| <p><strong>Attribute:</strong></p><p>Count of base of active ingredient</p> | <p><strong>Concrete Type:</strong> Integer</p><p><strong>Range:</strong> >#0..</p><p><strong>Cardinality:</strong> 1..1</p><p><strong>Note</strong></p><ul><li>This attribute provides the number of base active ingredient substances present in the medicinal product</li></ul> |
+
+### **Use cases supported by MPF (only)**
+
+There are several use cases that the MPF (only) concept can support:
+
+* Internationally and nationally in decision support (especially drug interaction checking) and in protocols and treatment guidelines
+* Internationally and nationally for interoperability of patient medication information such as in patient summaries and medication profiles, where patient information may only be available in using an abstract description (e.g. "patient reports they were taking oral captopril for 5 years")
+* Internationally for the provision of cross border care, where a particular formulation of a medicinal product from one jurisdiction may not be present in a second jurisdiction; the MPD (only) class can support finding alternatives
+* In pharmacovigilance, especially for description of concomitant medications where less information may be available (see also below in IDMP Compatibility)
+* In analysis and research
+* As a supporting attribute for other concepts elsewhere in SNOMED CT
+
+### **IDMP Compatibility**
+
+A concept at this level, despite using the universal restriction, does not directly correspond to any concept currently in the IDMP suite of standards.
+
+The Level 3 Pharmaceutical Product concept (PhPID\_SUB\_C3) uses a granular _administrable dose form concept_ for a product which will have an intended site of administration (bearing in mind that the exact implementation of ISO 11616 is not yet known). The MPF uses a more abstract dose form grouping concept where the grouping is on the basis of the intended site of administration for _manufactured_ dose form (with some exceptions for oral antibiotic products that are supplied as powders/granules but dispensed to patients as solutions/suspensions). However, there should be little difference in the intended site of administration between a manufactured dose form and its administrable form for those dose forms that do not require transformation. For some groups of products, the MPF (only) concept has the potential to bring additional value to users beyond PhPID\_SUB\_C3 because it is a larger grouping concept.
+
+For example, the dose form intended site concept `385276004 |Ocular dose form (dose form)|` covers 14 more granular pharmaceutical dose forms, of which two would undergo transformation to different administrable dose forms, but still with the ocular intended site. This means that the single MPF grouping concept will be relevant to a considerably larger group of actual products than the 12 potential PhPID\_SUB\_C3 concepts for the same active ingredient substance(s) that might exist in IDMP.
+
+As with the Medicinal Product (only) concept, the granularity of description of substance for the PhP3 is not completely clear, but may well be more granular than that used for the MPF (only) concept.
 
 ## Exemplars
 

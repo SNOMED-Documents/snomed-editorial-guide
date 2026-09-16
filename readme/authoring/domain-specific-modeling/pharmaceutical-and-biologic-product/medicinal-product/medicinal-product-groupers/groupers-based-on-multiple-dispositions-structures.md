@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Groupers Based on Multiple Dispositions, Structures
 
 ## Overview
@@ -23,14 +41,6 @@ Since structure-based grouping and disposition are characteristics of the active
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-10-01 at 9.03.36 AM.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Figure: Medicinal Product showing membership of a structure-and-disposition grouping (ethanolamine derivative and histamine receptor antagonist)</p>
-
-## Modeling
-
-| **Stated parent concept**                                                       | `763158003 \|Medicinal product (product)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Semantic tag**                                                                | (product)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Definition status**                                                           | Defined                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| <p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p> | <p></p><p><strong>Range</strong>: <code>&#x3C;&#x3C;105590001 |Substance (substance)</code></p><ul><li>While the allowed range is broader, the |Medicinal product| combined grouper concepts based on disposition and/or structure should only use sufficiently defined grouper concepts that are descendants of <code>766739005 |Substance categorized by disposition (substance)| and</code>/or primitive grouper concepts that are descendants of <code>312413002 |Substance categorized by structure (substance)|</code> as attribute values.<br></li></ul><p><strong>Cardinality:</strong> 0..*</p><ul><li>While the allowed range is broader, the <code>|Medicinal product|</code> combined grouper concepts should have one or more <code>|Has active ingredient|</code> attributes.</li></ul> |
 
 ## Naming
 
@@ -65,6 +75,10 @@ Use the following pattern for the FSN if the combined grouper is comprised of on
 ### Synonym
 
 Synonyms matching the FSN are not required.
+
+## Modeling
+
+<table data-header-hidden><thead><tr><th width="328.283203125"></th><th></th></tr></thead><tbody><tr><td><strong>Stated parent concept</strong></td><td><code>763158003 |Medicinal product (product)</code></td></tr><tr><td><strong>Semantic tag</strong></td><td>(product)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><p><strong>Attribute:</strong></p><p><strong>Has active ingredient</strong></p></td><td><strong>Range</strong>: <code>&#x3C;&#x3C;105590001</code></td></tr></tbody></table>
 
 ## Exemplars
 

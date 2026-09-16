@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Groupers Based on Disposition
@@ -39,14 +41,6 @@ See also
 
 * [Substance; Supporting hierarchy - Disposition](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/substance/supporting-hierarchy-disposition)
 * [Substance Groupers Based on Disposition](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/substance/substance-naming-and-modeling-conventions/guidelines-for-substance-hierarchy-grouper-concepts/substance-groupers-based-on-disposition)
-
-## Modeling
-
-| **Stated parent concept**                                      | `763158003 \|Medicinal product (product)` |
-| -------------------------------------------------------------- | ----------------------------------------- |
-| **Semantic tag**                                               | (product)                                 |
-| **Definition status**                                          | Defined                                   |
-| <p><strong>Attribute:</strong></p><p>Has active ingredient</p> | **Range:** `<<105590001`                  |
 
 ## Naming
 
@@ -75,6 +69,14 @@ Align naming and case significance with the PT for the concept that is selected 
 ### Synonym
 
 Synonyms matching the FSN are not required.
+
+## Modeling
+
+| **Stated parent concept**                                      | `763158003 \|Medicinal product (product)` |
+| -------------------------------------------------------------- | ----------------------------------------- |
+| **Semantic tag**                                               | (product)                                 |
+| **Definition status**                                          | Defined                                   |
+| <p><strong>Attribute:</strong></p><p>Has active ingredient</p> | **Range:** `<<105590001`                  |
 
 ## Exemplars
 
