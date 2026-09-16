@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Real Medicinal Product (RMP)
@@ -91,37 +93,29 @@ _Figure: Example of branded real clinical drug products relating to appropriate 
 * Trade Product (TP) in AMT/NZULM
 * Brand Name (BN) in RxNorm (possibly)
 
-## Modelling
+## Modeling
 
 The following attributes apply to Real Medicinal Product (RMP) concepts in a national extension. The RMP class has two attributes inherited from the Medicinal Product (only) class in the international content and two additional attributes.
 
-| Semantic tag      | (real medicinal product)                                                |
-| ----------------- | ----------------------------------------------------------------------- |
-| Definition status | `900000000000073002 \|Sufficiently defined concept definition status\|` |
+<table data-header-hidden><thead><tr><th width="250.08984375">Semantic tag</th><th></th></tr></thead><tbody><tr><td>Semantic tag</td><td>(real medicinal product)</td></tr><tr><td>Definition status</td><td><code>900000000000073002 |Sufficiently defined concept definition status|</code></td></tr></tbody></table>
 
-| Attribute   | `1142139005 \|Count of base of active ingredient\|`                                                      |
-| ----------- | -------------------------------------------------------------------------------------------------------- |
-| Range       | INT (Integer)                                                                                            |
-| Cardinality | 1..1                                                                                                     |
-| Notes       | This attribute provides the number of base active ingredient substances present in the medicinal product |
+***
 
-| Attribute   | `774159003 \|Has supplier\|`                                                                                                                                                                                                                                                                                                                                                                                        |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range       | `< 774164004 \|Supplier (supplier)\|`                                                                                                                                                                                                                                                                                                                                                                               |
-| Cardinality | 1..1                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Notes       | The attribute value should represent the holder of the marketing authorisation or authorisation for supply; this may or may not be the organisation responsible for the actual manufacture of the product (see section below). Extensions must author concepts to value supplier organisation information within their extension using the root of `774164004 \|Supplier (supplier)\|` from the Qualifier hierarchy |
+<table data-header-hidden><thead><tr><th width="250.34765625"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>1142139005 |Count of base of active ingredient|</code></td></tr><tr><td>Range</td><td>INT (Integer)</td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>This attribute provides the number of base active ingredient substances present in the medicinal product</td></tr></tbody></table>
 
-| Attribute   | `774158006 \|Has product name\|`                                                                                                                                                                                                                                                                                                                  |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range       | `< 774167006 \|Product name (product name)\|`                                                                                                                                                                                                                                                                                                     |
-| Cardinality | 1..1                                                                                                                                                                                                                                                                                                                                              |
-| Notes       | The attribute value should represent the (authorised) product name; this may (or may not) be a trademarked name, and is often referred to as the “brand name” (see section below). Extensions must author product name concepts within their extension using the root of `774167006 \|Product name (product name)\|` from the Qualifier hierarchy |
+***
 
-| Role Group Attribute | `127489000 \|Has active ingredient\|`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range                | `< 105590001 \|Substance\|` (excluding concepts representing structural groupers, dispositions, or combined substances)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Cardinality          | 1..\*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Notes                | There is no technical limit on the number of \|Has active ingredient\| attributes that may be added to a concept; a practical limit may be imposed by national extensions. In order to classify correctly to the international content, this attribute value should represent the base ingredient substance, not a modification, unless explicitly identified as an exception and requiring an association to MP precisely concept. This attribute describes the set of active ingredient substances that the concept minimally contains. A set of active ingredient substances may well have only one member. |
+<table data-header-hidden><thead><tr><th width="250.32421875"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>774159003 |Has supplier|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 774164004 |Supplier (supplier)|</code></td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td><p>The attribute value should represent the holder of the marketing authorization or authorization for supply; this may or may not be the organization responsible for the actual manufacture of the product (see section below). </p><p></p><p>Extensions must author concepts to value supplier organization information within their extension using the root of <code>774164004 |Supplier (supplier)|</code> from the Qualifier hierarchy</p></td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="260.361328125"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>774158006 |Has product name|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 774167006 |Product name (product name)|</code></td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td><p>The attribute value should represent the (authorized) product name; this may (or may not) be a trademarked name and is often referred to as the <em>brand name</em> (see section below). </p><p></p><p>Extensions must author product name concepts within their extension using the root of <code>774167006 |Product name (product name)|</code> from the Qualifier hierarchy</p></td></tr></tbody></table>
+
+***
+
+### Role Group
+
+<table data-header-hidden><thead><tr><th width="249.7734375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>127489000 |Has active ingredient|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 105590001 |Substance|</code> (excluding concepts representing structural groupers, dispositions, or combined substances)</td></tr><tr><td>Cardinality</td><td>1..*</td></tr><tr><td>Notes</td><td><p>This attribute describes the set of active ingredient substances that the concept minimally contains. A set of active ingredient substances may well have only one member.</p><p></p><p>There is no technical limit on the number of |Has active ingredient| attributes that may be added to a concept; however, a practical limit may be imposed by national extensions. </p><p></p><p>In order to classify correctly to the international content, this attribute value should represent the base ingredient substance, not a modification, unless explicitly identified as an exception and requiring an association to MP precisely concept. </p></td></tr></tbody></table>
 
 {% hint style="info" %}
 **Note** : The cardinalities given in the above table are for concepts in the RMP class. These cardinalities may be stricter than those in the MRCM, which typically apply across a broader range of concepts.

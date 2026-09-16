@@ -3,8 +3,25 @@ description: >-
   The section describes the attributes used in the definition of the concepts
   classes in the national extension model.
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Supporting Attributes
@@ -69,7 +86,7 @@ The 774159003 | Has supplier (attribute) | is available from the concept model a
 
 ### Definition
 
-The number (count) of of distinct clinical drug (concepts) present in the package. For all non-combination packages, this value should be "one".
+The number (count) of of distinct clinical drug (concepts) present in the package. For all non-combination packages, this value should be _one_.
 
 ### Discussion
 
@@ -79,7 +96,7 @@ Count attributes are used for all medicinal product and package concepts that mu
 
 By using a _count_ attribute in the definition of closed world concepts, the count information is machine processable, and therefore if/when a more expressive description logic becomes available to properly represent the closed world view, then all the count attributes can be used to transfer to the closed world description logic consistently.
 
-Standard packs containing a single clinical drug type have a count of "one" for the 1142143009 | Count of clinical drug type (attribute)| .
+Standard packs containing a single clinical drug type have a count of _one_ for the 1142143009 | Count of clinical drug type (attribute)| .
 
 Combination packs have the appropriate count (always greater than one) for the number of clinical drug types present in the combination pack. If one of the components of a combination pack is a therapeutically inactive diluent, national extensions can choose whether to include this in the "count of clinical drug" and therefore whether the pack containing the diluent will classify as a sibling or as a child of any pack not containing a diluent.
 
@@ -97,7 +114,7 @@ For packaged clinical drug concepts, the 774160008 | Contains clinical drug (att
 
 For real packaged clinical drug concepts, the 774160008 | Contains clinical drug (attribute)| should be valued with a real clinical drug from the national extension.
 
-As noted in the attribute tables for packaged clinical drug and real packaged clinical drug, it is not possible currently to explicitly specify an expression to describe the range of (real) clinical drugs to populate this attribute since (for example) a range cannot currently recognize a set of concepts with a particular semantic tag. Alternative range expressions could be developed based on the attributes that are unique to a (real) clinical drug.&#x20;
+As noted in the attribute tables for packaged clinical drug and real packaged clinical drug, it is not possible currently to explicitly specify an expression to describe the range of (real) clinical drugs to populate this attribute since (for example) a range cannot currently recognize a set of concepts with a particular semantic tag. Alternative range expressions could be developed based on the attributes that are unique to a (real) clinical drug.
 
 For example:
 

@@ -1,25 +1,43 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Medicinal Product Precisely (MP precisely)
 
-### Definition <a href="#definition" id="definition"></a>
+## Definition <a href="#definition" id="definition"></a>
 
 An abstract representation of a medicinal product based on description of only and exclusively the precise active ingredients it contains.
 
 For example, "Product containing amoxicillin sodium precisely" represents products that **must contain precisely amoxicillin** sodium, not amoxicillin trihydrate, nor a substance that is any further modification of amoxicillin sodium should one exist, and they **must not** contain _any_ other active ingredients, such as clavulanic acid.
 
-### Use cases <a href="#use-cases" id="use-cases"></a>
+## Use cases <a href="#use-cases" id="use-cases"></a>
 
 The use case for the MP (precisely) concept is primarily to provide a more exact and explicit medicinal product concept for use in those scenarios where different modifications of the base active ingredient have clinical significance, usually because of different potency and different dosing schedules. There are several groups of products where this is the case; for example: corticosteroids, various anti-epileptic medications (e.g., phenytoin and valproic acid), and insulins. The MP (precisely) class can be deployed in national extensions for those use cases that need it, such as prescribing scenarios (so called "abstract" or "non-product-based" prescribing where no product and no dose form are specified by the prescriber) and in medication history and in medication profiles, and in decision support, in protocols and treatment guidelines. However, all the use cases described for MP (only) could use MP (precisely) as necessary when more exact and explicit representation is required.
 
-### Discussion <a href="#discussion" id="discussion"></a>
+## Discussion <a href="#discussion" id="discussion"></a>
 
 A Medicinal Product (MP precisely) concept may be created in national extensions when use case(s) require this and for those national extensions where products exist, such that the active ingredient count attribute for the MP precisely has a different value from the active ingredient count of the parent Medicinal Product (MP only) concept.
 
-### Attributes <a href="#attributes" id="attributes"></a>
+## Attributes <a href="#attributes" id="attributes"></a>
 
 The Medicinal Product precisely (MP precisely) concept is defined by two groups of attributes to describe the **precise** active ingredient(s) and the ingredient count(s). The ingredient count attributes are applied incrementally, as the requirement arises for MP precisely concepts; this is a pragmatic and incremental approach to maintenance of the hierarchy. Although it is desirable for attributes to be applied globally, this would introduce a significant maintenance burden for what is required in only a minority, although a significant minority, of cases. They are applied when the requirement to describe products that contain two or more active ingredients that are modifications of the same base and are applied from the top down (i.e., from the MP precisely class, down to the clinical drug class, including the MPF precisely if required) within the particular subhierarchy base ingredient concept.
 
@@ -31,35 +49,33 @@ In national extensions, using the MP precisely concept related to CD concepts in
 | ----------------- | ----------------------------------------------------------------------- |
 | Definition status | `900000000000073002 \|Sufficiently defined concept definition status\|` |
 
-| Role Group Attribute | `762949000 \|Has precise active ingredient\|`                                                                                                                        |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range                | `< 105590001 \|Substance\|` (excluding concepts representing structural groupers, dispositions, or combined substances)                                              |
-| Cardinality          | 1..\*                                                                                                                                                                |
-| Notes                | This is the set of precise active ingredient substances that the medicinal product contains. A set of precise active ingredient substances may have only one member. |
+***
 
-| Attribute   | `1142139005 \|Count of base of active ingredient\|`                                                       |
-| ----------- | --------------------------------------------------------------------------------------------------------- |
-| Range       | Integer                                                                                                   |
-| Cardinality | 1..1                                                                                                      |
-| Notes       | This attribute provides the number of base active ingredient substances present in the medicinal product. |
+#### Role Group
 
-| Attribute   | `1142141006 \|Count of base and modification pair\|`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range       | Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Cardinality | 0..1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Notes       | This attribute provides the number of base active ingredient substances present in the medicinal product. This attribute should only be present and valued for multi-ingredient product concepts where two or more active ingredients share the same base active ingredient (i.e., parent ingredient substance) and for single ingredient product concepts where the active substance is an ingredient in multi-ingredient products. As discussed above, and as described in the MRCM rules, the additional ingredient count attributes must be applied iteratively. |
+<table data-header-hidden><thead><tr><th width="249.826171875"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>762949000 |Has precise active ingredient|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 105590001 |Substance|</code> (excluding concepts representing structural groupers, dispositions, or combined substances)</td></tr><tr><td>Cardinality</td><td>1..*</td></tr><tr><td>Notes</td><td>This is the set of precise active ingredient substances that the medicinal product contains. A set of precise active ingredient substances may have only one member.</td></tr></tbody></table>
 
-| Attribute   | `1142140007 \|Count of active ingredient\|`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range       | Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Cardinality | 0..1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Notes       | This attribute provides the number of active ingredients present in the medicinal product. This attribute should only be present and valued for multi-ingredient concepts where two or more active ingredients share the same base active ingredient (i.e., parent ingredient substance) and where one is a further modification of the other (for example, a multi-ingredient product containing both dexamethasone phosphate and dexamethasone sodium phosphate, where the dexamethasone phosphate is a modification of dexamethasone (base) and dexamethasone sodium phosphate is a further modification of the dexamethasone phosphate), and for single ingredient product concepts where the active substance is an ingredient in multi-ingredient products. As discussed above, and as described in the MRCM rules, the additional ingredient count attributes must be applied iteratively. |
+***
+
+
+
+
+
+<table data-header-hidden><thead><tr><th width="249.515625"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>1142139005 |Count of base of active ingredient|</code></td></tr><tr><td>Range</td><td>Integer</td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>This attribute provides the number of base active ingredient substances present in the medicinal product.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="249.708984375"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>1142141006 |Count of base and modification pair|</code></td></tr><tr><td>Range</td><td>Integer</td></tr><tr><td>Cardinality</td><td>0..1</td></tr><tr><td>Notes</td><td><p>This attribute provides the number of base active ingredient substances present in the medicinal product. </p><p></p><p>This attribute should only be present and valued for multi-ingredient product concepts where two or more active ingredients share the same base active ingredient (i.e., parent ingredient substance) and for single ingredient product concepts where the active substance is an ingredient in multi-ingredient products. As discussed above, and as described in the MRCM rules, the additional ingredient count attributes must be applied iteratively.</p></td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="249.814453125"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>1142140007 |Count of active ingredient|</code></td></tr><tr><td>Range</td><td>Integer</td></tr><tr><td>Cardinality</td><td>0..1</td></tr><tr><td>Notes</td><td><p>This attribute provides the number of active ingredients present in the medicinal product. </p><p></p><p>This attribute should only be present and valued for multi-ingredient concepts where two or more active ingredients share the same base active ingredient (i.e., parent ingredient substance) and where one is a further modification of the other (for example, a multi-ingredient product containing both dexamethasone phosphate and dexamethasone sodium phosphate, where the dexamethasone phosphate is a modification of dexamethasone (base) and dexamethasone sodium phosphate is a further modification of the dexamethasone phosphate), and for single ingredient product concepts where the active substance is an ingredient in multi-ingredient products. As discussed above, and as described in the MRCM rules, the additional ingredient count attributes must be applied iteratively.</p></td></tr></tbody></table>
 
 ***
 
 ## Example diagrams
 
-Example:  Product with a _multiple modified_ active ingredient substance (dexamethasone phosphate is the modified concept that has a further modification to give dexamethasone sodium phosphate): stated view, showing both the count of base active ingredient and the count of base and modification pair are present, as the substance has a multiple modification (dexamethasone phosphate is the modified concept that has a further modification to give dexamethasone sodium phosphate) **and** there are multi-ingredient concepts that contain this multiple modified substance and at least one other modified ingredient substance that shares the same base substance (dexamethasone) (see next examples). The multi-ingredient concept is "dexamethasone sodium phosphate and dexamethasone acetate". As described in the MRCM rules, the additional ingredient count attributes must be applied iteratively. The following inferred view shows the correct dexamethasone moiety MP (only) parent concept.
+**Example**: Product with a _multiple modified_ active ingredient substance (dexamethasone phosphate is the modified concept that has a further modification to give dexamethasone sodium phosphate): stated view, showing both the count of base active ingredient and the count of base and modification pair are present, as the substance has a multiple modification (dexamethasone phosphate is the modified concept that has a further modification to give dexamethasone sodium phosphate) **and** there are multi-ingredient concepts that contain this multiple modified substance and at least one other modified ingredient substance that shares the same base substance (dexamethasone) (see next examples). The multi-ingredient concept is "dexamethasone sodium phosphate and dexamethasone acetate". As described in the MRCM rules, the additional ingredient count attributes must be applied iteratively. The following inferred view shows the correct dexamethasone moiety MP (only) parent concept.
 
 <figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p><em>Single Ingredient Medicinal Product (precisely) example stated view</em></p></figcaption></figure>
 
