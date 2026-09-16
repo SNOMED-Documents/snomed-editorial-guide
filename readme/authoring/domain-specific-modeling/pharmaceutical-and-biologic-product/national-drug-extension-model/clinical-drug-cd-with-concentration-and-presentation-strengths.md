@@ -70,27 +70,51 @@ The following attributes apply to Clinical Drug (CD) concepts in a national exte
 
 <table data-header-hidden><thead><tr><th width="261.556640625">Semantic tag</th><th>(clinical drug)</th></tr></thead><tbody><tr><td>Semantic tag</td><td>(clinical drug)</td></tr><tr><td>Definition status</td><td><code>900000000000073002 |Sufficiently defined concept definition status|</code></td></tr></tbody></table>
 
+***
+
 <table data-header-hidden><thead><tr><th width="265.39453125"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>411116001 |Has manufactured dose form|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 736542009 |Pharmaceutical dose form|</code></td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Note</td><td>This attribute describes a grouping dose form concept for the medicinal product, where the grouping is the intended site for administration of the dose form of the product.</td></tr></tbody></table>
+
+***
 
 <table data-header-hidden><thead><tr><th width="265.599609375"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>1142139005 |Count of base of active ingredient|</code></td></tr><tr><td>Range</td><td>INT (integer)</td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Note</td><td>This attribute provides the number of base active ingredient substances present in the medicinal product.</td></tr></tbody></table>
 
+***
+
 <table data-header-hidden><thead><tr><th width="267.52734375"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>763032000 |Has unit of presentation|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 732935002 |Unit of presentation|</code></td></tr><tr><td>Cardinality</td><td>0..1</td></tr><tr><td>Note</td><td>This is the unit of presentation that the liquid product is presented in (vial, ampoule, sachet, pre-filled syringe, etc.).</td></tr></tbody></table>
+
+***
 
 <table data-header-hidden><thead><tr><th width="266.759765625"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>1148793005 |Unit of presentation size quantity|</code></td></tr><tr><td>Range</td><td>DEC (decimal)</td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Note</td><td>This is the volume of liquid that the unit of presentation contains.</td></tr></tbody></table>
 
+***
+
 <table data-header-hidden><thead><tr><th width="269.44921875"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>320091000221107 |Unit of presentation size unit|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 767524001 |Unit of measure (qualifier value)|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Note</td><td>This is the unit of measure for the volume of liquid that the unit of presentation contains (usually milliliters).</td></tr></tbody></table>
 
-<table data-header-hidden><thead><tr><th width="148.458984375"></th><th></th></tr></thead><tbody><tr><td><h4>Role Group</h4></td><td><h4>[1..*] </h4><h4>(One RG per each precise  active ingredient)</h4></td></tr></tbody></table>
+***
+
+<table data-header-hidden><thead><tr><th width="148.458984375"></th><th></th></tr></thead><tbody><tr><td><h4>Role Group</h4></td><td><h4>[1..*] </h4><h4>One RG per each precise  active ingredient</h4></td></tr></tbody></table>
+
+***
 
 <table data-header-hidden><thead><tr><th width="276.451171875"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>762949000 |Has precise active ingredient|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 105590001 |Substance|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td><p>-This is a precise active ingredient substance that the concept contains. </p><p>-In each role group, only one precise active ingredient substance is stated.</p></td></tr></tbody></table>
 
+***
+
 <table data-header-hidden><thead><tr><th width="277.611328125"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>732943007 |Has basis of strength substance|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 105590001 |Substance|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td><p>-This is the basis of strength substance that the concept uses. </p><p>-In each role group, only one precise active ingredient substance is stated. </p><p>-The basis of strength substance is always stated explicitly, even when it is the same as the precise active ingredient substance.</p></td></tr></tbody></table>
+
+***
 
 <table data-header-hidden><thead><tr><th width="276.474609375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>1142138002 |Has concentration strength numerator value|</code></td></tr><tr><td>Range</td><td>DEC (decimal)</td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr></tbody></table>
 
+***
+
 <table data-header-hidden><thead><tr><th width="280.078125"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>733725009 |Has concentration strength numerator unit|</code></td></tr><tr><td>Range</td><td>&#x3C; 767524001 |Unit of measure (qualifier value)|</td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr></tbody></table>
 
+***
+
 <table data-header-hidden><thead><tr><th width="278.220703125"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>1142137007 |Has concentration strength denominator value|</code></td></tr><tr><td>Range</td><td>DEC (decimal)</td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr></tbody></table>
+
+***
 
 <table data-header-hidden><thead><tr><th width="276.234375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>733722007 |Has concentration strength denominator unit|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 767524001 |Unit of measure (qualifier value)|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr></tbody></table>
 
