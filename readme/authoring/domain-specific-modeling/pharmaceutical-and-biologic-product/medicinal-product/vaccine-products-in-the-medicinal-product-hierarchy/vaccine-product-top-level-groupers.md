@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Vaccine Product Top Level Groupers
 
 ## Overview
@@ -13,10 +31,6 @@ The following high level vaccine-related grouper concepts are included in the |M
   * 836368004 |Vaccine product containing bacteria antigen (medicinal product)|
   * 1290123005 |Vaccine product containing protozoa antigen (medicinal product)|
   * 836369007 |Vaccine product containing virus antigen (medicinal product)|
-
-## Modeling
-
-<table data-header-hidden><thead><tr><th width="270"></th><th></th></tr></thead><tbody><tr><td><strong>Stated parent concept</strong></td><td>763158003 |Medicinal product (product)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(medicinal product)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has active ingredient</p></td><td><p><strong>Range</strong>: &#x3C;&#x3C;105590001 |Substance (substance)|<br></p><p><strong>Cardinality</strong>: 0..*</p><p><em>Exception:  Top level grouper 787859002 |Vaccine product (medicinal product)| does not have a Has active ingredient (attribute).</em></p></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Plays role</p></td><td><p><strong>Range</strong>: &#x3C;&#x3C;766940004 |Role (role)|<br></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, top level vaccine-related grouper concepts should have one and only one Plays role (attribute) with attribute value = 318331000221102 |Active immunity stimulant therapeutic role (role)|.</li></ul></td></tr></tbody></table>
 
 ## Naming
 
@@ -57,6 +71,10 @@ For example,
 ### Synonym
 
 Synonyms matching the FSN are not required.
+
+## Modeling
+
+<table data-header-hidden><thead><tr><th width="270"></th><th></th></tr></thead><tbody><tr><td><strong>Stated parent concept</strong></td><td>763158003 |Medicinal product (product)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(medicinal product)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has active ingredient</p></td><td><p><strong>Range</strong>: &#x3C;&#x3C;105590001 |Substance (substance)|<br></p><p><strong>Cardinality</strong>: 0..*</p><p><em>Exception: Top level grouper 787859002 |Vaccine product (medicinal product)| does not have a Has active ingredient (attribute).</em></p></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Plays role</p></td><td><p><strong>Range</strong>: &#x3C;&#x3C;766940004 |Role (role)|<br></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, top level vaccine-related grouper concepts should have one and only one Plays role (attribute) with attribute value = 318331000221102 |Active immunity stimulant therapeutic role (role)|.</li></ul></td></tr></tbody></table>
 
 ## Exemplars
 
