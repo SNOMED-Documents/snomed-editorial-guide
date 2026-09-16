@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Real Clinical Drug (RCD)
@@ -58,51 +60,35 @@ In the following table, two relationship groups (marked with \*) are described: 
 
 ***
 
-| Semantic tag      | (real clinical drug)                                                                                                                                                                                                          |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Definition status | `900000000000073002 \|Sufficiently defined concept definition status (core metadata concept)\|` — This can only be the case if extensions author concepts to represent product names and manufacturer/supplier organisations. |
+<table data-header-hidden><thead><tr><th width="245.185546875">Semantic tag</th><th></th></tr></thead><tbody><tr><td>Semantic tag</td><td>(real clinical drug)</td></tr><tr><td>Definition status</td><td><p><code>900000000000073002 |Sufficiently defined concept definition status (core metadata concept)|</code>  </p><p>*This can only be the case if extensions author concepts to represent product names and manufacturer/supplier organizations.</p></td></tr></tbody></table>
 
-| Attribute   | `411116001 \|Has manufactured dose form\|`                                                                                                                                   |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range       | `< 736542009 \|Pharmaceutical dose form (dose form)\|`                                                                                                                       |
-| Cardinality | 1..1                                                                                                                                                                         |
-| Notes       | This is the finished dose form that the manufactured product is presented in by the manufacturer, before any transformation into an administrable dose form has taken place. |
+***
 
-| Attribute   | `42139005 \|Count of base of active ingredient\|`                                                              |
-| ----------- | -------------------------------------------------------------------------------------------------------------- |
-| Range       | INT (integer)                                                                                                  |
-| Cardinality | 1..1                                                                                                           |
-| Notes       | This attribute provides the number of base active ingredient substances present in the real medicinal product. |
+<table data-header-hidden><thead><tr><th width="245.419921875"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>411116001 |Has manufactured dose form|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 736542009 |Pharmaceutical dose form (dose form)|</code></td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>This is the finished dose form that the manufactured product is presented in by the manufacturer, before any transformation into an administrable dose form has taken place.</td></tr></tbody></table>
 
-| Attribute   | `763032000 \|Has unit of presentation\|`                                                                                                                                                                                                                               |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range       | `< 732935002 \|Unit of presentation\|`                                                                                                                                                                                                                                 |
-| Cardinality | 0..1                                                                                                                                                                                                                                                                   |
-| Notes       | This is the discrete countable entity that the real clinical drug is presented in; it should be valued for all concepts where presentation strength is used and for those real clinical drugs where both concentration strength and presentation strength is required. |
+***
 
-| Attribute                       | `1148793005 \|Unit of presentation size quantity\|`                                                                                                                                    |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range                           | DEC (decimal)                                                                                                                                                                          |
-| Cardinality (within role group) | 0..1                                                                                                                                                                                   |
-| Notes                           | This is the volume of liquid that the unit of presentation contains. Should be valued for real clinical drugs where both concentration strength and presentation strength is required. |
+<table data-header-hidden><thead><tr><th width="245.173828125"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>42139005 |Count of base of active ingredient|</code></td></tr><tr><td>Range</td><td>INT (integer)</td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>This attribute provides the number of base active ingredient substances present in the real medicinal product.</td></tr></tbody></table>
 
-| Attribute                       | `320091000221107 \|Unit of presentation size unit\|`                                                                                                                                                                                 |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Range                           | `< 767524001 \|Unit of measure (qualifier value)\|`                                                                                                                                                                                  |
-| Cardinality (within role group) | 0..1                                                                                                                                                                                                                                 |
-| Notes                           | This is the unit of measure for the volume of liquid that the unit of presentation contains (usually millilitres). Should be valued for real clinical drugs where both concentration strength and presentation strength is required. |
+***
 
-| Attribute   | `774158006 \|Has product name\|`                                                                                                                                                                                                    |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range       | `< 774167006 \|Product name (product name)\|`                                                                                                                                                                                       |
-| Cardinality | 1..1                                                                                                                                                                                                                                |
-| Notes       | The attribute value should represent the (authorised) product name; this may or may not be a trademarked name and is often referred to as the brand name. Extensions must author product name concepts using the root of 774167006. |
+<table data-header-hidden><thead><tr><th width="244.669921875"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>763032000 |Has unit of presentation|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 732935002 |Unit of presentation|</code></td></tr><tr><td>Cardinality</td><td>0..1</td></tr><tr><td>Notes</td><td>This is the discrete countable entity that the real clinical drug is presented in; it should be valued for all concepts where presentation strength is used and for those real clinical drugs where both concentration strength and presentation strength is required.</td></tr></tbody></table>
 
-| Attribute   | `774159003 \|Has supplier\|`                                                                                                                                                                                                                                                     |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range       | `< 774164004 \|Supplier (supplier)\|`                                                                                                                                                                                                                                            |
-| Cardinality | 1..1                                                                                                                                                                                                                                                                             |
-| Notes       | The attribute value should represent the holder of the marketing authorisation or authorisation for supply; this may or may not be the organisation responsible for the actual manufacture of the product. Extensions must author supplier concepts using the root of 774164004. |
+***
+
+<table data-header-hidden><thead><tr><th width="244.716796875"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>1148793005 |Unit of presentation size quantity|</code></td></tr><tr><td>Range</td><td>DEC (decimal)</td></tr><tr><td>Cardinality (within role group)</td><td>0..1</td></tr><tr><td>Notes</td><td>This is the volume of liquid that the unit of presentation contains. Should be valued for real clinical drugs where both concentration strength and presentation strength is required.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="244.6171875"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>320091000221107 |Unit of presentation size unit|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 767524001 |Unit of measure (qualifier value)|</code></td></tr><tr><td>Cardinality (within role group)</td><td>0..1</td></tr><tr><td>Notes</td><td>This is the unit of measure for the volume of liquid that the unit of presentation contains (usually millilitres). Should be valued for real clinical drugs where both concentration strength and presentation strength is required.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="244.9453125"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>774158006 |Has product name|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 774167006 |Product name (product name)|</code></td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>The attribute value should represent the (authorised) product name; this may or may not be a trademarked name and is often referred to as the brand name. Extensions must author product name concepts using the root of 774167006.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="244.587890625"></th><th></th></tr></thead><tbody><tr><td><strong>Attribute</strong></td><td><code>774159003 |Has supplier|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 774164004 |Supplier (supplier)|</code></td></tr><tr><td>Cardinality</td><td>1..1</td></tr><tr><td>Notes</td><td>The attribute value should represent the holder of the marketing authorisation or authorisation for supply; this may or may not be the organisation responsible for the actual manufacture of the product. Extensions must author supplier concepts using the root of 774164004.</td></tr></tbody></table>
 
 ***
 
@@ -110,41 +96,29 @@ In the following table, two relationship groups (marked with \*) are described: 
 
 (One per precise active ingredient)
 
-| Role Group Attribute            | `762949000 \|Has precise active ingredient\|`                                                                                                        |
-| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range                           | `< 105590001 \|Substance\|`                                                                                                                          |
-| Cardinality (within role group) | 1..1                                                                                                                                                 |
-| Notes                           | This is a precise active ingredient substance that the concept contains. In each role group, only one precise active ingredient substance is stated. |
+***
 
-| Role Group Attribute            | `732943007 \|Has basis of strength substance\|`                                                                                               |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Range                           | `< 105590001 \|Substance\|`                                                                                                                   |
-| Cardinality (within role group) | 1..1                                                                                                                                          |
-| Notes                           | The basis of strength substance that the concept uses. Always stated explicitly, even if the same as the precise active ingredient substance. |
+<table data-header-hidden><thead><tr><th width="249.7734375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>762949000 |Has precise active ingredient|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 105590001 |Substance|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>This is a precise active ingredient substance that the concept contains. In each role group, only one precise active ingredient substance is stated.</td></tr></tbody></table>
 
-| Role Group Attribute            | `1142135004 \|Has presentation strength numerator value\|`                     |
-| ------------------------------- | ------------------------------------------------------------------------------ |
-| Range                           | DEC (decimal)                                                                  |
-| Cardinality (within role group) | 1..1                                                                           |
-| Notes                           | The amount of basis of strength substance present in one unit of presentation. |
+***
 
-| Role Group Attribute            | `732945000 \|Has presentation strength numerator unit\|`                                               |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Range                           | `< 767524001 \|Unit of measure (qualifier value)\|`                                                    |
-| Cardinality (within role group) | 1..1                                                                                                   |
-| Notes                           | The unit of measure for the amount of basis of strength substance present in one unit of presentation. |
+<table data-header-hidden><thead><tr><th width="249.990234375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>732943007 |Has basis of strength substance|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 105590001 |Substance|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>The basis of strength substance that the concept uses. Always stated explicitly, even if the same as the precise active ingredient substance.</td></tr></tbody></table>
 
-| Role Group Attribute            | `1142136003 \|Has presentation strength denominator value\|`                                    |
-| ------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Range                           | DEC (decimal)                                                                                   |
-| Cardinality (within role group) | 1..1                                                                                            |
-| Notes                           | Should be “one” since the numerator refers to amount of substance per one unit of presentation. |
+***
 
-| Role Group Attribute            | `732947008 \|Has presentation strength denominator unit\|`                                                                        |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Range                           | `< 767524001 \|Unit of measure (qualifier value)\|`                                                                               |
-| Cardinality (within role group) | 1..1                                                                                                                              |
-| Notes                           | Should be the unit of presentation (`< 732935002 \|Unit of presentation\|`). All units of presentation are subtypes of 767524001. |
+<table data-header-hidden><thead><tr><th width="250.21875"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>1142135004 |Has presentation strength numerator value|</code></td></tr><tr><td>Range</td><td>DEC (decimal)</td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>The amount of basis of strength substance present in one unit of presentation.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="250.259765625"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>732945000 |Has presentation strength numerator unit|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 767524001 |Unit of measure (qualifier value)|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>The unit of measure for the amount of basis of strength substance present in one unit of presentation.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="250.265625"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>1142136003 |Has presentation strength denominator value|</code></td></tr><tr><td>Range</td><td>DEC (decimal)</td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>Should be “one” since the numerator refers to amount of substance per one unit of presentation.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="250.359375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>732947008 |Has presentation strength denominator unit|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 767524001 |Unit of measure (qualifier value)|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>Should be the unit of presentation (<code>&#x3C; 732935002 |Unit of presentation|</code>). All units of presentation are subtypes of 767524001.</td></tr></tbody></table>
 
 ***
 
@@ -152,65 +126,43 @@ In the following table, two relationship groups (marked with \*) are described: 
 
 (One per precise active ingredient)
 
-| Role Group Attribute            | `762949000 \|Has precise active ingredient\|`                                        |
-| ------------------------------- | ------------------------------------------------------------------------------------ |
-| Range                           | `< 105590001 \|Substance\|`                                                          |
-| Cardinality (within role group) | 1..1                                                                                 |
-| Notes                           | A precise active ingredient substance the concept contains. Only one per role group. |
+***
 
-| Role Group Attribute            | `732943007 \|Has basis of strength substance\|`                                              |
-| ------------------------------- | -------------------------------------------------------------------------------------------- |
-| Range                           | `< 105590001 \|Substance\|`                                                                  |
-| Cardinality (within role group) | 1..1                                                                                         |
-| Notes                           | Basis of strength substance used. Always explicit even if same as precise active ingredient. |
+<table data-header-hidden><thead><tr><th width="249.73828125"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>762949000 |Has precise active ingredient|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 105590001 |Substance|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>A precise active ingredient substance the concept contains. Only one per role group.</td></tr></tbody></table>
 
-| Role Group Attribute            | `1142138002 \|Has concentration strength numerator value\|`            |
-| ------------------------------- | ---------------------------------------------------------------------- |
-| Range                           | DEC (decimal)                                                          |
-| Cardinality (within role group) | 1..1                                                                   |
-| Notes                           | Amount of basis of strength substance present in one denominator unit. |
+***
 
-| Role Group Attribute            | `733725009 \|Has concentration strength numerator unit\|` |
-| ------------------------------- | --------------------------------------------------------- |
-| Range                           | `< 767524001 \|Unit of measure (qualifier value)\|`       |
-| Cardinality (within role group) | 1..1                                                      |
-| Notes                           | Unit of measure for numerator value.                      |
+<table data-header-hidden><thead><tr><th width="250.37109375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>732943007 |Has basis of strength substance|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 105590001 |Substance|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>Basis of strength substance used. Always explicit even if same as precise active ingredient.</td></tr></tbody></table>
 
-| Role Group Attribute            | `1142137007 \|Has concentration strength denominator value\|` |
-| ------------------------------- | ------------------------------------------------------------- |
-| Range                           | DEC (decimal)                                                 |
-| Cardinality (within role group) | 1..1                                                          |
-| Notes                           | Should be “one” since numerator is per one denominator unit.  |
+***
 
-| Role Group Attribute            | `733722007 \|Has concentration strength denominator unit\|`               |
-| ------------------------------- | ------------------------------------------------------------------------- |
-| Range                           | `< 767524001 \|Unit of measure (qualifier value)\|`                       |
-| Cardinality (within role group) | 1..1                                                                      |
-| Notes                           | The unit of the denominator “one” (usually an SI unit of mass or volume). |
+<table data-header-hidden><thead><tr><th width="250.142578125"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>1142138002 |Has concentration strength numerator value|</code></td></tr><tr><td>Range</td><td>DEC (decimal)</td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>Amount of basis of strength substance present in one denominator unit.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="250.037109375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>733725009 |Has concentration strength numerator unit|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 767524001 |Unit of measure (qualifier value)|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>Unit of measure for numerator value.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="250.400390625"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>1142137007 |Has concentration strength denominator value|</code></td></tr><tr><td>Range</td><td>DEC (decimal)</td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>Should be “one” since numerator is per one denominator unit.</td></tr></tbody></table>
+
+***
+
+<table data-header-hidden><thead><tr><th width="249.896484375"></th><th></th></tr></thead><tbody><tr><td><strong>Role Group Attribute</strong></td><td><code>733722007 |Has concentration strength denominator unit|</code></td></tr><tr><td>Range</td><td><code>&#x3C; 767524001 |Unit of measure (qualifier value)|</code></td></tr><tr><td>Cardinality (within role group)</td><td>1..1</td></tr><tr><td>Notes</td><td>The unit of the denominator “one” (usually an SI unit of mass or volume).</td></tr></tbody></table>
 
 ***
 
 For real clinical drugs that have two or more active ingredient substances that are modifications of the same base substance **and where** MP precisely concepts are required in the national extension, and for single ingredient product concepts where the active substance is an ingredient in these multiple modification multi-ingredient products, the following extra ingredient count attribute is required in order to support correct relationships generated by the MRCM:
 
-|
-
-Attribute:
-
-1142141006 | Count of base and modification pair |
-
-\| INT (integer) 1..1 Range Cardinality | | --------------------------------------------------------------------------- | ------------------------------------ |
+<table data-header-hidden><thead><tr><th width="250.189453125"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td>1142141006 |Count of base and modification pair|</td></tr><tr><td>Range</td><td>INT (integer)</td></tr><tr><td>Cardinality</td><td>1..1</td></tr></tbody></table>
 
 For concepts that have two or more active ingredient substances that are modifications of the same base active ingredient substance (i.e., parent ingredient substance) **and** where one is a further modification of the other (for example, a multi-ingredient product containing both dexamethasone phosphate and dexamethasone sodium phosphate, where the dexamethasone phosphate is a modification of dexamethasone (base) and dexamethasone sodium phosphate is a further modification of the dexamethasone phosphate) **and where** MP precisely concepts are required in the national extension, and for single ingredient product concepts where the active substance is an ingredient in these multiple modification multi-ingredient products, the following extra ingredient count attribute will be required in order to support correct relationships generated by the MRCM:
 
-|
+<table data-header-hidden><thead><tr><th width="250.25390625"></th><th></th></tr></thead><tbody><tr><td>Attribute</td><td>1142140007 |Count of active ingredient|</td></tr><tr><td>Range</td><td>INT (integer)</td></tr><tr><td>Cardinality</td><td>1..1</td></tr></tbody></table>
 
-Attribute:
-
-1142140007 | Count of active ingredient |
-
-\| INT (integer) 1..1 Range Cardinality | | ------------------------------------------------------------------ | ------------------------------------ |
-
+{% hint style="info" %}
 **Note** : The cardinalities given in the above table are for concepts in the RCD class. These cardinalities may be stricter than those in the MRCM, which typically apply across a broader range of concepts.
+{% endhint %}
 
 ## Example Diagrams
 
