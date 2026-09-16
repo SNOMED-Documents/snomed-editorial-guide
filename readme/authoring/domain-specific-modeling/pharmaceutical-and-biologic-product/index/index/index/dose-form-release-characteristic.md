@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Dose Form Release Characteristic
 
 ## Overview
@@ -12,10 +30,6 @@ layout:
 |Dose form release characteristic (release characteristic)| is a descendant of 362981000 |Qualifier value (qualifier value) that supports fully defining the 736542009 |Pharmaceutical dose form (dose form)| hierarchy.
 
 |Dose form release characteristic (release characteristic)| is used to model the 736542009 |Pharmaceutical dose form (dose form)| hierarchy; it is not used to model 763158003 |Medicinal product (product)|.
-
-## Modeling
-
-<table data-header-hidden><thead><tr><th width="185.79296875"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>736480007 |Dose form release characteristic (release characteristic) or one or more descendants of 736480007 |Dose form release characteristic (release characteristic)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(release characteristic)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
 
 ## Naming
 
@@ -62,6 +76,10 @@ Synonyms are not allowed unless explicitly identified as an exception in the Edi
 ### Text Definitions
 
 Preferred; not required.
+
+## Modeling
+
+<table data-header-hidden><thead><tr><th width="185.79296875"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>736480007 |Dose form release characteristic (release characteristic) or one or more descendants of 736480007 |Dose form release characteristic (release characteristic)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(release characteristic)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
 
 ## Exemplars
 

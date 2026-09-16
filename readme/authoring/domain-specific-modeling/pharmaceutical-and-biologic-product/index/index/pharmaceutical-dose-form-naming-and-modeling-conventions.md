@@ -1,21 +1,37 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Pharmaceutical Dose Form Naming and Modeling Conventions
 
 ## Overview
 
 Pharmaceutical dose form concepts (e.g., conventional release oral tablet, prolonged-release oral capsule) that are deemed to be clinically useful and that can be sufficiently defined will be included in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy. Primitive concepts may be included if documented as an exception.
 
+{% hint style="danger" %}
 ### Out of Scope
 
 Lyophilized dose forms are out of scope for the international edition of SNOMED CT.
-
-## Modeling
-
-<table data-header-hidden><thead><tr><th width="211.50390625"></th><th></th></tr></thead><tbody><tr><td><strong>Semantic tag</strong></td><td>(dose form)</td></tr><tr><td><strong>Definition status</strong></td><td><p>Defined</p><p><strong>Exceptions</strong>:</p><ul><li><p>The following referenced in concepts cannot be sufficiently defined.  They are modeled with a parent of <code>736542009 |Pharmaceutical dose form (dose form)</code> with all applicable attributes and have a Definition status of <em>Primitive</em>. </p><ul><li>coated</li><li>drug delivery system</li><li>iontophoresis (e.g. <code>385113008 |Conventional release solution for iontophoresis (dose form)|</code>)</li><li>nebulizer (e.g. <code>385198000 |Conventional release solution for nebulizer (dose form)|</code>)</li><li>particle (<code>421535006 |Gastro-resistant oral particles tablet (dose form)|</code>)</li><li>pellet (e.g. <code>420767002 |Gastro-resistant oral pellets capsule (dose form)|</code>)</li><li>syrup (e.g. <code>385033009 |Powder for conventional release oral syrup (dose form)|</code>)</li><li>vapor</li></ul></li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has basic dose form</p></td><td><p><strong>Range</strong>:  <code>&#x3C;736478001 |Basic dose form (basic dose form)|</code></p><p><strong>Cardinality</strong>: 0..1</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one |Has basic dose form| attribute.</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has dose form intended site</p></td><td><p><strong>Range</strong>:  <code>&#x3C;736479009 |Dose form intended site (intended site)|</code></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one or more |Has dose form intended site| attributes.<br></li></ul><p><strong>Exceptions</strong>:</p><ul><li><code>785898006 |Conventional release solution for irrigation (dose form)|</code></li><li><code>785910004 |Prolonged-release intralesional implant (dose form)|</code></li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has dose form release characteristic<br></p></td><td><p><strong>Range</strong>:  <code>&#x3C;736480007 |Dose form release characteristic (release characteristic)|</code><br></p><p><strong>Cardinality</strong>: 0..1</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one |Has dose form release characteristic| attribute.</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has dose form administration method</p></td><td><p><strong>Range</strong>:  <code>&#x3C;736665006 |Dose form administration method (administration method)|</code></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one |Has dose form administration method| attribute.</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has dose form transformation</p></td><td><p><strong>Range</strong>: <code>&#x3C;736477006 |Dose form transformation (transformation)|</code></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one |Has dose form transformation| attribute. </li></ul></td></tr></tbody></table>
+{% endhint %}
 
 ## Naming
 
@@ -66,6 +82,10 @@ Exceptions:
 ### Text Definition
 
 Optional
+
+## Modeling
+
+<table data-header-hidden><thead><tr><th width="211.50390625"></th><th></th></tr></thead><tbody><tr><td><strong>Semantic tag</strong></td><td>(dose form)</td></tr><tr><td><strong>Definition status</strong></td><td><p>Defined</p><p><strong>Exceptions</strong>:</p><ul><li><p>The following referenced in concepts cannot be sufficiently defined. They are modeled with a parent of <code>736542009 |Pharmaceutical dose form (dose form)</code> with all applicable attributes and have a Definition status of <em>Primitive</em>.</p><ul><li>coated</li><li>drug delivery system</li><li>iontophoresis (e.g. <code>385113008 |Conventional release solution for iontophoresis (dose form)|</code>)</li><li>nebulizer (e.g. <code>385198000 |Conventional release solution for nebulizer (dose form)|</code>)</li><li>particle (<code>421535006 |Gastro-resistant oral particles tablet (dose form)|</code>)</li><li>pellet (e.g. <code>420767002 |Gastro-resistant oral pellets capsule (dose form)|</code>)</li><li>syrup (e.g. <code>385033009 |Powder for conventional release oral syrup (dose form)|</code>)</li><li>vapor</li></ul></li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has basic dose form</p></td><td><p><strong>Range</strong>: <code>&#x3C;736478001 |Basic dose form (basic dose form)|</code></p><p><strong>Cardinality</strong>: 0..1</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one |Has basic dose form| attribute.</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has dose form intended site</p></td><td><p><strong>Range</strong>: <code>&#x3C;736479009 |Dose form intended site (intended site)|</code></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one or more |Has dose form intended site| attributes.<br></li></ul><p><strong>Exceptions</strong>:</p><ul><li><code>785898006 |Conventional release solution for irrigation (dose form)|</code></li><li><code>785910004 |Prolonged-release intralesional implant (dose form)|</code></li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has dose form release characteristic<br></p></td><td><p><strong>Range</strong>: <code>&#x3C;736480007 |Dose form release characteristic (release characteristic)|</code><br></p><p><strong>Cardinality</strong>: 0..1</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one |Has dose form release characteristic| attribute.</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has dose form administration method</p></td><td><p><strong>Range</strong>: <code>&#x3C;736665006 |Dose form administration method (administration method)|</code></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one |Has dose form administration method| attribute.</li></ul></td></tr><tr><td><p><strong>Attribute:</strong></p><p>Has dose form transformation</p></td><td><p><strong>Range</strong>: <code>&#x3C;736477006 |Dose form transformation (transformation)|</code></p><p><strong>Cardinality</strong>: 0..*</p><ul><li>While the allowed range is broader, concepts representing a sufficiently defined pharmaceutical dose form should have one and only one |Has dose form transformation| attribute.</li></ul></td></tr></tbody></table>
 
 ## Exemplar
 

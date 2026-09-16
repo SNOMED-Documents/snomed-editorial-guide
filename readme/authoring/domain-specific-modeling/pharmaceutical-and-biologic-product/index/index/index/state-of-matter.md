@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # State of Matter
 
 ## Overview
@@ -10,14 +28,6 @@ layout:
 736471007 |State of matter (state of matter)| represents a physical state of matter.
 
 |State of matter (state of matter)| is a descendant of 362981000 |Qualifier value (qualifier value) that supports fully defining concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy. |State of matter (state of matter)| is used to model concepts in the 736478001 |Basic dose form (basic dose form)| hierarchy; they are not used to model the 736542009 |Pharmaceutical dose form (dose form)| or 763158003 |Medicinal product (product)| hierarchies.
-
-## Modeling
-
-| **Parent concept**    | 736471007 \|State of matter (state of matter)\| |
-| --------------------- | ----------------------------------------------- |
-| **Semantic tag**      | (state of matter)                               |
-| **Definition status** | Primitive                                       |
-| **Attributes**        | None                                            |
 
 ## Naming
 
@@ -54,6 +64,14 @@ Synonyms are not allowed unless explicitly identified as an exception in the Edi
 ### Text Definitions
 
 Preferred; not required.
+
+## Modeling
+
+| **Parent concept**    | 736471007 \|State of matter (state of matter)\| |
+| --------------------- | ----------------------------------------------- |
+| **Semantic tag**      | (state of matter)                               |
+| **Definition status** | Primitive                                       |
+| **Attributes**        | None                                            |
 
 ## Exemplar
 

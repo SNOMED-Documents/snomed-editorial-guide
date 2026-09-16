@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Dose Form Administration Method
 
 ## Overview
@@ -13,11 +31,7 @@ Concepts in the 736665006 |Dose form administration method (administration metho
 
 The 736665006 |Dose form administration method (administration method)| hierarchy is a descendant of 362981000 |Qualifier value (qualifier value)|.
 
-## Modeling
-
-<table data-header-hidden><thead><tr><th width="182.564453125"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>736665006 |Dose form administration method (administration method)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(administration method)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
-
-## Naming&#x20;
+## Naming
 
 ### FSN
 
@@ -54,6 +68,10 @@ Synonyms are not allowed unless explicitly identified as an exception in the Edi
 ### Text Definitions
 
 Preferred; not required.
+
+## Modeling
+
+<table data-header-hidden><thead><tr><th width="182.564453125"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>736665006 |Dose form administration method (administration method)</td></tr><tr><td><strong>Semantic tag</strong></td><td>(administration method)</td></tr><tr><td><strong>Definition status</strong></td><td>Defined</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
 
 ## Exemplars
 

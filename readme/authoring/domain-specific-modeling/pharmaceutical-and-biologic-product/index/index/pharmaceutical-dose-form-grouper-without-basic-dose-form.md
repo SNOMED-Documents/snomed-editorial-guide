@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Pharmaceutical Dose Form Grouper Without Basic Dose Form
@@ -24,17 +26,6 @@ layout:
 ## Overview
 
 Pharmaceutical dose form grouper concepts that do not include a basic dose form but are deemed to be clinically useful and that can be sufficiently defined will be included in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy.
-
-## Modeling
-
-Grouper concepts concepts that do not include a basic dose form shall be modeled using the proximal primitive modeling pattern.
-
-| **Semantic tag**                                                              | (dose form)                                                                                                                                                      |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Definition status**                                                         | <p>Defined</p><p><strong>Exception</strong>:</p><ul><li>Grouper concepts representing drug delivery systems will have a definition status of Primitive</li></ul> |
-| <p><strong>Attribute:</strong></p><p>Has dose form release characteristic</p> | **Range**: `<< 736480007`                                                                                                                                        |
-| <p><strong>Attribute:</strong></p><p>Has dose form intended site</p>          | **Range**: `<< 736479009`                                                                                                                                        |
-| <p><strong>Attribute:</strong></p><p>Has dose form administration method</p>  | **Range**: `<< 736665006`                                                                                                                                        |
 
 ## Naming
 
@@ -129,6 +120,17 @@ Exceptions:
 ### Text Definitions
 
 Optional
+
+## Modeling
+
+Grouper concepts concepts that do not include a basic dose form shall be modeled using the proximal primitive modeling pattern.
+
+| **Semantic tag**                                                              | (dose form)                                                                                                                                                      |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Definition status**                                                         | <p>Defined</p><p><strong>Exception</strong>:</p><ul><li>Grouper concepts representing drug delivery systems will have a definition status of Primitive</li></ul> |
+| <p><strong>Attribute:</strong></p><p>Has dose form release characteristic</p> | **Range**: `<< 736480007`                                                                                                                                        |
+| <p><strong>Attribute:</strong></p><p>Has dose form intended site</p>          | **Range**: `<< 736479009`                                                                                                                                        |
+| <p><strong>Attribute:</strong></p><p>Has dose form administration method</p>  | **Range**: `<< 736665006`                                                                                                                                        |
 
 ## Exemplars
 

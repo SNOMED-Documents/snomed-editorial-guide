@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Dose Form Transformation
 
 ## Overview
@@ -10,10 +28,6 @@ layout:
 736477006 |Dose form transformation (transformation)| represents a process where a dose form is transformed from that supplied by the manufacturer into a new dose form, usually to make it suitable for administration (e.g., dissolving a "powder for solution for injection" dose form into a "solution for injection" dose form). This may occur as part of the dispensing act or immediately before administration.
 
 |Dose form transformation (transformation)| is a descendant of 362981000 |Qualifier value (qualifier value) that supports fully defining the 736542009 |Pharmaceutical dose form (dose form)| hierarchy. |Dose form transformation (transformation)| is used to model the |Pharmaceutical dose form (dose form)| hierarchy; they are not used to model the 763158003 |Medicinal product (product)| hierarchy.
-
-## Modeling
-
-<table data-header-hidden><thead><tr><th width="179.74609375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>&#x3C;&#x3C;736477006 |Dose form transformation (transformation)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(transformation)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
 
 ## Naming
 
@@ -50,6 +64,10 @@ Synonyms are not allowed unless explicitly identified as an exception in the Edi
 ### Text Definitions
 
 Preferred; not required.
+
+## Modeling
+
+<table data-header-hidden><thead><tr><th width="179.74609375"></th><th></th></tr></thead><tbody><tr><td><strong>Parent concept</strong></td><td>&#x3C;&#x3C;736477006 |Dose form transformation (transformation)|</td></tr><tr><td><strong>Semantic tag</strong></td><td>(transformation)</td></tr><tr><td><strong>Definition status</strong></td><td>Primitive</td></tr><tr><td><strong>Attributes</strong></td><td>None</td></tr></tbody></table>
 
 ## Exemplars
 
