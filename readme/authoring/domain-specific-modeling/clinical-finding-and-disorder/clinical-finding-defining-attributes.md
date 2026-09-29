@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Clinical Finding Defining Attributes
 
 {% hint style="success" %}
@@ -187,6 +205,10 @@ For example,
 ## Has associated gene
 
 This attribute represents a recognized association between a disorder (or clinical finding) and a gene, where the gene is implicated in the condition but is not itself the anatomical site of the abnormality. This relationship does not assert a specific causal mechanism and may represent causative, susceptibility, modifying, or otherwise biologically relevant involvement.
+
+For example,
+
+* 65389002 |Adrenoleukodystrophy (disorder)| has 1395996007 |Has associated gene (attribute)| of 1396388003 |ATP binding cassette subfamily D member 1 gene (cell structure)|
 
 ## Has deficiency of
 
