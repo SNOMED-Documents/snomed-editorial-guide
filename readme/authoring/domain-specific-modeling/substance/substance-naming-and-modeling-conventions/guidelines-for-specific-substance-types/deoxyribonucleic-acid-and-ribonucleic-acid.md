@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Deoxyribonucleic acid and ribonucleic acid
 
 ## Ribonucleic acid of X organism
@@ -35,7 +53,7 @@ Pattern:
 
 For example,
 
-* Norovirus genogroup I
+* Norovirus genogroup I RNA
 
 ***
 
