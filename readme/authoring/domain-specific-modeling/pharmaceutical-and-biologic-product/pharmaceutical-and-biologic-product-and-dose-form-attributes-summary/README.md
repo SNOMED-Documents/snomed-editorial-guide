@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Pharmaceutical and Biologic Product and Dose Form Attributes Summary
 
 When authoring in this domain, these are the approved attributes and allowable ranges.
 
-See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133993757/Product+templates).&#x20;
+See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133993757/Product+templates).
 
 ## Domain Information for Pharmaceutical/Biologic Product
 
@@ -18,7 +36,7 @@ See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEM
 | Proximal Primitive Constraint | << 373873005 \| Pharmaceutical / biologic product (product) \| |
 | Proximal Primitive Refinement | -                                                              |
 
-## Author View of Attributes and Ranges for Pharmaceutical/Biologic Product
+#### Author View of Attributes and Ranges for Pharmaceutical/Biologic Product
 
 | Attribute                                                                 | Grouped | Cardinality | In Group Cardinality | Range Constraint                                                     |
 | ------------------------------------------------------------------------- | ------- | ----------- | -------------------- | -------------------------------------------------------------------- |
@@ -58,7 +76,7 @@ See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEM
 | Proximal Primitive Constraint | << 781405001 \| Medicinal product package (product) \|      |
 | Proximal Primitive Refinement | -                                                           |
 
-## Author View of Attributes and Ranges for Medicinal Product Package
+#### Author View of Attributes and Ranges for Medicinal Product Package
 
 | Attribute                                                | Grouped | Cardinality | In Group Cardinality | Range Constraint                                     |
 | -------------------------------------------------------- | ------- | ----------- | -------------------- | ---------------------------------------------------- |
@@ -77,9 +95,9 @@ See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEM
 | Proximal Primitive Constraint | << 736542009 \| Pharmaceutical dose form (dose form) \| |
 | Proximal Primitive Refinement | -                                                       |
 
-## Author View of Attributes and Ranges for Pharmaceutical Dose Form
+#### Author View of Attributes and Ranges for Pharmaceutical Dose Form
 
-<table><thead><tr><th width="188.5859375">Attribute</th><th width="106.369140625">Grouped</th><th width="124.458984375">Cardinality</th><th width="122.326171875">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>736476002 | Has basic dose form (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736478001 | Basic dose form (basic dose form) |</td></tr><tr><td>736472000 | Has dose form administration method (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736665006 | Dose form administration method (administration method) |</td></tr><tr><td>1402355005 |Has dose form after transformation (attribute)|</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736542009 |Pharmaceutical dose form (dose form)|</td></tr><tr><td>736474004 | Has dose form intended site (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736479009 | Dose form intended site (intended site) |</td></tr><tr><td>736475003 | Has dose form release characteristic (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736480007 | Dose form release characteristic (release characteristic) |</td></tr><tr><td>736473005 | Has dose form transformation (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736477006 | Dose form transformation (transformation) |</td></tr></tbody></table>
+<table><thead><tr><th width="188.5859375">Attribute</th><th width="109.580078125">Grouped</th><th width="120.333984375">Cardinality</th><th width="122.326171875">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>736476002 | Has basic dose form (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736478001 | Basic dose form (basic dose form) |</td></tr><tr><td>736472000 | Has dose form administration method (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736665006 | Dose form administration method (administration method) |</td></tr><tr><td>1402355005 |Has dose form after transformation (attribute)|</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736542009 |Pharmaceutical dose form (dose form)|</td></tr><tr><td>736474004 | Has dose form intended site (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736479009 | Dose form intended site (intended site) |</td></tr><tr><td>736475003 | Has dose form release characteristic (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736480007 | Dose form release characteristic (release characteristic) |</td></tr><tr><td>736473005 | Has dose form transformation (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736477006 | Dose form transformation (transformation) |</td></tr></tbody></table>
 
 ## Domain Information for Basic Dose Form
 
@@ -90,7 +108,7 @@ See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEM
 | Proximal Primitive Constraint | << 736478001 \| Basic dose form (basic dose form) \| |
 | Proximal Primitive Refinement | -                                                    |
 
-## Author View of Attributes and Ranges for Basic Dose Form
+#### Author View of Attributes and Ranges for Basic Dose Form
 
 | Attribute                                       | Grouped | Cardinality | In Group Cardinality | Range Constraint                                    |
 | ----------------------------------------------- | ------- | ----------- | -------------------- | --------------------------------------------------- |
