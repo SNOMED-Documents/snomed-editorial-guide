@@ -71,18 +71,6 @@ For example,
 * Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)
 * Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)
 
-{% hint style="success" %}
-|Has product characteristic| and |Has ingredient characteristic| attribute values should be added as appropriate.
-
-* Example of |Has product characteristic (attribute)|:
-  * Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)
-  * Pediatric vaccine product containing only Hepatitis A virus antigen (medicinal product)
-  * Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)
-* Example of |Has ingredient characteristic (attribute):
-  * Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae antigens (medicinal product)
-  * Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)
-{% endhint %}
-
 ### Preferred Term
 
 Template:
@@ -97,18 +85,6 @@ For example,
 * Hepatitis A and Hepatitis B virus antigens only vaccine product
 * Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product
 
-{% hint style="success" %}
-|Has product characteristic| and |Has ingredient characteristic| attribute values should be added as appropriate.
-
-* Example of |Has product characteristic (attribute)|:
-  * Hepatitis A virus antigen only adult vaccine product
-  * Hepatitis A virus antigen only pediatric vaccine product
-  * Adult acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens only vaccine product
-* Example of |Has ingredient characteristic (attribute):
-  * Clostridium tetani and low dose Corynebacterium diphtheriae antigens only vaccine product
-  * Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product
-{% endhint %}
-
 ### Synonym
 
 Synonyms matching the FSN are not required.
@@ -122,18 +98,6 @@ For example,
 * Hepatitis B vaccine
 * Hepatitis A and Hepatitis B vaccine
 * Diphtheria and pertussis and tetanus vaccine
-
-{% hint style="success" %}
-|Has product characteristic| and |Has ingredient characteristic| attribute values should be added as appropriate.
-
-* Example of |Has product characteristic (attribute)|:
-  * Hepatitis A adult vaccine
-  * Hepatitis A pediatric vaccine
-  * Diphtheria toxoid and acellular pertussis and tetanus toxoid adult vaccine
-* Example of |Has ingredient characteristic (attribute):
-  * Low dose diphtheria and tetanus vaccine
-  * Low dose diphtheria and inactivated poliomyelitis and tetanus vaccine
-{% endhint %}
 
 Synonyms representing abbreviations for product (e.g., MMR, DTaP) will not be included in the International Release due to lack of internationally accepted reference sources.
 
