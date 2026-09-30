@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Autoantibody
 
 ## Modeling
@@ -13,54 +31,67 @@ layout:
 
 ### FSN
 
-Pattern:  "Antibody to" + Antibody target
+Pattern:&#x20;
 
+Antibody to \<Antibody target>
+
+{% hint style="info" %}
 Note: An antibody target can be an antigen or another antibody.
+{% endhint %}
 
 For example,
 
-* Antibody to nuclear antigen (substance)&#x20;
+* Antibody to nuclear antigen (substance)
 * Antibody to thyroglobulin immunoglobulin G (substance)
 
 ***
 
 ### Preferred Term
 
-Pattern:  Antibody target + "antibody"
+Pattern:&#x20;
+
+\<Antibody target> antibody
 
 For example,
 
-* Nuclear antibody or Thyroglobulin  immunoglobulin G antibody
+* Nuclear antibody&#x20;
+* Thyroglobulin immunoglobulin G antibody
 
 ***
 
 ### Synonyms
 
-**Pattern:** A synonym that matches FSN
+**Pattern:**&#x20;
+
+A synonym that matches FSN without the semantic tag
 
 For example,
 
-* Antibody to nuclear antigen&#x20;
-* Antibody to thyroglobulin immunoglobulin G&#x20;
+* Antibody to nuclear antigen
+* Antibody to thyroglobulin immunoglobulin G
 
-**Pattern:** Antibody target + "Ab" &#x20;
+**Pattern:**&#x20;
+
+\<Antibody target> Ab
 
 For example,
 
-* Nuclear Ab&#x20;
+* Nuclear Ab
 * Thyroglobulin IgG Ab
 
 **Additional synonyms:**
 
-* Add a description containing antibody target + "autoantibody"
-  * Nuclear autoantibody&#x20;
-  * Thyroglobulin IgG autoantibody
-* In general, _anti X antibody_ or _anti X autoantibody_ is redundant and should be avoided. However, description(s) that are commonly used are considered for addition on a case by case basis, for example:
-  * &#x20;ANA - anti-nuclear antibody
+Pattern:
 
+\<Antibody target> autoantibody
 
+For example,
 
+* Nuclear autoantibody
+* Thyroglobulin IgG autoantibody
 
+In general, _anti X antibody_ or _anti X autoantibody_ is redundant and should be avoided. However, description(s) that are commonly used are considered for addition on a case by case basis, for example:
 
+* ANA - anti-nuclear antibody
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Autoantibody" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Autoantibody" class="button primary">Provide Feedback</a>
