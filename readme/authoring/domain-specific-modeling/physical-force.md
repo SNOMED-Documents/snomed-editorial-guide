@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Physical Force
 
-| Definition                                                                                                                                                                              | Examples                                                                                                           |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| The application of energy or effort to exert pressure, impact, or influence on an object or substance, resulting in a change in its state of motion, deformation, or overall condition. | <p></p><ul><li>87588000 | High altitude (physical force)|</li><li>263762005 | Friction (physical force)|</li></ul> |
+| Definition                                                                                                                                                                              | Examples                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| The application of energy or effort to exert pressure, impact, or influence on an object or substance, resulting in a change in its state of motion, deformation, or overall condition. | <ul><li>87588000</li></ul> |
 
 {% hint style="warning" %}
 **Physical Force**

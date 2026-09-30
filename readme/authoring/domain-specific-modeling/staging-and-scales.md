@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Staging and Scales
 
 <table><thead><tr><th width="345.71875">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>This hierarchy contains concepts which are named, authoritative, and internationally relevant staging or grading systems used to either make a judgment about the patient, e.g. cognition, or, evaluate a patient to determine the phase, or progression of a disease.</td><td><p>Assessment</p><ul><li>273472005 | Functional status index (assessment scale) |</li></ul><p>Staging</p><ul><li>254294008 | Tumor-node-metastasis (TNM) head and neck tumor staging (tumor staging) |</li></ul></td></tr></tbody></table>
@@ -31,7 +49,7 @@ A revised or modified version of an assessment is not a subtype of the original.
 
 ## Modeling
 
-Concepts of the type |Assessment using X assessment scale (procedure)| are modeled with a proximal primitive parent of 445536008 | Assessment using assessment scale (procedure)| or one of its subtypes, as appropriate.  A Method of Evaluation-action (qualifier value) is also added.
+Concepts of the type |Assessment using X assessment scale (procedure)| are modeled with a proximal primitive parent of 445536008 | Assessment using assessment scale (procedure)| or one of its subtypes, as appropriate. A Method of Evaluation-action (qualifier value) is also added.
 
 * For example,
   * 445719003 |Assessment using visual analog pain scale (procedure)| has a parent of 445536008 |Assessment using assessment scale (procedure)|

@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Naming Convention for Cells Expressing Antigens
 
 ## Fully specified name
@@ -21,7 +39,7 @@ Named antigens follow in alphabetical order.
   * NOT
   * Cell positive for FMC7 antigen and positive for CD10 antigen
 
-Include “positive”/”negative” for each antigen individually.  Do not group by positive or negative expressions.
+Include “positive”/”negative” for each antigen individually. Do not group by positive or negative expressions.
 
 * For example,
   * 1373277009 |Cell positive for CD4 antigen and negative for CD25 antigen and positive for CD127 antigen (cell)|
@@ -45,7 +63,7 @@ If appropriate, include an acceptable description with the expansion of a gene n
 * For example,
   * ![](<../../../../../.gitbook/assets/image (183).png>)
 
-Note:  _Not all existing content conforms to this guidance._&#x20;
+Note: _Not all existing content conforms to this guidance._
 
 {% hint style="info" %}
 See also [_Modeling_ _Cells Expressing Antigens_](../index-1/cell.md#modeling-of-cells-expressing-antigens)

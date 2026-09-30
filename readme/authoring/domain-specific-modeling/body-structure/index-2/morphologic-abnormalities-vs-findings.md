@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Morphologic Abnormalities vs. Findings
 
 Concepts from the Morphologic Abnormality hierarchy should not be used in place of concepts from the Clinical Findings hierarchy, even though they appear to refer to similar _clinical_ _situations_.

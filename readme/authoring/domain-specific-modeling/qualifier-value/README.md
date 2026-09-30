@@ -1,11 +1,29 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Qualifier Value
 
-<table><thead><tr><th width="356.6866455078125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Qualifier values include a wide range of concepts that provide attribute values used in the definitions of other concepts. These values can also be used in expressions to refine the meaning of a concept, or in the appropriate fields of a health record to add additional information.</td><td><ul><li>Action, Numbers, Clinical specialty, Context values, Mode of transmission, Type of diagnosis, Scale type, Sport, Technique, Time frame, World languages </li><li>There are also many Qualifier value subtypes relating to the pharmaceutical realm: Additional dosage instructions, Basic dose form, Route of administration value, etc.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="356.6866455078125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Qualifier values include a wide range of concepts that provide attribute values used in the definitions of other concepts. These values can also be used in expressions to refine the meaning of a concept, or in the appropriate fields of a health record to add additional information.</td><td><ul><li>Action, Numbers, Clinical specialty, Context values, Mode of transmission, Type of diagnosis, Scale type, Sport, Technique, Time frame, World languages</li><li>There are also many Qualifier value subtypes relating to the pharmaceutical realm: Additional dosage instructions, Basic dose form, Route of administration value, etc.</li></ul></td></tr></tbody></table>
 
 The 362981000 | Qualifier value (qualifier value) | hierarchy contains concepts used as the target value of an attribute in a defining relationship.
 
@@ -25,9 +43,4 @@ Changes cannot be made to the Qualifier Value hierarchy without permission from 
 * [International System of Units - unit of mass](international-system-of-units-unit-of-mass.md)
 * [Technique](technique.md)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Qualifier%20Value" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Qualifier%20Value" class="button primary">Provide Feedback</a>

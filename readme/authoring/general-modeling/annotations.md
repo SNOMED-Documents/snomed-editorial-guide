@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Annotations
 
 The purpose of annotations is to provide a formal means to represent additional information about a SNOMED CT component (concept, description, relationship) or as a member of a reference set.
@@ -34,7 +52,7 @@ SNOMED derivative products, such as mappings to/from other terminologies, should
 Annotations can be:
 
 * added to both new and legacy concepts.
-  * For legacy concepts, attribution may only be added if there is a change to the modeling of the concept to support the collaborating organization's definition.&#x20;
+  * For legacy concepts, attribution may only be added if there is a change to the modeling of the concept to support the collaborating organization's definition.
 * added in the international edition or extensions.
 * inactivated if incorrect or no longer relevant. An inactivation reason is not required. Each annotation attribute has its own requirements and rules on maintenance documented in separate guidance.
 
@@ -48,7 +66,7 @@ Annotations in annotation refsets can be found by using ECL queries for refset m
 
 The ECL query can filter the members via ^1292992004 \{{ M value="enter annotation string" \}}
 
-* For example,&#x20;
+* For example,
 
 ```
 ^1292992004 {{ M value="Inserm Orphanet" }}

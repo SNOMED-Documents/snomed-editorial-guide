@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Intended Use
 
 SNOMED CT is intended to be used in healthcare:
@@ -20,7 +38,7 @@ The purpose of SNOMED CT is to represent clinically relevant information reliabl
 
 ## Semantic Interoperability
 
-The overall semantic interoperability of electronic health applications  is achieved through the combined functioning of the information architecture of the application and the terminology that populates it. A basic principle of SNOMED CT is to create and maintain semantic interoperability of clinical information. _Semantic interoperability_ is the capability of two or more systems to communicate and exchange information. Each system should be able to interpret the meaning of, and effectively use, received information. To achieve this goal, the meaning of the information must be agreed upon, consistent, and clearly expressed.
+The overall semantic interoperability of electronic health applications is achieved through the combined functioning of the information architecture of the application and the terminology that populates it. A basic principle of SNOMED CT is to create and maintain semantic interoperability of clinical information. _Semantic interoperability_ is the capability of two or more systems to communicate and exchange information. Each system should be able to interpret the meaning of, and effectively use, received information. To achieve this goal, the meaning of the information must be agreed upon, consistent, and clearly expressed.
 
 ## Context
 
@@ -42,9 +60,4 @@ Designers and implementers of electronic health applications need guidance to id
 
 (see also _Situation with Explicit Context_ section)
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Intended%20Use" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Intended%20Use" class="button primary">Provide Feedback</a>

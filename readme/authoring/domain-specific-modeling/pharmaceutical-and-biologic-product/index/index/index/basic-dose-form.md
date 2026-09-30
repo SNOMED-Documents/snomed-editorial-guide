@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Basic Dose Form
 
 ## Overview
@@ -17,7 +35,7 @@ The `736478001 |Basic dose form (basic dose form)|` hierarchy is a descendant of
 
 Descendants shall be modeled as follows.
 
-<table data-header-hidden><thead><tr><th width="299.5703125"></th><th></th></tr></thead><tbody><tr><td>Parent concept</td><td><code>736478001 |Basic dose form (basic dose form)</code></td></tr><tr><td>Semantic tag</td><td>(basic dose form)</td></tr><tr><td>Definition status</td><td><p>Primitive</p><ul><li><p>Exceptions:</p><ul><li>Grouper concepts based on state of matter shall have <em>Defined</em> definition status</li></ul></li></ul></td></tr><tr><td><p><strong>Attribute</strong>:</p><p>Has state of matter (attribute)</p></td><td><p><strong>Range</strong>: <code>&#x3C;736471007 |State of matter (state of matter)</code></p><p></p><p><strong>Cardinality</strong>: 1..1</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="299.5703125"></th><th></th></tr></thead><tbody><tr><td>Parent concept</td><td><code>736478001 |Basic dose form (basic dose form)</code></td></tr><tr><td>Semantic tag</td><td>(basic dose form)</td></tr><tr><td>Definition status</td><td><p>Primitive</p><ul><li><p>Exceptions:</p><ul><li>Grouper concepts based on state of matter shall have <em>Defined</em> definition status</li></ul></li></ul></td></tr><tr><td><p><strong>Attribute</strong>:</p><p>Has state of matter (attribute)</p></td><td><p><strong>Range</strong>: <code>&#x3C;736471007 |State of matter (state of matter)</code></p><p><strong>Cardinality</strong>: 1..1</p></td></tr></tbody></table>
 
 ## Naming Guidelines for Grouper Concept
 

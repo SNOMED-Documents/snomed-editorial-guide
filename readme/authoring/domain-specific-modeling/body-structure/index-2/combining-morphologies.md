@@ -1,14 +1,32 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Combining morphologies
 
 When modeling a concept requiring two role groups with the same finding site/body structure but two different morphologies (because a combined morphology does not exist), then those two morphologic abnormalities can be combined to create a new single, combined |(morphologic abnormality)| concept. Keep the newly created morphologic abnormality concept primitive as all morphologic abnormality concepts should be primitive. Limit the combination to two morphological concepts into a single concept; combining more than two morphological concepts into a single combined concept is not permitted.
 
-Example, \
-If 400067002 |Acantholytic epidermal nevus (disorder)| had the same Finding site of |Skin structure (body structure)| with two different morphologic abnormalities of |Epidermal nevus (morphologic abnormality)| and |Acantholysis (morphologic abnormality)|, then those two morphologic abnormality concepts can be combined to create a single, primitive, morphologic abnormality concept of |Acantholytic epidermal nevus (morphologic abnormality)|. This will prevent modeling with two relationship groups.&#x20;
+Example,\
+If 400067002 |Acantholytic epidermal nevus (disorder)| had the same Finding site of |Skin structure (body structure)| with two different morphologic abnormalities of |Epidermal nevus (morphologic abnormality)| and |Acantholysis (morphologic abnormality)|, then those two morphologic abnormality concepts can be combined to create a single, primitive, morphologic abnormality concept of |Acantholytic epidermal nevus (morphologic abnormality)|. This will prevent modeling with two relationship groups.
 
 Instead of modeling as per this diagram in the stated view with two morphologies of the same finding site:
 

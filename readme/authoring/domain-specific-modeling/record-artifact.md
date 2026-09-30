@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Record Artifact
 
 <table><thead><tr><th width="298.8697509765625">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Clinical documents, or parts thereof</td><td><ul><li>422813005 | Document section (record artifact) |</li><li>416575001 | Perioperative record (record artifact) |</li></ul></td></tr></tbody></table>

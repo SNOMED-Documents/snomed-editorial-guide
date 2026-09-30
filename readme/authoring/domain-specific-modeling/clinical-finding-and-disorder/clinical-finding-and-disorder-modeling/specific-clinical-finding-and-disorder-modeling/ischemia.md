@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Ischemia
 
 ## Ischemic disorder
@@ -11,15 +29,10 @@ Ischemic disorders are defined by a morphology of ischemic structural change. Th
 
 ## Ischemic heart disease
 
-Ischemic heart disease includes myocardial infarction, myocardial ischemia (without infarction), angina, and other disorders of the heart that have ischemic structural change (reversible or non-reversible) as a  _defining characteristic_.
+Ischemic heart disease includes myocardial infarction, myocardial ischemia (without infarction), angina, and other disorders of the heart that have ischemic structural change (reversible or non-reversible) as a _defining characteristic_.
 
-Coronary arteriosclerosis can, of course, be present without causing ischemia, so coronary arteriosclerosis is not a  _subtype_ of ischemic heart disease.
+Coronary arteriosclerosis can, of course, be present without causing ischemia, so coronary arteriosclerosis is not a _subtype_ of ischemic heart disease.
 
-Likewise, there are causes of myocardial ischemia and infarction other than coronary arteriosclerosis, so ischemic heart disease is not a  _subtype_ of coronary arteriosclerosis.
+Likewise, there are causes of myocardial ischemia and infarction other than coronary arteriosclerosis, so ischemic heart disease is not a _subtype_ of coronary arteriosclerosis.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Ischemia" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Ischemia" class="button primary">Provide Feedback</a>

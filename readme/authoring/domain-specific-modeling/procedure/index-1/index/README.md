@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Clinical Imaging Procedure Naming Conventions
 
 Almost all imaging procedures can be unambiguously expressed in a number of ways. There is a balance between flexibility in language and efficiency in terminology maintenance. Consequently, all variants for imaging modalities are not routinely included in SNOMED CT. Submissions for additional descriptions must be justified explicitly.
@@ -18,8 +36,6 @@ For example,
 * 726077005 | Computed tomography arteriography of bronchial artery (procedure)| has the synonym CT _angiography_ of bronchial artery
 * 709552006 | Computed tomography angiography of iliac artery (procedure)| has the synonym CT _angiogram_ of iliac artery
 {% endhint %}
-
-
 
 ## Subpages
 

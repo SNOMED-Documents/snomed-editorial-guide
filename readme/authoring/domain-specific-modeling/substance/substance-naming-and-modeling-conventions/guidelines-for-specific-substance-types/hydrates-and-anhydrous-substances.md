@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Hydrates and anhydrous substances
 
 ## Modeling
@@ -19,7 +37,7 @@ For example,
 * Caffeine hydrate (substance) is modification of → Caffeine
 * Zinc sulfate heptahydrate (substance) is modification of → Zinc sulfate
 
-### Naming&#x20;
+### Naming
 
 ### FSN
 

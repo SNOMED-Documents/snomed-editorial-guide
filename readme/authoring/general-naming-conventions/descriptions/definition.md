@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Definition
 
 A _definition_ is a textual description applied to some SNOMED CT concepts that provides additional information about the intended meaning or usage of the concept. Definitions are not mandated and are considered for addition on a case-by-case basis, and if required, to differentiate a concept from its related concepts.

@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Metabolites
 
 ## Overview
 
-A metabolite is a substance created or utilized during metabolism, the process by which the body breaks down food, drugs, chemicals, or its own tissues (e.g., fat, muscle).  Metabolites are differentiated from derivatives, that are compounds synthesized by modifying precursor compounds and are important in discovery of new drugs (e.g., molecules with improved efficacy, reduced toxicity, or enhanced pharmacokinetic profiles), materials science (e.g., polymers with altered properties), and agrochemicals (e.g., potent pesticide).
+A metabolite is a substance created or utilized during metabolism, the process by which the body breaks down food, drugs, chemicals, or its own tissues (e.g., fat, muscle). Metabolites are differentiated from derivatives, that are compounds synthesized by modifying precursor compounds and are important in discovery of new drugs (e.g., molecules with improved efficacy, reduced toxicity, or enhanced pharmacokinetic profiles), materials science (e.g., polymers with altered properties), and agrochemicals (e.g., potent pesticide).
 
 Concepts representing _Metabolites of X_ will be considered for inclusion based upon project requirements.
 

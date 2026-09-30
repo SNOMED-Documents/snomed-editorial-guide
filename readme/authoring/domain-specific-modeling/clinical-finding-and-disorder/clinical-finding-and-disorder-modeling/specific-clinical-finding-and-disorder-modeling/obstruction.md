@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Obstruction
 
 Since an obstruction describes blockage inside the space of a tubular structure, the Finding site of obstruction concepts should be a value from the 113342003 |Structure of lumen of body system (body structure)| subhierarchy.

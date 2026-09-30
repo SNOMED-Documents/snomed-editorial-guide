@@ -1,11 +1,29 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Situation with Explicit Context
 
-<table><thead><tr><th width="348.9349365234375">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Concepts that include context information; a subtype of the situation to which it applies, with an attribute associating it with the relevant clinical finding or procedure</td><td><p></p><ul><li>183982006 | Herniotomy planned (situation)|</li><li>1269455000 | Caregiver able to administer subcutaneous injection (situation)|</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="348.9349365234375">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Concepts that include context information; a subtype of the situation to which it applies, with an attribute associating it with the relevant clinical finding or procedure</td><td><ul><li>183982006 | Herniotomy planned (situation)|</li><li>1269455000 | Caregiver able to administer subcutaneous injection (situation)|</li></ul></td></tr></tbody></table>
 
 ## Variable meanings according to context
 

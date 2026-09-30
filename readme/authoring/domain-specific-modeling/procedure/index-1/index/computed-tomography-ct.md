@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Computed Tomography - CT
 
 {% hint style="info" %}
@@ -80,7 +98,7 @@ This naming pattern is used when an anatomical location is specified, but the bl
 * SYN: CT venogram of X with contrast
 * SYN: Computed tomography venography of X with contrast
   * For example,
-    * 432842007 |Computed tomography venography of intracranial vein with contrast (procedure)|&#x20;
+    * 432842007 |Computed tomography venography of intracranial vein with contrast (procedure)|
       * FSN: Computed tomography venography of intracranial vein with contrast (procedure)
       * PT: CT venography of intracranial vein with contrast
       * SYN: Computed tomography venography of intracranial vein with contrast

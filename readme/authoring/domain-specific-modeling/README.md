@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Domain Specific Modeling
 
 SNOMED CT is arranged as a polyhierarchy. A _hierarchy_ is defined as an ordered organization of concept codes linked together through IS A relationships. Concept codes are linked to their more general parent concept codes directly above them in a hierarchy. Concepts with more general meanings are usually located at the top of the hierarchy and then at each level down the hierarchy the meanings become increasingly more specialized.

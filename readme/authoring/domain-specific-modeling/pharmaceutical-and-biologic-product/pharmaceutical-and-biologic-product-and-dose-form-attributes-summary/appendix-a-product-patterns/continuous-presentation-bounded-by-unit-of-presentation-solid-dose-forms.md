@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Continuous presentation: bounded by unit of presentation; solid dose forms
 
 _Examples: vials, ampoules, sachets, containing solid dose forms such as powders or granules which may or may not be dissolved before administration_
@@ -26,7 +44,7 @@ Strength is expressed as "per one unit of presentation" and the presentation str
 | Presentation strength           | 2 g \[per 1 vial]                 | UCUM: 2 g per 1 each                                                                                                                      |
 | Concentration strength          |                                   | The concentration of cefotaxime in the powder inside the vial is known to the regulatory agency but is not deemed clinically significant. |
 
-### **Example:  Pack of 50 sachets containing 4g of colestyramine powder for oral solution**
+### **Example: Pack of 50 sachets containing 4g of colestyramine powder for oral solution**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.09.14 PM.png" alt=""><figcaption></figcaption></figure>
 

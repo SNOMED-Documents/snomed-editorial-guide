@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Malformation, deformation, anomaly
 
 The word _anomaly_ is, by itself, ambiguous as it may mean either a structural or functional abnormality, depending on the body structure to which it is applied. Concepts using the term _anomaly_ must be evaluated to determine whether it represents a structural or functional abnormality. Using the term "anomaly" in new concept FSNs is not allowed. The terms "structural abnormality" should be used when it is unclear whether the morphology results from malformation or deformation.
@@ -18,8 +36,6 @@ When referring to a broad term to denote an intrinsic structural abnormality (e.
 
 {% hint style="success" %}
 **See other related section in the guide**
-
-
 
 * Genetic, developmental, congenital, and physical origin
 * Acquired abnormality of congenital anomaly

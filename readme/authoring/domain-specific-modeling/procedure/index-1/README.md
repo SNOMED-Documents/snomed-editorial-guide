@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Procedure Naming Conventions
 
 ## General rules
@@ -46,8 +64,8 @@ SYN: \[plasty/stomy/ectomy/otomy]
 {% hint style="success" %}
 **Please see potential naming patterns:**
 
-* Completed or in review:  [Pre-coordination Naming Patterns](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180)
-* Proposed for future review:  [Unreviewed Patterns by Hierarchy](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836)
+* Completed or in review: [Pre-coordination Naming Patterns](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180)
+* Proposed for future review: [Unreviewed Patterns by Hierarchy](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836)
 {% endhint %}
 
 Further refinements can be affected by the various attributes and their values as described in the sections below.

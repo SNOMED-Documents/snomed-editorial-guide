@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Procedure Modeling
 
 ## Procedure attribute hierarchies
@@ -42,7 +60,7 @@ Evaluation procedures can be defined by a Method (attribute) of Evaluation - act
 
 ## Out of scope of procedures <a href="#out-of-scope-of-procedures" id="out-of-scope-of-procedures"></a>
 
-SNOMED International is no longer accepting new laboratory concepts to the 122869004 |Measurement procedure (procedure)| hierarchy which are in scope for the 363787002 |Observable entity (observable entity)| hierarchy. If new content of this type is needed in the 122869004 |Measurement procedure (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see[ ](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity)[Observable Entity](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity) and[ ](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity/observable-entity-naming-conventions)[Observable Entity Naming Conventions](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity/observable-entity-naming-conventions) pages for more information.&#x20;
+SNOMED International is no longer accepting new laboratory concepts to the 122869004 |Measurement procedure (procedure)| hierarchy which are in scope for the 363787002 |Observable entity (observable entity)| hierarchy. If new content of this type is needed in the 122869004 |Measurement procedure (procedure)| hierarchy to satisfy existing use cases, it can be created in national extensions in the procedure hierarchy. Please see[ ](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity)[Observable Entity](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity) and[ ](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity/observable-entity-naming-conventions)[Observable Entity Naming Conventions](https://docs.snomed.org/snomed-ct-specifications/snomed-ct-editorial-guide/readme/authoring/domain-specific-modeling/observable-entity/observable-entity-naming-conventions) pages for more information.
 
 {% hint style="info" %}
 Note that the 122869004 |Measurement procedure (procedure)| hierarchy includes some clinical procedures which require manipulation of the patient, equipment and typically have narrative or categorical results rather than structured results like laboratory tests do. This type of concept will be considered for inclusion in the 122869004 |Measurement procedure (procedure)| hierarchy.

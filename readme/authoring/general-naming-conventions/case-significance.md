@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Case Significance
 
 Generally, SNOMED CT descriptions begin with an upper case letter; the rest of the words in the description are lower case, except for abbreviations and proper nouns (names of people, organizations, taxonomic groups (e.g. species, genus, family)).
@@ -49,13 +67,13 @@ When an _organism_ is part of the term of a concept in another hierarchy, it is 
 
 When the species Vaccinia virus (of the genus Orthopoxvirus) is specified, _Vaccinia_ is capitalized.
 
-* For example,&#x20;
+* For example,
   * 293120003 |Adverse reaction to component of vaccine product containing Vaccinia virus antigen (disorder)|
 
 When _vaccinia_ is describing a condition, _vaccinia_ is not capitalized.
 
 * For example,
-  * 56978007 |Generalized vaccinia (disorder)|&#x20;
+  * 56978007 |Generalized vaccinia (disorder)|
 
 {% hint style="warning" %}
 For more information, see [Organism Naming Conventions](../domain-specific-modeling/organism/organism-naming-conventions.md).
@@ -77,7 +95,7 @@ If a description begins with a numeric value and follows with an abbreviation th
 
 ### Genes and genetic diseases <a href="#special-characters" id="special-characters"></a>
 
-The case significance setting for concepts that represent formal gene names are to align with the source (usually HGNC).  However, when referring to the disease caused by the gene, there is no such requirement, and the standard terming editorial guidance applies. The disorder caused by the gene should have an initial capital letter, even if the name of the disease is the same as the gene name.  Exceptions are if the initial letter of the disorder is case sensitive; for example, 48449016 |tRNA|,  1402127002 |APC regulator of Wnt signaling pathway 2 gene related Sotos syndrome (disorder)|.
+The case significance setting for concepts that represent formal gene names are to align with the source (usually HGNC). However, when referring to the disease caused by the gene, there is no such requirement, and the standard terming editorial guidance applies. The disorder caused by the gene should have an initial capital letter, even if the name of the disease is the same as the gene name. Exceptions are if the initial letter of the disorder is case sensitive; for example, 48449016 |tRNA|, 1402127002 |APC regulator of Wnt signaling pathway 2 gene related Sotos syndrome (disorder)|.
 
 ### Special characters <a href="#special-characters" id="special-characters"></a>
 

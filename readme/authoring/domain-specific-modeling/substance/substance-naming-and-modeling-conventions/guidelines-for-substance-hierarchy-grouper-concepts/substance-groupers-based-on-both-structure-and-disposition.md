@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Substance Groupers Based on Both Structure and Disposition
 
 ## Overview
@@ -19,9 +37,9 @@ _Note: This section applies to concepts representing a single structural parent 
 
 The following illustrates the **stated** and **inferred** view for grouper concepts based on both structure and disposition.
 
-<figure><img src="../../../../../../.gitbook/assets/image (111).png" alt=""><figcaption><p>Figure:  Stated view of 438942000 |Piperidine derivative with histamine receptor antagonist mechanism of action (substance)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (111).png" alt=""><figcaption><p>Figure: Stated view of 438942000 |Piperidine derivative with histamine receptor antagonist mechanism of action (substance)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (112).png" alt=""><figcaption><p>Figure:  Inferred view of 438942000 |Piperidine derivative with histamine receptor antagonist mechanism of action (substance)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (112).png" alt=""><figcaption><p>Figure: Inferred view of 438942000 |Piperidine derivative with histamine receptor antagonist mechanism of action (substance)|</p></figcaption></figure>
 
 ## Terming
 

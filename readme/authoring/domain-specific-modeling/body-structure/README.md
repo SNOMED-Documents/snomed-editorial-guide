@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Body Structure
 
 The 123037004 |Body structure (body structure)| subhierarchy includes both anatomical structures and morphologic abnormalities
 
-<table><thead><tr><th width="257.80859375">Semantic tag</th><th>Example</th></tr></thead><tbody><tr><td>Body structure</td><td><ul><li>38033009 | Amputation stump (body structure) |</li></ul><ul><li>91134007 | Mitral valve structure (body structure) |</li></ul></td></tr><tr><td>Morphologic abnormality</td><td><ul><li>189955008 | Biopsy wound (morphologic abnormality) |</li></ul><ul><li>31470003 | Adenosarcoma (morphologic abnormality) |</li></ul></td></tr><tr><td>Cell</td><td><ul><li>250293008 | Agranular white blood cell (cell) |</li></ul><ul><li>57184004 | T lymphocyte (cell) |</li></ul></td></tr><tr><td>Cell structure</td><td><ul><li>4897009 | Cell membrane, prokaryotic (cell structure) |</li></ul><ul><li>362293000 | Entire axon (cell structure) |</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="257.80859375">Semantic tag</th><th>Example</th></tr></thead><tbody><tr><td>Body structure</td><td><ul><li>38033009 | Amputation stump (body structure) |</li><li>91134007 | Mitral valve structure (body structure) |</li></ul></td></tr><tr><td>Morphologic abnormality</td><td><ul><li>189955008 | Biopsy wound (morphologic abnormality) |</li><li>31470003 | Adenosarcoma (morphologic abnormality) |</li></ul></td></tr><tr><td>Cell</td><td><ul><li>250293008 | Agranular white blood cell (cell) |</li><li>57184004 | T lymphocyte (cell) |</li></ul></td></tr><tr><td>Cell structure</td><td><ul><li>4897009 | Cell membrane, prokaryotic (cell structure) |</li><li>362293000 | Entire axon (cell structure) |</li></ul></td></tr></tbody></table>
 
 The body structure domain includes anatomical structures, as well as morphologic abnormalities, as follows:
 

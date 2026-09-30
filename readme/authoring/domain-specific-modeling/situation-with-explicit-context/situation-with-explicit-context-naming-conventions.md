@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Situation with Explicit Context Naming Conventions
 
 For information on precoordinated naming patterns that have been reviewed or are currently in review, see [Pre-coordination Naming Patterns project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project). Unreviewed patterns for the Situation with explicit context hierarchy can be found [here](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978836/Unreviewed+Patterns+by+Hierarchy). New content should conform with the naming patterns; however, legacy content may not.

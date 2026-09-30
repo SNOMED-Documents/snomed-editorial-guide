@@ -1,20 +1,32 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Creating new morphologies
 
 When considering the creation of a new morphological abnormality concept, consider the following:
 
-  * When the name of a potentially new morphology is the same as the disease, creation of that new morphologic abnormality concept may not be beneficial since it would not be very morphologically descriptive.
-  * Determine if there is benefit in creating a new morphology for a very small number of rarely used leaf nodes. If the new morphology is needed to differentiate two non-leaf concepts, that would be sufficient to create the new morphology. Otherwise, use the nearest existing morphologic abnormality. 
-  * Including a body site in a morphological abnormality concept is forbidden unless there is a clear modeling and pathological need.
+* When the name of a potentially new morphology is the same as the disease, creation of that new morphologic abnormality concept may not be beneficial since it would not be very morphologically descriptive.
+* Determine if there is benefit in creating a new morphology for a very small number of rarely used leaf nodes. If the new morphology is needed to differentiate two non-leaf concepts, that would be sufficient to create the new morphology. Otherwise, use the nearest existing morphologic abnormality.
+* Including a body site in a morphological abnormality concept is forbidden unless there is a clear modeling and pathological need.
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Creating%20new%20morphologies" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Creating%20new%20morphologies" class="button primary">Provide Feedback</a>

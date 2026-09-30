@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Procedure Attributes
 
 The following defining attributes correspond to the [_Procedure Attributes Summary_](../index.md) table.
@@ -30,7 +48,7 @@ The Access (attribute) should only be used if there is more than one possible ro
 
 If a procedure (like a biopsy) can be done via multiple routes, the Access (attribute) must be used if the route is inherent to that specific procedure, even if the FSN does not explicitly state it.\
 \
-For all new procedures, if multiple routes are possible, the specific access route must be stated in the FSN.  Legacy content will be addressed as resources allow.
+For all new procedures, if multiple routes are possible, the specific access route must be stated in the FSN. Legacy content will be addressed as resources allow.
 
 ## Direct device
 
@@ -143,7 +161,7 @@ Attributes should be grouped with the Method (attribute) to which they apply. In
 Exception,
 
 * Recipient category (attribute)
-  * A single procedure concept should not be precoordinated when more than one Recipient Category is involved. Such complex statements should have two or more procedure concepts that are placed into an appropriately structured electronic health application.&#x20;
+  * A single procedure concept should not be precoordinated when more than one Recipient Category is involved. Such complex statements should have two or more procedure concepts that are placed into an appropriately structured electronic health application.
   * See separate attribute entry for [_Recipient category_](index.md#recipient-category) below.
 
 No relationship group can contain more than one Method (attribute). If a procedure has more than one method, each Method (attribute) serves as the anchor of a separate relationship group that will contain any defining relationships that represent a direct object (and, where relevant, indirect object) of the Method's action. This is true even if the different Methods each act on the same direct object. Each relationship group can be thought of as representing a component of the procedure that involves a particular action.
@@ -172,8 +190,6 @@ For example,
 * 841021000000107 |Trabeculotomy by internal approach (procedure)| using |Internal approach (qualifier value)|
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2026-01-23 at 11.04.36 AM.png" alt=""><figcaption></figcaption></figure>
-
-
 
 * 6421000087103 |Fluoroscopic antegrade pyelography of right renal pelvis (procedure)| using |Antegrade approach (qualifier value)|
 
@@ -269,9 +285,6 @@ For example,
     * Direct device of Venous catheter (physical object)
 
     <figure><img src="../../../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Stated view of 405433000 |Removal of catheter from brachial vein (procedure)|</p></figcaption></figure>
-
-
-
 * 371005009 | Removal of calculus of urinary bladder (procedure)| has:
   * Direct morphology of Calculus (morphologic abnormality)
   * Method of Removal - action (qualifier value)

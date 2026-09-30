@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Complication and Sequela Modeling
 
 Combined disorders can occur, for example:
@@ -77,7 +95,7 @@ The Due to and After attributes are used to model a disorder that occurs after a
 
 ### Before
 
-This attribute is used to model a preoperative complication. Strictly, a preoperative complication is a disorder that complicates the procedure, rather than being a complication of that procedure.  A preoperative complication might be considered to be a disorder that exists prior to surgery that adversely affects the surgery or that results in an intraoperative or postoperative complication.
+This attribute is used to model a preoperative complication. Strictly, a preoperative complication is a disorder that complicates the procedure, rather than being a complication of that procedure. A preoperative complication might be considered to be a disorder that exists prior to surgery that adversely affects the surgery or that results in an intraoperative or postoperative complication.
 
 ### During
 

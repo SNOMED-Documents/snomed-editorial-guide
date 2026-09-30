@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Pneumonia vs. Pneumonitis
 
 The terms _pneumonia_ and _pneumonitis_ are often used interchangeably. In SNOMED CT, _pneumonia_ is used for infectious causes, and _pneumonitis_ is used for noninfectious causes.
@@ -29,6 +47,6 @@ The clinically-warranted morphologic abnormality for many subtypes of pneumonia 
 
 ### Guidance exception
 
-Content has been added that aligns with the 2025 International Multidisciplinary Classification of the Interstitial Pneumonias with attribution to ERS/ATS - European Respiratory Society/American Thoracic Society.  For these concepts, the fully specified term and preferred term align with the classification which uses the term _pneumonia_ instead of _pneumonitis,_ even in the absence of an infectious cause.&#x20;
+Content has been added that aligns with the 2025 International Multidisciplinary Classification of the Interstitial Pneumonias with attribution to ERS/ATS - European Respiratory Society/American Thoracic Society. For these concepts, the fully specified term and preferred term align with the classification which uses the term _pneumonia_ instead of _pneumonitis,_ even in the absence of an infectious cause.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Pneumonia%20vs.%20Pneumonitis" class="button primary">Provide Feedback</a>

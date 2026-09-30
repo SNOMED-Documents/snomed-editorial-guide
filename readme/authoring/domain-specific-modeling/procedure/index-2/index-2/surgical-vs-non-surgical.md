@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Surgical vs. non-surgical
 
 As mentioned in the initial Surgical procedures page, the definition of surgical procedure includes _intentional non-transient alteration of structures of the body and/or necessarily involves cutting into the body_.

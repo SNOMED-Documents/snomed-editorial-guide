@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Chemotherapy Regime Therapy Naming Conventions
 
 Chemotherapy regimens, which are internationally recognized and implemented, are acceptable content and may be added to the (regime/therapy) hierarchy as subtypes of 716872004 | Antineoplastic chemotherapy regimen (regime/therapy)|.

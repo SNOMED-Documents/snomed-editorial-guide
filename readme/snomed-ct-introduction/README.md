@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
-# SNOMED CT Introduction
+
+# Introduction to SNOMED CT
 
 ## What is SNOMED CT?
 
-SNOMED CT is a high-quality, comprehensive, international, logic-based reference terminology that is used to present clinically relevant information. It began with the union of NHS Clinical Terms Version 3 and SNOMED RT; this provided the initial scope which has since been updated to reflect contemporary clinical practice and changes in medical technology. 
+SNOMED CT is a high-quality, comprehensive, international, logic-based reference terminology that is used to present clinically relevant information. It began with the union of NHS Clinical Terms Version 3 and SNOMED RT; this provided the initial scope which has since been updated to reflect contemporary clinical practice and changes in medical technology.
 
 Content development is provided by expert clinicians driven by the requirements of user communities. This includes core content for use internationally and content relevant to national extensions for local implementation.
 
@@ -19,18 +37,10 @@ _Description logic (DL)_ is the formal foundation of meaning in SNOMED CT. The w
 
 It supports semantic interoperability and multi-purpose use within electronic health applications (primarily electronic health records or EHRs) and has many advantages over other terminologies. They include:
 
-  * Consistent, and formal expansion of, content through centralized authoring and maintenance (International Release)
-  * Flexibility to meet most terminological requirements based on national, regional, language, application, or customer (Extensions)
-  * Clear, singular meaning of concepts
-  * Reliable, consistent, and reproducible clinical documentation
-  * Enhanced high-quality healthcare delivery to individuals and populations
+* Consistent, and formal expansion of, content through centralized authoring and maintenance (International Release)
+* Flexibility to meet most terminological requirements based on national, regional, language, application, or customer (Extensions)
+* Clear, singular meaning of concepts
+* Reliable, consistent, and reproducible clinical documentation
+* Enhanced high-quality healthcare delivery to individuals and populations
 
-  
-
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=SNOMED%20CT%20Introduction" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=SNOMED%20CT%20Introduction" class="button primary">Provide Feedback</a>

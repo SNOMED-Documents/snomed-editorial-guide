@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Observable Entity and Microbiology Test Results
 
 When microbiology laboratory results are encoded, it is important to be aware of the context provided by the observation, i.e. the test performed and, therefore, the implied meaning of the result value, i.e. the organism.
@@ -62,8 +80,6 @@ Laboratory findings may be reported with a status of preliminary, presumptive, p
 Existing concepts with presumptive values are undergoing review for inactivation.
 {% endhint %}
 
-
-
 ## Mixed Organism
 
 Some laboratories report findings indicating a mixed population of bacteria from several classes, e.g. _mixed anaerobic Gram negative bacilli_. The request for such a concept is added as a _clinical finding._ The actual organism is unknown, however there is a result, although more general.
@@ -74,11 +90,6 @@ Laboratories perform and report on specific tests to identify the absence, as we
 
 **Microbiology Tests: Reporting of Negative and Positive Values with Examples**
 
-<table data-header-hidden><thead><tr><th width="134.58203125">Microbiology Tests: Reporting of Negative and Positive Values with Examples</th><th width="247.0078125"></th><th width="365.8515625"></th><th width="327.88671875"></th></tr></thead><tbody><tr><td><strong>Lab test type (Observation)</strong></td><td><strong>Result value</strong></td><td><strong>Example lab test (e.g. SNOMED CT and/or LOINC term)</strong></td><td><strong>Example result value</strong></td></tr><tr><td>General culture (where implied scale = nominal)</td><td><p>No X isolated (finding) </p><p>X (organism)</p></td><td><p>61594008 |Microbial culture (procedure)| </p><p></p><p>11475-1 |Microorganism identified in Unspecified specimen by Culture</p></td><td><p><strong>Valid value</strong> </p><p>168204005|Salmonella not isolated (finding)| </p><p>27268008|Genus Salmonella (organism)| </p><p></p><p><strong>Invalid value</strong></p><p>264887000 |Not isolated (qualifier value)</p><p></p><p>| 46651001 |Isolated (qualifier value)|</p></td></tr><tr><td>Organism Specific culture</td><td>Not isolated (qualifier value) Isolated (qualifier value)</td><td><p>122206002 |Bordetella pertussis culture (procedure)| </p><p></p><p>48741-3 |Bordetella pertussis; Nasopharynx; Culture</p></td><td><p><strong>Valid value</strong> </p><p>264887000|Not isolated (qualifier value)| 46651001|Isolated (qualifier value)| </p><p></p><p><strong>Invalid value</strong> </p><p>Bordetella pertussis not isolated Bordetella pertussis isolated</p></td></tr><tr><td>General microscopic testing (where implied scale = Nominal)</td><td><p>No X seen (finding) </p><p>X (organism)</p></td><td><p>609009000 |Microscopic examination of bacterial smear of urine specimen (procedure)| </p><p></p><p>25145-4 |Bacteria [Presence] in Urine sediment by Light microscopy</p></td><td><p><strong>Valid value</strong></p><p>27268008|Genus Salmonella (organism)| </p><p></p><p><strong>Invalid value</strong> </p><p>47492008 |Not seen (qualifier value)|</p></td></tr><tr><td>Specific microscopic testing</td><td>Not seen (qualifier value) Present (qualifier value)</td><td>408215009 |Cryptosporidium microscopy (procedure)|</td><td><p><strong>Valid value</strong> </p><p>47492008|Not seen (qualifier value)| 52101004|Present (qualifier value)| </p><p></p><p><strong>Invalid value</strong> </p><p>No Cryptosporidium seen Cryptosporidium seen</p></td></tr><tr><td>Serologic, DNA or other organism specific test</td><td><p>Not detected (qualifier value) Detected (qualifier value) </p><p></p><p>Rationale: Almost all of these tests are organism-specific</p></td><td><p>871555000 |Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 (observable entity)| </p><p></p><p>95406-5 |SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection</p></td><td><p><strong>Valid value</strong> </p><p>260415000|Not detected (qualifier value)| </p><p>260373001|Detected (qualifier value)| </p><p></p><p><strong>Invalid value</strong> </p><p>No Severe acute respiratory syndrome coronavirus 2 detected </p><p>Severe acute respiratory syndrome coronavirus 2 detected</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="134.58203125">Microbiology Tests: Reporting of Negative and Positive Values with Examples</th><th width="247.0078125"></th><th width="365.8515625"></th><th width="327.88671875"></th></tr></thead><tbody><tr><td><strong>Lab test type (Observation)</strong></td><td><strong>Result value</strong></td><td><strong>Example lab test (e.g. SNOMED CT and/or LOINC term)</strong></td><td><strong>Example result value</strong></td></tr><tr><td>General culture (where implied scale = nominal)</td><td><p>No X isolated (finding)</p><p>X (organism)</p></td><td><p>61594008 |Microbial culture (procedure)|</p><p>11475-1 |Microorganism identified in Unspecified specimen by Culture</p></td><td><p><strong>Valid value</strong></p><p>168204005|Salmonella not isolated (finding)|</p><p>27268008|Genus Salmonella (organism)|</p><p><strong>Invalid value</strong></p><p>264887000 |Not isolated (qualifier value)</p><p>| 46651001 |Isolated (qualifier value)|</p></td></tr><tr><td>Organism Specific culture</td><td>Not isolated (qualifier value) Isolated (qualifier value)</td><td><p>122206002 |Bordetella pertussis culture (procedure)|</p><p>48741-3 |Bordetella pertussis; Nasopharynx; Culture</p></td><td><p><strong>Valid value</strong></p><p>264887000|Not isolated (qualifier value)| 46651001|Isolated (qualifier value)|</p><p><strong>Invalid value</strong></p><p>Bordetella pertussis not isolated Bordetella pertussis isolated</p></td></tr><tr><td>General microscopic testing (where implied scale = Nominal)</td><td><p>No X seen (finding)</p><p>X (organism)</p></td><td><p>609009000 |Microscopic examination of bacterial smear of urine specimen (procedure)|</p><p>25145-4 |Bacteria [Presence] in Urine sediment by Light microscopy</p></td><td><p><strong>Valid value</strong></p><p>27268008|Genus Salmonella (organism)|</p><p><strong>Invalid value</strong></p><p>47492008 |Not seen (qualifier value)|</p></td></tr><tr><td>Specific microscopic testing</td><td>Not seen (qualifier value) Present (qualifier value)</td><td>408215009 |Cryptosporidium microscopy (procedure)|</td><td><p><strong>Valid value</strong></p><p>47492008|Not seen (qualifier value)| 52101004|Present (qualifier value)|</p><p><strong>Invalid value</strong></p><p>No Cryptosporidium seen Cryptosporidium seen</p></td></tr><tr><td>Serologic, DNA or other organism specific test</td><td><p>Not detected (qualifier value) Detected (qualifier value)</p><p>Rationale: Almost all of these tests are organism-specific</p></td><td><p>871555000 |Detection of ribonucleic acid of Severe acute respiratory syndrome coronavirus 2 (observable entity)|</p><p>95406-5 |SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection</p></td><td><p><strong>Valid value</strong></p><p>260415000|Not detected (qualifier value)|</p><p>260373001|Detected (qualifier value)|</p><p><strong>Invalid value</strong></p><p>No Severe acute respiratory syndrome coronavirus 2 detected</p><p>Severe acute respiratory syndrome coronavirus 2 detected</p></td></tr></tbody></table>
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Observable%20Entity%20and%20Microbiology%20Test%20Results" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Observable%20Entity%20and%20Microbiology%20Test%20Results" class="button primary">Provide Feedback</a>

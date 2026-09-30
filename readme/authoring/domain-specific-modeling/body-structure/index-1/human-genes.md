@@ -1,22 +1,40 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Human Genes
 
 Human genes are represented as cell structures (subcellular structures) within the Body structure hierarchy. This reflects the biological reality of genes as physical, organized, functional units within chromosomes.
 
-This approach is consistent with the Foundational Model of Anatomy, the Sequence Ontology, and the _HUGO Gene Nomenclature Committee's_ (HGNC) defining characteristic of chromosomal location. It enables participation of gene concepts in the full SNOMED CT concept model, including hierarchical classification, relationship-based definitions, and use with existing attributes such as FINDING SITE and INHERES IN.&#x20;
+This approach is consistent with the Foundational Model of Anatomy, the Sequence Ontology, and the _HUGO Gene Nomenclature Committee's_ (HGNC) defining characteristic of chromosomal location. It enables participation of gene concepts in the full SNOMED CT concept model, including hierarchical classification, relationship-based definitions, and use with existing attributes such as FINDING SITE and INHERES IN.
 
 Genes are named according to the _HUGO Gene Nomenclature Committee_ (HGNC).
 
 ### Naming
 
-* FSN:  \<HGNC Approved Name> gene (cell structure)
+* FSN: \<HGNC Approved Name> gene (cell structure)
   * Only add _gene_ if the HGNC Approved Name does not already include it
   * Case sensitivity = CS
-* PT:  \<HGNC Gene Symbol> gene
+* PT: \<HGNC Gene Symbol> gene
   * The HGNC gene symbol is always UPPER CASE (alias and previous symbols may contain lower case letters)
   * Case sensitivity = CS
 * All HGNC Alias symbols must be added as additional descriptions.
@@ -39,13 +57,9 @@ Human genes are modeled with the following two IS A relationships:
 
 Each concept must include an attribution to the HGNC URI of the gene symbol report, stored as an attribution annotation.
 
-&#x20;
-
 **Example 1:** Elastin gene
 
 ![](<../../../../../.gitbook/assets/unknown (3).png>)
-
-&#x20;
 
 **Example 2:** Apolipoprotein B gene
 

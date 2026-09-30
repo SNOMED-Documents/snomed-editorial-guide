@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Aspiration
 
 Aspiration is extraction using negative pressure. When modeling aspiration concepts, procedure site distinction is made if the removal is either (1) a substance from within a body structure or specific morphology, or (2) removal of any of the body structure itself (including cells).
@@ -38,6 +56,6 @@ The nature of some aspirations means the procedure site will inherently be model
 If the substance being aspirated is not stated in the FSN, do not model it, even if it might be implied.
 
 * _Exception_: Aspiration of abscess can use Direct substance = Pus (substance).
-  * Abscesses can be either septic (due to infection) or sterile (not due to infection). Most abscesses are septic; however, pus is characteristic of an abscess - whether septic or sterile. Model with Indirect morphology (attribute) of Abscess (morphologic abnormality) and the Direct substance (attribute) of Pus (substance).  Pus does not have to be stated in the FSN.
+  * Abscesses can be either septic (due to infection) or sterile (not due to infection). Most abscesses are septic; however, pus is characteristic of an abscess - whether septic or sterile. Model with Indirect morphology (attribute) of Abscess (morphologic abnormality) and the Direct substance (attribute) of Pus (substance). Pus does not have to be stated in the FSN.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Aspiration" class="button primary">Provide Feedback</a>

@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Clinical drug
 
 The Clinical Drug "containing precisely" (CD-precise) concept is an abstract representation of the precise active ingredient, basis of strength substance (BoSS), strength, and manufactured dose form of a drug product. It implies that the drug product must contain only the precise active ingredient(s) specified in the FSN.
@@ -66,14 +84,14 @@ The following units of measure should not be abbreviated in any descriptions; al
 * picogram
 * unit
 
-Descriptions that include abbreviations for drug unit, such as ‘mg’, ‘g’, ‘mg/’, 'unit/g', 'unit/mg', 'microgram/g', and 'microgram/mg' have a case sensitivity indicator of cl, |Only initial character case insensitive (core metadata concept)|.  These descriptions are cI; the first character of the description may or may not be capitalized, while the case of the rest of the description cannot be changed.
+Descriptions that include abbreviations for drug unit, such as ‘mg’, ‘g’, ‘mg/’, 'unit/g', 'unit/mg', 'microgram/g', and 'microgram/mg' have a case sensitivity indicator of cl, |Only initial character case insensitive (core metadata concept)|. These descriptions are cI; the first character of the description may or may not be capitalized, while the case of the rest of the description cannot be changed.
 
 * For example,
   * 3500544012 |Acetaminophen 500 mg oral tablet|
   * 3692869013 |Betamethasone (as betamethasone dipropionate) 500 microgram/g and salicylic acid 30 mg/g cutaneous ointment|
   * 4550119010 |Cyclophosphamide 500 mg powder for solution for injection vial|
 
-While not an abbreviation, _gram_ is the standard international metric unit of mass and is lowercase in descriptions.&#x20;
+While not an abbreviation, _gram_ is the standard international metric unit of mass and is lowercase in descriptions.
 
 * For example,
   * 258682000 |gram (qualifier value)| is _Entire term case sensitive_
@@ -97,8 +115,8 @@ Requests for new concepts that conflict with the above require a clear justifica
 _International Unit_ as a description is arbitrary, and to be understood, each product requires reference to a particular bioefficacy specification for that entity. Therefore, _international_ _unit_ is neither a meaningful nor comparable description at Clinical Drug level. International unit will be represented as _unit_ in Clinical Drug descriptions. Abbreviations will not be used.
 
 * For example,
-  * `1237145006 |Product containing precisely octocog alfa 1000 unit/1 vial powder for conventional release solution for injection (clinical drug)|`&#x20;
-  * Preferred term:  Octocog alfa 1000 unit powder for solution for injection vial
+  * `1237145006 |Product containing precisely octocog alfa 1000 unit/1 vial powder for conventional release solution for injection (clinical drug)|`
+  * Preferred term: Octocog alfa 1000 unit powder for solution for injection vial
 
 The |Has presentation strength numerator unit| will still continue to have a value of `|International unit (qualifier value)|` even though _unit_ is stated in the FSN and PT.
 
@@ -130,7 +148,7 @@ The following units are not allowed unless specifically noted as an exception:
 
 * 408165007 |Mega u (qualifier value)|
 
-Repeating decimals are rounded to three decimal places (with 5 and above rounded up and 4 and below rounded down).  In general, avoid decimal points.
+Repeating decimals are rounded to three decimal places (with 5 and above rounded up and 4 and below rounded down). In general, avoid decimal points.
 
 ## Precise active ingredient
 

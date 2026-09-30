@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Iatrogenic
 
 Adding further concepts to the iatrogenic disorder hierarchy is discouraged. Concepts must have _iatrogenic_ in the FSN to be modeled with an IS\_A relationship to 12456005 |Iatrogenic disorder (disorder)|. An iatrogenic disorder should remain as a primitive concept if dependent only upon parent relationships to describe the disorder. In cases where the modeling is explicit, e.g. 202762009 |Iatrogenic cervical spinal stenosis (disorder)|, the concept can be defined.

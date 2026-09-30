@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Infectious vs. inflammatory
 
 Disorders with the suffix "-itis" (e.g., cystitis, prostatitis, tonsillitis, appendicitis) are often infectious as well as inflammatory in nature.

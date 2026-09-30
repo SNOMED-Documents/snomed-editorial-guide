@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Surgical procedures
 
 A _surgical procedure_ is defined as a procedure that involves intentional non-transient alteration of structures of the body, and/or a procedure that necessarily involves cutting into the body. This definition includes all procedures defined by _Method_ (attribute) with Surgical action (qualifier value).
@@ -20,7 +38,7 @@ Surgical procedures are not defined simply as procedures done by a surgeon (desp
 {% hint style="info" %}
 **Medical procedure**
 
-The use of the term _medical procedure_ is deprecated, i.e., not recommended, because it lacks reproducible meaning.  It might be defined as _a procedure done by a physician_, but even that is deprecated, because it is provider-specific.
+The use of the term _medical procedure_ is deprecated, i.e., not recommended, because it lacks reproducible meaning. It might be defined as _a procedure done by a physician_, but even that is deprecated, because it is provider-specific.
 {% endhint %}
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Surgical%20procedures" class="button primary">Provide Feedback</a>

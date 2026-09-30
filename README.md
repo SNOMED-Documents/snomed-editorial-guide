@@ -25,19 +25,33 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # SNOMED CT Editorial Guide
 
-The SNOMED CT Editorial Guide provides the information necessary to model concepts in SNOMED CT.
+## Purpose
 
-_**These guidelines should be applied to new content. While there are many concepts in the existing content that are not in compliance with this guidance, the process of correcting existing content will be carried out as time and resources permit.**_
+The SNOMED CT Editorial Guide provides the rules, conventions, and principles required to model SNOMED CT concepts. It serves as the definitive reference for authoring and maintaining content in the International Release, while also supporting extension creators. The guide ensures that terminology is reliable, unambiguous, and interoperable for healthcare applications.
 
-SNOMED CT is distributed in sets of electronic files. Supporting software tools are not necessarily provided directly by SNOMED International.
+## Scope
+
+This guide covers the editorial policies for precoordinated content, meaning concepts and rules applicable to all precoordinated SNOMED CT content. Rules specific only to post-coordinated content are not included; these are managed separately through the MRCM ([Machine Readable Concept Model](https://browser.ihtsdotools.org/mrcm)) browser. The guide provides information on concept modeling, naming conventions, inactivation, attributes, and rules for specific hierarchies.
+
+## Audience
+
+The primary audience of the Editorial Guide is SNOMED International editors responsible for maintaining the International Release. However, it is also relevant for extension developers, implementers, and others involved in clinical terminology management. For national or local extensions, the [Extensions Practical Guide](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/3RKZIWpWFT0ocCgNT16E/) offers complementary guidance.
+
+## Contact and Feedback
+
+The Editorial Guide is maintained by SNOMED International, the organization responsible for the ongoing development and distribution of SNOMED CT. Users are encouraged to provide feedback or seek clarification by contacting SNOMED International at [info@snomed.org](mailto:info@snomed.org). Additional resources, licensing details, and membership information are available at [www.snomed.org](http://www.snomed.org).
+
+_**These guidelines should be applied to new content. While many concepts exist that are not in compliance with this guidance, correction of existing content will be completed as resources permit.**_
 
 ***
 
-<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="readme/introduction-to-the-snomed-ct-editorial-guide.md">introduction-to-the-snomed-ct-editorial-guide.md</a></td></tr><tr><td><a href="readme/snomed-ct-introduction/">snomed-ct-introduction</a></td></tr><tr><td><a href="readme/concept-model-overview/">concept-model-overview</a></td></tr><tr><td><a href="readme/authoring/">authoring</a></td></tr><tr><td><a href="readme/editorial-guide-change-log.md">editorial-guide-change-log.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="/broken/pages/nMBupijnfW0K1DYvFI9M">Broken link</a></td></tr><tr><td><a href="readme/snomed-ct-introduction/">snomed-ct-introduction</a></td></tr><tr><td><a href="readme/concept-model-overview/">concept-model-overview</a></td></tr><tr><td><a href="readme/authoring/">authoring</a></td></tr><tr><td><a href="readme/editorial-guide-change-log.md">editorial-guide-change-log.md</a></td></tr></tbody></table>
 
 ***
 

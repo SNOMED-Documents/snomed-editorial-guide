@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Observable Entity Naming Conventions
 
 ## Test Observable Entity Naming Conventions
@@ -20,9 +38,6 @@ General naming pattern: Property, Component, Direct Site
   * Property is named first, followed by the entity that is the value of Component, when possible.
 * **Third: Direct Site**
   * Modifier: Time aspect. Time aspect provides information about the direct site and precedes it in the naming order. (Time aspect, Direct Site)
-
-
-
 * For example,
   * 416125006 | Concentration of hemoglobin in erythrocyte (observable entity) |
 

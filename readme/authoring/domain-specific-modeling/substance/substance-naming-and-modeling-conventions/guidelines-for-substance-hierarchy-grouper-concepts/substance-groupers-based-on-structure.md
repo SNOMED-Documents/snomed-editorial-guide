@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Substance Groupers Based on Structure
 
 ## Overview
@@ -95,13 +113,9 @@ Browser view of 299979007 |Organic nitrogen compound (substance)|
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure></div>
 
-
-
 Browser view of 767209009 |Copper and/or copper compound (substance)|
 
 <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure></div>
-
-
 
 Browser view of 766224008 |Substance with cresol structure (substance)|
 

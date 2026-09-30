@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Synonym
 
 In SNOMED CT, a _synonym_ (SYN) is a description that is an acceptable way to express the meaning of a concept in a particular language or dialect; it is a word or phrase, other than the FSN, that represents a concept. Unlike FSNs, synonyms are not required to be unique.

@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Medicinal Product Form (MPF)
 
 Medicinal Product Form - An abstract representation of a medicinal product described by its active ingredient substances and a grouping dose form concept (based on the intended site of administration for the dose form group) but without reference to any product strength.

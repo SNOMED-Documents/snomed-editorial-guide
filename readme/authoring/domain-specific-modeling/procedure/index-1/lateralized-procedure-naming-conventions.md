@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Lateralized Procedure Naming Conventions
 
 ## Procedure concepts with a body structure that has a left/right side
@@ -12,7 +30,7 @@ When creating a lateralized procedure concept, two concepts should be created:
 1. concept for the left side
 2. concept for the right side
 
-When creating a lateralized procedure concept, if a non-lateralized parent does not exist, then it should be created as well.  In other words, do not just create the right and left versions, but also create a concept to represent the laterality-agnostic parent.
+When creating a lateralized procedure concept, if a non-lateralized parent does not exist, then it should be created as well. In other words, do not just create the right and left versions, but also create a concept to represent the laterality-agnostic parent.
 
 * For example,
   * When creating |_Excision of left mastoid|_ and |_Excision of right mastoid|_, ensure a concept for |_Excision of mastoid|_ exists.
@@ -20,8 +38,8 @@ When creating a lateralized procedure concept, if a non-lateralized parent does 
 The acceptable naming pattern for procedures with lateralizable body parts:
 
 * FSN: \<Method> of bilateral \<body structures> (procedure)
-* PT:  \<Method> of bilateral \<body structures>
-* SYN:  \<Method> of both \<body structures>
+* PT: \<Method> of bilateral \<body structures>
+* SYN: \<Method> of both \<body structures>
 
 Bilateral procedures should be modeled using two relationship groups, one for each lateralized body structure.
 
@@ -29,7 +47,7 @@ Bilateral procedures should be modeled using two relationship groups, one for ea
   *   895470004 |Amputation of bilateral upper limbs (procedure)|
 
       * FSN: Amputation of bilateral upper limbs (procedure)
-      * PT:  Amputation of bilateral upper limbs
+      * PT: Amputation of bilateral upper limbs
       * SYN: Amputation of both upper limbs
 
       <figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Stated view of 895470004 |Amputation of bilateral upper limbs (procedure)|</p></figcaption></figure>

@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Clinical Finding and Disorder Naming Conventions
 
 ## FSN
@@ -53,7 +71,7 @@ Descriptions for Clinical findings and Disorders should follow the naming guidel
 
 Concepts describing limbs are abundant, and the use of _limb_ in the FSN and the synonyms of upper/lower extremity, arm/leg should be followed.
 
-* For example,&#x20;
+* For example,
   * 249945007 |Monoparesis of lower limb (disorder)|
 
 Because the finding site is 61685007 |Lower limb structure (body structure)|, which follows the anatomical guidelines, the disorder concept reflects _lower limb_ in the FSN, while using synonyms of _Monoparesis of leg_ and _Monoparesis of lower extremity_.
@@ -77,7 +95,7 @@ Plurals may be used:
 {% endhint %}
 
 * When the concept is a general grouping of disorders of a body system, body site, or other broad category, the word _disorder_ is preferred over the word _disease_ for the FSN, e.g. _Disorder of reproductive system_ , not _Disease of reproductive system_. This does not apply at the leaf level.
-* For example,&#x20;
+* For example,
   * 417683006 | Sickle cell-hemoglobin C disease without crisis (disorder)|
 
 For naming conventions concerning _surgical complications, sequelae, and late effects;_ see this section at [Complication and Sequela Modeling](../clinical-finding-and-disorder-modeling/complication-and-sequela-modeling.md).
@@ -101,7 +119,7 @@ SNOMED international is no longer accepting new requests for concepts of the typ
 
 If the 363698007 | Finding site (attribute)| value of a concept is a body structure with "region" in its FSN, then the description of the finding site within the clinical finding concept's FSN should also include "region".
 
-*   For example,&#x20;
+*   For example,
 
     274205003 | Burn of eye region (disorder)| has a finding site of 371398005 | Eye region structure (body structure)|.
 
@@ -135,12 +153,12 @@ Allergic and nonallergic hypersensitivity (pseudoallergic) concepts include drug
 * FSN: Allergy to X (finding)
 * PT: Allergy to X
 
-For example,&#x20;
+For example,
 
-* FSN:  Allergy to abacavir (finding)
-* PT:     Allergy to abacavir
-* FSN:  Allergy to Artemisia vulgaris pollen (finding)
-* PT:     Allergy to mugwort pollen
+* FSN: Allergy to abacavir (finding)
+* PT: Allergy to abacavir
+* FSN: Allergy to Artemisia vulgaris pollen (finding)
+* PT: Allergy to mugwort pollen
 
 ### Pattern - Allergy to multiple substances:
 
@@ -190,9 +208,4 @@ FSN: Excessive intake of vitamin A and vitamin A derivative (finding)
 
 PT: Excessive intake of vitamin A and vitamin A derivative
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Clinical%20Finding%20and%20Disorder%20Naming%20Conventions" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Clinical%20Finding%20and%20Disorder%20Naming%20Conventions" class="button primary">Provide Feedback</a>

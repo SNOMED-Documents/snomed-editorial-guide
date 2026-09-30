@@ -1,17 +1,35 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Pharmaceutical Dose Form
 
 ## Describing Dose forms
 
-A Clinical Drug concept has a _pharmaceutical dose form_, which is the physical manifestation of a medicinal product that contains the active and inactive ingredient substance(s) intended for administration for the patient. &#x20;
+A Clinical Drug concept has a _pharmaceutical dose form_, which is the physical manifestation of a medicinal product that contains the active and inactive ingredient substance(s) intended for administration for the patient.
 
-The **Clinical Drug concept in the international release is defined by its&#x20;**_**manufactured**_**&#x20;dose form**, which is the dose form as the item is presented by the manufacturer into the supply chain. This may be the same as the _administrable_ dose form, which is the dose form that can be given to the patient after any necessary transformation (such as dissolution or dispersion) has taken place, or it may be different. &#x20;
+The **Clinical Drug concept in the international release is defined by its&#x20;**_**manufactured**_**&#x20;dose form**, which is the dose form as the item is presented by the manufacturer into the supply chain. This may be the same as the _administrable_ dose form, which is the dose form that can be given to the patient after any necessary transformation (such as dissolution or dispersion) has taken place, or it may be different.
 
-Examples of the relationship between manufactured and administrable dose forms and transformation are given below.  Both manufactured dose forms and administrable dose forms are types of pharmaceutical dose form.
+Examples of the relationship between manufactured and administrable dose forms and transformation are given below. Both manufactured dose forms and administrable dose forms are types of pharmaceutical dose form.
 
 <table><thead><tr><th width="312.126953125">Manufactured dose form</th><th width="284.6767578125">Administrable dose form</th><th>Transformation</th></tr></thead><tbody><tr><td>conventional release oral tablet</td><td>conventional release oral tablet</td><td>none</td></tr><tr><td>tablet for conventional release oral solution (synonym "soluble oral tablet")</td><td>oral solution</td><td>dissolve</td></tr><tr><td>conventional release cutaneous cream</td><td>conventional release cutaneous cream</td><td>none</td></tr><tr><td>powder for prolonged-release suspension for injection</td><td>prolonged-release suspension for injection</td><td>disperse</td></tr></tbody></table>
 
@@ -46,13 +64,13 @@ Concepts in the 736542009 |Pharmaceutical dose form (dose form)| hierarchy:
 {% hint style="info" %}
 Concepts that are not allowed to be used in modeling Medicinal product concepts in the International Release may be added to the Pharmaceutical dose form hierarchy to support national extension modeling.
 
-* For example,&#x20;
+* For example,
   * 420378007 |Prolonged-release film-coated oral tablet (dose form)|
 {% endhint %}
 
 ## Overview
 
-The 736542009 |Pharmaceutical dose form (dose form)| hierarchy is comprised of the types of concepts as shown in the table below.  Detailed editorial guidelines for each distinct concept type, including required attributes and naming guidelines, are found in the sections that follow.
+The 736542009 |Pharmaceutical dose form (dose form)| hierarchy is comprised of the types of concepts as shown in the table below. Detailed editorial guidelines for each distinct concept type, including required attributes and naming guidelines, are found in the sections that follow.
 
 <table><thead><tr><th width="272.76953125">Concept type</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Grouper based on intended site</strong></td><td><ul><li>740596000 |Cutaneous dose form (dose form)|</li><li>385268001 |Oral dose form (dose form)|</li></ul></td></tr><tr><td><strong>Grouper concept without basic dose form</strong></td><td><ul><li>385105007 |Conventional release cutaneous spray (dose form)|</li><li>385136004 |Conventional release ear drops (dose form)|</li></ul></td></tr><tr><td><strong>Pharmaceutical dose form</strong></td><td><ul><li>385151008 |Conventional release nasal ointment (dose form)|</li><li>421026006 |Conventional release oral tablet (dose form)|</li><li>385053008 |Prolonged-release oral capsule (dose form)|</li></ul></td></tr></tbody></table>
 

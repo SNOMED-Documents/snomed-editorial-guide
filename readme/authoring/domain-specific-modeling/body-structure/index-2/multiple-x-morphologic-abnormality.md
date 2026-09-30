@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Multiple x morphologic abnormality
 
 _Multiple x_ morphologies, such as 125291005 |Multiple cysts (morphologic abnormality)|, are currently subtypes of the “X” morphology. The “X” morphology concept represents a class rather than a singular instance, and this arrangement follows the open world assumption of the description logic in SNOMED CT.

@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Organism
 
 <table><thead><tr><th width="360.328125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Organisms of significance to human medicine</td><td><ul><li>3265006 | Genus Candida (organism) |</li><li>710877000 | Beta lactam resistant bacteria (organism) |</li></ul></td></tr></tbody></table>
@@ -22,11 +40,11 @@ Organism concepts are used:
 Organism concepts are generally considered in scope for inclusion in the International Edition, with the following exceptions and considerations:
 
 * Microorganisms are typically included in the International Edition because they may be human pathogens, opportunistic pathogens in immunocompromised individuals, or organisms of relevance to clinical laboratory reporting, including animal pathogens.
-* Macroorganisms are included in the International Edition when they are relevant to human medicine or public health, or when requested by more than one SNOMED International Member country. Otherwise, they may be authored in the Veterinary Extension, which is maintained by the Veterinary Terminology Services Laboratory (VTSL) at Virginia Tech.  Content from the Veterinary Extension is not promoted to the International Edition unless it subsequently meets the criteria for relevance to human medicine, public health, or demonstrated international demand.
+* Macroorganisms are included in the International Edition when they are relevant to human medicine or public health, or when requested by more than one SNOMED International Member country. Otherwise, they may be authored in the Veterinary Extension, which is maintained by the Veterinary Terminology Services Laboratory (VTSL) at Virginia Tech. Content from the Veterinary Extension is not promoted to the International Edition unless it subsequently meets the criteria for relevance to human medicine, public health, or demonstrated international demand.
 
 Breeds are restricted to the veterinary domain and are not represented in the International Edition.
 
-For represented organisms, the International Release will include the principal taxonomic ranks needed to support classification. Intermediate ranks (e.g., Subphylum, Order, Suborder, Infraorder) should be added only when they provide a clear structural, modeling, navigation, maintenance, or reporting benefit.  In particular, an intermediate taxon should be included when it is a structurally necessary node for one or more existing concepts that would otherwise be incorrectly classified. Once an intermediate rank is introduced, sufficient sibling taxa at that rank should also be represented, where appropriate, to maintain a complete and internally consistent hierarchy.
+For represented organisms, the International Release will include the principal taxonomic ranks needed to support classification. Intermediate ranks (e.g., Subphylum, Order, Suborder, Infraorder) should be added only when they provide a clear structural, modeling, navigation, maintenance, or reporting benefit. In particular, an intermediate taxon should be included when it is a structurally necessary node for one or more existing concepts that would otherwise be incorrectly classified. Once an intermediate rank is introduced, sufficient sibling taxa at that rank should also be represented, where appropriate, to maintain a complete and internally consistent hierarchy.
 
 ## Organisms with qualifiers
 

@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Musculoskeletal System
 
 ## Skeletal system, bony skeleton
@@ -26,8 +44,6 @@ The 5 anatomical concepts related to _bone_ are:
 5. 113192009 |Skeletal system structure (body structure)|. Entire skeletal system, including bones and cartilage.
 
 Bone (tissue) is part of entire bone (organ); entire bone (organ) is part of skeletal system subdivision (system); skeletal system subdivision (system) is part of entire bony skeleton (body structure); and entire bony skeleton (body structure) is part of skeletal system structure (body structure). We can use Entire bone (system) to define aggregate concepts that involve bones.
-
-
 
 {% hint style="success" %}
 #### Modeling

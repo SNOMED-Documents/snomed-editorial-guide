@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Physical Object Defining Attributes
 
 The following defining attributes correspond to the _Physical Object Attributes Summary_ table.
@@ -18,8 +36,8 @@ This attribute represents the absorbability aspect of an object.
 
 This attribute represents a substance that is intended to mix with a sample, e.g. a fluid, granular substance or a spray coating on the inside of a container. An additive can be added to a container at time of manufacture, or to a specimen while or after the specimen is added to the container.
 
-* For example,&#x20;
-  * 767382000 |Evacuated blood collection tube with heparin sodium (physical object)| |Has additive of 50045009 |Heparin sodium (substance)|&#x20;
+* For example,
+  * 767382000 |Evacuated blood collection tube with heparin sodium (physical object)| |Has additive of 50045009 |Heparin sodium (substance)|
 
 ## Has coating material
 
@@ -51,7 +69,7 @@ This attribute represents the material or substance that fills an object.
 
 ## Has separator
 
-This attribute represents a separator, something that is intended to keep parts of a sample apart.  A separator can be a substance, such as a gel separator, or a mechanical separator, such as a plastic barrier.
+This attribute represents a separator, something that is intended to keep parts of a sample apart. A separator can be a substance, such as a gel separator, or a mechanical separator, such as a plastic barrier.
 
 * For example,
   * 767390000 |Evacuated blood collection tube with heparin lithium and gel separator (physical object)| Has separator of 1343637004 |Gel separator (substance)|

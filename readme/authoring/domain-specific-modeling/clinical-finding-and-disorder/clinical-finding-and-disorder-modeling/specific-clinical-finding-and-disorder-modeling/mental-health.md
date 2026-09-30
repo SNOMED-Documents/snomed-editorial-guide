@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Mental health
 
 Dependence-related concepts which express the current existence of abuse are acceptable.
@@ -10,7 +28,7 @@ Dependence-related concepts which express the current existence of abuse are acc
 * For example,
   * 191816009 |Drug dependence (disorder)|
 
-Dependence-related concepts which express the pattern as either continuous or episodic are not acceptable.&#x20;
+Dependence-related concepts which express the pattern as either continuous or episodic are not acceptable.
 
 Unacceptable patterns:
 
@@ -23,15 +41,15 @@ Unacceptable patterns:
 Unacceptable legacy concepts:
 
 * Drug abuse, continuous (disorder)
-* Episodic drug abuse (disorder)&#x20;
+* Episodic drug abuse (disorder)
 
 Concepts describing _full_ or _partial remission_ are acceptable but not the phase of the remission.
 
 Acceptable patterns:
 
-* X in full remission&#x20;
+* X in full remission
 * X in partial remission
-  * For example,&#x20;
+  * For example,
     * 46244001 |Recurrent major depression in full remission (disorder)|
     * 5703000 |Bipolar disorder in partial remission (disorder)|
 
@@ -39,11 +57,11 @@ Unacceptable patterns:
 
 * X in early full remission
 * X in sustained full remission
-* X in sustained partial remission&#x20;
+* X in sustained partial remission
 
 Conditions with associated symptoms should be expressed and modeled like combined disorders. _Due to_ situations are acceptable but not simple _Co-occurrent._
 
-* For example,&#x20;
+* For example,
   * 703850002 |Delirium due to benzodiazepine withdrawal (disorder)|
 
 Concepts containing X without Y are considered on a case-by-case basis.
@@ -52,7 +70,7 @@ Acceptable example:
 
 * 724735003 |Oppositional defiant disorder without chronic irritability-anger (disorder)|
 
-Unacceptable example:&#x20;
+Unacceptable example:
 
 * Bipolar type II disorder with current episode moderately depressive without psychotic symptoms
 

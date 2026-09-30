@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Specimen
 
-| Definition                                                                     | Examples                                                                                                                                                                                       |
-| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entities that are obtained (usually from patients) for examination or analysis | <p>384744003 | Lymph node from sentinel lymph node dissection and axillary dissection (specimen) | </p><p></p><p>122880004 | Urine specimen obtained by clean catch procedure (specimen) |</p> |
+| Definition                                                                     | Examples  |
+| ------------------------------------------------------------------------------ | --------- |
+| Entities that are obtained (usually from patients) for examination or analysis | 384744003 |
 
 Specimen concepts can be defined by attributes which specify the:
 

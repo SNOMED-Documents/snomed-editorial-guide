@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Situation with Explicit Context Attributes Summary
 
 When authoring in this domain, these are the approved attributes and allowable ranges.
 
-See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133993467/Situation+templates).&#x20;
+See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133993467/Situation+templates).
 
 ## Domain Information for Situation with Explicit Context
 

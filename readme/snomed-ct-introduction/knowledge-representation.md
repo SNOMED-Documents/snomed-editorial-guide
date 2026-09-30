@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Knowledge Representation
 
 Knowledge representation in SNOMED CT involves modeling what we know about concepts to be necessarily true. Concepts are logically defined by their relationships to each other. Some knowledge provides valuable clues to the diagnostician, while not necessarily always present, i.e. it is uncertain or probabilistic knowledge. Attempts to capture probabilistic or uncertain knowledge are out of the scope of SNOMED CT.
@@ -67,9 +85,4 @@ _These additional pieces of knowledge are variably present and therefore represe
 * Nausea
 * Elevated white blood count
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Knowledge%20Representation" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Knowledge%20Representation" class="button primary">Provide Feedback</a>

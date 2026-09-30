@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Naming Convention for SEP Model
 
 ### 1. FSN must include the word 'structure', 'entire' or 'part' for concepts that are following the SEP model.
@@ -33,9 +51,4 @@ For example,
 
 _S_ concepts are usually named x structure (body structure) or structure of x (body structure). _E_ concepts are usually named entire x (body structure) or x entire (body structure). _P_ concepts are usually named x part (body structure) or part of x (body structure).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Naming%20Convention%20for%20SEP%20Model" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Naming%20Convention%20for%20SEP%20Model" class="button primary">Provide Feedback</a>

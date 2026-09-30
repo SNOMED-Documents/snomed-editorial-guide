@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Fluoroscopy and Fluoroscopic Imaging
 
 ## Simple fluoroscopy
 
-_Simple_ fluoroscopy is _real time_ imaging (usually on TV monitors/image intensifiers) of a body part or system. Only rarely is it an imaging process alone (without some interventional procedure). Fluoroscopy is most often used to guide or direct a primary procedure/purpose. The usual convention in clinical practice is to ignore the fluoroscopic element and refer to a procedure entirely by the primary component, e.g., angiography.  However, this is unacceptable in SNOMED CT, where the imaging component must be explicitly described.
+_Simple_ fluoroscopy is _real time_ imaging (usually on TV monitors/image intensifiers) of a body part or system. Only rarely is it an imaging process alone (without some interventional procedure). Fluoroscopy is most often used to guide or direct a primary procedure/purpose. The usual convention in clinical practice is to ignore the fluoroscopic element and refer to a procedure entirely by the primary component, e.g., angiography. However, this is unacceptable in SNOMED CT, where the imaging component must be explicitly described.
 
 * FSN: Fluoroscopy of X (procedure)
 * PT: Fluoroscopy of X

@@ -1,19 +1,32 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Lump and mass
 
-Distinguishing consistently between lump and mass can be difficult in diagnostic contexts, as the terms are often used interchangeably or lack precise definitions.  As a result, lump and mass have, in certain conditions, been treated as synonymous.
+Distinguishing consistently between lump and mass can be difficult in diagnostic contexts, as the terms are often used interchangeably or lack precise definitions. As a result, lump and mass have, in certain conditions, been treated as synonymous.
 
 Avoid using 'lump' in new content, where more specific terminology is available.
 
 Lump should not be added as a synonym for mass concepts in the Finding or Disorder hierarchies. Existing legacy synonyms and concepts will remain unchanged.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Lump%20and%20mass" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Lump%20and%20mass" class="button primary">Provide Feedback</a>

@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Enteritis
 
 The term _enteritis_ is broad and commonly refers to inflammation of the intestine, especially the small intestine. However, in some conditions, e.g. phlegmonous enteritis and regional enteritis, the term _enteritis_ refers to any part of the digestive tract.

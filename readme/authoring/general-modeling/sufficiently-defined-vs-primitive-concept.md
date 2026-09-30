@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Sufficiently Defined vs Primitive Concept
 
 ## Sufficiently defined
@@ -13,9 +31,4 @@ A concept is sufficiently defined if its defining characteristics are adequate t
 
 A concept which is not sufficiently defined is _primitive._ A primitive concept is a formal logic definition that is inadequate to distinguish it from similar concepts. A primitive concept does not have enough defining relationships to computably distinguish it from more general concepts (supertypes).
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Sufficiently%20Defined%20vs%20Primitive%20Concept" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Sufficiently%20Defined%20vs%20Primitive%20Concept" class="button primary">Provide Feedback</a>

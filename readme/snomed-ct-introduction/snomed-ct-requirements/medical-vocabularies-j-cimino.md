@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Medical Vocabularies - J. Cimino
 
 The headings in this section are the requirements identified in Desiderata for Controlled Medical Vocabularies in the Twenty-First Century by J.J. Cimino published in _Methods of Information in Medicine_ 1998:37:394-403. Following each, is an explanation of the way in which SNOMED CT meets the requirement.
@@ -11,8 +29,8 @@ The headings in this section are the requirements identified in Desiderata for C
 
 SNOMED CT content must be adequate both in scope and quality and must:
 
-  * Cover a wide variety of domains and different organizational needs, clinical disciplines, and medical specialties
-  * Meet the needs of an expanding scope, while retaining quality, with a structured systematic approach
+* Cover a wide variety of domains and different organizational needs, clinical disciplines, and medical specialties
+* Meet the needs of an expanding scope, while retaining quality, with a structured systematic approach
 
 ## Nonvagueness and nonambiguity
 
@@ -36,18 +54,18 @@ SNOMED CT supports multiple hierarchies. A code may have more than one hierarchi
 
 When possible, the meaning of codes should be formally defined by relationships to other codes.
 
-## Rejection of  _Not elsewhere classified_
+## Rejection of _Not elsewhere classified_
 
-Codes with the phrase,  _not elsewhere classified_ , are not allowed in SNOMED CT. However, many classifications contain terms with this phrase. A term with _not elsewhere classified_ includes general variants that are not specifically represented. The meaning of such a code may change over time. As codes with more specific meanings are added, this narrows the codes included in the _not elsewhere classified_ codes. 
+Codes with the phrase, _not elsewhere classified_ , are not allowed in SNOMED CT. However, many classifications contain terms with this phrase. A term with _not elsewhere classified_ includes general variants that are not specifically represented. The meaning of such a code may change over time. As codes with more specific meanings are added, this narrows the codes included in the _not elsewhere classified_ codes.
 
 ## Multiple granularities
 
 Different users will need to express more or less finely granular meanings. SNOMED CT:
 
-  * Must accommodate a wide range of levels of detail
-  * Must recognize the relationships between meanings at different levels of granularity
-  * Should allow selection of codes that include navigation to other codes with more or less finely grained meaning
-  * May need to restrict the levels of granularity used in different applications or in different contexts within the same application
+* Must accommodate a wide range of levels of detail
+* Must recognize the relationships between meanings at different levels of granularity
+* Should allow selection of codes that include navigation to other codes with more or less finely grained meaning
+* May need to restrict the levels of granularity used in different applications or in different contexts within the same application
 
 ## Multiple consistent views
 
@@ -65,9 +83,4 @@ Terminologies need to change over time. SNOMED CT should implement these changes
 
 The same information can often be coded in different ways. A controlled terminology, that has an adequate scope, cannot exclude this possibility. Instead it should facilitate recognition of equivalent terms.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Medical%20Vocabularies%20-%20J.%20Cimino" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Medical%20Vocabularies%20-%20J.%20Cimino" class="button primary">Provide Feedback</a>

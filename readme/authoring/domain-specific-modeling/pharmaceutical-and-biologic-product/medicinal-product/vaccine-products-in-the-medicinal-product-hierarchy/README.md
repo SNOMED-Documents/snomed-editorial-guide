@@ -1,17 +1,35 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Vaccine Products in the Medicinal Product Hierarchy
 
-The following sections apply to the vaccine product concepts in the |Medicinal product (product)| hierarchy in the International Release.  In the International Release, vaccine products are those concepts with |Plays role (attribute) = |Active immunity stimulant role (role)|.
+The following sections apply to the vaccine product concepts in the |Medicinal product (product)| hierarchy in the International Release. In the International Release, vaccine products are those concepts with |Plays role (attribute) = |Active immunity stimulant role (role)|.
 
 {% hint style="warning" %}
 Products that provide _passive_ immunity should be modeled using the general Medicinal product guidance.
 {% endhint %}
 
-See also the relevant section in Substances on [Antibodies and antigens](../../../substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/antibodies-and-antigens.md).&#x20;
+See also the relevant section in Substances on [Antibodies and antigens](../../../substance/substance-naming-and-modeling-conventions/guidelines-for-specific-substance-types/antibodies-and-antigens.md).
 
 {% content-ref url="vaccine-product-top-level-groupers.md" %}
 [vaccine-product-top-level-groupers.md](vaccine-product-top-level-groupers.md)

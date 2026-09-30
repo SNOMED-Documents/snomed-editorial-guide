@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Continuous presentation: bounded by container; liquid/semi-solid dose forms; concentration strength
 
 _Examples: bulk parenteral solutions, insulins, patches_
@@ -24,7 +42,7 @@ Note that the unit of presentation is likely to be useful in description of the 
 | Presentation strength           | 150 units per 1.5 mL                                       | Not a clinically safe expression of strength                    |
 | Concentration strength          | 100 units per 1 mL                                         |                                                                 |
 
-### **Example:  Box of 10 bags of Sodium chloride 0.9% solution for infusion 500mL**
+### **Example: Box of 10 bags of Sodium chloride 0.9% solution for infusion 500mL**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.48.50 PM.png" alt=""><figcaption></figcaption></figure>
 

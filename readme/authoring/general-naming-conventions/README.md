@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # General Naming Conventions
 
 In addition to the general naming conventions below, please also see any applicable naming conventions for specific hierarchies in their respective [domain-specific-modeling](../domain-specific-modeling/ "mention").
@@ -90,11 +108,11 @@ Msh6 in "DNA mismatch repair protein Msh6 (substance)" is a protein symbol stand
 * For example, 1229847004 |Ubiquitin carboxyl-terminal hydrolase BAP1 (substance)|
 {% endhint %}
 
-A synonym may contain an abbreviation without expansion for a description containing multiple chemical substances whose expansion may potentially impact usability or clinical safety; the synonym should be supported by its use in product information.&#x20;
+A synonym may contain an abbreviation without expansion for a description containing multiple chemical substances whose expansion may potentially impact usability or clinical safety; the synonym should be supported by its use in product information.
 
-* For example,&#x20;
+* For example,
   * 1984901000001119 HYNIC-\[D-Phe1, Tyr3-octreotide] TFA salt
-    * Expanding the four abbreviations found within the synonym above would yield confusing results.  Additionally, the synonym is referenced in the summary of product characteristics. &#x20;
+    * Expanding the four abbreviations found within the synonym above would yield confusing results. Additionally, the synonym is referenced in the summary of product characteristics.
 
 ## Eponyms
 
@@ -142,7 +160,7 @@ When constructing an FSN, the preposition 'of' is preferred over using the prepo
 
 ## Foundation hierarchies referenced in other hierarchy descriptions <a href="#foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio" id="foundation-hierarchies-body-structure-substance-or-organism-referenced-in-other-hierarchy-descriptio"></a>
 
-The foundation hierarchies are body structure, substance, organism, physical object, and product.  These hierarchies underpin the naming and modeling of other hierarchies.  When creating the descriptions for a concept that name an entity from a foundation hierarchy, such as a disorder concept referencing a body structure, the conventions that are applied for naming the entity in the foundation hierarchy should be used in the non-foundation hierarchy descriptions as well.
+The foundation hierarchies are body structure, substance, organism, physical object, and product. These hierarchies underpin the naming and modeling of other hierarchies. When creating the descriptions for a concept that name an entity from a foundation hierarchy, such as a disorder concept referencing a body structure, the conventions that are applied for naming the entity in the foundation hierarchy should be used in the non-foundation hierarchy descriptions as well.
 
 * For example,
   * 11218009 | Infection caused by Pseudomonas aeruginosa (disorder)|
@@ -158,10 +176,10 @@ The foundation hierarchies are body structure, substance, organism, physical obj
 The term _bladder_ must include _urinary_ to distinguish from gallbladder and aid in translation. _Urinary bladder_ must be used in both the fully specified name and preferred term.
 {% endhint %}
 
-Descriptions should be context-neutral for foundation hierarchies. Where context is explicit for a disease or procedure, the preferred term from foundation hierarchies can be used instead.&#x20;
+Descriptions should be context-neutral for foundation hierarchies. Where context is explicit for a disease or procedure, the preferred term from foundation hierarchies can be used instead.
 
-* For example,&#x20;
-  * Procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional.  The procedure site should be modeled with the cross-sectional abdomen.  However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'.  It is the same reason for the preferred term |CT of abdomen|.
+* For example,
+  * Procedure _CT of abdomen_ indicates that the context of CT imaging is cross-sectional. The procedure site should be modeled with the cross-sectional abdomen. However, it is not necessary to change 'Computed tomography of abdomen (procedure)' to 'Computed tomography of cross-sectional abdomen (procedure)'. It is the same reason for the preferred term |CT of abdomen|.
 
 ### Exceptions <a href="#exceptions.2" id="exceptions.2"></a>
 

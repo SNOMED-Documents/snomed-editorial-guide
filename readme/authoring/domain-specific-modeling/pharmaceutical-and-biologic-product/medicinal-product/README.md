@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Medicinal Product
 
 An abstract representation of a medicinal product without reference to its dose form or its strength.
@@ -11,13 +29,13 @@ The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pha
 
 ## General Assumptions and Requirements
 
-| Assumption or Requirement                                                                                                                                                                                                                                 |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The top level concepts in the hierarchy will primarily be sufficiently defined grouper concepts.                                                                                                                                                          |
-| Any requirement to align to external standards or registries will be explicitly documented. Concept model will be compatible with ISO's Identification of Medicinal Products (IDMP) standards (where appropriate).                                        |
-| Concepts shall be sufficiently defined using proximal primitive modeling methodology unless explicitly noted as an exception in the editorial guidelines.                                                                                                 |
-| Concept model supports neither universal restrictions nor nesting.                                                                                                                                                                                        |
-| <p>Content in the |Medicinal product| hierarchy in the International Release is not intended to: </p><p>-support prescribing use cases, but may be sufficient to do so for some implementations. </p><p>-eliminate the need for a national extension.</p> |
+| Assumption or Requirement                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| The top level concepts in the hierarchy will primarily be sufficiently defined grouper concepts.                                                                                                                   |
+| Any requirement to align to external standards or registries will be explicitly documented. Concept model will be compatible with ISO's Identification of Medicinal Products (IDMP) standards (where appropriate). |
+| Concepts shall be sufficiently defined using proximal primitive modeling methodology unless explicitly noted as an exception in the editorial guidelines.                                                          |
+| Concept model supports neither universal restrictions nor nesting.                                                                                                                                                 |
+| Content in the                                                                                                                                                                                                     |
 
 ## Out of Scope
 
@@ -39,7 +57,7 @@ The grouper 763158003 |Medicinal product (product)|, a stated descendant of |Pha
 * Packs
 * Products intended only for non-human use
 * Products no longer marketed or available for sale
-  * Existing concepts representing products that are no longer marketed or available for sale will be retained as active concepts in the International Release.  Requests for new content will be considered for inclusion on a case-by-case basis.
+  * Existing concepts representing products that are no longer marketed or available for sale will be retained as active concepts in the International Release. Requests for new content will be considered for inclusion on a case-by-case basis.
 * Relevant omissions (e.g., sugar-free, preservative-free)
 * Routes of administration not explicitly represented
 * Sterility

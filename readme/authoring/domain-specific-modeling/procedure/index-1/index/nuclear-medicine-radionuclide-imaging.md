@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Nuclear Medicine - Radionuclide Imaging
 
 Nuclear medicine imaging uses radionuclides or radioisotopes.
@@ -10,18 +28,18 @@ Nuclear medicine imaging uses radionuclides or radioisotopes.
 ## Radionuclide imaging
 
 * FSN: Radionuclide imaging of X (procedure)
-* PT:  Radionuclide imaging of X
+* PT: Radionuclide imaging of X
 * SYN: Radioisotope imaging of X
   * For example,
-    * 710313004 | Radionuclide imaging of peritoneal cavity (procedure)| &#x20;
-      * FSN: Radionuclide imaging of peritoneal cavity (procedure)&#x20;
-      * PT: Radionuclide imaging of peritoneal cavity&#x20;
+    * 710313004 | Radionuclide imaging of peritoneal cavity (procedure)|
+      * FSN: Radionuclide imaging of peritoneal cavity (procedure)
+      * PT: Radionuclide imaging of peritoneal cavity
       * SYN: Radioisotope imaging of peritoneal cavity
 
 ## Radionuclide imaging using isotopes (with other agents)
 
 * FSN: Radionuclide imaging of X using Y (procedure)
-* PT:  Radionuclide imaging of X using Y
+* PT: Radionuclide imaging of X using Y
 * SYN: Radioisotope imaging of X using Y
   * For example,
     * 710312009 | Radionuclide imaging of perfusion of liver using technetium Tc^99m^ aggregated albumin (procedure)|

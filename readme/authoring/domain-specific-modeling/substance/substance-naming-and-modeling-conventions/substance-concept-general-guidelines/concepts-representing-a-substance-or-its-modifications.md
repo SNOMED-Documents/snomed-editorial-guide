@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Concepts Representing a Substance or its Modifications
 
 ## Overview
@@ -124,9 +142,9 @@ This is the **inferred** view:
 
 Dried gels have an |Is modification of (attribute)| relationship to the gel substance.
 
-* For example, 768558006 |Dried aluminium hydroxide gel (substance)| has an |Is modification of (attribute)| relationship of |Algeldrate (substance)|.&#x20;
+* For example, 768558006 |Dried aluminium hydroxide gel (substance)| has an |Is modification of (attribute)| relationship of |Algeldrate (substance)|.
 
-#### In general, an |Is modification of (attribute)| is not applicable to prodrugs.&#x20;
+#### In general, an |Is modification of (attribute)| is not applicable to prodrugs.
 
 This is because there is no requirement for the |Has active ingredient (attribute)| of medicinal products containing prodrug substances to use any relationship to the active substance to manage relationships within the medicinal product hierarchy.
 

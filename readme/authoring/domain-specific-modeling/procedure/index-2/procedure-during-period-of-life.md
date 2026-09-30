@@ -1,11 +1,29 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Procedure during period of life
 
-Where a procedure is undertaken during a specific period of life, such as in the maternal pregnancy period, the descriptions may include the term _during._  However, the concept is modeled with Occurrence (attribute) with a value of <282032007 |Periods of life (qualifier value)|.
+Where a procedure is undertaken during a specific period of life, such as in the maternal pregnancy period, the descriptions may include the term _during._ However, the concept is modeled with Occurrence (attribute) with a value of <282032007 |Periods of life (qualifier value)|.
 
 * For example,
   * 1287360000 | Injection of epidural anesthesia during maternal intrapartum period (procedure)| has an Occurrence (attribute)| of 1156682000 |Maternal intrapartum period (qualifier value)|.
@@ -42,7 +60,7 @@ The generic 35039007 |Uterine structure (body structure)| should be used, becaus
 
 ## Fetal procedures <a href="#fetal-procedures" id="fetal-procedures"></a>
 
-Fetal procedures are fully defined by an Occurrence (attribute) of <\<Fetal period (qualifier value).  Generic body structures, for example, kidney, head, etc., should be used for procedure sites, unless the structure is unique to a fetus.  Structures _not_ unique to a fetus, such as, fetal head, fetal kidney, etc., will be inactivated in future releases, so they should not be used for modeling fetal procedures.
+Fetal procedures are fully defined by an Occurrence (attribute) of <\<Fetal period (qualifier value). Generic body structures, for example, kidney, head, etc., should be used for procedure sites, unless the structure is unique to a fetus. Structures _not_ unique to a fetus, such as, fetal head, fetal kidney, etc., will be inactivated in future releases, so they should not be used for modeling fetal procedures.
 
 For example,\
 Ultrasonography of fetal head (procedure) can be fully defined by |Procedure| and Ultrasound imaging of the Head with the Occurrence (attribute) of Fetal period (qualifier value).
@@ -53,9 +71,4 @@ Ultrasonography of fetal head (procedure) can be fully defined by |Procedure| an
 The generic 69536005 |Head structure (body structure)| should be used, because the 54527006 |Fetal head structure (body structure)| cannot return the complete substructures of the head.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Procedure%20during%20period%20of%20life" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Procedure%20during%20period%20of%20life" class="button primary">Provide Feedback</a>

@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Event Modeling
 
 ## Event attributes
@@ -22,9 +40,4 @@ The allowed ranges will not prevent some incorrect modeling. Some allowed attrib
 * For the January 2020 Release, vaccine-related overdose concepts in the Clinical Finding/Disorder hierarchy were inactivated. They were replaced with _excessive dose_ concepts in the Event hierarchy.
 * When authoring, determine whether the concept describes an overdose, a _disorder_ , or the administration or ingestion of an excessive dose, an _event_.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Event%20Modeling" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Event%20Modeling" class="button primary">Provide Feedback</a>

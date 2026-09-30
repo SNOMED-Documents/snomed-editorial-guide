@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Event
 
-| Definition                                                                   | Examples                                                                                               |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Occurrences impacting health or health care; not procedures or interventions | <ul><li>1285720003 |Financial abuse (event)|</li><li>409495001 |Bioterrorist attack (event)|</li></ul> |
+| Definition                                                                   | Examples                     |
+| ---------------------------------------------------------------------------- | ---------------------------- |
+| Occurrences impacting health or health care; not procedures or interventions | <ul><li>1285720003</li></ul> |
 
 * [Event Attributes Summary](event-attributes-summary.md)
 * [Event Modeling](event-modeling.md)

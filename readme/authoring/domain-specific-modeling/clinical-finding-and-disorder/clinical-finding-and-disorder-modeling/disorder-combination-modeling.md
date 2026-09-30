@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Disorder Combination Modeling
 
 Many disorders can occur in combination within the same patient. Guidance on the modeling and terming of FSNs for disorder combinations aims to achieve consistency. Clinically significant disorder combinations are represented in SNOMED CT by a single concept so that users can document temporal (timing) and causal (cause/effect) relationships between the conditions.
@@ -68,20 +86,20 @@ Do not use simple co-occurrence for those disorders with more than one anatomica
 
 Correct examples:
 
-·       Sinusitis with nasal polyps (disorder)
+· Sinusitis with nasal polyps (disorder)
 
-·       Acute bronchitis with bronchiectasis (disorder)
+· Acute bronchitis with bronchiectasis (disorder)
 
 Incorrect examples not to be repeated:
 
-·       Psoriasis-eczema overlap condition (disorder)
+· Psoriasis-eczema overlap condition (disorder)
 
-·       Hay fever with asthma (disorder)
+· Hay fever with asthma (disorder)
 
 {% hint style="success" %}
 Be aware of conditions which likely exist prior to a disorder or procedure.
 
-For example,&#x20;
+For example,
 
 Legacy term 609454008 | Induced termination of pregnancy complicated by acute necrosis of liver (disorder)|
 
@@ -96,7 +114,7 @@ Causation 1 applies when the cause is another finding, disorder, event, or proce
 
 ### Naming pattern
 
-For conditions that are causal, or causal and co-occurring, construct the FSN with due to&#x20;
+For conditions that are causal, or causal and co-occurring, construct the FSN with due to
 
 * _X due to Y_
 
@@ -130,14 +148,14 @@ For conditions specified as causal and temporal, construct the FSN with _due to_
 #### Incorrect examples not to be repeated:
 
 * Neutropenia associated with acquired immunodeficiency syndrome (disorder) - Do not use _associated_; use only _with_ instead. So, |Neutropenia with acquired immunodeficiency syndrome (disorder)|.
-* Dilated cardiomyopathy secondary to granuloma (disorder) - Do not use _secondary to_; use _due to_ instead.  So, |Dilated cardiomyopathy due to granuloma (disorder)|.
+* Dilated cardiomyopathy secondary to granuloma (disorder) - Do not use _secondary to_; use _due to_ instead. So, |Dilated cardiomyopathy due to granuloma (disorder)|.
 
 {% hint style="warning" %}
 **Determining causation only versus causation and co-occurrence**
 
 There are no heuristics to standardize the determination of a precoordinated combination modeled using only the _Due to_ relationship versus modeling the _Due to_ relationship in addition to representing the causative condition in the supertypes. If both conditions must be present for the other to occur, both should be represented in the supertypes. Whether both conditions must be present concurrently is determined by an understanding of the disease process. Considerations include whether the conditions are chronic diseases, as these types of conditions will be ever present and thus require representation in the supertypes. If the causing condition resolves but the resultant condition can remain, then representation of both conditions in the supertypes is unwarranted.
 
-There are approximately 300 legacy concepts with _co-occurrent and due_ _to_ in the description.  Do not add new concepts with the terming _co-occurrent and due to;_ instead use co-occurrence modeling (both conditions are represented in a supertype) in addition to the _Due to_ (attribute) if warranted by the clinical condition.
+There are approximately 300 legacy concepts with _co-occurrent and due_ _to_ in the description. Do not add new concepts with the terming _co-occurrent and due to;_ instead use co-occurrence modeling (both conditions are represented in a supertype) in addition to the _Due to_ (attribute) if warranted by the clinical condition.
 {% endhint %}
 
 ## **Causation 2**
@@ -149,7 +167,7 @@ Causation 2 applies when <sup>1</sup>the cause is a material entity, and <sup>2<
 
 ### Naming pattern
 
-_FSN:  X caused by Y_
+_FSN: X caused by Y_
 
 ### Modeling pattern
 
@@ -240,12 +258,12 @@ In modeling concepts related to infectious diseases, a number of considerations 
 
 * If the focus disorder is itself an infectious disorder, it will also have a |Causative agent| relationship when the organism is specified.
   * For example,
-    * **|Causative agent|** relationship:  721742004 |Otitis media caused by Streptococcus pneumoniae (disorder)|
-    * **|Due to|** relationship:  698733009 |Intestinal obstruction due to tuberculosis (disorder)|
-    * **|Due to|** and **|Causative agent|** relationship:  866044006 |Mycosis due to human immunodeficiency virus infection (disorder)|
-    * **|After|** relationship:  182961000119101 |Acute disseminated encephalomyelitis following infectious disease (disorder)|
-    * **|After|** and **|Causative agent|** relationship:  4740000 |Herpes zoster (disorder)|
-    * **|Due to|** and **|After|** relationship:  1148594002 |Chronic arthritis due to and following rheumatic fever (disorder)|
+    * **|Causative agent|** relationship: 721742004 |Otitis media caused by Streptococcus pneumoniae (disorder)|
+    * **|Due to|** relationship: 698733009 |Intestinal obstruction due to tuberculosis (disorder)|
+    * **|Due to|** and **|Causative agent|** relationship: 866044006 |Mycosis due to human immunodeficiency virus infection (disorder)|
+    * **|After|** relationship: 182961000119101 |Acute disseminated encephalomyelitis following infectious disease (disorder)|
+    * **|After|** and **|Causative agent|** relationship: 4740000 |Herpes zoster (disorder)|
+    * **|Due to|** and **|After|** relationship: 1148594002 |Chronic arthritis due to and following rheumatic fever (disorder)|
 
 {% hint style="danger" %}
 _Applying the |Due to|, |After|, or both |Due to| and |After| relationships to a concept will not lead to it being a subtype of |Infectious disease (disorder)| unless it is itself an infectious disease._

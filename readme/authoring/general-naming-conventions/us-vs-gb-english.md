@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # US vs. GB English
 
 All fully specified names (FSN) should be represented in US English. When there is a difference between the US and GB spelling, there should be US and General British (GB) preferred terms (PT) and/or synonyms (SYN).

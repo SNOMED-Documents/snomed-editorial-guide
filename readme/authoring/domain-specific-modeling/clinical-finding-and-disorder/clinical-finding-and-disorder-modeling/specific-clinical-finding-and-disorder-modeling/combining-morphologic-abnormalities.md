@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Combining Morphologic Abnormalities
 
 When modeling a concept requiring two role groups with the same body structure but two different morphologies (because a combined morphology does not exist), then those morphologic abnormalities can be combined to create a single morphologic abnormality concept. Keep the newly-created morphologic abnormality concept primitive, as all morphologic abnormality concepts are primitive.

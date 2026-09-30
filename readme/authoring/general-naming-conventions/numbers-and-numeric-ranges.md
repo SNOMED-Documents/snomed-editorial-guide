@@ -1,15 +1,33 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Numbers and Numeric Ranges
 
 ## Roman numerals versus Arabic numbers <a href="#roman-numerals-versus-arabic-numbers" id="roman-numerals-versus-arabic-numbers"></a>
 
-Use the most common representation found in literature for the fully specified name. Use the alternative representation as a synonym, if it is also represented in the literature. If neither representation is common, use the Arabic representation. &#x20;
+Use the most common representation found in literature for the fully specified name. Use the alternative representation as a synonym, if it is also represented in the literature. If neither representation is common, use the Arabic representation.
 
-For example, in the _AMA Manual of Style,_ cancer stages are expressed with the use of capital Roman numerals: stage I, stage II, stage III, stage IV. The term, "stage 0", usually indicates carcinoma in situ.  Histologic grades are expressed with Arabic numerals, e.g., grade 2.
+For example, in the _AMA Manual of Style,_ cancer stages are expressed with the use of capital Roman numerals: stage I, stage II, stage III, stage IV. The term, "stage 0", usually indicates carcinoma in situ. Histologic grades are expressed with Arabic numerals, e.g., grade 2.
 
 ## Numeric ranges <a href="#numeric-ranges" id="numeric-ranges"></a>
 
@@ -32,9 +50,4 @@ A standard definition with a fixed numeric range may be acceptable, i.e., the ra
   * The Tumor, Node, Metastases (TNM) Classification of Malignant Tumor
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Numbers%20and%20Numeric%20Ranges" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Numbers%20and%20Numeric%20Ranges" class="button primary">Provide Feedback</a>

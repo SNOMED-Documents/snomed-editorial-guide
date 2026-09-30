@@ -1,20 +1,38 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Observable Entity
 
-| Definition                                                                      | Examples                                                                                                                       |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Information about a quality/property to be observed and how it will be observed | <ul><li>416320009 |Calcium volume (observable entity)|</li><li>276885007 |Core body temperature (observable entity)|</li></ul> |
+| Definition                                                                      | Examples                    |
+| ------------------------------------------------------------------------------- | --------------------------- |
+| Information about a quality/property to be observed and how it will be observed | <ul><li>416320009</li></ul> |
 
 ## Use of Observable Entities
 
 Observables entities may be used to code headers on a template, elements on a checklist, or to assign values to elements.
 
 * For example,
-  * |Color of nail| is an _observable entity_.  |Gray nails| is a _finding_.
+  * |Color of nail| is an _observable entity_. |Gray nails| is a _finding_.
 
 ### Types of Observable Entities
 

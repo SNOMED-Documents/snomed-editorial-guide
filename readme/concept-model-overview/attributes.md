@@ -1,23 +1,41 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Attributes
 
 ## Attribute Constructs
 
 ### Attribute
 
-| Definition                                                                            | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Example                                           |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- |
-| Represents a characteristic of the meaning of a concept or the nature of a refinement | <p>An attribute has a name which is represented by a concept. All of the concepts that can be used to name attributes are subtypes of the concept 410662002|Concept model attribute (attribute)|. </p><p></p><p>An attribute is assigned a value (that creates an attribute-value pair) when used in the definition of a concept or in a postcoordinated expression. </p><p></p><p>The permitted range of values for an attribute depends on the rules specified in the concept model.</p> | 116676008 \| Associated morphology (attribute) \| |
+| Definition                                                                            | Notes                                                                                                                                                    | Example                             |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| Represents a characteristic of the meaning of a concept or the nature of a refinement | An attribute has a name which is represented by a concept. All of the concepts that can be used to name attributes are subtypes of the concept 410662002 | Concept model attribute (attribute) |
 
 ### Range
 
-| Definition                                                                                                                                                          | Note                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Example                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| A constrained set of values that the Concept Model permits to be applied to a specific attribute when that attribute is applied to a concept in a particular domain | <p>The range of permitted values that can be applied to an attribute is typically defined to include concepts in one or more branches of the subtype hierarchy. </p><p></p><p>The range for an attribute may include intensional or extensional definitions or both. An example of a range with an intensional definition is 370130000 |Property (attribute)| which has a range of &#x3C;&#x3C; 118598001 |Property (qualifier value)|. An example of a range with an extensional definition is 1148969005 |Has absorbability (attribute)| with range of 860574003 |Bioabsorbable (qualifier value)| OR 863965006 |Nonbioabsorbable (qualifier value)| OR 863968008 |Partially bioabsorbable (qualifier value)|.</p> | The range for values of 116676008 \| Associated morphology (attribute) \| is a subtype of 49755003 \| Morphologically abnormal structure (morphologic abnormality) \| . |
+| Definition                                                                                                                                                          | Note                                                                                                                                                                                                                                                                                                                               | Example              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| A constrained set of values that the Concept Model permits to be applied to a specific attribute when that attribute is applied to a concept in a particular domain | <p>The range of permitted values that can be applied to an attribute is typically defined to include concepts in one or more branches of the subtype hierarchy.</p><p>The range for an attribute may include intensional or extensional definitions or both. An example of a range with an intensional definition is 370130000</p> | Property (attribute) |
 
 Not all hierarchies in SNOMED CT have defining attributes. Many attributes apply to top-level domain hierarchies, some to more than one. Some attributes to a lower-level, or a more specific, domain hierarchy. Primitive concepts in some hierarchies may be attribute values in top-level hierarchies.
 
@@ -53,24 +71,24 @@ Selected SNOMED CT attributes have a hierarchical relationship to one another kn
 #### Procedure attribute hierarchies
 
 * Procedure Site
-  * Procedure site - Direct&#x20;
+  * Procedure site - Direct
   * Procedure site - Indirect
 * Procedure device
   * Direct device
   * Indirect device
   * Using device
     * Using access device
-* Procedure morphology&#x20;
+* Procedure morphology
   * Direct morphology
   * Indirect morphology
 
-#### Body structure attribute hierarchy&#x20;
+#### Body structure attribute hierarchy
 
-* All or part of&#x20;
-  * Proper part of&#x20;
+* All or part of
+  * Proper part of
     * Constitutional part of
-    * Regional part of&#x20;
-      * Lateral half of&#x20;
+    * Regional part of
+      * Lateral half of
     * Systemic part of
 
 #### Medicinal product attribute hierarchy
@@ -79,9 +97,4 @@ Selected SNOMED CT attributes have a hierarchical relationship to one another kn
   * Has active ingredient
   * Has precise active ingredient
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Attributes" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Attributes" class="button primary">Provide Feedback</a>

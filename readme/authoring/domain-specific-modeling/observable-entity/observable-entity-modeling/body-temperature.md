@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Body temperature
 
 _Core body temperature_ is the temperature in the deep tissues and internal organs, including the brain. The gold standard site for measuring core body temperature is the pulmonary artery. Other sites for measuring core body temperature include the nasopharynx, esophagus, bladder, gastrointestinal tract, and vagina. Some peripheral sites are commonly used to estimate core body temperature but are not a true representation of core body temperature on their own, e.g., axillary region, inguinal region, sublingual space. _Body surface temperature_ is measured at several sites, e.g., skin, foot, spine.
@@ -10,13 +28,7 @@ _Core body temperature_ is the temperature in the deep tissues and internal orga
 For example,
 
 * 698831002 |Core body temperature measured in nasopharynx (observable entity)|
-    * 415882003 |Estimated core body temperature measured in axillary region (observable entity)|
-    * 364518005 |Temperature of foot (observable entity)|
+  * 415882003 |Estimated core body temperature measured in axillary region (observable entity)|
+  * 364518005 |Temperature of foot (observable entity)|
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=SCT+Editorial+Guide&entry.670899847=Body%20temperature" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Body%20temperature" class="button primary">Provide Feedback</a>

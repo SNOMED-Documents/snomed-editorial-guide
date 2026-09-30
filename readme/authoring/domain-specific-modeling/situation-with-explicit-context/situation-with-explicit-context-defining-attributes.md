@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Situation with Explicit Context Defining Attributes
 
 The following defining attributes correspond to the _Situation with Explicit Context Attributes Summary_ table.
@@ -26,8 +44,8 @@ For example, to create the concept, History of thyroid disease in father,
 
 Incorrect example,
 
-* Using Family history with explicit context (situation),&#x20;
-  * Subject relationship context (attribute) with the value, father (person)&#x20;
+* Using Family history with explicit context (situation),
+  * Subject relationship context (attribute) with the value, father (person)
   * Associated finding with value, Family history: Thyroid disorder (situation)
 
 ## Finding context

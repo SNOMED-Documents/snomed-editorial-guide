@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Punctuation and Symbols
 
 {% hint style="info" %}
@@ -43,9 +61,9 @@ Existing eponymous descriptions with the possessive _s_, but no apostrophe, need
 
 ### Prime symbol ( ′ ) <a href="#prime-symbol" id="prime-symbol"></a>
 
-In protein names, a prime symbol is used to indicate the cleavage location on a substrate and to distinguish different subunits with the same notation.  SNOMED CT uses the single quote character, also known as apostrophe, to represent prime. &#x20;
+In protein names, a prime symbol is used to indicate the cleavage location on a substrate and to distinguish different subunits with the same notation. SNOMED CT uses the single quote character, also known as apostrophe, to represent prime.
 
-* For example,&#x20;
+* For example,
   * 80222004 |5'-nucleotidase (substance)|
 
 The international edition of SNOMED CT does not publish descriptions with prime symbols.

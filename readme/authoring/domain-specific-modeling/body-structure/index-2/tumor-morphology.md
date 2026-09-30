@@ -1,8 +1,26 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Tumor morphology
 
 SNOMED CT accepts tumor concepts, as long as they are included in the International Classification of Diseases for Oncology (ICD-O). ICD-O has two coding systems for coding the site (topography) and the histology (morphology) of the neoplasm:
@@ -26,7 +44,5 @@ The naming pattern utilized for gene-derived neoplastic morphology terms will al
 
 Visit ICD-O at [http://www.iacr.com.fr](http://www.iacr.com.fr/index.php?option=com_content\&view=category\&layout=blog\&id=100\&Itemid=577)
 {% endhint %}
-
-
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Tumor%20morphology" class="button primary">Provide Feedback</a>

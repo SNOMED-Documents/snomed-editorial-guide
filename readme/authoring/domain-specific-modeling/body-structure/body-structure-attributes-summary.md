@@ -1,13 +1,31 @@
 ---
 layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
   metadata:
     visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
+
 # Body Structure Attributes Summary
 
 When authoring in this domain, these are the approved attributes and allowable ranges.
 
-See also the respective [templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133997528/Anatomy+templates).&#x20;
+See also the respective [templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEMPLATES/pages/133997528/Anatomy+templates).
 
 ## Domain Information for Body Structure
 
