@@ -51,7 +51,7 @@ _**These guidelines should be applied to new content. While many concepts exist 
 
 ***
 
-<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="/broken/pages/nMBupijnfW0K1DYvFI9M">Broken link</a></td></tr><tr><td><a href="readme/snomed-ct-introduction/">snomed-ct-introduction</a></td></tr><tr><td><a href="readme/concept-model-overview/">concept-model-overview</a></td></tr><tr><td><a href="readme/authoring/">authoring</a></td></tr><tr><td><a href="readme/editorial-guide-change-log.md">editorial-guide-change-log.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="readme/snomed-ct-introduction/">snomed-ct-introduction</a></td></tr><tr><td><a href="readme/concept-model-overview/">concept-model-overview</a></td></tr><tr><td><a href="readme/authoring/">authoring</a></td></tr><tr><td><a href="readme/editorial-guide-change-log.md">editorial-guide-change-log.md</a></td></tr></tbody></table>
 
 ***
 
