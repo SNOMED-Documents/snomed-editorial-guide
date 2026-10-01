@@ -87,6 +87,11 @@ Concepts that represent a combination of two or more separate substances
 
 * Existing instances have been inactivated. Changes to SNOMED CT concept model to permit the use of concepts within the products hierarchy (e.g., vaccine products) as well as use of General Concept Inclusion functionality to model disorder and findings concepts means that combined substances concepts are no longer required. Requests for new instances will be rejected.
 
+Substances that identify a mix of allergens to be tested for allergy reporting are excluded from SNOMED CT.  These tests are considered ambiguous when they do not specify the specific allergens being tested.
+
+* For example,
+  * Immunoglobulin E antibody to mold mix (substance)
+
 #### EXCEPTIONS
 
 Combined dried gels, also known as co-dried gels, are registered as a single "substance" (or a Specified Substance) in the IDMP database, rather than two separate substances. Because the structural modification creates a unique chemical entity with different properties than the sum of its parts, regulators treat it as its own unique ingredient.&#x20;

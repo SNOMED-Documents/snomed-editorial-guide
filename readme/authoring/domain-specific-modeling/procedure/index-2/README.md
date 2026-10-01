@@ -120,4 +120,25 @@ The interpretation of primary may be:
 * Antenatal subsequent blood tests (procedure)
 {% endhint %}
 
+### Mixed allergen tests
+
+Mixed-allergen test procedure concepts are permitted in SNOMED CT only when the individual allergens included in the mixture are clearly specified. These concepts represent single tests performed using an allergen mixture, rather than panels of separate allergen tests. They generally report a positive/negative, detected/not detected result indicating whether IgE antibodies to one or more allergens in the mixture are detected, without identifying which specific allergen or allergens account for a positive result.  Examples include:
+
+**414370009** |Guinea pig epithelium+rabbit epithelium+hamster epithelium+rat epithelium+rat serum proteins+rat urine proteins+mouse epithelium+mouse serum proteins+mouse urine proteins specific immunoglobulin E antibody measurement (procedure)|
+
+**1299141009** |Peanut+hazelnut+Brazil nut+almond+coconut specific immunoglobulin E antibody measurement (procedure)|&#x20;
+
+* Synonym |Mixed nut (fx1) specific IgE antibody measurement|
+
+**1299142002** |Pecan nut+cashew nut+ pistachio+walnut specific immunoglobulin E antibody measurement (procedure)|&#x20;
+
+* Synonym |Mixed nut (fx22) specific IgE antibody measurement|
+
+Existing mixed-allergen test procedure concepts that did not clearly specify the allergens included in the mixture have been inactivated. Examples include:
+
+* Cereals food mix radioallergosorbent test (procedure)
+* Mixed fruit radioallergosorbent test (procedure)
+* Nut mix radioallergosorbent test (procedure)
+* Seafood mix radioallergosorbent test (procedure)
+
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Procedure%20Modeling" class="button primary">Provide Feedback</a>
