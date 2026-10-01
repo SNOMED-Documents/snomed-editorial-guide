@@ -41,7 +41,7 @@ layout:
 * [Ischemia](ischemia.md)
 * [Lesion](lesion.md)
 * [Malformation, deformation, anomaly](malformation-deformity-anomaly.md)
-* [Maternal, fetal, neonatal](maternal-fetal-neonatal.md)
+* [Maternal, fetal, neonatal](maternal-fetal-neonatal/)
 * [Measurement findings](measurement-findings.md)
 * [Mental health](mental-health.md)
 * [Multisystem disorders](multisystem-disorders.md)
