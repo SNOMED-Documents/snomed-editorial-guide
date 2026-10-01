@@ -183,6 +183,7 @@ Descriptions should be context-neutral for foundation hierarchies. Where context
 
 ### Exceptions <a href="#exceptions.2" id="exceptions.2"></a>
 
+* The term to use in lieu of _drug or medicament_ is _medication,_ even though a concept may reference 410942007 |Drug or medicament (substance)|, due to the ambiguity of the term _drug_.
 * Where an infection caused by a microorganism has a common name, the common name of the disease can be used in the preferred term if accompanied by the explicitly-stated organism.
 * When defining concepts in other hierarchies by referring to an organism, the taxonomical rank of the organism should not be included in the FSN or synonyms.
   * For example,
