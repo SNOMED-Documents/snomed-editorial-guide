@@ -214,6 +214,10 @@ For example,
 
 This attribute represents a pathological physiological state in which a substance or cell type is present in insufficient quantity or activity in the subject.
 
+For example,&#x20;
+
+* 1295529002 |Xp21 deletion syndrome (disorder)| has 129453003 |Has deficiency of (attribute)| of  67014006 |Glycerol kinase (substance)|
+
 ## Has excess of
 
 This attribute represents a pathological physiological state in which a substance or cell type is present in excessive quantity or activity in the subject.
