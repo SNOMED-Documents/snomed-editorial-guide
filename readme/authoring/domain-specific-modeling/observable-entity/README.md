@@ -59,7 +59,7 @@ While some users have indicated they require the use of a measurement procedure 
 Because both observable entities and evaluation procedures may be used for ordering, any analytics derived from order data must account for both hierarchy types to ensure complete and accurate results.
 {% endhint %}
 
-As for the progression of the completion of an assessment, that is related to the state diagram (i.e., status) of the progression of a procedure and should not be precoordinated, but handled by the information system in which orders are processed (it is dynamic, not static). The information system should be able to capture the status of a procedure (e.g., ordered, in process, completed). We would not expect the terminology to pre-coordinate this.
+As for the progression of the completion of an assessment, that is related to the state diagram (i.e., status) of the progression of a procedure and should not be precoordinated, but handled by the information system in which orders are processed (it is dynamic, not static). The information system should be able to capture the status of a procedure (e.g., ordered, in process, completed). We would not expect the terminology to precoordinate this.
 
 For example, LOINC recognizes three different aspects to an observable:
 

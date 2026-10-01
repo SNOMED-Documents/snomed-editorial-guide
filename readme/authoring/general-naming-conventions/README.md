@@ -35,9 +35,9 @@ Generally, names should:
 Naming conventions should not be based on word order preferences (e.g. to facilitate search or display). Creating multiple word order variants for these purposes is outside the scope of the International Release of SNOMED CT _._
 
 {% hint style="warning" %}
-SNOMED CT relies on the rules for _usefulness_ to avoid excessive pre-coordination (see [_Scope_](../scope/)).
+SNOMED CT relies on the rules for _usefulness_ to avoid excessive precoordination (see [_Scope_](../scope/)).
 
-Approved pre-coordination naming patterns have been created and are available at [Pre-coordination Naming Patterns Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project).
+Approved precoordination naming patterns have been created and are available at [Pre-coordination Naming Patterns Project](https://conf.spaces.snomed.org/wiki/spaces/IHTSDO1/pages/130978180/Pre-coordination+Naming+Patterns+Project).
 {% endhint %}
 
 ## Articles

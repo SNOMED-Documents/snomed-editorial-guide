@@ -333,7 +333,7 @@ Generally, |Severity (attribute)| is not used to model concepts precoordinated i
 
 Non-standardized or locally defined severity values will not be recognized or supported in SNOMED CT. However, severity values explicitly defined and standardized by an internationally recognized standard are acceptable. A valid exception requires an internationally accepted definition that can be consistently applied and used reliably for international comparison. Even though a reference may be internationally sourced, its use may not always be uniformly applied by multiple countries. Classifications of severity that represent variation in clinical presentations and enact limitations with age ranges, sex, or pregnancy status, do not apply universally to all patients of all ages, prove problematic, and may not be generally useful.
 
-As an alternative to pre-coordination in the international release, this severity attribute can be used as a qualifier in postcoordination. However, beware that postcoordination of severity results in the same irreproducibility issues as pre-coordination.
+As an alternative to precoordination in the international release, this severity attribute can be used as a qualifier in postcoordination. However, beware that postcoordination of severity results in the same irreproducibility issues as precoordination.
 {% endhint %}
 
 ## Temporally related to

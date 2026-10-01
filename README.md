@@ -37,7 +37,7 @@ The SNOMED CT Editorial Guide provides the rules, conventions, and principles re
 
 ## Scope
 
-This guide covers the editorial policies for precoordinated content, meaning concepts and rules applicable to all precoordinated SNOMED CT content. Rules specific only to post-coordinated content are not included; these are managed separately through the MRCM ([Machine Readable Concept Model](https://browser.ihtsdotools.org/mrcm)) browser. The guide provides information on concept modeling, naming conventions, inactivation, attributes, and rules for specific hierarchies.
+This guide covers the editorial policies for precoordinated content, meaning concepts and rules applicable to all precoordinated SNOMED CT content. Rules specific only to postcoordinated content are not included; these are managed separately through the MRCM ([Machine Readable Concept Model](https://browser.ihtsdotools.org/mrcm)) browser. The guide provides information on concept modeling, naming conventions, inactivation, attributes, and rules for specific hierarchies.
 
 ## Audience
 

@@ -31,7 +31,7 @@ _Associated finding_ and _Finding context_ are used with Findings with Explicit 
 
 This attribute links concepts in the Situation with explicit context hierarchy to their related Clinical finding or Event. It specifies the Clinical finding or Event concept whose context is being modified.
 
-When Associated finding is used in post-coordinated expressions, its range is broader than when used in pre-coordinated content. Associated finding should not reference concepts that already have precoordinated context.
+When Associated finding is used in postcoordinated expressions, its range is broader than when used in precoordinated content. Associated finding should not reference concepts that already have precoordinated context.
 
 For example,
 

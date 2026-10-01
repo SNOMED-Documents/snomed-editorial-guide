@@ -33,15 +33,15 @@ layout:
 
 ## Core metadata concept
 
-Subtypes of 900000000000442005 | Core metadata concept (core metadata concept)| provide structural information required to support International Release data. This supporting information includes sets of enumerated values that apply to attributes of concepts, descriptions, and relationships.
+Subtypes of 900000000000442005 |Core metadata concept (core metadata concept)| provide structural information required to support International Release data. This supporting information includes sets of enumerated values that apply to attributes of concepts, descriptions, and relationships.
 
 ## Foundation metadata concept
 
-Subtypes of the 900000000000454005 | Foundation metadata concept (foundation metadata concept)| provide supporting metadata and structural information for derivative release structures including Reference Sets.
+Subtypes of the 900000000000454005 |Foundation metadata concept (foundation metadata concept)| provide supporting metadata and structural information for derivative release structures including Reference Sets.
 
 ## Linkage concept
 
-A 106237007 | Linkage concept (linkage concept)| links two or more concepts to express compositional meanings. All concept codes that can be used as a _Relationship Type_ are included under Linkage concept (linkage concept). The Concept Model attributes are approved for use.
+A 106237007 |Linkage concept (linkage concept)| links two or more concepts to express compositional meanings. All concept codes that can be used as a _Relationship Type_ are included under Linkage concept (linkage concept). The Concept Model attributes are approved for use.
 
 Linkage concept is a subtype of 900000000000441003 |SNOMED CT Model Component (metadata)|. The Linkage concept hierarchy has the subhierarchies:
 
@@ -52,7 +52,7 @@ Concepts in the Linkage concept subhierarchy are used to construct relationships
 
 ### Unapproved attributes
 
-408739003 |Unapproved attribute (attribute)| is a subtype within this hierarchy with over a thousand descendants. Unapproved attributes in the SNOMED CT Concept model may be used to create post-coordinated expressions with caution. Use of unapproved attributes is neither supported by the MRCM nor recommended beyond intraorganizational use. Approved attributes are those that fit the MRCM for data sharing and interoperability between systems. Unapproved attributes are used for creating expressions within a single system for semantic matching of vendor terms (i.e. those that are used for mapping of interface terms, clinical decision support that use components within the expression, etc.).
+408739003 |Unapproved attribute (attribute)| is a subtype within this hierarchy with over a thousand descendants. Unapproved attributes in the SNOMED CT Concept model may be used to create postcoordinated expressions with caution. Use of unapproved attributes is neither supported by the MRCM nor recommended beyond intraorganizational use. Approved attributes are those that fit the MRCM for data sharing and interoperability between systems. Unapproved attributes are used for creating expressions within a single system for semantic matching of vendor terms (i.e. those that are used for mapping of interface terms, clinical decision support that use components within the expression, etc.).
 
 Users should beware that unapproved attributes can potentially
 
