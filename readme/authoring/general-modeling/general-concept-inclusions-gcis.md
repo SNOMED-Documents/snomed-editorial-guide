@@ -25,7 +25,7 @@ layout:
 
 ## Guidance
 
-See the background, use cases, and examples for general concept inclusion axioms as well as explanation of the definition status at [General Concept Inclusion 0.01](https://docs.google.com/document/d/1-Tvswkw5USXydVWpBsT3iORdOFzx3qKAyownS4Enor4/edit).
+See the background, use cases, and examples for general concept inclusion axioms as well as explanation of the definition status at [General Concept Inclusion](https://docs.google.com/document/d/1-Tvswkw5USXydVWpBsT3iORdOFzx3qKAyownS4Enor4/edit).
 
 ## Authoring Platform User Guide for GCIs
 
