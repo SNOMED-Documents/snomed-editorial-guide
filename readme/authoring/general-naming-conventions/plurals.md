@@ -47,13 +47,15 @@ _Unintended plurals_ might be incorrectly interpreted. An unintended plural is t
 Organizational nodes or grouper concepts may be plural.
 
 * For example,
-  * 234320004 | Procedures for splenic lesions (procedure)|
-  * 194732001 | Diseases of mitral and aortic valves (disorder)|, has IS A 195002007 | Multiple valve disease (disorder)|
+  * 234320004 |Procedures for splenic lesions (procedure)|
+  * 194732001 |Diseases of mitral and aortic valves (disorder)|, has IS A 195002007 |Multiple valve disease (disorder)|
 
 A concept that necessarily involves multiples should have a plural FSN.
 
 * For example,
   * Bilateral atrophy of testes (disorder)
+
+For organism groupers, plural common names may be appropriate when supported by the reference. Pluralization is not applied automatically. Where singular and plural forms distinguish a subtype (e.g. species) from its grouper (e.g. genus), the form supported by the reference is retained.
 
 {% hint style="warning" %}
 It is advisable to keep track of these exceptions in a separate subset or using a special term type, so that they can be excluded when the singular/plural distinction is important for mapping.

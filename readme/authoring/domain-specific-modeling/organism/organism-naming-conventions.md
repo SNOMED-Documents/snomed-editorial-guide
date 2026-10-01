@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Organism Naming Conventions
@@ -94,6 +96,7 @@ The preferred term usually does not include the taxonomic rank designation excep
       2. The common name is in English. Non-English common names (e.g. French or Spanish vernacular names) must not be used as the PT.
       3. A single common name (or grouper name) can be identified that applies unambiguously to every extant descendant of the concept. If no single term covers all descendants, the scientific name is retained as the PT.
       4. The common name is stable and widely recognized as evidenced by its use in 2 or more primary or secondary references. It should not be constructed or invented specifically to satisfy the guideline.
+      5. Where a common name is used for a grouper, it should represent the group as a whole and should not imply that the concept represents a particular subtype or species.  Differences in singular/plural form may be used to distinguish the grouper from an individual species when this is supported by the primary references.  For example, ITIS lists _Rock squirrels_ as the common name for the genus _Otospermophilus_, while _Otospermophilus variegatus_ has the common name _Rock Squirrel_.  The plural form represents the genus-level grouper, while the singular form represents the individual species.
 2. Application by Taxonomic Level
    1. Species and Genus: Common names work best at the species level and relatively well at the genus level, where groupings are phylogenetically stable and a single name typically covers the group cleanly. The criteria in Section 1 should be used in assigning the common name as the PT wherever they are met. Examples
       1. Genus Felis → PT: small cats (covers domestic cats, wildcats, and mountain cats; unique within Felidae)
