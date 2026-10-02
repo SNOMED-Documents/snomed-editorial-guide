@@ -23,7 +23,7 @@ layout:
 
 # Organism
 
-<table><thead><tr><th width="360.328125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Organisms of significance to human medicine</td><td><ul><li>3265006 | Genus Candida (organism) |</li><li>710877000 | Beta lactam resistant bacteria (organism) |</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="360.328125">Definition</th><th>Examples</th></tr></thead><tbody><tr><td>Organisms of significance to human medicine</td><td><ul><li>3265006 |Genus Candida (organism)|</li><li>710877000 |Beta lactam resistant bacteria (organism)|</li></ul></td></tr></tbody></table>
 
 {% hint style="success" %}
 **Organism concepts**
@@ -129,10 +129,10 @@ These concepts may evolve over time as the names evolve.
 
 ## X-like Organism
 
-"X-like” organism is a term construction used in the medical lexicon that is outside the classic Linnaean taxonomy. ”X-like” organisms are identified by their similarity to some other organism. There is no single category or use of X-like organism terms; the meaning of these terms is context-dependent and open to interpretation when no context is provided. For many of these terms, the meaning will change with time. In some cases, this leads to a chain of terms that remains in colloquial use but loses value and place in the scientific literature. In addition, while reporting X-like organisms is clinically significant—unlike “untypeable” concepts—they cannot have a specific parent. These concepts are added:
+"X-like” organism is a term construction used in the medical lexicon that is outside the classic Linnaean taxonomy. ”X-like” organisms are identified by their similarity to some other organism. There is no single category or use of X-like organism terms; the meaning of these terms is context-dependent and open to interpretation when no context is provided. For many of these terms, the meaning will change with time. In some cases, this leads to a chain of terms that remains in colloquial use but loses value and place in the scientific literature. In addition, while reporting X-like organisms is clinically significant, unlike _untypeable_ concepts, they cannot have a specific parent. These concepts are added:
 
 * only if clear context is provided by the requester; and
-* under the highest level concepts in the “organism” hierarchy i.e. direct parents would be Virus, Bacteria, Fungus.
+* under the highest level concepts in the organism hierarchy, i.e., direct parents would be Virus, Bacteria, Fungus.
 
 ## Provisional serotypes
 
@@ -140,10 +140,6 @@ Provisional serotypes, i.e. serotypes that have been defined but not given a num
 
 ## Multidrug-resistant, extensively drug-resistant, pandrug-resistant bacteria
 
-{% hint style="warning" %}
-**DRAFT UNDER REVIEW: CONTENT TO BE FINALIZED**
-{% endhint %}
-
-SNOMED International adopted the recommendations of a joint initiative of the European Centre for Disease Prevention and Control (ECDC) and the CDC for the characterization of the different patterns of resistance found in healthcare-associated, antimicrobial resistant bacteria. A panel of international experts convened and drafted a proposal which provides clear consensus definitions. Please refer to the following article for details: Magiorakos, A. Srinivasan, A. Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: an international expert proposal for interim standard definitions for acquired resistance. _Clinical Microbiol Infect_ 2012; 18: 268-281.
+SNOMED International adopted the recommendations of a joint initiative of the European Centre for Disease Prevention and Control (ECDC) and the CDC for the characterization of the different patterns of resistance found in healthcare-associated, antimicrobial-resistant bacteria. A panel of international experts convened and drafted a proposal which provides clear consensus definitions. Please refer to the following article for details: Magiorakos, A. Srinivasan, A. Multidrug-resistant, extensively drug-resistant and pandrug-resistant bacteria: an international expert proposal for interim standard definitions for acquired resistance. _Clinical Microbiol Infect_ 2012; 18: 268-281.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Organism" class="button primary">Provide Feedback</a>
