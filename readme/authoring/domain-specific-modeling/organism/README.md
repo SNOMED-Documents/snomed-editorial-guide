@@ -138,7 +138,7 @@ These concepts may evolve over time as the names evolve.
 
 Provisional serotypes, i.e. serotypes that have been defined but not given a number in the antigenic schema, are considered for addition on an ad hoc basis and only if it can be confirmed that this is a reproducible assignment not being duplicated by multiple organizations.
 
-## Multidrug-resistant, extensively drug-resistant, pan drug-resistant bacteria
+## Multidrug-resistant, extensively drug-resistant, pandrug-resistant bacteria
 
 {% hint style="warning" %}
 **DRAFT UNDER REVIEW: CONTENT TO BE FINALIZED**
