@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Disorder of Pregnancy and/or Childbirth and/or Puerperium
 
 The following principles were utilized during the 2026 inactivation and remodeling of concepts within the hierarchies 198609003 |Complication of pregnancy, childbirth and/or puerperium (disorder) and 362972006 |Disorder of labor / delivery (disorder).&#x20;
