@@ -129,13 +129,13 @@ Where multiple specific subtypes or modifications share the same base category, 
 
 <figure><img src="../../../../../../.gitbook/assets/image (67).png" alt=""><figcaption><p><strong>Inferred</strong> view for 1991000221106 |Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (68).png" alt=""><figcaption><p><strong>Stated</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)| and illustrates the use of the "Has product characteristic" attribute</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (68).png" alt=""><figcaption><p><strong>Stated</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (69).png" alt=""><figcaption><p><strong>Inferred</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)| and illustrates the use of the "Has product characteristic" attribute</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (69).png" alt=""><figcaption><p><strong>Inferred</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (70).png" alt=""><figcaption><p><strong>Stated</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)| and illustrates use of the "Has ingredient characteristic" attribute</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (70).png" alt=""><figcaption><p><strong>Stated</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (71).png" alt=""><figcaption><p><strong>Inferred</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)| and illustrates use of the "Has ingredient characteristic" attribute</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (71).png" alt=""><figcaption><p><strong>Inferred</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174690945.png" alt=""><figcaption></figcaption></figure>
 
