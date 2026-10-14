@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Ingredient Count Attributes
@@ -27,7 +29,7 @@ The following sections describe the attribute concepts that are used to represen
 
 Ingredient count is the mechanism that the SNOMED CT concept model is using as a proxy to implement a "closed world" view of medicinal products such that a medicinal product concept can be represented as containing _only_ substance X as its active ingredient, and that all more granular child medicinal product concepts also containing _only_ substance X subsume under the correct parent concept(s).
 
-Three count attributes are available for use, but only one is mandatory for all _only_ concepts; i.e. MP (only), MP (precisely), MPF (only) and CD). The additional ingredient counts have to be applied iteratively, if and when they are required based on the presence of multi-ingredient concepts which contain active ingredient substances that have modifications of the same base. For new concepts, the count attribute is first authored for Clinical Drug concepts, which have their precise ingredient substance described; the more abstract classes can then be populated upwards using the base (or parent) active ingredient substance if different.
+Three count attributes are available for use, but only one is mandatory for all _only_ concepts; i.e. MP (only), MP (precisely), MPF (only) and CD. The additional ingredient counts have to be applied iteratively, if and when they are required based on the presence of multi-ingredient concepts which contain active ingredient substances that have modifications of the same base. For new concepts, the count attribute is first authored for Clinical Drug concepts, which have their precise ingredient substance described; the more abstract classes can then be populated upwards using the base (or parent) active ingredient substance if different.
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-09-26 at 1.43.31 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -59,7 +61,7 @@ The base count facilitates the correct subsumption relationship between the "Pro
 
 ### **Count of base and modification pair (closed world view) - optional - to be used in certain circumstances**
 
-This count is used for multi-ingredient products where the two (or more) active ingredient substances share the same base active ingredient substance. This will only occur when at least one of the active ingredient substances is a modification of a base active ingredient substance. The count used in addition to the base active ingredient substance count. The count is of how many pairs of base + modification substances are present in the medicinal product; this draws from the Substance hierarchy where concepts are managed using the pattern of base substance with related concepts being modifications (salts, esters, chelates) of the base substance; each modification is therefore a "pair".
+This count is used for multi-ingredient products where the two (or more) active ingredient substances share the same base active ingredient substance. This will only occur when at least one of the active ingredient substances is a modification of a base active ingredient substance. The 1142141006 |Count of base and modification pair (attribute)| is used in addition to the 1142139005 |Count of base of active ingredient (attribute)|. The count is the number of pairs of base + modification substances present in the medicinal product; this draws from the Substance hierarchy, where concepts are managed using the pattern of base substance with related concepts being modifications (salts, esters, chelates) of the base substance; each modification is therefore a "pair".
 
 For example,
 
@@ -99,6 +101,6 @@ The tooling uses these values to produce the correct subsumption hierarchy, as s
 
 <figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/303923271.png" alt=""><figcaption><p>Figure: Ingredient count attributes complex multi-ingredient example with multiple modification of a single base active ingredient requiring three ingredient count attributes</p></figcaption></figure>
 
-Neither base count alone nor base count and base + modification pair count would prevent the incorrect subsumption of the "Clinical drug containing precisely insulin aspart and insulin aspart protamine" because both give a count of 1. The differentiation comes from the counting the precise active ingredient substances. This then gives the (optional in the international release) intermediate parent concepts of "Medicinal product containing precisely" either "insulin aspart", "insulin aspart protamine" or "insulin aspart and insulin aspart protamine" with their correct clinical drug concepts as children. The MP (precisely) concepts are then correctly subsumed to the (grandparent) MP (only) concept of insulin aspart only, on the basis of the base count of 1.
+Neither |Count of base of active ingredient (attribute)| alone nor ||Count of base of active ingredient (attribute)| and |Count of base and modification pair (attribute)| together would prevent the incorrect subsumption of the "Clinical drug containing precisely insulin aspart and insulin aspart protamine", because both give a count of 1.  The differentiation comes from counting the precise active ingredient substances.  This then gives the (optional in the international release) intermediate parent concepts of "Medicinal product containing precisely" either "insulin aspart", "insulin aspart protamine", or "insulin aspart and insulin aspart protamine" with their correct clinical drug concepts as children. The MP (precisely) concepts are then correctly subsumed to the (grandparent) MP (only) concept of insulin aspart only, on the basis of the base count of 1.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Ingredient%20Count%20Attributes" class="button primary">Provide Feedback</a>
