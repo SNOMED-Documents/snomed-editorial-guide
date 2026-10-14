@@ -78,40 +78,22 @@ See also respective [Templates](https://conf.spaces.snomed.org/wiki/spaces/SCTEM
 
 #### Author View of Attributes and Ranges for Medicinal Product Package
 
-| Attribute                                                | Grouped | Cardinality | In Group Cardinality | Range Constraint                                     |
-| -------------------------------------------------------- | ------- | ----------- | -------------------- | ---------------------------------------------------- |
-| 774160008 \| Contains clinical drug (attribute) \|       | 1       | 1..\*       | 1..1                 | << 763158003 \| Medicinal product (product) \|       |
-| 1142143009 \| Count of clinical drug type (attribute) \| | 0       | 1..1        | 0..0                 | int(>#0..)                                           |
-| 30465011000036106 \|Has container type (attribute)\|     | 0       | 0..1        | 0..0                 | 49062001 \|Device (physical object)\|                |
-| 1142142004 \| Has pack size (attribute) \|               | 1       | 0..\*       | 0..1                 | dec(>#0..)                                           |
-| 774163005 \| Has pack size unit (attribute) \|           | 1       | 0..\*       | 0..1                 | << 767524001 \| Unit of measure (qualifier value) \| |
+<table><thead><tr><th width="203.29693603515625">Attribute</th><th width="108.8436279296875">Grouped</th><th width="101.7291259765625">Cardinality</th><th width="111.2552490234375">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>774160008 | Contains clinical drug (attribute) |</td><td>1</td><td>1..*</td><td>1..1</td><td>&#x3C;&#x3C; 763158003 | Medicinal product (product) |</td></tr><tr><td>1142143009 | Count of clinical drug type (attribute) |</td><td>0</td><td>1..1</td><td>0..0</td><td>int(>#0..)</td></tr><tr><td>30465011000036106 |Has container type (attribute)|</td><td>0</td><td>0..1</td><td>0..0</td><td>49062001 |Device (physical object)|</td></tr><tr><td>1142142004 | Has pack size (attribute) |</td><td>1</td><td>0..*</td><td>0..1</td><td>dec(>#0..)</td></tr><tr><td>774163005 | Has pack size unit (attribute) |</td><td>1</td><td>0..*</td><td>0..1</td><td>&#x3C;&#x3C; 767524001 | Unit of measure (qualifier value) |</td></tr></tbody></table>
 
 ## Domain Information for Pharmaceutical Dose Form
 
-| Property                      | Value                                                   |
-| ----------------------------- | ------------------------------------------------------- |
-| Domain Constraint             | << 736542009 \| Pharmaceutical dose form (dose form) \| |
-| Parent Domain                 | -                                                       |
-| Proximal Primitive Constraint | << 736542009 \| Pharmaceutical dose form (dose form) \| |
-| Proximal Primitive Refinement | -                                                       |
+<table><thead><tr><th width="305.4114990234375">Property</th><th>Value</th></tr></thead><tbody><tr><td>Domain Constraint</td><td>&#x3C;&#x3C; 736542009 | Pharmaceutical dose form (dose form) |</td></tr><tr><td>Parent Domain</td><td>-</td></tr><tr><td>Proximal Primitive Constraint</td><td>&#x3C;&#x3C; 736542009 | Pharmaceutical dose form (dose form) |</td></tr><tr><td>Proximal Primitive Refinement</td><td>-</td></tr></tbody></table>
 
 #### Author View of Attributes and Ranges for Pharmaceutical Dose Form
 
-<table><thead><tr><th width="188.5859375">Attribute</th><th width="109.580078125">Grouped</th><th width="120.333984375">Cardinality</th><th width="122.326171875">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>736476002 | Has basic dose form (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736478001 | Basic dose form (basic dose form) |</td></tr><tr><td>736472000 | Has dose form administration method (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736665006 | Dose form administration method (administration method) |</td></tr><tr><td>1402355005 |Has dose form after transformation (attribute)|</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736542009 |Pharmaceutical dose form (dose form)|</td></tr><tr><td>736474004 | Has dose form intended site (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736479009 | Dose form intended site (intended site) |</td></tr><tr><td>736475003 | Has dose form release characteristic (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736480007 | Dose form release characteristic (release characteristic) |</td></tr><tr><td>736473005 | Has dose form transformation (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736477006 | Dose form transformation (transformation) |</td></tr></tbody></table>
+<table><thead><tr><th width="216.9869384765625">Attribute</th><th width="92.449951171875">Grouped</th><th width="95.422607421875">Cardinality</th><th width="96.451171875">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>736476002 | Has basic dose form (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736478001 | Basic dose form (basic dose form) |</td></tr><tr><td>736472000 | Has dose form administration method (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736665006 | Dose form administration method (administration method) |</td></tr><tr><td>1402355005 |Has dose form after transformation (attribute)|</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736542009 |Pharmaceutical dose form (dose form)|</td></tr><tr><td>736474004 | Has dose form intended site (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736479009 | Dose form intended site (intended site) |</td></tr><tr><td>736475003 | Has dose form release characteristic (attribute) |</td><td>0</td><td>0..1</td><td>0..0</td><td>&#x3C; 736480007 | Dose form release characteristic (release characteristic) |</td></tr><tr><td>736473005 | Has dose form transformation (attribute) |</td><td>0</td><td>0..*</td><td>0..0</td><td>&#x3C; 736477006 | Dose form transformation (transformation) |</td></tr></tbody></table>
 
 ## Domain Information for Basic Dose Form
 
-| Property                      | Value                                                |
-| ----------------------------- | ---------------------------------------------------- |
-| Domain Constraint             | << 736478001 \| Basic dose form (basic dose form) \| |
-| Parent Domain                 | -                                                    |
-| Proximal Primitive Constraint | << 736478001 \| Basic dose form (basic dose form) \| |
-| Proximal Primitive Refinement | -                                                    |
+<table><thead><tr><th width="304.90625">Property</th><th>Value</th></tr></thead><tbody><tr><td>Domain Constraint</td><td>&#x3C;&#x3C; 736478001 | Basic dose form (basic dose form) |</td></tr><tr><td>Parent Domain</td><td>-</td></tr><tr><td>Proximal Primitive Constraint</td><td>&#x3C;&#x3C; 736478001 | Basic dose form (basic dose form) |</td></tr><tr><td>Proximal Primitive Refinement</td><td>-</td></tr></tbody></table>
 
 #### Author View of Attributes and Ranges for Basic Dose Form
 
-| Attribute                                       | Grouped | Cardinality | In Group Cardinality | Range Constraint                                    |
-| ----------------------------------------------- | ------- | ----------- | -------------------- | --------------------------------------------------- |
-| 736518005 \| Has state of matter (attribute) \| | 0       | 1..1        | 0..0                 | < 736471007 \| State of matter (state of matter) \| |
+<table><thead><tr><th width="201.8333740234375">Attribute</th><th width="91.296875">Grouped</th><th width="104.5364990234375">Cardinality</th><th width="118.7552490234375">In Group Cardinality</th><th>Range Constraint</th></tr></thead><tbody><tr><td>736518005 | Has state of matter (attribute) |</td><td>0</td><td>1..1</td><td>0..0</td><td>&#x3C; 736471007 | State of matter (state of matter) |</td></tr></tbody></table>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Pharmaceutical%20and%20Biologic%20Product%20and%20Dose%20Form%20Attributes%20Summary" class="button primary">Provide Feedback</a>
