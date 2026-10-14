@@ -25,10 +25,11 @@ layout:
 
 _Examples: parenteral solutions, unit dose nebuliser solutions_
 
-The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term.\
+The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term.
+
 Presentation strength is expressed as "per the amount of liquid bounded by the unit of presentation" but concentration strength is per mL (and therefore is often different).
 
-### **Example: A pack of 10 ampoules each containing 20mL of metoclopramide hydrochloride for solution for injection**
+### **Example: A pack of 10 ampoules each containing 20 mL of metoclopramide hydrochloride for solution for injection**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.43.12 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -44,7 +45,7 @@ Presentation strength is expressed as "per the amount of liquid bounded by the u
 | Presentation strength           | 100 mg per 20 mL                                        |                                                                 |
 | Concentration strength          | 5 mg per 1 mL                                           |                                                                 |
 
-### **Example: A pack of 20 UDVs each containing 2mL of ipratropium bromide for solution for nebulisation**
+### **Example: A pack of 20 UDVs each containing 2 mL of ipratropium bromide for solution for nebulisation**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.45.17 PM.png" alt=""><figcaption></figcaption></figure>
 

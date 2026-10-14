@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Continuous presentation: unbounded by container
@@ -28,12 +30,13 @@ These presentations are not particularly bound by their container in any way tha
 For example,
 
 * Hydrocortisone cream for cutaneous use is contained in a tube, but its use is based on how much is squeezed out and applied to the skin.
-* Chloramphenicol eye drops are presented in a dropper bottle, but they are administered drop by drop and although the dropper bottle aims to deliver a roughly uniform sized drop to the eye, they are not "metered dose containers" in the way that containers with valves are.
+* Chloramphenicol eye drops are presented in a dropper bottle, but they are administered drop by drop, and although the dropper bottle aims to deliver a roughly uniform sized drop to the eye, they are not "metered dose containers" in the way that containers with valves are.
 
-A unit of presentation is not usually given for these products. The pack size (not relevant for SNOMED international model) is given as the Manufactured Item quantity.\
-Strength is expressed as a concentration and as such the presentation strength and the concentration are exactly the same.
+A unit of presentation is not usually given for these products. The pack size (not relevant for SNOMED International Edition) is given as the Manufactured Item quantity.
 
-### **Example: A 30g tube of hydrocortisone 1% cutaneous cream w/w in an outer box**
+Strength is expressed as a concentration, and as such, the presentation strength and the concentration are exactly the same.
+
+### **Example:  A 30g tube of hydrocortisone 1% cutaneous cream w/w in an outer box**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.56.51 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -51,15 +54,15 @@ Strength is expressed as a concentration and as such the presentation strength a
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.57.12 PM.png" alt=""><figcaption></figcaption></figure>
 
-| Manufactured dose form          | Eye drops, solution                            |                                                                                             |
-| ------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| Unit of presentation            | NOT VALUED                                     | There is nothing that really "bounds" the dose form that delivers the medication "per dose" |
-| \[Pack size]                    | 5 ml in the dropper bottle,1 bottle in the box |                                                                                             |
-| Precise active ingredient       | chloramphenicol                                |                                                                                             |
-| Basis of strength substance     | chloramphenicol                                |                                                                                             |
-| Presentation strength (logical) | 25 mg per 5 mL                                 | Not a clinically safe or recognisable expression of strength                                |
-| Presentation strength           |                                                |                                                                                             |
-| Concentration strength          | 5 mg per 1 mL                                  | Synonym: 0.5 % w/v                                                                          |
+| Manufactured dose form          | Eye drops, solution                             |                                                                                             |
+| ------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Unit of presentation            | NOT VALUED                                      | There is nothing that really "bounds" the dose form that delivers the medication "per dose" |
+| \[Pack size]                    | 5 ml in the dropper bottle, 1 bottle in the box |                                                                                             |
+| Precise active ingredient       | chloramphenicol                                 |                                                                                             |
+| Basis of strength substance     | chloramphenicol                                 |                                                                                             |
+| Presentation strength (logical) | 25 mg per 5 mL                                  | Not a clinically safe or recognizable expression of strength                                |
+| Presentation strength           |                                                 |                                                                                             |
+| Concentration strength          | 5 mg per 1 mL                                   | Synonym: 0.5 % w/v                                                                          |
 
 ### **Example: A pack of 500g of sterculia 62% w/w granules (EDQM –"granules" = "oral granules")**
 
@@ -71,11 +74,11 @@ Strength is expressed as a concentration and as such the presentation strength a
 | \[Pack size]                    | 500 g in the box |                                                                                             |
 | Precise active ingredient       | sterculia        |                                                                                             |
 | Basis of strength substance     | sterculia        |                                                                                             |
-| Presentation strength (logical) | 310 g per 500 g  | Not a clinically safe or recognisable expression of strength                                |
+| Presentation strength (logical) | 310 g per 500 g  | Not a clinically safe or recognizable expression of strength                                |
 | Presentation strength           |                  |                                                                                             |
 | Concentration strength          | 620 mg per 1 g   | Synonym: 62 % w/w                                                                           |
 
-### **Example: A bottle of 60 mL of digoxin oral solution 50mcg/mL in an outer box (which has an oral syringe in it)**
+### **Example:  A bottle of 60 mL of digoxin oral solution 50 mcg/mL in an outer box (which has an oral syringe in it)**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.57.36 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -85,7 +88,7 @@ Strength is expressed as a concentration and as such the presentation strength a
 | \[Pack size]                    | 60 ml in the bottle, 1 bottle in the box |                                                                                             |
 | Precise active ingredient       | digoxin                                  |                                                                                             |
 | Basis of strength substance     | digoxin                                  |                                                                                             |
-| Presentation strength (logical) | 3 mg per 60 mL                           | Not a clinically safe or recognisable expression of strength                                |
+| Presentation strength (logical) | 3 mg per 60 mL                           | Not a clinically safe or recognizable expression of strength                                |
 | Presentation strength           |                                          |                                                                                             |
 | Concentration strength          | 50 mcg per 1 mL                          | Synonym: 0.5 % w/v                                                                          |
 

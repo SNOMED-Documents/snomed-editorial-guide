@@ -23,11 +23,11 @@ layout:
 
 # Continuous presentation: Metered dose unit of presentation
 
-_Examples: various inhalers, nasal sprays, some cutaneous sprays/foams_
+_Examples:  inhalers, nasal sprays, some cutaneous sprays/foams_
 
 The unit of presentation is the actuation, the “single operation of a metered-dose pump, valve or other equivalent dosing mechanism” \[EDQM].
 
-Strength is expressed as “per one unit of presentation” and the presentation strength and the concentration are exactly the same.
+Strength is expressed as “per one unit of presentation” and the presentation strength and the concentration strength are exactly the same.
 
 ### Example: Single inhaler containing a total of 200 actuations worth of salbutamol, 100 micrograms per actuation, packaged in a box
 

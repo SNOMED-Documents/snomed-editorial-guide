@@ -23,12 +23,13 @@ layout:
 
 # Discrete manufactured dose form; similar unit of presentation
 
-_Examples: various tablets, capsules, cachets, pessaries, suppositories, tampons_
+_Examples:  tablets, capsules, cachets, pessaries, suppositories, tampons_
 
-The unit of presentation is usually a less granular term than the manufactured dose form, and often corresponds to the basic dose form.\
-Strength is expressed as "per one unit of presentation" and the presentation strength and the concentration are exactly the same.
+The unit of presentation is usually a less granular term than the manufactured dose form and often corresponds to the basic dose form.
 
-### **Example: Bottle of 56 simvastatin 40mg oral tablets**
+Strength is expressed as _per one unit of presentation_, and the presentation strength and the concentration strength are exactly the same.
+
+### **Example: Bottle of 56 simvastatin 40 mg oral tablets**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 2.51.12 PM.png" alt=""><figcaption></figcaption></figure>
 

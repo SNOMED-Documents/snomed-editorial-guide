@@ -25,10 +25,11 @@ layout:
 
 _Examples: bulk parenteral solutions, insulins, patches_
 
-The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term. However, although presentation strength is expressed as "per one unit of presentation", the clinically relevant strength is the concentration strength, as almost all are used in individually calculated and variable amounts.\
-Note that the unit of presentation is likely to be useful in description of the medicinal product concept at some level; insulin presented in a multi-dose vial will be used/administered differently from insulin presented in a cartridge for use within a "pen device".
+The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term. However, although presentation strength is expressed as "per one unit of presentation", the clinically relevant strength is the concentration strength, as almost all are used in individually calculated and variable amounts.
 
-### **Example: A pack of 5 cartridges each containing 1.5mL soluble human insulin 100 units/mL solution for injection**
+The unit of presentation is likely to be useful in description of the medicinal product concept at some level; insulin presented in a multi-dose vial will be used/administered differently from insulin presented in a cartridge for use within a "pen device".
+
+### **Example: A pack of 5 cartridges each containing 1.5 mL soluble human insulin 100 units/mL solution for injection**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.47.11 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +43,7 @@ Note that the unit of presentation is likely to be useful in description of the 
 | Presentation strength           | 150 units per 1.5 mL                                       | Not a clinically safe expression of strength                    |
 | Concentration strength          | 100 units per 1 mL                                         |                                                                 |
 
-### **Example: Box of 10 bags of Sodium chloride 0.9% solution for infusion 500mL**
+### **Example: Box of 10 bags of Sodium chloride 0.9% solution for infusion 500 mL**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.48.50 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -56,7 +57,7 @@ Note that the unit of presentation is likely to be useful in description of the 
 | Presentation strength           | 450 mg per 500 mL                                       | Not a clinically safe expression of strength                    |
 | Concentration strength          | 9 mg per 1 mL                                           | Synonym: 0.9% w/v                                               |
 
-### **Example: A pack of 30 sachets each containing a transdermal patch delivering 4.6mg per 24 hours of rivastigmine**
+### **Example: A pack of 30 sachets each containing a transdermal patch delivering 4.6 mg per 24 hours of rivastigmine**
 
 <figure><img src="../../../../../../.gitbook/assets/Screenshot 2025-09-26 at 3.53.31 PM.png" alt=""><figcaption></figcaption></figure>
 

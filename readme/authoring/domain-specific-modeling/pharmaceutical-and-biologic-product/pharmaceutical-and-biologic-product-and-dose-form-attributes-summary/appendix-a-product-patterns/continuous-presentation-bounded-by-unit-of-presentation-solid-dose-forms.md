@@ -25,7 +25,8 @@ layout:
 
 _Examples: vials, ampoules, sachets, containing solid dose forms such as powders or granules which may or may not be dissolved before administration_
 
-The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term.\
+The unit of presentation usually either uses the same word (even though it is a different concept) as the (package item) container, or the (package item) container is a more granular concept and the unit of presentation uses a less granular term.
+
 Strength is expressed as "per one unit of presentation" and the presentation strength and the concentration are exactly the same.
 
 ### **Example: Pack of 10 vials each containing 2g cefotaxime powder for solution for injection**
