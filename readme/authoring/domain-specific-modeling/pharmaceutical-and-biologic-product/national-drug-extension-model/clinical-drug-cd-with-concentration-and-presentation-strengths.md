@@ -28,7 +28,7 @@ Clinical drug concepts in the international edition are authored _either_ using 
 * **Concentration strength** is where the description of the strength of a clinical drug has been normalized such that the denominator value is _one_, and the denominator unit is a unit of mass (e.g., grams) or volume (e.g., milliliters).&#x20;
 * **Presentation strength** is a description of the strength of the clinical drug as it is present in its unit of presentation (vial, ampoule, sachet).
 
-By limiting the the Clinical Drug class in the international edition to expression of strength _either_ as concentration strength _or_ as presentation strength, medicinal product concepts that could usefully have _both_ concentration and presentation strength (for example, some liquid products such as liquid parenteral products or liquids for inhalation via a nebulizer) will have only concentration strength in the international edition. National extensions may author clinical drug concepts using the presentation strength(s) and unit(s) of presentation available in their jurisdiction if use case(s) require this. These concepts are subtypes of the concentration clinical drug in the international edition. The diagrams below illustrate this:
+By limiting the the Clinical Drug class in the International Edition to expression of strength _either_ as concentration strength _or_ as presentation strength, medicinal product concepts that could usefully have _both_ concentration and presentation strength (for example, some liquid products such as liquid parenteral products or liquids for inhalation via a nebulizer) will have only concentration strength in the international edition. National extensions may author clinical drug concepts using the presentation strength(s) and unit(s) of presentation available in their jurisdiction if use case(s) require this. These concepts are subtypes of the concentration clinical drug in the international edition. The diagrams below illustrate this:
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-10-01 at 1.01.23 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -54,7 +54,7 @@ As the unit of presentation is the countable entity of the clinical drug, this m
 
 ## Use cases
 
-This is the pattern for a national extension to author a presentation strength representation of a clinical drug that is described using concentration strength in the international edition. This can be used for:
+This is the pattern for a national extension to author a presentation strength representation of a clinical drug that is described using concentration strength in the International Edition. This can be used for:
 
 * liquid parenteral products presented in units of presentation, such as ampoules, vials, pre-filled syringes, cartridges, or bags/bottles
 * liquid oral products presented in a sachet or other unit dose unit of presentation

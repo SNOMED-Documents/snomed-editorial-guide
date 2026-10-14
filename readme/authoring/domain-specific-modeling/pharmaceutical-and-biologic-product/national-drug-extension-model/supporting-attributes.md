@@ -1,6 +1,6 @@
 ---
 description: >-
-  The section describes the attributes used in the definition of the concepts
+  This section describes the attributes used in the definition of the concepts
   classes in the national extension model.
 layout:
   width: default
@@ -34,11 +34,11 @@ The (authorized) product name for the medicinal product as designated by the lic
 
 ### Discussion
 
-The 774158006 | Has product name (attribute)| is used in the definition of the real medicinal product and the real clinical drug. It is not used in the real packaged clinical drug, as this brings the relevant information via the real clinical drug it contains.
+The 774158006 |Has product name (attribute)| is used in the definition of the real medicinal product and the real clinical drug. It is not used in the real packaged clinical drug, as this brings the relevant information via the real clinical drug it contains.
 
 It is not essential that the product name be an invented or brand name; it can be a generic name (for example, using one or more international non-proprietary therapeutic substance names). The product name concepts are authored to value the definitional attribute for the real medicinal products and real clinical drugs in the national extension, and since real packaged clinical drugs contain real clinical drugs, this set of concepts does also.
 
-It is possible for an extension that wishes to author a hierarchy of product name concepts to choose to value the 774158006 | Has product name (attribute)| differently for the different classes of real medicinal product and real clinical drug.
+It is possible for an extension that wishes to author a hierarchy of product name concepts to choose to value the 774158006 |Has product name (attribute)| differently for the different classes of real medicinal product and real clinical drug.
 
 For example,
 
@@ -50,7 +50,7 @@ In a product name hierarchy, the parent product name concept should be authored 
 
 Product name concepts must be authored in each national extension since the same product name can represent products containing different active ingredients in different jurisdictions, and therefore, the product name can have a different meaning in different jurisdictions.
 
-The 774158006 |Has product name (attribute)| is available from the concept model attribute hierarchy; values for 774158006 | Has product name (attribute)| should be authored in the national extension using the root of 774167006 | Product name (product name)| from the Qualifier hierarchy.
+The 774158006 |Has product name (attribute)| is available from the concept model attribute hierarchy; values for 774158006 |Has product name (attribute)| should be authored in the national extension using the root of 774167006 |Product name (product name)| from the Qualifier hierarchy.
 
 ## Has supplier
 
@@ -60,7 +60,7 @@ The (name of the) organisation that holds the authorisation for marketing or sup
 
 ### Discussion
 
-The 774159003 | Has supplier (attribute)| is used in the definition of the real medicinal product and the real clinical drug. It is not used in the real packaged clinical drug, as this brings the relevant information via the real clinical drug it contains.
+The 774159003 |Has supplier (attribute)| is used in the definition of the real medicinal product and the real clinical drug. It is not used in the real packaged clinical drug, as this brings the relevant information via the real clinical drug it contains.
 
 Medicinal products, like other complex products, are rarely _manufactured_ by one single organization; the substances in a product may be sourced from a range of specialist manufacturers and then assembled into the manufactured dose form by another organization. The assembling organization may be a contract manufacturer holding a manufacturing license and working for a variety of clients. In ISO 11615:2017, the _manufacturer_ of a medicinal product is defined as the "organization that holds the authorization for the manufacturing process", and it notes that "establishment is a synonym of manufacturer". _Establishment_ is a term that is often used in the USA. In national terminologies for clinical use, however, the term _manufacturer_ usually refers to the organization whose name and details are associated with the professional and public facing information about the product. To avoid confusion in this specification, the term _manufacturer_ has not been used; instead , _supplier_ is the term used and is the organisation responsible for providing the clinical information to support the product use both for patients and healthcare professionals and is also responsible for the quality and safety of the product, including management of all adverse event information relating, or possibly relating to, the product in use. All of those are the responsibility of the organization that is authorized to _supply_ the product into the supply chain. Some healthcare cultures allow agreements whereby an organization may obtain stocks of a medicinal product and then to repackage or relabel that medicinal product and place it into the supply chain, either within a single jurisdiction or across a group of jurisdictions. In this case, the repackaging/relabeling organization is acting as a supplier, and their name and details are likely to be present on the packaging, either exclusively or in addition to the primary organisation. In these cases, the responsibility for the product information and the product quality and safety is shared in various ways depending on the agreement and jurisdictional regulations.
 
@@ -80,7 +80,7 @@ Due to the nature of the domain where either individual products or whole produc
 
 <figure><img src="../../../../../.gitbook/assets/image (53).png" alt=""><figcaption><p><em>Diagram to show RCDs sharing a single product name associated with different RMPs due to having different suppliers</em></p></figcaption></figure>
 
-The 774159003 | Has supplier (attribute) | is available from the concept model attribute hierarchy. Supplier organizations, by virtue of being corporate bodies and legal entities, are unique to a given nation and must have their representation authored within the national extension using 774164004 | Supplier (supplier) | from the Qualifier hierarchy as the root concept.
+The 774159003 |Has supplier (attribute)| is available from the concept model attribute hierarchy. Supplier organizations, by virtue of being corporate bodies and legal entities, are unique to a given nation and must have their representation authored within the national extension using 774164004 |Supplier (supplier)| from the Qualifier hierarchy as the root concept.
 
 ## Count of clinical drug type
 
@@ -90,13 +90,13 @@ The number (count) of of distinct clinical drug (concepts) present in the packag
 
 ### Discussion
 
-The 1142143009 | Count of clinical drug type (attribute)| is used in the definition of the packaged clinical drug and the real packaged clinical drug.
+The 1142143009 |Count of clinical drug type (attribute)| is used in the definition of the packaged clinical drug and the real packaged clinical drug.
 
-Count attributes are used for all medicinal product and package concepts that must be represented using the closed world view as a proxy for and until a more expressive description logic becomes available to properly represent the universal restriction. Packaged medicinal products must be described as containing _only_ those clinical drugs that are stated in the logical definition; no other content is to be contemplated (no open world view). A package containing 500mg paracetamol tablets must contain explicitly and only 500mg paracetamol tablets (not paracetamol capsules, or paracetamol and codeine tablets). To correctly describe this, and particularly to ensure that pack concepts classify correctly, so that packs that contain more than one (type of) clinical drug (i.e. combination packs) do not classify as children of packs that contain only one type of clinical drug, it is necessary to use a _clinical drug count_. This follows a similar pattern to the use of the active ingredient count attribute used for MP only concepts, MPF only concepts, and clinical drug concepts.
+Count attributes are used for all medicinal product and package concepts that must be represented using the closed world view as a proxy for and until a more expressive description logic becomes available to properly represent the universal restriction. Packaged medicinal products must be described as containing _only_ those clinical drugs that are stated in the logical definition; no other content is to be contemplated (no open world view). A package containing 500 mg paracetamol tablets must contain explicitly and only 500 mg paracetamol tablets (not paracetamol capsules, or paracetamol and codeine tablets). To correctly describe this, and particularly to ensure that pack concepts classify correctly, so that packs that contain more than one (type of) clinical drug (i.e. combination packs) do not classify as children of packs that contain only one type of clinical drug, it is necessary to use a _clinical drug count_. This follows a similar pattern to the use of the active ingredient count attribute used for MP only concepts, MPF only concepts, and clinical drug concepts.
 
 By using a _count_ attribute in the definition of closed world concepts, the count information is machine processable, and therefore if/when a more expressive description logic becomes available to properly represent the closed world view, then all the count attributes can be used to transfer to the closed world description logic consistently.
 
-Standard packs containing a single clinical drug type have a count of _one_ for the 1142143009 | Count of clinical drug type (attribute)| .
+Standard packs containing a single clinical drug type have a count of _one_ for the 1142143009 |Count of clinical drug type (attribute)| .
 
 Combination packs have the appropriate count (always greater than one) for the number of clinical drug types present in the combination pack. If one of the components of a combination pack is a therapeutically inactive diluent, national extensions can choose whether to include this in the "count of clinical drug" and therefore whether the pack containing the diluent will classify as a sibling or as a child of any pack not containing a diluent.
 
@@ -108,11 +108,11 @@ The (real) clinical drug contained in the packaged product.
 
 ### Discussion
 
-The 774160008 | Contains clinical drug (attribute)| is used in the definition of the packaged clinical drug and the real packaged clinical drug.
+The 774160008 |Contains clinical drug (attribute)| is used in the definition of the packaged clinical drug and the real packaged clinical drug.
 
-For packaged clinical drug concepts, the 774160008 | Contains clinical drug (attribute)| should be valued with a clinical drug from the international release or from the national extension (for example, if a liquid presentation has concentration and presentation strength clinical drug representation in the national extension).
+For packaged clinical drug concepts, the 774160008 |Contains clinical drug (attribute)| should be valued with a clinical drug from the international release or from the national extension (for example, if a liquid presentation has concentration and presentation strength clinical drug representation in the national extension).
 
-For real packaged clinical drug concepts, the 774160008 | Contains clinical drug (attribute)| should be valued with a real clinical drug from the national extension.
+For real packaged clinical drug concepts, the 774160008 |Contains clinical drug (attribute)| should be valued with a real clinical drug from the national extension.
 
 As noted in the attribute tables for packaged clinical drug and real packaged clinical drug, it is not possible currently to explicitly specify an expression to describe the range of (real) clinical drugs to populate this attribute since (for example) a range cannot currently recognize a set of concepts with a particular semantic tag. Alternative range expressions could be developed based on the attributes that are unique to a (real) clinical drug.
 

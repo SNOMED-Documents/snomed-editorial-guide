@@ -25,27 +25,27 @@ layout:
 
 ## Rationale for the National Drug Extension Model <a href="#rationale-for-the-national-drug-extension-model" id="rationale-for-the-national-drug-extension-model"></a>
 
-The international content of SNOMED CT is, by definition, globally applicable. For example, most clinicians will agree on what constitutes a diagnosis of atrial fibrillation and how this concept should be logically defined. Therefore, wherever in the world a patient suffers from atrial fibrillation, there is a common understanding of what that is, and the SNOMED CT concept for atrial fibrillation can represent and reflect that.
+The International Edition of SNOMED CT is, by definition, globally applicable. F or example, most clinicians will agree on what constitutes a diagnosis of atrial fibrillation and how this concept should be logically defined. Therefore, wherever in the world a patient suffers from atrial fibrillation, there is a common understanding of what atrial fibrillation is, and the SNOMED CT concept for atrial fibrillation can represent and reflect that.
 
 But medicinal products are different. Concepts in a Medicinal Product terminology can be divided into two types:
 
 1. Those concepts whose representation is abstract but which can be understood and used internationally (with sufficient language support). These are described generically using their internationally recognised constituent parts, which are:
-   * Active ingredient substance(s) and basis of strength substances described (whenever possible) using their international non-proprietary names (INNs) possible
+   * Active ingredient substance(s) and basis of strength substances described (whenever possible) using their international non-proprietary names (INNs)&#x20;
    * Active ingredient strength(s), described using international standards and principles such as the RTO\<PQ> datatype (the ratio of physical quantities - see _International Organization for Standards, Health informatics — Harmonized data types for information interchange ISO 32090:2011_) and/or UCUM units of measure or their equivalent, which in SNOMED CT is accomplished by using specific attributes for each of the numerator and denominator values (represented as a concrete value) and units (represented as a SNOMED CT concept)
    * Pharmacopoeial / internationally defined dose forms
    * Pharmacopoeial / internationally defined units of presentation (when appropriate)
 2. Those concepts which describe real or actual products available for clinical use whose representation can only be fully described and understood within a jurisdiction, as they are governed by the regulations of that jurisdiction and produced by authorisation of a medicines regulatory agency responsible for that jurisdiction. This includes:
    * Authorised product names (which may be brand or trademarked names). A brand name in one jurisdiction may relate to a different product than the same brand name used in another jurisdiction (although medicines regulatory agencies are trying to reduce this because of the safety issues it raises).
-   * Proprietary dose forms, including those describing a timing component (e.g. "caplets", "24-hour prolonged release tablets")
+   * Proprietary dose forms, including those describing a timing component (e.g., "caplets", "24-hour prolonged release tablets")
    * Additional characteristics in the product name such as
-     * Inclusion or exclusion of particular excipients with various roles ("strawberry flavour", "sugar-free")
-     * Target population groups ("for children")
-     * Indication for use ("cough and cold")
+     * Inclusion or exclusion of particular excipients with various roles (e.g., "strawberry flavor", "sugar-free")
+     * Target population groups (e.g., "for children")
+     * Indication for use (e.g., "cough and cold")
    * Packaging information
      * pack size
      * container description
 
-International SNOMED CT releases contain concepts of the first type, i.e., those whose representation is both understandable internationally and whose use has international applicability (e.g., in support of medication information in international patient summaries, or for international pharmacovigilance). But clinical care _within_ member nations requires both the first _and_ the second type of representation for medicinal products to enable each country to express _their_ medicinal products with _their_ names, _their_ definitions, and if required, additional defining attributes that fit with _their_ regulation and _their_ healthcare culture and practice. This national drug extension model is provided to support the authoring of drug concepts of this second type, and to enable the sharing of tools (e.g., drug authoring tools), rules (e.g., international decision support rules), and drug extension content (e.g., to support the interoperability of a patient's medication information, for cross-border dispensing with contraindication checking).
+The SNOMED CT International Edition contains concepts of the first type, i.e., those whose representation is both understandable internationally and whose use has international applicability (e.g., in support of medication information in international patient summaries, or for international pharmacovigilance). But clinical care _within_ member nations requires both the first _and_ the second type of representation for medicinal products to enable each country to express _their_ medicinal products with _their_ names, _their_ definitions, and if required, additional defining attributes that fit with _their_ regulation and _their_ healthcare culture and practice. This national drug extension model is provided to support the authoring of drug concepts of this second type, and to enable the sharing of tools (e.g., drug authoring tools), rules (e.g., international decision support rules), and drug extension content (e.g., to support the interoperability of a patient's medication information, for cross-border dispensing with contraindication checking).
 
 ## Use Cases for the National Drug Extension Model <a href="#use-cases-for-the-national-drug-extension-model" id="use-cases-for-the-national-drug-extension-model"></a>
 
@@ -55,7 +55,7 @@ National drug extensions have to support a variety of use cases; these can inclu
 * Dispensing
   * Reimbursement information
   * Supply chain management (including ordering of medicines for dispensing)
-  * "Track and trace" including fraudulent medicines avoidance
+  * _Track and trace_ including fraudulent medicines avoidance
 * Administration
   * Closed loop medication systems
 * Medication history/patient medication lists
@@ -66,7 +66,7 @@ National drug extensions have to support a variety of use cases; these can inclu
 
 ## Purpose <a href="#purpose" id="purpose"></a>
 
-The drug extension concept model can be used to represent the real or actual medicinal products (sometimes referred to as _branded products_) available for use in a particular country/territory. This model is compatible with the international core model for Medicinal Products. This compatibility means that, when classified using the appropriate tooling, the extension concepts will be correctly placed alongside other concepts in the international Medicinal Product hierarchy.
+The drug extension concept model can be used to represent the real or actual medicinal products (sometimes referred to as _branded products_) available for use in a particular country/territory. This model is compatible with the International Edition Medicinal Products model. This compatibility means that, when classified using the appropriate tooling, the extension concepts are correctly placed alongside other concepts in the international Medicinal Product hierarchy.
 
 Detailed rules and processes required to populate a national terminology are not described here. General principles are given, and terming suggestions are provided. However, national extensions must be mindful of their own terming requirements when authoring synonyms to support direct implementation. In situations where additional concepts for core classes of the international model are required in the national extension (e.g., MP, MPF, and CD), the naming guidelines for the international release should be followed (particularly for the FSN).
 
@@ -74,7 +74,7 @@ General principles for authoring SNOMED CT extension content can be found in the
 
 ## Scope <a href="#scope" id="scope"></a>
 
-The scope of this concept model (as defined) is limited to medicinal products (pharmaceutical and biological). Blood products, foods, additives, and complementary medicines (including homeopathic products) are out of scope. Vaccines are also out of scope (even though they are biological medicinal products).
+The scope of this concept model (as defined) is limited to medicinal products (pharmaceutical and biological).  Blood products, foods, additives, and complementary medicines (including homeopathic products) are out of scope. Vaccines are also out of scope (even though they are biological medicinal products).
 
 National extensions will need to make decisions about the scope of their own medicinal product terminology and may require the representation of products that are beyond the international scope. In these cases, it may be necessary to author Clinical Drug concepts (and their associated MP and MPFs) within the extension (e.g., to describe national pharmacopoeial formulations). In addition, national extensions will need to set a scope for the range of medicinal products to be included. Factors to consider include:
 
