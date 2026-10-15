@@ -99,6 +99,7 @@
             * [Congenital](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/congenital.md)
             * [Death](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/death.md)
             * [Enteritis](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/enteritis.md)
+            * [Enzyme deficiency](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/enzyme-deficiency.md)
             * [Genetic, developmental, congenital, and physical origin](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/index/README.md)
               * [Co-occuring Genomic Disorders](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/index/co-occuring-genomic-disorders.md)
             * [Hematologic and lymphatic conditions](readme/authoring/domain-specific-modeling/clinical-finding-and-disorder/clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/hematologic-and-lymphatic-conditions.md)
