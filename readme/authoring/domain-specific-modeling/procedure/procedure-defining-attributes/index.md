@@ -335,6 +335,12 @@ Examples of complementary values of Route of administration and Procedure site -
 | Intravenous route                         | Venous structure                                  |
 | Oral route                                | Mouth region structure                            |
 
+{% hint style="danger" %}
+## Parenteral is out of scope
+
+_Parenteral route_ is a grouper that is not commonly used as route of administration term alone. _Parenteral_, in theory, refers to all routes that avoid the digestive tract, including for example, intranasal, transdermal-not just injectables. However, in clinical practice and pharmacy use cases, _parenteral_ tends to refer only to injectables, so divergence and ambiguity exists due to lack of a standardized definition. Placement of subtypes becomes problematic and has clinical safety issues that cannot be controlled at an international level.
+{% endhint %}
+
 ## Using access device
 
 Using access device (attribute) specifies the instrument or equipment used to access the site of a procedure.
