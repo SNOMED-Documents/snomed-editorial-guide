@@ -17,9 +17,15 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Endoscopy and endoscopic procedures
+
+{% hint style="danger" %}
+_This page is under review, and updated guidance is expected Q1 2027._
+{% endhint %}
 
 There is no need to distinguish between _endoscopy_ and _endoscopic procedure,_ as the procedure always includes inspection and may require minor incisions to allow the endoscope and other instruments to be inserted, or insertion may be via an existing orifice.
 
