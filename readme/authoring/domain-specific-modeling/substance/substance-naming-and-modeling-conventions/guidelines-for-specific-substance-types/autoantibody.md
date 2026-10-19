@@ -29,9 +29,11 @@ layout:
 
 ## Naming
 
-### FSN
+### Antibody to antigen or antibody
 
-Pattern:&#x20;
+#### FSN
+
+**Pattern**:&#x20;
 
 Antibody to \<Antibody target>
 
@@ -42,24 +44,22 @@ Note: An antibody target can be an antigen or another antibody.
 For example,
 
 * Antibody to nuclear antigen (substance)
-* Antibody to thyroglobulin immunoglobulin G (substance)
 
 ***
 
-### Preferred Term
+#### Preferred Term
 
-Pattern:&#x20;
+**Pattern**:&#x20;
 
 \<Antibody target> antibody
 
 For example,
 
-* Nuclear antibody&#x20;
-* Thyroglobulin immunoglobulin G antibody
+* Nuclear antibody
 
 ***
 
-### Synonyms
+#### Synonyms
 
 **Pattern:**&#x20;
 
@@ -68,7 +68,6 @@ A synonym that matches FSN without the semantic tag
 For example,
 
 * Antibody to nuclear antigen
-* Antibody to thyroglobulin immunoglobulin G
 
 **Pattern:**&#x20;
 
@@ -77,7 +76,6 @@ For example,
 For example,
 
 * Nuclear Ab
-* Thyroglobulin IgG Ab
 
 **Additional synonyms:**
 
@@ -88,10 +86,75 @@ Pattern:
 For example,
 
 * Nuclear autoantibody
-* Thyroglobulin IgG autoantibody
+
+
 
 In general, _anti X antibody_ or _anti X autoantibody_ is redundant and should be avoided. However, description(s) that are commonly used are considered for addition on a case by case basis, for example:
 
 * ANA - anti-nuclear antibody
+
+
+
+### Immunoglobulin G, M, A, E, D antibody to antigen or antibody
+
+#### FSN
+
+**Pattern**:&#x20;
+
+Immunoglobulin G, M, A, E, D antibody to \<antibody target>
+
+{% hint style="info" %}
+Note: An antibody target can be an antigen or another antibody.
+{% endhint %}
+
+For example,
+
+* Immunoglobulin G antibody to thyroglobulin (substance)
+
+***
+
+#### Preferred Term
+
+**Pattern**:&#x20;
+
+\<Antibody target> IgG, M, A, E, D
+
+For example,
+
+* Thyroglobulin IgG
+
+***
+
+#### Synonyms
+
+**Pattern:**&#x20;
+
+A synonym that matches FSN without the semantic tag
+
+For example,
+
+* Immunoglobulin G antibody to thyroglobulin
+
+**Pattern:**&#x20;
+
+Anti-\<antibody target> IgG, M, A, E, D
+
+For example,
+
+* Anti-thyroglobulin IgG
+
+**Additional synonyms:**
+
+Pattern:
+
+\<Antibody target> autoantibody
+
+For example,
+
+* Thyroglobulin IgG autoantibody
+
+In general, _anti X antibody_ or _anti X autoantibody_ is redundant and should be avoided. However, description(s) that are commonly used are considered for addition on a case by case basis.
+
+
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Autoantibody" class="button primary">Provide Feedback</a>
