@@ -37,7 +37,7 @@ Organism concepts are used:
 
 ## Organism inclusion criteria
 
-Organism concepts are generally considered in scope for inclusion in the International Edition, with the following exceptions and considerations:
+Organism concepts are generally considered in scope for inclusion in the International Edition with the following exceptions and considerations:
 
 * Microorganisms are typically included in the International Edition because they may be human pathogens, opportunistic pathogens in immunocompromised individuals, or organisms of relevance to clinical laboratory reporting, including animal pathogens.
 * Macroorganisms are included in the International Edition when they are relevant to human medicine or public health, or when requested by more than one SNOMED International Member country. Otherwise, they may be authored in the Veterinary Extension, which is maintained by the Veterinary Terminology Services Laboratory (VTSL) at Virginia Tech. Content from the Veterinary Extension is not promoted to the International Edition unless it subsequently meets the criteria for relevance to human medicine, public health, or demonstrated international demand.
@@ -48,31 +48,46 @@ For represented organisms, the International Release will include the principal 
 
 ## Organisms with qualifiers
 
+When modeling organisms with qualifiers, the qualifier should be placed in front of the organism name.
+
+### Intrinsic qualifiers
+
 {% hint style="success" %}
 **Intrinsic qualifiers**
 
 If a qualifier is an intrinsic part of an organism, it belongs in the organism hierarchy and is modeled accordingly. _Intrinsic_ should be interpreted as a characteristic that is inherent in the organism (e.g. Gram-positive), as opposed to a context-dependent characteristic (e.g. some uses of _intracellular_).
 {% endhint %}
 
-When modeling organisms with qualifiers, the qualifier should be placed in front of the organism name.
+#### Distinction between Organism groupers and Clinical findings about organisms
+
+Two distinct patterns are used in SNOMED CT to represent organism phenotypic characteristics and must not be treated as interchangeable:
+
+1. A phenotype-defined Organism grouper (e.g. 416207009 |Class Bacilli (organism)|) represents a class of organisms characterized by a phenotype and is used primarily as a value for the CAUSATIVE AGENT attribute in Clinical finding and Disorder concepts, where species-level identification is unavailable.
+2. A Clinical finding representing an observed phenotype (e.g. 1411589003 |Bacilli (finding)|) records an observation of a phenotypic characteristic for a specific specimen or isolate in a clinical case.
+
+These patterns serve different modeling purposes and cannot substitute for one another. The MRCM range for CAUSATIVE AGENT does not permit Clinical finding subtypes as values; therefore, a Clinical finding recording a rod-shape bacteria result cannot fulfil the role of an Organism grouper as the causative agent in a Disorder concept. Conversely, an Organism grouper does not represent an observation made in a specific clinical case.
+
+New requests will be considered on a case by case basis for organism phenotypic groupers. Requests to record an observed organism phenotypic characteristic shall use the Clinical finding pattern.
+
+Organism groupers shall be retained where an organism-class use case exists, specifically for use as CAUSATIVE AGENT values.
 
 ### Morphology qualifiers
 
 * For example, a non-Linnaean class of bacteria described by morphology
-  * 8745002 | Gram-positive bacterium (organism) |
-    * 416983001 | Helical Gram-negative bacillus (organism) |
+  * 8745002 |Gram-positive bacterium (organism)|
+    * 416983001 |Helical Gram-negative bacillus (organism)|
 
 ### Physiology qualifiers
 
 * For example, a non-Linnaean class of bacteria described by physiology
-  * 59343002 | Anaerobic bacteria (organism) |
-    * 417454003 | Non-motile Salmonella (organism) |
+  * 59343002 |Anaerobic bacteria (organism)|
+    * 417454003 |Non-motile Salmonella (organism)|
 
 ### Resistance / susceptibility qualifiers
 
 * For example, A non-Linnaean class of bacteria described by antimicrobial susceptibility
-  * 712662001 | Carbapenem resistant Enterobacteriaceae (organism) |
-  * 417943000 | Methicillin susceptible Staphylococcus aureus (organism) |
+  * 712662001 |Carbapenem resistant Enterobacteriaceae (organism)|
+  * 417943000 |Methicillin susceptible Staphylococcus aureus (organism)|
 
 {% hint style="info" %}
 **Modeling with resistance-type qualifiers**
@@ -87,11 +102,11 @@ Organisms with resistance-type qualifiers, i.e. where the qualifiers refer to th
 
 Growth morphology is not an _always and necessarily true_ characteristic of an organism and therefore should not be considered an intrinsic characteristic. The terms representing growth morphology such as _Branching Gram-positive bacillus present_ or _Gram-positive cocci in chains present_ are usually used for reporting a visual finding that is a characteristic of a sample. These terms should be represented as findings.
 
-* For example, 1231428004 | Beaded branching Gram-positive bacilli present (finding) |
+* For example, 1231428004 |Beaded branching Gram-positive bacilli present (finding)|
 
 ## Validity
 
-A number of qualifiers might be valid (e.g. aerobic microaerophilic, motile curved gram-negative bacteria). To determine the sequence, the decision-making process is stepwise as follows:
+A number of qualifiers might be valid (e.g., aerobic microaerophilic, motile curved gram-negative bacteria). To determine the sequence, the decision-making process is stepwise as follows:
 
 * Determined on a case-by-case basis
 * Highly dependent on fitting in with the model limitations
