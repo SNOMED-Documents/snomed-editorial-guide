@@ -199,7 +199,7 @@ Additional descriptions, without the species and subspecies names, are in common
 
 * For example,
   * 656008 | Salmonella Os (organism) |
-  * Salmonella 9,12:a:1,6
+  * Salmonella 9,12<span data-gb-custom-inline data-tag="emoji" data-code="1f170">:a:</span>1,6
 
 In SNOMED CT, the serovar name in the description should be capitalized.
 

@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Substance Specific Guidelines
@@ -32,6 +34,7 @@ This section of the document provides guidance for specific types of substances.
 * [Extracts](extracts.md)
 * [Flap substances](flap-substances.md)
 * [Fractionated and unfractionated substances](fractionated-and-unfractionated-substances.md)
+* [Gene-encoded proteins and enzyme classification](gene-encoded-proteins-and-enzyme-classification.md)
 * [Hydrates and anhydrous substances](hydrates-and-anhydrous-substances.md)
 * [Ions and electrolyte substances](ions-and-electrolyte-substances.md)
 * [Isomers](isomers.md)

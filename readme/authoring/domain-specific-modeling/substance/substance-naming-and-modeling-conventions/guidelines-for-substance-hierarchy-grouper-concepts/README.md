@@ -17,6 +17,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Substance Groupers
@@ -42,7 +44,7 @@ Known issues with use of Substance role groupers, including potential incorrect 
 {% endhint %}
 
 * [Substance Groupers Based on Structure](substance-groupers-based-on-structure.md)
-* [Substance Groupers Based on Disposition](substance-groupers-based-on-disposition.md)
+* [Substance Groupers Based on Disposition](substance-groupers-based-on-disposition/)
 * [Substance Groupers Based on Both Structure and Disposition](substance-groupers-based-on-both-structure-and-disposition.md)
 
 ### Restructure of the Substance hierarchy

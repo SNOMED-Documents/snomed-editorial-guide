@@ -44,11 +44,11 @@ Substance groupers representing etiopathic dispositions (e.g. 88376000 |Carcinog
 
 The following illustrates the **stated** view for grouper concepts based on disposition.
 
-<figure><img src="../../../../../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 The following illustrates the **inferred** view for grouper concepts based on disposition.
 
-<figure><img src="../../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/substance/images/174691438.png" alt=""><figcaption></figcaption></figure>
 
