@@ -47,6 +47,6 @@ General naming pattern: Property, Component, Direct Site
 Measurements done by screening should be specified with _by screening method_ added at the end of the description.
 {% endhint %}
 
-_Serology_ and _serologic test_ are ambiguous terms and should not be included in FSNs. These terms can be included in the descriptions for antibody observable or evaluation concepts but cannot be included in the preferred term. Existing content will be fixed in a future release.
+_Serology_ and _serologic test_ are ambiguous terms and should not be included in FSNs. These terms can be included in the descriptions for antibody observable or evaluation concepts but cannot be included in the preferred term.  Allowed exceptions include 708188000 |Serology service (qualifier value)|, 27377004 |Serologic (qualifier value)|, and 183826005 |Refer for serological testing (procedure)|.
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Observable%20Entity%20Naming%20Conventions" class="button primary">Provide Feedback</a>
