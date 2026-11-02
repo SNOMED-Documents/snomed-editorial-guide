@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Enzyme Classification Groupers
 
 ## Scope
