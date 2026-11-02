@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Enzyme deficiency
 
 ## Naming and modeling of enzyme deficiencies with genetic and non-genetic etiologies
