@@ -1,3 +1,8 @@
+---
+layout:
+  metadata:
+    visible: false
+---
 # Gene-encoded proteins and enzyme classification
 
 ## Scope
