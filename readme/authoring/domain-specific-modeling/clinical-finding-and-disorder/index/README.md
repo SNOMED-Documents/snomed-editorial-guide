@@ -113,7 +113,7 @@ For the most part, existing _X without Y_ concepts will be inactivated as AMBIGU
 
 ### Requires \[procedure/drug] (finding)
 
-SNOMED international is no longer accepting new requests for concepts of the type – Requires \[procedure/drug] (finding). These are administrative statuses rather than clinical findings, and this status should be represented outside of the terminology in the information model. The only exceptions relate to legacy content, and requests for subtypes of 723620004 |Requires vaccination (finding)| will continue to be accepted.
+SNOMED International no longer accepts new requests for concepts of the type |Requires \<procedure/drug> (finding)|. These concepts represent administrative statuses rather than clinical findings. That status should be represented in the information model, not in the terminology. Existing concepts of this type are kept only as legacy content.
 
 ## Region
 
