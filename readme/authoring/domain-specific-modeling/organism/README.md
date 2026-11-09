@@ -71,6 +71,8 @@ New requests will be considered on a case by case basis for organism phenotypic 
 
 Organism groupers shall be retained where an organism-class use case exists, specifically for use as CAUSATIVE AGENT values.
 
+How the findings are modeled is described under _Bacterial phenotype findings_ in [Observable Entity and Microbiology Test Results](../observable-entity/observable-entity-modeling/observable-entity-and-microbiology-test-results.md). Growth morphology is addressed separately below.
+
 ### Morphology qualifiers
 
 * For example, a non-Linnaean class of bacteria described by morphology
@@ -100,9 +102,10 @@ Organisms with resistance-type qualifiers, i.e. where the qualifiers refer to th
 
 ### Growth morphology
 
-Growth morphology is not an _always and necessarily true_ characteristic of an organism and therefore should not be considered an intrinsic characteristic. The terms representing growth morphology such as _Branching Gram-positive bacillus present_ or _Gram-positive cocci in chains present_ are usually used for reporting a visual finding that is a characteristic of a sample. These terms should be represented as findings.
+Growth morphology is not an always and necessarily true characteristic of an organism and therefore should not be considered an intrinsic characteristic. Terms describing the appearance of organisms in a sample, such as cell shape, arrangement and Gram stain reaction, are represented as findings; see Bacterial phenotype findings in [Observable Entity and Microbiology Test Results](../observable-entity/observable-entity-modeling/observable-entity-and-microbiology-test-results.md).
 
-* For example, 1231428004 |Beaded branching Gram-positive bacilli present (finding)|
+* For example,&#x20;
+  * 1231428004 |Gram-positive beaded branching bacilli (finding)|
 
 ## Validity
 
