@@ -43,7 +43,7 @@ Use organism X or organism Y when a laboratory report indicates a single isolate
 * For example,
   * 703015006 | Human coxsackievirus or human echovirus (finding)|
 
-For bacteria, these findings are subtypes of 1418134004 |Bacteria (finding)|.
+For bacteria, these findings are subtypes of 1418134004 |Bacteria finding (finding)|.
 
 ## Organism X, not organism Y
 
