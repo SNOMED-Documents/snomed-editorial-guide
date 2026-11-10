@@ -23,19 +23,6 @@ layout:
 
 # Substance General Guidelines
 
-## Overview
-
-This section of the document provides both general terming and modeling guidance for substance concepts.
-
-## Modeling
-
-| **Parent concept**                                                           | <<105590001 \|Substance (substance)\| |
-| ---------------------------------------------------------------------------- | ------------------------------------- |
-| **Semantic tag**                                                             | (substance)                           |
-| **Definition status**                                                        | Primitive                             |
-| <p><strong>Attribute:</strong></p><p><strong>Is modification of</strong></p> | Range <105590001                      |
-| <p><strong>Attribute:</strong></p><p><strong>Has disposition</strong></p>    | Range: <726711005                     |
-
 ## Naming
 
 Descriptions should be singular, not plural.
@@ -96,5 +83,14 @@ For case sensitivity assignment:
 * For substance terms that have a single letter, either a single lower case letter or a single upper case letter, the case sensitivity should reflect either CS if the single capital letter or single lower case letter is at the beginning of the term, or cI if the single capital letter or single lower case letter is contained within an otherwise case insensitive term.
 * Proper names in substance terms should begin with a capital letter.
 * Numeric numbers in substance terms should be ignored for case significance. Simply, they will not be displayed differently if switched between upper and lower case. The case sensitivity decision should be based on the remaining letters and words in the term. When modeling terms, the word following the numbers does not begin with a capital letter, e.g. correct terming is 5-hydroxytryptamine (ci) and not 5-Hydroxytryptamine, and the substance abbreviated to '5-HT' is CS not cI.
+
+## Modeling
+
+| **Parent concept**                                                           | <<105590001 \|Substance (substance)\| |
+| ---------------------------------------------------------------------------- | ------------------------------------- |
+| **Semantic tag**                                                             | (substance)                           |
+| **Definition status**                                                        | Primitive                             |
+| <p><strong>Attribute:</strong></p><p><strong>Is modification of</strong></p> | Range <105590001                      |
+| <p><strong>Attribute:</strong></p><p><strong>Has disposition</strong></p>    | Range: <726711005                     |
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=SCT+Editorial+Guide&#x26;entry.670899847=Substance%20Concept%20General%20Guidelines" class="button primary">Provide Feedback</a>
