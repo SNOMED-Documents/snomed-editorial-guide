@@ -25,64 +25,59 @@ layout:
 
 ## Overview
 
-The "Vaccine product containing only" concept is an abstract representation of the active ingredient(s) in a vaccine product. It means that the vaccine product must contain only the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN. The "Vaccine product containing only" may be sufficient to serve as an interoperability layer or to support prescribing use cases.
-
-For example,
-
-* |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|
-* |Vaccine product containing only Vaccinia virus antigen (medicinal product)|
-* |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|
-* |Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)|
+The _Vaccine product containing only_ concept is an abstract representation of the active ingredient(s) in a vaccine product. It means that the vaccine product must contain only the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN. The _Vaccine product containing only_ may be sufficient to serve as an interoperability layer or to support prescribing use cases.
 
 #### Single ingredient vaccines
 
-Both "Vaccine product containing" and "Vaccine product containing only" concepts may be created for products that only have one active ingredient.
+Both _Vaccine product containing_ and _Vaccine product containing only_ concepts may be created for products that only have one active ingredient.
 
 * For example,
   * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)| and 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|
 
 #### Multiple ingredient vaccines
 
-"Vaccine product containing" concepts are not created for multiple ingredient vaccine products. "Vaccine product containing only" concepts are created for multiple ingredient vaccine products.
+_Vaccine product containing_ concepts are not created for multiple ingredient vaccine products. _Vaccine product containing only_ concepts are created for multiple ingredient vaccine products.
 
 {% hint style="info" %}
 Modeling and terming for vaccines that have variable composition (e.g., influenza specific to a year or hemisphere) will be addressed at a future date when use cases and requirements are better understood.
 {% endhint %}
 
-## Terming
+## Naming
 
-In the naming patterns below, align terming and case significance with the PT for the concept that is selected as the attribute value for the |Has active ingredient (attribute)|.
+Microorganism nomenclature changes regularly as taxonomy and classification are revised. These changes influence how antigens are named and how vaccine products are represented. As a result, historical microorganism names may no longer correspond to the current taxonomic structure, even though they remain familiar and clinically accepted.  To ensure vaccine products remain recognisable and consistent with regulatory documentation, the FSN will use the current biological organism name as reflected by the attribute value for the |Has active ingredient (attribute)|, while the PT will retain the established, clinically familiar name used in product information.
 
-For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted.
+For multiple ingredient vaccine products, the active ingredients are listed in alphabetical order, separated by the word _and_, and the word _antigen_ is omitted.
 
-For concepts where all active ingredients are virus, the word "virus" may be omitted and added before "antigens".
+For concepts where all active ingredients are viruses, the word _virus_ may be omitted and added before "antigens".
 
 ### FSN
 
 Template:
 
-* Vaccine product containing only \<Active ingredient PT> (medicinal product)
-* Vaccine product containing only \<Active ingredient PT> and \<Active ingredient PT> antigens (medicinal product)
-* Vaccine product containing only \<Active ingredient PT> and \<Active ingredient PT> and \<Active ingredient PT> antigens (medicinal product)
+* Vaccine product containing only \<active ingredient PT> (medicinal product)
+* Vaccine product containing only \<active ingredient PT> and \<active ingredient PT> antigens (medicinal product)
+* Vaccine product containing only \<active ingredient PT> and \<active ingredient PT> and \<active ingredient PT> antigens (medicinal product)
 
 For example,
 
-* Vaccine product containing only Hepatitis B virus antigen (medicinal product)
-* Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)
+* Vaccine product containing only Orthoebolavirus antigen (medicinal product)
+* Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)
 * Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)
 
 ### Preferred Term
 
+Use the following pattern for the PT; align terming and case significance with the common, clinically recognizable synonym for the concept that is selected as the attribute value for the |Has active ingredient (attribute)|.
+
 Template:
 
-* \<Active ingredient PT> only vaccine product
-* \<Active ingredient PT> and \<Active ingredient PT> antigen only vaccine product
-* \<Active ingredient PT> and \<Active ingredient PT> and \<Active ingredient PT> antigen only vaccine product
+* \<Active ingredient using common name of organism> only vaccine product
+* \<Active ingredient using common name of organism> and \<active ingredient using common name of organism> antigens only vaccine product
+* \<Active ingredient using common name of organism> and \<active ingredient using common name of organism> and \<active ingredient using common name of organism> antigens only vaccine product
 
 For example,
 
-* Hepatitis B virus antigen only vaccine product
-* Hepatitis A and Hepatitis B virus antigens only vaccine product
+* Ebolavirus antigen only vaccine product
+* Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product
 * Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product
 
 ### Synonym
@@ -91,7 +86,7 @@ Synonyms matching the FSN are not required.
 
 Synonyms corresponding to the disorder that is the target of the vaccine are allowed.
 
-For multiple ingredient vaccine products, the disorders must be listed in alphabetical order and separated by the word "and". Note that these are not true synonyms; they may be updated and identified as "near-synonym" descriptions when that functionality becomes available.
+For multiple ingredient vaccine products, the disorders must be listed in alphabetical order and separated by the word _and_. Note that these are not true synonyms; they may be updated and identified as near-synonym descriptions when that functionality becomes available.
 
 For example,
 
@@ -117,21 +112,39 @@ Where multiple specific subtypes or modifications share the same base category, 
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (62).png" alt=""><figcaption><p><strong>Stated</strong> view for 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
+#### Single ingredient
 
-<figure><img src="../../../../../../.gitbook/assets/image (63).png" alt=""><figcaption><p><strong>Inferred</strong> view for 871822003 |Vaccine product containing only Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2026-11-12 at 9.49.13 AM.png" alt=""><figcaption><p>Stated view of 871764007 |Vaccine product containing only Haemophilus influenzae type b antigen (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (64).png" alt=""><figcaption><p><strong>Stated</strong> view for 871803007 |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2026-11-12 at 9.50.27 AM.png" alt=""><figcaption><p>Inferred view of 871764007 |Vaccine product containing only Haemophilus influenzae type b antigen (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (66).png" alt=""><figcaption><p><strong>Inferred</strong> view for 871803007 |Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)|</p></figcaption></figure>
+
+
+#### Multiple ingredients
+
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2026-11-12 at 9.58.10 AM.png" alt=""><figcaption><p>Stated view of 871826000 |Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)|</p></figcaption></figure>
+
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2026-11-12 at 9.59.18 AM.png" alt=""><figcaption><p>Inferred view of 871826000 |Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)|</p></figcaption></figure>
+
+
+
+#### Two ingredients with same base
 
 <figure><img src="../../../../../../.gitbook/assets/image (65).png" alt=""><figcaption><p><strong>Stated</strong> view for 1991000221106 |Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (67).png" alt=""><figcaption><p><strong>Inferred</strong> view for 1991000221106 |Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)|</p></figcaption></figure>
 
+
+
+#### Vaccine product using |Has target population (attribute)|
+
 <figure><img src="../../../../../../.gitbook/assets/image (68).png" alt=""><figcaption><p><strong>Stated</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="../../../../../../.gitbook/assets/image (69).png" alt=""><figcaption><p><strong>Inferred</strong> view for 865997008 |Adult vaccine product containing only Hepatitis A virus antigen (medicinal product)|</p></figcaption></figure>
+
+
+
+#### Vaccine product using |Has ingredient qualitative strength (attribute)|
 
 <figure><img src="../../../../../../.gitbook/assets/image (70).png" alt=""><figcaption><p><strong>Stated</strong> view for 871838009 |Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)|</p></figcaption></figure>
 

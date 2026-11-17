@@ -25,15 +25,11 @@ layout:
 
 ## Overview
 
-The "Vaccine product containing" concept is an abstract representation of the active ingredient(s) in a vaccine product. It means that the vaccine product must contain the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN or may contain additional active ingredient(s).
-
-* For example,
-  * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|
-  * 836389008 |Vaccine product containing Vaccinia virus antigen (medicinal product)|
+The _Vaccine product containing_ concept is an abstract representation of the active ingredient(s) in a vaccine product. It means that the vaccine product must contain the active ingredient(s) specified in the FSN but may also contain a modification of the active ingredient(s) specified in the FSN or may contain additional active ingredient(s).
 
 #### Single ingredient vaccines
 
-Both "Vaccine product containing" and "Vaccine product containing only" concepts may be created for products that only have one active ingredient.
+Both _Vaccine product containing_ and _Vaccine product containing only_ concepts may be created for products that only have one active ingredient.
 
 * For example,
   * 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|
@@ -41,35 +37,41 @@ Both "Vaccine product containing" and "Vaccine product containing only" concepts
 
 #### Multiple ingredient vaccines
 
-"Vaccine product containing" concepts are not created for multiple ingredient vaccine products.
+_Vaccine product containing_ concepts are not created for multiple ingredient vaccine products.
 
-"Vaccine product containing only" concepts are created for multiple ingredient vaccine products.
+_Vaccine product containing only_ concepts are created for multiple ingredient vaccine products.
 
 ## Naming
 
-In the naming patterns below, align naming and case sensitivity with the PT for the concept that is selected as the attribute value for the 127489000 |Has active ingredient (attribute)|.
+Microorganism nomenclature changes regularly as taxonomy and classification are revised. These changes influence how antigens are named and how vaccine products are represented. As a result, historical microorganism names may no longer correspond to the current taxonomic structure, even though they remain familiar and clinically accepted.  To ensure vaccine products remain recognisable and consistent with regulatory documentation, the FSN will use the current biological organism name as reflected by the attribute value for the |Has active ingredient (attribute)|, while the PT will retain the established, clinically familiar name used in product information.
 
-For multiple ingredient vaccine products, the active ingredients must be listed in alphabetical order, separated by the word "and", and the word "antigen" will be omitted.
+For multiple ingredient vaccine products, the active ingredients are listed in alphabetical order, separated by the word _and_, and the word _antigen_ is omitted.
 
-For concepts where all active ingredients are a virus, the word "virus" may be omitted and added before "antigens".
+For concepts where all active ingredients are a virus, the word _virus_ may be omitted and added before _antigens_.
 
 ### FSN
+
+Template:
 
 * Vaccine product containing \<active ingredient PT> (medicinal product)
 
 For example,
 
-* Vaccine product containing Hepatitis B virus antigen (medicinal product)
-* Vaccine product containing Haemophilus influenzae type B antigen (medicinal product)
+* Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)
+* Vaccine product containing Orthoebolavirus antigen (medicinal product)
 
 ### Preferred Term
 
-* \<Active ingredient PT>-containing vaccine product
+Use the following pattern for the PT; align terming and case significance with the common, clinically recognizable synonym for the concept that is selected as the attribute value for the |Has active ingredient (attribute)|.
+
+Template:
+
+* \<Active ingredient using common name of organism>-containing vaccine product
 
 For example,
 
-* Hepatitis B virus antigen-containing vaccine product
-* Haemophilus influenzae type B antigen-containing product
+* Ebolavirus antigen-containing vaccine product
+* Haemophilus influenzae type b antigen-containing product
 
 ### Synonym
 
@@ -83,9 +85,11 @@ Synonyms corresponding to the disorder that is the target of the vaccine are not
 
 ## Exemplars
 
-<figure><img src="../../../../../../.gitbook/assets/image (60).png" alt=""><figcaption><p><strong>Stated</strong> view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2026-11-12 at 9.38.53 AM.png" alt=""><figcaption><p>Stated view of 836380007 |Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)|</p></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/image (61).png" alt=""><figcaption><p><strong>Inferred</strong> view for 836374004 |Vaccine product containing Hepatitis B virus antigen (medicinal product)|</p></figcaption></figure>
+
+
+<figure><img src="../../../../../../.gitbook/assets/Screenshot 2026-11-12 at 9.42.02 AM.png" alt=""><figcaption><p>Inferred view of 836380007 |Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)|</p></figcaption></figure>
 
 <figure><img src="https://github.com/SNOMED-Documents/snomed-editorial-guide/blob/main/authoring/pharmaceutical-and-biologic-product/images/174690932.png" alt=""><figcaption></figcaption></figure>
 
