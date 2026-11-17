@@ -408,6 +408,16 @@ SNOMED International utilizes various resources when reviewing changes to the or
 
 * International Committee on Taxonomy of Viruses (ICTV)
 
+**Virus names vs Virus taxonomic designations:**
+
+To ensure alignment between SNOMED CT modeling and the current International Committee on Taxonomy of Viruses (ICTV) taxonomy, preserve historical nomenclature for discoverability, and prevent the inclusion of virus names in the International Release without sufficient taxonomic support, the following guidelines shall apply:
+
+* _Representation of current ICTV species:_ Each current ICTV species shall be represented by the corresponding SNOMED CT organism concept using the current ICTV binomial as both the Fully Specified Name (FSN) and Preferred Term (PT). Where a species has been renamed, its former ICTV species name shall be retained as an acceptable synonym on the current concept.
+* _Inclusion of current virus names:_ Virus names listed as active, non-abolished taxa in the current ICTV Taxonomy Browser may be added as acceptable synonyms in the SNOMED CT International Edition.
+* _Virus names not represented as current taxa:_ Virus names documented in the ICTV Report but not represented as active taxa in the current ICTV Taxonomy Browser shall not automatically be modeled as SNOMED CT subtypes. This approach reflects the ICTV's distinction between virus names and official taxonomic designations.
+* _Treatment of abolished taxa:_  Where the ICTV Taxonomy Browser identifies a historical taxon as abolished, its former name shall not be recreated as a subtype of the current species.  Any existing SNOMED CT concept representing the abolished taxon shall be inactivated and linked to the current species concept using the SAME AS association.
+* _Retention in national extensions:_ Individual virus names documented in the current ICTV Report but lacking a corresponding taxon in the current ICTV Taxonomy Browser may be retained in a national extension for traceability. Such names shall not be promoted to subtypes or synonyms in the SNOMED CT International Edition solely on the basis of their inclusion in the ICTV Report.
+
 ### Parasites
 
 * Integrated Taxonomic Information System (ITIS)
