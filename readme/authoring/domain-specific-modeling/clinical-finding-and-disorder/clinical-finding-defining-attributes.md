@@ -210,6 +210,8 @@ For example,
 
 * 65389002 |Adrenoleukodystrophy (disorder)| has 1395996007 |Has associated gene (attribute)| of 1396388003 |ATP binding cassette subfamily D member 1 gene (cell structure)|
 
+Also reference Has associated gene (attribute) at [Enzyme deficiency](clinical-finding-and-disorder-modeling/specific-clinical-finding-and-disorder-modeling/enzyme-deficiency.md#has-associated-gene-attribute).&#x20;
+
 ## Has deficiency of
 
 This attribute represents a pathological physiological state in which a substance or cell type is present in insufficient quantity or activity in the subject.
