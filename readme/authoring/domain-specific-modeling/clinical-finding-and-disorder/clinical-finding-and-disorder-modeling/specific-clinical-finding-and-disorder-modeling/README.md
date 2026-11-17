@@ -32,6 +32,7 @@ layout:
 * [Congenital](congenital.md)
 * [Death](death.md)
 * [Enteritis](enteritis.md)
+* [Enzyme deficiency](enzyme-deficiency.md)
 * [Genetic, developmental, congenital, and physical origin](index/)
 * [Hematologic and lymphatic conditions](hematologic-and-lymphatic-conditions.md)
 * [Hernia](hernia.md)
