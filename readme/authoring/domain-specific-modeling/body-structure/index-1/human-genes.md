@@ -59,11 +59,13 @@ Each concept must include an attribution to the HGNC URI of the gene symbol repo
 
 **Example 1:** Elastin gene
 
-![](<../../../../../.gitbook/assets/unknown (3).png>)
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2026-11-18 at 9.50.55 AM.png" alt=""><figcaption></figcaption></figure>
+
+
 
 **Example 2:** Apolipoprotein B gene
 
-![](<../../../../../.gitbook/assets/unknown (4).png>)
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2026-11-18 at 9.51.41 AM.png" alt=""><figcaption></figcaption></figure>
 
 ### Previous symbols and alias symbols
 
