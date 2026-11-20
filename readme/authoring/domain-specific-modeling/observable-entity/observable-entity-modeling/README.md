@@ -34,7 +34,7 @@ When observable entity concepts have _not_ been given a value, they behave like 
 The observable entity model has been implemented in limited content areas in SNOMED CT thus far. Most of the content in the hierarchy is primitive.
 
 * Over 165 observable entity concepts have been modeled describing physiological measurements (body temperature, respiratory rate, heart rate, blood pressure). Most of these are sufficiently defined using the attributes. |Vital sign (observable entity)| has been inactivated since it could not be universally defined.
-* Additional concepts using observable entity attributes have been defined since the January 2020 release. The majority of the changes are related to nutritional intake (e.g., food intake, vitamin intake, fasting pattern) observable entity concepts.
+* Additional concepts using observable entity attributes have been defined since the January 2020 release. The majority of the changes are related to nutritional intake, cancer synoptic reporting, assessment scores, and laboratory observable entity concepts added to model findings (e.g., 1409587008 |Measurement of procalcitonin in blood (observable entity)|.
 
 Susceptibility observables should be modeled in accordance with the specified templates.
 

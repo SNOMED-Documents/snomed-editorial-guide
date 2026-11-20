@@ -25,10 +25,10 @@ layout:
 
 Logical Observation Identifiers Names and Codes (LOINC) terms are defined using the Observable Entity model in SNOMED CT as produced in the LOINC - SNOMED CT Cooperation Project releases.
 
-The project release documentation contains information about how LOINC terms and parts are aligned with SNOMED CT concepts using the model.
+Please see the _Implementation Guide for the LOINC Ontology_ at [Implementation Guide for the LOINC Ontology | Implementation Guides LOINC Implementation Guide | SNOMED International Documents](https://docs.snomed.org/implementation-guides/loinc-implementation-guide) for more information about how LOINC terms and parts are aligned with SNOMED CT concepts using the model.
 
 {% hint style="warning" %}
-For more information please see [https://loincsnomed.org](https://loincsnomed.org/).
+For more information please see [https://loinc.org/ontology](https://loincsnomed.org/).
 {% endhint %}
 
 [<br>](https://prod-confluence.ihtsdotools.org/display/RMT/SNOMED+CT+July+2017+LOINC+-+SNOMED+CT+Cooperative+package+Production+release+-+RF2+Release+notes)
